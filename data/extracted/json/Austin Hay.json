@@ -1,0 +1,103 @@
+{
+  "guest": {
+    "name": "Austin Hay",
+    "title": "Head of Marketing Technology",
+    "company": "Ramp",
+    "background": "A leading expert in the MarTech field, Austin has advised or led growth and technology strategies for major companies including Notion, Airbnb, Walmart, and mParticle. He currently leads marketing technology at Ramp and teaches the subject at Reforge."
+  },
+  "episodeSummary": "Austin Hay demystifies the complex world of Marketing Technology (MarTech), explaining how it sits at the intersection of product, engineering, and growth. He outlines the evolution of modern data stacks, debates the 'build vs. buy' fallacy, and provides concrete architectural advice for setting up attribution systems that scale. The conversation offers a blueprint for when to hire MarTech roles and how to design systems that balance immediate execution with long-term data integrity.",
+  "keyTakeaways": [
+    "MarTech is essentially Product Management for the systems that power growth; it requires a blend of technical architecture, process design, and vendor management.",
+    "Hire a dedicated MarTech lead when the company reaches ~100-150 employees; before that, it is usually a 'village effort' or owned by a growth engineer.",
+    "Stop thinking 'Build vs. Buy' and start thinking 'Build AND Buy'—buy the tool for 90% of the functionality, then build the custom 10% layer on top to differentiate.",
+    "For B2C stacks, the trend is moving away from black-box CDPs toward a Warehouse-Centric model using Snowflake and Reverse ETL (like Hightouch or Census).",
+    "In B2B, the complexity lies in mapping user behavior (top of funnel) to account entities (Salesforce opportunities); ensure your schema accounts for this object-orientation early.",
+    "Avoid measuring MarTech success solely by growth metrics; include efficiency goals, such as reducing the 'cost of tooling per employee' as the company scales.",
+    "When interviewing MarTech candidates, look for 'intellectual curiosity' and 'engineering scrappiness'—someone who can read API docs and write basic scripts even if they aren't full developers."
+  ],
+  "methodologies": [
+    {
+      "name": "The PPS (Problem-People-System) Diagnostic",
+      "category": "execution",
+      "problemItSolves": "Prevents the common mistake of immediately buying software or granting permissions to solve a perceived issue without understanding the root cause.",
+      "summary": "A diagnostic framework to use before implementing any new tool or process. It forces the operator to work backward from the actual need rather than starting with the software solution.",
+      "principles": [
+        "Step 1: Define the Problem. What specifically is the user or team trying to achieve? (e.g., 'onboard sales staff faster', not 'get admin access to Salesforce').",
+        "Step 2: Identify the People. Who is involved? Who needs to approve? Who needs training? Are there organizational barriers unrelated to software?",
+        "Step 3: Design the System. Only after the problem and people are understood, select or configure the tool/system to solve that specific constraint."
+      ],
+      "whenToUse": "When a stakeholder requests a new tool, a new feature in an internal tool, or elevated permissions.",
+      "commonMistakes": "Skipping straight to the 'System' step because it feels like the fastest way to close a ticket.",
+      "quote": "Don't just jump to the system... Start with the people and the problem and then move to the system solution.",
+      "realWorldExample": "Austin uses this at Ramp when fielding requests from the sales team. Instead of just automating a broken process, he identifies the people/training gaps first."
+    },
+    {
+      "name": "The Future-Proof Attribution Schema",
+      "category": "growth-metrics",
+      "problemItSolves": "Solves the 'data debt' crisis where companies want to move to Multi-Touch Attribution (MTA) later but lack the historical data structure to do so.",
+      "summary": "A data collection architecture that allows you to start with simple attribution (First/Last touch) but silently builds the foundation for complex modeling later without retroactively trying to recover lost data.",
+      "principles": [
+        "Step 1: Capture Inbound Data. On every visit, collect the Referring URL, Marketing Parameters (GCLID, FBCLID), and standard UTMs.",
+        "Step 2: Dual Local Storage. Store two distinct sets of values in local storage/cookies: 'First Touch' (never overwritten) and 'Last Touch' (overwritten on every new session).",
+        "Step 3: Event Enrichment. Pass both the First and Last touch values as properties on every single tracking event sent to your warehouse.",
+        "Step 4: Warehouse Modeling. Later, data science can query the sequence of 'Last Touch' values across a user's history to build a custom MTA model.",
+        "Step 5: Taxonomy Discipline. Enforce a strict naming convention for UTMs early to ensure the data is queryable."
+      ],
+      "whenToUse": "Day 1 of setting up analytics for a new startup or product line.",
+      "commonMistakes": "Only capturing the current session's UTMs and failing to persist the 'First Touch' data, or relying entirely on third-party tools that strip this data.",
+      "quote": "Let's just get the infrastructure right from the beginning... That way when you actually want to progress your attribution model, you don't have to wait a really long time to start gathering that data.",
+      "realWorldExample": "This approach allows companies to eventually move beyond 'Last Click' attribution to understand the full customer journey without needing to reinstall tracking infrastructure."
+    },
+    {
+      "name": "The 'Build AND Buy' Hybrid Model",
+      "category": "product-strategy",
+      "problemItSolves": "Resolves the false dichotomy of 'Build vs. Buy,' preventing teams from either building commodity software or getting locked into rigid vendor limitations.",
+      "summary": "Instead of choosing between building a tool from scratch or buying a SaaS solution, buy the SaaS solution to handle 90% of the commodity workload, then invest engineering resources to build a custom 10% layer on top/around it.",
+      "principles": [
+        "Step 1: Commoditize the Base. Buy a best-in-class tool for the core function (e.g., split.io for experimentation logic) to save massive engineering time.",
+        "Step 2: Custom Integration Layer. Dedicate engineering resources to building deep integrations, custom APIs, or wrappers around that tool to make it fit your specific workflow.",
+        "Step 3: Leverage Vendor Synergy. Because you are a 'power user' building on their API, use that leverage to get faster support and feature requests from the vendor.",
+        "Step 4: Financial Modeling. Prove that the cost of the subscription + limited eng time is significantly lower than the opportunity cost of full-time maintenance of a homegrown system."
+      ],
+      "whenToUse": "When deciding on core infrastructure tools like Experimentation Platforms, CRMs, or Billing Systems.",
+      "commonMistakes": "Buying a tool and using it 'out of the box' without customization, or building a tool from scratch because of one minor unique requirement.",
+      "quote": "It's not build versus buy. It's build and buy... You buy the tool to get 90% of the way there and then you build the cool thing on top with the other 10%.",
+      "realWorldExample": "A consulting client wanted to build their own A/B testing engine. Austin convinced them to buy a tool like Split.io but build custom internal tooling around it, saving money and increasing velocity."
+    },
+    {
+      "name": "The 'Thinking Gray' Protocol",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents premature, suboptimal decision-making caused by artificial urgency or binary thinking.",
+      "summary": "Derived from Steven Sample's philosophy, this framework encourages leaders to resist the urge to categorize decisions as black or white immediately. Instead, remain in the 'gray' area—gathering data and delaying the decision—until the moment it absolutely must be made.",
+      "principles": [
+        "Step 1: Identify the Deadline. Determine the actual latest responsible moment a decision must be made.",
+        "Step 2: Resist Artificial Urgency. Ignore pressure from peers or OPRs (OKRs) to decide 'now' if the deadline hasn't arrived.",
+        "Step 3: Accumulate Nuance. Use the delay to gather conflicting data points and let the situation evolve.",
+        "Step 4: Decide Firmly. Once the deadline hits, switch from gray to black/white and execute without looking back."
+      ],
+      "whenToUse": "When hiring (evaluating a candidate), choosing a vendor, or making architectural decisions where the cost of reversal is high.",
+      "commonMistakes": "Confusing 'Thinking Gray' with procrastination. The goal is active information gathering, not avoidance.",
+      "quote": "You don't have to make a decision at all. You can just let it sit for a while... by leaving yourself to have space to decide, you actually open up the possibility that in the future you'll make a better decision.",
+      "realWorldExample": "Used when evaluating candidates—resisting the urge to judge them immediately after one interaction, allowing a holistic view to form."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Tools are just meant to solve problems. And the problem set for marketing technologists is you focus on the tools.",
+      "context": "Defining the core philosophy of MarTech and simplifying the role."
+    },
+    {
+      "text": "The company will outlast you, hopefully. You will not be the last growth manager... so you should always be thinking about the future.",
+      "context": "On why PMs need to document their work and build scalable systems rather than quick hacks."
+    },
+    {
+      "text": "From 2010 to 2020, we had the golden years of deterministic matching... You can't do that anymore.",
+      "context": "Discussing the shift from precise IDFA tracking to the new reality of privacy-first, probabilistic marketing."
+    },
+    {
+      "text": "It's a game of persuasion and salesmanship. You have to convince people why the problems are big.",
+      "context": "Describing the soft skills required to be a successful Marketing Technologist."
+    }
+  ],
+  "filename": "Austin Hay"
+}

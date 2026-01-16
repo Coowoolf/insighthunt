@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Aparna Chennapragada",
+    "title": "Chief Product Officer, Microsoft (AI & Productivity)",
+    "company": "Microsoft",
+    "background": "A veteran product leader who previously served as CPO at Robinhood and VP at Google (leading Google Lens, AR, and Assistant). She currently oversees AI product strategy for Microsoft 365 and their work on agents, blending deep technical expertise in computer vision/AI with consumer and enterprise product strategy."
+  },
+  "episodeSummary": "Aparna Chennapragada dismantles the notion that AI makes product management obsolete, arguing instead that \"NLX is the new UX\" and that PMs must evolve into taste-makers and editors. She outlines specific frameworks for designing natural language interfaces, managing the \"chaos\" of zero-to-one innovation, and operationalizing a team that \"lives one year in the future.\" The conversation bridges the gap between high-level AI strategy and the tactical execution of building agents, prototyping with prompt sets, and evaluating market timing.",
+  "keyTakeaways": [
+    "Treat prompt sets as the new PRDs; if you aren't prototyping to see what you want to build, you are moving too slow.",
+    "Adopt the 'NLX' mindset: Conversation has grammar and UI elements (plans, showing work, follow-ups) that must be explicitly designed, not left to the model.",
+    "For zero-to-one products, avoid 'Big Kid Metrics' like retention or CTR initially; focus purely on the qualitative success of the core utility (e.g., 'did the timer set?').",
+    "Evaluate new product opportunities by looking for at least 2 of 3 inflection points: a tech step-function, a consumer behavior shift, or a business model shift.",
+    "Operationalize 'living in the future' by forcing teams to use alpha-stage AI tools for daily work to develop instincts for where the market will be in 12 months.",
+    "Update your priors constantly; AI capabilities evolve so fast (the baby becomes a teenager in a month) that relying on last quarter's constraints will kill your innovation.",
+    "The PM role is shifting from 'gatherer of requirements' to 'editor and taste-maker'—the supply of ideas and prototypes will skyrocket, making curation the scarce resource."
+  ],
+  "methodologies": [
+    {
+      "name": "The NLX (Natural Language Experience) Design Stack",
+      "category": "product-strategy",
+      "problemItSolves": "Addresses the misconception that 'chat' interfaces don't need design, preventing unstructured, confusing, or low-trust user interactions with AI agents.",
+      "summary": "A design framework that treats natural language not as a passive input/output stream, but as a structured interface with specific 'invisible' UI elements that guide the user and establish trust.",
+      "principles": [
+        "Prompts as UI: Treat the initial prompt and suggested prompts as distinct navigation elements, like a menu.",
+        "The 'Plan' Object: When a user gives a complex goal, the agent should return an editable 'plan' before execution, acting as a confirmation dialog.",
+        "Show Your Work (Variable Visibility): Expose the agent's 'thinking' process to build trust, but tune the verbosity based on latency and user expertise.",
+        "Structured Follow-ups: Proactively design the 'happy path' options presented after a response to guide the user to the next logical step."
+      ],
+      "whenToUse": "When building chatbots, copilots, or agentic workflows where the primary interaction is text or voice.",
+      "commonMistakes": "Assuming the model will naturally handle conversation flow; failing to design for the 'black box' problem where users don't know what the AI is doing.",
+      "quote": "Conversations also have grammars. They have structures. They have UI elements. They're invisible. What are the new principles, new constructs in natural language as an interface?",
+      "realWorldExample": "Designing an agent that, when asked to create an AR app, first returns a bulleted implementation plan for the user to tweak before it starts writing code."
+    },
+    {
+      "name": "The 'Why Now?' Inflection Triangulation",
+      "category": "product-strategy",
+      "problemItSolves": "Helps PMs and founders determine if a zero-to-one idea has the necessary market tailwinds to succeed, avoiding 'too early' failures.",
+      "summary": "A rubric for evaluating startup ideas or new product lines by identifying three specific market shifts. A viable opportunity requires the intersection of at least two of these shifts.",
+      "principles": [
+        "Tech Step-Function: Has a specific technology (e.g., Deep Learning, LLMs) recently unlocked capabilities that were previously impossible?",
+        "Consumer Behavior Shift: Has user behavior changed fundamentally? (e.g., users treating cameras as keyboards/inputs rather than just memory capture).",
+        "Business Model Shift: Is there a new way to monetize? (e.g., moving from ads to outcome-based pricing, or zero-fee trading).",
+        "The 2-out-of-3 Rule: Do not proceed unless you can clearly identify at least two of these factors converging."
+      ],
+      "whenToUse": "During the ideation phase of a startup or a new strategic bet within a large enterprise.",
+      "commonMistakes": "Relying on tech innovation alone (the 'hammer looking for a nail') without a corresponding behavior or business model shift.",
+      "quote": "You do want to look for at least two out of these three factors... inflection points here if you want to make a really good product.",
+      "realWorldExample": "Google Lens succeeded because of Deep Learning (Tech Shift) + Cloud Photo Storage making people take photos of everything, not just sunsets (Behavior Shift)."
+    },
+    {
+      "name": "The 'Solve Before Scale' Protocol",
+      "category": "execution",
+      "problemItSolves": "Prevents teams from prematurely optimizing processes or metrics for a product that hasn't yet proven its fundamental utility.",
+      "summary": "An operating mode for zero-to-one products that prioritizes problem-solving agility over stability, explicitly separating the 'Solve' phase from the 'Scale' phase.",
+      "principles": [
+        "Tolerate Chaos: Be willing to pivot the entire application of the tech (e.g., from plant detection to translation) based on what actually works.",
+        "Ignore 'Big Kid' Metrics: Disregard retention, CTR, or DAU in the early days. These are false precision when n=100.",
+        "Measure Core Utility: Define the 'Set Timer/Play Music' metric—does the product do the one specific thing the user asked for perfectly?",
+        "Demos over Memos: Communication should happen through prototypes and live interaction, not documents, to close the feedback loop faster."
+      ],
+      "whenToUse": "In the earliest stages of product development (Pre-PMF) or internal R&D projects.",
+      "commonMistakes": "Applying corporate governance, strict roadmaps, or growth metrics to a product that is still discovering its core value proposition.",
+      "quote": "If you decide on a metric too prematurely, that's false precision... You are looking for more qualitative, the sound of click.",
+      "realWorldExample": "The Google Lens team pivoting from general visual search to realizing the tech was best at translation first, accepting the chaos of changing direction to solve a specific user problem."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you're not prototyping and building to see what you want to build, I think you're doing it wrong.",
+      "context": "On how the speed of AI generation has changed the product requirements phase."
+    },
+    {
+      "text": "Being early is the same as being wrong.",
+      "context": "Reflecting on her experience with Google Now, which had the right interface ideas but lacked the underlying intelligence (LLMs) to make it truly useful."
+    },
+    {
+      "text": "The baby just grew up to be a 15-year-old in a month.",
+      "context": "Describing the difficulty of 'updating your priors' on what AI models can do because they improve so rapidly."
+    },
+    {
+      "text": "Solve before scale.",
+      "context": "Her primary advice for zero-to-one product development, emphasizing that you cannot apply scaling methodologies to the problem-solving phase."
+    }
+  ],
+  "filename": "Aparna Chennapragada"
+}
