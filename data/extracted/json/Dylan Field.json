@@ -1,0 +1,110 @@
+{
+  "guest": {
+    "name": "Dylan Field",
+    "title": "CEO & Co-founder",
+    "company": "Figma",
+    "background": "Dylan Field is the co-founder and CEO of Figma, the collaborative interface design tool that revolutionized how product teams work. A former Thiel Fellow who dropped out of Brown University, Dylan has led Figma from a browser-based experiment to a multi-billion dollar platform that is now the industry standard for UI/UX design."
+  },
+  "episodeSummary": "Recorded live at Figma Config, this episode explores the intersection of intuition, design, and operational rigor. Dylan Field deconstructs how he operationalizes 'product taste' not as magic, but as a hypothesis generation engine, and discusses the relentless battle against product entropy. He also shares the specific early-stage growth tactics used to bootstrap Figma's network effects and offers a pragmatic framework for balancing quality, features, and deadlines.",
+  "keyTakeaways": [
+    "Treat product intuition as a hypothesis generator rather than a divine directive; use it to spawn ideas that must then be debated and validated with data.",
+    "Fight product entropy by adhering to the principle of 'Irreducible Complexity': adding more features often reduces system coherence (1+1=1.5).",
+    "Apply the 'Quality, Features, Deadline' constraint triangle for every launch—you can only pick two, and for software, you can iterate on features but should hesitate to compromise quality.",
+    "Adopt the 'Minimally Awesome Product' mindset over MVP; early versions must meet a quality bar that inspires users, even if feature sets are limited.",
+    "Use network analysis for early growth: identify the 'central nodes' (influencers) in your target market and approach them for feedback/mentorship rather than sales.",
+    "Product management's core value is creating frameworks with a point of view that align cross-functional teams toward a shared destination.",
+    "Design is defined as 'art applied to problem solving'—it must balance unique expression with utilitarian user needs to have soul."
+  ],
+  "methodologies": [
+    {
+      "name": "The Intuition-to-Hypothesis Pipeline",
+      "category": "product-strategy",
+      "problemItSolves": "Helps product leaders validate 'gut feelings' and 'product taste' without relying on authority or magic, making subjective decisions defensible.",
+      "summary": "Dylan reframes 'product intuition' from a mystical talent into a repeatable process. Instead of acting on instinct alone, the intuition serves as the top-of-funnel for the scientific method, generating high-quality hypotheses that are then rigorously tested against data and debate.",
+      "principles": [
+        "Step 1: Hypothesis Generation - Use your intuition/taste to generate a specific theory about what users need or how a feature should behave.",
+        "Step 2: Socialize and Debate - Put the hypothesis forward to the team specifically to spark disagreement and uncover blind spots.",
+        "Step 3: Data Seeking - Actively look for qualitative or quantitative data that either supports or negates the hypothesis (do not just look for confirmation).",
+        "Step 4: Winnowing - Narrow down the options to a single 'working hypothesis' based on the debate.",
+        "Step 5: Execution - Move forward with conviction once the hypothesis is validated, acknowledging it may still need adjustment."
+      ],
+      "whenToUse": "When making high-stakes product decisions where data is sparse, or when a leader's 'vision' conflicts with existing metrics.",
+      "commonMistakes": "Treating intuition as the final decision rather than the starting hypothesis, or skipping the 'debate' phase because the intuition comes from a senior leader.",
+      "quote": "I think intuition is like a hypothesis generator and you're constantly generating these hypotheses... you then take these hypotheses and you put them forward and you debate them.",
+      "realWorldExample": "Dylan uses this method when reviewing user feedback channels (like Twitter/X) to form hypotheses about what users *actually* want versus what they are literally asking for."
+    },
+    {
+      "name": "The Complexity Entropy Defense",
+      "category": "execution",
+      "problemItSolves": "Addresses 'software bloat' and the tendency for products to become confusing and unusable as they scale and add new features.",
+      "summary": "A framework for maintaining product simplicity in the face of growth. It acknowledges that product complexity naturally increases over time (entropy) and requires active, top-down intervention to manage. It relies on the concept that combining features often results in a sum less than the parts (1+1=1.5) due to cognitive load.",
+      "principles": [
+        "Step 1: Acknowledge Irreducible Complexity - Recognize that every new feature adds friction to the existing system.",
+        "Step 2: Keep Simple Things Simple - Ensure the primary, most frequent workflows remain frictionless and obvious.",
+        "Step 3: Make Complex Things Possible - Push advanced functionality to secondary layers so it doesn't obstruct the primary user journey.",
+        "Step 4: System-Level Audits - Regularly step back to review the 'whole system' coherence, as valid local decisions (individual features) can collectively break the user experience.",
+        "Step 5: Furrow the Brow - Leadership must actively challenge designs that feel 'too heavy' and insist on simplification iterations."
+      ],
+      "whenToUse": "During design reviews for mature products, or when users start complaining about a steep learning curve.",
+      "commonMistakes": "Assuming that because two features are useful individually, they will be useful when placed side-by-side without refactoring the UI.",
+      "quote": "Keep the simple things simple. Make the complex things possible... One plus one does not equal three, it sometimes equals one and a half.",
+      "realWorldExample": "Dylan discusses the internal conflict regarding 'Pages' in Figma—while users demanded it, he remains skeptical of its implementation because it added complexity that wasn't elegant within the system's logic."
+    },
+    {
+      "name": "The Central Node Network Strategy",
+      "category": "growth-metrics",
+      "problemItSolves": "How to launch a product in a crowded market and build immediate credibility and word-of-mouth growth.",
+      "summary": "A go-to-market strategy that focuses on identifying and converting the most influential nodes in a community network. Instead of broad marketing, it uses targeted, humble outreach to industry leaders to turn them into evangelists.",
+      "principles": [
+        "Step 1: Map the Network - Analyze the community graph to identify 'central nodes'—people who are disproportionately influential/connected (Dylan originally scraped Twitter for this).",
+        "Step 2: The Fanboy Approach - Reach out to these nodes not to sell, but to admire their work and ask for advice.",
+        "Step 3: Humble Feedback Loops - Ask to buy them coffee (or a virtual equivalent) and show them the product explicitly for *critique*, not conversion.",
+        "Step 4: Product Perfection via Critique - Use their high-level feedback to refine the product (building trust).",
+        "Step 5: Activation - As the product improves based on their feedback, these central nodes naturally become deeply invested advocates."
+      ],
+      "whenToUse": "Early-stage B2B or prosumer startups where community opinion drives adoption (e.g., developer tools, design tools, creator economy).",
+      "commonMistakes": "Approaching influencers with a sales pitch instead of a genuine request for mentorship and product feedback.",
+      "quote": "The ones that I was really inspired by... I reached out to and said, 'Hey, can I buy you a coffee?'... It started honestly more as me fanboying and me getting feedback.",
+      "realWorldExample": "Dylan identified designers like Tim Van Damme via Dribbble and Twitter, reached out to learn from them, and used their feedback to perfect Figma's vector networks, eventually hiring Tim."
+    },
+    {
+      "name": "The Launch Triangle Trade-off",
+      "category": "execution",
+      "problemItSolves": "Paralysis regarding when a product is 'ready' to ship and how to manage stakeholder expectations regarding scope.",
+      "summary": "A constraint management framework used to make go/no-go decisions for product launches. It forces a conscious choice between three competing variables, preventing the team from trying to maximize all three and failing.",
+      "principles": [
+        "Step 1: Define the Variables - Quality (User Experience/Bugs), Features (Scope/Capabilities), Deadline (Time to Market).",
+        "Step 2: Choose Two - Explicitly decide which two variables are fixed and which one is flexible. (e.g., Fixed Deadline + Fixed Quality = Reduced Features).",
+        "Step 3: The Iterative Loophole - For software, lean towards fixing Deadline and Quality, and reducing Features, because Features can be added iteratively post-launch.",
+        "Step 4: Minimally Awesome Bar - Ensure the 'Quality' variable never drops below 'Awesome' for the limited feature set you do ship."
+      ],
+      "whenToUse": "When a team is stuck in 'just one more feature' mode or when facing an external deadline (like a conference).",
+      "commonMistakes": "Trying to pick all three, or sacrificing Quality to meet a Deadline/Feature goal, which results in technical debt and user churn.",
+      "quote": "You got quality, features, deadline, choose two... The beautiful thing about software is you can keep iterating on it.",
+      "realWorldExample": "Figma Slides (Flides) and FigJam were shipped quickly to get market feedback (optimizing for Deadline/Feedback), whereas Dev Mode was held back because it didn't meet the Quality/Value bar for the specific persona."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The definition of design is art applied to problem solving.",
+      "context": "Dylan defining his philosophy on design, balancing creative expression with utilitarian need."
+    },
+    {
+      "text": "Intuition is like a hypothesis generator.",
+      "context": "Explaining how he uses his 'gut feel' not as an absolute truth, but as the start of a scientific process."
+    },
+    {
+      "text": "Keep the simple things simple. Make the complex things possible.",
+      "context": "A guiding principle for designing complex tools without overwhelming the user."
+    },
+    {
+      "text": "One plus one does not equal three, it sometimes equals one and a half.",
+      "context": "Discussing 'irreducible complexity' and how adding features often subtracts from the overall coherence of a product."
+    },
+    {
+      "text": "When people give you advice, they're not giving you advice, they're giving themselves advice in your shoes.",
+      "context": "Dylan's favorite piece of advice regarding how to filter the feedback you receive from mentors."
+    }
+  ],
+  "filename": "Dylan Field"
+}

@@ -1,0 +1,86 @@
+{
+  "guest": {
+    "name": "Dr. Fei-Fei Li",
+    "title": "Co-founder & CEO at World Labs, Co-Director of Stanford HAI",
+    "company": "World Labs / Stanford University",
+    "background": "Known as the 'Godmother of AI,' Dr. Li is the creator of ImageNet, the dataset that sparked the modern deep learning revolution. She previously served as Chief Scientist of AI/ML at Google Cloud and is a pioneer in computer vision, spatial intelligence, and human-centered AI."
+  },
+  "episodeSummary": "Dr. Fei-Fei Li traces the arc of AI development from the 'AI Winter' to the current generative explosion, detailing how her creation of ImageNet shifted the industry's focus from algorithms to data scale. She introduces her new venture, World Labs, and the concept of 'World Models'—AI that possesses spatial intelligence and understanding of physics—arguing this is the missing link for robotics and true AGI. The conversation also covers the necessity of human-centered design and the importance of 'intellectual fearlessness' in career pivots.",
+  "keyTakeaways": [
+    "Invert the problem solving stack: When algorithm innovation stalls, the bottleneck is likely the data scale, not the code (The ImageNet Lesson).",
+    "Spatial Intelligence is the next moat: Moving beyond Language Models (LLMs) to World Models that understand 3D geometry and physics is critical for embodied AI and robotics.",
+    "The 'Bitter Lesson' applies to robotics: Simple algorithms combined with massive scale (data + compute) generally outperform complex, hand-crafted rules, though robotics data is currently the scarcity.",
+    "Design for delight in deep tech: Even in complex frontier models, small UX details (like the pre-rendering 'dots' in Marble) are essential for user bridging and delight.",
+    "Practice 'Intellectual Fearlessness': When evaluating career or product bets, optimize for the mission and the people rather than trying to calculate every downside risk.",
+    "Human-Centered AI is an architectural requirement: Define products by how they augment human agency and dignity, not just by their automation efficiency."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'North Star' Data Inversion",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming stagnation when incremental algorithmic or feature improvements are yielding diminishing returns.",
+      "summary": "Instead of refining the processing engine (the model/algorithm), this methodology shifts the entire focus to the fuel (the data). It involves identifying a 'North Star' problem (e.g., Object Recognition) and hypothesizing that the solution lies in the scale and granularity of the input data rather than the complexity of the processing logic.",
+      "principles": [
+        "Identify the North Star Problem: Choose a fundamental capability that is currently broken or primitive (e.g., 'Computers cannot see objects').",
+        "Hypothesize the Missing Ingredient: If current models fail, assume the deficit is experiential/data-based, not just logic-based.",
+        "Aggressive Data Scaling: Move from thousands of examples to millions (ImageNet went to 15M images). Scale is a quality of its own.",
+        "Democratize the Benchmark: Release the dataset/problem publicly to allow the ecosystem to iterate on the solution (The ImageNet Challenge)."
+      ],
+      "whenToUse": "When launching a 0-to-1 AI product or when a mature product hits a performance plateau despite engineering optimization.",
+      "commonMistakes": "Focusing on data quantity without clean labeling/taxonomy (the taxonomy of ImageNet was as vital as the images).",
+      "quote": "It dawned on me that human learning as well as evolution is actually a big data learning process... I think my students and I conjectured that a very critically-overlooked ingredient of bringing AI to life is big data.",
+      "realWorldExample": "Creating ImageNet in 2007 by scraping the internet and using Amazon Mechanical Turk to label 15 million images, which directly enabled the 2012 AlexNet breakthrough."
+    },
+    {
+      "name": "The Spatial Intelligence Value Chain",
+      "category": "execution",
+      "problemItSolves": "Bridging the gap between generative AI (text/2D images) and functional, embodied AI (robotics/simulation) that can interact with the real world.",
+      "summary": "A framework for building 'World Models' that allows AI to reason, interact, and create in 3D space. Unlike LLMs which predict tokens, this approach models physics and geometry to create actionable environments.",
+      "principles": [
+        "Input Versatility (Prompt-to-World): Allow inputs via text, image, or sparse data to generate full environments.",
+        "3D/4D Reasoning: The model must infer the 'hidden' dimensions (depth, time, physics) from flat inputs (like inferring a 3D DNA helix from a 2D X-ray).",
+        "Interactability Check: The output must not be a static asset (video) but a navigable state (mesh/environment) where an agent can change outcomes.",
+        "Cross-Domain Application: Validate the model across diverse outputs—VFX (visuals), Gaming (playability), and Robotics (synthetic training data)."
+      ],
+      "whenToUse": "When building products for robotics, gaming, simulation, or any domain requiring physical reasoning rather than just language generation.",
+      "commonMistakes": "Confusing video generation (2D pixels changing over time) with world generation (consistent 3D physics and geometry).",
+      "quote": "Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world... World Lab is focusing on that, and of course the ability to create videos per se could be part of this... but we really want creators... to have in their hands a model that can give them worlds with 3D structures.",
+      "realWorldExample": "World Labs' product 'Marble,' which generates infinite 3D worlds from a single prompt, allowing users (and eventually robots) to navigate and interact within them."
+    },
+    {
+      "name": "The Intellectual Fearlessness Heuristic",
+      "category": "career-leadership",
+      "problemItSolves": "Analysis paralysis when facing high-risk career pivots or founding deep-tech companies.",
+      "summary": "A decision-making framework for high-stakes career moves that prioritizes mission alignment and team quality over risk mitigation. It accepts that 'known unknowns' are infinite and focuses on the few variables that actually drive success.",
+      "principles": [
+        "Audit for Mission, Not Safety: Does the opportunity align with a 'civilizational' or 'North Star' curiosity?",
+        "Select for Talent Density: Prioritize working with the highest density of intellect (e.g., moving to Stanford/Google to work with Hinton/Dean) over tenure or immediate compensation.",
+        "Ignore the 'Infinite Downside': Acknowledge that you cannot calculate all failure modes. If the mission and team are right, the failure modes are acceptable.",
+        "Respect the 'Bitter Lesson': Understand that in tech, simpler methods scaled up often beat complex planning. Apply this to career—simple conviction scaled up beats complex hedging."
+      ],
+      "whenToUse": "When deciding whether to leave a stable role for a startup, academic pivot, or high-risk R&D project.",
+      "commonMistakes": "Over-analyzing the 'equation' of a job offer (equity splits, titles) while under-weighing the transformative potential of the team and mission.",
+      "quote": "I don't overthink of all possible things that can go wrong because that's too many... I do find many of the young people today think about every single aspect of an equation when they decide on jobs... focus on what's important.",
+      "realWorldExample": "Fei-Fei leaving a near-tenure position at Princeton to restart her tenure clock at Stanford because the ecosystem and collaborators were better aligned with her vision."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Your field is called artificial intelligence, but there's nothing artificial about it. It's inspired by people, it's created by people, and most importantly, it impacts people.",
+      "context": "Explaining her philosophy to her students and Congress regarding the human-centric nature of AI."
+    },
+    {
+      "text": "If you give it three cats, the hope is not just for the machines to recognize these three cats. The hope is the machines can recognize the fourth cat, the fifth cat, the sixth cat, and all the other cats.",
+      "context": "Defining the core objective of machine learning (generalization) in simple terms."
+    },
+    {
+      "text": "We operate on about 20 watts. That's dimmer than any light bulb in the room I'm in right now. And yet we can do so much. So I think actually the more I work in AI, the more I respect humans.",
+      "context": "Reflecting on the efficiency of the human brain compared to the massive GPU compute required for modern AI."
+    },
+    {
+      "text": "I chose to look at artificial intelligence through the lens of visual intelligence because humans are deeply visual animals.",
+      "context": "Explaining her contrarian bet early in her career to focus on vision rather than logic or language."
+    }
+  ],
+  "filename": "Dr. Fei Fei Li"
+}

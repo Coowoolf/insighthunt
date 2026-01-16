@@ -1,0 +1,83 @@
+{
+  "guest": {
+    "name": "Dmitry Zlokazov",
+    "title": "Global Head of Product",
+    "company": "Revolut",
+    "background": "Leads product strategy and execution for the $60B+ financial super app serving 50M+ customers globally. He oversees a unique product culture known for producing high-performing alumni comparable to Palantir and Intercom."
+  },
+  "episodeSummary": "Dmitry Zlokazov deconstructs Revolut's high-velocity product culture, explaining how they operate with 'Product Owners' who function as true local CEOs rather than facilitators. He details their contrarian hiring practices that favor raw intellect over experience, their rigorous 'deep dive' management style where leaders audit code-level details, and why they refuse to ship 'scrappy' MVPs in favor of highly polished, 'wow' experiences.",
+  "keyTakeaways": [
+    "Reframe PMs as 'Product Owners' with direct line management over engineers and designers to enforce true end-to-end accountability.",
+    "Hire for 'raw intellect' and hunger over years of experience; senior hires often have longer ramp-up times and less drive to challenge the status quo.",
+    "Eliminate 'scrappy' MVPs; if a low-quality MVP fails, you don't know if the idea was bad or the product just sucked.",
+    "Apply the '99% rule': If a feature is 99% dev-complete but not adopted by marketing or support, it is effectively 0% done.",
+    "Leaders should audit a small sample (7-10) of projects at extreme depth (reading code/regulation) rather than skimming status reports for 100 projects.",
+    "Structure teams to handle their own regulatory and compliance blockers rather than waiting on external legal departments.",
+    "Direct customer contact is non-negotiable; PMs must use the product daily and have direct channels to user feedback without filters."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Local CEO' Operating Model",
+      "category": "team-culture",
+      "problemItSolves": "Solves the 'influence without authority' deadlock where PMs cannot move fast because they depend on resources they don't control.",
+      "summary": "Revolut restructures the PM role from a facilitator to a 'Product Owner' who acts as the actual manager for the cross-functional team, including engineers and designers. This creates a vertical slice of accountability where the PM is judged on business outcomes, not just shipping features.",
+      "principles": [
+        "Full Resource Control: The Product Owner is the line manager for the squad, granting them actual authority to direct engineering and design resources.",
+        "Metric-Based Autonomy: Teams are given high-level business metrics to hit and full autonomy on 'how' to get there, provided they can defend their logic.",
+        "The Three Archetypes: Staff teams with specific PM flavors—UX Owners (consumer facing), Tech Owners (platform/infrastructure), or Data Owners (algo/risk)—based on the specific problem space.",
+        "Zero-Gap Responsibility: The PM is responsible for everything from the code quality to the regulatory compliance and marketing adoption."
+      ],
+      "whenToUse": "Best for scale-ups or high-growth startups where speed of execution is critical and 'consensus culture' is slowing down delivery.",
+      "commonMistakes": "Treating the title change as cosmetic without actually giving the PM hiring/firing or resource allocation authority.",
+      "quote": "Product owners are central to the company... They are end-to-end responsible for the product, for this part of the business, and for their customers to be happy.",
+      "realWorldExample": "Revolut's credit team creates loans and credit cards for 50 different countries with just ~300 people, whereas incumbent banks require 2,000+ people for a single country, due to this autonomous structure."
+    },
+    {
+      "name": "The 'Code-Level' Deep Dive Audit",
+      "category": "execution",
+      "problemItSolves": "Prevents leadership from becoming disconnected 'dashboard managers' while maintaining quality control across hundreds of simultaneous projects.",
+      "summary": "Instead of trying to micromanage 100+ projects lightly, leadership selects a small subset (7-10) of high-impact projects to audit with extreme intensity—down to reading code and sitting with engineers. This signals quality standards to the entire organization.",
+      "principles": [
+        "Selective Depth: Do not review everything. Pick the 7-10 initiatives with the highest customer impact or risk.",
+        "Extreme Granularity: Go beyond the roadmap. Read the code, review specific regulatory filings, and test edge cases personally.",
+        "Signal Mechanism: Use these deep dives to signal cultural priorities. If a team passes the deep dive, they earn autonomy. If they fail, they get scrutinized next cycle.",
+        "Founder-Level QA: Ensure the absolute final sign-off (even screen-by-screen) involves the highest level of product leadership to enforce the 'bar'."
+      ],
+      "whenToUse": "When managing large portfolios of products where quality is slipping, or when establishing a high-performance culture in a rapidly scaling team.",
+      "commonMistakes": "Getting stuck in the details for *every* project (bottlenecking) rather than using deep dives as a sampling and cultural enforcement mechanism.",
+      "quote": "We take maybe 7 or 10 projects which are most impactful... and we go super deep into them, really, really deep sitting with engineers like reading code level.",
+      "realWorldExample": "Dmitry personally audits specific country branch launches, reviewing the regulatory logic and engineering implementation to ensure the automated platform approach is working, rather than just reading a 'green' status report."
+    },
+    {
+      "name": "The 'Polished MVP' Protocol",
+      "category": "product-strategy",
+      "problemItSolves": "Mitigates the risk of false negatives where a product fails not because the idea was bad, but because the MVP was too buggy or ugly to gain traction.",
+      "summary": "Revolut rejects the 'scrappy' MVP concept. They narrow the scope of features to the absolute critical set but ensure the quality, UX, and aesthetics of those few features are 'Wow' level before letting any users in.",
+      "principles": [
+        "Scope Down, Polish Up: Cut functionality to the bone (10% of features), but ensure that 10% is at 100% quality/design fidelity.",
+        "Eliminate the 'Sucks' Variable: By forcing high quality, you remove 'bad execution' as a variable. If it fails, you know the *idea* was wrong.",
+        "The Delighter Layer: Beyond table stakes (e.g., interest rates), you must include 'delighters' (e.g., custom wallpapers, instant withdrawals) in V1.",
+        "Private Beta Containment: Iterate on this polished version with a small user subset until retention is proven, then scale instantly to the massive user base."
+      ],
+      "whenToUse": "When launching new verticals in competitive markets (like FinTech) where trust is paramount and competitors already offer 'good enough' solutions.",
+      "commonMistakes": "Confusing 'polished' with 'feature-complete'. You should still build a small product, just not a broken or ugly one.",
+      "quote": "It's not getting traction. Is it because the underlying idea is wrong? Or maybe your product just sucks? By forcing everyone to build a product that people will love, we kind of cut out this part of uncertainty.",
+      "realWorldExample": "When launching the 'Joint Accounts' feature, Revolut ensured it wasn't just a shared pot, but a fully integrated, high-polish experience. It quickly scaled to over 1 million active users because the V1 was lovable, not just functional."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If something is 99% done, it's closer to 0% rather than 100%.",
+      "context": "Dmitry explaining that a feature that is built but not adopted, marketed, or supported by operations has delivered zero value."
+    },
+    {
+      "text": "Revolut values way more raw intellect and this unquenched hunger to build things rather than experience.",
+      "context": "On why they prefer hiring former founders or hungry juniors over decorated veterans from established tech companies."
+    },
+    {
+      "text": "Plans are worthless, but planning is everything.",
+      "context": "His favorite motto (quoting Eisenhower), emphasizing that while agility is key, the deep thinking required to create a plan is non-negotiable."
+    }
+  ],
+  "filename": "Dmitry Zlokazov"
+}

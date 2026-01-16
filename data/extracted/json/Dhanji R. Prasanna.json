@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Dhanji R. Prasanna",
+    "title": "Chief Technology Officer",
+    "company": "Block (formerly Square)",
+    "background": "CTO overseeing a 3,500+ person engineering organization across Square, Cash App, and Afterpay. A former Google engineer who worked on Google Wave and Google+, he is a key driver behind Block's transformation into an AI-native company through the development of their internal agent, 'Goose'."
+  },
+  "episodeSummary": "Dhanji Prasanna details Block's radical transformation from a federated financial services company into a functional, AI-native technology organization. He explains how their internal open-source agent, Goose, saves employees 8-10 hours a week by utilizing the Model Context Protocol (MCP) to give AI 'arms and legs.' The conversation covers the necessity of organizational restructuring to support AI, the fallacy of code quality equating to product success, and the future of autonomous engineering.",
+  "keyTakeaways": [
+    "AI productivity is currently at its baseline; the 8-10 hours saved per week today is the 'worst' it will ever be.",
+    "Transition from 'Vibe Coding' (chatting with AI) to 'Agentic Autonomy' where AI works overnight while humans sleep.",
+    "Use the Model Context Protocol (MCP) to wrap internal tools (Snowflake, Jira, Calendar), giving LLMs the ability to execute actions, not just generate text.",
+    "Conway's Law is absolute: To change your technical output, you must change your organizational structure from GM-led silos to functional pillars.",
+    "Non-technical teams (Legal, Risk, Support) often see higher immediate ROI from AI agents than engineering teams by building their own internal tooling.",
+    "Code quality and product success are uncorrelated (e.g., YouTube's early messy codebase vs. Google Video's clean failure).",
+    "Before optimizing or automating a process with AI, ruthlessly question if the process needs to exist at all."
+  ],
+  "methodologies": [
+    {
+      "name": "The Agentic MCP Framework",
+      "category": "execution",
+      "problemItSolves": "Overcomes the limitations of 'chat-based' AI coding where humans must constantly 'ping-pong' with the model to get results.",
+      "summary": "A strategy to move beyond passive LLM interaction by wrapping internal tools in the Model Context Protocol (MCP). This gives AI the ability to autonomously interface with systems (databases, calendars, IDEs) to complete complex, multi-step workflows without human hand-holding.",
+      "principles": [
+        "Wrap Tools, Don't Just Paste Context: creating standardized API wrappers (MCPs) for internal systems (Snowflake, Slack, Git) so the agent can fetch its own data.",
+        "Shift to Asynchronous Autonomy: Instead of waiting 3 minutes for a response, assign the agent 8-hour tasks (e.g., 'refactor this module', 'fix these vulnerabilities') to run overnight.",
+        "The 'RM -RF' Mindset: Use the agent's speed to delete and rewrite entire applications from scratch rather than incrementally refactoring legacy code.",
+        "Democratize Tool Building: Empower non-technical teams (Risk, Marketing) to use agents to build their own CRUD apps and workflows, bypassing the internal engineering backlog."
+      ],
+      "whenToUse": "When deploying AI across a large organization to move beyond simple code completion and into true workflow automation.",
+      "commonMistakes": "Treating the AI agent as a search engine rather than an employee that can execute tasks; failing to give the agent write-access to necessary tools.",
+      "quote": "Goose gives these brains arms and legs to go out and act in our digital world... It’s orchestrating across all these systems.",
+      "realWorldExample": "An engineer at Block has 'Goose' watch his screen and listen to voice; if he discusses a feature on Slack, Goose autonomously opens a PR with a draft of that feature before the meeting ends."
+    },
+    {
+      "name": "The Functional Tech-First Reset",
+      "category": "team-culture",
+      "problemItSolves": "Addresses 'Identity Drift' where a tech company starts operating like a slow service provider due to siloed business units.",
+      "summary": "A restructuring methodology that pivots from General Manager (GM) led business units to functional reporting lines. This unifies engineering standards, prevents the commoditization of developers, and enables rapid, company-wide technology adoption (like AI).",
+      "principles": [
+        "Unify Reporting Lines: All engineers report to a centralized Engineering Head, not a Business Unit GM, to ensure technical depth over short-term business KPIs.",
+        "Standardize 'Tech Identity': Ensure a 'Senior Engineer' title means the same thing across all products (Cash App, Square, Tidal) to allow fluid talent movement.",
+        "Stop Commoditizing Headcount: Move away from 'Mythical Man-Month' hiring (adding bodies to ship faster) toward leveraging shared platforms and high-leverage tools.",
+        "Leverage Conway's Law: Deliberately change the org chart to force the software architecture to become more integrated and platform-centric."
+      ],
+      "whenToUse": "When a multi-product company feels sluggish, fragmented, or unable to deploy new core technologies (like AI) across all business lines efficiently.",
+      "commonMistakes": "Maintaining the GM structure while trying to enforce centralized technical mandates—this creates conflict and rarely works.",
+      "quote": "I think that moving to a functional structure completely changes that... we no longer see engineers as a commodity to just add 100 people to go and build the next product.",
+      "realWorldExample": "Block moved from independent GM-run companies (Square, Cash App) to a functional structure, allowing them to deploy Goose and AI standards across 3,500 people simultaneously."
+    },
+    {
+      "name": "The 'Mad Scientist' Prototyping Loop",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents 'Boiling the Ocean'—spending massive resources on big ideas that fail (like Google Wave) before validating utility.",
+      "summary": "A disciplined approach to innovation that insists on starting with micro-teams solving hyper-specific personal problems before scaling to a platform or product.",
+      "principles": [
+        "The 'Cup of Tea' Rule: Don't boil the ocean to make tea. Solve the immediate, small problem fully before expanding scope.",
+        "The Personal Itch Test: Founders/builders must use the tool for a personal workflow (e.g., organizing family receipts) to discover real edge cases.",
+        "Question Base Assumptions: Before building a tool to optimize a process, ask 'Does this process need to exist?' (e.g., deleting tests vs. optimizing test runners).",
+        "Controlled Chaos: Allow engineers freedom to rabbit-hole and build 'useless' experiments, provided the underlying platform is stable and secure."
+      ],
+      "whenToUse": "During Hack Weeks or early-stage product definition to avoid over-engineering solutions for problems that aren't yet understood.",
+      "commonMistakes": "Scaling the team size (70-80 engineers) before the product has been validated by real user utility.",
+      "quote": "If you want to make an apple pie from scratch, you have to first invent the universe... narrow your scope to the thing that's in front of you.",
+      "realWorldExample": "Block's Bitcoin integration started as a 3-person Hack Week project (Dhanji, Jack Dorsey, and one engineer) before becoming a major business line."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Whenever I hear a stat like this, I think an important element is this is the worst it will ever be. This is now the baseline.",
+      "context": "On the current metric of AI saving 8-10 hours per week per engineer."
+    },
+    {
+      "text": "A lot of engineers think that code quality is important to building a successful product. The two have nothing to do with each other.",
+      "context": "Comparing the messy but successful architecture of YouTube against the pristine but failed architecture of Google Video."
+    },
+    {
+      "text": "If you try to boil the ocean to make a cup of tea... you'll never get there.",
+      "context": "On the importance of starting small and not over-scoping initial product builds."
+    },
+    {
+      "text": "You ship your org structure.",
+      "context": "Referencing Conway's Law as the primary driver for why Block had to restructure to become AI-native."
+    }
+  ],
+  "filename": "Dhanji R. Prasanna"
+}

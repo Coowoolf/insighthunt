@@ -1,0 +1,88 @@
+{
+  "guest": {
+    "name": "Donna Lichaw",
+    "title": "Executive Coach and Author",
+    "company": "Donna Lichaw Coaching",
+    "background": "Former product manager and designer turned executive coach who helps founders and CEOs scale their leadership. She is the author of 'The User's Journey' and 'The Leader's Journey', known for applying product thinking and storytelling frameworks to leadership development."
+  },
+  "episodeSummary": "Donna Lichaw explores the intersection of product management and leadership development, introducing the concept of 'Story-Driven Leadership'. She explains how the narratives leaders tell themselves act as operating systems that dictate success or failure. The conversation covers tactical frameworks for identifying personal 'superpowers' and 'kryptonite', reframing imposter syndrome through a functional lens, and applying product discovery techniques to personal growth.",
+  "keyTakeaways": [
+    "Treat your leadership style like a product: conduct 'user research' with colleagues to validate if your internal stories (e.g., 'I'm too nice') match their reality.",
+    "Reframe 'Imposter Syndrome' by asking 'How does this serve me?'—often it functions as a mechanism to drive deeper preparation or learning.",
+    "Identify 'superpowers' by analyzing peak experiences from childhood, early career, and recent history to find the common thread, rather than relying on generic strength tests.",
+    "Use the 'Head, Heart, Hands' framework to evaluate behavioral experiments: analyze thoughts, emotions, and physical body sensations.",
+    "Apply the 'Gestalt Experiment' method: test scary behavioral changes in 30-second low-stakes increments before rolling them out to the wider team.",
+    "Leverage 'Kryptonite': Weaknesses often have a functional upside (e.g., anxiety driving diligence); the goal is to manage the dose, not eliminate the trait.",
+    "Start strategic planning with the ending: Vividly visualize the sensory details of the future state first, then work backward to build the roadmap."
+  ],
+  "methodologies": [
+    {
+      "name": "The Narrative Validation Audit",
+      "category": "career-leadership",
+      "problemItSolves": "Leaders often operate under false internal narratives (e.g., 'I'm too nice', 'No one listens to me') that limit their effectiveness and create self-fulfilling prophecies.",
+      "summary": "A framework that treats self-perception as a hypothesis that must be validated through 'user research' with colleagues. It replaces internal assumptions with data-driven reality to adjust leadership behavior.",
+      "principles": [
+        "Identify the Story: Explicitly write down the recurring internal narrative hindering you (e.g., 'I am not authoritative enough').",
+        "Conduct User Research: Interview peers and direct reports to validate this story. Ask how they actually experience your leadership.",
+        "Analyze the Delta: Compare your internal story with the external data. (Often, 'too nice' is perceived as 'caring but needs to delegate more').",
+        "Co-Create the New Ending: If a deficit exists, ask the team what they need (e.g., 'We don't need you to be louder; we need to know you are listening')."
+      ],
+      "whenToUse": "When you feel stuck in a specific behavioral pattern or receive vague feedback like 'be more strategic' or 'speak up more'.",
+      "commonMistakes": "Assuming your internal insecurity matches external reality without collecting data.",
+      "quote": "The most effective stories are the ones that we tell ourselves. They may or may not be true; our brain doesn't know the difference.",
+      "realWorldExample": "A CEO believed he was 'too nice' and 'not taken seriously.' Research revealed his team loved his kindness but felt frustrated when he didn't delegate vision, leading to a shift in how he engaged rather than a personality overhaul."
+    },
+    {
+      "name": "The Superpower Extraction Protocol",
+      "category": "career-leadership",
+      "problemItSolves": "Professionals often fixate on correcting weaknesses or adopt generic leadership styles that don't fit their natural strengths.",
+      "summary": "A biographical analysis method to identify innate strengths by examining peak experiences across a timeline, rather than using multiple-choice personality tests.",
+      "principles": [
+        "Select Three Data Points: Identify a peak experience from childhood, one from your early career, and one from your recent past.",
+        "Define 'Peak': Choose moments where you felt most 'lit up', energized, and effective (not necessarily just happy).",
+        "Pattern Recognition: Overlay these stories to find the functional theme connecting them (e.g., 'Connecting people' vs. 'Attention to detail').",
+        "Transpose to Future: Map this proven strength to your current challenges. Ask: 'How can I solve this problem using [Superpower]?'"
+      ],
+      "whenToUse": "During career transitions, when feeling burnt out by a role, or when writing a personal operating manual.",
+      "commonMistakes": "Confusing a job skill (e.g., 'strategy') with a fundamental superpower (e.g., 'spatial thinking' or 'connecting dots').",
+      "quote": "Pull your superpowers out of your stories from your past, your present, and then eventually figure out how to apply them and transpose them to your future.",
+      "realWorldExample": "An executive labeled 'detail-oriented' realized through this process that her actual superpower was 'connecting' (people, ideas, trends), allowing her to delegate the weeds and focus on strategy."
+    },
+    {
+      "name": "The Head-Heart-Hands Experiment",
+      "category": "execution",
+      "problemItSolves": "Paralysis when attempting difficult behavioral changes or new ways of working.",
+      "summary": "A micro-experimentation framework derived from Gestalt therapy to test new behaviors in real-time through three distinct sensory filters.",
+      "principles": [
+        "Define the Micro-Experiment: Choose a very small, immediate action (e.g., 'Listen for 30 seconds without planning a response').",
+        "Run In-The-Room: Execute the action immediately in a low-stakes environment (e.g., with a coach or peer) rather than waiting for a high-stakes meeting.",
+        "Audit Head (Cognitive): What thoughts arose? (e.g., 'This is boring', 'I need to speak').",
+        "Audit Heart (Emotional): What emotions surfaced? (e.g., Fear, relief, anxiety).",
+        "Audit Hands (Somatic): What happened physically? (e.g., Shoulders tensed, face turned red, hands fidgeted)."
+      ],
+      "whenToUse": "When trying to change a habit like interrupting others, micromanaging, or public speaking anxiety.",
+      "commonMistakes": "Ignoring the somatic (body) response, which often indicates the true level of comfort or resistance.",
+      "quote": "Life is like product thinking... You run it through three filters: head, heart, hands.",
+      "realWorldExample": "A loud executive who needed to listen more tried listening for just 30 seconds in a session. Her face turned red ('Hands' filter), revealing that silence felt physically unsafe, which was the root cause to address."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "When superheroes discover what their superpowers actually are, they wreak havoc and they make a mess, and it's uncomfortable. And even Superman tries to get rid of his superpowers.",
+      "context": "Explaining why discovering your true strengths is often a messy, uncomfortable process rather than an instant epiphany."
+    },
+    {
+      "text": "Find out who you are and do it on purpose.",
+      "context": "Quoting Dolly Parton to summarize the core philosophy of intentional leadership."
+    },
+    {
+      "text": "The most effective stories are the ones that we tell ourselves. They may or may not be true; our brain doesn't know the difference.",
+      "context": "Discussing the neuroscience behind self-talk and leadership identity."
+    },
+    {
+      "text": "Manage your energy, not your time.",
+      "context": "Advocating for auditing activities based on whether they drain or fill your energy reserves."
+    }
+  ],
+  "filename": "Donna Lichaw"
+}

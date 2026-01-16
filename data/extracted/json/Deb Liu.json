@@ -1,0 +1,103 @@
+{
+  "guest": {
+    "name": "Deb Liu",
+    "title": "CEO of Ancestry",
+    "company": "Ancestry",
+    "background": "Deb Liu is the CEO of Ancestry and a former VP of Product at Facebook, where she built Facebook Marketplace to over 1 billion users and led the development of Facebook's mobile ad products. She also held leadership roles at PayPal and eBay and serves on the board of Intuit."
+  },
+  "episodeSummary": "Deb Liu shares a masterclass on navigating a product career, balancing the creation of zero-to-one billion-dollar businesses within large corporations, and overcoming the challenges of introversion in leadership. She provides tactical frameworks for treating your career with the same rigor as a product roadmap and offers specific strategies for onboarding successfully into executive roles.",
+  "keyTakeaways": [
+    "Prioritize the slope of learning over current mastery; the best PMs are constant students, not static experts.",
+    "Treat your career like a product: write a spec, define success metrics, and audit your trajectory against a 5-year vision rather than drifting between roles.",
+    "When building 0-to-1 products inside large companies, avoid the limelight early on to escape premature scrutiny and 'loving a product to death' before it iterates.",
+    "Reframe 'self-promotion' as 'educating stakeholders to secure resources for your team' to overcome the reluctance to speak up.",
+    "Growth is often a 'game of inches' rather than silver bullets; success comes from relentless optimization of core loops rather than just step-function changes.",
+    "During onboarding, diagnose before you treat: spend the first 30 days listening to 50+ people before proposing solutions.",
+    "The most critical career decision you make is who you marry; ensure your partner is a 'yin to your yang' who lifts your career rather than adding drag."
+  ],
+  "methodologies": [
+    {
+      "name": "The Career Product Specification",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents high-potential PMs from 'drifting' through their careers without intentionality or clear progression.",
+      "summary": "A strategic framework that applies product management rigor to career planning. Instead of reacting to job offers serially, you proactively define a 'spec' for your career to evaluate opportunities against long-term goals.",
+      "principles": [
+        "Define the 5-Year Vision: specific outcomes (e.g., 'Serve on a Fortune 100 board') rather than vague titles.",
+        "Write the Spec: Document the specific skills, experiences ('features'), and milestones needed to reach the vision.",
+        "Audit Trajectory: Evaluate every potential role not by salary or prestige, but by whether it moves you closer to the spec's destination.",
+        "Iterate on Failure: View career setbacks not as failures, but as data points to pivot the strategy, similar to product iteration."
+      ],
+      "whenToUse": "When considering a job change, feeling stagnant in a current role, or conducting annual personal reviews.",
+      "commonMistakes": "Relying on hindsight bias to justify accidental career moves rather than creating forward-looking intentionality.",
+      "quote": "If I said you had to write a spec for your career, what does success look like? How are you going to get there? You have metrics for your product, and yet you don't have metrics for your career.",
+      "realWorldExample": "Deb contrasts her own 'accidental' path with a mentee who specifically identified a goal to join a Fortune 100 board and reverse-engineered the exact steps and introductions required to get there over 10 years."
+    },
+    {
+      "name": "The Stealth Innovation Protocol",
+      "category": "product-strategy",
+      "problemItSolves": "Navigating the high failure rate of building zero-to-one products within large, scrutiny-heavy organizations.",
+      "summary": "A strategy for incubating new products in big tech by minimizing attention and resources to maximize iteration speed. It prioritizes patience and shielding the team from executive 'love' that can kill early-stage fragility.",
+      "principles": [
+        "Avoid the Limelight: Intentionally keep the project low-profile to avoid the pressure of weekly executive progress checks.",
+        "Resource Constraint as Feature: Operate with minimal resources to force focus and allow for quiet pivoting without massive sunk cost fallacy.",
+        "The Portfolio Approach: Accept a 50% failure rate; view specific products as bets within a portfolio rather than existential must-wins.",
+        "Prune and Pivot: Be willing to kill features or products quickly if they don't gain traction, treating them as seeds rather than core infrastructure."
+      ],
+      "whenToUse": "When launching a new vertical or experimental product inside a mature company (e.g., Facebook Marketplace, Mobile Ads).",
+      "commonMistakes": " announcing a launch too early internally, which invites 'love to death'—over-scrutiny and resource-heavy processes that slow down iteration.",
+      "quote": "The thing that I think a lot of large companies don't realize is that you can love something to death. I'd rather do it out of the limelight, do it with the minimal resources and have the freedom to fail.",
+      "realWorldExample": "When building Facebook's mobile ad product, Deb's team iterated on 5-6 versions out of the spotlight. The product was on the verge of death multiple times, and she even took a second job running payments to sustain the team before the ads product finally clicked."
+    },
+    {
+      "name": "The Listen-Align-Execute Onboarding Cycle",
+      "category": "execution",
+      "problemItSolves": "Helps leaders and PMs land successfully in new roles without alienating existing teams or making premature, ill-informed decisions.",
+      "summary": "A structured 30-60-90 day framework that prioritizes deep listening and trust-building before shifting into execution mode. It prevents the 'new person' from tripping over cultural wires.",
+      "principles": [
+        "Days 0-30 (The Listening Tour): Interview 50-60 stakeholders. Ask 'What are the challenges?' and 'What is on your wishlist?'. Do not solve yet.",
+        "The Reciprocity Trigger: Ask every engineering/product team: 'What is ONE thing I can do to help you this week?' to build immediate trust capital.",
+        "Days 31-60 (Alignment): Synthesize the listening tour into a 'State of the Union' playback. Confirm with the org: 'This is what I heard, is this the right problem set?'",
+        "Days 61-90 (Execution): Only after alignment, begin executing on the shared vision."
+      ],
+      "whenToUse": "The first 90 days of any new role, whether as an individual contributor or a C-level executive.",
+      "commonMistakes": "Skipping the listening phase to 'get a quick win' and accidentally violating cultural norms or solving the wrong problem.",
+      "quote": "You're part of a dance that's going around... if you actually make a mistake, you could trip other people up. Finding your place in the dance is really important.",
+      "realWorldExample": "When joining Ancestry as CEO, Deb interviewed 60 people in 30 days. She noted a wishlist item from one employee and, two years later, circled back to tell him they had finally completed his list, solidifying deep trust."
+    },
+    {
+      "name": "The Introvert's Visibility Loop",
+      "category": "team-culture",
+      "problemItSolves": "Helps introverted product professionals succeed in environments that bias toward extroversion and verbal processing.",
+      "summary": "A set of tactical behavioral changes and structural adjustments to ensure introverts' work is recognized and they can influence decisions without changing their core personality.",
+      "principles": [
+        "Reframe Self-Promotion: View sharing your work not as bragging, but as 'educating the business' on what the team is achieving to secure necessary resources.",
+        "The 'Write to Speak' Contract: Commit to a schedule of writing (e.g., one blog post or internal note per month) to force externalization of ideas.",
+        "Pre-Meeting Processing: Prepare answers and comments before meetings to avoid the 'processing lag' that causes introverts to miss the conversation window.",
+        "Structural Equity: Implement 'silent reads' or offline voting in docs (e.g., giving every attendee a row in a spreadsheet to vote/comment) before verbal discussion begins."
+      ],
+      "whenToUse": "For introverted PMs struggling to get promoted, or leaders trying to unlock the potential of introverted team members.",
+      "commonMistakes": "Assuming 'good work speaks for itself'—it rarely does without a narrative wrapper (product marketing for your career).",
+      "quote": "You make a light bulb, but you're selling light... She was making amazing number of light bulbs... but she was not marketing the light.",
+      "realWorldExample": "Deb's manager (Bos) forced her to sign a 'contract' to write and publish one piece of content every month. This external accountability helped her overcome her fear of sharing her wisdom publicly."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Some of the best PMs I have ever worked with are terrible PMs for their career.",
+      "context": "Discussing the irony of how PMs plan products meticulously but drift aimlessly in their own professional lives."
+    },
+    {
+      "text": "Trees are strong because they bend in the wind, because they're tested... You want to have enough adversity that you learn to overcome so that you can build stronger over time.",
+      "context": "Deb explaining why a 'charmed life' without failure often leads to less successful product leaders in the long run."
+    },
+    {
+      "text": "Life is 10% what happens to you and 90% how you react to it.",
+      "context": "Deb's favorite motto regarding resilience and agency."
+    },
+    {
+      "text": "The most important career decision you make is who you marry.",
+      "context": "Advice she gives to university students about the impact of a partner on career longevity and balance."
+    }
+  ],
+  "filename": "Deb Liu"
+}

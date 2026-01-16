@@ -1,0 +1,86 @@
+{
+  "guest": {
+    "name": "David Singleton",
+    "title": "Chief Technology Officer",
+    "company": "Stripe",
+    "background": "Responsible for guiding Stripe's engineering and design teams for over five years. Previously spent over a decade at Google as VP of Engineering. Known for operationalizing high-craft engineering cultures at scale."
+  },
+  "episodeSummary": "David Singleton dissects Stripe's unique engineering culture, explaining how they maintained a product-minded engineering team that delayed the need for Product Managers for years. He details specific internal rituals like 'Friction Logging' and 'Engineerications' that operationalize their core value of being meticulous, while sharing how they balance 99.999% reliability with deploying changes 16 times a day.",
+  "keyTakeaways": [
+    "Hire product-minded engineers who want to understand the 'why' and talk to users, allowing you to delay hiring dedicated PMs until scale demands it.",
+    "Operationalize 'Meticulous Craft' by linking error messages directly to documentation—a small detail that creates a massive competitive advantage.",
+    "Use 'Friction Logging' not just for bugs, but to document the emotional and tactical resistance a user feels during a specific workflow.",
+    "Leaders must practice 'Engineerications'—taking 3-4 days off management duties to push code to production—to truly understand developer velocity and toolchain friction.",
+    "Reliability does not require slowness; achieve velocity via automated testing that runs in parallel with code review and auto-deploys within 45 minutes.",
+    "Adopt the 'Inverted W' planning process: Teams submit ideas (bottom-up), leaders synthesize strategy (top-down), teams validate impact (bottom-up), leaders finalize (top-down).",
+    "Co-create complex products with a small set of 'Alpha' users via shared Slack channels, rather than building in isolation."
+  ],
+  "methodologies": [
+    {
+      "name": "The Friction Logging Protocol",
+      "category": "user-research",
+      "problemItSolves": "Prevents 'blindness' to user pain points as a product scales and leadership gets further from the actual usage experience.",
+      "summary": "A disciplined practice where a team member (often a PM or Leader) simulates a specific user persona to complete a core task, recording every moment of hesitation, confusion, or delight.",
+      "principles": [
+        "Select a specific Persona: Do not just 'test.' Adopt a mental model (e.g., 'I am a developer at Atlassian trying to integrate Billing').",
+        "Stream of Consciousness: Write down thoughts in real-time. Note where you get stuck, what feels slow, and what is confusing.",
+        "Full Stack Audit: Don't stop at the UI. Open the docs, use the API, and write the code required to finish the task.",
+        "Praise the Good: Explicitly call out delight moments to reinforce positive behavior in the engineering team.",
+        "Instant Remediation: Prioritize the 'paper cuts' found during this process above roadmap items to maintain a high bar for craft."
+      ],
+      "whenToUse": "On a recurring cadence (e.g., monthly) for existing products, or during the pre-launch phase of new features.",
+      "commonMistakes": "Treating it as QA/Bug bashing rather than an empathetic review of the user's flow and feelings.",
+      "quote": "You need to put yourself in a particular user's shoes. It's actually important to have a very clear idea of who is the person I am kind of modeling the friction for right now.",
+      "realWorldExample": "David onboards as a new Stripe user once a month, writing logs that led to error messages being rewritten to include direct links to the relevant documentation."
+    },
+    {
+      "name": "The Co-Creation Alpha Loop",
+      "category": "product-strategy",
+      "problemItSolves": "Reduces the risk of building complex infrastructure products that miss the mark for sophisticated users.",
+      "summary": "Instead of building in stealth, identify a small cohort of users pushing the boundaries of the problem space and build the product alongside them with high-touch interaction.",
+      "principles": [
+        "Identify 'Boundary Pushers': Find existing users who are hacking your current product to do things it wasn't designed for.",
+        "Shared Infrastructure: creating shared Slack channels between your engineers/PMs and the customer's team.",
+        "Continuous Exposure: Show them incomplete product/code on a regular basis, not just at milestones.",
+        "The Happiness Gate: Do not expand to a broader Beta or General Audience until this specific Alpha group is 'super, super happy.'",
+        "Team Osmosis: Engineers must talk directly to these users to absorb their context, reducing the need for game-of-telephone requirements."
+      ],
+      "whenToUse": "When launching a new, complex product line (like Stripe Billing) that requires deep integration into a user's business logic.",
+      "commonMistakes": "Expanding the group too early before the core set is truly satisfied, or using the group only for validation rather than active co-creation.",
+      "quote": "We decided to co-create the product with them... And only when that original kind of Alpha group was super, super happy with the product did we then think it might be ready to go to a broader audience.",
+      "realWorldExample": "Stripe Billing was co-created with Figma and Slack, who were already using Stripe Payments but had complex subscription needs."
+    },
+    {
+      "name": "The Engineercation Loop",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents engineering managers and CTOs from losing touch with the reality of their own development tools and deployment processes.",
+      "summary": "A management practice where leaders clear their schedule to act as an Individual Contributor (IC) for a set period, pushing actual code to production.",
+      "principles": [
+        "Clear the Calendar: Block 3-4 days entirely. Treat it like a vacation from management duties—decline all meetings.",
+        "Find a Buddy: Pair with an existing engineer on the team who can guide you through setup and review your PRs without bias.",
+        "Ship Real Value: Pick a small but complete task (a feature or fix) that goes all the way to production.",
+        "No Special Treatment: Go through the standard code review, CI/CD pipeline, and documentation process to experience the real friction.",
+        "Log & Share: Keep a friction log of the development environment and share the report with the organization to drive tooling improvements."
+      ],
+      "whenToUse": "Once a year for senior leaders, or within the first 6 months for new Engineering Managers.",
+      "commonMistakes": "Doing 'toy' projects that don't touch production, or allowing meetings to creep back into the schedule.",
+      "quote": "I'll clear several days... join a team, pick up a small task, hopefully a small feature that we can get all the way from start to finish in production and do that going through the exact experience the team has.",
+      "realWorldExample": "David Singleton learning Ruby (which he didn't know) to ship a feature to production, aided by a buddy named Ajhja."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Every engineer building product at Stripe really has many of the attributes and will exercise many of the attributes that you'll often find in PMs in other companies.",
+      "context": "Explaining why Stripe didn't hire their first PM until they had nearly 200 employees."
+    },
+    {
+      "text": "We realized that there were a number of our existing users... really kind of pushing the boundaries of what was possible here. So we decided to co-create the product with them.",
+      "context": "Describing the origin story of Stripe Billing and how they identify new product opportunities."
+    },
+    {
+      "text": "It turns out that it increases the average user's revenue by 10.5%. And that's huge. This is an industry where little changes... typically deliver uplifts that you measure in basis points.",
+      "context": "Discussing the ROI of being 'meticulous in the craft' regarding checkout flow optimizations."
+    }
+  ],
+  "filename": "David Singleton"
+}
