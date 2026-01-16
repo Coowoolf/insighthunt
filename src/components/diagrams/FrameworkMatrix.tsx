@@ -17,7 +17,7 @@ interface FrameworkMatrixProps {
     cells: [[MatrixCell, MatrixCell], [MatrixCell, MatrixCell]];  // 2x2 matrix
 }
 
-const colorMap = {
+const colorMap: Record<string, string> = {
     green: 'from-emerald-400 to-green-500',
     blue: 'from-blue-400 to-cyan-500',
     yellow: 'from-amber-400 to-yellow-500',
@@ -25,13 +25,16 @@ const colorMap = {
     purple: 'from-violet-400 to-purple-500',
 };
 
-const bgColorMap = {
+const bgColorMap: Record<string, string> = {
     green: 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100',
     blue: 'bg-blue-50 border-blue-200 hover:bg-blue-100',
     yellow: 'bg-amber-50 border-amber-200 hover:bg-amber-100',
     red: 'bg-red-50 border-red-200 hover:bg-red-100',
     purple: 'bg-violet-50 border-violet-200 hover:bg-violet-100',
 };
+
+const getColor = (color?: string) => colorMap[color || 'blue'] || colorMap.blue;
+const getBgColor = (color?: string) => bgColorMap[color || 'blue'] || bgColorMap.blue;
 
 /**
  * 2x2 Framework Matrix visualization
@@ -82,7 +85,7 @@ export function FrameworkMatrix({
                                             className={`
                                                 relative rounded-xl p-5 border-2 cursor-pointer
                                                 transition-all duration-300 ease-out
-                                                ${bgColorMap[cell.color]}
+                                                ${getBgColor(cell?.color)}
                                                 ${hoveredCell === `top-${i}` ? 'scale-105 shadow-xl z-10' : 'shadow-lg'}
                                             `}
                                             onMouseEnter={() => setHoveredCell(`top-${i}`)}
@@ -91,7 +94,7 @@ export function FrameworkMatrix({
                                             {/* Gradient Accent */}
                                             <div className={`
                                                 absolute top-0 left-0 right-0 h-1 rounded-t-xl
-                                                bg-gradient-to-r ${colorMap[cell.color]}
+                                                bg-gradient-to-r ${getColor(cell?.color)}
                                             `} />
 
                                             <div className="text-center">
@@ -121,7 +124,7 @@ export function FrameworkMatrix({
                                             className={`
                                                 relative rounded-xl p-5 border-2 cursor-pointer
                                                 transition-all duration-300 ease-out
-                                                ${bgColorMap[cell.color]}
+                                                ${getBgColor(cell?.color)}
                                                 ${hoveredCell === `bottom-${i}` ? 'scale-105 shadow-xl z-10' : 'shadow-lg'}
                                             `}
                                             onMouseEnter={() => setHoveredCell(`bottom-${i}`)}
@@ -130,7 +133,7 @@ export function FrameworkMatrix({
                                             {/* Gradient Accent */}
                                             <div className={`
                                                 absolute top-0 left-0 right-0 h-1 rounded-t-xl
-                                                bg-gradient-to-r ${colorMap[cell.color]}
+                                                bg-gradient-to-r ${getColor(cell?.color)}
                                             `} />
 
                                             <div className="text-center">

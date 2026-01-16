@@ -1,10 +1,25 @@
 import { getAllMethodologies, getMethodologyById } from '@/data/insights';
-import { CATEGORY_INFO } from '@/types';
+import { CATEGORY_INFO, VisualizationType } from '@/types';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
+// Import all visualization components
 import { PrincipleFlow } from '@/components/diagrams/PrincipleFlow';
+import { Timeline } from '@/components/diagrams/Timeline';
+import { Funnel } from '@/components/diagrams/Funnel';
+import { Cycle } from '@/components/diagrams/Cycle';
+import { FrameworkMatrix } from '@/components/diagrams/FrameworkMatrix';
+import { ComparisonCard, WhenToUseCard } from '@/components/diagrams/ComparisonCard';
+import { Spectrum } from '@/components/diagrams/Spectrum';
+import { BeforeAfter } from '@/components/diagrams/BeforeAfter';
 import { MindMap } from '@/components/diagrams/MindMap';
-import { WhenToUseCard } from '@/components/diagrams/ComparisonCard';
+import { TreeDiagram } from '@/components/diagrams/TreeDiagram';
+import { Pyramid } from '@/components/diagrams/Pyramid';
+import { Onion } from '@/components/diagrams/Onion';
+import { Equation } from '@/components/diagrams/Equation';
+import { Checklist } from '@/components/diagrams/Checklist';
+import { Scorecard } from '@/components/diagrams/Scorecard';
+import { CaseStudy } from '@/components/diagrams/CaseStudy';
 
 // Generate static paths for all methodologies
 export async function generateStaticParams() {
@@ -18,6 +33,273 @@ interface Props {
     params: Promise<{ id: string }>;
 }
 
+// Dynamic visualization renderer
+function DynamicVisualization({
+    type,
+    data,
+    principles,
+    methodologyName
+}: {
+    type?: VisualizationType;
+    data?: Record<string, any>;
+    principles: string[];
+    methodologyName: string;
+}) {
+    // Parse principles for display
+    const parsedPrinciples = principles.map(p => {
+        const match = p.match(/^(?:Step\s*)?(\d+)[:.]\s*(.+)$/i);
+        return match ? match[2] : p;
+    });
+
+    switch (type) {
+        case 'StepFlow':
+            return (
+                <PrincipleFlow
+                    principles={principles}
+                    title="Step-by-Step Framework"
+                />
+            );
+
+        case 'Timeline':
+            return (
+                <Timeline
+                    title="Framework Timeline"
+                    events={data?.events || parsedPrinciples.map((p, i) => ({
+                        phase: String(i + 1),
+                        title: p.length > 40 ? p.substring(0, 37) + '...' : p,
+                    }))}
+                />
+            );
+
+        case 'Funnel':
+            return (
+                <Funnel
+                    title="Framework Funnel"
+                    stages={data?.stages || parsedPrinciples.map(p => ({
+                        label: p.length > 30 ? p.substring(0, 27) + '...' : p,
+                    }))}
+                />
+            );
+
+        case 'Cycle':
+            return (
+                <Cycle
+                    title="Iterative Cycle"
+                    centerLabel={data?.centerLabel || "Core"}
+                    steps={data?.steps || parsedPrinciples.map(p => ({
+                        label: p.length > 20 ? p.substring(0, 17) + '...' : p,
+                    }))}
+                />
+            );
+
+        case 'Matrix2x2':
+            // Transform flat quadrants array to 2x2 cells format
+            const colors = ['green', 'blue', 'yellow', 'red'] as const;
+            if (data?.quadrants && Array.isArray(data.quadrants)) {
+                // AI returns flat array of 4 objects - transform to 2x2
+                const flatQuadrants = data.quadrants as any[];
+                const transformedCells: [[any, any], [any, any]] = [
+                    [
+                        {
+                            label: flatQuadrants[0]?.label || parsedPrinciples[0]?.substring(0, 20) || 'Q1',
+                            description: flatQuadrants[0]?.description,
+                            color: colors[0]
+                        },
+                        {
+                            label: flatQuadrants[1]?.label || parsedPrinciples[1]?.substring(0, 20) || 'Q2',
+                            description: flatQuadrants[1]?.description,
+                            color: colors[1]
+                        }
+                    ],
+                    [
+                        {
+                            label: flatQuadrants[3]?.label || parsedPrinciples[3]?.substring(0, 20) || 'Q4',
+                            description: flatQuadrants[3]?.description,
+                            color: colors[3]
+                        },
+                        {
+                            label: flatQuadrants[2]?.label || parsedPrinciples[2]?.substring(0, 20) || 'Q3',
+                            description: flatQuadrants[2]?.description,
+                            color: colors[2]
+                        }
+                    ]
+                ];
+                return (
+                    <FrameworkMatrix
+                        title={data.title || "Decision Matrix"}
+                        xAxisLabel={data.xAxis || "X Axis"}
+                        yAxisLabel={data.yAxis || "Y Axis"}
+                        xLabels={data.xLabels || ["Low", "High"]}
+                        yLabels={data.yLabels || ["High", "Low"]}
+                        cells={transformedCells}
+                    />
+                );
+            }
+            // Fallback: generate from principles
+            return (
+                <FrameworkMatrix
+                    title="Decision Matrix"
+                    xAxisLabel="Effort"
+                    yAxisLabel="Impact"
+                    xLabels={["Low Effort", "High Effort"]}
+                    yLabels={["High Impact", "Low Impact"]}
+                    cells={[
+                        [
+                            { label: parsedPrinciples[0]?.substring(0, 15) || "Quick Wins", color: "green" as const },
+                            { label: parsedPrinciples[1]?.substring(0, 15) || "Major Projects", color: "blue" as const }
+                        ],
+                        [
+                            { label: parsedPrinciples[2]?.substring(0, 15) || "Fill-Ins", color: "yellow" as const },
+                            { label: parsedPrinciples[3]?.substring(0, 15) || "Avoid", color: "red" as const }
+                        ]
+                    ]}
+                />
+            );
+
+        case 'DosDonts':
+            return (
+                <ComparisonCard
+                    title="Best Practices"
+                    doItems={data?.dos || parsedPrinciples.slice(0, 3).map(p => ({ text: p }))}
+                    dontItems={data?.donts || parsedPrinciples.slice(3, 6).map(p => ({ text: p }))}
+                />
+            );
+
+        case 'Spectrum':
+            return (
+                <Spectrum
+                    title="Framework Spectrum"
+                    leftLabel={data?.leftLabel || parsedPrinciples[0]?.substring(0, 15) || "Conservative"}
+                    rightLabel={data?.rightLabel || parsedPrinciples[parsedPrinciples.length - 1]?.substring(0, 15) || "Aggressive"}
+                    highlightPosition={data?.highlightPosition || 50}
+                />
+            );
+
+        case 'BeforeAfter':
+            const midpoint = Math.ceil(parsedPrinciples.length / 2);
+            return (
+                <BeforeAfter
+                    title="Transformation"
+                    before={{
+                        title: data?.before?.title || "Before",
+                        points: data?.before?.points || parsedPrinciples.slice(0, midpoint)
+                    }}
+                    after={{
+                        title: data?.after?.title || "After",
+                        points: data?.after?.points || parsedPrinciples.slice(midpoint)
+                    }}
+                />
+            );
+
+        case 'MindMap':
+            return (
+                <MindMap
+                    title="Framework Structure"
+                    centerText={methodologyName.length > 25 ? methodologyName.substring(0, 22) + '...' : methodologyName}
+                    centerEmoji="💡"
+                    nodes={parsedPrinciples.slice(0, 5).map((text, i) => ({
+                        text: text.length > 40 ? text.substring(0, 37) + '...' : text,
+                        emoji: ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'][i]
+                    }))}
+                />
+            );
+
+        case 'TreeDiagram':
+            return (
+                <TreeDiagram
+                    title="Framework Hierarchy"
+                    root={{
+                        label: methodologyName.length > 20 ? methodologyName.substring(0, 17) + '...' : methodologyName,
+                        children: parsedPrinciples.slice(0, 4).map(p => ({
+                            label: p.length > 25 ? p.substring(0, 22) + '...' : p
+                        }))
+                    }}
+                />
+            );
+
+        case 'Pyramid':
+            return (
+                <Pyramid
+                    title="Priority Pyramid"
+                    levels={data?.levels || parsedPrinciples.slice(0, 4).map(p => ({
+                        label: p.length > 30 ? p.substring(0, 27) + '...' : p
+                    }))}
+                />
+            );
+
+        case 'Onion':
+            return (
+                <Onion
+                    title="Layer Model"
+                    core={data?.core || methodologyName.substring(0, 15)}
+                    layers={data?.layers || parsedPrinciples.slice(0, 4).map(p => ({
+                        label: p.length > 20 ? p.substring(0, 17) + '...' : p
+                    }))}
+                />
+            );
+
+        case 'Equation':
+            return (
+                <Equation
+                    title="Success Formula"
+                    result={data?.result || "Success"}
+                    operator={data?.operator || "×"}
+                    terms={data?.terms || parsedPrinciples.slice(0, 3).map(p => ({
+                        label: p.length > 15 ? p.substring(0, 12) + '...' : p
+                    }))}
+                />
+            );
+
+        case 'Checklist':
+            return (
+                <Checklist
+                    title="Verification Checklist"
+                    items={data?.items || parsedPrinciples.map((p, i) => ({
+                        text: p,
+                        checked: i < 2 // First two checked as demo
+                    }))}
+                />
+            );
+
+        case 'Scorecard':
+            return (
+                <Scorecard
+                    title="Evaluation Scorecard"
+                    overallScore={data?.overallScore || 8}
+                    metrics={data?.metrics || parsedPrinciples.slice(0, 4).map((p, i) => ({
+                        label: p.length > 25 ? p.substring(0, 22) + '...' : p,
+                        score: 7 + (i % 3)
+                    }))}
+                />
+            );
+
+        case 'CaseStudy':
+            return (
+                <CaseStudy
+                    title="Real World Example"
+                    company={data?.company || "Example Company"}
+                    challenge={data?.challenge || parsedPrinciples[0] || "Challenge description"}
+                    solution={data?.solution || parsedPrinciples[1] || "Solution description"}
+                    result={data?.result || parsedPrinciples[2] || "Result description"}
+                />
+            );
+
+        default:
+            // Fallback to MindMap
+            return (
+                <MindMap
+                    title="Framework Structure"
+                    centerText={methodologyName.length > 25 ? methodologyName.substring(0, 22) + '...' : methodologyName}
+                    centerEmoji="💡"
+                    nodes={parsedPrinciples.slice(0, 5).map((text, i) => ({
+                        text: text.length > 40 ? text.substring(0, 37) + '...' : text,
+                        emoji: ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'][i]
+                    }))}
+                />
+            );
+    }
+}
+
 export default async function MethodologyPage({ params }: Props) {
     const { id } = await params;
     const methodology = getMethodologyById(id);
@@ -27,12 +309,8 @@ export default async function MethodologyPage({ params }: Props) {
     }
 
     const categoryInfo = CATEGORY_INFO[methodology.category];
-
-    // Parse principles for visualization
-    const principleTexts = methodology.principles.map(p => {
-        const match = p.match(/^(?:Step\s*)?(\d+)[:.]\s*(.+)$/i);
-        return match ? match[2] : p;
-    });
+    const vizType = methodology.visualizationType;
+    const vizTypeLabel = vizType || 'MindMap';
 
     return (
         <div className="min-h-screen bg-cream">
@@ -60,6 +338,9 @@ export default async function MethodologyPage({ params }: Props) {
                     <div className="flex items-center justify-center gap-3 mb-4">
                         <span className="category-badge">
                             {categoryInfo.emoji} {categoryInfo.label}
+                        </span>
+                        <span className="px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">
+                            📊 {vizTypeLabel}
                         </span>
                     </div>
 
@@ -90,7 +371,7 @@ export default async function MethodologyPage({ params }: Props) {
                     </div>
                 )}
 
-                {/* Problem It Solves - Visual Card */}
+                {/* Problem It Solves */}
                 {methodology.problemItSolves && (
                     <section className="mb-12">
                         <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 p-8">
@@ -123,28 +404,17 @@ export default async function MethodologyPage({ params }: Props) {
                     </p>
                 </section>
 
-                {/* VISUAL: Mind Map for Core Framework */}
+                {/* DYNAMIC VISUALIZATION - The main visual based on visualizationType */}
                 <section className="mb-12 bg-white rounded-2xl p-8 border border-gray-100 shadow-lg">
-                    <MindMap
-                        title="Framework Structure"
-                        centerText={methodology.name.length > 30 ? methodology.name.substring(0, 27) + '...' : methodology.name}
-                        centerEmoji={categoryInfo.emoji}
-                        nodes={principleTexts.slice(0, 5).map((text, i) => ({
-                            text: text.length > 50 ? text.substring(0, 47) + '...' : text,
-                            emoji: ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'][i]
-                        }))}
-                    />
-                </section>
-
-                {/* VISUAL: Principle Flow (Step by Step) */}
-                <section className="mb-12 bg-white rounded-2xl p-8 border border-gray-100 shadow-lg">
-                    <PrincipleFlow
+                    <DynamicVisualization
+                        type={methodology.visualizationType}
+                        data={methodology.visualizationData}
                         principles={methodology.principles}
-                        title="Step-by-Step Framework"
+                        methodologyName={methodology.name}
                     />
                 </section>
 
-                {/* VISUAL: When to Use & Common Mistakes */}
+                {/* When to Use & Common Mistakes */}
                 {(methodology.whenToUse || methodology.commonMistakes) && (
                     <section className="mb-12">
                         <WhenToUseCard
@@ -154,7 +424,7 @@ export default async function MethodologyPage({ params }: Props) {
                     </section>
                 )}
 
-                {/* Real World Example - Visual Card */}
+                {/* Real World Example */}
                 {methodology.realWorldExample && (
                     <section className="mb-12">
                         <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-cyan-50 to-teal-50 border-2 border-cyan-200 p-8">
@@ -174,7 +444,7 @@ export default async function MethodologyPage({ params }: Props) {
                     </section>
                 )}
 
-                {/* Quote - Large Visual */}
+                {/* Quote */}
                 {methodology.quote && (
                     <section className="mb-12">
                         <div className="relative bg-gradient-to-br from-violet-100 via-purple-50 to-pink-100 rounded-2xl p-10 border border-purple-200 shadow-xl overflow-hidden">
