@@ -1,0 +1,56 @@
+{
+  "guest": {
+    "name": "Annie Duke",
+    "title": "Special Partner",
+    "company": "First Round Capital"
+  },
+  "keyTakeaways": [
+    "To improve decision quality, you must take what is implicit (intuition) and make it explicit so it can be tested and tracked.",
+    "Meetings generally have three purposes: discover, discuss, and decide. However, only the 'discuss' portion should happen synchronously in the room.",
+    "True alignment in a group is often a myth and seeking it can lead to coercion; instead, leaders should aim for understanding diverse views and then deciding.",
+    "Use the 'Nevertheless' framework: Acknowledge that a team member was heard, but state that the decision is going a different way regardless.",
+    "There is no such thing as a long feedback loop; you can shorten loops by identifying intermediate signals correlated with the long-term outcome.",
+    "Pre-mortems are ineffective unless paired with 'kill criteria'—specific signals that trigger pre-committed actions to stop or pivot.",
+    "If you are currently thinking about quitting a project or job, you are likely already past the optimal time to have quit due to sunk cost bias.",
+    "Group brainstorming often leads to groupthink; opinions should be gathered independently and asynchronously before discussion."
+  ],
+  "methodologies": [
+    {
+      "name": "The Nominal Group Meeting Framework",
+      "category": "team-culture",
+      "summary": "A restructuring of meeting culture where the 'discovery' of ideas and the final 'decision' happen asynchronously or independently. The synchronous meeting time is reserved exclusively for discussing disagreements found in the independent work.",
+      "principles": [
+        "Discover opinions independently and asynchronously before the meeting to avoid cross-influence.",
+        "Focus the live discussion only on areas of disagreement, not agreement.",
+        "Remove the goal of 'alignment' to prevent coercive consensus.",
+        "Utilize a single decision-maker or private voting mechanism rather than deciding via group consensus."
+      ],
+      "quote": "The only thing that's ever supposed to happen in a meeting is the discussion part."
+    },
+    {
+      "name": "Pre-Mortems with Kill Criteria",
+      "category": "product-strategy",
+      "summary": "An advanced version of the pre-mortem exercise that moves beyond just identifying risks. It requires establishing specific, observable signals (kill criteria) that, if observed, trigger an automatic, pre-agreed decision to stop or pivot.",
+      "principles": [
+        "Visualize a future failure to identify early warning signals.",
+        "Define clear 'kill criteria'—objective signals that the project is failing.",
+        "Pre-commit to specific actions (e.g., killing a deal, pivoting a feature) if those criteria are met.",
+        "Use this structure to overcome sunk cost bias and the desire to hope for the best despite bad signals."
+      ],
+      "quote": "So a pre-mortem, it's great only if you set up kill criteria. Commit to actions that you're going to take if you see those signals."
+    },
+    {
+      "name": "Shortening the Feedback Loop",
+      "category": "execution",
+      "summary": "A decision-making strategy for long-term bets (like investing or product roadmaps) that rejects the idea of 5-10 year feedback loops. It involves identifying necessary-but-not-sufficient intermediate markers to evaluate decision quality in the near term.",
+      "principles": [
+        "Reject the premise that long-term outcomes prevent current decision analysis.",
+        "Identify proxies or intermediate milestones (e.g., Series A funding) that correlate with the ultimate success metric.",
+        "Track forecasting accuracy against these shorter-term proxies.",
+        "Make implicit models explicit to evaluate if the logic holds up over months, not decades."
+      ],
+      "quote": "There is no such thing as a long feedback loop. And the way you choose to shorten the feedback loop is to say, what are the things that are correlated with the outcome that I eventually desire?"
+    }
+  ],
+  "filename": "Annie Duke"
+}

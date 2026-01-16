@@ -1,0 +1,56 @@
+{
+  "guest": {
+    "name": "Anton Osika",
+    "title": "Co-founder and CEO",
+    "company": "Lovable"
+  },
+  "keyTakeaways": [
+    "Lovable achieved over $10M ARR in its first two months with a team of just 15 people by leveraging AI foundation models and an obsession with user experience.",
+    "The 'scaling law' for AI coding tools involves systematically identifying where the AI gets 'stuck' (e.g., authentication, payments) and rigorously tuning the system to resolve those specific blockers.",
+    "The future of product management and engineering will prioritize 'taste' and problem discovery over pure implementation skills; being a generalist is becoming increasingly valuable.",
+    "To be in the top 1% of AI tool users, one must spend a full week building a solution end-to-end to master the nuances of prompting and debugging.",
+    "Hiring at Lovable follows a 'Shackleton' approach: filtering for candidates who want high urgency, long hours, and difficult missions, validated through 1-day to 1-week work trials.",
+    "Lovable allows users to edit UI visually while the AI updates the code in the background, bridging the gap between no-code ease and full-code flexibility.",
+    "Communication with AI requires extreme clarity; users succeed by explaining exactly what they expect and distinguishing between what is working and what isn't, rather than generic complaints.",
+    "The company operates without traditional product managers, relying on an engineering-led roadmap that prioritizes immediate bottleneck removal over long-term planning."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Unstuck' Scaling Framework",
+      "category": "execution",
+      "summary": "A technical and product development approach focused on identifying the exact moments where AI agents fail to complete complex tasks and systematically tuning the system to resolve those specific friction points. This turns manual intervention into automated reliability.",
+      "principles": [
+        "Identify high-frequency failure points (e.g., login flows, database persistence).",
+        "Implement quantitative tuning to address specific 'stuck' states.",
+        "Provide a 'Chat Mode' for users to debug logic when the agent fails.",
+        "Focus on reliability over feature breadth initially."
+      ],
+      "quote": "What we did was to painstakingly identify places where it got stuck... and tune the entire system quantitatively and having a very fast feedback loop to improve it in the areas where it got stuck."
+    },
+    {
+      "name": "Shackleton-Style Team Building",
+      "category": "team-culture",
+      "summary": "A hiring methodology inspired by Ernest Shackleton’s expeditions, designed to filter out candidates seeking comfort and attract those obsessed with high-urgency, difficult missions. It relies on work simulations rather than standard interviews.",
+      "principles": [
+        "Use job descriptions that explicitly warn against comfortable work environments.",
+        "Require a paid work trial (1 day to 1 week) to test collaboration and output.",
+        "Prioritize 'cracked' generalists who can handle design, code, and product taste.",
+        "Utilize high-bandwidth in-person time (e.g., team lunches) to solve problems rapidly."
+      ],
+      "quote": "Long hours, high pace, candidates must thrive under a high urgency... those seeking comfortable work need not apply."
+    },
+    {
+      "name": "Minimum Lovable Product (MLP)",
+      "category": "product-strategy",
+      "summary": "An evolution of the MVP concept that prioritizes product quality and user delight immediately, rather than just functional viability. This is achieved by packaging AI capabilities in a way that non-technical users can refine visually and interactively.",
+      "principles": [
+        "Move from MVP to Lovable Product to Absolutely Lovable Product.",
+        "Enable visual editing that writes back to the codebase (keeping the 'human in the loop').",
+        "Focus on the packaging of the technology, not just the underlying model.",
+        "Growth is driven by product love and organic sharing rather than paid marketing."
+      ],
+      "quote": "A lot of jargon that I like to use to emphasize what we should be striving for is building a minimum lovable product and then building a lovable product and then building an absolutely lovable product."
+    }
+  ],
+  "filename": "Anton Osika"
+}

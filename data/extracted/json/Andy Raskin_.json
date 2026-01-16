@@ -1,0 +1,33 @@
+{
+  "guest": {
+    "name": "Andy Raskin",
+    "title": "Strategic Narrative Consultant",
+    "company": "Andy Raskin"
+  },
+  "keyTakeaways": [
+    "Most companies pitch like an 'Arrogant Doctor' (problem/solution), which is less effective than framing a narrative around a shift in the world.",
+    "A strategic narrative is not just for marketing; it serves as a 'North Star' for product roadmaps, fundraising, and hiring.",
+    "The core of a great pitch is identifying the shift from an 'Old Game' to a 'New Game' (e.g., Salesforce shifting from Software to Cloud).",
+    "To create true urgency, you must name the stakes: show that the future is split between a negative outcome (losers) and a positive outcome (winners).",
+    "Focusing on 'Category Creation' can be limiting; instead, focus on defining a movement.",
+    "The narrative should turn the prospect into the hero of the story, rather than making the company the hero.",
+    "CEOs must own and drive the narrative to ensure it provides 'air cover' for sales, marketing, and product teams.",
+    "Effective narratives can be tested in sales calls by asking, 'Am I crazy, or are you seeing this shift?' to gauge resonance."
+  ],
+  "methodologies": [
+    {
+      "name": "The Strategic Narrative Framework",
+      "category": "product-strategy",
+      "summary": "A 5-step framework designed to align teams and customers around a shared story. Instead of pitching a product's features or solving a specific problem, it frames the company's offering as the necessary tool to survive and win in a world that has fundamentally changed.",
+      "principles": [
+        "Name the undeniable shift in the world (Old Game vs. New Game).",
+        "Name the stakes (Winners vs. Losers) to demonstrate why the status quo is no longer safe.",
+        "Name the object of the new game (The 'Promised Land' or goal).",
+        "Identify the obstacles that make reaching the goal difficult.",
+        "Present the solution/product as the 'magic gifts' that help overcome the obstacles."
+      ],
+      "quote": "This structure really is about defining a movement, and that's very different from, 'Hey, I'm going to solve your problem.'"
+    }
+  ],
+  "filename": "Andy Raskin_"
+}

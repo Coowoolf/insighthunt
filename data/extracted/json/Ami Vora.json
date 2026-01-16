@@ -1,0 +1,55 @@
+{
+  "guest": {
+    "name": "Ami Vora",
+    "title": "Chief Product Officer",
+    "company": "Faire"
+  },
+  "keyTakeaways": [
+    "Respond to profound disagreement with curiosity rather than defensiveness, using the phrase 'Fascinating, you have to tell me more why you think that.'",
+    "Use the 'Coat of the Job' technique when evaluating career moves: focus on the emotional reality of the day-to-day work rather than just the logical 'spreadsheet' pros and cons.",
+    "The 'Hill Climb' metaphor explains that moving from a local optimum to a global optimum requires traversing a 'valley' where things might feel worse before they get better.",
+    "Executives have 'Dinosaur Brains' in product reviews: they can only hold ~3 facts at a time, so PMs must bring clear recommendations, not just raw data.",
+    "Execution eats strategy for breakfast: It is better to have good execution on a mediocre strategy (because you learn and iterate) than poor execution on a perfect strategy.",
+    "Avoid 'Toddler Soccer' in goal setting, where every team chases the same high-level metric (like GMV); instead, assign distinct input metrics that ladder up to the top goal.",
+    "When receiving feedback to change your personality (e.g., 'be less aggressive'), focus on expanding your toolkit to handle different situations rather than 'shrinking' who you are."
+  ],
+  "methodologies": [
+    {
+      "name": "The Dinosaur Brain Approach to Product Reviews",
+      "category": "career-leadership",
+      "summary": "A framework for managing up during product reviews by assuming executives have limited cognitive capacity for details ('dinosaur brains'). The presenter's role is to synthesize complexity into a clear recommendation, while the executive provides pattern matching and context.",
+      "principles": [
+        "Executives can only hold ~3 facts at a time; keep it simple.",
+        "The manager owns context; the PM owns the recommendation.",
+        "Use reviews to calibrate on principles for future decisions, not just to solve the immediate problem.",
+        "Bring the minimal amount of information needed to support a clean recommendation."
+      ],
+      "quote": "Assume that executives have a little tiny dinosaur brain... we can really only hold three facts at the same time."
+    },
+    {
+      "name": "Metaphor-Driven Product Alignment",
+      "category": "product-strategy",
+      "summary": "Using evocative metaphors and imagery to define the 'feeling' of a product. This creates a shared narrative that guides the team on micro-decisions (design, tone, features) without needing constant specific direction.",
+      "principles": [
+        "Define what you want the user to feel (e.g., 'sitting in Dolores Park').",
+        "Build an 'emulator' of your user or key stakeholders in your head to predict reactions.",
+        "Use narrative to carry the weight of decision-making as the team scales.",
+        "Focus on universal human experiences (e.g., WhatsApp as 'face-to-face communication')."
+      ],
+      "quote": "If we all agree that the feeling of something should be, I'm sitting in Dolores Park with my friends on a sunny Saturday, then people will just naturally build something that feels more consistent."
+    },
+    {
+      "name": "Anti-Toddler Soccer Goal Setting",
+      "category": "growth-metrics",
+      "summary": "A method for organizational goal setting that prevents all teams from chasing the same output metric simultaneously. It involves deconstructing the customer journey into distinct input metrics for different teams.",
+      "principles": [
+        "Avoid assigning the same top-line metric (like Revenue/GMV) to everyone.",
+        "Deconstruct the customer outcome into distinct input metrics (e.g., conversion, reorders, traffic).",
+        "Ensure distinct goals ladder up to the unified company outcome.",
+        "Accept that different incentives create healthy tension between teams."
+      ],
+      "quote": "That leads to toddler soccer, where everybody just runs to the same surface... everyone's tripping on each other... instead... play the entire field."
+    }
+  ],
+  "filename": "Ami Vora"
+}

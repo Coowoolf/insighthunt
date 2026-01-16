@@ -1,0 +1,43 @@
+{
+  "guest": {
+    "name": "Andy Johns",
+    "title": "Former VP of Product & Growth",
+    "company": "Wealthfront / Clues.Life"
+  },
+  "keyTakeaways": [
+    "High achievement is often a maladaptive coping mechanism used to mask deep emotional wounds or childhood trauma, leading to eventual burnout.",
+    "Burnout is not just about working too hard; it is often the result of an identity crisis where old survival mechanisms no longer serve the individual.",
+    "The body acts as a scoreboard for mental health; physical symptoms like sleep disruption, teeth grinding, and heart issues are often the first indicators of psychological distress.",
+    "True personal transformation requires a 'death before dying,' where one must let go of their old identity and ego to make space for a more authentic self.",
+    "Society conditions individuals to trade their unique individuality for acceptance and connection, and reclaiming that individuality is a terrifying but necessary process for healing.",
+    "There is no universal prescription for mental health; individuals must find their own 'path to Bangkok' through experimentation with therapy, meditation, writing, or other modalities.",
+    "The 'unhappy achiever' cycle can only be broken by shifting from an external validation model (climbing the mountain) to an internal surrender model (floating down the river)."
+  ],
+  "methodologies": [
+    {
+      "name": "The Four Steps of Deep Personal Transformation",
+      "category": "career-leadership",
+      "summary": "A sequential framework for navigating fundamental life changes and rewriting one's internal narrative, moving from a state of distress to a state of integrated identity.",
+      "principles": [
+        "Suffering: Acknowledging the rock bottom or acute pain that acts as the catalyst for change.",
+        "Seeking Truth: rigorously investigating the root causes of suffering, often digging into the subconscious and childhood history.",
+        "Self-Compassion: Understanding that the suffering isn't one's fault and rewriting the internal narrative with love.",
+        "Compassion for Others: The natural outcome of self-understanding, realizing others are also acting out their own past conditioning."
+      ],
+      "quote": "First, you begin with suffering, and then second, you seek the truth for your suffering... Once you discover the truth of your suffering... that's when you move to step three, which is you begin to experience and to practice self-compassion."
+    },
+    {
+      "name": "The River Surrender Mindset",
+      "category": "career-leadership",
+      "summary": "A philosophical shift from the 'Mountain Climber' mentality—constant striving, optimization, and conquest—to a 'River Floater' mentality that emphasizes surrender and intuition.",
+      "principles": [
+        "Stop fighting the current: Resistance to reality causes drowning/burnout.",
+        "Mummy Mode: When overwhelmed, surrender control rather than exerting more force.",
+        "Intuitive Navigation: Pay attention to signals and currents rather than rigidly planning the destination.",
+        "Rejection of Optimization: Abandon the need to maximize every aspect of life and career."
+      ],
+      "quote": "Instead of pursuing my life now as a mountain to be climbed in the hopes that reaching the top will make me feel good again, I'm instead trying to float down river."
+    }
+  ],
+  "filename": "Andy Johns"
+}

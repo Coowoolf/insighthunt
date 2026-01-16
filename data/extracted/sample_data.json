@@ -538,5 +538,526 @@
       }
     ],
     "filename": "Alisa Cohn"
+  },
+  {
+    "guest": {
+      "name": "Ami Vora",
+      "title": "Chief Product Officer",
+      "company": "Faire"
+    },
+    "keyTakeaways": [
+      "Respond to profound disagreement with curiosity rather than defensiveness, using the phrase 'Fascinating, you have to tell me more why you think that.'",
+      "Use the 'Coat of the Job' technique when evaluating career moves: focus on the emotional reality of the day-to-day work rather than just the logical 'spreadsheet' pros and cons.",
+      "The 'Hill Climb' metaphor explains that moving from a local optimum to a global optimum requires traversing a 'valley' where things might feel worse before they get better.",
+      "Executives have 'Dinosaur Brains' in product reviews: they can only hold ~3 facts at a time, so PMs must bring clear recommendations, not just raw data.",
+      "Execution eats strategy for breakfast: It is better to have good execution on a mediocre strategy (because you learn and iterate) than poor execution on a perfect strategy.",
+      "Avoid 'Toddler Soccer' in goal setting, where every team chases the same high-level metric (like GMV); instead, assign distinct input metrics that ladder up to the top goal.",
+      "When receiving feedback to change your personality (e.g., 'be less aggressive'), focus on expanding your toolkit to handle different situations rather than 'shrinking' who you are."
+    ],
+    "methodologies": [
+      {
+        "name": "The Dinosaur Brain Approach to Product Reviews",
+        "category": "career-leadership",
+        "summary": "A framework for managing up during product reviews by assuming executives have limited cognitive capacity for details ('dinosaur brains'). The presenter's role is to synthesize complexity into a clear recommendation, while the executive provides pattern matching and context.",
+        "principles": [
+          "Executives can only hold ~3 facts at a time; keep it simple.",
+          "The manager owns context; the PM owns the recommendation.",
+          "Use reviews to calibrate on principles for future decisions, not just to solve the immediate problem.",
+          "Bring the minimal amount of information needed to support a clean recommendation."
+        ],
+        "quote": "Assume that executives have a little tiny dinosaur brain... we can really only hold three facts at the same time."
+      },
+      {
+        "name": "Metaphor-Driven Product Alignment",
+        "category": "product-strategy",
+        "summary": "Using evocative metaphors and imagery to define the 'feeling' of a product. This creates a shared narrative that guides the team on micro-decisions (design, tone, features) without needing constant specific direction.",
+        "principles": [
+          "Define what you want the user to feel (e.g., 'sitting in Dolores Park').",
+          "Build an 'emulator' of your user or key stakeholders in your head to predict reactions.",
+          "Use narrative to carry the weight of decision-making as the team scales.",
+          "Focus on universal human experiences (e.g., WhatsApp as 'face-to-face communication')."
+        ],
+        "quote": "If we all agree that the feeling of something should be, I'm sitting in Dolores Park with my friends on a sunny Saturday, then people will just naturally build something that feels more consistent."
+      },
+      {
+        "name": "Anti-Toddler Soccer Goal Setting",
+        "category": "growth-metrics",
+        "summary": "A method for organizational goal setting that prevents all teams from chasing the same output metric simultaneously. It involves deconstructing the customer journey into distinct input metrics for different teams.",
+        "principles": [
+          "Avoid assigning the same top-line metric (like Revenue/GMV) to everyone.",
+          "Deconstruct the customer outcome into distinct input metrics (e.g., conversion, reorders, traffic).",
+          "Ensure distinct goals ladder up to the unified company outcome.",
+          "Accept that different incentives create healthy tension between teams."
+        ],
+        "quote": "That leads to toddler soccer, where everybody just runs to the same surface... everyone's tripping on each other... instead... play the entire field."
+      }
+    ],
+    "filename": "Ami Vora"
+  },
+  {
+    "guest": {
+      "name": "Amjad Masad",
+      "title": "Co-founder and CEO",
+      "company": "Replit"
+    },
+    "keyTakeaways": [
+      "Replit has evolved into an end-to-end platform that allows users to build, deploy, and monetize software, utilizing a new AI Agent that acts as a 'developer in your pocket'.",
+      "The 'Replit Agent' allows non-technical users to build full-stack applications (database, backend, frontend) simply by prompting, reducing development time from days to minutes.",
+      "The cost of software production is approaching zero, which, according to the Jevons paradox, will likely lead to a massive increase in total software consumption and creation.",
+      "The bottleneck in product development is shifting from execution (engineering time) to idea generation; the most valuable skill for PMs will become 'being generative'.",
+      "Amjad's Law states that the ROI of learning to code doubles every six months because understanding how to guide and debug AI tools exponentially increases a user's creative output.",
+      "Future organizational structures may consist of 'Design Engineers' who span the spectrum of design, product, and code, eliminating traditional silos.",
+      "Replit creates 'AI Computer Interfaces' (ACI)—environments specifically designed for LLMs to interact with tools via text, rather than forcing AI to use human visual interfaces.",
+      "We may soon see billion-dollar companies run by a single person where development, support, and operations are handled entirely by AI agents."
+    ],
+    "methodologies": [
+      {
+        "name": "Amjad's Law of Coding ROI",
+        "category": "career-leadership",
+        "summary": "A heuristic suggesting that as AI tools improve, the leverage gained by having technical skills increases exponentially rather than decreasing. While AI writes the syntax, the human ability to understand architecture, debug, and 'unblock' the agent becomes a superpower.",
+        "principles": [
+          "Focus on learning debugging and system architecture over syntax.",
+          "Use AI as a junior developer that requires management and unblocking.",
+          "Learn to read code and prompt effectively to fix errors.",
+          "Recognize that technical literacy unblocks creative potential in an AI-native world."
+        ],
+        "quote": "The return on investment for learn to code is doubling every six months."
+      },
+      {
+        "name": "The Generative Product Manager",
+        "category": "execution",
+        "summary": "A shift in the product management function where the primary role moves from defining requirements for others to directly generating working software. This removes the 'translation layer' between idea and execution.",
+        "principles": [
+          "Shift focus from managing backlogs to generating ideas.",
+          "Build functional prototypes (MVPs) instead of static mockups or PRDs.",
+          "Use AI tools to test feasibility and user value immediately.",
+          "Eliminate silos by using code/working apps as the common language between design and engineering."
+        ],
+        "quote": "Actually, you become limited by how fast you can generate ideas."
+      },
+      {
+        "name": "AI Computer Interfaces (ACI)",
+        "category": "product-strategy",
+        "summary": "A design framework for building software tools that AI agents can use autonomously. Unlike HCI (Human-Computer Interaction), ACI focuses on exposing infrastructure, logs, and tools in text-based formats optimized for LLM reasoning.",
+        "principles": [
+          "Treat the AI Agent as a 'user' within a multiplayer environment.",
+          "Provide text-based representations of tools (terminal, editor, deployment) rather than visual GUIs.",
+          "Implement a 'Society of Models' where different agents handle specific tasks (manager, coder, critic).",
+          "Enable the AI to proactively check its own work (e.g., taking screenshots to verify rendering)."
+        ],
+        "quote": "So sort of like HCI is now a ACI and turns out LLMs need interfaces that are actually quite different than humans."
+      }
+    ],
+    "filename": "Amjad Masad"
+  },
+  {
+    "guest": {
+      "name": "Andrew Wilkinson",
+      "title": "Co-founder and CEO",
+      "company": "Tiny"
+    },
+    "keyTakeaways": [
+      "Apply the 'Fish where the fish are' principle: target existing markets with proven demand rather than trying to invent entirely new categories or behaviors.",
+      "First-time entrepreneurs should start with 'baby weights' (simple service businesses) to build confidence before attempting complex, venture-scale startups.",
+      "Boring businesses (e.g., government form filling, pressure washing) often offer better opportunities than flashy consumer apps because they face less competition.",
+      "When evaluating business ideas, leverage your 'unfair advantage'—a unique intersection of your skills, passions, and background.",
+      "Avoid the 'I can do it better' trap in industries with high failure rates (like restaurants or news); usually, the business model wins over management talent.",
+      "In hiring, prioritize fully formed talent over potential; if you think about firing someone even once, you should likely fire them immediately.",
+      "Leverage AI agents (using tools like Lindy and Replit) to automate personal workflows, effectively hiring a 24/7 employee for negligible cost.",
+      "Wealth does not cure anxiety or unhappiness; addressing mental health directly (therapy, medication) is often more effective than achieving financial milestones."
+    ],
+    "methodologies": [
+      {
+        "name": "Fish Where the Fish Are",
+        "category": "product-strategy",
+        "summary": "A framework for idea generation that prioritizes entering markets with established demand and willingness to pay, rather than creating new markets from scratch. It suggests finding niche 'fishing holes' within proven ecosystems to avoid the hyper-competition of mainstream trends.",
+        "principles": [
+          "Avoid competitive markets where 'fishermen are elbowing each other'.",
+          "Seek boring, unsexy problems that people are desperate to solve.",
+          "Ensure the business model is proven, not a graveyard of failed attempts.",
+          "Start small to build 'business muscle' before scaling to complex models."
+        ],
+        "quote": "The biggest mistakes I've made have been going into business models where other people have repeatedly failed and thinking, I can do this better."
+      },
+      {
+        "name": "Lazy Leadership",
+        "category": "career-leadership",
+        "summary": "A management philosophy focused on delegating tasks one hates to focus solely on high-leverage areas of 'unfair advantage.' It emphasizes hiring fully capable specialists rather than trying to coach potential or change employee behavior.",
+        "principles": [
+          "Be 'Teflon for tasks' by delegating or automating work you dislike.",
+          "Hire people who are already excellent at the specific job needed.",
+          "Do not attempt to mentor someone out of a bad fit; people rarely change fundamental traits.",
+          "Utilize AI to replace administrative and repetitive knowledge work."
+        ],
+        "quote": "How do I get away from the things I hate as quickly as humanly possible? How do I be Teflon for tasks?"
+      },
+      {
+        "name": "The Tiny Acquisition Moat",
+        "category": "execution",
+        "summary": "An investment and operating strategy inspired by Warren Buffett, focusing on acquiring profitable businesses that are 'hard to mess up' and holding them long-term without interfering in daily operations.",
+        "principles": [
+          "Prioritize businesses with strong network effects or brand loyalty.",
+          "Look for communities where users refuse to leave (e.g., Letterboxd).",
+          "Avoid businesses held together by 'dental floss and duct tape' (key person risk).",
+          "Retain existing management and operations; do not fix what isn't broken."
+        ],
+        "quote": "I'm looking for a business... where it is so good that it's hard to mess up."
+      }
+    ],
+    "filename": "Andrew Wilkinson"
+  },
+  {
+    "guest": {
+      "name": "Andy Johns",
+      "title": "Former VP of Product & Growth",
+      "company": "Wealthfront / Clues.Life"
+    },
+    "keyTakeaways": [
+      "High achievement is often a maladaptive coping mechanism used to mask deep emotional wounds or childhood trauma, leading to eventual burnout.",
+      "Burnout is not just about working too hard; it is often the result of an identity crisis where old survival mechanisms no longer serve the individual.",
+      "The body acts as a scoreboard for mental health; physical symptoms like sleep disruption, teeth grinding, and heart issues are often the first indicators of psychological distress.",
+      "True personal transformation requires a 'death before dying,' where one must let go of their old identity and ego to make space for a more authentic self.",
+      "Society conditions individuals to trade their unique individuality for acceptance and connection, and reclaiming that individuality is a terrifying but necessary process for healing.",
+      "There is no universal prescription for mental health; individuals must find their own 'path to Bangkok' through experimentation with therapy, meditation, writing, or other modalities.",
+      "The 'unhappy achiever' cycle can only be broken by shifting from an external validation model (climbing the mountain) to an internal surrender model (floating down the river)."
+    ],
+    "methodologies": [
+      {
+        "name": "The Four Steps of Deep Personal Transformation",
+        "category": "career-leadership",
+        "summary": "A sequential framework for navigating fundamental life changes and rewriting one's internal narrative, moving from a state of distress to a state of integrated identity.",
+        "principles": [
+          "Suffering: Acknowledging the rock bottom or acute pain that acts as the catalyst for change.",
+          "Seeking Truth: rigorously investigating the root causes of suffering, often digging into the subconscious and childhood history.",
+          "Self-Compassion: Understanding that the suffering isn't one's fault and rewriting the internal narrative with love.",
+          "Compassion for Others: The natural outcome of self-understanding, realizing others are also acting out their own past conditioning."
+        ],
+        "quote": "First, you begin with suffering, and then second, you seek the truth for your suffering... Once you discover the truth of your suffering... that's when you move to step three, which is you begin to experience and to practice self-compassion."
+      },
+      {
+        "name": "The River Surrender Mindset",
+        "category": "career-leadership",
+        "summary": "A philosophical shift from the 'Mountain Climber' mentality—constant striving, optimization, and conquest—to a 'River Floater' mentality that emphasizes surrender and intuition.",
+        "principles": [
+          "Stop fighting the current: Resistance to reality causes drowning/burnout.",
+          "Mummy Mode: When overwhelmed, surrender control rather than exerting more force.",
+          "Intuitive Navigation: Pay attention to signals and currents rather than rigidly planning the destination.",
+          "Rejection of Optimization: Abandon the need to maximize every aspect of life and career."
+        ],
+        "quote": "Instead of pursuing my life now as a mountain to be climbed in the hopes that reaching the top will make me feel good again, I'm instead trying to float down river."
+      }
+    ],
+    "filename": "Andy Johns"
+  },
+  {
+    "guest": {
+      "name": "Andy Raskin",
+      "title": "Strategic Narrative Consultant",
+      "company": "Andy Raskin"
+    },
+    "keyTakeaways": [
+      "Most companies pitch like an 'Arrogant Doctor' (problem/solution), which is less effective than framing a narrative around a shift in the world.",
+      "A strategic narrative is not just for marketing; it serves as a 'North Star' for product roadmaps, fundraising, and hiring.",
+      "The core of a great pitch is identifying the shift from an 'Old Game' to a 'New Game' (e.g., Salesforce shifting from Software to Cloud).",
+      "To create true urgency, you must name the stakes: show that the future is split between a negative outcome (losers) and a positive outcome (winners).",
+      "Focusing on 'Category Creation' can be limiting; instead, focus on defining a movement.",
+      "The narrative should turn the prospect into the hero of the story, rather than making the company the hero.",
+      "CEOs must own and drive the narrative to ensure it provides 'air cover' for sales, marketing, and product teams.",
+      "Effective narratives can be tested in sales calls by asking, 'Am I crazy, or are you seeing this shift?' to gauge resonance."
+    ],
+    "methodologies": [
+      {
+        "name": "The Strategic Narrative Framework",
+        "category": "product-strategy",
+        "summary": "A 5-step framework designed to align teams and customers around a shared story. Instead of pitching a product's features or solving a specific problem, it frames the company's offering as the necessary tool to survive and win in a world that has fundamentally changed.",
+        "principles": [
+          "Name the undeniable shift in the world (Old Game vs. New Game).",
+          "Name the stakes (Winners vs. Losers) to demonstrate why the status quo is no longer safe.",
+          "Name the object of the new game (The 'Promised Land' or goal).",
+          "Identify the obstacles that make reaching the goal difficult.",
+          "Present the solution/product as the 'magic gifts' that help overcome the obstacles."
+        ],
+        "quote": "This structure really is about defining a movement, and that's very different from, 'Hey, I'm going to solve your problem.'"
+      }
+    ],
+    "filename": "Andy Raskin_"
+  },
+  {
+    "guest": {
+      "name": "Anneka Gupta",
+      "title": "Chief Product Officer",
+      "company": "Rubrik"
+    },
+    "keyTakeaways": [
+      "To be seen as strategic, you must both articulate a compelling 'why' and act as a change agent for hard, long-term decisions.",
+      "Reframe difficult management challenges (like layoffs or conflict) as 'fun' learning opportunities to shift from a scarcity to an abundance mindset.",
+      "Summarization is a tactical superpower; summarizing meeting discussions makes people feel heard and positions you as a strategic thinker.",
+      "Adopt the role of a 'historian' when joining a company: study past decisions and failures to understand organizational context and baggage.",
+      "Make decisions with 70% of the information; committing to a decision generates higher fidelity data than staying in analysis paralysis.",
+      "When dealing with difficult personalities, replace frustration with gratitude by asking what specific skill or trait you can learn from them.",
+      "Breaking into product management is most effective via internal transfers from product-adjacent roles (support, sales, engineering) rather than applying externally without experience.",
+      "To succeed in 'Founder Mode' as a product leader, you must deeply understand the business details to earn the right to make significant course corrections."
+    ],
+    "methodologies": [
+      {
+        "name": "The Strategic 'Why' & Change Agent Framework",
+        "category": "product-strategy",
+        "summary": "A dual-pronged approach to strategic leadership that combines narrative articulation with execution resilience. It posits that strategy is not just about having ideas, but about explaining the purpose clearly and having the courage to execute difficult changes.",
+        "principles": [
+          "Articulate a simple, compelling 'why' behind every direction.",
+          "Champion hard changes that serve the long-term interest, even if execution is difficult.",
+          "Use active summarization in meetings to synthesize diverse views and drive alignment.",
+          "Focus on making ideas 'one click better' rather than always seeking radical reinvention."
+        ],
+        "quote": "When people say, 'I want someone that's strategic,' what they're really saying is, 'I want someone that can come up with and articulate a compelling and simple why behind the decisions and the direction of the company and product.'"
+      },
+      {
+        "name": "The Abundance Mindset for Leadership",
+        "category": "team-culture",
+        "summary": "A psychological framework for navigating high-stress leadership challenges by reframing them as opportunities for fun and learning. This method focuses on energy management and emotional regulation to maintain effectiveness during crises.",
+        "principles": [
+          "Reframe daunting tasks (e.g., restructuring) as 'fun' puzzles to solve.",
+          "Manage energy, not just time; schedule difficult tasks for peak energy hours.",
+          "Transform conflict with difficult personalities into gratitude by identifying learning opportunities from their behavior.",
+          "Validate emotions during hard feedback but delay reaction to respond with curiosity."
+        ],
+        "quote": "When I was able to switch my mindset and say, 'Well, I'm actually going to figure out a way to have fun with this,' it actually changed my entire [framework] for how to deal with super difficult situations."
+      },
+      {
+        "name": "The Historian Decision-Making Model",
+        "category": "execution",
+        "summary": "A method to improve decision velocity and quality by systematically analyzing a company's past choices. By understanding the context of previous successes and failures, leaders can navigate organizational baggage and make informed hypotheses.",
+        "principles": [
+          "Audit past product launches to understand why they succeeded or failed.",
+          "Identify the 'baggage' stakeholders carry regarding specific strategies.",
+          "Commit to decisions quickly to move from hypothetical to actual learning.",
+          "Reward the learning process rather than just the immediate outcome of the decision."
+        ],
+        "quote": "I tried to construct this past knowledge of what had happened and what were the decisions that were made... so that I could better understand how to make decisions going forward."
+      }
+    ],
+    "filename": "Anneka Gupta"
+  },
+  {
+    "guest": {
+      "name": "Annie Duke",
+      "title": "Special Partner",
+      "company": "First Round Capital"
+    },
+    "keyTakeaways": [
+      "To improve decision quality, you must take what is implicit (intuition) and make it explicit so it can be tested and tracked.",
+      "Meetings generally have three purposes: discover, discuss, and decide. However, only the 'discuss' portion should happen synchronously in the room.",
+      "True alignment in a group is often a myth and seeking it can lead to coercion; instead, leaders should aim for understanding diverse views and then deciding.",
+      "Use the 'Nevertheless' framework: Acknowledge that a team member was heard, but state that the decision is going a different way regardless.",
+      "There is no such thing as a long feedback loop; you can shorten loops by identifying intermediate signals correlated with the long-term outcome.",
+      "Pre-mortems are ineffective unless paired with 'kill criteria'—specific signals that trigger pre-committed actions to stop or pivot.",
+      "If you are currently thinking about quitting a project or job, you are likely already past the optimal time to have quit due to sunk cost bias.",
+      "Group brainstorming often leads to groupthink; opinions should be gathered independently and asynchronously before discussion."
+    ],
+    "methodologies": [
+      {
+        "name": "The Nominal Group Meeting Framework",
+        "category": "team-culture",
+        "summary": "A restructuring of meeting culture where the 'discovery' of ideas and the final 'decision' happen asynchronously or independently. The synchronous meeting time is reserved exclusively for discussing disagreements found in the independent work.",
+        "principles": [
+          "Discover opinions independently and asynchronously before the meeting to avoid cross-influence.",
+          "Focus the live discussion only on areas of disagreement, not agreement.",
+          "Remove the goal of 'alignment' to prevent coercive consensus.",
+          "Utilize a single decision-maker or private voting mechanism rather than deciding via group consensus."
+        ],
+        "quote": "The only thing that's ever supposed to happen in a meeting is the discussion part."
+      },
+      {
+        "name": "Pre-Mortems with Kill Criteria",
+        "category": "product-strategy",
+        "summary": "An advanced version of the pre-mortem exercise that moves beyond just identifying risks. It requires establishing specific, observable signals (kill criteria) that, if observed, trigger an automatic, pre-agreed decision to stop or pivot.",
+        "principles": [
+          "Visualize a future failure to identify early warning signals.",
+          "Define clear 'kill criteria'—objective signals that the project is failing.",
+          "Pre-commit to specific actions (e.g., killing a deal, pivoting a feature) if those criteria are met.",
+          "Use this structure to overcome sunk cost bias and the desire to hope for the best despite bad signals."
+        ],
+        "quote": "So a pre-mortem, it's great only if you set up kill criteria. Commit to actions that you're going to take if you see those signals."
+      },
+      {
+        "name": "Shortening the Feedback Loop",
+        "category": "execution",
+        "summary": "A decision-making strategy for long-term bets (like investing or product roadmaps) that rejects the idea of 5-10 year feedback loops. It involves identifying necessary-but-not-sufficient intermediate markers to evaluate decision quality in the near term.",
+        "principles": [
+          "Reject the premise that long-term outcomes prevent current decision analysis.",
+          "Identify proxies or intermediate milestones (e.g., Series A funding) that correlate with the ultimate success metric.",
+          "Track forecasting accuracy against these shorter-term proxies.",
+          "Make implicit models explicit to evaluate if the logic holds up over months, not decades."
+        ],
+        "quote": "There is no such thing as a long feedback loop. And the way you choose to shorten the feedback loop is to say, what are the things that are correlated with the outcome that I eventually desire?"
+      }
+    ],
+    "filename": "Annie Duke"
+  },
+  {
+    "guest": {
+      "name": "Annie Pearl",
+      "title": "Chief Product Officer",
+      "company": "Calendly"
+    },
+    "keyTakeaways": [
+      "Calendly's viral loop acts as its primary growth engine, with 70% of signups coming from people who received a scheduling link.",
+      "The company is transitioning from 99% Product-Led Growth (PLG) to a hybrid model, with Sales-Led Growth now representing 20% of ARR and growing fastest.",
+      "Effective product strategy requires 'Focus Wisely': rejecting popular requests (like Venmo integration) to serve specific target personas (Sales, Recruiting, CS).",
+      "Calendly's origin story involves the founder liquidating his 401k and hiring Ukrainian contractors, who effectively became the first 10 users and viral vectors.",
+      "To transition into Product Management without a technical background, internal transfers via Subject Matter Expert (SME) programs are often more successful than external applications.",
+      "Product planning should move away from long-term date commitments toward committing to specific phases (Discovery, Solutioning, Build).",
+      "Cultural rituals like 'OPA' (Opportunity/Problem Assessment) and 'Competitive War Gaming' help foster peer feedback and market awareness."
+    ],
+    "methodologies": [
+      {
+        "name": "Playing to Win Framework",
+        "category": "product-strategy",
+        "summary": "A strategic framework adapted for product management that forces the organization to make specific, integrated choices about their market approach rather than trying to serve everyone.",
+        "principles": [
+          "Define a clear 'Winning Aspiration'.",
+          "Explicitly choose 'Where to Play' (specific markets, segments, and personas).",
+          "Determine 'How to Win' with that specific target audience.",
+          "Use the strategy to empower teams to say 'no' to non-core features."
+        ],
+        "quote": "Strategy is really just an integrated set of choices that outline how you're going to win in whatever marketplace you choose."
+      },
+      {
+        "name": "Phased Development Commitments",
+        "category": "execution",
+        "summary": "A product development lifecycle that avoids estimating delivery dates for distant projects, instead committing only to dates for the current phase of work.",
+        "principles": [
+          "Commit only to dates within immediate control (e.g., Discovery completion).",
+          "Phase 1: Discovery (Problem research).",
+          "Phase 2: Solutioning (Prototyping and user testing).",
+          "Phase 3: Build (Engineering estimation happens here).",
+          "Phase 4: Launch, Measure, and Iterate."
+        ],
+        "quote": "We've gotten a lot better at making the commitments around the work that's right in front of us versus making a commitment around a project six months out."
+      },
+      {
+        "name": "OPA (Opportunity/Problem Assessment)",
+        "category": "team-culture",
+        "summary": "A recurring peer-review meeting for Product Managers to debate ideas and research without leadership presence, fostering psychological safety.",
+        "principles": [
+          "PMs spar and debate opportunities or problem definitions with peers.",
+          "Leadership (CPO) intentionally excludes themselves to remove judgment.",
+          "Focuses on rigorous debate and refining the 'why' before building.",
+          "Encourages transparency and honest feedback."
+        ],
+        "quote": "I don't even go to it... it's a meeting for PMs to really debate and discuss with each other... I really want everyone to be able to be open and transparent."
+      }
+    ],
+    "filename": "Annie Pearl"
+  },
+  {
+    "guest": {
+      "name": "Anton Osika",
+      "title": "Co-founder and CEO",
+      "company": "Lovable"
+    },
+    "keyTakeaways": [
+      "Lovable achieved over $10M ARR in its first two months with a team of just 15 people by leveraging AI foundation models and an obsession with user experience.",
+      "The 'scaling law' for AI coding tools involves systematically identifying where the AI gets 'stuck' (e.g., authentication, payments) and rigorously tuning the system to resolve those specific blockers.",
+      "The future of product management and engineering will prioritize 'taste' and problem discovery over pure implementation skills; being a generalist is becoming increasingly valuable.",
+      "To be in the top 1% of AI tool users, one must spend a full week building a solution end-to-end to master the nuances of prompting and debugging.",
+      "Hiring at Lovable follows a 'Shackleton' approach: filtering for candidates who want high urgency, long hours, and difficult missions, validated through 1-day to 1-week work trials.",
+      "Lovable allows users to edit UI visually while the AI updates the code in the background, bridging the gap between no-code ease and full-code flexibility.",
+      "Communication with AI requires extreme clarity; users succeed by explaining exactly what they expect and distinguishing between what is working and what isn't, rather than generic complaints.",
+      "The company operates without traditional product managers, relying on an engineering-led roadmap that prioritizes immediate bottleneck removal over long-term planning."
+    ],
+    "methodologies": [
+      {
+        "name": "The 'Unstuck' Scaling Framework",
+        "category": "execution",
+        "summary": "A technical and product development approach focused on identifying the exact moments where AI agents fail to complete complex tasks and systematically tuning the system to resolve those specific friction points. This turns manual intervention into automated reliability.",
+        "principles": [
+          "Identify high-frequency failure points (e.g., login flows, database persistence).",
+          "Implement quantitative tuning to address specific 'stuck' states.",
+          "Provide a 'Chat Mode' for users to debug logic when the agent fails.",
+          "Focus on reliability over feature breadth initially."
+        ],
+        "quote": "What we did was to painstakingly identify places where it got stuck... and tune the entire system quantitatively and having a very fast feedback loop to improve it in the areas where it got stuck."
+      },
+      {
+        "name": "Shackleton-Style Team Building",
+        "category": "team-culture",
+        "summary": "A hiring methodology inspired by Ernest Shackleton’s expeditions, designed to filter out candidates seeking comfort and attract those obsessed with high-urgency, difficult missions. It relies on work simulations rather than standard interviews.",
+        "principles": [
+          "Use job descriptions that explicitly warn against comfortable work environments.",
+          "Require a paid work trial (1 day to 1 week) to test collaboration and output.",
+          "Prioritize 'cracked' generalists who can handle design, code, and product taste.",
+          "Utilize high-bandwidth in-person time (e.g., team lunches) to solve problems rapidly."
+        ],
+        "quote": "Long hours, high pace, candidates must thrive under a high urgency... those seeking comfortable work need not apply."
+      },
+      {
+        "name": "Minimum Lovable Product (MLP)",
+        "category": "product-strategy",
+        "summary": "An evolution of the MVP concept that prioritizes product quality and user delight immediately, rather than just functional viability. This is achieved by packaging AI capabilities in a way that non-technical users can refine visually and interactively.",
+        "principles": [
+          "Move from MVP to Lovable Product to Absolutely Lovable Product.",
+          "Enable visual editing that writes back to the codebase (keeping the 'human in the loop').",
+          "Focus on the packaging of the technology, not just the underlying model.",
+          "Growth is driven by product love and organic sharing rather than paid marketing."
+        ],
+        "quote": "A lot of jargon that I like to use to emphasize what we should be striving for is building a minimum lovable product and then building a lovable product and then building an absolutely lovable product."
+      }
+    ],
+    "filename": "Anton Osika"
+  },
+  {
+    "guest": {
+      "name": "Anuj Rathi",
+      "title": "Chief Product and Marketing Officer at Jupiter Money (formerly SVP at Swiggy)",
+      "company": "Jupiter Money"
+    },
+    "keyTakeaways": [
+      "Product managers should act as 'full-stack influencers', influencing internal stakeholders and external users similar to sales and marketing roles.",
+      "Adopt the mindset that new users are lazy, vain, and selfish to design better onboarding and acquisition strategies.",
+      "The 'Working Backwards' process is most effective when teams create three divergent PR/FAQs to explore different strategic paths before committing.",
+      "Use the 'Four BBs' framework to allocate resources: Brilliant Basics (tech debt), Bread and Butter (core features), Big Bets (strategic moves), and Breaking Bad (pivots).",
+      "In complex marketplaces, standard OKRs often fail due to conflicting incentives; utilize Big Bets and narrative alignment instead.",
+      "Employ 'Show Don't Tell' sessions to visualize exact user scenarios pixel-by-pixel, linking marketing triggers directly to product experiences.",
+      "Diagnose team failure using three root causes: Can't do (capability), Won't do (motivation), or Not set up to do (environment/org design)."
+    ],
+    "methodologies": [
+      {
+        "name": "The 'Lazy, Vain, and Selfish' User Framework",
+        "category": "user-research",
+        "summary": "A mental model for designing new user experiences that assumes users are resistant to change. It pushes product managers to create immediate value and seamless onboarding to overcome user inertia.",
+        "principles": [
+          "Users are Lazy: They have no patience; the product must capture attention immediately.",
+          "Users are Vain: They are attached to their current habits and resist changing them.",
+          "Users are Selfish: The product must explicitly and quickly demonstrate 'what's in it for me'."
+        ],
+        "quote": "You have to think about users on modern internet consumers having three attributes. So they are lazy, they are vain, and they're selfish."
+      },
+      {
+        "name": "The Four BBs Strategy Framework",
+        "category": "product-strategy",
+        "summary": "A strategic prioritization framework used to allocate resources and align leadership on the mix of work required for the company's current stage.",
+        "principles": [
+          "Brilliant Basics: Mandatory tech debt and system hygiene.",
+          "Bread and Butter: Core feature enhancements, bug fixes, and optimization.",
+          "Big Bets: Large, cross-functional strategic initiatives.",
+          "Breaking Bad: Transformational pivots or redefining the company's core identity."
+        ],
+        "quote": "If I gave you a hundred focus points, how much will you put in each of these buckets... Brilliant Basics, Bread and Butter, Big Bets, and Breaking Bad."
+      },
+      {
+        "name": "Divergent Working Backwards (3 PR/FAQs)",
+        "category": "execution",
+        "summary": "An adaptation of Amazon's Working Backwards process where teams write three distinct, alternative Press Release/FAQs. This forces the exploration of divergent solutions before leadership selects a single path to commit to.",
+        "principles": [
+          "Write the Press Release first to define the launch date and customer value.",
+          "Develop three divergent strategic options/stories to avoid tunnel vision.",
+          "Use the FAQs to align cross-functional teams (engineering, legal, ops) on feasibility.",
+          "Select one path and commit fully ('disagree and commit')."
+        ],
+        "quote": "I really truly believe in the power of three. So I actually ask my teams to write three press releases, alternative and divergent."
+      }
+    ],
+    "filename": "Anuj Rathi"
   }
 ]

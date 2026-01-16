@@ -1,0 +1,56 @@
+{
+  "guest": {
+    "name": "Anneka Gupta",
+    "title": "Chief Product Officer",
+    "company": "Rubrik"
+  },
+  "keyTakeaways": [
+    "To be seen as strategic, you must both articulate a compelling 'why' and act as a change agent for hard, long-term decisions.",
+    "Reframe difficult management challenges (like layoffs or conflict) as 'fun' learning opportunities to shift from a scarcity to an abundance mindset.",
+    "Summarization is a tactical superpower; summarizing meeting discussions makes people feel heard and positions you as a strategic thinker.",
+    "Adopt the role of a 'historian' when joining a company: study past decisions and failures to understand organizational context and baggage.",
+    "Make decisions with 70% of the information; committing to a decision generates higher fidelity data than staying in analysis paralysis.",
+    "When dealing with difficult personalities, replace frustration with gratitude by asking what specific skill or trait you can learn from them.",
+    "Breaking into product management is most effective via internal transfers from product-adjacent roles (support, sales, engineering) rather than applying externally without experience.",
+    "To succeed in 'Founder Mode' as a product leader, you must deeply understand the business details to earn the right to make significant course corrections."
+  ],
+  "methodologies": [
+    {
+      "name": "The Strategic 'Why' & Change Agent Framework",
+      "category": "product-strategy",
+      "summary": "A dual-pronged approach to strategic leadership that combines narrative articulation with execution resilience. It posits that strategy is not just about having ideas, but about explaining the purpose clearly and having the courage to execute difficult changes.",
+      "principles": [
+        "Articulate a simple, compelling 'why' behind every direction.",
+        "Champion hard changes that serve the long-term interest, even if execution is difficult.",
+        "Use active summarization in meetings to synthesize diverse views and drive alignment.",
+        "Focus on making ideas 'one click better' rather than always seeking radical reinvention."
+      ],
+      "quote": "When people say, 'I want someone that's strategic,' what they're really saying is, 'I want someone that can come up with and articulate a compelling and simple why behind the decisions and the direction of the company and product.'"
+    },
+    {
+      "name": "The Abundance Mindset for Leadership",
+      "category": "team-culture",
+      "summary": "A psychological framework for navigating high-stress leadership challenges by reframing them as opportunities for fun and learning. This method focuses on energy management and emotional regulation to maintain effectiveness during crises.",
+      "principles": [
+        "Reframe daunting tasks (e.g., restructuring) as 'fun' puzzles to solve.",
+        "Manage energy, not just time; schedule difficult tasks for peak energy hours.",
+        "Transform conflict with difficult personalities into gratitude by identifying learning opportunities from their behavior.",
+        "Validate emotions during hard feedback but delay reaction to respond with curiosity."
+      ],
+      "quote": "When I was able to switch my mindset and say, 'Well, I'm actually going to figure out a way to have fun with this,' it actually changed my entire [framework] for how to deal with super difficult situations."
+    },
+    {
+      "name": "The Historian Decision-Making Model",
+      "category": "execution",
+      "summary": "A method to improve decision velocity and quality by systematically analyzing a company's past choices. By understanding the context of previous successes and failures, leaders can navigate organizational baggage and make informed hypotheses.",
+      "principles": [
+        "Audit past product launches to understand why they succeeded or failed.",
+        "Identify the 'baggage' stakeholders carry regarding specific strategies.",
+        "Commit to decisions quickly to move from hypothetical to actual learning.",
+        "Reward the learning process rather than just the immediate outcome of the decision."
+      ],
+      "quote": "I tried to construct this past knowledge of what had happened and what were the decisions that were made... so that I could better understand how to make decisions going forward."
+    }
+  ],
+  "filename": "Anneka Gupta"
+}

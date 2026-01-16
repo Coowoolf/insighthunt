@@ -1,0 +1,56 @@
+{
+  "guest": {
+    "name": "Annie Pearl",
+    "title": "Chief Product Officer",
+    "company": "Calendly"
+  },
+  "keyTakeaways": [
+    "Calendly's viral loop acts as its primary growth engine, with 70% of signups coming from people who received a scheduling link.",
+    "The company is transitioning from 99% Product-Led Growth (PLG) to a hybrid model, with Sales-Led Growth now representing 20% of ARR and growing fastest.",
+    "Effective product strategy requires 'Focus Wisely': rejecting popular requests (like Venmo integration) to serve specific target personas (Sales, Recruiting, CS).",
+    "Calendly's origin story involves the founder liquidating his 401k and hiring Ukrainian contractors, who effectively became the first 10 users and viral vectors.",
+    "To transition into Product Management without a technical background, internal transfers via Subject Matter Expert (SME) programs are often more successful than external applications.",
+    "Product planning should move away from long-term date commitments toward committing to specific phases (Discovery, Solutioning, Build).",
+    "Cultural rituals like 'OPA' (Opportunity/Problem Assessment) and 'Competitive War Gaming' help foster peer feedback and market awareness."
+  ],
+  "methodologies": [
+    {
+      "name": "Playing to Win Framework",
+      "category": "product-strategy",
+      "summary": "A strategic framework adapted for product management that forces the organization to make specific, integrated choices about their market approach rather than trying to serve everyone.",
+      "principles": [
+        "Define a clear 'Winning Aspiration'.",
+        "Explicitly choose 'Where to Play' (specific markets, segments, and personas).",
+        "Determine 'How to Win' with that specific target audience.",
+        "Use the strategy to empower teams to say 'no' to non-core features."
+      ],
+      "quote": "Strategy is really just an integrated set of choices that outline how you're going to win in whatever marketplace you choose."
+    },
+    {
+      "name": "Phased Development Commitments",
+      "category": "execution",
+      "summary": "A product development lifecycle that avoids estimating delivery dates for distant projects, instead committing only to dates for the current phase of work.",
+      "principles": [
+        "Commit only to dates within immediate control (e.g., Discovery completion).",
+        "Phase 1: Discovery (Problem research).",
+        "Phase 2: Solutioning (Prototyping and user testing).",
+        "Phase 3: Build (Engineering estimation happens here).",
+        "Phase 4: Launch, Measure, and Iterate."
+      ],
+      "quote": "We've gotten a lot better at making the commitments around the work that's right in front of us versus making a commitment around a project six months out."
+    },
+    {
+      "name": "OPA (Opportunity/Problem Assessment)",
+      "category": "team-culture",
+      "summary": "A recurring peer-review meeting for Product Managers to debate ideas and research without leadership presence, fostering psychological safety.",
+      "principles": [
+        "PMs spar and debate opportunities or problem definitions with peers.",
+        "Leadership (CPO) intentionally excludes themselves to remove judgment.",
+        "Focuses on rigorous debate and refining the 'why' before building.",
+        "Encourages transparency and honest feedback."
+      ],
+      "quote": "I don't even go to it... it's a meeting for PMs to really debate and discuss with each other... I really want everyone to be able to be open and transparent."
+    }
+  ],
+  "filename": "Annie Pearl"
+}

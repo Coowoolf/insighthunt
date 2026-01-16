@@ -1,0 +1,54 @@
+{
+  "guest": {
+    "name": "Anuj Rathi",
+    "title": "Chief Product and Marketing Officer at Jupiter Money (formerly SVP at Swiggy)",
+    "company": "Jupiter Money"
+  },
+  "keyTakeaways": [
+    "Product managers should act as 'full-stack influencers', influencing internal stakeholders and external users similar to sales and marketing roles.",
+    "Adopt the mindset that new users are lazy, vain, and selfish to design better onboarding and acquisition strategies.",
+    "The 'Working Backwards' process is most effective when teams create three divergent PR/FAQs to explore different strategic paths before committing.",
+    "Use the 'Four BBs' framework to allocate resources: Brilliant Basics (tech debt), Bread and Butter (core features), Big Bets (strategic moves), and Breaking Bad (pivots).",
+    "In complex marketplaces, standard OKRs often fail due to conflicting incentives; utilize Big Bets and narrative alignment instead.",
+    "Employ 'Show Don't Tell' sessions to visualize exact user scenarios pixel-by-pixel, linking marketing triggers directly to product experiences.",
+    "Diagnose team failure using three root causes: Can't do (capability), Won't do (motivation), or Not set up to do (environment/org design)."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Lazy, Vain, and Selfish' User Framework",
+      "category": "user-research",
+      "summary": "A mental model for designing new user experiences that assumes users are resistant to change. It pushes product managers to create immediate value and seamless onboarding to overcome user inertia.",
+      "principles": [
+        "Users are Lazy: They have no patience; the product must capture attention immediately.",
+        "Users are Vain: They are attached to their current habits and resist changing them.",
+        "Users are Selfish: The product must explicitly and quickly demonstrate 'what's in it for me'."
+      ],
+      "quote": "You have to think about users on modern internet consumers having three attributes. So they are lazy, they are vain, and they're selfish."
+    },
+    {
+      "name": "The Four BBs Strategy Framework",
+      "category": "product-strategy",
+      "summary": "A strategic prioritization framework used to allocate resources and align leadership on the mix of work required for the company's current stage.",
+      "principles": [
+        "Brilliant Basics: Mandatory tech debt and system hygiene.",
+        "Bread and Butter: Core feature enhancements, bug fixes, and optimization.",
+        "Big Bets: Large, cross-functional strategic initiatives.",
+        "Breaking Bad: Transformational pivots or redefining the company's core identity."
+      ],
+      "quote": "If I gave you a hundred focus points, how much will you put in each of these buckets... Brilliant Basics, Bread and Butter, Big Bets, and Breaking Bad."
+    },
+    {
+      "name": "Divergent Working Backwards (3 PR/FAQs)",
+      "category": "execution",
+      "summary": "An adaptation of Amazon's Working Backwards process where teams write three distinct, alternative Press Release/FAQs. This forces the exploration of divergent solutions before leadership selects a single path to commit to.",
+      "principles": [
+        "Write the Press Release first to define the launch date and customer value.",
+        "Develop three divergent strategic options/stories to avoid tunnel vision.",
+        "Use the FAQs to align cross-functional teams (engineering, legal, ops) on feasibility.",
+        "Select one path and commit fully ('disagree and commit')."
+      ],
+      "quote": "I really truly believe in the power of three. So I actually ask my teams to write three press releases, alternative and divergent."
+    }
+  ],
+  "filename": "Anuj Rathi"
+}

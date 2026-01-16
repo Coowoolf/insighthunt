@@ -1,0 +1,56 @@
+{
+  "guest": {
+    "name": "Andrew Wilkinson",
+    "title": "Co-founder and CEO",
+    "company": "Tiny"
+  },
+  "keyTakeaways": [
+    "Apply the 'Fish where the fish are' principle: target existing markets with proven demand rather than trying to invent entirely new categories or behaviors.",
+    "First-time entrepreneurs should start with 'baby weights' (simple service businesses) to build confidence before attempting complex, venture-scale startups.",
+    "Boring businesses (e.g., government form filling, pressure washing) often offer better opportunities than flashy consumer apps because they face less competition.",
+    "When evaluating business ideas, leverage your 'unfair advantage'—a unique intersection of your skills, passions, and background.",
+    "Avoid the 'I can do it better' trap in industries with high failure rates (like restaurants or news); usually, the business model wins over management talent.",
+    "In hiring, prioritize fully formed talent over potential; if you think about firing someone even once, you should likely fire them immediately.",
+    "Leverage AI agents (using tools like Lindy and Replit) to automate personal workflows, effectively hiring a 24/7 employee for negligible cost.",
+    "Wealth does not cure anxiety or unhappiness; addressing mental health directly (therapy, medication) is often more effective than achieving financial milestones."
+  ],
+  "methodologies": [
+    {
+      "name": "Fish Where the Fish Are",
+      "category": "product-strategy",
+      "summary": "A framework for idea generation that prioritizes entering markets with established demand and willingness to pay, rather than creating new markets from scratch. It suggests finding niche 'fishing holes' within proven ecosystems to avoid the hyper-competition of mainstream trends.",
+      "principles": [
+        "Avoid competitive markets where 'fishermen are elbowing each other'.",
+        "Seek boring, unsexy problems that people are desperate to solve.",
+        "Ensure the business model is proven, not a graveyard of failed attempts.",
+        "Start small to build 'business muscle' before scaling to complex models."
+      ],
+      "quote": "The biggest mistakes I've made have been going into business models where other people have repeatedly failed and thinking, I can do this better."
+    },
+    {
+      "name": "Lazy Leadership",
+      "category": "career-leadership",
+      "summary": "A management philosophy focused on delegating tasks one hates to focus solely on high-leverage areas of 'unfair advantage.' It emphasizes hiring fully capable specialists rather than trying to coach potential or change employee behavior.",
+      "principles": [
+        "Be 'Teflon for tasks' by delegating or automating work you dislike.",
+        "Hire people who are already excellent at the specific job needed.",
+        "Do not attempt to mentor someone out of a bad fit; people rarely change fundamental traits.",
+        "Utilize AI to replace administrative and repetitive knowledge work."
+      ],
+      "quote": "How do I get away from the things I hate as quickly as humanly possible? How do I be Teflon for tasks?"
+    },
+    {
+      "name": "The Tiny Acquisition Moat",
+      "category": "execution",
+      "summary": "An investment and operating strategy inspired by Warren Buffett, focusing on acquiring profitable businesses that are 'hard to mess up' and holding them long-term without interfering in daily operations.",
+      "principles": [
+        "Prioritize businesses with strong network effects or brand loyalty.",
+        "Look for communities where users refuse to leave (e.g., Letterboxd).",
+        "Avoid businesses held together by 'dental floss and duct tape' (key person risk).",
+        "Retain existing management and operations; do not fix what isn't broken."
+      ],
+      "quote": "I'm looking for a business... where it is so good that it's hard to mess up."
+    }
+  ],
+  "filename": "Andrew Wilkinson"
+}

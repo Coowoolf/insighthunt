@@ -1,0 +1,56 @@
+{
+  "guest": {
+    "name": "Amjad Masad",
+    "title": "Co-founder and CEO",
+    "company": "Replit"
+  },
+  "keyTakeaways": [
+    "Replit has evolved into an end-to-end platform that allows users to build, deploy, and monetize software, utilizing a new AI Agent that acts as a 'developer in your pocket'.",
+    "The 'Replit Agent' allows non-technical users to build full-stack applications (database, backend, frontend) simply by prompting, reducing development time from days to minutes.",
+    "The cost of software production is approaching zero, which, according to the Jevons paradox, will likely lead to a massive increase in total software consumption and creation.",
+    "The bottleneck in product development is shifting from execution (engineering time) to idea generation; the most valuable skill for PMs will become 'being generative'.",
+    "Amjad's Law states that the ROI of learning to code doubles every six months because understanding how to guide and debug AI tools exponentially increases a user's creative output.",
+    "Future organizational structures may consist of 'Design Engineers' who span the spectrum of design, product, and code, eliminating traditional silos.",
+    "Replit creates 'AI Computer Interfaces' (ACI)—environments specifically designed for LLMs to interact with tools via text, rather than forcing AI to use human visual interfaces.",
+    "We may soon see billion-dollar companies run by a single person where development, support, and operations are handled entirely by AI agents."
+  ],
+  "methodologies": [
+    {
+      "name": "Amjad's Law of Coding ROI",
+      "category": "career-leadership",
+      "summary": "A heuristic suggesting that as AI tools improve, the leverage gained by having technical skills increases exponentially rather than decreasing. While AI writes the syntax, the human ability to understand architecture, debug, and 'unblock' the agent becomes a superpower.",
+      "principles": [
+        "Focus on learning debugging and system architecture over syntax.",
+        "Use AI as a junior developer that requires management and unblocking.",
+        "Learn to read code and prompt effectively to fix errors.",
+        "Recognize that technical literacy unblocks creative potential in an AI-native world."
+      ],
+      "quote": "The return on investment for learn to code is doubling every six months."
+    },
+    {
+      "name": "The Generative Product Manager",
+      "category": "execution",
+      "summary": "A shift in the product management function where the primary role moves from defining requirements for others to directly generating working software. This removes the 'translation layer' between idea and execution.",
+      "principles": [
+        "Shift focus from managing backlogs to generating ideas.",
+        "Build functional prototypes (MVPs) instead of static mockups or PRDs.",
+        "Use AI tools to test feasibility and user value immediately.",
+        "Eliminate silos by using code/working apps as the common language between design and engineering."
+      ],
+      "quote": "Actually, you become limited by how fast you can generate ideas."
+    },
+    {
+      "name": "AI Computer Interfaces (ACI)",
+      "category": "product-strategy",
+      "summary": "A design framework for building software tools that AI agents can use autonomously. Unlike HCI (Human-Computer Interaction), ACI focuses on exposing infrastructure, logs, and tools in text-based formats optimized for LLM reasoning.",
+      "principles": [
+        "Treat the AI Agent as a 'user' within a multiplayer environment.",
+        "Provide text-based representations of tools (terminal, editor, deployment) rather than visual GUIs.",
+        "Implement a 'Society of Models' where different agents handle specific tasks (manager, coder, critic).",
+        "Enable the AI to proactively check its own work (e.g., taking screenshots to verify rendering)."
+      ],
+      "quote": "So sort of like HCI is now a ACI and turns out LLMs need interfaces that are actually quite different than humans."
+    }
+  ],
+  "filename": "Amjad Masad"
+}
