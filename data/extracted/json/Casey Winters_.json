@@ -1,0 +1,103 @@
+{
+  "guest": {
+    "name": "Casey Winters",
+    "title": "Advisor, former CPO at Eventbrite & CPO at Grubhub",
+    "company": "Reforge / Whatnot / Eventbrite",
+    "background": "Casey is a legendary growth and product leader known for scaling Pinterest, Grubhub, and Eventbrite. He is a key contributor to the Reforge programs and specializes in network effects, marketplace strategy, and scaling product teams."
+  },
+  "episodeSummary": "Casey Winters dissects the shift away from the \"Zero Interest Rate Phenomenon\" (ZIRP) style of product management back to first-principles thinking. He provides deep tactical advice on marketplace dynamics (analyzing the Grubhub vs. DoorDash war), the evolution of network effects, and how to navigate the tension between founder intuition and team expertise.",
+  "keyTakeaways": [
+    "Stop using user research for low-risk or solved problems (like login pages); copy competitors or ship to learn instead.",
+    "The \"ZIRP PM\" relies on process and infinite resources; the effective PM relies on intuition and shipping speed.",
+    "In interviews, ignore \"tell me about a time\" questions; present real-time scenarios to test if candidates can make decisions without perfect data.",
+    "As a CPO, you are a business executive first and a product executive second; prioritize the business P&L over product team purity.",
+    "If a competitor acts \"irrationally\" with a new business model (e.g., negative margins), assume they are right and overreact immediately.",
+    "Marketplaces adding SaaS tools (e.g., Faire) is generally a more successful path than SaaS tools trying to add a marketplace (e.g., Eventbrite).",
+    "Consumer subscription businesses are mathematically fragile; if you don't have >60% annual retention or network effects, paid acquisition will eventually break your model."
+  ],
+  "methodologies": [
+    {
+      "name": "The \"Anti-ZIRP\" Decision Framework",
+      "category": "execution",
+      "problemItSolves": "Prevents product teams from over-researching low-risk decisions and wasting time on process rather than outcomes.",
+      "summary": "A heuristic for determining when to use rigorous research versus when to rely on intuition or market standards. It shifts the focus from 'following the perfect process' to 'shipping to learn'.",
+      "principles": [
+        "Treat User Research as a scarce resource: Only use it for high-uncertainty, high-leverage problems.",
+        "Copy to Compress: If FANG or unicorns have solved a UI problem (e.g., login flows), copy them. Don't A/B test standard patterns.",
+        "Ship to Learn (Consumer): For high-volume consumer products, the fastest way to learn is to release the feature, not to interview users beforehand.",
+        "Sell to Learn (Enterprise): For B2B, validate by selling the concept directly to customers via sales before building."
+      ],
+      "whenToUse": "When a team is moving slowly, citing a need for 'more data' on standard features, or when operating in a resource-constrained environment.",
+      "commonMistakes": "Applying this to existential strategic pivots where research is actually necessary, or using it as an excuse to ignore customers entirely.",
+      "quote": "At Reforge, we're building frameworks that are tools in a toolkit. You pull them out when relevant. They're not a coloring book to stay inside the lines of.",
+      "realWorldExample": "At Eventbrite, a designer didn't ship for a quarter because they were following a rigid process. Casey pushed them to ship designs to get feedback rather than waiting for perfection."
+    },
+    {
+      "name": "The Founder-Expertise Delegation Matrix",
+      "category": "team-culture",
+      "problemItSolves": "Resolves the tension between a founder's gut instinct and a hired executive's domain expertise, preventing micromanagement or premature delegation.",
+      "summary": "A model for navigating the transition of decision-making power as a company scales. It requires explicit signaling of confidence from both the founder and the employee.",
+      "principles": [
+        "Phase 1 (Product-Market Fit): Everything goes through the founder. Their intuition is the product strategy.",
+        "Phase 2 (Scaling): Founder breadth increases, depth decreases. Employees must earn the right to decide by proving their expertise exceeds the founder's intuition.",
+        "Explicit Signaling: Employees must say 'I need direction' or 'Trust me, I got this.' Founders must say 'I know the answer, do this' or 'I trust you to decide.'",
+        "The Contrarian Validation: If a founder disagrees with an expert, the expert must use external validation (e.g., 'Dropbox and Facebook do it this way') or data to override founder gut."
+      ],
+      "whenToUse": "When joining a startup as a senior leader or when a founder is struggling to let go of product decisions.",
+      "commonMistakes": "Assuming a founder is wrong just because they aren't following 'best practices,' or a founder delegating too early to executives who don't understand the core business context.",
+      "quote": "Founders actually know the right answer and should just tell them... You want to show that you are caring and paying attention to the overall business first before just taking care of your own product designers.",
+      "realWorldExample": "At Pinterest, founders didn't trust Casey's growth strategies initially. He validated his ideas by interviewing growth leads at Dropbox/Facebook and presenting their consensus to the founders."
+    },
+    {
+      "name": "The Network Effect Trinity",
+      "category": "product-strategy",
+      "problemItSolves": "Clarifies how to build defensibility and monetization into platform businesses beyond simple user growth.",
+      "summary": "A classification system for network effects that dictates how a product must evolve to survive. Pure social networks must evolve into marketplaces or data platforms to succeed.",
+      "principles": [
+        "Direct Network Effects: Product gets better for users as more users join (e.g., WhatsApp). Hard to monetize directly.",
+        "Cross-Side Network Effects: Two distinct users (buyers/sellers); more of one side benefits the other (e.g., Grubhub). Essential for monetization.",
+        "Data Network Effects: Product quality improves as more data is collected (e.g., Pinterest feed relevance).",
+        "The Evolution Mandate: Social networks (Direct) must evolve into Cross-Side (Ads/Creators) or Data (Personalization) to survive."
+      ],
+      "whenToUse": "When defining the long-term strategy for a platform or marketplace, or when evaluating the defensibility of a startup.",
+      "commonMistakes": "Confusing virality with network effects, or assuming a Direct network effect is sufficient for a business model.",
+      "quote": "The only companies that stay direct network effect businesses are these pure communication tools... There isn't a clear path to make money with those.",
+      "realWorldExample": "Zillow created a network effect by connecting buyers and sellers (who rarely transact) through a data layer (Zestimate) that kept people engaged even when not transacting."
+    },
+    {
+      "name": "The Consumer Subscription Viability Audit",
+      "category": "growth-metrics",
+      "problemItSolves": "Predicts the inevitable failure of consumer subscription apps that rely solely on paid acquisition.",
+      "summary": "A diagnostic framework to determine if a B2C subscription business is sustainable. It contrasts B2C metrics against the resilience of B2B SaaS.",
+      "principles": [
+        "Audit Net Dollar Retention (NDR): In B2B, customers grow (NDR > 100%). In B2C, they don't. If NDR is flat/negative, you are fighting a losing battle.",
+        "The 60% Rule: You need annual user retention >60-70% (like Spotify/Netflix) to survive without network effects.",
+        "The Acquisition Ceiling: Paid acquisition metrics (CAC) always degrade at scale while LTV stays static. You will eventually 'run out of humans'.",
+        "The Pivot: If you fail the audit, you must build organic loops (content/social) or network effects immediately."
+      ],
+      "whenToUse": "When evaluating consumer subscription startups or planning growth strategy for a B2C app.",
+      "commonMistakes": "Projecting early paid acquisition efficiency into the future without accounting for audience saturation.",
+      "quote": "You run out of humans... Paid acquisition tends to get worse as you scale... eventually, it'll be no longer profitable.",
+      "realWorldExample": "Blue Apron: IPO'd at $2B, dropped to $50M because as they scaled paid acquisition, retention dropped and CAC skyrocketed, with no network effect to save them."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Every new person on the product team is acting like they work at Google and have these infinite resources and infinite time to make sure everything is perfect.",
+      "context": "Casey describing the 'Zero Interest Rate Phenomenon' (ZIRP) Product Manager mindset."
+    },
+    {
+      "text": "During existential threats, the only rational reaction is overreaction.",
+      "context": "Discussing how Grubhub should have responded to DoorDash's 'irrational' negative-margin expansion."
+    },
+    {
+      "text": "These days, they want to be criminals more than they want to commit crime.",
+      "context": "Quoting 'The Way of the Gun' to describe PM candidates who want the title/role but don't want to do the messy, actual work of product management."
+    },
+    {
+      "text": "It's a tool that's trained on sounding smart rather than always necessarily being smart.",
+      "context": "Casey's assessment of using ChatGPT/GPT-4 for product management tasks."
+    }
+  ],
+  "filename": "Casey Winters_"
+}

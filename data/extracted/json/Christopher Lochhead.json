@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Christopher Lochhead",
+    "title": "Co-creator & Author",
+    "company": "Category Pirates",
+    "background": "A 13-time number one bestselling co-author (including 'Play Bigger'), former three-time public company CMO, and widely recognized as the 'Godfather of Category Design' who advises over 50 venture-backed startups."
+  },
+  "episodeSummary": "Christopher Lochhead challenges the fundamental Silicon Valley orthodoxy of 'product-market fit' and 'disruption,' arguing instead for Category Design. He posits that legendary companies do not compete to be better in existing markets; rather, they design entirely new categories to solve neglected problems, thereby capturing the vast majority of economic value. The conversation details specific frameworks for framing problems, creating new 'languaging,' and executing 'lightning strike' go-to-market strategies.",
+  "keyTakeaways": [
+    "Reject the 'Better' Trap: Do not launch products that are simply better/faster/cheaper versions of incumbents; you are fighting for only 24% of the market value.",
+    "The category makes the product: Users buy solutions to specific problems (categories), not brands or features in isolation.",
+    "Shift from Forecasting to Backcasting: Instead of planning forward from current constraints, envision the perfect future state and work backward to determine necessary steps.",
+    "Use 'Languaging' to shift thinking: Create new terminology (e.g., 'Vertical Railway' instead of 'Elevator') to force users to process your solution differently.",
+    "Focus on the Problem, not the Solution: Legendary founders are obsessed with a specific problem that makes them 'medically insane,' not just the product they built.",
+    "Dam the Demand: Don't compete head-to-head; intercept the customer's journey by reframing their problem so the old solution becomes irrelevant (e.g., Peloton vs. Gym).",
+    "Abandon 'Peanut Butter' Marketing: Stop spreading budget evenly across quarters (reach & frequency); concentrate resources into 'Lightning Strikes' to dominate attention for short bursts."
+  ],
+  "methodologies": [
+    {
+      "name": "The Frame, Name, and Claim Model",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents startups from entering 'The Better Trap' where they compete on features against entrenched incumbents.",
+      "summary": "A strategic process to design a new market category rather than competing in an existing one. It involves defining a new problem, giving it a specific name to change user perception, and establishing authority over that new space.",
+      "principles": [
+        "Step 1: Frame the Problem - Evangelize a specific, neglected problem or 'monster' (the status quo) that the current market ignores.",
+        "Step 2: Name the Solution (Languaging) - Invent new vocabulary to describe the solution. Using old words triggers old associations (e.g., 'Horseless Carriage' vs. 'Automobile').",
+        "Step 3: Claim the Category - Aggressively educate the market on this new 'From-To' (Frodo) journey, positioning your company as the only logical leader.",
+        "Step 4: Educate, Don't Sell - Shift marketing from promoting features to educating the market on the consequences of the problem."
+      ],
+      "whenToUse": "When launching a product that doesn't fit neatly into existing buckets or when entering a crowded market where you cannot win on features alone.",
+      "commonMistakes": "Describing the new product using legacy terminology (e.g., calling a new AI tool a 'faster chatbot') which invites direct comparison.",
+      "quote": "If you reframe the existing problem such that people see it in a different way, that's when they'll be open to a new solution.",
+      "realWorldExample": "Lomi defined the 'Smart Home Composter' category not by selling a better trash can, but by framing the problem of wet, smelly, methane-producing food waste in the kitchen."
+    },
+    {
+      "name": "The Backcasting Blueprint",
+      "category": "execution",
+      "problemItSolves": "Overcomes the limitations of incremental thinking where future roadmaps are just slight improvements on the past.",
+      "summary": "A planning methodology that starts from a distinct future state and works backward, rather than extrapolating forward from the present. This allows for exponential rather than incremental innovation.",
+      "principles": [
+        "Step 1: Reject the Premise - Explicitly ignore current constraints, resources, and market conditions.",
+        "Step 2: Define the Future State - Envision a specific date (e.g., 5 years out) where the category is dominated and the problem is solved.",
+        "Step 3: Analyze the Gap - Standing in that future, look back at the present.",
+        "Step 4: Determine Prerequisites - Ask 'What had to happen for this future to exist?' to generate the roadmap, rather than 'What can we do next?'"
+      ],
+      "whenToUse": "During long-term strategic planning, vision setting, or when a product roadmap feels stagnant and iterative.",
+      "commonMistakes": "Confusing Backcasting with Forecasting (taking the present and adding 10%).",
+      "quote": "Legendary entrepreneurs are visitors from the future telling us how it's going to be.",
+      "realWorldExample": "Steve Jobs and Apple didn't look at the current phone market to build the iPhone; they envisioned a future where a pocket computer was essential and worked backward."
+    },
+    {
+      "name": "The Lightning Strike Launch",
+      "category": "growth-metrics",
+      "problemItSolves": "Solves the issue of marketing noise and low conversion from spreading budgets too thin ('peanut butter marketing').",
+      "summary": "A go-to-market execution style that concentrates marketing resources into intense, short bursts to create undeniable momentum and word-of-mouth, rather than maintaining a low-level 'always-on' presence.",
+      "principles": [
+        "Step 1: Identify Super Consumers - Focus 100% of effort on the 8-10% of users who drive the majority of category economics and influence.",
+        "Step 2: Concentrate Resources - Allocate a massive portion of the annual budget to a 1-2 week window.",
+        "Step 3: Orchestrate the Strike - Align product news, POV (Point of View) content, and community engagement to hit simultaneously.",
+        "Step 4: Target the 'Zeitgeist' Location - Go exactly where the Super Consumers hang out (e.g., specific Subreddits, events) and dominate the conversation there."
+      ],
+      "whenToUse": "When launching a new category, a major feature set, or trying to break through in a noisy B2B market.",
+      "commonMistakes": "Fearing that 'going dark' between strikes will lose momentum, leading to a return to ineffective 'drip' marketing.",
+      "quote": "I'd rather matter for one week a year than be irrelevant for the rest of the year.",
+      "realWorldExample": "Hollywood movie launches: They don't spend advertising money evenly over 52 weeks; they spend it all in the two weeks leading up to premiere to force a cultural moment."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The category makes the product, the category makes the brand, the category makes the company.",
+      "context": "Explaining why building a great brand or product is insufficient if you haven't defined the market category first."
+    },
+    {
+      "text": "Thinking about thinking is the most important kind of thinking.",
+      "context": "Discussing the difference between reflexive thinking (automatic) and reflective thinking (strategic analysis of why we believe what we believe)."
+    },
+    {
+      "text": "Positioning is for losers.",
+      "context": "Lochhead's provocative stance that 'positioning' implies comparing yourself to a competitor, which inherently means you are fighting for the minority of market value."
+    },
+    {
+      "text": "Product market fit is a very dangerous idea.",
+      "context": "Arguing that you shouldn't try to fit a product into an existing market, but rather design the market to fit your product."
+    }
+  ],
+  "filename": "Christopher Lochhead"
+}

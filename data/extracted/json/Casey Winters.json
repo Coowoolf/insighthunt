@@ -1,0 +1,103 @@
+{
+  "guest": {
+    "name": "Casey Winters",
+    "title": "Chief Product Officer",
+    "company": "Eventbrite",
+    "background": "A renowned product leader and growth expert who previously led growth at Pinterest and GrubHub, advised companies like Airbnb and Canva, and serves as a partner at Reforge."
+  },
+  "episodeSummary": "Casey Winters dissects the nuances of product leadership, offering masterclasses on executive communication, managing product complexity, and the sequencing of growth strategies. He challenges conventional wisdom on operations teams and provides a clear roadmap for PMs to transition from execution-focused roles to strategic leadership.",
+  "keyTakeaways": [
+    "Executive communication is storytelling; never start at 'Chapter 6' (the solution) without establishing 'Chapter 1' (strategy and context), even if you think they know it.",
+    "The goal of Product Ops or Marketing Ops should be to identify inefficiencies and automate themselves out of a job, not to build a permanent empire of manual work.",
+    "Product Market Fit is not a permanent state; without investment in 'un-sexy' maintenance like stability and performance, you will fall out of fit due to rising user expectations.",
+    "Don't hire a Head of Growth to find your growth channel. Founders use 'Kindle strategies' (hacks) to find the channel; you hire a growth leader to fuel the 'Fire strategy' (loops) once identified.",
+    "To justify technical debt or stability work, frame it as 'protecting the downside'—show executives what will be lost (revenue, retention) if the work isn't done.",
+    "The 'Great Filter' for moving from Senior PM to Product Leader is the ability to write a strategy document entirely on your own without needing the CPO to fill in the blanks.",
+    "B2B growth is evolving into 'Product-Led Sales,' where self-service loops and sales loops are unified into a single data-driven engine rather than siloed efforts."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Chapter One' Narrative Framework",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents failed executive reviews where leaders feel out of touch or ask basic questions that derail the meeting.",
+      "summary": "A communication structure for presenting to executives that ensures alignment before diving into details. It treats every presentation as a story that must begin with the strategic context, regardless of how often the executive has heard it.",
+      "principles": [
+        "Start at Chapter 1: Re-state the company strategy, the specific metrics being moved, and core assumptions before presenting new work.",
+        "Role-Play the Audience: Pre-game the meeting by impersonating specific executives (e.g., the CFO's financial concerns vs. the CEO's vision) to anticipate their unique lines of questioning.",
+        "The Pre-Meeting De-risk: Conduct 1:1s with key stakeholders before the big meeting to surface objections early; the big meeting should never be a 'big reveal'.",
+        "Middle-Ground Context: Do not start at the 'beginning of time' (textbook definitions), but do not start at the solution. Find the last point that is completely obvious to the audience and build from there."
+      ],
+      "whenToUse": "When presenting product roadmaps, strategic pivots, or complex feature updates to C-level executives or boards.",
+      "commonMistakes": "Assuming executives remember the context of your specific project from a month ago and jumping straight to 'Chapter 6' (the implementation details).",
+      "quote": "If you're not an executive, whatever you're working on, you're basically writing and telling a story... I find that many times when non-executives are presenting to execs, they'll start on chapter six.",
+      "realWorldExample": "Casey coaches his team at Eventbrite to anticipate questions specific to their CEO (Julia) versus their CFO, ensuring the narrative addresses those specific lenses before they are even asked."
+    },
+    {
+      "name": "The Perceived Simplicity Model",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the 'product lifecycle trap' where adding power features for power users alienates new users by making the interface too complex.",
+      "summary": "A design philosophy that allows a product to serve both novice and expert users without segmenting them into different apps. It focuses on keeping the default experience simple while making advanced tools instantly available only when actively sought.",
+      "principles": [
+        "Hidden Unless Sought: Advanced features should exist but remain effectively invisible to the user who isn't looking for them.",
+        "Zero-Friction Discovery: When a user *does* look for an advanced feature, it must be discoverable in less than a second.",
+        "Avoid Hard Segmentation: Do not force users into 'Pro' vs 'Lite' buckets, as users effectively migrate between these states over time.",
+        "Default to Automation: For complex tasks (like ad targeting), offer a 'done-for-you' automated default, with an optional on-ramp to manual controls."
+      ],
+      "whenToUse": "When designing for a user base with high variance in sophistication (e.g., a creator economy platform with both hobbyists and professional agencies).",
+      "commonMistakes": "Relying on 'Progressive Disclosure' (tutorials/wizards) which can annoy power users, or building entirely separate interfaces that fragment the engineering effort.",
+      "quote": "There are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them.",
+      "realWorldExample": "WhatsApp is the gold standard; it appears as a simple chat app to a novice, but features like voice notes or video calls are instantly accessible without cluttering the core UI. Eventbrite applied this to their Facebook ad tools by automating targeting by default but allowing manual override."
+    },
+    {
+      "name": "The Kindle vs. Fire Growth Sequence",
+      "category": "growth-metrics",
+      "problemItSolves": "Clarifies when to focus on unscalable hacks versus scalable loops and when to hire dedicated growth roles.",
+      "summary": "A staging framework for growth that distinguishes between ignition strategies (hacks) and burning strategies (loops). It dictates that scalable growth cannot be unlocked without first employing unscalable tactics.",
+      "principles": [
+        "Kindle Strategies (Ignition): Use non-scalable hacks (manual sales, press, community outreach) solely to acquire the initial critical mass of users/data.",
+        "The Unlock: Kindle strategies are not the business model; they exist only to 'unlock' the Fire strategies (e.g., getting enough liquidity to make a viral loop work).",
+        "Fire Strategies (Scale): These are self-reinforcing loops (Content, Viral, Paid, Sales). Focus on these only after the Kindle phase has worked.",
+        "Hire for Fire: Do not hire a 'Head of Growth' to do Kindle work. Founders do Kindle work. Hire growth leaders only to optimize and 10x the Fire loops once they are identified."
+      ],
+      "whenToUse": "Early-stage startups determining their go-to-market strategy or deciding when to make their first Growth hire.",
+      "commonMistakes": "Hiring a performance marketer or growth PM before the product has enough usage 'kindling' to sustain a loop, or relying on Kindle hacks (like PR) as a long-term strategy.",
+      "quote": "The goal of your Kindle strategies, these like non-scalable hacks, they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users.",
+      "realWorldExample": "Pinterest and Airbnb used manual, unscalable tactics (Kindle) to populate their initial marketplaces, which then provided the content density required for SEO and viral loops (Fire) to take over."
+    },
+    {
+      "name": "The Strategy-Execution Spectrum",
+      "category": "team-culture",
+      "problemItSolves": "Helps hiring managers balance a team and identifies the specific skill gap preventing PMs from reaching executive levels.",
+      "summary": "A talent evaluation framework that places product people on a spectrum from 'Crazy Innovators' (Idea Generators) to 'Pure Executors'. It identifies the 'Middle Strategic Tier' as the most valuable but rarest profile.",
+      "principles": [
+        "The Left Extreme (Innovators): 1 in 10 ideas is a game-changer, 9 are bad. Bad at implementation. Better for VCs than product teams.",
+        "The Right Extreme (Executors): Excellent at shipping value from a clear strategy, but cannot generate novel ideas or read the industry landscape. Common profile.",
+        "The Target Middle (Strategists): Can generate ideas *and* execute. This is the hiring gold standard.",
+        "The Up-Leveling Tactic: To move executors to the middle, force them to write strategy docs without executive hand-holding. This is the primary mechanism for career growth."
+      ],
+      "whenToUse": "When hiring for a product team to ensure a mix of skills, or during performance reviews to explain why a Senior PM isn't getting promoted.",
+      "commonMistakes": "Hiring too many 'Left Extreme' innovators who generate chaos without shipping, or promoting 'Right Extreme' executors to leadership where they fail to set direction.",
+      "quote": "If they want to get to the director level or if they want to get to my level, they need to get more strategic... I'm going to expect you to be able to write that strategy doc without me.",
+      "realWorldExample": "At Pinterest and Eventbrite, Casey observed that execution-focused PMs hit a 'hard cap' on their career growth until they learned to synthesize industry trends into actionable strategy independently."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Executive communication is actually executives communication. You're communicating with individual executives that all have different styles.",
+      "context": "Explaining why a 'one-size-fits-all' presentation style fails in leadership meetings."
+    },
+    {
+      "text": "Acquisition loop is a requirement for product market fit. Like if you got a product that retains well and you can't find more users for it, I don't think that's product market fit.",
+      "context": "Challenging the traditional advice that startups should ignore growth completely until the product is perfect."
+    },
+    {
+      "text": "Having marketing ops means you suck at marketing.",
+      "context": "A hyperbolic statement Casey uses to emphasize that operations roles should be about removing inefficiency, not institutionalizing manual labor."
+    },
+    {
+      "text": "When you're at scale, you can actually lose what you've built... protecting what we've got actually is increasingly important once you build scale.",
+      "context": "Justifying investment in un-sexy maintenance work like stability and performance."
+    }
+  ],
+  "filename": "Casey Winters"
+}

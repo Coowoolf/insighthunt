@@ -1,0 +1,83 @@
+{
+  "guest": {
+    "name": "Christine Itwaru",
+    "title": "Product Operations Leader",
+    "company": "Pendo",
+    "background": "A long-time product leader who transitioned from traditional Product Management to pioneering the Product Operations function at Pendo. She is a recognized thought leader in the Product Ops space, helping define the role's scope, value, and execution strategy for the broader tech industry."
+  },
+  "episodeSummary": "Christine Itwaru demystifies the rising role of Product Operations, distinguishing it from Project Management and Product Marketing. She articulates how Product Ops acts as a strategic enabler that removes internal friction, allowing PMs to focus on customers rather than internal firefighting. The conversation covers how to diagnose if an organization needs Product Ops, how to structure the function, and how to execute specific workflows like Voice of Customer synthesis and internal launch readiness.",
+  "keyTakeaways": [
+    "Product Ops is not just a role but a system; if you can't hire a person, you must still build the system to shield PMs from internal noise.",
+    "The primary signal that you need Product Ops is when PMs spend more time fielding internal questions from Sales/CS than talking to actual customers.",
+    "Distinguish Product Ops from Product Marketing (PMM): PMM helps the world understand the product; Product Ops helps the internal revenue teams understand the product's value and readiness.",
+    "Use a 'Product Digest' not just for status updates, but to teach internal teams how to get customers ready for changes.",
+    "When analyzing Voice of Customer (VoC), bring Sales and CS into the same room; often their needs conflict, and they need to hear that friction directly to align.",
+    "Product Ops should aim to automate its initial tactical work (like manual reporting) to evolve into strategic advisory roles over time.",
+    "Bringing engineers into customer calls is a low-effort, high-impact way to increase development velocity and empathy."
+  ],
+  "methodologies": [
+    {
+      "name": "The Product Ops Viability Audit",
+      "category": "team-culture",
+      "problemItSolves": "Helps leadership determine if a dedicated Product Ops function is necessary or if the current friction is manageable.",
+      "summary": "A diagnostic framework to measure the inefficiency tax currently levied on Product Managers by internal stakeholders.",
+      "principles": [
+        "Survey the Product Team: Quantify the percentage of time PMs spend on 'firefighting' internal questions versus 'quality time' with external customers.",
+        "Survey the Revenue Team: Quantify the friction Sales and CS experience in getting product answers (e.g., 'How often do you have to hunt for information?').",
+        "Identify the Transparency Gap: If PMs feel overburdened but Revenue teams still feel uninformed, you have a structural transparency failure, not a personnel failure.",
+        "Establish the 'Quality of Inbound' Metric: Track the relevance of questions coming into the product team. If they are basic 'how-to' questions, it signals a lack of enablement content."
+      ],
+      "whenToUse": "When a product team is scaling, PMs complain of burnout, or there is perceived friction between Product and Sales/CS.",
+      "commonMistakes": "Assuming that hiring a Product Ops person will fix a lack of product vision; Ops fixes the 'how', not the 'what'.",
+      "quote": "Do you want your PMs to constantly be fielding questions from your revenue team when they could be spending time with customers?",
+      "realWorldExample": "Pendo conducted this survey across PM and Revenue teams to justify the creation of the Product Ops role, revealing a massive disconnect in time usage."
+    },
+    {
+      "name": "The Internal Launch Readiness Protocol",
+      "category": "execution",
+      "problemItSolves": "Prevents 'bad launches' where internal teams (Sales/CS) are blindsided, leading to poor customer adoption and internal chaos.",
+      "summary": "A structured communication strategy that shifts focus from 'what is launching' to 'how the company gets ready' for the launch.",
+      "principles": [
+        "Decouple Awareness from Readiness: Knowing a feature is coming (Awareness) is different from knowing what to do with it (Readiness). Focus on the latter.",
+        "Create the 'Product Digest': A curated internal publication that translates feature updates into actionable steps for Sales and Success.",
+        "Define the PMM vs. Ops Line: PMM handles external positioning; Ops handles internal value education (e.g., 'How does this feature impact a CSM's quarterly account review?').",
+        "Enforce the 'Definition of Done': A feature is not 'done' until the educational content for internal teams and in-app guidance is complete."
+      ],
+      "whenToUse": "During the weeks leading up to a feature release, specifically for B2B products with high-touch sales or success models.",
+      "commonMistakes": "Turning the digest into a list of dates and Jira tickets rather than a guide on value proposition and workflow changes.",
+      "quote": "People can know when [a feature] is coming, but they need to know what it is they need to do with it.",
+      "realWorldExample": "After a disastrous launch where Pendo's own teams weren't ready, Christine implemented this protocol to ensure Sales knew how to position features and CS knew how to support them before the external release."
+    },
+    {
+      "name": "The Cross-Functional VoC Synthesis",
+      "category": "user-research",
+      "problemItSolves": "Solves the problem of fragmented feedback where Sales wants feature A, Success wants feature B, and Product is looking at data for feature C.",
+      "summary": "A governance model for ingesting, validating, and acting on qualitative and quantitative customer feedback without overwhelming PMs.",
+      "principles": [
+        "Aggregate Diverse Inputs: Combine NPS themes, risk data from churned accounts, and high-priority deal blockers into a single view.",
+        "Convene the 'Revenue Room': Bring Sales, Success, and Product leaders together to review the aggregated data simultaneously. Let them hear each other's conflicting priorities.",
+        "Validate via Research: Use the Product Ops team to hand off these raw themes to User Research for validation (is this a trend or a loud noise?).",
+        "The Enablement Filter: Analyze friction points to decide: Does this require a code change (Product) or better training/expectations (Enablement)? Not every pain point is a feature request."
+      ],
+      "whenToUse": "When the product roadmap feels disconnected from what Sales/CS are screaming for, or when there is too much noise in the feedback channels.",
+      "commonMistakes": "Treating all feedback as a product mandate; failing to identify that some 'product problems' are actually 'education problems'.",
+      "quote": "We were able to educate our revenue team on behalf of the product team and say, 'Guys, not everything requires a product change.'",
+      "realWorldExample": "Pendo used this framework to realize that a friction point regarding their 'Guides' product wasn't a code issue, but an onboarding/enablement gap for the Professional Services team."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Product operations for a VP or a head of product or a product manager is the creation of some system that allows you to thrive.",
+      "context": "Defining the essence of Product Ops not necessarily as a person, but as a system of efficiency."
+    },
+    {
+      "text": "Speaking as a former PM, I would not ever give up spending time with customers and watching their pain.",
+      "context": "Clarifying that while Product Ops takes on administrative burdens, the core PM duty of direct customer observation must never be outsourced."
+    },
+    {
+      "text": "Get into this role if you're comfortable letting go of things and moving on to something that is well worth your time.",
+      "context": "Advice to aspiring Product Ops professionals about the need to automate their own jobs to focus on higher-level strategy."
+    }
+  ],
+  "filename": "Christine Itwaru"
+}

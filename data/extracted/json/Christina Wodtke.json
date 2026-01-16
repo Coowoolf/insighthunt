@@ -1,0 +1,88 @@
+{
+  "guest": {
+    "name": "Christina Wodtke",
+    "title": "Author & Lecturer at Stanford University",
+    "company": "Stanford University / Wodtke Consulting",
+    "background": "Christina is the author of the seminal OKR book 'Radical Focus' and teaches product management at Stanford. She is a former product leader at LinkedIn, MySpace, Zynga, and Yahoo, known for helping companies fix broken execution processes through OKRs and storytelling."
+  },
+  "episodeSummary": "In this deep dive into execution, Christina Wodtke dismantles the bureaucratic view of OKRs, reframing them as a tool for learning and focus rather than just goal-setting. She outlines the precise cadence required to make OKRs work, the connection between 5-year missions and weekly tasks, and why 'product sense' is often just a myth for junior PMs. The episode provides a blueprint for fixing dysfunctional teams by establishing a rhythm of commitment and celebration.",
+  "keyTakeaways": [
+    "The atomic unit of an OKR is not the quarter, but the weekly question: 'What are we doing this week to get closer to our goals?'",
+    "Use temporal landmarks to structure execution: Monday is for commitment (planning), Friday is for celebration (wins).",
+    "Limit yourself to one Objective and three Key Results per cycle to force actual prioritization rather than a wishlist.",
+    "When defining Key Results, always ask 'How would we know?' to move from vague aspirations to concrete measurements.",
+    "Stop wasting time on heavy approval processes; use a 'Rule of Three' peer review with a 24-hour turnaround for OKRs.",
+    "Grading OKRs (e.g., 0.7 vs 0.8) matters less than the retrospective conversation about *why* you hit or missed the goal.",
+    "Product Managers serve the business first; understanding business models is more critical than 'product sense' or UX for early-career PMs.",
+    "If your OKR review meetings are boring, you are operating at the wrong level (discussing tasks instead of strategy)."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Radical Focus' Weekly Cadence",
+      "category": "execution",
+      "problemItSolves": "Solves the 'set it and forget it' problem where teams define OKRs at the start of the quarter and ignore them until the end.",
+      "summary": "A rigid but lightweight weekly ritual that bookends the work week, ensuring that the long-term strategy (OKR) connects to daily actions. It replaces vague status updates with confidence checks and blockers.",
+      "principles": [
+        "Monday Commitments: The team meets to explicitly state what they will do *this week* to move the OKR needle.",
+        "The 4-Square Status Email: Send a weekly update containing: 1) Confidence level (0-10) in hitting the OKR, 2) Last week's progress, 3) Next week's priorities, 4) Blockers/Risks.",
+        "Friday Wins: Hold a 'wins' meeting on Friday where teams share the most awesome thing that happened (marketing, design, or eng) to build momentum.",
+        "The Learning Loop: If a task from 'Next Week' doesn't move to 'Last Week' (done), the status update forces a conversation about why, driving immediate learning."
+      ],
+      "whenToUse": "When teams feel busy but aren't making progress on strategic goals, or when morale is low due to a lack of visible progress.",
+      "commonMistakes": "Letting the Monday meeting devolve into a general status update of all tasks, rather than only discussing tasks related to the OKR.",
+      "quote": "The simple act of getting together and saying, 'What was the most awesome thing that happened to you this week?'... It makes people feel like they're part of something really special.",
+      "realWorldExample": "Christina's experience at Zynga where short, focused status emails allowed her to scan the entire company's progress and identify connection points without meetings."
+    },
+    {
+      "name": "The 'Triangulated Outcome' Formulation",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from creating task-lists disguised as OKRs or creating goals that game the system (e.g., increasing clicks but destroying retention).",
+      "summary": "A method for drafting robust OKRs that balances inspiration with concrete, multi-dimensional metrics. It ensures that hitting a goal actually results in business value.",
+      "principles": [
+        "Single Inspiring Objective: The Objective should be qualitative and motivating (e.g., 'Delight our customers'), not boring (e.g., 'Ship v2.0').",
+        "Triangulated Key Results: Select ~3 KRs that balance each other. Usually: 1 Usage Metric + 1 Revenue/Business Metric + 1 Quality/Satisfaction Metric.",
+        "The 'How Do We Know' Interrogation: For every fluffy term (e.g., 'Delight'), rigorously ask 'How would we know they are delighted?' until you find a proxy (e.g., Retention, NPS, Panel feedback).",
+        "The 10-Minute Brainstorm: Spend 10 minutes brainstorming *every possible way* to measure the objective to move past obvious metrics and find insightful ones."
+      ],
+      "whenToUse": "During quarterly planning when defining success criteria for a new product launch or a growth initiative.",
+      "commonMistakes": "Confusing tasks (binary: ship the feature) with outcomes (analog: user behavior changed).",
+      "quote": "If you just asked the question, 'What are we doing this week to get closer to our strategic goals?' That is the very heart of it.",
+      "realWorldExample": "An online interior design magazine wanting to improve 'recommendations.' Instead of a KR like 'Launch new algo,' they used '30% of audience converts from browser to member' and 'Users like 3 products per week.'"
+    },
+    {
+      "name": "The 'Mystery-to-Success' Narrative Arc",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs influence stakeholders who are disengaged or skeptical by leveraging human cognitive preference for story over raw data.",
+      "summary": "A storytelling framework for presentations and pitches that structures information to maximize retention and persuasion, moving away from dry fact-listing.",
+      "principles": [
+        "The Hook (Beginning): Start with a mystery, a secret, or a surprise to trigger curiosity. Do not start with the agenda.",
+        "The Meat (Middle): Deliver the facts, product details, or strategy *within* the context of resolving the mystery or conflict established in the hook.",
+        "The Celebration (End): Conclude with the vision of success—what the world looks like when the conflict is resolved. This ensures a positive emotional imprint.",
+        "The Iterative Feedback Loop: After telling a story/pitch, explicitly ask a trusted peer: 'What is something I could have done to make that story better?'"
+      ],
+      "whenToUse": "Pitching a new product vision, presenting a roadmap to executives, or rallying a team around a difficult pivot.",
+      "commonMistakes": "Assuming 'data speaks for itself' and omitting the narrative structure that gives the data meaning.",
+      "quote": "If you tell people a bunch of facts, they'll forget most of them... But if you tell them a story that's full of facts, they will remember it.",
+      "realWorldExample": "N/A (General principle discussed in context of her book on drawing and storytelling)."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Strategy tends to be a little longer, a little more Muji Muji. And then when you get the OKR, you say, 'This quarter is what we're actually going to be doing, and these are the numbers we're actually going to be pushing.'",
+      "context": "Explaining the difference between high-level strategy and the tactical utility of OKRs."
+    },
+    {
+      "text": "If during the day you meet one asshole, he's probably an asshole. But if all day long you meet nobody but assholes, you might be the asshole.",
+      "context": "Discussing root causes of OKR failures—often pointing to leadership or clarity issues rather than the team's inability to execute."
+    },
+    {
+      "text": "Product sense is intuition, intuition is compressed experience, compressed experience comes from having lots of experience. And if you're young... just intuition is overvalued.",
+      "context": "Her contrarian take on what new Product Managers should focus on (learning business models) versus what they think they should focus on (intuition)."
+    },
+    {
+      "text": "Time you're planning is not the time you're shipping.",
+      "context": "Advocating for a rapid, lightweight approval process for OKRs rather than weeks of bureaucratic alignment."
+    }
+  ],
+  "filename": "Christina Wodtke"
+}

@@ -1,0 +1,89 @@
+{
+  "guest": {
+    "name": "Christian Idiodi",
+    "title": "Partner",
+    "company": "Silicon Valley Product Group (SVPG)",
+    "background": "A renowned product leader and coach who works alongside Marty Cagan. He has directed product strategy for over 205 products and is a leading expert in product transformation, coaching, and introducing product discipline to developing markets like Africa."
+  },
+  "episodeSummary": "Christian Idiodi dismantles the common frustrations with product management, explaining why PMs are often disliked due to a lack of competence rather than the role itself. He details his 'Reference Customer' technique for guaranteeing product-market fit before launch and offers a masterclass on leadership coaching. The conversation covers how to build trust with executives, why promotions often lead to incompetence, and how to use 'practice arenas' to build skills.",
+  "keyTakeaways": [
+    "Product Management is a competence-based role; if you don't know the customer and business better than anyone else, you cannot lead.",
+    "True product success is a 'certificate of appreciation'—when a customer gives you something back (revenue, loyalty, reputation) for solving their problem.",
+    "For B2B products, do not launch until you have 6-8 reference customers who love the same version of the product.",
+    "For B2C products, aim for 15-25 reference customers who are willing to stake their reputation on your product.",
+    "Build trust with executives by asking the most influential person in the company to 'teach you' or let you 'intern' for them.",
+    "To get promoted, do the job before you have the title; practice leadership in low-risk environments like non-profits or side projects.",
+    "Stop conducting shallow user interviews; instead, immerse yourself in the customer's environment until you solve the problem (e.g., recruiting on construction sites).",
+    "PMs own two specific risks: Value (will they buy/choose/use it?) and Viability (does it work for the business?)."
+  ],
+  "methodologies": [
+    {
+      "name": "The Reference Customer Discovery Method",
+      "category": "user-research",
+      "problemItSolves": "Prevents building products that function technically but fail commercially because no one actually wants or loves them.",
+      "summary": "A rigorous discovery process where you co-create the product with a specific number of early adopters. You do not launch until these specific customers are successful enough to stake their reputation on your solution.",
+      "principles": [
+        "Recruit the right volume: Secure 6-8 active partners for B2B or 15-25 for B2C.",
+        "Solve for the set, not the individual: All reference customers must be happy with the *same* solution; do not build custom features for one.",
+        "The Reputation Test: Success is defined when the customer is willing to publicly vouch for the product (write a review, give a testimonial) without hesitation.",
+        "Immersion over Interviewing: Don't just ask questions; sit with them, do their job, and physically validate the problem in their environment.",
+        "Marketing Mirror: Use the exact words your reference customers use to describe the product as your marketing copy."
+      ],
+      "whenToUse": "When validating a new product idea or a major new feature set to ensure Product-Market Fit before scaling.",
+      "commonMistakes": "Launching with only 1-2 happy customers (outlier risk), or accepting a polite 'yes' instead of a reputation-staking action (e.g., a public review).",
+      "quote": "If I can't find 25 people that love steak, why in the world am I building a steakhouse? ... I have never had a product failure using this technique.",
+      "realWorldExample": "Christian built a staffing solution by physically driving to construction sites (McDonald's) and recruiting centers, manually finding workers for them, and iterating until the hiring managers at McDonald's and Starbucks were willing to refer him to others, generating $32M in sales in the first 90 days."
+    },
+    {
+      "name": "The 'Help Me, Teach Me' Trust Protocol",
+      "category": "career-leadership",
+      "problemItSolves": "Overcomes the skepticism and mistrust that stakeholders and executives often feel toward new or less-experienced Product Managers.",
+      "summary": "A tactical approach to rapidly building social capital by leveraging the influence of existing leaders. It shifts the dynamic from a PM trying to assert authority to a PM demonstrating humility and competence-building.",
+      "principles": [
+        "Identify the Power Center: Find the loudest, most influential, and trusted person in the organization (often a VP or Head of Sales).",
+        "The Internship Ask: Explicitly ask to 'intern' for them or shadow them to learn the business, acknowledging their expertise.",
+        "Transfer of Trust: By being seen constantly with the trusted leader, their social capital is visually transferred to you.",
+        "Shared Accountability: By asking them to teach you, you make them implicitly accountable for your success; they want you to succeed so they look like a good teacher."
+      ],
+      "whenToUse": "When joining a new company, taking over a new product area, or dealing with a stakeholder who is hostile toward Product Management.",
+      "commonMistakes": "Trying to prove you are the expert immediately rather than first demonstrating deep curiosity and humility to learn the business.",
+      "quote": "You're going to find the loudest, most influential person in your organization... and you're going to ask them to teach you. You're extending that person's trust to yourself.",
+      "realWorldExample": "Christian advises new PMs to approach a Head of Sales or Operations and ask to shadow them for a week, sitting quietly in meetings, which invariably leads the leader to introduce the PM to others, integrating them into the inner circle."
+    },
+    {
+      "name": "The Pre-Promotion Practice Arena",
+      "category": "career-leadership",
+      "problemItSolves": "Addresses the 'Peter Principle' where great individual contributors fail because they are promoted to management without ever practicing the necessary skills.",
+      "summary": "A framework for career growth that decouples skill acquisition from job titles. It advocates for practicing leadership behaviors in low-risk environments before officially taking the role.",
+      "principles": [
+        "Do the Job First: To become a Director/VP, start doing 'Director things' (strategy, coaching, recruiting) in your current role.",
+        "Find Low-Risk Practice Arenas: Use volunteer work, non-profits, or side projects (e.g., coaching a kids' soccer team) to practice management skills where business revenue isn't at risk.",
+        "Sideline Coaching: Managers must act as coaches on the sideline—observing practice and giving feedback—rather than playing the game for the employee.",
+        "Safe Failure: Allow mistakes to happen in the 'practice' phase (before promotion) where the blast radius is small."
+      ],
+      "whenToUse": "When an IC (Individual Contributor) wants to move into management, or when a manager is grooming a successor.",
+      "commonMistakes": "Promoting someone based on their IC performance (e.g., Engineer of the Year) without ever seeing them manage a human being or solve a people problem.",
+      "quote": "The best place to learn how to be a VP is when you're not a VP... because when you're not in the job, you can make mistakes and nobody blames you.",
+      "realWorldExample": "Christian coached his kids' soccer team like a high-performance organization (video review, strategy) to practice coaching; he also advises PMs to volunteer at non-profits to practice collaborative problem solving."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The real essence of this job is that you wake up on behalf of someone else to solve a problem for them, and you have to do it well enough that they give you something back in return.",
+      "context": "Defining the core purpose and transactional nature of value in product management."
+    },
+    {
+      "text": "If it's not fun, you're probably not doing it right. If it's not hard, you're probably also not doing it right.",
+      "context": "Describing the duality of product management as a difficult but rewarding discipline."
+    },
+    {
+      "text": "Just because somebody can use your product doesn't mean that they will buy it. Just because they can use it doesn't mean they will choose it.",
+      "context": "Discussing the 'Value Risk' and why usability testing alone is insufficient for product success."
+    },
+    {
+      "text": "There's nothing better in learning how to solve a problem than trying to solve the problem.",
+      "context": "Explaining why he prefers immersion and action over endless frameworks and theoretical discovery."
+    }
+  ],
+  "filename": "Christian Idiodi"
+}
