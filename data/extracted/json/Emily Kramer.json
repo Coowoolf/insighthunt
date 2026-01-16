@@ -1,0 +1,84 @@
+{
+  "guest": {
+    "name": "Emily Kramer",
+    "title": "Co-founder & General Partner",
+    "company": "MKT1 / MKT1 Capital",
+    "background": "Emily led and built marketing teams from scratch at Asana, Carta, Ticketfly, and Astro. She is a highly regarded angel investor and writer who specializes in helping early-stage B2B startups build their marketing function and go-to-market strategy."
+  },
+  "episodeSummary": "Emily Kramer demystifies the often nebulous function of marketing for product leaders and founders. She introduces concrete mental models for diagnosing growth bottlenecks, hiring the right archetypes based on business model, and establishing high-trust collaboration between Product and Marketing. The conversation shifts marketing from 'splatergy' (random tactics) to a disciplined engineering-like discipline focused on fuel and engines.",
+  "keyTakeaways": [
+    "Diagnose growth issues by categorizing them as either 'Fuel' (messaging/content) or 'Engine' (distribution/ops) problems before hiring.",
+    "Avoid hiring senior marketers from large public companies (e.g., Salesforce, Google) as your first startup hire; they often lack the 'builder' muscle required for 0-to-1 work.",
+    "For PLG companies, the 'Marketing-to-Product' handoff (signup to onboarding) is as critical as the traditional 'Marketing-to-Sales' handoff.",
+    "Stop measuring marketing success by activity (e.g., 'wrote 10 blog posts'); measure by impact (e.g., 'traffic generated' or 'conversion rate maintained').",
+    "Use 'Roadmap Week' to invite Marketing into product planning early, preventing the 'throw it over the wall' launch dynamic.",
+    "When interviewing marketers, ask them to explain a complex topic simply; if they can't do this, they cannot effectively position your product.",
+    "Product Marketers are often the best first hire because they straddle the line between understanding the product/audience (Fuel) and launch mechanics (Engine)."
+  ],
+  "methodologies": [
+    {
+      "name": "The Fuel & Engine Diagnostic",
+      "category": "product-strategy",
+      "problemItSolves": "Helps teams identify where their growth strategy is broken and what type of marketer they actually need to hire next.",
+      "summary": "Instead of getting lost in marketing sub-functions (demand gen, brand, content), view marketing as a system requiring two components: Fuel (value creation) and Engine (distribution). Growth stalls when these are unbalanced.",
+      "principles": [
+        "Step 1: Audit 'Fuel' - Do you have high-converting copy, clear positioning, and valuable content? If users land but don't convert, you have a Fuel problem.",
+        "Step 2: Audit 'Engine' - Do you have the ops, automation, and channels to get content to the right people? If you have great content but no traffic, you have an Engine problem.",
+        "Step 3: Hire for the deficit - If you lack Fuel, hire a Product Marketer or Content Lead. If you lack Engine, hire a Growth/Demand Gen Lead.",
+        "Step 4: Assess the Product-Marketing Handoff - Ensure the Engine drives users to a product experience that sustains the narrative."
+      ],
+      "whenToUse": "When growth slows down, when hiring the first marketing lead, or when deciding between investing in ads vs. content.",
+      "commonMistakes": "Building a massive Engine (outbound, ads) with low-quality Fuel (bad messaging), resulting in burning cash with no retention.",
+      "quote": "Just think of marketing as you need a fuel and you need an engine... Fuel is all the things that you're creating... An engine is how you get it out to the right people.",
+      "realWorldExample": "A startup sending massive outbound emails (Engine) with no valuable content or clear value prop (Fuel), wondering why meetings aren't booking."
+    },
+    {
+      "name": "The GACCS Launch Brief",
+      "category": "execution",
+      "problemItSolves": "Prevents misalignment between Product and Marketing during launches and stops 'splatergy' (random marketing tactics).",
+      "summary": "A structured brief format that Marketing shares with Product (and vice versa) before any creative work or launch execution begins. It forces clarity on the 'Why' and 'Who' before the 'What'.",
+      "principles": [
+        "Goals: Define the specific metric impact (e.g., signups, feature adoption), not just 'launch the feature'.",
+        "Audience: Be hyper-specific about who this is for. 'Everyone' is not an audience.",
+        "Creative: Define the 'hook' or unique angle. What makes this stand out from competitors?",
+        "Channels: Determine specifically how this will be distributed (email, in-app, social, paid).",
+        "Stakeholders: Clearly list the DRI (Directly Responsible Individual), contributors, and approvers."
+      ],
+      "whenToUse": "Before every product launch, major content campaign, or go-to-market initiative.",
+      "commonMistakes": "Skipping the brief and going straight to drafting blog posts or designing ads, resulting in assets that don't fit the channel or audience.",
+      "quote": "GACCS sounds more fun to say... but this is just a marketing brief that I recommend you do before you make anything big.",
+      "realWorldExample": "At Asana, using this framework to ensure that a product feature launch wasn't just a feature description, but a story distributed through the right channels to the right specific user segment."
+    },
+    {
+      "name": "The Pie-Shaped Talent Model",
+      "category": "team-culture",
+      "problemItSolves": "Addresses the difficulty of finding a 'unicorn' first marketing hire who can do everything.",
+      "summary": "Rather than looking for a T-shaped marketer (broad knowledge, one depth) or a specialist, early-stage startups should hire 'Pie-shaped' (π) marketers who have broad knowledge but *two* distinct spikes of deep expertise.",
+      "principles": [
+        "Spike 1: Usually Product Marketing (understanding the customer/market).",
+        "Spike 2: Either Content (creating the fuel) or Growth (building the engine).",
+        "The Bar: The horizontal line represents ability to set strategy across all areas and manage contractors for non-spike areas.",
+        "Avoid: Candidates who are pure generalists with no spikes, or pure specialists (e.g., only SEO) who can't manage other functions."
+      ],
+      "whenToUse": "Writing job descriptions and evaluating candidates for the first 1-3 marketing hires.",
+      "commonMistakes": "Hiring a T-shaped person who is 'okay' at everything but excellent at nothing, or hiring a pure specialist who cannot function without a supporting team.",
+      "quote": "You want to hire Pi-shaped marketers... like the Pi symbol has two vertical lines... an expert in one of those three areas... and proficient in another one.",
+      "realWorldExample": "Hiring a Product Marketer who is also deeply skilled at Content (writing/storytelling) to be the first hire, knowing they can hire an agency for Paid Ads (the gap)."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The scariest question you can ask a product marketer is 'What's a product marketer?'",
+      "context": "Discussing how ambiguous the PM role can be and how definitions vary wildly between companies."
+    },
+    {
+      "text": "Product led growth is a misnomer... to me, product led growth just means you are going to have a bigger marketing team early on because you're not going to have those sales people.",
+      "context": "Challenging the idea that PLG means you don't need marketing; arguing that without sales, marketing is the primary communication channel."
+    },
+    {
+      "text": "Marketing is the San Francisco of functions in a company... Karl the marketing fog.",
+      "context": "A metaphor for how marketing is often misunderstood, nebulous, and hard for outsiders (like engineers/PMs) to see clearly."
+    }
+  ],
+  "filename": "Emily Kramer"
+}

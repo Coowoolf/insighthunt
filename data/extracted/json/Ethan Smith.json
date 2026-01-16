@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Ethan Smith",
+    "title": "CEO",
+    "company": "Graphite",
+    "background": "An SEO veteran with 18 years of experience, Ethan specializes in SEO and programmatic SEO strategies. He is the CEO of Graphite, a leading agency helping companies like MasterClass and Webflow build scalable growth channels."
+  },
+  "episodeSummary": "Ethan Smith joins Lenny to decode the rapid shift from traditional SEO to Answer Engine Optimization (AEO). They explore how LLMs and RAG (Retrieval Augmented Generation) are changing search behavior, why 'share of voice' in citations matters more than ranking number one, and provide a tactical playbook for influencing AI answers through Reddit, YouTube, and help centers.",
+  "keyTakeaways": [
+    "AEO (Answer Engine Optimization) focuses on optimizing for LLM summarization rather than blue link clicks; the goal is to be mentioned in the citations used to generate the answer.",
+    "Webflow data shows LLM-driven traffic converts at 6X the rate of traditional Google Search traffic, indicating much higher intent.",
+    "For 'Head' terms (broad queries), you win by volume of citations across trusted sources (Reddit, YouTube, Affiliates). For 'Tail' terms (specific queries), you win by having the only specific answer available.",
+    "Do not use 100% AI-generated content for SEO; empirical studies show it is detectable, correlates with lower rankings, and leads to 'model collapse' when engines ignore derivative content.",
+    "Reddit is a critical 'trust signal' for LLMs. The winning strategy is not spamming, but having employees identify themselves and provide high-utility answers in relevant threads.",
+    "Video platforms (YouTube, Vimeo) are underutilized for boring B2B terms; creating videos for niche technical questions allows you to own that citation source easily.",
+    "Move Help Centers from subdomains to subdirectories to maximize authority and capture the 'long tail' of specific product feature questions."
+  ],
+  "methodologies": [
+    {
+      "name": "The Citation Saturation Framework",
+      "category": "growth-metrics",
+      "problemItSolves": "Ensures a product appears in LLM-generated answers (ChatGPT, Perplexity) where traditional ranking #1 on Google is no longer sufficient.",
+      "summary": "Since LLMs summarize multiple sources (RAG), winning requires appearing in as many high-trust 'citations' as possible rather than just having a strong domain authority on your own site.",
+      "principles": [
+        "Head vs. Tail Bifurcation: For broad questions, maximize citation frequency across media types. For specific questions, maximize answer specificity.",
+        "The Triad of Trust: Actively optimize three specific offsite channels: Video (YouTube/Vimeo), UGC (Reddit/Quora), and Tier 1 Affiliates (e.g., Dotdash sites).",
+        "Authentic UGC Injection: On Reddit, have team members post as verified employees providing high-utility answers, rather than creating fake bot accounts.",
+        "Video for Boring Topics: Create video content for dry, high-value B2B queries (e.g., 'API integration specs') where consumer competition is zero."
+      ],
+      "whenToUse": "When optimizing for brand visibility in ChatGPT, Claude, or Perplexity, particularly for B2B SaaS or high-consideration consumer products.",
+      "commonMistakes": "Attempting to spam Reddit with bot farms (which get banned/ignored) or assuming ranking #1 on Google automatically translates to being the LLM's chosen answer.",
+      "quote": "In order to win something like 'what's the best website builder?', at Google, they would win if their blue link showed up first. But that's not the case in the LLM, because the LLM is summarizing many citations, and so you need to get mentioned as many times as possible.",
+      "realWorldExample": "Webflow utilizes this framework by optimizing Reddit threads with authentic employee answers and creating YouTube content for specific design queries, resulting in 8% of their signups now coming from LLMs."
+    },
+    {
+      "name": "The AEO Split-Test Protocol",
+      "category": "execution",
+      "problemItSolves": "Eliminates the guesswork and misinformation surrounding AEO by scientifically validating which tactics actually influence LLM answers.",
+      "summary": "A rigorous experimental design to measure 'Share of Voice' in LLM answers, distinguishing between actual algorithmic wins and random variance.",
+      "principles": [
+        "Question Transformation: Convert high-value paid search keywords into natural language questions (e.g., 'payroll software' -> 'what is the best payroll software for startups?').",
+        "Share of Voice Tracking: Use an answer tracking tool to monitor how often your brand appears in answers across different models (ChatGPT, Gemini, Perplexity) to establish a baseline.",
+        "Control Group Isolation: Select 200 questions; isolate 100 as a control group (do nothing) and 100 as a test group (apply interventions).",
+        "Reproducibility Check: Intervention results must be reproducible across multiple tests before being adopted as strategy, due to the high variance (randomness) in LLM outputs."
+      ],
+      "whenToUse": "Before investing significant budget into a specific AEO strategy (like influencer marketing or massive content generation).",
+      "commonMistakes": "Failing to use a control group (LLM traffic is naturally rising, so 'up and to the right' might be a false positive) or testing on too few questions.",
+      "quote": "Most best practices, most blog posts are not correct. So how do you set up an experiment? ... Have a test group, have a control group. Intervene on the test group... see if the chart went up.",
+      "realWorldExample": "Ethan describes running this protocol where they tracked thousands of questions, intervened on half with tactics like Reddit comments, and measured the delta in 'Share of Voice' against the control group."
+    },
+    {
+      "name": "The Help Center Pivot",
+      "category": "product-strategy",
+      "problemItSolves": "Captures the massive 'long tail' of specific feature/integration questions (25+ words) that users ask LLMs but rarely search for in Google.",
+      "summary": "Transforming the product help center from a support archive into a primary AEO acquisition channel by restructuring technical content to answer specific 'Can you do X?' questions.",
+      "principles": [
+        "Subdirectory Migration: Move the help center from `help.domain.com` to `domain.com/help` to consolidate domain authority.",
+        "Internal Graphing: Implement aggressive cross-linking between help articles to signal relationship strength to crawlers.",
+        "Tail Gap Analysis: Mine sales calls and support tickets for specific integration/feature questions (e.g., 'Does X integrate with Looker?') that have zero search volume but high intent.",
+        "Community Extension: If an official answer doesn't exist for a niche use case, open that specific question page to community answers to generate the content organically."
+      ],
+      "whenToUse": "For complex B2B products with many integrations, features, or technical nuances that users query via chat.",
+      "commonMistakes": "Leaving the help center on a subdomain or only writing articles for high-volume keywords, ignoring the zero-volume long-tail queries that LLMs thrive on.",
+      "quote": "If you map out all of the questions that people ask... the size of the tail is larger [in chat]... and there's probably questions that have never been asked before and questions that have never been searched before.",
+      "realWorldExample": "Ethan's own search for 'Which meeting transcription tool integrates with Looker?' yielded no results initially; a company using this strategy would create a specific help page or community thread for that exact integration path."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Google's slice of the pie stays the same. The pie gets bigger.",
+      "context": "Debunking the myth that Google Search is dying due to AI; clarifying that AI is an additive channel, not fully a replacement."
+    },
+    {
+      "text": "Significantly more valuable. Webflow saw a 6X conversion rate difference between LLM traffic and Google Search traffic.",
+      "context": "Discussing the quality of leads generated from Answer Engines versus traditional search engines."
+    },
+    {
+      "text": "There is more AI-generated content on the internet than human-generated content.",
+      "context": "referencing a study on Common Crawl data, highlighting the risk of model collapse if AI trains on AI derivatives."
+    },
+    {
+      "text": "You are playing the game whether you want to or not, so you might as well try to show up.",
+      "context": "On whether publishers should block AI bots; blocking them simply hands market share to competitors who allow training."
+    }
+  ],
+  "filename": "Ethan Smith"
+}

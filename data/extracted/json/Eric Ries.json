@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Eric Ries",
+    "title": "Founder and Executive Chairman",
+    "company": "Long-Term Stock Exchange (LTSE)",
+    "background": "The creator of the Lean Startup methodology, author of 'The Lean Startup,' and a former CTO/founder. He is widely considered one of the most influential figures in modern product management and entrepreneurship."
+  },
+  "episodeSummary": "Eric Ries revisits the Lean Startup methodology over a decade after its release, addressing how the landscape has shifted with the rise of 'craft-focused' product building and AI. He deconstructs the persistent misconceptions around MVPs, provides a brutal truth test for founders stuck in 'zombie' companies, and offers a specific protocol for deciding when to pivot versus persevere.",
+  "keyTakeaways": [
+    "If you have to ask whether you have Product-Market Fit, you don't have it. PMF feels like a whirlwind where you have no time to ask existential questions.",
+    "A 'Marketing Launch' and a 'Product Launch' are separate events. You can release a product to customers for learning purposes without a public announcement.",
+    "The 'Pivot' is often a process of self-discovery; founders often discover their true vision only after the first iteration fails, rather than having a fixed vision from day one.",
+    "Fearing startup failure is irrational compared to the much worse fate of running a 'zombie company'—a business that won't die but isn't succeeding, trapping you in a job you hate.",
+    "When customers complain about a missing feature in your MVP, that is positive validation. The real danger is when they complain about things you didn't even know existed.",
+    "High craft and design can be part of an MVP, but only if 'craft' is a specific leap-of-faith assumption you are testing. Otherwise, it is often just a delay tactic to avoid feedback.",
+    "Corporate governance and alignment issues will be the biggest bottleneck for AI deployment, as AI models tend to reflect the organizational dysfunction of the teams that build them."
+  ],
+  "methodologies": [
+    {
+      "name": "The Recursive Cut MVP",
+      "category": "execution",
+      "problemItSolves": "Product teams struggle to define 'minimum' and overbuild initial versions due to fear of shipping low-quality work.",
+      "summary": "A ruthless heuristic for scoping an MVP that ensures you are testing the leap-of-faith assumption rather than satisfying the founder's ego. It shifts the focus from 'building a product' to 'testing a hypothesis' while containing liability.",
+      "principles": [
+        "Write down every feature you think is necessary for the launch.",
+        "Cut that list in half. Then, cut it in half again. Build that.",
+        "Treat the MVP as a 'baseline' to measure improvement, not a final destination.",
+        "If the bar for quality in your market is high, narrow the scope to a single feature that meets that bar, rather than a full suite of average features."
+      ],
+      "whenToUse": "When launching a new product line or startup where the primary risk is market desirability rather than technical feasibility.",
+      "commonMistakes": "Confusing 'minimum' with 'broken' or 'buggy'. The code should work, but the scope should be uncomfortably small.",
+      "quote": "Write out the list of features that are necessary in your MVP. Cut it in half and cut it in half again and build that.",
+      "realWorldExample": "IMVU removed the ability for avatars to walk because the animation tech was too expensive. They used simple 'teleporting' instead. Customers ended up preferring teleportation over walking (which The Sims used), turning a cut corner into a feature."
+    },
+    {
+      "name": "The Six-Week Truth Protocol",
+      "category": "product-strategy",
+      "problemItSolves": "Founders and PMs get stuck in the 'flat part of the hockey stick,' unable to admit the current strategy isn't working and unsure if they should pivot.",
+      "summary": "A tactical approach to forcing a decision between pivoting and persevering by removing the ambiguity of 'it might work eventually.' It uses a fixed timebox to force empirical reality upon the team.",
+      "principles": [
+        "Admit the current state: Acknowledge that you are currently in the 'zombie' zone (not growing, not dying).",
+        "Set a strict timebox (e.g., six weeks) where the entire team focuses 100% on moving one specific metric.",
+        "If the needle doesn't move significantly by the deadline, convene a 'reset meeting'.",
+        "In the reset meeting, go around the room and ask: 'If we could start a new company today with the remaining money, what would we build?' If everyone aligns on a new idea, pivot immediately."
+      ],
+      "whenToUse": "When a startup or product feature has launched but is seeing flat growth, and the team is making excuses about 'delayed effects' or 'seasonality'.",
+      "commonMistakes": "Allowing the timeline to slip or accepting marginal improvements (e.g., 10% to 10.5%) as success when step-function growth is needed.",
+      "quote": "If you're asking whether you should pivot or not, you probably know the answer already.",
+      "realWorldExample": "Eric used a similar logic during the LTSE partnership failure. When the partnership collapsed after two years, the team used the 'truth' of the failure to immediately pivot to the regulatory approach that eventually worked."
+    },
+    {
+      "name": "The Brochureware Simulation",
+      "category": "user-research",
+      "problemItSolves": "Teams in hardware, enterprise, or high-compliance industries believe they cannot use Lean/MVP methods because they 'need to build the whole thing' to sell it.",
+      "summary": "A method to test value propositions in high-stakes environments without building the physical or complex underlying product first. It relies on selling the promise (specs/outcome) before the product exists.",
+      "principles": [
+        "Identify the 'Leap of Faith' assumption (e.g., customers care about efficiency).",
+        "Create high-fidelity marketing materials (brochures, datasheets, landing pages) that promise the ideal specifications.",
+        "Attempt to get a pre-order or a letter of intent based solely on the brochure.",
+        "If the customer refuses the brochure, building the product would have been waste. If they accept, you have validated the specs required."
+      ],
+      "whenToUse": "Deep tech, hardware, B2B enterprise sales, or regulated industries where the cost of building the 'wrong' thing is millions of dollars.",
+      "commonMistakes": "Creating low-quality marketing materials. The 'brochure' must look real and professional to test the value proposition accurately.",
+      "quote": "We can build a really high quality brochure in a tiny fraction of the time it takes to build the actual machine.",
+      "realWorldExample": "A data center equipment team wanted to spend $18M/3 years to build a highly efficient power system. Eric convinced them to try selling a brochure with the target specs first. Customers laughed them out of the room because they didn't pay for electricity (their landlords did), saving the team years of work."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Far worse is to be in a company that won't die, a zombie, undead company that you hate, but you can't leave.",
+      "context": "Discussing the mental health crisis among founders and why failing fast is actually a mercy compared to succeeding at something you hate."
+    },
+    {
+      "text": "The number one lesson of the scientific method is if you can't fail, you can't learn.",
+      "context": "On why founders must structure their experiments so that a negative result is possible; otherwise, it's just theater."
+    },
+    {
+      "text": "I feel like first principles thinking, it really has two components... A lot of my work is just descriptive. It's not actually telling people what to do, it's simply giving a name and a concept to a thing that already happens.",
+      "context": "Explaining the origin of terms like 'Pivot' and 'MVP'—they weren't invented, they were observed behaviors of successful teams."
+    },
+    {
+      "text": "Quality is defined by the customer. And if we don't know who our customer is, we literally don't know what the word quality means.",
+      "context": "Addressing the debate between 'Craft' vs. 'MVP' and arguing that building a beautiful product nobody wants is not high quality."
+    }
+  ],
+  "filename": "Eric Ries"
+}

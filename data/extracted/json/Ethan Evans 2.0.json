@@ -1,0 +1,88 @@
+{
+  "guest": {
+    "name": "Ethan Evans",
+    "title": "Former VP at Amazon, Executive Coach",
+    "company": "Amazon / Ethan Evans Coaching",
+    "background": "A 15-year Amazon veteran who served as VP for Prime Video, Twitch Commerce, and Prime Gaming. He holds over 70 patents, helped draft Amazon's 'Ownership' leadership principle, and now coaches senior leaders on breaking through career ceilings."
+  },
+  "episodeSummary": "Ethan Evans breaks down the mechanics of career acceleration and systematic invention within high-performance cultures like Amazon. He details 'The Magic Loop' framework for self-driven promotion, shares a masterclass in crisis management based on a personal failure with Jeff Bezos, and demystifies the process of innovation as a repeatable habit rather than a stroke of genius.",
+  "keyTakeaways": [
+    "Career growth is a social engineering challenge: You must align your growth goals with your manager's immediate pain points.",
+    "Invention does not require constant genius; it requires expertise plus dedicated, disconnected thinking time (as little as 2 hours a month).",
+    "When managing a crisis, buy survival time by providing hyper-frequent (hourly) updates to prevent executive micromanagement.",
+    "In interviews, shift the narrative from 'what I did' (output) to 'why it mattered' (business impact/outcome).",
+    "To break through the Senior Manager ceiling, you must transition from execution excellence to strategic influence and cross-team coordination.",
+    "True ownership means never saying 'that's not my job'—a phrase Ethan literally helped write into Amazon's Leadership Principles.",
+    "Innovation is often combinatorial: taking two existing things (e.g., a truck and a drone) and merging them to solve a logistical problem."
+  ],
+  "methodologies": [
+    {
+      "name": "The Magic Loop Career Flywheel",
+      "category": "career-leadership",
+      "problemItSolves": "Helps high-performers get promoted and acquire new skills even when their manager is busy, passive, or not actively planning their career growth.",
+      "summary": "A cyclical five-step process that turns the employee-manager relationship into a partnership. By solving the manager's immediate problems first, you earn the political capital to request work that aligns with your specific career goals.",
+      "principles": [
+        "Step 1: Audit your baseline performance. You cannot run this loop if your current work is sub-par; you must be seen as reliable first.",
+        "Step 2: Ask the 'Help' Question. Explicitly ask your manager: 'What is keeping you up at night?' or 'What can I take off your plate?'",
+        "Step 3: Execute the 'Grunt' Work. Do the task they give you perfectly, even if it is unglamorous. This builds debt and trust.",
+        "Step 4: The Strategic Ask. Once trust is established, propose: 'I'd love to solve [Problem X] for you, which would also help me learn [Skill Y] to reach my goal of [Promotion/Role Change].'",
+        "Step 5: Rinse and Repeat. Use the success of the project to spin the flywheel again for larger, more strategic opportunities."
+      ],
+      "whenToUse": "When you feel stagnant in your role, when you have a hands-off manager, or when you want to pivot your skill set without changing companies.",
+      "commonMistakes": "Skipping Step 1 (trying to negotiate growth while underperforming) or skipping Step 4 (doing the extra work but never explicitly tying it to your career goals).",
+      "quote": "Managers help those who help them. It's just human nature.",
+      "realWorldExample": "An engineer on Ethan's team used this loop to grow from an SDE II to a Director managing 800 people over eight years by consistently taking on his manager's problems in exchange for growth opportunities."
+    },
+    {
+      "name": "The 'Eye of Sauron' Crisis Protocol",
+      "category": "execution",
+      "problemItSolves": "How to survive a catastrophic failure or outage visible to executive leadership (like the CEO) without getting fired.",
+      "summary": "A crisis management strategy focused on radical ownership and communication cadence. The goal is to reduce executive anxiety by demonstrating control, buying the team time to actually fix the technical issue.",
+      "principles": [
+        "Step 1: Radical Ownership. Immediately admit the failure. Do not deflect, blame dependencies, or minimize the impact.",
+        "Step 2: Micro-Cadence Updates. Establish a strict schedule (e.g., 'I will update you every 60 minutes'). This buys you 59 minutes of focus time where leadership won't micromanage you.",
+        "Step 3: Fear the 'New York Times' Headline. Evaluate decisions based on public reputation risk. If an action could cause a PR disaster, prioritize safety over speed.",
+        "Step 4: Face the Heat Physically. When the dust settles, meet stakeholders in person. It is much harder for a leader to flame you face-to-face than over email."
+      ],
+      "whenToUse": "During high-visibility product outages, missed launch dates, or critical bugs that have attracted the attention of skip-level leadership.",
+      "commonMistakes": "Going silent while trying to fix the bug, or hoping the problem goes away before leadership notices.",
+      "quote": "I was buying life one hour at a time... If I can't face the CEO, I'd better pack my desk.",
+      "realWorldExample": "Ethan's team failed a launch for the Amazon Appstore that Jeff Bezos had already written a PR letter for. Ethan updated Bezos every hour on the hour, accepted full blame, and eventually repaired the relationship to become VP."
+    },
+    {
+      "name": "The Combinatorial Invention Process",
+      "category": "product-strategy",
+      "problemItSolves": "Overcomes the 'blank page' paralysis when trying to innovate or 'Think Big' (an Amazon leadership principle).",
+      "summary": "A systematic approach to invention that demystifies it from 'magic' to 'process.' It relies on deep domain expertise combined with intentional, disconnected thinking time to merge existing concepts.",
+      "principles": [
+        "Step 1: Acquire Domain Expertise. You cannot invent in a vacuum. You must understand the mechanics of the current system thoroughly.",
+        "Step 2: Scheduled Isolation. Block 2 hours/month specifically for invention—no email, no slack. This is distinct from 'work.'",
+        "Step 3: Combinatorial Thinking. Do not try to invent a new element. Take two existing proven things and combine them (e.g., Aircraft Carrier logic + Delivery Trucks).",
+        "Step 4: The Optimization Grind. Recognize that 99% of invention is the incremental optimization after the idea (making it cheaper, faster, reliable)."
+      ],
+      "whenToUse": "During quarterly planning, hackathons, or when tasked with a 'Think Big' document to expand a product line.",
+      "commonMistakes": "Thinking invention requires weeks of time (it requires small, intense bursts) or trying to invent in a field where you lack fundamental expertise.",
+      "quote": "The point here is you don't need very many good ideas to be seen as tremendously inventive... once you have one good idea, it often takes years to express that.",
+      "realWorldExample": "Ethan invented a patent for drone delivery by combining the concept of an aircraft carrier with a delivery truck—creating a mobile base for drones—rather than trying to invent a drone with infinite battery life."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "An owner never says 'that's not my job.'",
+      "context": "The specific phrasing Ethan contributed to Amazon's official Ownership leadership principle."
+    },
+    {
+      "text": "What your manager should do and $4 will get you a cup of coffee at Starbucks.",
+      "context": "Ethan explaining that waiting for a manager to be 'good' is a losing strategy; you must take control of your own career."
+    },
+    {
+      "text": "In a competitive environment, being right is good, but being quick is necessary.",
+      "context": "Discussing the 'Bias for Action' leadership principle and why speed is a survival trait for startups."
+    },
+    {
+      "text": "Angry emails are easy. Sitting three feet from someone and being angry with them face-to-face is hard.",
+      "context": "On why he chose to sit next to Jeff Bezos immediately after a major failure, effectively diffusing the tension."
+    }
+  ],
+  "filename": "Ethan Evans 2.0"
+}

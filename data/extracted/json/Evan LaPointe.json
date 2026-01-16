@@ -1,0 +1,106 @@
+{
+  "guest": {
+    "name": "Evan LaPointe",
+    "title": "Founder",
+    "company": "CORE Sciences",
+    "background": "A four-time founder (including Satellite, acquired by Adobe) turned neuroscience educator. He runs CORE Sciences to teach companies how to bridge the gap between 'what science knows' and 'what business does' to improve decision-making and team dynamics."
+  },
+  "episodeSummary": "Evan LaPointe bridges the gap between neuroscience and product management, arguing that most business dysfunction arises because we ignore how human brains actually operate. He breaks down the brain's safety, reward, and purpose systems, and introduces frameworks for navigating personality differences (specifically Openness vs. Conscientiousness) in strategy work. The episode offers deep dives into fixing broken professional relationships, structuring meetings to avoid waste, and choosing specific 'characters' to influence stakeholders effectively.",
+  "keyTakeaways": [
+    "Ask yourself 'Am I a miserable experience?' before worrying about your competence; biological appeal outweighs ability in relationships.",
+    "Stop skipping the 'Priming' phase in meetings; jumping straight to decision-making without aligning on principles causes the majority of meeting waste.",
+    "If you are high in Conscientiousness but low in Openness, abstract vision work will feel like a 'pain cave'; use 'Reverse Engineering' of outcomes to bridge this gap.",
+    "Influence has three speeds: Slow (letting them fail), Moderate (teaching/Challenger Sale), and Fast (inducing Cognitive Dissonance).",
+    "True delegation (Trust Level 3) isn't hoping someone does it as well as you; it's recognizing their mind works in a way that is superior to yours for that specific task.",
+    "Vulnerability about your personality traits (e.g., 'I struggle with abstract concepts') is more effective than masking it or being unapologetically difficult.",
+    "Use 'Situational Awareness' (n > 5 customer conversations) to validate whether a strategic idea is actually 'inconceivable' or just outside your personal experience."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Experience First' Relationship Triad",
+      "category": "career-leadership",
+      "problemItSolves": "Explains why highly skilled product managers or engineers get sidelined or why 'ineffective' people remain popular. It provides a diagnostic tool for fixing broken stakeholder relationships.",
+      "summary": "A framework for deconstructing professional relationships into three components. Contrary to business logic, 'Ability' is the least important biologically, while 'Appeal' (the experience of working with you) is the most critical for survival in a social mesh.",
+      "principles": [
+        "Component 1: Ability (Utility) - Can you do the job? This includes knowledge, reasoning, and imagination. It is necessary but insufficient.",
+        "Component 2: Trust (Risk) - Evaluated on three levels: 1. Delegation (Simple tasks), 2. Scalability (Doing it as well as I would), 3. Superiority (Doing it better/differently than I could).",
+        "Component 3: Appeal (Experience) - The biological priority. If you trigger a colleague's safety system (fear/threat) or are a 'miserable experience,' your utility is nullified because the network isolates you.",
+        "Action: If a relationship is failing, fix the 'Experience' first (e.g., tone, energy, safety) before trying to prove your competence."
+      ],
+      "whenToUse": "When you are struggling to get buy-in despite having the correct data, or when trying to understand why a high-performing team member is causing friction.",
+      "commonMistakes": "Doubling down on proving you are 'right' (Ability) when the actual deficit is that you are unpleasant to work with (Appeal).",
+      "quote": "It's critical to ask what kind of experience am I? Not how good am I at my job... but am I a miserable experience? If the answer is yes, don't worry too much about the other pieces yet. You got to fix that first.",
+      "realWorldExample": "Evan uses Shreyas Doshi as an example of someone with high scores in all three: High Utility (intellectually additive), High Trust (Level 3), and High Appeal (positive experience)."
+    },
+    {
+      "name": "The Meeting Priming Protocol",
+      "category": "execution",
+      "problemItSolves": "Eliminates the 'Diamond Shape' meeting failure where teams diverge at the end of a meeting instead of the beginning, leading to wasted time and revisited decisions.",
+      "summary": "Treats meetings like a product with distinct phases. It mandates a 'Priming' phase before any decision-making occurs to align on the 'meta' of the conversation—principles, mindsets, and context.",
+      "principles": [
+        "Step 1: Define the Category - Is this meeting for generating options, creative problem solving, or efficiency seeking?",
+        "Step 2: Establish Principles - Explicitly state the rules of engagement (e.g., 'Are we honoring sacred cows or eating them today?' or 'Is speed more important than accuracy?').",
+        "Step 3: Check Alignment - Ensure everyone has the same information context before debate begins.",
+        "Step 4: Decision Making - Only move to convergence once the priming is complete.",
+        "Constraint: Do not allow calendar invites that lack priming context (useless meetings)."
+      ],
+      "whenToUse": "For every strategic meeting, roadmap planning session, or complex cross-functional sync.",
+      "commonMistakes": "Skipping priming to 'save time,' which results in debating tactics when the misalignment is actually about principles (e.g., one person solving for speed, another for accuracy).",
+      "quote": "A lot of meetings skip the priming step altogether... It would be safe to skip the priming step if we began the meeting under the assumption that everybody here is on the same page... I think that's a ludicrous assumption.",
+      "realWorldExample": "Amazon's memo culture is cited as a robust (albeit arduous) execution of priming, ensuring context is consumed before discussion starts."
+    },
+    {
+      "name": "The CORE Identity Strategy Alignment",
+      "category": "team-culture",
+      "problemItSolves": "Resolves friction between 'Visionary' types and 'Execution' types during strategy planning, preventing high-conscientiousness employees from shutting down innovative ideas prematurely.",
+      "summary": "A method for navigating the tension between the 'Openness' trait (comfort with abstraction/vision) and the 'Conscientiousness' trait (desire for efficiency/order). It frames this not as a conflict of ideas, but a conflict of neural processing.",
+      "principles": [
+        "Self-Diagnosis: Identify if you are Low Openness/High Conscientiousness. If so, abstract vision work will trigger your 'Pain Cave' and feel inefficient.",
+        "Vulnerability: Explicitly state your bias. 'I am low in openness, so this feels inconceivable to me. I need help translating this.'",
+        "Translation: Use 'Reverse Engineering' as a bridge. If a vision feels fluffy, ask to reverse engineer the inputs required to achieve that outcome. This satisfies the conscientious brain's need for structure.",
+        "Situational Awareness: For the skeptic, increase 'N' (sample size). Engaging with >5 customers often provides the data needed to make the 'inconceivable' vision feel 'believable'."
+      ],
+      "whenToUse": "During annual planning, vision sprints, or when a PM is pitching a 'moonshot' to engineering leads or conservative stakeholders.",
+      "commonMistakes": "Allowing a high-conscientiousness person to kill an idea in its 'infancy' by demanding ROI or efficiency metrics before the idea has matured.",
+      "quote": "If you are low in openness... as soon as things get abstract, not only are you like, 'I don't like this,' you have a much more visceral negative response... you are now going into your pain cave.",
+      "realWorldExample": "Lenny identifying himself as low openness/high conscientiousness and realizing why he struggles when designers propose massive, abstract re-designs."
+    },
+    {
+      "name": "The 'Select Your Character' Influence Model",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs influence stakeholders who are resistant to change by moving beyond a 'one-size-fits-all' communication style.",
+      "summary": "Gamifies influence by asking you to intentionally select a 'Character' and a 'Speed' for your influence campaign, rather than relying on default behaviors.",
+      "principles": [
+        "Step 1: Choose Your Character - Are you the 'Compassionate Helper', the 'Logic/Data Provider', or the 'Sledgehammer/Disruptor'?",
+        "Step 2: Buy Permission - Explicitly ask for permission to play that role (e.g., 'I'm going to play devil's advocate and try to break this idea, is that okay?').",
+        "Step 3: Choose Your Speed - select based on urgency:",
+        "   - Slow: Let them find out the hard way (allow failure).",
+        "   - Moderate: The 'Challenger' approach (Teach them new info, let them sit with it).",
+        "   - Fast: Cognitive Dissonance (Directly challenge the gap between their belief and reality/behavior)."
+      ],
+      "whenToUse": "When managing up to executives or trying to persuade a stubborn cross-functional partner to change direction.",
+      "commonMistakes": " defaulting to the 'Slow' method (waiting for them to realize they are wrong) when the business needs 'Fast' influence, or trying to use 'Fast' influence without a high-trust relationship.",
+      "quote": "It's almost like you're playing Elden Ring... The starting point is to choose your character. 'Hey, I'm the devil's advocate approach' or 'I'm the break it and see if it still stands'... your personality kind of has a natural fit.",
+      "realWorldExample": "Using the 'Challenger Sale' technique (Moderate Speed) by teaching a colleague a new piece of data regarding user behavior, then letting them 'live with it' for 30 days until they can't unsee the problem."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The brain is like a college campus... Most people rely on their history department way too much. If you instead send things to the more experimental, open-minded science department, the more creative art department, you get dramatically better answers.",
+      "context": "Opening analogy explaining why organizations struggle to innovate—they rely on memory (history) to save energy rather than active cognition (science/art)."
+    },
+    {
+      "text": "Accountability is a great example, asking for accountability is the best way to not get it, because asking for accountability activates people's safety systems.",
+      "context": "Discussing why standard management tropes fail; demanding accountability triggers fear, which leads to performative compliance rather than actual ownership."
+    },
+    {
+      "text": "What science knows minus what your business does equals dysfunction.",
+      "context": "The core formula Evan uses to diagnose organizational problems, referencing Dan Pink's work."
+    },
+    {
+      "text": "I didn't realize that you were terminal... why are you even in this meeting if you're about to die?",
+      "context": "Evan's internal reaction to the common corporate phrase 'We can't talk about this for the rest of our lives,' used to shut down necessary debate."
+    }
+  ],
+  "filename": "Evan LaPointe"
+}

@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Eoghan McCabe",
+    "title": "Co-founder and CEO",
+    "company": "Intercom",
+    "background": "Eoghan McCabe is the co-founder and CEO of Intercom, a customer service platform. He successfully navigated a high-stakes turnaround of the late-stage SaaS company by pivoting aggressively to an AI-first, agent-based model, reversing stagnation and achieving massive growth."
+  },
+  "episodeSummary": "Eoghan McCabe details the aggressive, high-risk transformation of Intercom from a plateauing legacy SaaS business to a hyper-growth AI agent company. He discusses the necessity of 'Founder Mode'—using top-down, authoritarian decision-making to force cultural resets, rewrite values, and execute bold pricing strategies. The conversation explores the existential threat AI poses to SaaS, the mechanics of outcome-based pricing for AI agents, and the psychological toll of radical corporate restructuring.",
+  "keyTakeaways": [
+    "To pivot a late-stage company to AI, you must be willing to dismantle existing revenue streams and cultural norms; incrementalism fails against existential disruption.",
+    "Pricing for AI agents should be outcome-based (e.g., per resolution) rather than seat-based, aligning 100% with the value delivered to the customer.",
+    "Cultural values should act as a 'sharp knife' designed to cut people out who don't fit, rather than generic statements of inclusion.",
+    "In times of crisis or massive pivot, seek 'Founder Mode' (unilateral, brave decision-making) over consensus or democratic management.",
+    "The future of organizations is a hybrid of humans and agents, where humans will likely move into 'manager' roles overseeing agentic outputs.",
+    "Efficiency is not the only value metric; humans will continue to pay a premium for connection, story, and craft even as agents commoditize execution.",
+    "Deeply question 'best practices' from the previous SaaS era; young AI companies are winning by ignoring them and working with extreme intensity."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Sharp Knife' Cultural Reset",
+      "category": "team-culture",
+      "problemItSolves": "Addresses organizational bloat, complacency, and misalignment that prevents a company from executing a rapid, existential pivot (like moving to AI).",
+      "summary": "A framework for rewriting company values and performance management to aggressively filter the workforce for specific traits required for a wartime pivot, rather than broad inclusivity.",
+      "principles": [
+        "Rewrite values to be exclusionary: Design values that specifically define who *should not* be there (e.g., 'Resilience' and 'Shareholder Value' over comfort).",
+        "Hard-coded Performance Formula: Implement a review system where the score is a hard calculation of Goal Achievement + Behavioral Adherence to Values.",
+        "Remove the Manager's Discretion: The CEO or leadership sets the formula so that low scores automatically trigger exit discussions, removing emotional hesitation from middle management.",
+        "Accept High Turnover: Be prepared for and accept significant attrition (Intercom saw ~40%) as a necessary cost of resetting the operational cadence."
+      ],
+      "whenToUse": "When a company is facing stagnation, negative growth, or an existential technology shift that requires a completely different operating speed and risk tolerance.",
+      "commonMistakes": "Trying to maintain the 'sharp knife' approach while simultaneously trying to please everyone or softening the blow to avoid bad PR.",
+      "quote": "I rewrote the values designed to be a sharp knife to cut out the parts of the company that I just knew wouldn't be effective.",
+      "realWorldExample": "McCabe returned to Intercom, rewrote values to emphasize resilience and shareholder value, implemented a strict performance formula, and accepted a 40% staff turnover to build a team capable of shipping their AI agent, Fin."
+    },
+    {
+      "name": "Resolution-Based Pricing Model",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the friction of selling AI agents to customers who are skeptical of paying for digital labor or unsure of the AI's efficacy compared to humans.",
+      "summary": "A pricing strategy that shifts from paying for access (seats) or usage (messages) to paying strictly for successful outcomes, de-risking the adoption for the buyer.",
+      "principles": [
+        "Price on Outcome, Not Access: Charge only when the specific unit of work is successfully completed (e.g., a resolved ticket).",
+        "Define the 'Kill Threshold': Determine the minimum price per outcome needed for a viable business (Intercom set $0.99/resolution). If customers won't pay that, the business model doesn't exist.",
+        "Decouple Price from Cost: Do not use cost-plus pricing. The cost of AI inference is volatile and dropping; price based on the value relative to the human alternative (e.g., $0.99 vs $20 human cost).",
+        "Align Incentives: Ensure the vendor only gets paid when the customer gets value, creating high trust."
+      ],
+      "whenToUse": "When launching AI agents or automation products where trust in quality is the primary barrier to adoption.",
+      "commonMistakes": "Pricing based on current high inference costs (which will drop) or creating complex tiered systems that confuse the buyer about what they are paying for.",
+      "quote": "We wanted our revenue to be 100% aligned with the value that they attained... If someone is not prepared to pay 99 cent for us to rapidly and elegantly solve their customer's problem, we need to wrap this up.",
+      "realWorldExample": "Intercom launched Fin with a flat fee of $0.99 per resolution. If the AI agent talks to a user but fails to resolve the issue, the customer pays $0."
+    },
+    {
+      "name": "First-Principles Strategy Decomposition",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents 'cargo cult' product management where teams build features or hold events simply because it's industry standard, leading to bloated and ineffective strategies.",
+      "summary": "A rigorous intellectual framework used to strip every initiative down to its fundamental truth before execution, ensuring high strategic coherence.",
+      "principles": [
+        "Identify the Ultimate Goal: Before discussing the 'what' (e.g., an event), define the 'why' (e.g., brand affinity vs. lead gen).",
+        "Analyze the Mechanism: Determine exactly *how* the proposed solution achieves the goal (the causal link).",
+        "Deconstruct the Value Definition: Map how the end-user defines value in this context, not how the business defines it.",
+        "Rebuild form Scratch: Ignore competitors and best practices; build the solution up from the raw components of the problem."
+      ],
+      "whenToUse": "When training product leaders to think strategically or when reviewing a roadmap that feels derivative or bloated.",
+      "commonMistakes": "Applying the framework superficially without actually being willing to cancel a project if the first-principles analysis shows it has no solid foundation.",
+      "quote": "We would create frameworks for everything... What is the ultimate goal of the event? What's the mechanism by which events work? What other mechanisms that can achieve that same goal?",
+      "realWorldExample": "Intercom uses this to train PMs to act like 'Mini-CEOs,' resulting in a high number of alumni founding successful companies (Intercom ranks #1 for producing future founders among similar peers)."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You don't have a choice. AI is going to disrupt in the most aggressive violent ways. If you're not in it, you're about to get kicked out of all of it.",
+      "context": "McCabe's opening stance on why established companies cannot afford to sit on the sidelines of the AI shift."
+    },
+    {
+      "text": "The way that greatness is created is that you find a CEO who's willing to make brave hard decisions and own the results.",
+      "context": "Discussing the difference between 'Founder Mode' and professional CEO management styles."
+    },
+    {
+      "text": "You betray your intuition in little bits and pieces over the years when the bright spark of your original idea turns into this big, unstoppable, scary corporate beast and a little bit of you dies every single time.",
+      "context": "McCabe reflecting on why founders burnout and why he had to leave the company originally."
+    },
+    {
+      "text": "I restart the culture. I rewrote the values designed to be a sharp knife to cut out the parts of the company that I just knew wouldn't be effective.",
+      "context": "Describing the aggressive tactics used to transform Intercom from a sluggish late-stage company to a 'wartime' AI company."
+    }
+  ],
+  "filename": "Eoghan McCabe"
+}

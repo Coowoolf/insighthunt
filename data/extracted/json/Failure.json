@@ -1,0 +1,88 @@
+{
+  "guest": {
+    "name": "Various Product Leaders (Hosted by Lenny Rachitzky)",
+    "title": "Product Executives",
+    "company": "Airbnb, Stripe, Intercom, Quibi, Ramp, Duolingo, Toast",
+    "background": "A compilation of elite product leaders including Katie Dill (Stripe), Paul Adams (Intercom), Tom Conrad (Quibi/Pets.com), Sri Batchu (Ramp), Jiaona Zhang (Webflow), Gina Gotthilf (Latitud), and Maggie Crowley (Toast) sharing their most significant career failures."
+  },
+  "episodeSummary": "This special compilation episode aggregates the most painful and instructive stories of failure from top product leaders. It shifts the focus from 'survivorship bias' success stories to the gritty reality of failed launches, leadership mutinies, and bankrupt companies, extracting the specific lessons that allowed these leaders to bounce back and succeed later.",
+  "keyTakeaways": [
+    "In B2B experiments with low sample sizes, maximize the 'treatment effect' (do everything possible at once) to get a signal, rather than testing isolated variables.",
+    "Product excellence cannot overcome a broken business equation; if the math of capital-in vs. returns-out doesn't work, no amount of iteration will save the company.",
+    "When entering a new leadership role, prioritize earning trust over 'coming in swinging' with changes; you cannot inflict change on a team that does not trust you.",
+    "Never conduct a side-by-side code rewrite; they almost always take longer than estimated and fail to reach feature parity.",
+    "Fail conclusively; a failure that yields no learning is a waste, but a failure that definitively proves a hypothesis wrong is progress.",
+    "Before building a solution (like Airbnb Plus inspections), rigor-test the unit economics to ensure the cost of delivery doesn't destroy the business model at scale.",
+    "Embrace the 'B-side' of your career; resilient leaders understand that resumes are highlights, but growth happens in the messy, unpublicized failures."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Maximum Treatment' Protocol",
+      "category": "growth-metrics",
+      "problemItSolves": "Solves the problem of inconclusive experiments in low-volume (B2B) environments where statistical significance is hard to achieve with small changes.",
+      "summary": "Instead of isolating variables (e.g., changing just the email subject line), this methodology argues for changing every possible variable at once to maximize the chance of moving the metric. If the metric moves, you can cost-rationalize and isolate variables later. If it doesn't move after maximum effort, you can conclusively abandon the hypothesis.",
+      "principles": [
+        "Maximize the Treatment Effect: In the absence of large 'M' (sample size), increase the intensity of the intervention.",
+        "The 'Kitchen Sink' Approach: Combine email, design, phone calls, and personalization into a single test group to force a result.",
+        "Fail Conclusively: If the most expensive, intensive version of the idea doesn't work, the idea is wrong.",
+        "Cost-Rationalize Later: If the 'maximum' version works, peel back layers in subsequent tests to find the ROI sweet spot."
+      ],
+      "whenToUse": "When testing broad strategic hypotheses (e.g., Account-Based Marketing) in a B2B setting or when user traffic is too low for granular A/B testing.",
+      "commonMistakes": "Testing small, incremental changes (like button color) in low-traffic environments, leading to false negatives where the signal is lost in the noise.",
+      "quote": "If you have a hypothesis... just throw all of the possible tactics and resources that you think would move that needle because you can always cost rationalize later if it works.",
+      "realWorldExample": "Sri Batchu at Ramp testing Account-Based Marketing by combining every possible touchpoint (email, design, triggers) rather than testing them sequentially."
+    },
+    {
+      "name": "The 'Business Equation' Diagnostic",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents product teams from polishing a product that is doomed by its underlying financial or structural model.",
+      "summary": "This framework treats a company not as a set of features, but as a math equation where investment leads to returns over a specific time horizon. It forces PMs to ask if the product execution can actually influence the variables in that equation, or if the equation itself is fundamentally broken regardless of product quality.",
+      "principles": [
+        "Define the Equation: Map out exactly how capital in translates to returns out (time horizon, unit economics, retention).",
+        "Identify Product Variables: Determine which variables in the equation can actually be moved by better product design (e.g., retention, conversion).",
+        "Identify Structural Variables: Recognize variables that are fixed constraints (e.g., content production costs, hardware costs).",
+        "The Impossibility Check: If the structural variables make the equation unsolvable (e.g., Quibi's $2B content cost vs. subscription willingness), stop building.",
+        "Market Timing Audit: Assess if the infrastructure (e.g., dial-up vs. broadband) supports the equation."
+      ],
+      "whenToUse": "During the zero-to-one phase of a startup or when launching a massive new business line that requires heavy capital investment.",
+      "commonMistakes": "Believing that 'delightful product experiences' and viral word-of-mouth can overcome negative unit economics or a fundamentally flawed business model.",
+      "quote": "If the equation is fundamentally broken... no amount of iteration and execution can get you out of the failed outputs of the broken equation.",
+      "realWorldExample": "Tom Conrad realizing at Quibi that the cost of producing bespoke Hollywood-quality content for mobile ($2B+) could not be supported by the subscription revenue, regardless of how good the app interface was."
+    },
+    {
+      "name": "The 'Solution-Last' Design Framework",
+      "category": "execution",
+      "problemItSolves": "Stops teams from building expensive, operationally complex features based on intuition rather than validated user problems.",
+      "summary": "A discipline to un-train the human instinct to jump straight to solutions. It requires teams to validate the specific user problem and the operational feasibility (unit economics) of the solution before writing code or building operations.",
+      "principles": [
+        "Un-train Solution Jumping: actively resist the urge to say 'I want to build X'.",
+        "Strategic Wheelhouse Check: Ask 'Is this solution within our company's core competency?' (e.g., Airbnb was a tech platform, not an operations company).",
+        "Unit Economics Forecast: Calculate the cost of the solution at scale immediately. If it doesn't scale (e.g., sending inspectors to every home), discard it.",
+        "Alternative Solutioning: Once the problem is defined (e.g., 'Trust'), brainstorm scalable alternatives (e.g., Guest Reviews) rather than brute-force solutions (e.g., Inspections)."
+      ],
+      "whenToUse": "When considering features that involve 'real world' operations, logistics, or high marginal costs per user.",
+      "commonMistakes": "Building 'Managed Marketplaces' or high-touch service layers without realizing the unit economics will never turn positive.",
+      "quote": "I think you actually need to really make sure the unit economics work right at the beginning... instead of one blunt instrument to solve it all.",
+      "realWorldExample": "Jiaona Zhang (JZ) at Airbnb realizing that 'Airbnb Plus' (inspecting homes for quality) was a solution-first mistake that ignored the company's weakness in operations and poor unit economics."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "At Facebook you can design the product, but at Intercom you can design the company.",
+      "context": "Paul Adams explaining why he left a giant like Facebook to join a small startup, emphasizing the value of culture design."
+    },
+    {
+      "text": "I don't think you're a good PM if you haven't shipped something that's really shitty. You just haven't had enough reps.",
+      "context": "Maggie Crowley on why she asks candidates about their worst product shipment during interviews."
+    },
+    {
+      "text": "You can inflict change on people, but if you want to do it with them, really trust is the key element there.",
+      "context": "Katie Dill reflecting on the mutiny she faced at Airbnb when she tried to change the design org without first building trust."
+    },
+    {
+      "text": "We celebrate failure as long as you're learning, and you can only learn if you've designed the right test and you failed conclusively.",
+      "context": "Sri Batchu on the difference between a 'bad failure' (ambiguous results) and a 'good failure' (definitive data)."
+    }
+  ],
+  "filename": "Failure"
+}

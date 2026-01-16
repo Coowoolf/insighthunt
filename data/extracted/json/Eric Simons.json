@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Eric Simons",
+    "title": "Co-founder & CEO",
+    "company": "StackBlitz / Bolt",
+    "background": "A veteran entrepreneur who famously squatted at AOL's headquarters to bootstrap his first startup. He co-founded StackBlitz, spending 7 years building WebContainer technology (an OS in the browser) which recently powered Bolt to hit $20M ARR in under two months."
+  },
+  "episodeSummary": "Eric Simons details the unprecedented rise of Bolt, an AI coding tool that grew from $0 to nearly $40M ARR in roughly five months. The conversation explores how a seven-year deep-tech R&D bet on browser-based computing perfectly converged with the rise of LLMs like Claude Sonnet. Eric explains how AI is shifting the role of Product Managers from spec-writers to actual builders, the counter-intuitive management style required for hypergrowth, and why software is the perfect vertical for AI determinism.",
+  "keyTakeaways": [
+    "PMs are becoming the new software engineers: The ability to write a clear PRD is now the same skill set required to prompt an AI to build a full-stack application.",
+    "Prioritize 'context per head' over headcount: Bolt reached $40M ARR with ~20 people by hiring for tenure and trust rather than rapidly expanding the team.",
+    "During hypergrowth or crisis, replace async communication with daily all-hands syncs to ensure 0% fidelity loss in information transfer.",
+    "Deep tech requires a 'survival' strategy: If building foundational tech, keep burn incredibly low until the market catalyst (like AI) arrives.",
+    "The 'Zero-Shot' benchmark has shifted: We have passed the threshold where AI can generate production-grade, beautiful applications in a single prompt.",
+    "Don't optimize for cloud VMs for AI coding: Client-side compute (browser-based OS) allows for faster, cheaper, and more secure AI agent interactions.",
+    "Software is deterministic, making it the ideal AI vertical: unlike law or medicine, code either runs or it doesn't, allowing for massive reinforcement learning loops."
+  ],
+  "methodologies": [
+    {
+      "name": "The Prompt-Driven Development Cycle",
+      "category": "execution",
+      "problemItSolves": "Bridges the gap between a product idea and a functional application without requiring deep coding knowledge or long engineering cycles.",
+      "summary": "A workflow where PMs and non-technical founders use AI as a 'junior developer' to build production software. It shifts the human role from writing code to defining specs and debugging high-level logic.",
+      "principles": [
+        "Treat the Prompt like a JIRA Ticket: Be specific about constraints, logic, and outcomes. Don't just say 'build an app'; provide the specs.",
+        "Bifurcate Logic and Vibes: Use strict instructions for functionality, but give the AI creative freedom (e.g., 'make it prettier') for UI/UX, where it excels.",
+        "The Human 'Un-sticker': The human's primary technical role shifts to identifying where the AI gets jammed and providing specific guidance to resolve that edge case.",
+        "Iterative Live Deployment: Instead of static mocks, deploy the generated code immediately to a live URL for tactile testing and feedback."
+      ],
+      "whenToUse": "When prototyping new features, building internal tools, or launching MVPs where speed is critical and the codebase isn't massively legacy-entangled.",
+      "commonMistakes": "Treating the AI like a search engine rather than a coworker; failing to provide the context/specs one would give a human engineer.",
+      "quote": "Talk to this thing like you do a Linear ticket... Just think of this as your coworker, your developer coworker.",
+      "realWorldExample": "An entrepreneur named Paul built a fully functional CRM with Stripe billing and AI integration in three weeks for $300 using Bolt, a project an agency quoted $30k and six months to build."
+    },
+    {
+      "name": "The Zero-Loss Communication Protocol",
+      "category": "team-culture",
+      "problemItSolves": "Prevents information silos and slows down decision-making during periods of extreme hypergrowth or crisis management.",
+      "summary": "A counter-intuitive management approach where the entire company meets synchronously every single day to ensure total alignment and immediate execution, rejecting the standard advice to 'scale processes' or use async tools.",
+      "principles": [
+        "Daily All-Hands Sync: The entire team meets every day (e.g., 8 AM Pacific) for at least an hour.",
+        "Zero Fidelity Loss: By having everyone in the room, information is not diluted through managers or written updates; everyone hears the raw data.",
+        "Universal Context: Every employee, regardless of role, understands the current fires, customer issues, and server loads.",
+        "Immediate Remediation: If a problem is identified, an engineer is on the call to fix it immediately, often deploying changes during the meeting."
+      ],
+      "whenToUse": "During product launches, unexpected viral growth phases, or 'wartime' survival modes where the cost of miscommunication is higher than the cost of meeting time.",
+      "commonMistakes": "Maintaining this structure too long after stability is reached, or having people present who do not have the agency to fix problems.",
+      "quote": "There's 0% fidelity loss in that. Everything, every day, is being audited front to back... When you're in these times of just extreme growth, you want as close to 0% loss on communications.",
+      "realWorldExample": "During the launch of Bolt, the 15-20 person team met every single day to handle server meltdowns, support tickets, and feature requests, allowing them to scale from $0 to $20M ARR without a traditional support team."
+    },
+    {
+      "name": "The Deep Tech Option Strategy",
+      "category": "product-strategy",
+      "problemItSolves": "How to build high-barrier-to-entry technology without going bankrupt before the market is ready.",
+      "summary": "A strategy of building difficult, proprietary infrastructure (Deep Tech) while maintaining an extremely low burn rate, effectively holding a 'call option' on a future market shift.",
+      "principles": [
+        "Build the Impossible: Focus on technology that others deem too hard or impossible (e.g., booting an OS in a browser).",
+        "The 'Cockroach' Mode: Operate with absolute minimal burn. Do not raise massive rounds that force premature scaling. Survive at all costs.",
+        "Wait for the Convergence: Continue R&D until an external catalyst (e.g., LLM capabilities) unlocks the value of your infrastructure.",
+        "Snap-Fit Execution: When the catalyst arrives, pivot immediately to productize the tech (launching Bolt based on WebContainers + Claude Sonnet)."
+      ],
+      "whenToUse": "When building foundational infrastructure or platform-shifting technology that requires years of R&D before a consumer use case becomes viable.",
+      "commonMistakes": "Scaling headcount/burn before the market catalyst arrives; assuming the tech itself is the product rather than the enabler.",
+      "quote": "It was kind of like, Bolt's this overnight success, seven years in the making.",
+      "realWorldExample": "StackBlitz spent 7 years building WebContainer technology (Node.js in the browser). They almost went under, but when Anthropic's Sonnet model launched, they realized their tech was the perfect host for AI coding, leading to Bolt."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The rate you're growing is absurd. You're in this cohort of companies that are just growing at rates that we've never seen in the history of startups.",
+      "context": "Lenny Rachitsky opening the podcast, referencing Bolt's jump to $40M ARR in mere months."
+    },
+    {
+      "text": "It's rare to find startups where you have the core group of five, six, seven people that have been there for five years plus.",
+      "context": "Eric explaining how they managed the chaos of growth—relying on high-trust, long-term relationships rather than new hires."
+    },
+    {
+      "text": "If a picture is worth a thousand words, a live actual demo is worth millions.",
+      "context": "Eric describing why Bolt changes the product spec process; you don't just describe the app, you build a functional prototype immediately."
+    },
+    {
+      "text": "The entire software world order is going to get rewritten... PMs, they're going to be 'writing code', quote, unquote, instead of just writing a JIRA ticket.",
+      "context": "Eric predicting the future of organizational charts in tech companies."
+    }
+  ],
+  "filename": "Eric Simons"
+}

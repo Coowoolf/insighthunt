@@ -1,0 +1,98 @@
+{
+  "guest": {
+    "name": "Fareed Mosavat",
+    "title": "Chief Development Officer",
+    "company": "Reforge",
+    "background": "Former Director of Product at Slack, GM at Zynga, and VP of Product at Runkeeper. He began his career at Pixar working on simulation and rigging for films like Finding Nemo and Up, giving him a unique background in blending technical execution with creative storytelling."
+  },
+  "episodeSummary": "Fareed Mosavat deconstructs the non-linear career path of a Product Manager, focusing specifically on the difficult transition from Individual Contributor (IC) to Product Leader. He argues that PMs cannot learn through theory alone but require a specific 'Learning Loop' of execution and generalization. The conversation details how to cross the 'Product Leader Canyon,' avoid the 'Manager Death Spiral,' and categorize product work to build a balanced strategic portfolio.",
+  "keyTakeaways": [
+    "To accelerate your career, move from 'Execution' to 'Generalization'—don't just ship a feature; abstract the principle behind why it worked to apply it elsewhere.",
+    "Practice 'Strategic Curiosity' by understanding the business two levels up (strategy/board), two levels down (technical/data), and across functions (sales/marketing).",
+    "Seek sponsorship over mentorship; sponsorship creates opportunities and is earned by solving the organization's most critical problems.",
+    "Avoid the 'Manager Death Spiral' by shifting your mindset from 'doing the work' to 'editing the work' and trusting your team with high-leverage problems.",
+    "Stop acting like a victim of resource constraints; explicitly map the required resources to the desired business outcome and ask for them.",
+    "Audit your roadmap against the 'Four Types of Product Work' to ensure you aren't over-indexing on your personal strengths (e.g., a Growth PM ignoring technical scaling)."
+  ],
+  "methodologies": [
+    {
+      "name": "The PM Learning Loop",
+      "category": "career-leadership",
+      "problemItSolves": "PMs often plateau because they treat every project as an isolated task rather than a career-building step.",
+      "summary": "A cyclical process for accelerating product mastery. It moves beyond simple execution to ensuring that every project builds intellectual capital and organizational trust, allowing the PM to tackle increasingly ambiguous problems.",
+      "principles": [
+        "Step 1: Execute - Work on real products with real data (no fake homework).",
+        "Step 2: Generalize - Abstract the specific win into a broader mental model (e.g., 'High friction onboarding works for high-intent products').",
+        "Step 3: Communicate - explicitly share both the work and the generalized learning to the org.",
+        "Step 4: Scale - Leverage the trust gained from communication to acquire larger, more ambiguous problem sets."
+      ],
+      "whenToUse": "Continuous application throughout an IC career, specifically during performance reviews or project post-mortems.",
+      "commonMistakes": "Skipping the 'Generalize' step and just moving to the next ticket, or failing to 'Communicate' effectively, leaving your expertise invisible.",
+      "quote": "The real acceleration happens from doing it and getting more reps... but you have to generalize lessons effectively.",
+      "realWorldExample": "Fareed's experience at Instacart testing long vs. short onboarding flows, generalizing that 'good friction' aids retention, and carrying that mental model to future roles."
+    },
+    {
+      "name": "The Strategic Curiosity Matrix",
+      "category": "product-strategy",
+      "problemItSolves": "Junior PMs often lack 'strategic sense' or fail to get promoted because they only understand their immediate feature set.",
+      "summary": "A framework for understanding context. A PM must actively research the organization vertically and horizontally to identify leverage points and build sponsorship trust.",
+      "principles": [
+        "Vertical Scan (2 Up/2 Down): Understand your boss's goals and *their* boss's goals (Up). Understand the technical stack, dunning logic, and database constraints (Down).",
+        "Horizontal Scan (Left/Right): Understand what adjacent teams (Sales, Marketing, Core Product) are prioritizing.",
+        "Connect the Dots: Identify how your specific work creates leverage for these surrounding stakeholders.",
+        "Communicate Relevance: Frame your updates based on how they impact these connected nodes."
+      ],
+      "whenToUse": "When joining a new company, starting a new role, or attempting to break through to a leadership position.",
+      "commonMistakes": "Staying 'heads down' on execution for too long and failing to build the organizational mental model required for leadership.",
+      "quote": "I like two stack levels because it's like you should understand your boss's priorities and your boss's boss's priorities.",
+      "realWorldExample": "At Slack, Fareed realized he needed to understand how self-serve growth connected to the enterprise sales pipeline, not just the product metrics."
+    },
+    {
+      "name": "The Four Types of Product Work",
+      "category": "product-strategy",
+      "problemItSolves": "Product leaders often over-index on the type of work they are personally good at (e.g., Growth) while neglecting other critical areas.",
+      "summary": "A taxonomy for portfolio management. A leader must ensure their team is balancing their effort across four distinct categories of value creation, rather than treating every problem like a nail for their specific hammer.",
+      "principles": [
+        "Type 1: Feature Work - Creating value for existing customers (retention/engagement focus).",
+        "Type 2: Growth Work - Connecting customers to existing value (acquisition/monetization focus).",
+        "Type 3: PMF Expansion - New value for new markets (verticalization) or new products for existing markets (bundling).",
+        "Type 4: Scaling Work - Technical debt, trust & safety, and internal tooling to support volume."
+      ],
+      "whenToUse": "Quarterly planning, roadmap audits, and when transitioning from IC to Manager.",
+      "commonMistakes": "A Growth Leader taking over a Core Product team and forcing every feature to be an A/B test, ignoring Scaling or PMF Expansion needs.",
+      "quote": "If you want to be a product leader, you cannot be seen solely as a specialist in that certain kind of product work.",
+      "realWorldExample": "Reflecting on Airbnb or Twitter, where 'Scaling Work' (Trust & Safety) becomes a massive, distinct workstream separate from feature development."
+    },
+    {
+      "name": "The Outcome-Resource Lock",
+      "category": "execution",
+      "problemItSolves": "PMs often fail to hit goals because they accept the team size they are given rather than advocating for what is needed.",
+      "summary": "A negotiation framework for leaders. Instead of doing 'the best we can with what we have,' the leader defines the resources strictly required to hit the business goal.",
+      "principles": [
+        "Step 1: Define the uncompromised business outcome required.",
+        "Step 2: Calculate the true resource cost (headcount, marketing budget, time) to guarantee that outcome.",
+        "Step 3: Present the gap. 'To hit [Goal X], we need [Y resources]. With current resources, we can only hit [Goal Z].'",
+        "Step 4: Force the trade-off decision up the chain rather than absorbing the risk yourself."
+      ],
+      "whenToUse": "Annual planning, project kickoffs, or when a team is under-delivering due to constraints.",
+      "commonMistakes": "Falling into the 'victim mindset' of complaining about resources after failing, rather than setting terms upfront.",
+      "quote": "It is not just your job to get what you can get done with the resources in front of you. It's your job to marshal resources... to have the most impact.",
+      "realWorldExample": "Fareed's mistake at Instacart where he kept a team small and efficient rather than arguing for the headcount needed to scale faster."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You can't do homework. You can't do exercises. You can't do fake stuff. You have to work on real products at real companies with real customers, with real data to get better at product management.",
+      "context": "On why PM certifications often fail compared to on-the-job loops."
+    },
+    {
+      "text": "I think of this as sponsorship, not mentorship... someone who deeply trusted me to solve big problems.",
+      "context": "Clarifying that career acceleration comes from people giving you power/opportunity, not just advice."
+    },
+    {
+      "text": "You have to shift from doer to editor.",
+      "context": "On the primary psychological shift required to cross the 'Product Leader Canyon'."
+    }
+  ],
+  "filename": "Fareed Mosavat"
+}
