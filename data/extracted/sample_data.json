@@ -29,7 +29,7 @@
         "quote": "A curiosity loop is essentially going to a whole bunch of people... and asking them, 'Hey, here are nine topics... What are two or three of the topics that resonate with you and why?'"
       },
       {
-        "name": "Explore and Exploit Framework",
+        "name": "Explore and Exploit Framework (Ada's Approach)",
         "category": "career-leadership",
         "summary": "A career strategy model adapted from computer science and growth marketing that dictates when to broaden experiences versus when to deepen expertise.",
         "principles": [
@@ -282,7 +282,7 @@
     ],
     "methodologies": [
       {
-        "name": "Explore and Exploit Framework",
+        "name": "Explore and Exploit Framework (Albert's Approach)",
         "category": "product-strategy",
         "summary": "A cyclic approach to growth where teams alternate between searching for new opportunities (finding the right mountain) and maximizing returns on proven insights (climbing the mountain). This prevents both scattershot ideation and local maxima stagnation.",
         "principles": [
@@ -1149,179 +1149,6 @@
   },
   {
     "guest": {
-      "name": "April Dunford",
-      "title": "Author of Obviously Awesome & Sales Pitch",
-      "company": "April Dunford Consulting",
-      "background": "The world's foremost authority on product positioning and author of the bestsellers 'Obviously Awesome' and 'Sales Pitch'. She has a 25-year career as a VP of Marketing and advisor to companies like Google, Epic Games, and hundreds of B2B tech startups."
-    },
-    "episodeSummary": "April Dunford deconstructs why 40-60% of B2B purchase processes end in 'no decision' and argues that the traditional 'product exposition' sales pitch is to blame. She introduces a structured narrative framework that guides customers through market context rather than feature lists, helping them navigate purchasing anxiety. The conversation covers how to define differentiated value, why FOMO backfires on indecisive buyers, and how product and sales teams must collaborate to arm the internal champion.",
-    "keyTakeaways": [
-      "Most lost deals are due to customer indecision (fear of messing up), not competitor superiority.",
-      "A sales pitch should not be a 'product exposition' or feature dump; it must be a story that teaches the customer how to buy.",
-      "Do not use FOMO (Fear Of Missing Out) on an indecisive buyer; it increases anxiety and leads to paralysis. Instead, focus on risk mitigation.",
-      "The 'Champion' in a B2B deal needs to be armed to handle objections from internal stakeholders (IT, Finance) who can't say yes but can say no.",
-      "Category creation is rarely the right strategy for startups; 'bowling pin' strategy (dominating a niche then expanding) is more effective.",
-      "If your sales pitch isn't working, it is likely a symptom of weak positioning or a lack of understanding of differentiated value.",
-      "Use a 'Perfect World' setup to get prospect buy-in on purchase criteria before ever showing your product."
-    ],
-    "methodologies": [
-      {
-        "name": "The Dunford Pitch Narrative",
-        "category": "product-strategy",
-        "problemItSolves": "Solves the problem of 'product exposition' pitches where reps just list features, leaving customers overwhelmed and unable to distinguish the product from competitors.",
-        "summary": "A two-part pitch structure (Setup and Follow-through) that establishes a market point-of-view before introducing the product. It shifts the dynamic from a salesperson trying to convince a buyer, to a guide helping a buyer navigate a complex market.",
-        "principles": [
-          "Step 1: The Insight - Start with a non-controversial insight into the market problem (the 'why now').",
-          "Step 2: The Alternatives - Discuss the pros and cons of alternative approaches (e.g., 'Shared inboxes are easy but lack scale; Help desks scale but treat people like tickets').",
-          "Step 3: The Perfect World - Get agreement on what an ideal solution would look like given the flaws of the alternatives.",
-          "Step 4: The Introduction - Introduce the product and category.",
-          "Step 5: Differentiated Value - Map specific features to the value they deliver (answer the 'So What?').",
-          "Step 6: Proof & The Ask - Show case studies, handle silent objections, and define the next step."
-        ],
-        "whenToUse": "During the first substantive sales call or demo with a qualified prospect.",
-        "commonMistakes": "Skipping the 'Setup' phase to jump straight to the demo, or bashing competitors instead of objectively categorizing their approaches.",
-        "quote": "In a normal sales pitch situation, we don't want to spend all day in the setup part... but we can't skip that bit.",
-        "realWorldExample": "Help Scout positions themselves against 'Shared Inboxes' (too simple) and 'Help Desks' (too impersonal) to define a 'Perfect World' of customer-centric service for digital businesses."
-      },
-      {
-        "name": "The Differentiated Value Extraction",
-        "category": "product-strategy",
-        "problemItSolves": "Helps teams move beyond listing technical features to articulating why a customer should actually care, ensuring alignment between product, marketing, and sales.",
-        "summary": "A collaborative exercise to identify the specific value that only your product can deliver compared to the actual alternatives a customer is considering.",
-        "principles": [
-          "Step 1: Define the Competition - Put a stake in the ground regarding who you actually lose deals to (including status quo/spreadsheets).",
-          "Step 2: List Unique Capabilities - What features do you have that the alternatives strictly do not?",
-          "Step 3: The 'So What?' Test - For every unique feature, ask 'So what? Why does the customer care?' until you reach business value.",
-          "Step 4: Reverse Engineering - Use this value to define the 'Insight' that sets up your sales pitch."
-        ],
-        "whenToUse": "When crafting positioning, before writing a sales deck, or when feature launches aren't landing with prospects.",
-        "commonMistakes": "Listing features that competitors also have, or stopping at the feature level without translating it to business outcomes (revenue, risk, efficiency).",
-        "quote": "If we didn't exist in the market, what would a customer do? ... It's basically the definition of I got to beat all this plus indecision in order to win a deal.",
-        "realWorldExample": "LevelJump (built on Salesforce) realized their unique feature wasn't just 'being on Salesforce,' but that it allowed enablement data to mix with revenue data, proving ROI—something no standalone LMS could do."
-      },
-      {
-        "name": "The Indecision-Killer Protocol",
-        "category": "execution",
-        "problemItSolves": "Addresses the 40-60% of B2B deals that end in 'no decision' because the buyer is afraid of making a mistake.",
-        "summary": "A set of tactics designed to reduce buyer risk and anxiety rather than increasing pressure through FOMO. It acknowledges that buying software is often harder and riskier for the individual than selling it.",
-        "principles": [
-          "Principle 1: Teach them to buy - Act as a market guide, helping them categorize all vendors (even competitors) so they feel confident they understand the landscape.",
-          "Principle 2: Remove Risk - Offer money-back guarantees, opt-out clauses, or smaller pilot programs to lower the stakes of failure.",
-          "Principle 3: Arm the Champion - Proactively provide the materials the champion needs to sell to internal blockers (IT security specs, ROI calculators for Finance).",
-          "Principle 4: Avoid FOMO - Do not use 'fear of missing out' tactics on indecisive buyers; it increases paralysis."
-        ],
-        "whenToUse": "When a deal stalls, when the champion is enthusiastic but the deal isn't closing, or during economic downturns when budgets are tight.",
-        "commonMistakes": "Thinking the customer is rejecting the product when they are actually just afraid of the internal consequences of a bad decision.",
-        "quote": "The majority of those [no decisions] is they couldn't figure out how to make a choice confidently. So what they did was they just went to their boss and said, 'You know what? Now's not a good time.'",
-        "realWorldExample": "Proactively telling a prospect, 'IT is usually worried about X, so here is our SOC2 report and integration documentation to help you answer those questions before they ask.'"
-      }
-    ],
-    "notableQuotes": [
-      {
-        "text": "40 to 60% of B2B purchase processes end in no decision... The majority of those isn't saying, 'The old thing we were doing is better.'... It's that they couldn't figure out how to make a choice confidently.",
-        "context": "April explaining the primary reason B2B deals are lost."
-      },
-      {
-        "text": "Customers being more afraid of screwing up than missing out.",
-        "context": "On why FOMO (Fear Of Missing Out) tactics fail when a customer is stalling due to indecision."
-      },
-      {
-        "text": "My thing lately is 'nothing's a big deal.'",
-        "context": "April's personal life motto regarding maintaining perspective amidst business highs and lows."
-      },
-      {
-        "text": "If all of this was easy, Lenny, we would be on a beach drinking out of a coconut.",
-        "context": "April joking about the difficulty of aligning sales, product, and marketing."
-      }
-    ],
-    "filename": "April Dunford 2.0"
-  },
-  {
-    "guest": {
-      "name": "April Dunford",
-      "title": "Founder of April Dunford Consulting & Author of 'Obviously Awesome'",
-      "company": "April Dunford Consulting",
-      "background": "A positioning expert who has led teams at seven successful B2B startups (six acquired) and consulted with over 200 tech companies. She is widely considered the leading authority on product positioning and market categorization for B2B technology."
-    },
-    "episodeSummary": "April Dunford dismantles common misconceptions about product positioning, arguing that it is not merely marketing fluff but the foundational context that makes a product's value obvious to buyers. She outlines a rigorous, step-by-step methodology for defining positioning based on competitive alternatives rather than abstract benefits. The conversation covers how to align cross-functional teams, the difference between early-stage 'loose' positioning and growth-stage 'tight' positioning, and why traditional B2B personas often lead teams astray.",
-    "keyTakeaways": [
-      "Positioning is not messaging; it is the context you set that makes your value obvious.",
-      "You cannot determine your unique value until you strictly define your competitive alternatives (including the 'status quo' like spreadsheets).",
-      "In B2B, you lose 40% of deals to 'no decision,' so you must position against the customer doing nothing.",
-      "The 'Grandmother Test' is irrelevant for B2B; your positioning only needs to be clear to your specific technical buyer, not the general public.",
-      "Positioning is a team sport; Marketing, Sales, Product, and CS must develop it together to ensure the sales narrative actually lands.",
-      "Don't confuse personas with the 'Champion'; in B2B, you only need to deeply understand the person fighting to buy your software internally.",
-      "Early-stage startups should keep positioning loose (a thesis) until customer patterns emerge, whereas growth stage requires tightening focus."
-    ],
-    "methodologies": [
-      {
-        "name": "The 5-Component Positioning Method",
-        "category": "product-strategy",
-        "problemItSolves": "Solves the 'feature soup' problem where companies list features without context, or when customers are confused about why they should buy a product over a competitor.",
-        "summary": "A sequential process to derive positioning based on facts rather than opinions. Instead of brainstorming 'why we are great,' the framework anchors value directly against what the customer would use if the product didn't exist.",
-        "principles": [
-          "Step 1: Competitive Alternatives. Identify what you have to beat to win the deal. Crucially, this includes 'Status Quo' (spreadsheets, interns, pen & paper), not just direct competitors.",
-          "Step 2: Differentiated Capabilities. List every feature or capability you have that the alternatives lack. Be exhaustive.",
-          "Step 3: Differentiated Value. Map the features from Step 2 to the 'So What?' for the customer. Group these into 2-3 value buckets.",
-          "Step 4: Best-Fit Customers. Ask 'Who cares a lot about this specific value?' Define the characteristics of a target account that makes this value critical to them.",
-          "Step 5: Market Category. Choose the context (market) that makes the value obvious to those customers."
-        ],
-        "whenToUse": "When sales cycles are dragging, customers are confused on introductory calls, or churn is high because users expected something different.",
-        "commonMistakes": "Starting with the 'Market Category' and trying to work backward, or ignoring the 'Status Quo' competitor (e.g., Excel).",
-        "quote": "Positioning defines how your product is the best in the world, delivering some value that a well-defined set of companies care a lot about.",
-        "realWorldExample": "Help Scout positions against Zendesk (competitor) and Shared Email Inboxes (status quo). Their differentiator is 'human-centric service,' which maps to the value of 'customer loyalty as a growth driver'—targeting e-commerce brands rather than telecom giants."
-      },
-      {
-        "name": "The Champion-First Persona Strategy",
-        "category": "user-research",
-        "problemItSolves": "Prevents marketing teams from wasting time creating useless personas based on demographics (e.g., 'Eric likes video games') that don't influence B2B buying decisions.",
-        "summary": "A focused approach to segmentation that ignores peripheral stakeholders and focuses entirely on the internal 'Champion'—the person tasked with finding a solution and selling it to their boss.",
-        "principles": [
-          "Focus on the Deal Driver: Identify the one person (Champion) who feels the pain and is tasked with solving it (e.g., the Sales Ops Manager).",
-          "Ignore Demographic Fluff: Disregard age, hobbies, or personal traits. Focus on their professional pressure and internal reputation.",
-          "Arm the Champion: Your positioning must help the Champion justify the purchase to their boss (Economic Buyer) and IT/Legal (Gatekeepers).",
-          "Consensus Management: Understand that the Champion's hardest job is getting internal consensus; build assets that help them sell for you."
-        ],
-        "whenToUse": "In complex B2B sales cycles involving 5-7 stakeholders, where marketing collateral feels disconnected from the actual sales conversation.",
-        "commonMistakes": "Creating equal-weight personas for every stakeholder (IT, Legal, User) rather than prioritizing the one person who drives the deal.",
-        "quote": "If we don't nail that champion persona, we got nothing... The champion matters times a thousand.",
-        "realWorldExample": "A CRM purchase is often driven by a Sales Ops manager (The Champion) who has to justify the choice to the VP of Sales. The positioning must help the Sales Ops manager look smart to the VP."
-      },
-      {
-        "name": "The Fishing Net Thesis",
-        "category": "growth-metrics",
-        "problemItSolves": "Helps early-stage startups avoid 'over-tightening' their positioning before they have enough data, which can lead to missed market opportunities.",
-        "summary": "A strategic approach for pre-product-market-fit companies. Instead of locking into a rigid niche immediately, the company adopts a 'loose' positioning thesis to capture data on who actually loves the product.",
-        "principles": [
-          "Formulate a Thesis: Create an internal hypothesis about who the product is for, but acknowledge it is likely partially wrong.",
-          "Cast a Wide Net: Externally, position the product broadly (e.g., 'A net for big fish') rather than specifically (e.g., 'A net for Tuna').",
-          "Observe the Catch: Watch which customers naturally gravitate to the product and get value (e.g., 'We caught a lot of Grouper').",
-          "Tighten on Pattern Recognition: Only narrow the positioning once a clear pattern of 'best fit' customers emerges from usage data."
-        ],
-        "whenToUse": "Seed-stage startups or new product launches where the ideal customer profile (ICP) is theoretical and not yet proven by revenue.",
-        "commonMistakes": "Tightening positioning too early based on founder intuition rather than market pull, or keeping positioning loose forever without ever refining.",
-        "quote": "It's better in the early days of a product to keep the positioning a little bit loose and allow the market to pull you.",
-        "realWorldExample": "The Segway failed because they refused to position it specifically, letting the public decide if it was a car or a scooter (and it failed at both). Conversely, successful startups wait to see who buys before locking in."
-      }
-    ],
-    "notableQuotes": [
-      {
-        "text": "If your product isn't doing well, there's a chance that it may not be the product that's the problem, it may be your positioning.",
-        "context": "Lenny introducing the core premise of why positioning matters as much as product development."
-      },
-      {
-        "text": "We lose about 40% of our deals to 'no decision', which actually means we lost to the spreadsheet.",
-        "context": "April explaining why you must position against the status quo, not just competitors."
-      },
-      {
-        "text": "If sales can't tell the story, they can't pitch it, if they can't pitch it, they're going to make shit up.",
-        "context": "April emphasizing why positioning must result in a clear sales narrative."
-      }
-    ],
-    "filename": "April Dunford"
-  },
-  {
-    "guest": {
       "name": "Archie Abrams",
       "title": "VP of Product and Head of Growth",
       "company": "Shopify",
@@ -1972,5 +1799,162 @@
       }
     ],
     "filename": "Barbra Gago"
+  },
+  {
+    "guest": {
+      "name": "April Dunford",
+      "title": "Author of Obviously Awesome & Sales Pitch",
+      "company": "April Dunford Consulting",
+      "background": "The world's foremost authority on product positioning. She has a 25-year career as a VP of Marketing at 7 startups (6 acquired) and has consulted with over 200 tech companies including Google and Epic Games."
+    },
+    "episodeSummary": "April Dunford deconstructs why 40-60% of B2B purchase processes end in 'no decision' and argues that the traditional 'product exposition' sales pitch is to blame. She introduces a structured narrative framework that guides customers through market context rather than feature lists, helping them navigate purchasing anxiety. The conversation covers how to define differentiated value, why FOMO backfires on indecisive buyers, and how product and sales teams must collaborate to arm the internal champion. April Dunford dismantles common misconceptions about product positioning, arguing that it is not merely marketing fluff but the foundational context that makes a product's value obvious to buyers. She outlines a rigorous, step-by-step methodology for defining positioning based on competitive alternatives rather than abstract benefits. The conversation covers how to align cross-functional teams, the difference between early-stage 'loose' positioning and growth-stage 'tight' positioning, and why traditional B2B personas often lead teams astray.",
+    "keyTakeaways": [
+      "Positioning is not messaging; it is the context you set that makes your value obvious.",
+      "The 'Grandmother Test' is irrelevant for B2B; your positioning only needs to be clear to your specific technical buyer, not the general public.",
+      "Do not use FOMO (Fear Of Missing Out) on an indecisive buyer; it increases anxiety and leads to paralysis. Instead, focus on risk mitigation.",
+      "Positioning is a team sport; Marketing, Sales, Product, and CS must develop it together to ensure the sales narrative actually lands.",
+      "A sales pitch should not be a 'product exposition' or feature dump; it must be a story that teaches the customer how to buy.",
+      "Early-stage startups should keep positioning loose (a thesis) until customer patterns emerge, whereas growth stage requires tightening focus.",
+      "Most lost deals are due to customer indecision (fear of messing up), not competitor superiority.",
+      "If your sales pitch isn't working, it is likely a symptom of weak positioning or a lack of understanding of differentiated value."
+    ],
+    "methodologies": [
+      {
+        "name": "The Dunford Pitch Narrative",
+        "category": "product-strategy",
+        "problemItSolves": "Solves the problem of 'product exposition' pitches where reps just list features, leaving customers overwhelmed and unable to distinguish the product from competitors.",
+        "summary": "A two-part pitch structure (Setup and Follow-through) that establishes a market point-of-view before introducing the product. It shifts the dynamic from a salesperson trying to convince a buyer, to a guide helping a buyer navigate a complex market.",
+        "principles": [
+          "Step 1: The Insight - Start with a non-controversial insight into the market problem (the 'why now').",
+          "Step 2: The Alternatives - Discuss the pros and cons of alternative approaches (e.g., 'Shared inboxes are easy but lack scale; Help desks scale but treat people like tickets').",
+          "Step 3: The Perfect World - Get agreement on what an ideal solution would look like given the flaws of the alternatives.",
+          "Step 4: The Introduction - Introduce the product and category.",
+          "Step 5: Differentiated Value - Map specific features to the value they deliver (answer the 'So What?').",
+          "Step 6: Proof & The Ask - Show case studies, handle silent objections, and define the next step."
+        ],
+        "whenToUse": "During the first substantive sales call or demo with a qualified prospect.",
+        "commonMistakes": "Skipping the 'Setup' phase to jump straight to the demo, or bashing competitors instead of objectively categorizing their approaches.",
+        "quote": "In a normal sales pitch situation, we don't want to spend all day in the setup part... but we can't skip that bit.",
+        "realWorldExample": "Help Scout positions themselves against 'Shared Inboxes' (too simple) and 'Help Desks' (too impersonal) to define a 'Perfect World' of customer-centric service for digital businesses.",
+        "_source_episode": "April Dunford 2.0"
+      },
+      {
+        "name": "The Differentiated Value Extraction",
+        "category": "product-strategy",
+        "problemItSolves": "Helps teams move beyond listing technical features to articulating why a customer should actually care, ensuring alignment between product, marketing, and sales.",
+        "summary": "A collaborative exercise to identify the specific value that only your product can deliver compared to the actual alternatives a customer is considering.",
+        "principles": [
+          "Step 1: Define the Competition - Put a stake in the ground regarding who you actually lose deals to (including status quo/spreadsheets).",
+          "Step 2: List Unique Capabilities - What features do you have that the alternatives strictly do not?",
+          "Step 3: The 'So What?' Test - For every unique feature, ask 'So what? Why does the customer care?' until you reach business value.",
+          "Step 4: Reverse Engineering - Use this value to define the 'Insight' that sets up your sales pitch."
+        ],
+        "whenToUse": "When crafting positioning, before writing a sales deck, or when feature launches aren't landing with prospects.",
+        "commonMistakes": "Listing features that competitors also have, or stopping at the feature level without translating it to business outcomes (revenue, risk, efficiency).",
+        "quote": "If we didn't exist in the market, what would a customer do? ... It's basically the definition of I got to beat all this plus indecision in order to win a deal.",
+        "realWorldExample": "LevelJump (built on Salesforce) realized their unique feature wasn't just 'being on Salesforce,' but that it allowed enablement data to mix with revenue data, proving ROI—something no standalone LMS could do.",
+        "_source_episode": "April Dunford 2.0"
+      },
+      {
+        "name": "The Indecision-Killer Protocol",
+        "category": "execution",
+        "problemItSolves": "Addresses the 40-60% of B2B deals that end in 'no decision' because the buyer is afraid of making a mistake.",
+        "summary": "A set of tactics designed to reduce buyer risk and anxiety rather than increasing pressure through FOMO. It acknowledges that buying software is often harder and riskier for the individual than selling it.",
+        "principles": [
+          "Principle 1: Teach them to buy - Act as a market guide, helping them categorize all vendors (even competitors) so they feel confident they understand the landscape.",
+          "Principle 2: Remove Risk - Offer money-back guarantees, opt-out clauses, or smaller pilot programs to lower the stakes of failure.",
+          "Principle 3: Arm the Champion - Proactively provide the materials the champion needs to sell to internal blockers (IT security specs, ROI calculators for Finance).",
+          "Principle 4: Avoid FOMO - Do not use 'fear of missing out' tactics on indecisive buyers; it increases paralysis."
+        ],
+        "whenToUse": "When a deal stalls, when the champion is enthusiastic but the deal isn't closing, or during economic downturns when budgets are tight.",
+        "commonMistakes": "Thinking the customer is rejecting the product when they are actually just afraid of the internal consequences of a bad decision.",
+        "quote": "The majority of those [no decisions] is they couldn't figure out how to make a choice confidently. So what they did was they just went to their boss and said, 'You know what? Now's not a good time.'",
+        "realWorldExample": "Proactively telling a prospect, 'IT is usually worried about X, so here is our SOC2 report and integration documentation to help you answer those questions before they ask.'",
+        "_source_episode": "April Dunford 2.0"
+      },
+      {
+        "name": "The 5-Component Positioning Method",
+        "category": "product-strategy",
+        "problemItSolves": "Solves the 'feature soup' problem where companies list features without context, or when customers are confused about why they should buy a product over a competitor.",
+        "summary": "A sequential process to derive positioning based on facts rather than opinions. Instead of brainstorming 'why we are great,' the framework anchors value directly against what the customer would use if the product didn't exist.",
+        "principles": [
+          "Step 1: Competitive Alternatives. Identify what you have to beat to win the deal. Crucially, this includes 'Status Quo' (spreadsheets, interns, pen & paper), not just direct competitors.",
+          "Step 2: Differentiated Capabilities. List every feature or capability you have that the alternatives lack. Be exhaustive.",
+          "Step 3: Differentiated Value. Map the features from Step 2 to the 'So What?' for the customer. Group these into 2-3 value buckets.",
+          "Step 4: Best-Fit Customers. Ask 'Who cares a lot about this specific value?' Define the characteristics of a target account that makes this value critical to them.",
+          "Step 5: Market Category. Choose the context (market) that makes the value obvious to those customers."
+        ],
+        "whenToUse": "When sales cycles are dragging, customers are confused on introductory calls, or churn is high because users expected something different.",
+        "commonMistakes": "Starting with the 'Market Category' and trying to work backward, or ignoring the 'Status Quo' competitor (e.g., Excel).",
+        "quote": "Positioning defines how your product is the best in the world, delivering some value that a well-defined set of companies care a lot about.",
+        "realWorldExample": "Help Scout positions against Zendesk (competitor) and Shared Email Inboxes (status quo). Their differentiator is 'human-centric service,' which maps to the value of 'customer loyalty as a growth driver'—targeting e-commerce brands rather than telecom giants.",
+        "_source_episode": "April Dunford"
+      },
+      {
+        "name": "The Champion-First Persona Strategy",
+        "category": "user-research",
+        "problemItSolves": "Prevents marketing teams from wasting time creating useless personas based on demographics (e.g., 'Eric likes video games') that don't influence B2B buying decisions.",
+        "summary": "A focused approach to segmentation that ignores peripheral stakeholders and focuses entirely on the internal 'Champion'—the person tasked with finding a solution and selling it to their boss.",
+        "principles": [
+          "Focus on the Deal Driver: Identify the one person (Champion) who feels the pain and is tasked with solving it (e.g., the Sales Ops Manager).",
+          "Ignore Demographic Fluff: Disregard age, hobbies, or personal traits. Focus on their professional pressure and internal reputation.",
+          "Arm the Champion: Your positioning must help the Champion justify the purchase to their boss (Economic Buyer) and IT/Legal (Gatekeepers).",
+          "Consensus Management: Understand that the Champion's hardest job is getting internal consensus; build assets that help them sell for you."
+        ],
+        "whenToUse": "In complex B2B sales cycles involving 5-7 stakeholders, where marketing collateral feels disconnected from the actual sales conversation.",
+        "commonMistakes": "Creating equal-weight personas for every stakeholder (IT, Legal, User) rather than prioritizing the one person who drives the deal.",
+        "quote": "If we don't nail that champion persona, we got nothing... The champion matters times a thousand.",
+        "realWorldExample": "A CRM purchase is often driven by a Sales Ops manager (The Champion) who has to justify the choice to the VP of Sales. The positioning must help the Sales Ops manager look smart to the VP.",
+        "_source_episode": "April Dunford"
+      },
+      {
+        "name": "The Fishing Net Thesis",
+        "category": "growth-metrics",
+        "problemItSolves": "Helps early-stage startups avoid 'over-tightening' their positioning before they have enough data, which can lead to missed market opportunities.",
+        "summary": "A strategic approach for pre-product-market-fit companies. Instead of locking into a rigid niche immediately, the company adopts a 'loose' positioning thesis to capture data on who actually loves the product.",
+        "principles": [
+          "Formulate a Thesis: Create an internal hypothesis about who the product is for, but acknowledge it is likely partially wrong.",
+          "Cast a Wide Net: Externally, position the product broadly (e.g., 'A net for big fish') rather than specifically (e.g., 'A net for Tuna').",
+          "Observe the Catch: Watch which customers naturally gravitate to the product and get value (e.g., 'We caught a lot of Grouper').",
+          "Tighten on Pattern Recognition: Only narrow the positioning once a clear pattern of 'best fit' customers emerges from usage data."
+        ],
+        "whenToUse": "Seed-stage startups or new product launches where the ideal customer profile (ICP) is theoretical and not yet proven by revenue.",
+        "commonMistakes": "Tightening positioning too early based on founder intuition rather than market pull, or keeping positioning loose forever without ever refining.",
+        "quote": "It's better in the early days of a product to keep the positioning a little bit loose and allow the market to pull you.",
+        "realWorldExample": "The Segway failed because they refused to position it specifically, letting the public decide if it was a car or a scooter (and it failed at both). Conversely, successful startups wait to see who buys before locking in.",
+        "_source_episode": "April Dunford"
+      }
+    ],
+    "notableQuotes": [
+      {
+        "text": "40 to 60% of B2B purchase processes end in no decision... The majority of those isn't saying, 'The old thing we were doing is better.'... It's that they couldn't figure out how to make a choice confidently.",
+        "context": "April explaining the primary reason B2B deals are lost."
+      },
+      {
+        "text": "Customers being more afraid of screwing up than missing out.",
+        "context": "On why FOMO (Fear Of Missing Out) tactics fail when a customer is stalling due to indecision."
+      },
+      {
+        "text": "My thing lately is 'nothing's a big deal.'",
+        "context": "April's personal life motto regarding maintaining perspective amidst business highs and lows."
+      },
+      {
+        "text": "If all of this was easy, Lenny, we would be on a beach drinking out of a coconut.",
+        "context": "April joking about the difficulty of aligning sales, product, and marketing."
+      },
+      {
+        "text": "If your product isn't doing well, there's a chance that it may not be the product that's the problem, it may be your positioning.",
+        "context": "Lenny introducing the core premise of why positioning matters as much as product development."
+      },
+      {
+        "text": "We lose about 40% of our deals to 'no decision', which actually means we lost to the spreadsheet.",
+        "context": "April explaining why you must position against the status quo, not just competitors."
+      },
+      {
+        "text": "If sales can't tell the story, they can't pitch it, if they can't pitch it, they're going to make shit up.",
+        "context": "April emphasizing why positioning must result in a clear sales narrative."
+      }
+    ],
+    "filename": "April Dunford (Combined)"
   }
 ]
