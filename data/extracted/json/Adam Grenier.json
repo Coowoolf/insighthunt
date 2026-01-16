@@ -1,71 +1,41 @@
 {
   "guest": {
     "name": "Adam Grenier",
-    "title": "Growth Advisor (Former VP of Marketing)",
-    "company": "Masterclass"
+    "title": "Former Head of Growth Marketing and Innovation",
+    "company": "Uber"
   },
   "keyTakeaways": [
-    "When economic conditions change, assume you have lost Product Market Fit (PMF) because the market context has shifted; do not simply try to fix the problem by adding new marketing channels.",
-    "The 'Yes, and...' principle from improv is a vital tool for cross-functional collaboration, allowing teams to validate conflicting constraints (e.g., central vs. local goals) without halting progress.",
-    "Evaluate emerging acquisition channels (like TikTok or VR) based on the overlap between customer needs/company goals and the channel's strengths, the channel's DNA (lifecycle stage/monetization), and your company's risk profile.",
-    "A 'Growth CMO' differs from a traditional CMO by applying agile product development principles—such as sprinting, backlogs, and rapid iteration—to marketing and brand building.",
-    "When testing new channels, timebox experiments to one quarter maximum; look for directional momentum and qualitative signals rather than immediate statistical significance.",
-    "Burnout is often a mask for depression; high-performing tech leaders must distinguish between needing a break and needing mental health support."
+    "When market conditions change significantly (like economic downturns), assume you have lost product-market fit and must re-validate your core audience.",
+    "Do not invest in emerging acquisition channels (like TikTok or VR) until you have established volume on foundational channels like Google and Facebook.",
+    "The 'Growth CMO' is a necessary evolution of the role that applies agile product methodologies to marketing, erasing the silo between the two departments.",
+    "Distinguish between burnout and depression: burnout often manifests as exhaustion but retains adaptability, while depression often leads to a loss of adaptability and interest in outside hobbies.",
+    "Most emerging channels fail (~95%); limit experiments to under a quarter unless there are strong qualitative signals of momentum.",
+    "A channel's monetization strategy is a key indicator of its viability; if your business model aligns with how the channel makes money, you have a strategic advantage.",
+    "Product and marketing are no longer separate disciplines; in modern tech, the product itself is the primary driver of marketing."
   ],
   "methodologies": [
     {
       "name": "Emerging Channel Evaluation Framework",
       "category": "growth-metrics",
-      "summary": "A strategic decision-making framework to determine if a company should invest resources into a new or hype-driven acquisition channel.",
+      "summary": "A strategic framework for deciding when and how to invest resources into new, hype-cycle acquisition channels versus established platforms.",
       "principles": [
-        "**Analyze Overlap**: Ensure there is a match between the customer's need, the company's goals, and the channel's specific strengths (e.g., Audio content fits Clubhouse).",
-        "**Assess Channel DNA**: Determine the channel's lifecycle stage (risk of disappearing vs. ground floor opportunity) and alignment with its monetization strategy.",
-        "**Assess Company DNA**: Evaluate internal risk tolerance and resource availability; ensure a baseline channel (like Google/Facebook) is already working before diversifying."
+        "Assess the overlap between Customer Needs, Company Goals, and the specific Strengths of the Medium.",
+        "Analyze Channel DNA: Consider the channel's lifecycle stage, stability, and alignment with your monetization model.",
+        "Analyze Company DNA: Evaluate your risk tolerance and whether you have a stable foundation on core channels before diversifying."
       ],
-      "quote": "The exploring emerging channels framework that I'll take... has three core ingredients... understanding if there is an overlap between what the customers need is, what your company's goals are, and what the channel actually does really well."
-    },
-    {
-      "name": "Improv for Business Leadership",
-      "category": "team-culture",
-      "summary": "Applying the rules of improvisational comedy to improve communication, reduce defensiveness in cross-functional meetings, and sharpen marketing messaging.",
-      "principles": [
-        "**'Yes, and...'**: Accept the reality of a colleague's statement or constraint (the 'Yes') and build upon it (the 'And') to maintain momentum rather than shutting down the conversation.",
-        "**The Gift of Details**: Use specific, vivid details in communication and positioning to provide 'meat' for others to work with, rather than generic statements."
-      ],
-      "quote": "If you approach it with that 'Yes, and...', it's often still true... Both of these things can be true at once... So, now that we accept both and can work off of each other, we're more likely to build both a better rapport and energy."
+      "quote": "There's very few companies that I recommend saying, 'Yes, go put energy on this brand new channel that you don't know how to scale yet before you've figured out some type of volume on Google and Facebook.'"
     },
     {
       "name": "The Growth CMO Model",
       "category": "career-leadership",
-      "summary": "A redefined executive marketing role that merges traditional marketing creativity with the analytical and iterative rigor of product management.",
+      "summary": "A leadership approach that replaces traditional, campaign-based marketing with data-driven, iterative cycles borrowed from agile product development.",
       "principles": [
-        "**Agile Marketing**: Run the marketing function using sprints, backlogs, and iterative cycles rather than long-term rigid planning.",
-        "**Product-Marketing Unity**: Treat product and marketing as integrated; the product is the primary marketing engine.",
-        "**Data-Driven Brand**: Measure brand and retention efforts with the same rigor as direct response, using proxies and directional data if necessary."
+        "Treat brand and retention as measurable, iterative experiments rather than static assets.",
+        "Operate marketing on sprint cycles similar to product engineering.",
+        "Ensure marketing leaders possess T-shaped skills, balancing deep expertise in one area with broad understanding of product and data.",
+        "Integrate product and marketing teams completely; product decisions are marketing decisions."
       ],
-      "quote": "In my mind, a Growth CMO is looking at each brand investment as how do you then immediately follow that up with the next one? How do you shift to this fast product iteration mindset with even things like brand?"
-    },
-    {
-      "name": "New Channel Experimentation Constraints",
-      "category": "execution",
-      "summary": "A tactical approach to testing unproven acquisition channels to minimize waste while maximizing learning velocity.",
-      "principles": [
-        "**The 5% Rule**: Expect emerging channels to succeed only about 5% of the time.",
-        "**Quarterly Timebox**: Do not let an experiment bleed past one quarter; usually, signal is visible within a month.",
-        "**Momentum over Significance**: In early stages (like Clubhouse or early TikTok), look for week-over-week growth (momentum) rather than perfect click-through attribution."
-      ],
-      "quote": "If you're going over a quarter and you don't feel like directionally it's getting better or it's interesting, I would put it back on ice for a while."
-    },
-    {
-      "name": "Market-Driven PMF Re-evaluation",
-      "category": "product-strategy",
-      "summary": "A mindset shift for navigating economic downturns or major market changes by treating the product as pre-PMF rather than simply optimizing existing funnels.",
-      "principles": [
-        "**Assume PMF is Lost**: If the market context changes, previous product-market fit is nullified.",
-        "**Total Base Reset**: Recognize that the entire customer base's psychology has changed, not just the next marginal acquisition target.",
-        "**Restart over Fix**: Do not launch new channels to fix a fundamental market misalignment; adjust the core offering or messaging first."
-      ],
-      "quote": "Start by assuming you no longer have product market fit, because you had product market fit in a different market. It's a different market now, so you have to start over."
+      "quote": "In my mind, the world that we live in now, product is no longer a part of marketing, but it's actually they're married at the hip. They're one and the same."
     }
   ],
   "filename": "Adam Grenier"

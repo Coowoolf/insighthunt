@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosity Loops Infographic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #FAF8F5;
+            --primary-gradient: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            --shadow: 0 20px 40px -10px rgba(168, 85, 247, 0.15);
+            --text-dark: #1e293b;
+            --text-gray: #475569;
+            --card-radius: 24px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .container {
+            width: 1200px;
+            background: #FAF8F5;
+            position: relative;
+            overflow: hidden;
+            padding: 80px;
+            border-radius: 40px;
+            box-shadow: 0 0 80px rgba(0,0,0,0.05);
+        }
+
+        /* Ambient Background Accents */
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: 0;
+            opacity: 0.6;
+        }
+        .blob-1 { top: -100px; right: -100px; width: 500px; height: 500px; background: rgba(99, 102, 241, 0.2); }
+        .blob-2 { bottom: -100px; left: -100px; width: 600px; height: 600px; background: rgba(236, 72, 153, 0.15); }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(168, 85, 247, 0.1);
+            color: #a855f7;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(168, 85, 247, 0.2);
+        }
+
+        h1 {
+            font-size: 84px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 16px;
+            background: var(--primary-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -2px;
+        }
+
+        .guest {
+            font-size: 24px;
+            color: var(--text-gray);
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .guest span {
+            color: #a855f7;
+            font-weight: 700;
+        }
+
+        .summary-box {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 22px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            text-align: center;
+            font-weight: 400;
+        }
+
+        /* Principles Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: var(--card-radius);
+            box-shadow: var(--shadow);
+            position: relative;
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+
+        .card:last-child {
+            grid-column: span 2;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .card-num {
+            font-size: 28px;
+            font-weight: 800;
+            color: white;
+            background: var(--primary-gradient);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+            flex-shrink: 0;
+        }
+
+        .card:last-child .card-num {
+            margin-bottom: 0;
+        }
+
+        .card-text {
+            font-size: 20px;
+            line-height: 1.5;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+
+        /* Quote Section */
+        .quote-container {
+            background: var(--primary-gradient);
+            border-radius: var(--card-radius);
+            padding: 50px;
+            position: relative;
+            margin-bottom: 40px;
+            color: white;
+            box-shadow: 0 20px 40px rgba(236, 72, 153, 0.3);
+        }
+
+        .quote-icon {
+            font-size: 80px;
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            opacity: 0.2;
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 1.4;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            border-top: 2px solid rgba(168, 85, 247, 0.1);
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-logo {
+            font-weight: 800;
+            font-size: 20px;
+            color: var(--text-dark);
+            letter-spacing: -0.5px;
+        }
+        
+        .footer-logo span {
+            color: #a855f7;
+        }
+
+        .footer-tag {
+            font-size: 14px;
+            color: var(--text-gray);
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Background Accents -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="content">
+            <header>
+                <div class="category-badge">Career & Leadership</div>
+                <h1>Curiosity Loops</h1>
+                <div class="guest">Methodology by <span>Ada Chen Rekhi</span></div>
+                <div class="summary-box">
+                    A structured approach to decision-making that involves querying a specific group of trusted individuals with a precise, low-friction question to gather contextual data and identify blind spots.
+                </div>
+            </header>
+
+            <div class="grid">
+                <!-- Principle 1 -->
+                <div class="card">
+                    <div class="card-num">1</div>
+                    <div class="card-text">
+                        Ask a <strong>specific question</strong> that solicits rationale. Avoid vague questions like "what should I do?"
+                    </div>
+                </div>
+
+                <!-- Principle 2 -->
+                <div class="card">
+                    <div class="card-num">2</div>
+                    <div class="card-text">
+                        <strong>Curate the audience</strong>: include Subject Matter Experts and people who know you personally.
+                    </div>
+                </div>
+
+                <!-- Principle 3 -->
+                <div class="card">
+                    <div class="card-num">3</div>
+                    <div class="card-text">
+                        Make the ask <strong>lightweight</strong> to reduce cognitive load and increase response rate.
+                    </div>
+                </div>
+
+                <!-- Principle 4 -->
+                <div class="card">
+                    <div class="card-num">4</div>
+                    <div class="card-text">
+                        Look for <strong>"hard feedback"</strong> or surprises rather than validation.
+                    </div>
+                </div>
+
+                <!-- Principle 5 (Full Width) -->
+                <div class="card">
+                    <div class="card-num">5</div>
+                    <div class="card-text">
+                        <strong>Close the loop</strong> by thanking participants and sharing the outcome.
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote-container">
+                <div class="quote-icon">“</div>
+                <div class="quote-text">
+                    "Don't do what people tell you to do. Take it as an input and look for the hard feedback. Look for things that you strongly disagree with or are surprises to you."
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-logo">Insight<span>Hunt</span></div>
+                <div class="footer-tag">Visualized by Dopamine Geek</div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

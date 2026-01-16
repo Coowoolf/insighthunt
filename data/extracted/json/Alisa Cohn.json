@@ -1,77 +1,53 @@
 {
   "guest": {
     "name": "Alisa Cohn",
-    "title": "Executive Coach",
-    "company": "Alisa Cohn (Independent)"
+    "title": "Executive Coach & Author",
+    "company": "Alisa Cohn Coaching"
   },
   "keyTakeaways": [
-    "Difficult conversations are essential for growth; avoiding them to prevent 'upsetting' employees harms the company and the individual.",
-    "A leader's primary job is to drive results and set expectations, not to make employees happy. Happiness often follows winning and clarity.",
-    "Structure feedback using observable facts rather than judgments to reduce defensiveness.",
-    "When delivering bad news (like denying a promotion), do not bury the lead, explain the business reasoning, and provide 'hope for the future' via a development plan.",
-    "Before firing someone, there must be a 'deal breaker' conversation where the consequences of non-improvement are explicitly stated.",
-    "Meetings must end with specific closure questions to prevent circular discussions and ensure execution.",
-    "Positive feedback (praise) requires the same level of specificity and preparation as constructive feedback to be effective."
+    "A leader's primary job is not to make employees happy, but to drive results and facilitate success; happiness is often a byproduct of a winning culture.",
+    "Difficult conversations should rely on 'observable facts' rather than judgments to reduce defensiveness.",
+    "When delivering bad news (like denying a promotion), be direct immediately, explain the reasoning, and provide 'hope for the future' regarding their career path.",
+    "Before firing someone, have a 'deal breaker' conversation that sets a clear timeline (e.g., 30 days) for specific changes, ensuring the termination is never a surprise.",
+    "Co-founders should establish a 'Founder Prenup' to align on values, conflict resolution styles, and the company vision before starting.",
+    "Positive feedback requires the same level of specificity and preparation as negative feedback to be effective and build trust.",
+    "Meetings should always end with three specific questions to prevent circular discussions and ensure accountability."
   ],
   "methodologies": [
     {
-      "name": "The Constructive Feedback Script",
-      "category": "career-leadership",
-      "summary": "A structured approach to giving difficult feedback that minimizes defensiveness by focusing on external observations and mutual goals.",
-      "principles": [
-        "Start with a neutral opener ('I want to chat with you about...').",
-        "Use 'What I'm hearing/observing' to state facts, not personal attacks.",
-        "Use 'We both know' to align on shared standards.",
-        "End with a clear call to action on how to fix the issue."
-      ],
-      "quote": "I want to chat with you about the way you're interacting with your peers... What I'm hearing from them is that you're missing deadlines... I want to continue to help you find opportunities to build your skills."
-    },
-    {
-      "name": "Handling Defensiveness (The Pause)",
+      "name": "The Founder Prenup",
       "category": "team-culture",
-      "summary": "A tactic to de-escalate a situation when an employee becomes emotional or argumentative during feedback.",
+      "summary": "A structured set of conversations and questions for potential co-founders to address before starting a company to prevent future conflict and failure.",
       "principles": [
-        "Identify the emotional shift immediately.",
-        "Call for a pause in the conversation.",
-        "Reiterate positive intent (e.g., 'I'm telling you this to make you better').",
-        "Offer to reschedule the discussion to allow for digestion."
+        "Clarify and compare core values (e.g., excellence vs. work-life balance).",
+        "Define what success and the long-term vision look like for each founder.",
+        "Discuss personal conflict resolution styles (e.g., immediate discussion vs. processing time).",
+        "Establish a decision-making protocol for when disagreements occur."
       ],
-      "quote": "Let's just pause for a second. First of all, I want you to know that I'm telling you this actually, just to make you better... I want to know if we can continue having this conversation now or if we need to kind of pause it."
+      "quote": "65% of startups fail because of conflict with founders or the founding team. So it's really essential to get this right."
     },
     {
-      "name": "The Non-Promotion Conversation",
+      "name": "Delicate Conversation Scripts",
       "category": "career-leadership",
-      "summary": "A framework for delivering disappointing news regarding promotions while maintaining employee engagement.",
+      "summary": "A framework for conducting difficult conversations (feedback, firing, non-promotions) that minimizes emotion and maximizes clarity.",
       "principles": [
-        "Deliver the news immediately (don't bury the lead).",
-        "Explain the decision based on business needs or skill gaps (e.g., 'we need someone who has done this role multiple times').",
-        "Provide 'Hope for the Future' by committing to help them build the necessary skills.",
-        "Validate their feelings but hold firm on the decision."
+        "State the purpose clearly and upfront (e.g., 'I have some disappointing news').",
+        "Focus on 'observable facts' and what is being 'heard' rather than personal attacks.",
+        "Pause the conversation if the recipient becomes overly defensive or emotional.",
+        "End with clear next steps or a 'hope for the future' to maintain the relationship."
       ],
-      "quote": "I know this is going to be challenging for you to hear, not going to promote you, but I want you to know this. It's really important to me that you're able to succeed in your career here."
+      "quote": "My three questions to end the meeting are: What did we decide here? Who needs to do what by when? And who else needs to know?"
     },
     {
-      "name": "The Pre-Firing 'Deal Breaker' Talk",
-      "category": "team-culture",
-      "summary": "The final warning conversation required before termination to ensure the employee is not surprised.",
-      "principles": [
-        "State clearly that this is a difficult conversation.",
-        "Reference specific history: 'We have talked about this multiple times.'",
-        "Set a specific timeframe for improvement (e.g., 30 days).",
-        "Explicitly state the consequence: 'We will have to part ways.'"
-      ],
-      "quote": "I need you to fix this within the next 30 days. Otherwise, I'm sorry to say, we're going to have to find a way to part ways because I can't keep this going with you."
-    },
-    {
-      "name": "Meeting Closure Protocol",
+      "name": "The Meeting Closing Ritual",
       "category": "execution",
-      "summary": "Three mandatory questions to ask at the end of every meeting to ensure alignment and accountability.",
+      "summary": "A specific protocol used at the end of every meeting to ensure alignment, accountability, and communication flow.",
       "principles": [
-        "Question 1: What did we decide here?",
-        "Question 2: Who needs to do what by when? (Action Items)",
-        "Question 3: Who else needs to know? (Communication Plan)"
+        "Ask: 'What did we decide here?' to force alignment on the outcome.",
+        "Ask: 'Who needs to do what by when?' to assign clear deliverables.",
+        "Ask: 'Who else needs to know?' to ensure information cascades correctly to the rest of the organization."
       ],
-      "quote": "My three questions to end the meeting are, what did we decide here? Who needs to do what by when? And who else needs to know?"
+      "quote": "If you can capture those, articulate those as deliverables, I promise you, you're going to have better meetings."
     }
   ],
   "filename": "Alisa Cohn"

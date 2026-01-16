@@ -1,67 +1,55 @@
 {
   "guest": {
     "name": "Aishwarya Naresh Reganti & Kiriti Badam",
-    "title": "AI Researchers & Product Leaders",
-    "company": "OpenAI (Kiriti) / Independent & Maven (Aishwarya)"
+    "title": "AI Researcher / Member of Technical Staff (Codex)",
+    "company": "Independent / OpenAI"
   },
   "keyTakeaways": [
-    "Building AI products requires managing non-determinism in both user inputs and model outputs.",
-    "There is a fundamental trade-off between agency (autonomy) and control; as agency increases, human control decreases, requiring higher trust.",
-    "Do not start with full autonomy (V3); start with high-control/low-agency solutions (V1) and graduate upwards.",
-    "The 'Problem First' mindset prevents teams from getting lost in technical complexity by focusing on the specific user friction being solved.",
-    "Evals are not a silver bullet; successful teams use a hybrid of offline evals, production monitoring, and qualitative 'vibes'.",
-    "Pain is the new moat; the difficulty of implementing and refining AI workflows creates competitive advantage.",
-    "Leaders must be hands-on with AI tools to rebuild their product intuition."
+    "Building AI products requires managing non-determinism in both user input (natural language) and model output (probabilistic generation).",
+    "There is a fundamental trade-off between agency and control; as you give an agent more autonomy, you relinquish human control, which requires building trust incrementally.",
+    "Do not start with fully autonomous 'V3' agents; begin with 'V1' systems that offer suggestions (high control, low agency) to gather data and calibrate behavior.",
+    "Evals are necessary but insufficient; they must be paired with production monitoring and 'vibes' checks because users will interact with the system in unpredictable ways.",
+    "The 'One-click agent' is a marketing myth; successful integration requires months of messy data cleaning and workflow mapping.",
+    "Pain is the new moat: in an era of cheap building, the competitive advantage lies in the difficult work of implementation, integration, and learning what doesn't work.",
+    "Leaders must rebuild their intuition by being hands-on with AI tools daily, as old software intuitions may no longer apply.",
+    "Future agents will move from reactive tasks to proactive background work, anticipating user needs and fixing issues before they are flagged."
   ],
   "methodologies": [
     {
-      "name": "The Agency-Control Graduation Ladder",
-      "category": "product-strategy",
-      "summary": "A phased deployment strategy for AI agents that mitigates risk by starting with low autonomy and gradually increasing it as the system proves reliable.",
+      "name": "Continuous Calibration, Continuous Development (CCCD)",
+      "category": "execution",
+      "summary": "An iterative software development lifecycle specifically designed for AI products to handle non-determinism. It focuses on deploying lower-agency versions to gather data, analyzing emerging error patterns, and recalibrating the system before increasing autonomy.",
       "principles": [
-        "V1 (Copilot/Draft): AI suggests or drafts, human reviews and executes.",
-        "V2 (Manager): AI executes multi-step tasks under human supervision/approval.",
-        "V3 (Agent): AI acts autonomously with post-hoc review.",
-        "Never relinquish control without first validating reliability."
+        "Scope capability and curate datasets before building.",
+        "Deploy to production to identify emerging patterns that static evals miss.",
+        "Continuously calibrate the system based on actual user behavior.",
+        "Recalibrate whenever models change (e.g., GPT-4 to GPT-5) or user behavior evolves."
+      ],
+      "quote": "The idea is just behavior calibration and not losing user trust as you do that behavior calibration."
+    },
+    {
+      "name": "The Agency-Control Graduation Framework",
+      "category": "product-strategy",
+      "summary": "A strategy for rolling out AI features by starting with high human control and low AI agency, then gradually inverting that ratio as reliability is proven. This prevents eroding trust and allows for data collection on human decision-making.",
+      "principles": [
+        "V1 (Copilot/Drafting): AI suggests, Human decides (High Control, Low Agency).",
+        "V2 (Orchestration): AI executes multi-step workflows with review.",
+        "V3 (Autonomy): AI acts independently (Low Control, High Agency).",
+        "Use early stages to log human corrections to build the flywheel for automation."
       ],
       "quote": "Every time you hand over decision-making capabilities to agentic systems, you're kind of relinquishing some amount of control on your end."
     },
     {
-      "name": "Continuous Calibration, Continuous Development (CCCD)",
-      "category": "execution",
-      "summary": "A modified software development lifecycle specifically for AI that emphasizes a feedback loop between development (scoping/curating) and calibration (analyzing emerging behaviors).",
+      "name": "Problem-First Workflow Analysis",
+      "category": "product-strategy",
+      "summary": "Instead of applying AI generally, teams must obsessively deconstruct specific workflows to identify where AI adds value versus where deterministic code is better. Success comes from deep domain mapping rather than model sophistication.",
       "principles": [
-        "Scope capability and curate datasets before building.",
-        "Deploy and monitor for 'unknown unknown' behaviors.",
-        "Calibrate by spotting error patterns and fixing data/prompts.",
-        "Design new evaluation metrics based on observed production failures.",
-        "Use human-in-the-loop logs as free error analysis."
+        "Don't let solution complexity distract from the problem definition.",
+        "Map taxonomies and data structures explicitly; agents fail on messy enterprise data.",
+        "Subject Matter Experts (SMEs) are critical for defining ground truth.",
+        "Avoid 'slapping a chat interface' on data; reconstruct the process."
       ],
-      "quote": "It's about have you built the right flywheels in place so that you can improve over time."
-    },
-    {
-      "name": "Hybrid Evaluation Strategy",
-      "category": "growth-metrics",
-      "summary": "A balanced approach to quality assurance that rejects the binary choice between offline evals and online monitoring.",
-      "principles": [
-        "Use Offline Evals to prevent regressions on known failure modes.",
-        "Use Production Monitoring (implicit signals like regenerations/thumbs down) to catch new, unexpected behaviors.",
-        "Incorporate 'Vibes' and qualitative usage for open-ended domains (like coding).",
-        "Don't rely on generic benchmarks; build custom datasets based on your specific problem."
-      ],
-      "quote": "I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion."
-    },
-    {
-      "name": "Intuition Rebuilding for Leaders",
-      "category": "career-leadership",
-      "summary": "A practice for executives to overcome obsolete product instincts by engaging directly with AI tools.",
-      "principles": [
-        "Schedule dedicated 'hands-on' time with AI tools (e.g., 4:00-6:00 AM blocks).",
-        "Admit vulnerability: accept that pre-AI intuitions may be wrong.",
-        "Consult subject matter experts (SMEs) constantly, as they are crucial for judging output quality.",
-        "Avoid 'Vibe Coding' without understanding the operational complexity of deployment."
-      ],
-      "quote": "Leaders have to get back to being hands-on. You must be comfortable with the fact that your intuitions might not be right."
+      "quote": "In all this advancements of the AI, one easy, slippery slope is to keep thinking about complexities of the solution and forget the problem that you're trying to solve."
     }
   ],
   "filename": "Aishwarya Naresh Reganti + Kiriti Badam"

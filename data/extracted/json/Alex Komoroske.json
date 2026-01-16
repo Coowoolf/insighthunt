@@ -2,76 +2,54 @@
   "guest": {
     "name": "Alex Komoroske",
     "title": "Founder",
-    "company": "Stealth Startup (formerly Stripe, Google)"
+    "company": "Stealth Startup (Reimagining the web for the AI era)"
   },
   "keyTakeaways": [
-    "LLMs act as 'magical duct tape,' fundamentally changing the cost structure of software by making code generation cheap but reliability variable.",
-    "In an era of AI-generated content, human 'taste' and a unique perspective become the primary differentiators.",
-    "Large organizations often operate under 'Kayfabe'—a shared pretense that a strategy is working even when individuals know it isn't.",
-    "Product leaders should shift from a 'Builder' mindset (high effort, linear output) to a 'Gardener' mindset (planting seeds, compounding growth).",
-    "Organizations function like 'slime molds' where coordination costs increase with the square of the number of people; leaders must navigate this rather than fight it.",
-    "Productivity requires creating space for deep reflection to turn raw notes into synthesized insights."
+    "LLMs act as 'magical duct tape,' changing the cost structure of software by allowing for 'good enough' solutions where previously only expensive, perfect computation worked.",
+    "Shift from a 'Builder' mindset (rigid planning and manipulation) to a 'Gardener' mindset (planting cheap seeds and cultivating what grows organically).",
+    "Large organizations suffer from 'Organizational Kayfabe,' where employees collectively pretend a failing strategy is working to maintain stability; leaders must navigate this without destroying the illusion too early.",
+    "Organizations function like 'slime molds' where coordination costs grow with the square of the headcount; successful leaders design for emergence rather than fighting it.",
+    "In the age of AI, the cost of information production is zero, making human 'taste' and unique perspective the primary differentiator.",
+    "Productivity requires capturing insights immediately (in a 'Bits and Bobs' doc) and dedicating specific time for deep reflection and synthesis.",
+    "Use 'Strategy Salons' or 'Nerd Clubs'—secret, low-stakes groups with diverse perspectives—to foster innovation through 'yes, and' collaboration.",
+    "The 'Hallmark Card Fallacy' occurs when profound truths sound trite because you aren't ready to hear them; revisit common advice with an open mind."
   ],
   "methodologies": [
     {
-      "name": "Gardener Mindset",
+      "name": "The Gardening Mindset",
       "category": "product-strategy",
-      "summary": "A strategic approach that prioritizes creating self-sustaining ecosystems and compounding loops over linear building and direct manipulation.",
+      "summary": "A strategic approach that prioritizes planting many small, low-cost experiments (seeds) and investing resources only in those that demonstrate organic, self-accelerating growth, rather than executing rigid top-down plans.",
       "principles": [
-        "Plant 'acorns' (low-cost experiments) that have the potential to grow into 'oak trees'.",
-        "Look for systems with network effects or accelerating rates of return.",
-        "Dedicate 70% of effort to legible value to buy 'cover fire' for the 30% of experimental gardening.",
-        "Don't try to predict the winner beforehand; farm for miracles."
+        "Farm for miracles by planting cheap seeds",
+        "Look for compounding loops and network effects",
+        "Invest incremental energy only when positive signal is found",
+        "Allow for emergence rather than forcing top-down control"
       ],
       "quote": "What I look for instead are things that can be gardened, things that can grow on their own and that you can direct or maybe give a little bit of extra energy to or curate over."
     },
     {
-      "name": "Organizational Kayfabe",
+      "name": "Strategy Salons (Nerd Clubs)",
       "category": "team-culture",
-      "summary": "A framework for understanding how large organizations maintain cohesion through shared illusions, and how to navigate them without becoming cynical.",
+      "summary": "The creation of informal, often semi-secret cross-functional groups designed to bypass organizational politics and inertia, fostering a safe space for collaborative debate and novelty search.",
       "principles": [
-        "Acknowledge that optimism (Kayfabe) is necessary for organizational lubrication.",
-        "Recognize that challenging the 'fake' reality can be dangerous to one's career.",
-        "Introduce disconfirming evidence gently or through 'ugly baby' ideas that don't threaten the core narrative immediately.",
-        "Avoid becoming a zombie who believes the Kayfabe entirely."
+        "Enforce a strict 'yes, and' environment for idea exploration",
+        "Curate diverse perspectives to maximize novelty search",
+        "Keep the stakes low to encourage wild ideas and risk-taking",
+        "Manufacture momentum and 'FOMO' to keep the community active"
       ],
-      "quote": "Kayfabe... means a thing that everybody knows is fake and yet everybody acts like is real. And I think it's one of the defining forces within an organization."
+      "quote": "You get a group that people find intrinsically valuable for its own sake... that also stochastically spins off changing insights for the surrounding context."
     },
     {
-      "name": "Slime Mold Theory",
-      "category": "team-culture",
-      "summary": "A mental model viewing organizations as biological systems where coordination costs are the primary constraint.",
-      "principles": [
-        "Treat small startups like sports cars (steerable) and large orgs like big rigs (require process and slow pivoting).",
-        "Do not fight the coordination cost; adapt the operating style to it.",
-        "Design for emergence rather than top-down control in large systems.",
-        "Use program management to handle the 'big rig' dynamics."
-      ],
-      "quote": "The core dynamic that makes organizations hard to navigate as they get larger... is this emergent force or coordination... finding this coordination cost grows with the square of the number of people."
-    },
-    {
-      "name": "The Compendium / Bits and Bobs",
+      "name": "Navigating Organizational Kayfabe",
       "category": "career-leadership",
-      "summary": "A disciplined knowledge management practice involving rapid capture and scheduled deep reflection.",
+      "summary": "A framework for operating effectively within large organizations by acknowledging the 'fake reality' (kayfabe) required for the org to function, while protecting the team's ability to do high-impact work underneath.",
       "principles": [
-        "Capture raw notes and ideas immediately during meetings.",
-        "Weekly review sessions (Fridays) to process, clean, and synthesize notes.",
-        "Use embeddings or tags to find connections between new and old ideas.",
-        "Publish synthesized thoughts to clarify thinking and invite serendipity."
+        "Recognize the split between 'official status' and 'ground truth'",
+        "Do not destroy the illusion (kayfabe) if it threatens the system's stability",
+        "Provide 'cover fire' for the team to innovate while satisfying executive optics",
+        "Use 70% of effort on visible value to buy 30% freedom for high-impact gardening"
       ],
-      "quote": "I take a lot of notes... And then once a week, I go through, I take a few hours and I just reflect to myself and try to find patterns and unpack and find meaning and things."
-    },
-    {
-      "name": "AI as Magical Duct Tape",
-      "category": "product-strategy",
-      "summary": "A product philosophy for the AI era that embraces the 'squishy' and imperfect nature of LLMs.",
-      "principles": [
-        "Assume the software will not be perfect; design for 95% accuracy.",
-        "Focus on 'weird' and 'playful' ideas that were previously impossible due to cost.",
-        "Use AI to enhance individual agency rather than just team collaboration.",
-        "Leverage 'taste' to curate the output of the 'squishy computer'."
-      ],
-      "quote": "To me, LLMs are magical duct tape... So much of how the industry is built presupposes the idea that software is expensive to write and cheap to run, and LLMs undermine both of these."
+      "quote": "If you acknowledge the kayfabe is false, then you are in danger of getting knocked out of the game. And so how do you do good things despite the fact that you're pulled in two different directions?"
     }
   ],
   "filename": "Alex Komoroske"

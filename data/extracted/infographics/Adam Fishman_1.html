@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Growth Competency Model Infographic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #e5e5e5; /* Contrast for preview */
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .infographic-container {
+            width: 1200px;
+            min-height: 1200px;
+            background-color: #FAF8F5;
+            position: relative;
+            overflow: hidden;
+            padding: 60px 80px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+        }
+
+        /* Ambient Background Blobs */
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            z-index: 0;
+            opacity: 0.6;
+        }
+
+        .blob-1 {
+            width: 500px;
+            height: 500px;
+            background: #a855f7;
+            top: -150px;
+            right: -100px;
+            opacity: 0.3;
+        }
+
+        .blob-2 {
+            width: 600px;
+            height: 600px;
+            background: #6366f1;
+            bottom: -100px;
+            left: -150px;
+            opacity: 0.2;
+        }
+
+        .blob-3 {
+            width: 300px;
+            height: 300px;
+            background: #ec4899;
+            top: 40%;
+            left: 40%;
+            opacity: 0.15;
+        }
+
+        /* Content Layer */
+        .content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 8px 24px;
+            background: rgba(168, 85, 247, 0.1);
+            color: #a855f7;
+            border-radius: 50px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(168, 85, 247, 0.2);
+        }
+
+        h1 {
+            font-size: 64px;
+            line-height: 1.1;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .guest-info {
+            font-size: 24px;
+            color: #4b5563;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .guest-name {
+            color: #1f2937;
+            font-weight: 700;
+        }
+
+        .summary {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 20px;
+            line-height: 1.6;
+            color: #6b7280;
+        }
+
+        /* Grid System */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(168, 85, 247, 0.08);
+            position: relative;
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899);
+        }
+
+        .card-number {
+            font-size: 80px;
+            font-weight: 800;
+            color: #f3f4f6;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            line-height: 1;
+            z-index: 0;
+        }
+
+        .card-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: white;
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+        }
+
+        .card-icon svg {
+            width: 32px;
+            height: 32px;
+            stroke-width: 2.5;
+        }
+
+        .card h3 {
+            font-size: 28px;
+            color: #111827;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .card p {
+            font-size: 18px;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        /* Specific Gradients for diversity */
+        .card:nth-child(2) .card-icon { background: linear-gradient(135deg, #a855f7, #ec4899); box-shadow: 0 10px 20px rgba(168, 85, 247, 0.3); }
+        .card:nth-child(3) .card-icon { background: linear-gradient(135deg, #ec4899, #f43f5e); box-shadow: 0 10px 20px rgba(236, 72, 153, 0.3); }
+        .card:nth-child(4) .card-icon { background: linear-gradient(135deg, #6366f1, #3b82f6); box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3); }
+
+        /* Quote Section */
+        .quote-block {
+            background: linear-gradient(135deg, #ffffff, #fdfbfd);
+            border-radius: 20px;
+            padding: 50px;
+            position: relative;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(236, 72, 153, 0.1);
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            margin-top: auto;
+        }
+
+        .quote-icon {
+            font-size: 60px;
+            line-height: 1;
+            background: linear-gradient(135deg, #6366f1, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FAF8F5;
+            padding: 0 20px;
+        }
+
+        .quote-text {
+            font-size: 26px;
+            font-weight: 600;
+            color: #374151;
+            line-height: 1.5;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 2px solid rgba(0,0,0,0.05);
+            padding-top: 30px;
+        }
+
+        .footer-logo {
+            font-weight: 800;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #111827;
+        }
+
+        .logo-mark {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(135deg, #6366f1, #ec4899);
+            border-radius: 8px;
+        }
+
+        .footer-tag {
+            font-size: 16px;
+            color: #9ca3af;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="infographic-container">
+        <!-- Background Elements -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+
+        <div class="content">
+            <header>
+                <div class="category-badge">Career & Leadership</div>
+                <h1>The Growth Competency Model</h1>
+                <div class="guest-info">Featuring <span class="guest-name">Adam Fishman</span></div>
+                <div class="summary">
+                    A strategic framework for hiring and evaluating growth practitioners by breaking the role into four quadrants. It prioritizes balancing a team's collective skills over hunting for non-existent "unicorn" individuals.
+                </div>
+            </header>
+
+            <div class="grid-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-number">01</div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <!-- Rocket Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3>Growth Execution</h3>
+                        <p>Focuses on getting things done. Requires channel fluency, rigorous experimentation, and the ability to productize learnings into scalable features.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-number">02</div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <!-- User/Mind Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                        </div>
+                        <h3>Customer Knowledge</h3>
+                        <p>Understanding who you are building for. Involves data fluency, deep insight into user psychology, and applying a creative approach to solve needs.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-number">03</div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <!-- Strategy/Chart Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <h3>Growth Strategy</h3>
+                        <p>The high-level view. Includes loop modeling, efficient capital allocation, and ruthless prioritization to ensure resources target the highest impact.</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card">
+                    <div class="card-number">04</div>
+                    <div class="card-content">
+                        <div class="card-icon">
+                            <!-- Communication Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3>Communication & Influence</h3>
+                        <p>How you move the organization. Covers strategic communication, team leadership, and effective stakeholder management.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quote-block">
+                <div class="quote-icon">“</div>
+                <div class="quote-text">
+                    The goal of the competency model is not to find a unicorn human being that is an 11 out of 10 on every one of these things, because frankly, that person doesn't exist.
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-logo">
+                    <div class="logo-mark"></div>
+                    InsightHunt
+                </div>
+                <div class="footer-tag">DOPAMINE GEEK STYLE</div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

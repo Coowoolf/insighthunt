@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emerging Channel Evaluation Framework</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #e0e0e0;
+            font-family: 'Outfit', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px;
+        }
+
+        .infographic {
+            width: 1200px;
+            background-color: #FAF8F5;
+            position: relative;
+            border-radius: 40px;
+            overflow: hidden;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+            padding: 80px;
+            color: #1e1b4b;
+        }
+
+        /* Decorative Background Blobs */
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: 0;
+            opacity: 0.15;
+        }
+        .blob-1 {
+            width: 600px;
+            height: 600px;
+            background: #6366f1;
+            top: -200px;
+            left: -200px;
+            border-radius: 50%;
+        }
+        .blob-2 {
+            width: 500px;
+            height: 500px;
+            background: #ec4899;
+            bottom: -100px;
+            right: -100px;
+            border-radius: 50%;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 8px 24px;
+            background: rgba(99, 102, 241, 0.1);
+            color: #6366f1;
+            border-radius: 100px;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 24px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        .guest {
+            font-size: 20px;
+            color: #64748b;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .summary {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 22px;
+            line-height: 1.5;
+            color: #334155;
+            font-weight: 400;
+        }
+
+        /* Grid */
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 40px;
+            position: relative;
+            box-shadow: 0 15px 40px -5px rgba(168, 85, 247, 0.15);
+            transition: transform 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+
+        .card-number {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #6366f1, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            opacity: 0.3;
+            position: absolute;
+            top: 30px;
+            right: 40px;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: #1e293b;
+            padding-right: 40px;
+        }
+
+        .card p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #475569;
+        }
+
+        /* Quote */
+        .quote-container {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(236, 72, 153, 0.05));
+            border-radius: 20px;
+            padding: 50px;
+            text-align: center;
+            border: 2px dashed rgba(168, 85, 247, 0.3);
+            margin-bottom: 40px;
+        }
+
+        .quote-text {
+            font-size: 24px;
+            font-weight: 600;
+            font-style: italic;
+            color: #334155;
+            line-height: 1.5;
+        }
+        
+        .quote-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+            border-top: 2px solid rgba(0,0,0,0.03);
+        }
+
+        .footer-logo {
+            font-weight: 800;
+            font-size: 24px;
+            letter-spacing: -0.5px;
+            color: #0f172a;
+        }
+        
+        .footer-logo span {
+            color: #a855f7;
+        }
+
+        .methodology-tag {
+            font-size: 14px;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="infographic">
+        <!-- Decoration -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="content">
+            <header>
+                <div class="category-badge">Product Strategy</div>
+                <h1>Emerging Channel<br>Evaluation Framework</h1>
+                <div class="guest">with Adam Grenier</div>
+                <p class="summary">A three-part criteria system for deciding when to invest resources into hype-cycle or new marketing channels to avoid wasted effort.</p>
+            </header>
+
+            <div class="grid-container">
+                <!-- Principle 1 -->
+                <div class="card">
+                    <div class="card-number">01</div>
+                    <h3>Overlap Analysis</h3>
+                    <p>Ensure the channel's medium strengths match the specific user need and company goals. Don't force a square peg into a round hole.</p>
+                </div>
+
+                <!-- Principle 2 -->
+                <div class="card">
+                    <div class="card-number">02</div>
+                    <h3>Channel DNA</h3>
+                    <p>Assess the channel's maturity, risk of disappearance, and monetization strategy. Is this platform stable enough to build on?</p>
+                </div>
+
+                <!-- Principle 3 -->
+                <div class="card">
+                    <div class="card-number">03</div>
+                    <h3>Company DNA</h3>
+                    <p>Evaluate internal risk tolerance and ensure a baseline channel is already working before diversifying resources.</p>
+                </div>
+
+                <!-- Principle 4 -->
+                <div class="card">
+                    <div class="card-number">04</div>
+                    <h3>Monetization Alignment</h3>
+                    <p>Gain an advantage by helping the platform prove their own ad models work. Align your success with theirs.</p>
+                </div>
+            </div>
+
+            <div class="quote-container">
+                <span class="quote-icon">❝</span>
+                <p class="quote-text">If you, as a business, can match or support their monetization strategy, it actually gives you a really interesting leg up with that channel.</p>
+            </div>
+
+            <footer>
+                <div class="footer-logo">Insight<span>Hunt</span></div>
+                <div class="methodology-tag">Dopamine Geek Design System</div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>

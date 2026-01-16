@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore and Exploit Framework Infographic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #e5e5e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 1200px;
+            background-color: #FAF8F5;
+            font-family: 'Outfit', sans-serif;
+            position: relative;
+            overflow: hidden;
+            padding: 80px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+            color: #1e293b;
+        }
+
+        /* Decorative Background Blobs */
+        .blob {
+            position: absolute;
+            filter: blur(80px);
+            z-index: 0;
+            opacity: 0.6;
+        }
+        .blob-1 {
+            width: 400px;
+            height: 400px;
+            background: #ec4899;
+            top: -100px;
+            right: -100px;
+            border-radius: 50%;
+            opacity: 0.15;
+        }
+        .blob-2 {
+            width: 500px;
+            height: 500px;
+            background: #6366f1;
+            bottom: -150px;
+            left: -150px;
+            border-radius: 50%;
+            opacity: 0.15;
+        }
+
+        /* Utilities */
+        .z-10 { position: relative; z-index: 10; }
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+        }
+
+        /* Header */
+        header {
+            margin-bottom: 50px;
+        }
+        
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1.1;
+            max-width: 800px;
+            letter-spacing: -2px;
+        }
+
+        .badge {
+            background: #fff;
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.2);
+            border: 2px solid transparent;
+            background-image: linear-gradient(#fff, #fff), linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+            color: #a855f7;
+        }
+
+        .guest-info {
+            font-size: 24px;
+            font-weight: 500;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .guest-info span {
+            font-weight: 700;
+            color: #1e293b;
+        }
+
+        /* Summary Card */
+        .summary-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 50px;
+            border-left: 8px solid #6366f1;
+            box-shadow: 0 10px 30px -5px rgba(99, 102, 241, 0.15);
+        }
+        .summary-title {
+            text-transform: uppercase;
+            font-weight: 800;
+            color: #6366f1;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            font-size: 14px;
+        }
+        .summary-text {
+            font-size: 22px;
+            line-height: 1.5;
+            color: #334155;
+            font-weight: 400;
+        }
+
+        /* Grid */
+        .principles-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 40px 35px;
+            box-shadow: 0 15px 35px -10px rgba(168, 85, 247, 0.15);
+            transition: transform 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-number {
+            font-size: 60px;
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 20px;
+            opacity: 0.15;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            background: linear-gradient(135deg, #6366f1, #a855f7, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+        }
+
+        /* Variant gradients for icons */
+        .c2 .card-icon { background: linear-gradient(135deg, #8b5cf6, #d946ef); }
+        .c3 .card-icon { background: linear-gradient(135deg, #d946ef, #ec4899); }
+        .c4 .card-icon { background: linear-gradient(135deg, #ec4899, #f43f5e); }
+
+        .card-text {
+            font-size: 20px;
+            line-height: 1.6;
+            font-weight: 500;
+            color: #1e293b;
+            z-index: 2;
+        }
+        
+        .card-highlight {
+            font-weight: 700;
+            color: #6366f1;
+        }
+
+        /* Quote */
+        .quote-container {
+            position: relative;
+            background: #1e293b;
+            border-radius: 24px;
+            padding: 50px;
+            color: white;
+            box-shadow: 0 20px 40px -10px rgba(99, 102, 241, 0.4);
+            overflow: hidden;
+        }
+        
+        .quote-bg-gradient {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899);
+        }
+
+        .quote-mark {
+            font-size: 100px;
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            opacity: 0.1;
+            font-family: serif;
+            line-height: 1;
+        }
+
+        .quote-text {
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 1.5;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .footer-logo {
+            font-weight: 800;
+            font-size: 24px;
+            letter-spacing: -1px;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .footer-dot {
+            width: 12px;
+            height: 12px;
+            background: linear-gradient(135deg, #6366f1, #ec4899);
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Background Decor -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <div class="z-10">
+            <!-- Header -->
+            <header>
+                <div class="top-row">
+                    <h1 class="gradient-text">Explore &amp; Exploit<br>Career Framework</h1>
+                    <div class="badge">career-leadership</div>
+                </div>
+                <div class="guest-info">
+                    Featuring <span>Ada Chen Rekhi</span>
+                </div>
+            </header>
+
+            <!-- Summary -->
+            <div class="summary-card">
+                <div class="summary-title">Methodology Summary</div>
+                <div class="summary-text">
+                    A career management strategy adapted from computer science algorithms, balancing the need to <strong>test new hypotheses</strong> against the need to <strong>capitalize on established strengths</strong>.
+                </div>
+            </div>
+
+            <!-- Principles Grid -->
+            <div class="principles-grid">
+                <!-- Card 1 -->
+                <div class="card c1">
+                    <div class="card-number">01</div>
+                    <div class="card-icon">1</div>
+                    <div class="card-text">
+                        Early career should optimize for <span class="gradient-text" style="font-weight:800;">'Explore'</span>: testing hypotheses about roles, industries, and company sizes.
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="card c2">
+                    <div class="card-number">02</div>
+                    <div class="card-icon">2</div>
+                    <div class="card-text">
+                        Shift to <span class="gradient-text" style="font-weight:800;">'Exploit'</span> when you find alignment: deepen skills and leverage specific experiences for maximum growth.
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card c3">
+                    <div class="card-number">03</div>
+                    <div class="card-icon">3</div>
+                    <div class="card-text">
+                        Prioritize <strong>learning and skill acquisition</strong> over fancy titles or immediate promotion during exploration phases.
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card c4">
+                    <div class="card-number">04</div>
+                    <div class="card-icon">4</div>
+                    <div class="card-text">
+                        Continuously evaluate if you are in a <strong>'learning'</strong> phase (growth) or a <strong>'stagnant'</strong> phase (plateau).
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quote Block -->
+            <div class="quote-container">
+                <div class="quote-bg-gradient"></div>
+                <div class="quote-mark">“</div>
+                <div class="quote-text">
+                    You're either in a mode of <span style="color:#a855f7; font-weight:600;">explorer</span> where you have a bunch of unknowns and you're testing... Or you're <span style="color:#ec4899; font-weight:600;">exploiting</span>, where you actually have found something that's really rich and deep.
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="footer-logo">
+                    <div class="footer-dot"></div>
+                    InsightHunt
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
