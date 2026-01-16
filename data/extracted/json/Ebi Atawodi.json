@@ -1,0 +1,106 @@
+{
+  "guest": {
+    "name": "Ebi Atawodi",
+    "title": "Director of Product Management, YouTube",
+    "company": "YouTube (Google)",
+    "background": "A seasoned product leader with deep experience at Netflix and Uber (where she led the Uber Wallet and payments teams). Ebi is known for her ability to craft compelling product visions and foster strong, high-performance team cultures."
+  },
+  "episodeSummary": "Ebi Atawodi dissects the elusive skill of crafting and communicating a product vision, moving beyond buzzwords to provide a tactical step-by-step playbook. She details how to transform vague ideas into concrete narratives using storytelling frameworks, how to rigorously define problems before solving them, and how to build deep conviction within a product team. The conversation also explores the nuance of product culture across Uber, Netflix, and Google, and the importance of 'love' over 'liking' in leadership.",
+  "keyTakeaways": [
+    "A good vision must be lofty yet realistic, devoid of current technical limitations, and grounded in a potent user problem.",
+    "Use the 'Once Upon a Time' storytelling framework to simplify complex product visions into a narrative everyone can understand.",
+    "Practice 'Catfooding' alongside Dogfooding: don't just use your own product, religiously use your competitors' products to build product sense.",
+    "Maintain a living 'Top 10 Things You Should Know' document that lists the most critical user problems and tech debt, rather than relying solely on new research for every cycle.",
+    "Structure strategy documents as 'Insights -> Strategy -> Big Rocks' within a strict 2-page limit to force clarity.",
+    "Evangelize vision in concentric circles: start with the core team, move to stakeholders, and finally present to leadership.",
+    "Product management is the art of Clarity (removing noise) and Conviction (making the bet)."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Once Upon a Time' Vision Narrative",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the problem of visions being too abstract, technical, or uninspiring for the team to rally behind.",
+      "summary": "A storytelling framework that forces PMs to articulate the 'before' state, the catalyst for change, and the 'after' state of the world in simple, human terms. It translates complex product goals into a relatable journey.",
+      "principles": [
+        "Start with 'Once upon a time...': Describe the current state of the world and the user's specific struggle.",
+        "Introduce the catalyst: 'Then one day...' (insert the product launch or specific change).",
+        "Describe the immediate impact: 'And because of that...' (the direct user benefit).",
+        "Conclude with the lasting legacy: 'Until finally...' (the permanent dent made in the universe).",
+        "Keep it devoid of technical limitations: Assume the tech constraints of today do not exist in the future state."
+      ],
+      "whenToUse": "When kicking off a new long-term initiative (3-5 year horizon) or when a team feels disconnected from the 'why' of their work.",
+      "commonMistakes": "Getting bogged down in features rather than the user's emotional journey or outcome.",
+      "quote": "If you got on a plane and the pilot was like, 'I don't really know where we're going... but trust me, we'll get there,' you probably would be thinking twice about staying on that flight.",
+      "realWorldExample": "Ebi used this to describe the YouTube Shorts vision: 'Once upon a time YouTube was fun... then one day it became polished... and because of that people stopped creating... then one day we launched Shorts... and anyone could express themselves again.'"
+    },
+    {
+      "name": "The 'Top 10 Things You Should Know' Protocol",
+      "category": "user-research",
+      "problemItSolves": "Prevents the 'blank slate' problem where teams constantly commission new research instead of acting on known, persistent user pain points.",
+      "summary": "A living, collaborative document that lists the absolute most critical problems (qualitative, quantitative, and tech debt) facing the product. It serves as the source of truth for planning cycles.",
+      "principles": [
+        "Maintain a living document: It is not a one-off presentation; it is updated quarterly.",
+        "Crowdsource the problems: Ask cross-functional partners (Marketing, Eng, Design) to contribute their own lists of '10 things'.",
+        "Include 'Product Debt': Infrastructure and tech debt are valid problems if they hinder the user experience.",
+        "Force convergence: If leadership asks the engineering manager, the designer, or the PM what the top problems are, they should all recite the same list.",
+        "Visualize for alignment: Print the problems on physical cards (or digital equivalents) and have the team vote on the most painful ones."
+      ],
+      "whenToUse": "Continuous usage, but specifically critical during the 'Empathize/Understand' phase prior to strategic planning.",
+      "commonMistakes": "Creating the list in a silo without input from engineering or data science, or letting the list grow beyond 10 items without prioritization.",
+      "quote": "If I go around... and ask what are the top five problems for studio? They should all have the same answer. This says I've done my job.",
+      "realWorldExample": "At Uber, Ebi created a 'More Money, More Problems' document with her data science and analyst partners to align the team on the exact friction points in the driver payment experience."
+    },
+    {
+      "name": "The 'Future Headline' Visualization",
+      "category": "product-strategy",
+      "problemItSolves": "Helps teams and stakeholders visualize the end state and success criteria before a single line of code is written.",
+      "summary": "A method of 'working backwards' where the PM writes the press headline or mocks up the app store update that would announce the finished product. It anchors the team on the final value proposition.",
+      "principles": [
+        "Write the Headline: Draft the specific title you would see in a TechCrunch article or a major press release (e.g., 'Uber replaces your Clipper Card').",
+        "Draft the Sub-head: Explain clearly what the launch is and why it matters in one sentence.",
+        "Visualize the Entry Point: Don't just mock the UI; mock the App Store 'What's New' panel or the marketing hero image.",
+        "Do it yourself first: Do not wait for design resources; sketch it on paper or use basic shapes to convey the story."
+      ],
+      "whenToUse": "When trying to sell a vision to executives or when the team is misaligned on the scope of the final deliverable.",
+      "commonMistakes": "Using 'I don't have a designer' as an excuse not to visualize the outcome.",
+      "quote": "Words are amazing, but a picture tells a thousand words... He literally took out a pencil and drew the future.",
+      "realWorldExample": "At Uber, Ebi's designer sketched a bodega owner accepting cash to top up an Uber account, which instantly clarified the vision for a global cashless experience."
+    },
+    {
+      "name": "The 'Insights-Strategy-Big Rocks' 2-Pager",
+      "category": "execution",
+      "problemItSolves": "Replaces endless, confusing roadmaps with a clear narrative structure that links data to execution.",
+      "summary": "A strict document format for strategic planning that prevents 'peanut buttering' resources across too many initiatives.",
+      "principles": [
+        "Section 1: Insights (The Why): Based on the 'Top 10 Problems' and data.",
+        "Section 2: Strategy/Approach (The How): The specific angle or leverage point the team will use to solve the problems.",
+        "Section 3: Big Rocks (The What): Limit to 3-5 major initiatives. These are the boulders in the jar; the sand (small features) fills in around them.",
+        "Constraint: Keep it to 2 pages (maximum 4) to force succinct thinking.",
+        "Validation: If an initiative has fewer than 3 engineers, question if it is a 'Big Rock' or if resources are being spread too thin."
+      ],
+      "whenToUse": "During quarterly or annual planning cycles to align the team and leadership.",
+      "commonMistakes": "Listing 20 items as 'Big Rocks' or skipping the 'Insights' section to jump straight to features.",
+      "quote": "If I asked you to make me a cocktail, you would put ice in first... You would not put the drink and then put the ice or it will splash... that's how an endless roadmap looks to me.",
+      "realWorldExample": "Ebi uses this format at YouTube, requiring her teams to write these 2-pagers which are then circulated for comments before a roadmap spreadsheet is ever touched."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "I do not believe in being liked. I believe in being loved... Love is the choice to extend yourself for the spiritual growth of oneself or another. And when you are extending yourself, you're not nice. It's not always nice.",
+      "context": "Discussing her philosophy on leadership and giving critical feedback to team members."
+    },
+    {
+      "text": "Product management is clarity and conviction.",
+      "context": "Defining the core craft of the PM role."
+    },
+    {
+      "text": "If I could put all the research into Bard or ChatGPT and it could spit out a PRD, then you haven't done your job.",
+      "context": "On the necessity of human intuition ('Product Sense') over just following data or research blindly."
+    },
+    {
+      "text": "Infrastructure is the product. Period.",
+      "context": "Emphasizing that technical debt and backend stability are product problems, not just engineering problems."
+    }
+  ],
+  "filename": "Ebi Atawodi"
+}

@@ -1,0 +1,105 @@
+{
+  "guest": {
+    "name": "Lenny Rachitsky (Host) & All-Star Guests",
+    "title": "Host of Lenny's Podcast / Various Industry Leaders",
+    "company": "Lenny's Podcast / Various",
+    "background": "Lenny Rachitsky curates insights from the world's top product minds. This special episode features a compilation of experts including April Dunford (Positioning), Shishir Mehrotra (Coda), Shreyas Doshi (Stripe), Marty Cagan (SVPG), and others, representing the most impactful product thinking of 2022."
+  },
+  "episodeSummary": "In this retrospective of the year's top 10 episodes, Lenny compiles the most high-impact frameworks and insights from product legends. The conversation spans critical domains including product positioning, behavioral science, career scaling (PSHE and LNO frameworks), and the core competencies of empowered product teams. It serves as a masterclass in actionable product strategy, moving beyond theory into specific mental models for execution and leadership.",
+  "keyTakeaways": [
+    "Retire the 'Product Owner' mindset; PMs must master four specific competencies: User/Customer knowledge, Data fluency, Business mechanics (sales/finance), and Industry trends.",
+    "When defining product positioning, do not start with the 'Market Category'; start with 'Competitive Alternatives' (including the status quo and Excel) to anchor your differentiation.",
+    "Use 'Eigenquestions' to interview and problem-solve: identify the one or two critical questions that, if answered, determine the entire outcome (e.g., 'Is it safe for humans?').",
+    "Stop treating all tasks equally; categorize work into Leverage (10x impact), Neutral (1x impact), and Overhead (<1x impact) to decide where to apply perfectionism versus speed.",
+    "Freemium features must serve a specific strategic goal: driving indirect monetization (virality), creating habit loops, or accelerating the 'Aha!' moment.",
+    "Small teams outperform large teams due to reduced communication overhead; coordinate geometry problems arise as headcount grows, often lowering absolute output.",
+    "Behavioral change requires defining the action with 'uncomfortable specificity' (e.g., not 'workout', but 'do 2 ten-minute intervals within 7 days').",
+    "Address 'Imposter Syndrome' by realizing it correlates with the steepest learning curves in your career; if you feel comfortable, you likely aren't growing."
+  ],
+  "methodologies": [
+    {
+      "name": "The Competitive Alternatives Positioning Cycle",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the problem of vague product positioning where teams start with a market category and struggle to differentiate.",
+      "summary": "A five-step process derived by April Dunford that anchors positioning in reality by first acknowledging what the customer would use if your product didn't exist.",
+      "principles": [
+        "Step 1: Identify Competitive Alternatives. List what you have to beat to win the deal, including the 'Status Quo' (Excel, interns, pen & paper) and the 'Shortlist' of direct competitors.",
+        "Step 2: Isolate Unique Capabilities. List feature/function capabilities you have that the alternatives lack.",
+        "Step 3: Translate to Value. Map every unique capability to a 'So What?' customer benefit to create value buckets.",
+        "Step 4: Define Best-Fit Customers. Identify the specific characteristics of companies/users who care deeply about those specific value buckets.",
+        "Step 5: Select Market Category. Choose the context (market) where your value is obvious to those best-fit customers."
+      ],
+      "whenToUse": "When launching a new product, repositioning a struggling product, or when sales teams are losing to 'no decision'.",
+      "commonMistakes": "Starting with Step 5 (Market Category) and trying to work backward, or ignoring 'Status Quo' as a competitor.",
+      "quote": "In B2B we lose about 40% of our deals to 'No decision,' which actually means we lost to the spreadsheet.",
+      "realWorldExample": "April Dunford explains that losing to 'interns' or 'spreadsheets' is a positioning failure against the status quo, not just direct competitors."
+    },
+    {
+      "name": "The LNO Time-Leverage Framework",
+      "category": "execution",
+      "problemItSolves": "Helps high-performers and perfectionists manage overwhelming to-do lists by identifying where quality actually matters.",
+      "summary": "Shreyas Doshi's framework for task management that classifies work based on the return on investment (impact) relative to effort, preventing burnout from trying to perfect low-value tasks.",
+      "principles": [
+        "Category L (Leverage): Tasks where 1x effort yields 10x-100x impact. Apply perfectionism here. Dedicate peak energy hours.",
+        "Category N (Neutral): Tasks where 1x effort yields ~1x impact. Do a 'good enough' job. Strictly time-box these.",
+        "Category O (Overhead): Tasks where 1x effort yields <1x impact. Do the bare minimum to complete them (e.g., submitting expenses).",
+        "Context Matters: The same task (e.g., Bug Reporting) can be an 'L' task (critical outage) or an 'O' task (minor UI glitch) depending on context."
+      ],
+      "whenToUse": "Daily prioritization, weekly planning, and when feeling overwhelmed by a growing backlog of tasks.",
+      "commonMistakes": "Applying 'L' level effort and perfectionism to 'O' tasks (e.g., spending hours formatting an internal expense report).",
+      "quote": "For the L tasks, let your inner perfectionist shine... but it cannot come from working more hours. It comes from spending less time on N tasks and O tasks.",
+      "realWorldExample": "Shreyas used to perfect his expense reports (O-task); later he realized bug reports could be L-tasks (detailed analysis for critical issues) or O-tasks (quick screenshot for minor issues)."
+    },
+    {
+      "name": "The PSHE Career Growth Curve",
+      "category": "career-leadership",
+      "problemItSolves": "Clarifies how career progression actually works in product and engineering, moving beyond 'scope' to 'autonomy and problem definition'.",
+      "summary": "Shishir Mehrotra's model explaining that seniority is defined by how much of the problem-solving stack you own, not just how many people you manage.",
+      "principles": [
+        "Stage E (Execution): You are handed a Problem, Solution, and the How. You just execute.",
+        "Stage H (How): You are handed a Problem and rough Solution. You figure out the 'How' (milestones, organization).",
+        "Stage S (Solution): You are handed a Problem. You come back with the Solution and the How.",
+        "Stage P (Problem): You tell leadership what the Problem is (e.g., 'We think it's activation, but it's actually brand').",
+        "The Trough of Disillusionment: The confusing middle career phase where you stop being judged on scope/volume and start being judged on PSHE capability."
+      ],
+      "whenToUse": "During performance reviews, career laddering discussions, and self-assessment of PM seniority.",
+      "commonMistakes": "Thinking that doing 'more' execution (volume) will get you promoted to senior levels, rather than shifting to Problem definition.",
+      "quote": "At some point you're senior enough that you tell us the problems... 'I know you told me to go work on activation, but actually I think our issue is brand.'",
+      "realWorldExample": "Salespeople are often judged on PSHE—the best ones don't just hit quota (Execution), they identify new territories and problems to solve (Problem/Solution)."
+    },
+    {
+      "name": "The 3 Bs of Behavioral Change",
+      "category": "user-research",
+      "problemItSolves": "Bridges the gap between wanting users to take an action and actually designing the product to facilitate that action.",
+      "summary": "Kristen Berman's framework for applying behavioral economics to product design, focusing on specific actions rather than vague outcomes.",
+      "principles": [
+        "B1: Behavior. Define the exact action with extreme specificity. (e.g., 'Do 2 workouts in 7 days', not 'Get fit').",
+        "B2: Barriers. Identify and remove both Logistical barriers (clicks, forms) and Cognitive barriers (uncertainty, status quo bias, optimism bias).",
+        "B3: Benefits. Amplify *immediate* benefits. Humans are present-biased; we prioritize 'now' over 'later'. Use completion bias (checkboxes) or social desirability."
+      ],
+      "whenToUse": "When designing onboarding flows, trying to increase feature adoption, or debugging why users drop off.",
+      "commonMistakes": "Defining the behavior as 'Log in' (which is a step, not the value) or focusing on long-term benefits (health) instead of immediate ones (checking a box).",
+      "quote": "If you don't define that behavior... you can't actually define the psychologies that affect someone's decision making when doing that behavior.",
+      "realWorldExample": "Peloton: The goal isn't 'exercise', it is 'within 7 days of starting, do 2 ten-minute workouts with two different instructors.'"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Steve Jobs shared his theory... as a company gets bigger, product historically became less important. The people in a company that would be celebrated were marketing people, salespeople... If a company stops innovating, these are the engines for growth.",
+      "context": "Marty Cagan explaining why large companies often lose their product innovation DNA over time."
+    },
+    {
+      "text": "A measurement would be an observation... 'Power users do four times more bookings.' That's a fact... but it's not an insight because it doesn't have context.",
+      "context": "Crystal Widjaja distinguishing between vanity metrics and actionable insights that explain *why* something happens."
+    },
+    {
+      "text": "Every single week I felt like an imposter... being in an uncomfortable situation coincides with the fastest and most intense periods of growth in one's career.",
+      "context": "Julie Zhou discussing her rapid rise at Facebook and normalizing the feeling of being unprepared."
+    },
+    {
+      "text": "If you don't have a SOC 2, there's a good chance you won't even get a seat at the table.",
+      "context": "Ad read context, but a notable insight regarding enterprise sales readiness mentioned during the sponsor break."
+    }
+  ],
+  "filename": "EOY Review"
+}

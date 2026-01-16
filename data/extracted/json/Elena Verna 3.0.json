@@ -1,0 +1,105 @@
+{
+  "guest": {
+    "name": "Elena Verna",
+    "title": "Growth Advisor & Interim Executive",
+    "company": "Solopreneur (Ex-Miro, Amplitude, Dropbox, SurveyMonkey)",
+    "background": "Elena is widely considered the smartest person in B2B growth. She has led growth organizations at massive scale (Miro, Dropbox) and specializes in Product-Led Growth (PLG) and B2B distribution strategies."
+  },
+  "episodeSummary": "Elena Verna dismantles common growth myths by listing 10 tactics that consistently fail, ranging from premature hiring to futile redesigns. She shifts the conversation from \"growth hacking\" to sustainable growth strategy, emphasizing the importance of founder-led growth in early stages, the necessity of owned channels over rented algorithms, and the critical need to layer new growth loops every 18 months.",
+  "keyTakeaways": [
+    "Do not hire a Head of Growth until you have strong product-market fit, data volume, and at least $1M-$5M ARR; early growth must be founder-led.",
+    "A declining business cannot be fixed by a growth team; growth amplifies existing success but cannot fix core product or retention issues.",
+    "Website redesigns and rebrands almost always result in an initial performance drop and rarely drive immediate acquisition improvements.",
+    "Stop obsession over A/B testing low-volume pages; if you can't reach significance in one month, use a 'Pre vs. Post' analysis instead.",
+    "Diversify away from 'rented' channels (SEO, Ads) where algorithms control your fate, and prioritize 'earned' channels (UGC, Viral Loops, Community).",
+    "Dedicate 20-25% of the growth team's annual capacity to discovering the next growth horizon, as every loop eventually decays.",
+    "Do not try to solve growth problems from scratch; assume your problem isn't unique and pattern-match against other companies or hire advisors for specific workshops."
+  ],
+  "methodologies": [
+    {
+      "name": "The Growth Readiness Assessment",
+      "category": "team-culture",
+      "problemItSolves": "Prevents startups from burning cash on growth hires who are destined to fail because the company foundation isn't ready.",
+      "summary": "A checklist to determine if a company is actually ready to hire a dedicated growth team, or if the founder should continue leading distribution.",
+      "principles": [
+        "Step 1: Verify PMF (Product Market Fit) via strong retention rates and a high 'Sean Ellis' disappointment score.",
+        "Step 2: Ensure data maturity; you cannot have a growth team without sufficient data volume for analysis.",
+        "Step 3: Confirm you are not hiring to 'fix' a decline; growth teams are for acceleration, not saving a sinking ship.",
+        "Step 4: If you are B2B Sales-Led, hire Sales first. If you are Self-Serve/PLG, hire Growth before Sales."
+      ],
+      "whenToUse": "When a startup reaches ~$1M ARR or when a mature company sees a revenue plateau.",
+      "commonMistakes": "Hiring a Head of Growth to find Product Market Fit, or hiring one when the core business is declining.",
+      "quote": "To figure out your product market fit and how to distribute it, it's not something that you can outsource to somebody.",
+      "realWorldExample": "Elena notes that many successful companies don't hire formal growth teams until $100M-$200M ARR because the culture is already growth-oriented."
+    },
+    {
+      "name": "The Earned Channel Pivot",
+      "category": "product-strategy",
+      "problemItSolves": "Mitigates the risk of platform dependency (e.g., Google SEO updates or Ad price hikes) destroying your acquisition strategy.",
+      "summary": "A strategic shift from prioritizing 'rented' distribution (Ads, SEO) to 'owned' distribution (Virality, UGC, Community) where you control the destiny.",
+      "principles": [
+        "Step 1: Audit current acquisition; identify how much is dependent on third-party algorithms (Google, Meta).",
+        "Step 2: Identify an 'Earned' mechanic specific to your product (User Generated Content, viral sharing, or referral loops).",
+        "Step 3: Invest engineering resources into building these loops (e.g., public template libraries, sharable artifacts) rather than just marketing spend.",
+        "Step 4: Accept a longer payoff period; earned channels take time to build but provide defensible compounding growth."
+      ],
+      "whenToUse": "When customer acquisition costs (CAC) are rising or when a platform change threatens your primary traffic source.",
+      "commonMistakes": "Treating this as a 'free' channel; it requires significant product and engineering investment, just not ad spend.",
+      "quote": "If you don't have [earned channels] on your growth roadmap, you are going to be in some really big trouble... because your cost of acquisition is only going to go up.",
+      "realWorldExample": "Dropbox derives over 50% of its acquisition through file-sharing loops (sending a file to a non-user), which is a channel no competitor can buy their way into."
+    },
+    {
+      "name": "The 18-Month Horizon Layering Strategy",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents the inevitable growth plateau caused by the 'Law of Shitty Clickthroughs' and channel saturation.",
+      "summary": "A portfolio approach to growth where new models are systematically introduced before the current ones burn out.",
+      "principles": [
+        "Step 1: Acknowledge that every growth loop (SEO, Ads, Virality) has a 5-7 year lifespan before efficacy degrades.",
+        "Step 2: Every 18 months, introduce a fundamentally new growth model (e.g., overlaying Sales on top of PLG, or adding a Community loop).",
+        "Step 3: Allocate 20-25% of the growth team's annual time to these experimental 'next horizon' bets.",
+        "Step 4: Do not judge these new layers on immediate efficiency metrics; allow 6-18 months for them to mature.",
+        "Step 5: Diversify models: Mix Product-led, Marketing-led, and Sales-led motions."
+      ],
+      "whenToUse": "During periods of high growth to prepare for the future, or when current channels show early signs of saturation.",
+      "commonMistakes": "waiting until growth slows down to start building the next layer, as these layers take too long to ramp up.",
+      "quote": "If you have a growth model that works for you... good for you... but you're going to need to evolve it, and that evolution needs to come through overlaying other growth models on top of it.",
+      "realWorldExample": "Miro's 'Miroverse' (UGC library) took 18 months of investment before they started putting hard metrics on it, but it eventually became a massive acquisition engine."
+    },
+    {
+      "name": "The High-Velocity Testing Heuristic",
+      "category": "execution",
+      "problemItSolves": "Eliminates 'experimentation paralysis' where teams move too slowly because they try to A/B test everything.",
+      "summary": "A decision-making framework to determine when to run a scientific A/B test versus when to 'just ship it' based on volume and risk.",
+      "principles": [
+        "Step 1: Check the volume. If you cannot reach statistical significance within 1 month, do NOT run an A/B test.",
+        "Step 2: For low-volume changes, use a 'Pre vs. Post' analysis (measure metrics before launch and after launch) combined with a 7-day rollback window.",
+        "Step 3: Do not test 'shades of blue' or minor copy tweaks; focus testing capacity on major structural changes.",
+        "Step 4: Never test a 'one-off email' or a 'one-off campaign'—only test systematic changes to lifecycle flows.",
+        "Step 5: Trust product intuition for the solution design, use data to validate the outcome."
+      ],
+      "whenToUse": "Day-to-day execution for growth teams, particularly in B2B or lower-traffic environments.",
+      "commonMistakes": "Spending engineering time building tests for low-traffic pages that will never reach statistical significance.",
+      "quote": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem... It's almost like a paralyzing disease.",
+      "realWorldExample": "Elena advises against testing third-party sign-up buttons (e.g., Google Auth) for lift; just implement them as a best practice for user experience."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Growth is about failure. You have to fail to learn. Success is an output of a lot of failures.",
+      "context": "On the mindset required for a growth team."
+    },
+    {
+      "text": "Never ever once have I seen a rebrand or redesign... produce good performance results.",
+      "context": "Discussing the common fallacy that a new website design will magically fix acquisition numbers."
+    },
+    {
+      "text": "Your problem is not unique... trying to re-engineer solution is time lost to market and has a huge opportunity cost.",
+      "context": "Advocating for pattern-matching and talking to advisors rather than trying to invent new growth mechanisms from scratch."
+    },
+    {
+      "text": "Full-time jobs are not the best way to monetize the skill that you have.",
+      "context": "Elena's contrarian take on career management and the value of optionality."
+    }
+  ],
+  "filename": "Elena Verna 3.0"
+}

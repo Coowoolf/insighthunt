@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Eeke de Milliano",
+    "title": "Head of Product",
+    "company": "Retool",
+    "background": "Eeke is a product leader who spent six years at Stripe, starting as one of their first employees and PMs where she helped build foundational products like Stripe Connect and Radar. She now leads product at Retool, bringing deep expertise in scaling technical products and high-performance cultures."
+  },
+  "episodeSummary": "Eeke de Milliano dissects the tension between process and innovation, arguing that while process reduces variance, it often stifles the highest performers. She shares actionable frameworks for scaling Stripe-like cultures, including how to structure 'crazy ideas' into launched products, how to build a diversified talent portfolio rather than hiring clones, and why companies should aim for a 'Minimum Viable Process.'",
+  "keyTakeaways": [
+    "Treat process as a variance reduction tool: use it to raise the floor, but provide escape hatches so you don't lower the ceiling for high performers.",
+    "Implement a 'Crazy Ideas' annual ritual where the prompt is specifically for ideas that have a 90% chance of failing but a 10x-100x return if they succeed.",
+    "Utilize the 70/20/10 resource allocation model: 70% core product (including maintenance), 20% strategic non-core initiatives, and 10% pure speculative bets.",
+    "When building MVPs, 'build the scooter, not the axle.' Ensure the smallest version is functional end-to-end rather than a component of a larger dream.",
+    "Stop hiring in your own image; audit your team every six months to identify gaps in your 'Talent Portfolio' (e.g., visionaries vs. executors) and hire specifically for those missing traits.",
+    "Use the 'Trapdoor' decision framework: Pricing is rarely a trapdoor (you can grandfather users), but titles are (hard to revoke).",
+    "For technical products, build for your best user first, not your worst user. Don't let fear of abuse cripple the initial product definition."
+  ],
+  "methodologies": [
+    {
+      "name": "The Minimum Viable Process (MVP) Protocol",
+      "category": "execution",
+      "problemItSolves": "Prevents bureaucratic bloat that stifles high performers and creativity while still maintaining necessary organizational standards.",
+      "summary": "A philosophical approach to process implementation that acknowledges process reduces variance (both bad and good). It aims to standardize the average while allowing high performers to bypass strictures to achieve exceptional results.",
+      "principles": [
+        "Acknowledge the trade-off: Process raises the floor but lowers the ceiling; use it only when variance reduction is the priority.",
+        "Embed 'Escape Hatches' in templates: Explicitly state at the top of documents (PRDs, specs) that if the template doesn't fit the problem, the author should break the format.",
+        "Empower managers as gatekeepers: Managers must identify high performers who don't need the process and provide them organizational air cover to bypass it.",
+        "Differentiate by stage: Early stage (pre-PMF) requires a 3-month charter horizon; mature companies require a 10-year horizon."
+      ],
+      "whenToUse": "When a company is scaling from early-stage to growth-stage and feels the urge to implement heavy frameworks like SAFe or complex OKRs.",
+      "commonMistakes": "Forcing top engineers/PMs to adhere to rigid templates that slow them down, resulting in 'regression to the mean' for talent.",
+      "quote": "Process, by definition, is variance reducing... The cost of that is obviously, while you are reducing the standard and bringing folks up to the average, you're also bringing other folks down to the average.",
+      "realWorldExample": "Eeke writes on Retool templates: 'If this doesn't work for what you're trying to explain, don't use it. But just know that this is the minimum viable thing.'"
+    },
+    {
+      "name": "The Crazy Ideas Pipeline",
+      "category": "product-strategy",
+      "problemItSolves": "Overcomes the natural tendency of organizations to gravitate toward safe, incremental work and ignore high-risk/high-reward innovation.",
+      "summary": "A structured mechanism to solicit, fund, and incubate non-obvious ideas that would typically be killed by standard prioritization frameworks. It treats the company as a VC and product teams as startups.",
+      "principles": [
+        "The 10% Probability Prompt: Create a specific document for ideas that have a 90% chance of making no sense, but a 10% chance of 10x-100x impact.",
+        "VC-Style Funding: Fund selected ideas with minimal resources (e.g., 1 PM + 1 Eng) for a specific period to prove value before scaling.",
+        "Organizational Separation: Keep incubation teams separate from the core reporting structure initially to prevent them from getting bogged down in 'keeping the lights on' work.",
+        "Review and Revive: Annually review the previous year's list to see what was built; Retool consistently builds 3-8 items from the list per year."
+      ],
+      "whenToUse": "During annual planning cycles or when the team feels stuck in an incremental optimization loop.",
+      "commonMistakes": "Integrating the 'crazy idea' team back into the core org too quickly, where they get crushed by technical debt and bug fixes before finding PMF.",
+      "quote": "Crazy ideas are ideas that we shouldn't, obviously, do. There's a 90% chance that they make no sense. But in the 10% chance that they do, they will make a 10x to 100x difference.",
+      "realWorldExample": "Retool Workflows, a major product launch, started as a 'Crazy Idea' submission because scheduling queries wasn't part of the core UI builder value prop."
+    },
+    {
+      "name": "The Product Talent Portfolio Matrix",
+      "category": "team-culture",
+      "problemItSolves": "Prevents 'hiring bias' where managers build teams of clones, resulting in blind spots regarding specific skills (e.g., a team of visionaries with no execution muscle).",
+      "summary": "A hiring strategy that treats the team composition like an investment portfolio, seeking a balance of complementary assets rather than uniform excellence in one specific trait.",
+      "principles": [
+        "The 6-Month Audit: Every six months, chart the current team to list collective strengths and collective weaknesses.",
+        "Hire for the Gap: Write job descriptions specifically targeting the identified team weaknesses, not just a generic 'Good PM' profile.",
+        "Balance Homegrown vs. External: Mix 'Homegrown' PMs (culture carriers, deep product knowledge, non-traditional backgrounds) with 'External' hires (traditional rigor, best practices from other top companies).",
+        "Balance Vision vs. Execution: Ensure the team has a mix of 'execution machines' and 'creative visionaries'."
+      ],
+      "whenToUse": "When scaling a product team from a small pod to a larger organization, or when a team feels lopsided (e.g., great at shipping but bad at strategy).",
+      "commonMistakes": "Hiring a candidate solely because they remind the hiring manager of themselves.",
+      "quote": "I really think that a lot of product management can sometimes be reduced to funnels and portfolios... Instead of having a bunch of PMs who all spike in one particular area, figure out how you can create complimentary skillsets.",
+      "realWorldExample": "Eeke performs a personal exercise every six months to map her team's strengths and weaknesses to dictate the next hire's required profile."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Process, by definition, is variance reducing. You're introducing it, because you worry that the variance in your org is too high.",
+      "context": "On the trade-offs of introducing process in scaling companies."
+    },
+    {
+      "text": "Build the scooter, not the axle.",
+      "context": "Quoting Retool's head of design on how to approach MVPs—build a complete, smaller value unit, not a component of a larger one."
+    },
+    {
+      "text": "If you're going to swing big, you will invariably stumble sometimes... leaders want the upside of innovation, but they're not really willing to deal with the cost of innovation.",
+      "context": "On why teams fail to innovate and the necessity of normalizing failure."
+    },
+    {
+      "text": "To what do you attribute your success? And you can't say luck.",
+      "context": "Her favorite interview question to test for self-awareness and introspection."
+    }
+  ],
+  "filename": "Eeke de Milliano"
+}

@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Elena Verna",
+    "title": "Head of Growth",
+    "company": "Lovable",
+    "background": "Elena is a renowned growth expert who has led growth at Miro, Dropbox, SurveyMonkey, Amplitude, and Netlify. Currently Head of Growth at Lovable, she helped the company reach $200M ARR in under one year with fewer than 100 employees."
+  },
+  "episodeSummary": "Elena Verna discusses the unprecedented growth of Lovable (0 to $200M ARR in <1 year) and how the traditional growth playbook has been upended by the AI revolution. She details why optimization is dead, why 'Minimum Lovable Product' has replaced MVP, and how AI companies must recapture product-market fit every three months due to rapidly evolving technology and consumer expectations.",
+  "keyTakeaways": [
+    "Viability is obsolete; shift from Minimum Viable Product (MVP) to Minimum Lovable Product (MLP) where emotional connection and delight are table stakes.",
+    "Throw out the 80/20 optimization rule; in fast-moving AI markets, spend 95% of time innovating on new features and only 5% optimizing existing funnels.",
+    "Treat high variable costs (like LLM tokens) as Customer Acquisition Cost (CAC) rather than COGS; aggressively give the product away to fuel word-of-mouth.",
+    "Product-Market Fit is no longer a destination but a treadmill; expect to lose and need to recapture PMF every 3 months as model capabilities and user expectations shift.",
+    "Move activation ownership from the Growth team to the Core Product team; in AI, the 'agent' determines activation quality, not the onboarding UI.",
+    "Marketing is now synonymous with shipping velocity; ship daily to maintain 'noise' in the market and use feature releases as the primary retention and resurrection mechanism.",
+    "Hire for 'vibe coding' skills—the ability to use AI to rapidly prototype and build fully functional internal tools or marketing assets without traditional engineering resources."
+  ],
+  "methodologies": [
+    {
+      "name": "The 3-Month PMF Treadmill",
+      "category": "product-strategy",
+      "problemItSolves": "Addresses the risk of obsolescence in the AI sector where underlying model capabilities and consumer expectations change rapidly.",
+      "summary": "A strategic stance accepting that Product-Market Fit is perishable. Instead of scaling a static PMF for years, teams must pivot and reinvent their core value proposition quarterly to match step-function changes in LLM capabilities.",
+      "principles": [
+        "Monitor the underlying tech cycle: LLM capabilities jump roughly every 3 months; your product roadmap must anticipate these jumps rather than react to them.",
+        "Recalibrate for the 'Pioneer' users constantly: In the early AI wave, you cannot afford to settle for the 'Latent Majority' yet; you must satisfy the power users to stay relevant.",
+        "Accept high churn as natural: If the market moves fast, users will churn; focus on recapturing them with new capabilities rather than traditional retention tactics.",
+        "Throttle scaling for reinvention: Periodically pause aggressive GTM scaling to focus resources on fundamentally upgrading the product core."
+      ],
+      "whenToUse": "When building in hyper-growth, emerging technology sectors (specifically GenAI) where the infrastructure layer changes multiple times a year.",
+      "commonMistakes": "Assuming that once you hit $10M or $100M ARR you can switch to 'optimization mode' and stop reinventing the core product.",
+      "quote": "Every company basically has to recapture product market fit every three months.",
+      "realWorldExample": "Despite hitting $200M ARR, Lovable acknowledges they are constantly at risk of losing PMF if they don't reinvent their solution to match the latest AI model capabilities."
+    },
+    {
+      "name": "The Minimum Lovable Product (MLP)",
+      "category": "execution",
+      "problemItSolves": "Overcomes the commoditization of software utility where 'functioning' is no longer a differentiator.",
+      "summary": "A development standard that prioritizes emotional connection, brand feel, and 'magic' over simple functional viability. In an era where AI lowers the cost of building software, the differentiator becomes the joy of use.",
+      "principles": [
+        "Brand is product interaction: Do not separate brand marketing from product design; every UI interaction must convey the brand's personality.",
+        "Prioritize the 'Wow' over the 'Aha': The goal is an immediate feeling of 'I can't believe this is possible' (Wow) rather than just understanding value (Aha).",
+        "Fix 'unlovable' bugs immediately: If a feature works but feels clunky or lifeless, treat it as a P0 bug. Stop the line to fix the 'vibe'.",
+        "Designers as early hires: Hire high-agency designers earlier than usual to ensure the emotional layer is built alongside the functional layer."
+      ],
+      "whenToUse": "When entering a crowded market where barriers to entry are low and competitors offer similar utility.",
+      "commonMistakes": "Shipping a dry, utilitarian 'MVP' to test the market, which leads to indifference rather than the high-energy feedback loops needed for growth.",
+      "quote": "To be ahead of them is not optimization of the problem, it's reinvention of the solution.",
+      "realWorldExample": "Lovable's internal culture where anyone can flag a feature as 'not lovable,' causing the team to drop sprints to fix the interaction immediately."
+    },
+    {
+      "name": "The Product-Led Marketing Loop",
+      "category": "growth-metrics",
+      "problemItSolves": "How to grow rapidly in a crowded market without massive ad spend or a large sales team.",
+      "summary": "A strategy that treats product usage costs (even high ones) as marketing expenses. By removing all friction to access, you empower users to become your primary distribution channel through social proof and internal advocacy.",
+      "principles": [
+        "Reclassify COGS as CAC: If giving away $10 of compute leads to a viral LinkedIn post, that is cheaper than LinkedIn Ads.",
+        "Sponsor user-led distribution: If a user wants to run a hackathon, give them unlimited free credits. Let them do the activation work for you.",
+        "Ship to create noise: High-velocity shipping (daily/weekly) replaces newsletters. The product updates themselves become the content for social engagement.",
+        "Founder-led storytelling: The CEO and employees must build in public to humanize the brand, making users root for the 'team' behind the software."
+      ],
+      "whenToUse": "For PLG companies where the product output is visually shareable (e.g., generated apps, videos, designs) and word-of-mouth is the primary driver.",
+      "commonMistakes": "Gating the AI/magic moment behind a paywall to protect margins, thereby killing the viral loop before it starts.",
+      "quote": "Why would we prevent a person who wants to do all of the marketing and activating for us from using us? We're like, take it, how much do you need?",
+      "realWorldExample": "Lovable sponsors hackathons by giving away unlimited credits to participants, treating the LLM costs as marketing spend to drive awareness and adoption."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "I feel like only 30 to 40% of what I've learned in the last 15 to 20 years of being in growth transfers here because we just need to invest in such bigger bets.",
+      "context": "Elena explaining why standard growth playbooks fail in the current AI boom."
+    },
+    {
+      "text": "To be ahead of them is not optimization of the problem, it's reinvention of the solution.",
+      "context": "On why they spend 95% of time innovating and only 5% optimizing."
+    },
+    {
+      "text": "The only way to create a word of mouth loop is just to blow their socks off.",
+      "context": "Discussing why 'satisfaction' isn't enough for organic growth."
+    },
+    {
+      "text": "Viability is left back in 2010s. Now it's minimal lovable product.",
+      "context": "On the shift from MVP to MLP."
+    }
+  ],
+  "filename": "Elena Verna 4.0"
+}

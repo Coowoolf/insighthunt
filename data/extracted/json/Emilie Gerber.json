@@ -1,0 +1,83 @@
+{
+  "guest": {
+    "name": "Emilie Gerber",
+    "title": "Founder & CEO",
+    "company": "Six Eastern",
+    "background": "A PR expert and founder of Six Eastern, an agency that has worked with over 100 tech companies including Ramp and Perplexity. Previously led communications at Uber and Box, specializing in turning product launches and corporate milestones into strategic media coverage."
+  },
+  "episodeSummary": "Emilie Gerber deconstructs the black box of public relations for startups, moving beyond theory to strictly tactical advice. She outlines how to craft pitches that actually get opened, why \"category creation\" is a failing narrative strategy for press, and how to differentiate media targets based on business goals (funding vs. product growth). The conversation provides a blueprint for founders and product leaders to generate coverage without needing expensive agencies or warm introductions.",
+  "keyTakeaways": [
+    "For B2B products, the value of PR is second-order validation (hiring, investor confidence, sales enablement) rather than direct user acquisition.",
+    "Stop pitching 'Category Creation'; reporters ignore it. Instead, pitch an 'Incumbent Takedown' story where you anchor against a known giant (e.g., 'We are doing what Salesforce does, but X way better').",
+    "Warm introductions to reporters are overrated; a concise, targeted cold pitch (3 sentences) is often more effective because it respects the reporter's time.",
+    "Target publications based on specific goals: TechCrunch for funding, Axios for deals/M&A, Business Insider for pitch decks/founder journeys, and VentureBeat for AI/Technical news.",
+    "Avoid 'marketing speak' in launch materials. If you can't read your press release out loud to a friend without sounding like a corporate bot, rewrite it.",
+    "Leverage podcasts and newsletters as core media channels, often yielding higher engagement than traditional tier-1 publications.",
+    "When pitching funding, keep it clinically simple: Amount raised, lead investors, and one sentence on why it matters. Do not bury the lead with a long vision statement."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Incumbent Anchor' Narrative",
+      "category": "product-strategy",
+      "problemItSolves": "Startups often fail to get press because they pitch complex 'category creation' stories that reporters find confusing or unverifiable.",
+      "summary": "A positioning framework that anchors a new product against a well-known industry giant. By defining the product in relation to an incumbent, you give the reporter immediate context and inherent conflict, which drives story interest.",
+      "principles": [
+        "Identify the 'Household Name': Find the massive incumbent your product competes with or improves upon (e.g., Salesforce, Bill.com).",
+        "Define the Specific Wedge: Articulate exactly one way you are better or different, rather than listing every feature.",
+        "Put the Conflict in the Subject Line: Use the formula 'Company X taking on [Incumbent] with [Specific Approach]'.",
+        "Avoid Category Creation Jargon: Do not claim to be the 'first' to do something obscure; claim to be the 'best' at fixing a known problem created by the incumbent."
+      ],
+      "whenToUse": "When launching a product in a crowded market or when the product is complex and difficult to explain from scratch.",
+      "commonMistakes": "Claiming to be a 'Category Creator' which signals marketing fluff to reporters, or choosing an incumbent that isn't actually well-known enough to serve as an anchor.",
+      "quote": "A lot of companies want to position themselves as category creators, and I actually hate that. It doesn't work... It doesn't land with press... Instead, it's actually really great when you can talk about how you are doing what X household name does, but better.",
+      "realWorldExample": "Ramp's launch of their bill pay offering. Instead of pitching 'streamlined vendor payments,' Six Eastern pitched it as 'Ramp taking on Bill.com' (a public company). This angle secured a CNBC feature for a product update that typically wouldn't get covered."
+    },
+    {
+      "name": "The '3-Sentence' Cold Pitch",
+      "category": "execution",
+      "problemItSolves": "Founders and PMs waste time trying to network for intros or writing long essays that reporters delete immediately.",
+      "summary": "A high-velocity, high-respect outreach method that prioritizes brevity and relevance over relationships. It assumes the recipient is busy and makes the 'ask' impossible to misunderstand.",
+      "principles": [
+        "Sentence 1: The Hook. State exactly why you are emailing (e.g., 'Reaching out with a Series A funding exclusive for [Company Name]').",
+        "Sentence 2: The Value Prop/Data. Provide the hard news or the contrarian insight (e.g., 'Raised $8M from [Investor] to solve [Problem]').",
+        "Sentence 3: The Call to Action. Ask a simple, binary question (e.g., 'Do you want the exclusive?').",
+        "Include Context Links: Link to a past relevant article they wrote or a succinct backgrounder, but do not paste the whole story in the body."
+      ],
+      "whenToUse": "When reaching out to reporters or podcast hosts without a prior relationship.",
+      "commonMistakes": "Writing a wall of text, trying to be too friendly/building false rapport before getting to the point, or burying the news at the bottom of the email.",
+      "quote": "I'm of the belief that [relationships] do not matter as much as many people think it does... I think cold outreach done well is just as effective.",
+      "realWorldExample": "Emilie's pitch to Lenny for a podcast guest used just two bullet points: 1. NuBank's growth is 80-90% organic. 2. They are bigger than Coinbase, Robinhood, and SoFi combined. This immediate, data-backed hook worked instantly."
+    },
+    {
+      "name": "The 'Mom Test' Launch Asset",
+      "category": "execution",
+      "problemItSolves": "Press releases are often filled with jargon ('robust multiplayer experience', 'human-in-the-loop') that alienates readers and reporters.",
+      "summary": "A content creation framework for launch materials that strips away corporate speak in favor of human language and visual storytelling. It prioritizes clarity and shareability over formality.",
+      "principles": [
+        "The Read-Aloud Audit: Read the launch text out loud. If it sounds like a robot or a marketer, rewrite it.",
+        "Visual-First Format: Instead of a text-heavy press release, create a slide deck, a visual memo, or an interactive blog post.",
+        "Answer Three Questions Simply: What does it do? Who is it for? Why is it different? (Answer each in one sentence).",
+        "Humanize the Validation: Use video testimonials from investors or customers instead of canned written quotes."
+      ],
+      "whenToUse": "Creating the primary asset for a product launch or funding announcement.",
+      "commonMistakes": "Using vague multipliers like '700% growth' (when going from 1 to 7 users) or using buzzwords like 'AI-powered workflow automation' without explaining the actual utility.",
+      "quote": "Since exiting stealth in May, we've witnessed a 700% increase in organizations using our product... You could have had one customer, now you have seven. I've never seen reporters include that in their stories.",
+      "realWorldExample": "Gamma's Series A announcement. Instead of a blog post, they built a Gamma presentation that was visual, interactive, included a video from the lead investor, and used plain English to explain they were fixing PowerPoint."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you want those [NYT/WSJ features], just have a crisis and they'll write about it. Fire your CEO or do really intense layoffs... otherwise, you are going to be one or two sentences in a larger story.",
+      "context": "Explaining why early-stage startups shouldn't obsess over top-tier mainstream publications like The New York Times."
+    },
+    {
+      "text": "Reporters are not our employees. We're not paying them to write these pieces... We cannot change anything the story says.",
+      "context": "Discussing the lack of control companies have over the final editorial output and why media training is crucial."
+    },
+    {
+      "text": "You can get so in the weeds with your own messaging that you want to set up this massive problem statement... but if you're very straightforward and you're pattern matching, it's generally actually going to work.",
+      "context": "Advising on how to pitch funding rounds effectively by keeping it simple rather than visionary."
+    }
+  ],
+  "filename": "Emilie Gerber"
+}

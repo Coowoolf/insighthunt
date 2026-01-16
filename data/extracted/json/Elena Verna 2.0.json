@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Elena Verna",
+    "title": "Growth Advisor & Former Interim Head of Growth at Amplitude",
+    "company": "Reforge / Amplitude / Miro / MongoDB",
+    "background": "Elena is widely considered one of the world's leading experts in B2B growth and Product-Led Growth (PLG). She has held executive leadership roles at SurveyMonkey, Miro, Netlify, and Amplitude, specializing in bridging the gap between product self-service and enterprise sales motions."
+  },
+  "episodeSummary": "Elena Verna dissects the emerging discipline of Product-Led Sales (PLS), explaining how it acts as a critical bridge between Product-Led Growth (PLG) and Sales-Led Growth (SLG). She details the specific infrastructure, data signals, and organizational accountability required to transform individual user habits into enterprise-level contracts. The conversation moves beyond high-level theory into tactical execution, covering how to define Product Qualified Accounts (PQAs), why Product needs to own pipeline targets, and how to avoid the common trap of spamming users with irrelevant sales outreach.",
+  "keyTakeaways": [
+    "Product-Led Sales (PLS) is the bridge that converts individual user value (<$10k cap) into enterprise organizational value (>$15k contracts).",
+    "Do not confuse a user with a buyer; in PLS, the user usually lacks the permission or budget to buy enterprise plans, so Sales must find the separate economic buyer.",
+    "Implement the 'Magic Number 7': A strong PQA signal is often when 7+ users within a single company domain join the platform, indicating network effects.",
+    "Product teams must take accountability for pipeline generation (PQA targets), not just feature delivery or engagement metrics.",
+    "Avoid 'The Shining' Ax Murderer approach: Do not treat a new sign-up as a sales lead immediately; they are in the 'individual job-to-be-done' phase, not the 'enterprise buying' phase.",
+    "Use 'Data-Sales Fit' before automation: Manually verify your PQA logic with a pilot sales rep using spreadsheets before buying expensive PLS software.",
+    "Monetization awareness is the lowest hanging fruit; 75% of freemium users are unaware of paid features because designs are rarely reviewed from the 'free user' perspective."
+  ],
+  "methodologies": [
+    {
+      "name": "The Individual-to-Enterprise Value Escalator",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the disconnect where product features solve individual problems, but sales teams struggle to articulate why an entire organization should pay for an enterprise contract.",
+      "summary": "A framework for mapping the narrative journey from a single user's utility to an executive's ROI. It clarifies that Sales' role in PLS is not to explain features, but to translate aggregate individual usage into an organizational capability (e.g., 'better design' becomes 'faster time-to-market').",
+      "principles": [
+        "Identify the Individual Job-to-be-Done: What specific task does a single user solve? (e.g., Miro: Facilitate a workshop).",
+        "Identify the Team Network Effect: How does value increase when a team joins? (e.g., Miro: Asynchronous collaboration).",
+        "Define the Enterprise Value Prop: What is the C-level outcome? (e.g., Miro: Increased organizational innovation and productivity).",
+        "The Sales Bridge: Equip sales to use usage data to prove the first two steps exist, utilizing that proof to sell the third step (Enterprise Value) to a budget holder."
+      ],
+      "whenToUse": "When transitioning from pure self-serve PLG to adding a sales motion, or when valid leads are churning because they don't see the value of a 'Corporate' plan.",
+      "commonMistakes": "Relying on the product to sell the Enterprise value proposition; products are usually bad at this. Sales must narrate the enterprise value.",
+      "quote": "Product acquires and activates a customer and product creates pipeline for sales... Sales can tell that story. Sales can bridge that gap.",
+      "realWorldExample": "Amplitude: Individual wants data for their feature. Company wants a data-driven culture. Sales bridges this gap by showing how individual usage aggregates into organizational insight."
+    },
+    {
+      "name": "The PQA Signal Matrix",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents the sales team from ignoring product leads by ensuring they only receive high-probability accounts rather than every new sign-up.",
+      "summary": "A data-driven method for defining a Product Qualified Account (PQA). Unlike a PQL (which focuses on a person), a PQA focuses on an organization exhibiting specific behaviors that correlate with readiness for an enterprise conversation.",
+      "principles": [
+        "Volume Thresholds: Establish a baseline of usage volume (e.g., Amplitude: number of events; Miro: number of boards).",
+        "Velocity Spikes: Look for sudden changes in rate (e.g., adding 15 users in one day vs. 1 user a day). Velocity is often the best trigger for timing.",
+        "Feature Breadth/Network Effects: The presence of 7+ users (or similar 'herd' metric) indicates internal viral spread and stickiness.",
+        "Behavioral Tells: Track 'Admin' signals, such as an admin transfer, visiting the Terms of Service page, or hitting SSO walls."
+      ],
+      "whenToUse": "When setting up your first PLS motion or when your sales team is complaining that 'product leads are garbage.'",
+      "commonMistakes": "Confusing PQA (the account is ready) with PQL (the specific user is the buyer). Often the PQA exists, but you need Marketing to find the Buyer (MQL) to attach to that usage.",
+      "quote": "If you just stick your sales against that account, you're going to have a very terrible situation... 'Why is sales talking to me? I have no decision-making power.'",
+      "realWorldExample": "At Miro, a key behavioral signal was an 'Admin Switch' in the account. This indicated an evaluation or consolidation process was happening, signaling the perfect time for Sales to reach out."
+    },
+    {
+      "name": "The Monetization Awareness Audit",
+      "category": "user-research",
+      "problemItSolves": "Fixes low free-to-paid conversion rates caused by users simply not knowing what premium features exist.",
+      "summary": "A tactical audit process to ensure that premium value is visible to free users. It shifts the focus from 'building paid features' to 'merchandising paid features' inside the product experience.",
+      "principles": [
+        "Design for the Locked State: Don't just design the feature for the paid user; design the 'access denied' or 'upgrade' experience for the free user.",
+        "The Rule of Three: Ensure a user encounters a premium trigger or upsell point at least three times to build memory/awareness.",
+        "Visual Consistency: Use a distinct visual language for paid features (e.g., the SurveyMonkey 'Gold' color) so users intuitively recognize premium value.",
+        "Profile the User: Ask 3-4 onboarding questions (Role, Company Size, Use Case) to ensure you are showing the right upsells to the right personas."
+      ],
+      "whenToUse": "When your product team is tasked with a self-serve revenue target or improving free-to-paid conversion.",
+      "commonMistakes": "Skipping onboarding profiling questions because of fear of drop-off. Elena argues drop-off here is fine as those users were low-intent anyway.",
+      "quote": "If you have a freemium product, I guarantee you 75% of your customers in freemium product are not aware of what you're selling.",
+      "realWorldExample": "SurveyMonkey implemented a consistent 'Gold' color UI for all paid triggers. This visual consistency significantly improved users' understanding of what was behind the paywall."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The worst thing that you can do is to say, 'I'm going to do product-led sales and I'm going to do it in marketing.' Recipe for disaster.",
+      "context": "Discussing where the accountability for PLS must sit within an organization."
+    },
+    {
+      "text": "Fool me once, shame on you... Fool me twice, shame on me and I'll be a lot more frugal of which emails I open.",
+      "context": "Warning against spamming users with sales emails at the wrong time (e.g., 10 minutes after signup), which leads to channel blindness."
+    },
+    {
+      "text": "Every sales-led company should be putting pressure on product to assist with the sales process.",
+      "context": "On the inevitability of SLG companies needing to adopt PLG mechanics to survive."
+    },
+    {
+      "text": "It usually starts by an organic demand from a user base... You should never hire any salespeople until you feel that pull.",
+      "context": "Elena explaining the exact moment a PLG company should start building a sales team."
+    }
+  ],
+  "filename": "Elena Verna 2.0"
+}

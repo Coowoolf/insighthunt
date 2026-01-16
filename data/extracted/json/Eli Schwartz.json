@@ -1,0 +1,86 @@
+{
+  "guest": {
+    "name": "Eli Schwartz",
+    "title": "Growth Advisor & Author",
+    "company": "Product-Led SEO",
+    "background": "Eli is a renowned growth advisor specializing in SEO, having guided strategies for major companies like SurveyMonkey, Tinder, WordPress, and Coinbase. He is the author of 'Product-Led SEO' and is known for challenging traditional keyword-centric approaches in favor of strategic, user-centric product development."
+  },
+  "episodeSummary": "In this deep dive into the changing landscape of search, Eli Schwartz argues that the rise of AI and LLMs is shifting SEO from a marketing tactic to a product discipline. He explains why traditional 'content mills' are dying, why most SaaS companies waste money on SEO, and how to treat search traffic as a user acquisition channel that requires product thinking rather than just keyword stuffing.",
+  "keyTakeaways": [
+    "Treat SEO as a product, not a marketing tactic: Requires PMs, engineers, and designers, not just content writers.",
+    "Most B2B SaaS companies should not do SEO: If your product requires a sales demo or committee decision, top-of-funnel search traffic rarely converts to revenue.",
+    "Stop tracking traffic as a KPI: Traffic is often a vanity metric; focus exclusively on conversions (MQLs, signups, revenue).",
+    "AI Overviews eat the top of the funnel: Users now get answers to 'discovery' questions directly in search results; the opportunity now lies in mid-funnel 'solution' searches.",
+    "Link building is actually brand building: Buying links is dead; you must create a product or brand story so compelling that reputable sites mention you organically.",
+    "Programmatic SEO requires unique user intent: Do not auto-generate thousands of pages (e.g., by zip code) unless a user actually has a specific need for that slice of data."
+  ],
+  "methodologies": [
+    {
+      "name": "The Product-Led SEO Framework",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from wasting resources on creating content that ranks but doesn't convert or serve a user need.",
+      "summary": "A strategic approach that treats SEO pages as product features rather than marketing blog posts. It aligns the creation of search assets directly with user pain points and the product's value proposition.",
+      "principles": [
+        "Step 1: Be the User: Ignore keyword tools initially. Hypothesize what specific problem a user has that they would type into a search bar.",
+        "Step 2: Define the Asset: Determine if the solution requires a tool, a template, a programmatic page, or editorial content.",
+        "Step 3: Build for the Mid-Funnel: Create assets that bridge the gap between 'I have a problem' (which AI answers) and 'I need this specific solution' (your product).",
+        "Step 4: Treat as Product: Assign engineering, design, and PM resources to build a high-quality user experience, not just text on a page."
+      ],
+      "whenToUse": "When launching a new product line or diagnosing why an existing high-traffic blog is generating zero revenue.",
+      "commonMistakes": "Letting the marketing team churn out blog posts without product team involvement or understanding the actual user journey.",
+      "quote": "Think of SEO as a product. The product managers are the people that should be thinking about this SEO question because it's a product question.",
+      "realWorldExample": "Tinder realized users weren't searching for 'dating app' content, but for solutions to loneliness in specific cities. They built programmatic pages for 'Dating in [City]' that solved the loneliness problem by offering the app as the solution."
+    },
+    {
+      "name": "The SEO Viability Audit",
+      "category": "growth-metrics",
+      "problemItSolves": "Helps startups and B2B companies decide whether to invest in SEO or cut their losses on an unprofitable channel.",
+      "summary": "A decision-making framework to determine if SEO is a viable growth channel based on user behavior and business model, rather than assuming 'everyone needs SEO'.",
+      "principles": [
+        "Step 1: Analyze the User Journey: Does the user buy/convert online immediately after searching? If it requires a sales call, SEO is likely low ROI.",
+        "Step 2: Check for Problem Awareness: Are users actually searching for the problem you solve? You cannot SEO for a problem users don't know they have.",
+        "Step 3: Calculate True Cost: Sum the cost of agencies, internal PM time, engineering support, and CMS maintenance.",
+        "Step 4: Compare Opportunity Cost: Would the same budget yield higher ROI in paid ads, trade shows, or influencer marketing?"
+      ],
+      "whenToUse": "During annual planning or immediately after raising a Series A/B to determine resource allocation.",
+      "commonMistakes": "Assuming SEO is 'free' traffic and failing to account for the significant time and engineering cost required to do it right.",
+      "quote": "If you can't answer the question about what is it that someone's going to do a search on, then don't do SEO.",
+      "realWorldExample": "A gardening SaaS company was advised to spend $15k/month on content SEO. Eli analyzed their journey and realized their customers came from trade shows. They shifted the budget to booths ($10k each) which yielded immediate, high-intent leads."
+    },
+    {
+      "name": "The Programmatic Value Engine",
+      "category": "execution",
+      "problemItSolves": "Addresses the failure of 'thin content' programmatic SEO where companies generate thousands of useless pages that get penalized by Google.",
+      "summary": "A method for executing programmatic SEO that prioritizes user utility over sheer volume. It involves aggregating unique data points into a single view that saves the user research time.",
+      "principles": [
+        "Step 1: Identify Aggregatable Data: Find structured data (proprietary or public) that is valuable when combined (e.g., home values + school districts).",
+        "Step 2: Validate User Use Case: Verify that a human actually wants to see this specific slice of data (e.g., 'Hotels in Miami' vs 'Plumbers in Zip Code 90210').",
+        "Step 3: Design the 'View': Create a template that acts as a dashboard or tool for that specific query, not just a wall of text.",
+        "Step 4: Scale with Constraints: Generate pages only where data density is high enough to be useful; avoid generating empty or 'thin' pages."
+      ],
+      "whenToUse": "When you have a large database of structured information (real estate, travel, integrations, software reviews) that can be surfaced publicly.",
+      "commonMistakes": "Creating pages for every permutation (e.g., every zip code) when no user actually searches for that specific combination.",
+      "quote": "Programmatic is the right solution when there's scale and when there's a user use case. If there is not, you create scale for nothing.",
+      "realWorldExample": "TripAdvisor didn't write articles for every hotel. They aggregated location, amenities, and user reviews into a single programmatic page for every hotel, creating value that no single editorial piece could match."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Transparently, I thought this was going to be an apocalypse. Up until AI Overviews, whoever won on that long form piece of content would get that first click. But now that doesn't exist anymore.",
+      "context": "Discussing the shift in SEO strategy due to AI answering top-of-funnel questions directly on the results page."
+    },
+    {
+      "text": "It is not a dark art. It is simple. I think step one is the step that almost everyone misses on SEO, which is be the user.",
+      "context": "Demystifying SEO and moving away from technical hacks toward user empathy."
+    },
+    {
+      "text": "There was once a company I met... they made a SaaS for gardeners... Instead of spending $15,000 on SEO, you can go to all these [trade] shows for the exact same budget, and you get users who are interested, they're in market... and they're leads.",
+      "context": "Illustrating why SEO is not the right channel for every business, particularly when the sales motion is offline or relationship-based."
+    },
+    {
+      "text": "The most important thing to underscore is that all of this means that search changes, a lot of top-of-funnel search goes away, but in general, there's always going to be a world where people are doing the searches.",
+      "context": "Reassuring PMs that despite AI advancements, the fundamental behavior of users seeking information remains intact."
+    }
+  ],
+  "filename": "Eli Schwartz"
+}
