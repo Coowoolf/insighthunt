@@ -2,52 +2,84 @@
   "guest": {
     "name": "Alisa Cohn",
     "title": "Executive Coach & Author",
-    "company": "Alisa Cohn Coaching"
+    "company": "Alisa Cohn Coaching",
+    "background": "Named the #1 Startup Coach by Global Gurus and a top 50 coach by Thinkers50. She has coached C-suite executives at Etsy, Venmo, DraftKings, and Google, and is the author of 'From Start-Up to Grown-Up'."
   },
+  "episodeSummary": "Alisa Cohn deconstructs the 'soft skills' that act as the hardest blockers for scaling companies: difficult conversations, meeting hygiene, and co-founder alignment. She provides precise scripts for delivering feedback without inducing panic, frameworks for preventing 'meeting amnesia,' and strategies for navigating the transition from a founder-led startup to a structured organization. The central thesis challenges the notion that leaders must make employees happy, arguing instead that clarity and results create the strongest cultures.",
   "keyTakeaways": [
-    "A leader's primary job is not to make employees happy, but to drive results and facilitate success; happiness is often a byproduct of a winning culture.",
-    "Difficult conversations should rely on 'observable facts' rather than judgments to reduce defensiveness.",
-    "When delivering bad news (like denying a promotion), be direct immediately, explain the reasoning, and provide 'hope for the future' regarding their career path.",
-    "Before firing someone, have a 'deal breaker' conversation that sets a clear timeline (e.g., 30 days) for specific changes, ensuring the termination is never a surprise.",
-    "Co-founders should establish a 'Founder Prenup' to align on values, conflict resolution styles, and the company vision before starting.",
-    "Positive feedback requires the same level of specificity and preparation as negative feedback to be effective and build trust.",
-    "Meetings should always end with three specific questions to prevent circular discussions and ensure accountability."
+    "**The 'Hope for the Future' Bridge:** When denying a promotion, immediately pivot to a specific development plan. Bad news without a path forward destroys resilience; bad news with a plan builds trust.",
+    "**The Defensiveness Pause:** If a direct report becomes defensive or emotional during feedback, stop the content delivery. Switch to meta-commentary: 'Let's pause. I see the energy has changed. I want you to know I'm telling you this to help your career.'",
+    "**Observable Facts vs. Judgments:** Never start feedback with 'You are X.' Start with 'I have observed X behavior' or 'I am hearing Y from your peers.' This reduces the argument surface area.",
+    "**The 65% Failure Stat:** 65% of startups fail due to co-founder conflict. Use a 'Prenup' discussion to align on values, conflict styles, and exit visions before issues arise.",
+    "**Positive Feedback Precision:** Stop saying 'Good job.' Be as rigorous with praise as with criticism. 'The way you ran that launch specifically impacted X metric' reinforces the exact behavior you want repeated.",
+    "**The 3-Question Meeting Close:** Never end a meeting without asking: 1) What did we decide? 2) Who does what by when? 3) Who else needs to know?",
+    "**Culture vs. Perks:** 'Culture is not avocado toast.' Culture is codifying how work gets done (e.g., 'We measure twice and cut once'). Confusing the two leads to entitlement without results."
   ],
   "methodologies": [
     {
       "name": "The Founder Prenup",
       "category": "team-culture",
-      "summary": "A structured set of conversations and questions for potential co-founders to address before starting a company to prevent future conflict and failure.",
+      "problemItSolves": "Prevents the 65% of startup failures caused by co-founder conflict by addressing misalignment on core values, vision, and conflict resolution before they become toxic.",
+      "summary": "A structured questionnaire and conversation series for co-founders (or leadership teams) to uncover deep-seated assumptions about how the company should run and how the relationship will function under stress.",
       "principles": [
-        "Clarify and compare core values (e.g., excellence vs. work-life balance).",
-        "Define what success and the long-term vision look like for each founder.",
-        "Discuss personal conflict resolution styles (e.g., immediate discussion vs. processing time).",
-        "Establish a decision-making protocol for when disagreements occur."
+        "**Values Stress Test:** Don't just list values; compare them. If Founder A values 'Excellence' (long hours) and Founder B values 'Balance,' you have a latent conflict that must be negotiated now.",
+        "**Conflict Style Audit:** Ask 'How do you handle conflict?' and verify the answer with a spouse. One founder may want to vent immediately, while the other needs 24 hours to process. Knowing this prevents 'conflict about conflict.'",
+        "**Vision Alignment:** Define 'Winning' concretely. Does success mean a $1B IPO or a $50M acquisition? If these differ, the company strategy will fracture."
       ],
-      "quote": "65% of startups fail because of conflict with founders or the founding team. So it's really essential to get this right."
+      "whenToUse": "Ideally before incorporating or signing co-founder agreements, but equally effective as a reset mechanism for leadership teams experiencing friction.",
+      "commonMistakes": "Assuming you know your co-founder's values because you were friends in high school, or assuming 'we both want to be successful' means you have the same definition of success.",
+      "quote": "If you act in a certain way and I don't know you that well... I think you're acting strangely. But actually, you're acting in accordance with your values.",
+      "realWorldExample": "A founding team where one partner secretly wanted a 'lifestyle' business where they knew every employee's name, while the other was pushing for venture-scale hypergrowth. They didn't discuss this until year 6, leading to a painful split."
     },
     {
       "name": "Delicate Conversation Scripts",
       "category": "career-leadership",
-      "summary": "A framework for conducting difficult conversations (feedback, firing, non-promotions) that minimizes emotion and maximizes clarity.",
+      "problemItSolves": "Overcomes the manager's fear of 'making people sad,' which leads to avoiding necessary feedback, underperformance, and eventual surprise firings.",
+      "summary": "A set of pre-designed verbal templates that strip away emotion and judgment, focusing entirely on observable data, impact, and future expectations to make difficult conversations productive rather than combative.",
       "principles": [
-        "State the purpose clearly and upfront (e.g., 'I have some disappointing news').",
-        "Focus on 'observable facts' and what is being 'heard' rather than personal attacks.",
-        "Pause the conversation if the recipient becomes overly defensive or emotional.",
-        "End with clear next steps or a 'hope for the future' to maintain the relationship."
+        "**The 'Hearing' Opener:** 'I want to chat with you about [Topic]. What I'm hearing from your peers is [Specific Observation].'",
+        "**The Shared Reality:** 'We both know that to be successful here, [Standard] is required.' This anchors the feedback in objective job requirements, not personal preference.",
+        "**The 'Pre-Firing' Clarity:** 'We have discussed this multiple times. I need you to know this is a deal-breaker. If you don't fix X within 30 days, we won't have a future together.'",
+        "**The 'No Promotion' Pivot:** 'I know this is challenging to hear... I want you to know it is important to me that you succeed here. Let's find opportunities to build your skills.'"
       ],
-      "quote": "My three questions to end the meeting are: What did we decide here? Who needs to do what by when? And who else needs to know?"
+      "whenToUse": "Performance reviews, denying promotions, addressing behavioral issues, or delivering a final warning before termination.",
+      "commonMistakes": "Burying the lede to be 'nice,' or waiting until the termination meeting to give the harsh feedback (the employee should never be surprised they are being fired).",
+      "quote": "The reason [conversations] are difficult is... we're putting meaning on things all the time. 'I don't want to make them upset.' ... But honestly, the only way you're going to be able to help someone grow... is by leaning into these tough conversations.",
+      "realWorldExample": "A manager avoided giving feedback to a failing employee because 'she would cry.' When he finally used the script, she did cry, but returned the next day thanking him, saying, 'I wish someone had told me that 15 years ago; I could have had a different career.'"
     },
     {
       "name": "The Meeting Closing Ritual",
       "category": "execution",
-      "summary": "A specific protocol used at the end of every meeting to ensure alignment, accountability, and communication flow.",
+      "problemItSolves": "Eliminates 'Meeting Amnesia'—the phenomenon where a team leaves a room believing they agreed, but actually hold 6 different interpretations of the next steps.",
+      "summary": "A strict protocol applied to the last 5 minutes of every meeting to force alignment, assign accountability, and ensure information cascades to the rest of the organization.",
       "principles": [
-        "Ask: 'What did we decide here?' to force alignment on the outcome.",
-        "Ask: 'Who needs to do what by when?' to assign clear deliverables.",
-        "Ask: 'Who else needs to know?' to ensure information cascades correctly to the rest of the organization."
+        "**Question 1: What did we decide here?** Don't assume. Go around the room or ask a specific person to articulate the decision. You will often find discrepancies that need immediate resolution.",
+        "**Question 2: Who needs to do what by when?** Assign a Direct Responsible Individual (DRI) and a specific date. Vague 'we should look into this' items die here.",
+        "**Question 3: Who else needs to know?** Identify the communication cascade. Decisions made in a vacuum often fail because stakeholders weren't informed.",
+        "**Visual Confirmation:** Ideally, type these answers on a screen or shared doc live during the meeting so there is zero ambiguity."
       ],
-      "quote": "If you can capture those, articulate those as deliverables, I promise you, you're going to have better meetings."
+      "whenToUse": "The final 5-10 minutes of every executive meeting, product strategy session, or decision-making forum.",
+      "commonMistakes": "Running the agenda until the very last second and skipping the close, or assuming that nodding heads equals understanding.",
+      "quote": "If you really go around the room at the end of a meeting... and ask 'What did we decide here?' and they all write it down, you will get six different answers.",
+      "realWorldExample": "An executive team that frequently met, made decisions, left the room, and forgot to tell the broader company, leading to confusion and lack of execution until they implemented 'Who else needs to know?'"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Your job simply as a leader isn't to make people happy... successful founders come to terms with, 'Here's what I thought leadership was going to be... and here's what it really is.'",
+      "context": "On the misconception that 'good culture' means avocado toast and socials, rather than clarity and results."
+    },
+    {
+      "text": "What you resist, persists.",
+      "context": "Referencing Joe Hudson; explaining that if you resist structure or conflict, you will eventually be overwhelmed by chaos and toxic conflict."
+    },
+    {
+      "text": "Your path only becomes clear moment by moment as each foot hits the ground.",
+      "context": "A Joseph Campbell quote Alisa uses to combat the anxiety of not having a perfect long-term plan."
+    },
+    {
+      "text": "Sometimes you need to have patience and sometimes you need to look at the process. And I think you, as the leader, need to have the wisdom to know the difference.",
+      "context": "Discussing how to diagnose a stalled launch—is it just slow, or is the underlying system broken?"
     }
   ],
   "filename": "Alisa Cohn"

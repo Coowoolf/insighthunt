@@ -1,55 +1,79 @@
 {
   "guest": {
     "name": "Adam Fishman",
-    "title": "EIR at Reforge, Former CPO at Imperfect Foods & VP Product/Growth at Patreon",
-    "company": "Reforge"
+    "title": "EIR at Reforge & Product/Growth Advisor",
+    "company": "Reforge / FishmanAF",
+    "background": "Former CPO at Imperfect Foods and VP of Product/Growth at Patreon. He was the first growth hire at Lyft, giving him deep expertise in scaling marketplaces, building growth teams from scratch, and optimizing user activation."
   },
+  "episodeSummary": "Adam Fishman dissects the mechanics of hiring growth leaders, optimizing onboarding for retention rather than just conversion, and evaluating career moves. He introduces the Growth Competency Model to help founders identify the right talent mix and explains why onboarding is the highest-leverage growth activity, supported by case studies from Patreon and Lyft.",
   "keyTakeaways": [
-    "Onboarding is the only part of the product experience that 100% of users encounter, making it critical for delivering on the brand promise.",
-    "Effective onboarding drives retention more than just conversion; getting users to habit formation early shifts the entire retention curve.",
-    "When hiring for growth, look for 'smart and driven' generalists (execution + customer knowledge) for early roles, and specialists (SEO/Paid) only when scaling specific channels.",
-    "Use 'Opinionated Defaults' in product design to guide users toward behaviors that data shows lead to success, rather than offering neutral choices.",
-    "Don't redesign onboarding just for the sake of it; only iterate when you have net new insights about customers or the growth model.",
-    "Productizing learnings involves taking successful human interventions (like concierge onboarding) and building them into scalable software features.",
-    "Candidates should evaluate companies like investors using the 'PMF' framework: People, Mission, and Financials.",
-    "Back-channel referencing is as important for candidates interviewing at companies as it is for companies hiring candidates."
+    "Treat onboarding as a retention lever, not a conversion lever; optimizing it can shift cohort retention curves by 10-20%.",
+    "Use 'proxy metrics' (e.g., time to first $100 earned) to measure onboarding success immediately rather than waiting for 90-day retention data.",
+    "Do not hire a 'Head of Growth' looking for a silver bullet; evaluate candidates based on specific competency gaps in your current team.",
+    "Internal transfers often outperform external hires for early growth roles because they already possess deep Customer Knowledge.",
+    "Apply 'Opinionated Defaults' in onboarding to make it difficult for users to make choices that data shows lead to failure.",
+    "Evaluate potential employers like an investor using the PMF framework (People, Mission, Financials) because time is a scarcer resource than capital.",
+    "Conduct backchannel reference checks on your potential manager and the company culture before accepting an offer."
   ],
   "methodologies": [
     {
       "name": "The Growth Competency Model",
-      "category": "career-leadership",
-      "summary": "A comprehensive framework for hiring and evaluating growth talent, breaking down the role into four distinct quadrants to ensure a balanced team rather than hunting for non-existent 'unicorns'.",
+      "category": "team-culture",
+      "problemItSolves": "Founders often hire the wrong growth profile (e.g., a strategist when they need an executor) or look for non-existent 'unicorn' hires.",
+      "summary": "A hiring and evaluation framework that breaks down growth expertise into four quadrants: Growth Execution, Customer Knowledge, Growth Strategy, and Communication/Influence. The goal is to build a team that covers all bases, rather than finding one person who is a 10/10 in everything.",
       "principles": [
-        "Growth Execution: Channel fluency, experimentation, and productizing learnings.",
-        "Customer Knowledge: Data fluency, user psychology, and qualitative research.",
-        "Growth Strategy: Loop modeling, capital allocation, and prioritization.",
-        "Communication and Influence: Strategic communication, team leadership, and stakeholder management."
+        "Assess for Execution (Channel fluency, experimentation) and Customer Knowledge (Data fluency, psychology) for junior/first hires.",
+        "Assess for Strategy (Loop modeling, capital allocation) and Influence (Stakeholder management) for senior leadership roles.",
+        "Use the model to balance the team; if you have a strong strategist, hire an executor next."
       ],
-      "quote": "The goal of the competency model is not to find a unicorn human being that is an 11 out of 10 on every one of these things, because frankly, that person doesn't exist."
+      "whenToUse": "When writing a job description for a growth role, evaluating candidates during interviews, or conducting performance reviews.",
+      "commonMistakes": "Hiring a 'silver bullet' strategist for an early-stage company that actually needs a 'brick-layer' to execute experiments.",
+      "quote": "If you don't know what you're doing... that very driven, hungry and enthusiastic person is going to run through a lot of brick walls, which is great, except they're going to miss the fact that the door was standing right next to the wall.",
+      "realWorldExample": "At Lyft, Adam hired Ben Lauzier (a marketer) because he had high 'Growth Execution' and 'Customer Knowledge' scores, even though he wasn't a senior strategist yet."
     },
     {
       "name": "Opinionated Defaults",
-      "category": "product-strategy",
-      "summary": "A design strategy used during onboarding where the product sets default choices (like pricing tiers or settings) based on what data suggests yields the highest success rate for the user.",
+      "category": "growth-metrics",
+      "problemItSolves": "New users often make suboptimal choices during setup due to decision fatigue or lack of context, leading to poor retention and low LTV.",
+      "summary": "Designing the onboarding flow to preset the most successful configurations for the user. It allows choice but adds friction to options that data suggests result in failure.",
       "principles": [
-        "Identify behaviors of your most successful users.",
-        "Set defaults that mirror those successful behaviors to guide new users.",
-        "Make it difficult (add friction) to choose the 'wrong' or less optimal path.",
-        "Allow choice, but strongly bias the UX toward the path of highest value."
+        "Analyze high-LTV users to identify their setup patterns (e.g., specific pricing tiers or settings).",
+        "Set these patterns as the default state in the onboarding flow.",
+        "Add friction (extra clicks or warnings) if a user tries to select a configuration correlated with high churn."
       ],
-      "quote": "Opinionated defaults, which is basically making it hard to do the wrong thing... and easy to do the right thing but not eliminating choice."
+      "whenToUse": "During the 'Activation' phase of the user journey, specifically when users are configuring their account or profile.",
+      "commonMistakes": "Removing choice entirely (forcing the user) versus guiding them with strong defaults.",
+      "quote": "Opinionated defaults is basically making it hard to do the wrong thing... and easy to do the right thing, but not eliminating choice.",
+      "realWorldExample": "At Patreon, data showed creators with 3 pricing tiers earned more. The onboarding flow defaulted to 3 tiers. This intervention (along with human matching) increased first-month revenue by 25%."
     },
     {
       "name": "PMF for Candidates",
       "category": "career-leadership",
-      "summary": "A decision-making framework for job seekers to rigorously evaluate potential employers, treating their time investment with the same due diligence as a financial investor.",
+      "problemItSolves": "Talented operators often join companies that are culturally toxic or financially unstable because they don't perform due diligence.",
+      "summary": "A decision-making framework for candidates to evaluate job offers based on three non-negotiable pillars: People, Mission, and Financials.",
       "principles": [
-        "People: Can you have productive disagreements with the team? Do you respect the leadership?",
-        "Mission: Does the company's success result in a net positive outcome for people beyond just financial gain?",
-        "Financials: Does the company practice fiscal discipline and have a realistic view of the future?",
-        "Conduct back-channel references on the company and leadership."
+        "People: Can you have productive disagreements with them? (Test this by asking about their last conflict).",
+        "Mission: Does the company actually improve lives or outcomes for its customers?",
+        "Financials: Does the company practice fiscal discipline? (Crucial in economic downturns)."
       ],
-      "quote": "You should have a set of criteria that you are unapologetically rigorous around and you should learn how to evaluate companies against that set of criteria."
+      "whenToUse": "Whenever you are considering a job offer or deciding between multiple offers.",
+      "commonMistakes": "Compromising on one pillar (e.g., great financials but toxic people) leads to burnout or short tenure.",
+      "quote": "You're investing an even more scarce resource [than money]. You're investing your time... You can always get more money... but time is fleeting.",
+      "realWorldExample": "Adam admits he failed to apply this at Wyzant (misaligned expectations on strategy) and Imperfect Foods (C-suite infighting), leading to difficult tenures."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Onboarding is the only part of your product experience that a hundred percent of people are ever going to touch. Good luck getting a hundred percent feature adoption of anything else.",
+      "context": "Explaining why onboarding deserves disproportionate resources compared to other feature development."
+    },
+    {
+      "text": "Your brand is the promise that you're making and your product experience is your delivery of that promise.",
+      "context": "Defining the relationship between marketing (brand) and product, and how onboarding bridges the gap."
+    },
+    {
+      "text": "What is not scalable when you're using people becomes very scalable if you can replicate components of that with technology.",
+      "context": "Discussing how Patreon manually matched creators to success managers, learned what worked, and then built those lessons into the software."
     }
   ],
   "filename": "Adam Fishman"

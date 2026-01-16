@@ -2,31 +2,50 @@
   "guest": {
     "name": "Andy Raskin",
     "title": "Strategic Narrative Consultant",
-    "company": "Andy Raskin"
+    "company": "Andy Raskin",
+    "background": "Former computer scientist and entrepreneur who pivoted to storytelling after discovering the structural parallels between successful VC pitches and screenwriting. He is now a sought-after consultant helping CEOs of high-growth companies like Gong, Zuora, and Salesforce align their teams around a singular, strategic narrative."
   },
+  "episodeSummary": "Andy Raskin challenges the traditional 'problem/solution' sales pitch, arguing it positions companies as 'arrogant doctors' and fails to capture executive attention. He details the Strategic Narrative Framework, a method that frames a product not as a fix for a pain point, but as the essential tool for surviving a massive, inevitable shift in the world. This episode provides a step-by-step guide to crafting this narrative to align sales, marketing, and product roadmaps.",
   "keyTakeaways": [
-    "Most companies pitch like an 'Arrogant Doctor' (problem/solution), which is less effective than framing a narrative around a shift in the world.",
-    "A strategic narrative is not just for marketing; it serves as a 'North Star' for product roadmaps, fundraising, and hiring.",
-    "The core of a great pitch is identifying the shift from an 'Old Game' to a 'New Game' (e.g., Salesforce shifting from Software to Cloud).",
-    "To create true urgency, you must name the stakes: show that the future is split between a negative outcome (losers) and a positive outcome (winners).",
-    "Focusing on 'Category Creation' can be limiting; instead, focus on defining a movement.",
-    "The narrative should turn the prospect into the hero of the story, rather than making the company the hero.",
-    "CEOs must own and drive the narrative to ensure it provides 'air cover' for sales, marketing, and product teams.",
-    "Effective narratives can be tested in sales calls by asking, 'Am I crazy, or are you seeing this shift?' to gauge resonance."
+    "**Stop pitching 'Problem -> Solution':** This is the 'Arrogant Doctor' approach. Instead, pitch 'Old Game -> New Game.' Start with a shift in the world that impacts the customer regardless of whether they buy your product.",
+    "**Name the Shift explicitly:** You must give a concise name to the old world and the new world (e.g., Salesforce: 'Software' vs. 'The Cloud'; Gong: 'Opinions' vs. 'Reality').",
+    "**Use Narrative as a Product Filter:** The strategic narrative isn't just for sales; it's a prioritization bar. If a feature request doesn't help the customer win the 'New Game' or overcome a narrative obstacle, don't build it.",
+    "**The 'Shitty First Draft' Rule:** When building a narrative, the second session is always the low point. A terrible draft is infinitely more valuable than a whiteboard of good ideas because it forces decisions.",
+    "**Slide Title Optimization:** Never use generic titles like 'The Team' or 'The Problem.' The slide title must be the full takeaway sentence (e.g., 'Our team consists of veterans from X industry') so the viewer does zero work.",
+    "**Create 'Life or Death' Stakes:** Luke Skywalker only joined Obi-Wan because the Empire killed his aunt and uncle. You must show that the status quo is no longer safe—there are winners playing the new game and losers dying in the old game.",
+    "**Don't obsess over Category Creation:** Focus on defining the 'Movement.' If the movement is strong enough, the category name will follow (or won't matter, like Gong's 'Revenue Intelligence')."
   ],
   "methodologies": [
     {
       "name": "The Strategic Narrative Framework",
       "category": "product-strategy",
-      "summary": "A 5-step framework designed to align teams and customers around a shared story. Instead of pitching a product's features or solving a specific problem, it frames the company's offering as the necessary tool to survive and win in a world that has fundamentally changed.",
+      "problemItSolves": "Fixes disjointed messaging where sales, marketing, and product are misaligned, and addresses the issue of prospects saying 'we have no budget' by elevating the conversation from tactical problems to strategic survival.",
+      "summary": "A five-step storytelling structure derived from screenwriting that frames a product as the vehicle to navigate a massive global shift. It moves the focus from the vendor's greatness to the customer's survival and success in a changing world.",
       "principles": [
-        "Name the undeniable shift in the world (Old Game vs. New Game).",
-        "Name the stakes (Winners vs. Losers) to demonstrate why the status quo is no longer safe.",
-        "Name the object of the new game (The 'Promised Land' or goal).",
-        "Identify the obstacles that make reaching the goal difficult.",
-        "Present the solution/product as the 'magic gifts' that help overcome the obstacles."
+        "**1. Name the Shift:** Identify the change in the world from an 'Old Game' to a 'New Game' (e.g., Zuora: Ownership -> Users/Subscriptions).",
+        "**2. Name the Stakes:** Demonstrate that there are clear winners and losers. Show that sticking to the status quo leads to a negative outcome, while the new game leads to massive success.",
+        "**3. Name the Object of the New Game:** Define the 'Promised Land' or the specific goal of the new game (e.g., 'Turn every customer into a subscriber').",
+        "**4. Identify the Obstacles:** Frame the customer's problems as 'monsters' preventing them from reaching the Promised Land. These obstacles justify the existence of your product.",
+        "**5. Present the Magic Gifts:** Introduce your product features/solution only at the end, positioning them as the specific weapons or tools required to defeat the obstacles defined in step 4."
       ],
-      "quote": "This structure really is about defining a movement, and that's very different from, 'Hey, I'm going to solve your problem.'"
+      "whenToUse": "Critical for B2B Enterprise companies, especially when scaling past founder-led sales (Series B+), launching a new product line, or pivoting the company direction.",
+      "commonMistakes": "Simply copying a successful deck's template without doing the deep work to define the shift; listing features before establishing the context of the 'New Game'; failing to make the stakes feel urgent or existential.",
+      "quote": "Every movie starts with some kind of shift in the world... I call this the shift from the old game to a new game. The archetypal example... is what Benioff did with Salesforce. 'Hey, software is over and there's this new world called the cloud... That's the new way to win.'",
+      "realWorldExample": "Zuora (a subscription billing platform) didn't pitch 'better billing.' They pitched 'The Subscription Economy.' They argued the world shifted from buying products (Old Game) to subscribing to services (New Game). They showed winners like Netflix and losers like Blockbuster (Stakes). The object was 'Turn customers into subscribers.' The obstacles were legacy ERPs. The magic gift was Zuora."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The way I learned how to pitch in business school... is what I call the arrogant doctor. So you have a problem, a pain, I have a solution, a treatment, and I'm going to tell you why it's better than all the other treatments.",
+      "context": "Raskin explaining why the standard 'Problem/Solution' pitch fails in modern enterprise sales."
+    },
+    {
+      "text": "Having a shit draft is a million times more valuable than having all these great ideas.",
+      "context": "On the importance of moving from brainstorming to a concrete (even if bad) narrative draft to iterate upon."
+    },
+    {
+      "text": "Make the title the takeaway of the slide so that the person looking at it has to do zero work.",
+      "context": "Raskin's number one tactical tip for improving presentation decks immediately."
     }
   ],
   "filename": "Andy Raskin_"
