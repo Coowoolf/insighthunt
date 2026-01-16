@@ -1,0 +1,130 @@
+{
+  "guest": {
+    "name": "Bill Carr",
+    "title": "Co-author of Working Backwards",
+    "company": "Working Backwards, LLC",
+    "background": "Former VP of Digital Media at Amazon; launched Amazon Music, Prime Video, and Amazon Studios; 15-year Amazon veteran."
+  },
+  "episodeSummary": "Bill Carr, co-author of 'Working Backwards', deconstructs the key management philosophies and processes that drove Amazon's scale from a bookstore to a global tech giant. The conversation covers the practical implementation of working backwards from the customer, structuring teams for autonomy through single-threaded leadership, focusing on controllable input metrics over financial outputs, and maintaining high talent standards via the Bar Raiser program.",
+  "methodologies": [
+    {
+      "name": "The PR/FAQ Product Validation",
+      "category": "Product Strategy",
+      "summary": "A product development process that starts with the customer by writing a Press Release and FAQ documents before any coding begins. This ensures the product solves a real customer problem and forces clarity of thought.",
+      "principles": [
+        "Work backwards from the customer, not forward from capabilities.",
+        "Write a future-dated Press Release to crystallize the value proposition.",
+        "Create an FAQ to address internal (feasibility) and external (customer) questions.",
+        "Iterate through a concentric circle of reviewers."
+      ],
+      "problemItSolves": "Prevents building products that work technically but solve no meaningful customer problem; avoids the 'solution in search of a problem' trap (e.g., Fire Phone).",
+      "whenToUse": "At the very beginning of the product development lifecycle, before allocating engineering resources.",
+      "commonMistakes": "Using hyperbole/marketing fluff instead of factual descriptions; writing it as a real external PR rather than an internal validation document; skipping the iterative review process.",
+      "quote": "We're going to start with what's best for the customer and then come backward from there.",
+      "realWorldExample": "AWS and Prime Video were both defined via PR/FAQs before they existed; The Fire Phone is cited as a failure where the process may have been overridden or the problem wasn't validated.",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Define Customer Problem",
+          "Draft Future Press Release (The Vision)",
+          "Draft Internal & External FAQs ( The Reality)",
+          "Concentric Circle Review (Iterative Feedback)",
+          "Leadership Approval / Resource Allocation"
+        ]
+      }
+    },
+    {
+      "name": "Single-Threaded Leadership Model",
+      "category": "Organizational Structure",
+      "summary": "An organizational model where a single leader is fully accountable for a specific business goal and controls the cross-functional resources (engineering, product, marketing) needed to achieve it, minimizing external dependencies.",
+      "principles": [
+        "Program orientation over Project orientation.",
+        "Autonomy creates speed and agility.",
+        "Remove dependencies to reduce coordination tax.",
+        "Leader owns the roadmap and the resources."
+      ],
+      "problemItSolves": "Eliminates the 'coordination tax' and slow decision-making caused by matrixed organizations and resource contention between competing departments.",
+      "whenToUse": "When a company becomes complex and innovation slows down due to cross-team dependencies and bureaucratic resource fighting.",
+      "commonMistakes": "Creating single-threaded teams without establishing technical APIs/decoupling architecture first; failing to implement countermeasures (like bar raisers) to maintain functional excellence.",
+      "quote": "The best way to fail at inventing something is to make it somebody's part-time job.",
+      "realWorldExample": "Prime Video organized into separate single-threaded teams for TV apps, game consoles, and mobile phones, each with their own resources and roadmaps.",
+      "visualizationType": "BeforeAfter",
+      "visualizationData": {
+        "before": {
+          "label": "Project Orientation (Matrixed)",
+          "points": [
+            "Resources swarmed to temporary projects",
+            "High dependency on central teams",
+            "Leaders referee every roadmap item",
+            "Diluted ownership"
+          ]
+        },
+        "after": {
+          "label": "Program Orientation (Single-Threaded)",
+          "points": [
+            "Dedicated cross-functional teams",
+            "Control of own resources & roadmap",
+            "Leaders referee resource allocation only",
+            "Clear single-owner accountability"
+          ]
+        }
+      }
+    },
+    {
+      "name": "The Controllable Inputs Framework",
+      "category": "Metrics & Analytics",
+      "summary": "A management focus on 'Input Metrics' (controllable activities like selection, price, speed) rather than 'Output Metrics' (lagging indicators like revenue, stock price), often conceptualized as a Flywheel.",
+      "principles": [
+        "Outputs are lagging and often distracting.",
+        "Inputs are controllable and causal.",
+        "Focusing on customer experience inputs drives the growth flywheel.",
+        "Measure inputs continuously and rigorously."
+      ],
+      "problemItSolves": "Prevents short-term, reactive decision making (e.g., last-minute pricing hacks) when missing financial targets, fostering long-term drivers of growth.",
+      "whenToUse": "When defining OKRs, conducting weekly business reviews (WBR), or when growth stalls.",
+      "commonMistakes": "Confusing outputs (active users, revenue) with inputs; creating 'compound metrics' (fitness functions) that obscure the root cause.",
+      "quote": "If we served customers well... things like sales, revenue... and share price... would follow. We took it as an article of faith.",
+      "realWorldExample": "Amazon focused on 'Selection' (number of detail pages) and 'Lower Prices' as inputs, believing they would drive the output of 'Free Cash Flow' via the Flywheel effect.",
+      "visualizationType": "Cycle",
+      "visualizationData": {
+        "title": "The Amazon Flywheel (Input Driven)",
+        "steps": [
+          "Improve Customer Experience",
+          "Drive Traffic",
+          "Attract Sellers",
+          "Increase Selection",
+          "Lower Cost Structure",
+          "Lower Prices"
+        ]
+      }
+    },
+    {
+      "name": "The Bar Raiser Hiring Mechanism",
+      "category": "Hiring & Culture",
+      "summary": "A quality control mechanism in the hiring process involving a designated 'Bar Raiser'—an interviewer from outside the hiring chain with veto power—who ensures the candidate is better than 50% of the current employees in that role.",
+      "principles": [
+        "Hire for the long term, not urgent need.",
+        "Objective evaluation against Leadership Principles.",
+        "Third-party objectivity (outside hiring chain).",
+        "Veto power to block lowering standards."
+      ],
+      "problemItSolves": "Prevents the gradual lowering of talent standards ('A players hire A players, B players hire C players') and counters the hiring manager's urgency bias.",
+      "whenToUse": "In every interview loop for full-time employees to maintain culture and talent density at scale.",
+      "commonMistakes": "Hiring managers viewing the Bar Raiser as a bureaucratic blocker rather than a helper; Bar Raisers using veto power without Socratic debate; selecting Bar Raisers who lack high standards.",
+      "quote": "We had new people hiring new people hiring new people... so what information are they using to make these hires?",
+      "realWorldExample": "Borrowed initially from Microsoft's 'As Appropriate' interviewer, Amazon formalized this with specific training and veto authority to scale their culture during hypergrowth.",
+      "visualizationType": "Checklist",
+      "visualizationData": {
+        "title": "Bar Raiser Role Verification",
+        "items": [
+          "Is from outside the hiring manager's chain of command?",
+          "Is a trained expert in Leadership Principles?",
+          "Leads the debrief meeting?",
+          "Ensures candidate raises the performance bar (top 50%)?",
+          "Has full veto power over the hiring decision?"
+        ]
+      }
+    }
+  ],
+  "filename": "Bill Carr"
+}

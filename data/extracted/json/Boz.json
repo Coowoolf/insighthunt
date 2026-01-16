@@ -1,0 +1,118 @@
+{
+  "guest": {
+    "name": "Andrew Wilkinson",
+    "title": "Co-founder and CEO",
+    "company": "Tiny",
+    "background": "Founder of Metalab, co-founder of Tiny (a holding company owning over 40 businesses like Dribble and AeroPress), and former billionaire who bootstrapped to hundreds of millions in value."
+  },
+  "episodeSummary": "Andrew Wilkinson shares his evolution from a stressed founder starting 'cool' but difficult businesses to a 'lazy leader' who buys profitable companies and leverages AI. He discusses the 'fish where the fish are' philosophy for startup ideas, his specific AI agent workflows for automating personal and professional tasks, and his profound realization that money does not cure anxiety, advocating for medication and accepting one's nature (like ADHD).",
+  "methodologies": [
+    {
+      "name": "The Low-Friction Leader Leverage Protocol",
+      "category": "Productivity & Operations",
+      "summary": "A systematic approach to leadership that prioritizes removing the leader from low-leverage tasks through elimination, automation, and delegation. It focuses on 'lazy leadership'—avoiding tasks you hate to maximize efficiency and happiness.",
+      "principles": [
+        "Identify Friction: Recognize tasks that cause procrastination or dread.",
+        "Automate First: Use AI agents (e.g., Lindy) to handle repetitive logic (email sorting, scheduling, research).",
+        "Delegate to Experts: Hire 'fully formed' individuals who already possess the skill set, rather than projects you need to train.",
+        "Preserve Flow: Use tools to prevent 'erroring out' (e.g., using ChatGPT to bypass technical blocks)."
+      ],
+      "problemItSolves": "Founder burnout, decision fatigue, and the inefficiency of high-value individuals doing low-value maintenance work.",
+      "whenToUse": "When you feel overwhelmed by administrative tasks or find yourself procrastinating on specific recurring duties.",
+      "commonMistakes": "Hiring for potential hoping to 'mold' an employee, or trying to do everything yourself out of a Protestant work ethic.",
+      "quote": "I think you really need to lean into what I call lazy leadership, which is how do I get away from the things I hate as quickly as humanly possible? How do I be Teflon for tasks?",
+      "realWorldExample": "Andrew uses Lindy.ai to build agents that filter his email, manage his calendar with specific rules (adding emojis, buffering travel), and prep him for meetings, replacing the need for a human executive assistant.",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Step 1: Audit Discomfort (Identify tasks you naturally avoid)",
+          "Step 2: Elimination Filter (Does this need to exist?)",
+          "Step 3: AI Automation (Build Agents/Workflows)",
+          "Step 4: Delegation (Hire 'Fully Formed' Owners)",
+          "Step 5: High-Leverage Focus (Only do what you love/sales)"
+        ]
+      }
+    },
+    {
+      "name": "The Audience Empathy Communication Model",
+      "category": "Strategy & Soft Skills",
+      "summary": "A mindset shift from 'Projecting' (what I want the world to be) to 'Empathy' (what the world actually is). This applies to selecting business ideas (market demand vs. personal cool factor) and managing people (understanding their nature vs. trying to change them).",
+      "principles": [
+        "Fish Where the Fish Are: Don't create demand; capture existing demand.",
+        "Respect the Nature of the Beast: Acknowledge the reality of a business model (e.g., restaurants are hard) or a person's nature.",
+        "The Man with the Hammer: Recognize that people will solve problems based on their past tools, not your current instructions.",
+        "Contextual Preparedness: Use tools (like Deep Research) to understand who you are meeting to bridge the gap before the conversation starts."
+      ],
+      "problemItSolves": "Failed startups due to lack of market fit, and failed hires due to misalignment between the role's needs and the hire's natural inclinations.",
+      "whenToUse": "When validating a new startup idea or when interviewing a CEO/Executive for a specific role.",
+      "commonMistakes": "Starting a business because it seems fun (e.g., a cafe) without understanding the unit economics, or hiring a salesperson to do marketing and expecting them to change their DNA.",
+      "quote": "The biggest mistakes I've made have been going into business models where other people have repeatedly failed and thinking, I can do this better... You can't take a brilliant management team and change a bad business model.",
+      "realWorldExample": "Andrew hired a CEO with an enterprise sales background for a business needing organic marketing. Despite agreeing to do marketing, the CEO reverted to his nature (sales). Andrew learned to hire for the specific trait needed, not the promise of adaptation.",
+      "visualizationType": "BeforeAfter",
+      "visualizationData": {
+        "before": {
+          "label": "The Projection Mindset (Founder-Centric)",
+          "points": [
+            "Building what *I* think is cool (e.g., Cat furniture)",
+            "Hiring for potential (Thinking I can coach/change them)",
+            "Fighting the current (Invading 'saturated' markets)",
+            "Ignoring unit economics for 'passion'"
+          ]
+        },
+        "after": {
+          "label": "The Empathy Mindset (Reality-Centric)",
+          "points": [
+            "Building what *they* pay for (e.g., Gov form filling)",
+            "Hiring for reality (Fully formed skills)",
+            "Fishing where fish are (Boring/Niche markets)",
+            "Respecting the business model's constraints"
+          ]
+        }
+      }
+    },
+    {
+      "name": "The Stated vs. Revealed Preference Framework",
+      "category": "Hiring & Decision Making",
+      "summary": "A diagnostic framework for evaluating people (hires) and businesses. It contrasts what people *say* they will do (Stated) against what their history and nature *show* they will do (Revealed). It prioritizes historical data and 'nature' over interview promises.",
+      "principles": [
+        "History Repeats: People rarely change their fundamental operating modes.",
+        "The Immediate Fire Heuristic: If you think about firing someone once, do it immediately.",
+        "No Fixer-Uppers: You cannot mentor someone into a different personality or core skill set.",
+        "Operational Reality: A business model's reality (e.g., restaurant logistics) trumps management brilliance."
+      ],
+      "problemItSolves": "Bad hires, prolonged retention of underperforming employees, and entering businesses with structurally bad economics.",
+      "whenToUse": "During the hiring interview process or when evaluating an existing employee's performance.",
+      "commonMistakes": "Believing a candidate who says they can pivot their style (e.g., 'I can do organic marketing' from a Sales VP) or holding onto an employee thinking you can 'fix' them.",
+      "quote": "I've just found that I've never been able to change someone. You can never mentor someone out into being a good employee... Hire for what you need. Don't hire just for potential.",
+      "realWorldExample": "When interviewing CEOs, Andrew now looks for them to confirm his thesis naturally. If he has to 'lead the witness' or convince them to try a strategy they haven't done before, he counts it as a mismatch, regardless of their agreement.",
+      "visualizationType": "Matrix2x2",
+      "visualizationData": {
+        "xAxis": "Stated Intent (What they promise)",
+        "yAxis": "Revealed Preference (Past Action/Nature)",
+        "quadrants": [
+          {
+            "position": "Top Right",
+            "label": "The Fully Formed",
+            "description": "Promises align with history. The 'Elephant' goes where the 'Rider' wants. HIRE."
+          },
+          {
+            "position": "Bottom Right",
+            "label": "The Sandbagger / Mismatch",
+            "description": "High promises but history shows different skills. They will revert to type. DANGER ZONE."
+          },
+          {
+            "position": "Top Left",
+            "label": "The Sleeper",
+            "description": "Modest promises but exceptional track record. Rare but valuable."
+          },
+          {
+            "position": "Bottom Left",
+            "label": "The Non-Fit",
+            "description": "No relevant history and unpromising interview. PASS."
+          }
+        ]
+      }
+    }
+  ],
+  "filename": "Boz"
+}

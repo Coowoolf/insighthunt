@@ -1,0 +1,179 @@
+{
+  "guest": {
+    "name": "Bob Moesta",
+    "title": "Co-founder and CEO",
+    "company": "The Rewired Group",
+    "background": "Co-creator of the Jobs to Be Done Framework alongside Clay Christensen, founder of eight companies, and adjunct lecturer at the Kellogg School of Management."
+  },
+  "episodeSummary": "Bob Moesta demystifies the Jobs to Be Done (JTBD) framework, shifting the focus from product features to the 'struggling moments' that cause customers to hire products. He details the 'Forces of Progress' that drive behavior change, the six-stage timeline of buying (and hiring), and advanced interviewing techniques to uncover hidden causality. The conversation applies these principles to product innovation, sales, and career development, emphasizing that people don't buy products—they hire them to make progress under specific contexts.",
+  "methodologies": [
+    {
+      "name": "The Four Career Quests Framework",
+      "category": "COMPARATIVE/EVALUATIVE",
+      "summary": "While often framed as 'Quests' in career development, this methodology is grounded in the 'Four Forces of Progress' discussed in the episode. It frames a career switch not as a random event but as a system of four opposing forces: the Push of the current situation and the Pull of the new solution (promoting change) versus the Habit of the present and the Anxiety of the new (inhibiting change).",
+      "principles": [
+        "Push (F1): The struggling moment in the current situation that prompts a search.",
+        "Pull (F2): The attraction to a new outcome or improved state.",
+        "Anxiety (F3): The fear of the unknown or 'anxiety of the new' regarding the switch.",
+        "Habit (F4): The inertia or 'habit of the present' keeping you in the current role."
+      ],
+      "problemItSolves": "Explains why people stay in unhappy jobs or fail to switch despite better options (when F3 + F4 > F1 + F2).",
+      "whenToUse": "When analyzing why a candidate is looking to leave their current role or why a customer is switching products.",
+      "commonMistakes": "Focusing only on the 'Pull' (features/salary) and ignoring the 'Anxiety' or 'Habit' that prevents movement.",
+      "quote": "If F1 and F2 are not greater than F3 and F4, they're not going to move.",
+      "realWorldExample": "A candidate wanting a new job (Pull) but staying because they don't know the new team (Anxiety) and are comfortable with current workflows (Habit).",
+      "visualizationType": "Matrix2x2",
+      "visualizationData": {
+        "xAxis": "Time Orientation (Present vs. Future)",
+        "yAxis": "Impact on Change (Promoting vs. Inhibiting)",
+        "quadrants": [
+          {
+            "label": "Push (F1)",
+            "position": "Top-Left (Present/Promoting)",
+            "description": "Struggles with current status quo"
+          },
+          {
+            "label": "Pull (F2)",
+            "position": "Top-Right (Future/Promoting)",
+            "description": "Attraction to new outcome"
+          },
+          {
+            "label": "Habit (F4)",
+            "position": "Bottom-Left (Present/Inhibiting)",
+            "description": "Comfort with existing routine"
+          },
+          {
+            "label": "Anxiety (F3)",
+            "position": "Bottom-Right (Future/Inhibiting)",
+            "description": "Fear of the new/unknown"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Energy-Based Role Prototyping",
+      "category": "HIERARCHICAL/STRUCTURAL",
+      "summary": "This framework breaks down the 'energy' required to make progress into three distinct dimensions. When prototyping a role or product, one must solve not just for functional needs but for the complete energy profile of the user.",
+      "principles": [
+        "Functional Energy: The logistical time, space, effort, and knowledge required.",
+        "Emotional Energy: The internal feelings (e.g., frustration, desire for balance, fear).",
+        "Social Energy: How the choice affects how others perceive the user (status, respect, acceptance)."
+      ],
+      "problemItSolves": "Prevents building solutions that work functionally but fail because they ignore emotional or social friction.",
+      "whenToUse": "When defining the requirements for a new hire or product feature to ensure holistic fit.",
+      "commonMistakes": "Designing strictly for functional specs (e.g., salary, skills) while ignoring emotional drivers (e.g., feeling overlooked) or social drivers (e.g., job title status).",
+      "quote": "There's functional energy... emotional energy... and social aspects, how I want others to perceive me.",
+      "realWorldExample": "An employee taking a pay cut (Functional loss) to gain a 'Founder' title (Social gain) and reduce stress (Emotional gain).",
+      "visualizationType": "MindMap",
+      "visualizationData": {
+        "centralNode": "Core Motivation (Energy)",
+        "branches": [
+          {
+            "label": "Functional",
+            "details": [
+              "Time",
+              "Effort",
+              "Money",
+              "Knowledge"
+            ]
+          },
+          {
+            "label": "Emotional",
+            "details": [
+              "Fears",
+              "Frustrations",
+              "Desires",
+              "Peace of mind"
+            ]
+          },
+          {
+            "label": "Social",
+            "details": [
+              "Perception by others",
+              "Status/Title",
+              "Belonging",
+              "Respect"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Pixar Career Narrative",
+      "category": "HIERARCHICAL/STRUCTURAL",
+      "summary": "A method for interviewing to uncover the true 'story' behind a career or purchase decision. It acknowledges that people speak in layers and requires an 'interrogation' approach to peel back superficial answers to reach the causal context.",
+      "principles": [
+        "Layer 1 (Pablum): Polite, safe, automated answers ('It was good').",
+        "Layer 2 (Fantasy/Nightmare): Exaggerated best/worst case scenarios used to justify decisions.",
+        "Layer 3 (The Story): The actual context, struggle, and irrational trade-offs that drove behavior."
+      ],
+      "problemItSolves": "Filters out 'bitching' vs. true intent and uncovers why people *actually* take action vs. what they say they want.",
+      "whenToUse": "During customer discovery interviews or candidate interviews to get past rehearsed answers.",
+      "commonMistakes": "Accepting the first answer (Pablum) as truth or believing the customer's self-prediction of future behavior.",
+      "quote": "In the first five minutes... they're going to tell you the Pablum layer... then the fantasy/nightmare layer.",
+      "realWorldExample": "A candidate says they want 'more challenge' (Pablum), but deep questioning reveals they are leaving because they fear their boss is about to fire them (The Story).",
+      "visualizationType": "Onion",
+      "visualizationData": {
+        "layers": [
+          {
+            "name": "Outer: Pablum Layer",
+            "description": "Polite, conditioned responses (e.g., 'I wanted a new challenge')."
+          },
+          {
+            "name": "Middle: Fantasy/Nightmare Layer",
+            "description": "Exaggerations and justifications (e.g., 'My old boss was the absolute worst')."
+          },
+          {
+            "name": "Core: The Actual Story",
+            "description": "Context, struggling moments, and irrational trade-offs (e.g., 'I needed a job closer to daycare')."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jobs-to-be-Done Hiring",
+      "category": "SEQUENTIAL/PROCESS",
+      "summary": "This methodology treats hiring (and being hired) as a purchasing process involving a distinct timeline of behavioral change. It moves beyond 'pain and gain' to map the six phases a candidate goes through before, during, and after accepting a role.",
+      "principles": [
+        "Hiring is a timeline, not an event.",
+        "Candidates (and buyers) move from 'First Thought' to 'Ongoing Use'.",
+        "You must meet the candidate where they are in the timeline (e.g., Passive vs. Active Looking)."
+      ],
+      "problemItSolves": "Aligns the recruiting/sales process with the candidate's actual decision-making readiness.",
+      "whenToUse": "When designing a recruitment pipeline or a sales cycle to increase conversion rates.",
+      "commonMistakes": "Trying to 'close' a candidate who is still in the 'Passive Looking' phase and only wants to learn.",
+      "quote": "The buying process literally has different phases... First thought, passive looking, active looking, deciding, first use, and ongoing use.",
+      "realWorldExample": "Intercom adjusting their sales process to offer different demos based on whether a customer was 'Passive Looking' (education) vs 'Deciding' (trade-offs).",
+      "visualizationType": "Timeline",
+      "visualizationData": {
+        "stages": [
+          {
+            "title": "1. First Thought",
+            "description": "The initial trigger or struggling moment creates awareness."
+          },
+          {
+            "title": "2. Passive Looking",
+            "description": "Problem aware, solution unaware. Gathering information casually."
+          },
+          {
+            "title": "3. Active Looking",
+            "description": "Problem and solution aware. Framing specific options."
+          },
+          {
+            "title": "4. Deciding",
+            "description": "Making trade-offs and selecting the solution."
+          },
+          {
+            "title": "5. First Use",
+            "description": "The onboarding experience and initial consumption."
+          },
+          {
+            "title": "6. Ongoing Use",
+            "description": "Forming the new habit and integrating the solution."
+          }
+        ]
+      }
+    }
+  ],
+  "filename": "Bob Moesta 2.0"
+}

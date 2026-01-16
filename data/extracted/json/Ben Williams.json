@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Ben Williams",
+    "title": "VP of Product",
+    "company": "Snyk",
+    "background": "Computer Science background, formerly at IBM Rational, CloudBees (DevOps startup), joined Snyk to build growth organization and developer experience."
+  },
+  "episodeSummary": "Ben Williams discusses Snyk's evolution from a niche developer tool to an $8.6B security giant. He details the transition from pure product-led growth (PLG) to a hybrid model with product-led sales (PLS), emphasizing the importance of starting narrow and deep. The conversation covers structuring growth teams, creating effective loops, defining activation milestones, and frameworks for crafting vision and mission statements.",
+  "methodologies": [
+    {
+      "name": "The Depth-First PLG Wedge",
+      "category": "Growth Strategy",
+      "summary": "A strategy for market entry that prioritizes solving a specific problem for a narrow community deeply before expanding to broader use cases or enterprise governance.",
+      "principles": [
+        "Select a hyper-specific user persona and context (e.g., Node.js devs using Open Source).",
+        "Solve a single use case deeply to prove value (e.g., finding vulnerabilities).",
+        "Validate product-market fit via retention within that niche.",
+        "Expand breadth (languages, enterprise features) only after depth is established."
+      ],
+      "problemItSolves": "Prevents startups from going too wide too early, which dilutes value and makes finding product-market fit difficult.",
+      "whenToUse": "Early-stage startups or new product lines seeking initial traction and retention.",
+      "commonMistakes": "Trying to support every language or ecosystem immediately; building enterprise governance features before securing developer love.",
+      "quote": "Nailing that narrow and deep-use case before expanding wider was absolutely critical... A JavaScript developer just won't care if you support Golang or Rust.",
+      "realWorldExample": "Snyk started solely with Node.js developers checking open source packages. They reached ~5,000 free users and strong retention before building support for other languages or enterprise sales features.",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Narrow Focus: Single Persona/Context (Node.js)",
+          "Deep Solution: Solve One Core Problem",
+          "Validate: Prove Retention/PMF",
+          "Expand: Add Breadth & Enterprise Governance"
+        ]
+      }
+    },
+    {
+      "name": "The Nirvana Vision Framework",
+      "category": "Strategy & Leadership",
+      "summary": "A framework for distinguishing between Vision and Mission to align teams. The Vision describes an agnostic future state, while the Mission describes the company's specific method of getting there.",
+      "principles": [
+        "Vision: A 5-10 year 'Nirvana state' that makes no mention of the company or product.",
+        "Vision Constraint: Must be bound to the target market but solution-agnostic.",
+        "Mission: The relentless iteration/method used to reach the vision.",
+        "Mission Constraint: Should encode the unique differentiating advantage."
+      ],
+      "problemItSolves": "Clarifies the 'why' and 'how' for teams, preventing vague strategy statements that don't guide decision-making.",
+      "whenToUse": "When defining or refreshing company strategy, or setting specific charters for sub-teams (like a Growth Group).",
+      "commonMistakes": "Including the product name in the vision statement; making the vision too short-term.",
+      "quote": "You can always prefix a vision statement with 'in the future...' ... critically it should not mention your company, your product, or anything solution related at all.",
+      "realWorldExample": "Snyk Growth Vision: 'Every developer securely unleashes their creativity.' Mission: 'Connect every developer... to the value of the Snyk platform with frictionless self-serve adoption.'",
+      "visualizationType": "Pyramid",
+      "visualizationData": {
+        "levels": [
+          "TOP: Vision (The Nirvana State - 'In the Future...')",
+          "BASE: Mission (The Method - 'How we get there')"
+        ]
+      }
+    },
+    {
+      "name": "The Impact and Learnings Ritual",
+      "category": "Team Process",
+      "summary": "A structured meeting cadence designed to socialize experimental data and learnings across the organization, ensuring insights aren't siloed within the growth team.",
+      "principles": [
+        "Continuously document learnings in a shared artifact (weekly).",
+        "Focus meetings on discussing implications of learnings, not status updates.",
+        "Aggregate team-level learnings into a group-level review monthly.",
+        "Socialize insights with sales, marketing, and core product teams."
+      ],
+      "problemItSolves": "Prevents 'learning silos' where failed or successful experiments are forgotten, and helps Sales/GTM teams understand user behavior.",
+      "whenToUse": "Weekly for individual growth teams; Monthly for the broader growth group.",
+      "commonMistakes": "Using the meeting for status updates on what was shipped rather than what was learned.",
+      "quote": "Learnings easily end up unused and gathering dust... If you focus on the learnings... that will pave the path to creating impact.",
+      "realWorldExample": "Snyk runs weekly PM-led reviews of an 'Impact and Learnings' document, followed by a monthly director-led session where key insights are broadcast to the wider company.",
+      "visualizationType": "Cycle",
+      "visualizationData": {
+        "steps": [
+          "Experiment & Collect Data",
+          "Document in Weekly Artifact",
+          "Team Review (Implications & Next Steps)",
+          "Group Socialization (Monthly)",
+          "Apply to New Hypotheses"
+        ]
+      }
+    },
+    {
+      "name": "The Freemium Boundary Heuristic",
+      "category": "Monetization Strategy",
+      "summary": "A logic set for determining which features belong in the Free plan versus the Paid plan, balancing growth loops against enterprise value capture.",
+      "principles": [
+        "Free Plan: Features that promote the growth model (loops) and have low cost-to-serve.",
+        "Paid Plan: Features that solve for governance, compliance, business-critical scale, or have high cost.",
+        "Trial Strategy: Use trials to allow time-boxed evaluation of paid features, but reconsider limits (usage vs time) regularly.",
+        "Re-evaluate: Continuously challenge the boundary as the product matures."
+      ],
+      "problemItSolves": "Resolves the tension between giving away too much value (cannibalization) and not giving enough (stunting adoption).",
+      "whenToUse": "Designing or iterating on packaging and pricing tiers for PLG products.",
+      "commonMistakes": "Gating features that drive virality; putting high-cost-to-serve features in free; assuming trial length must be static.",
+      "quote": "The real drivers to move from free to a paid plan... is when you want to secure business critical code and you start having needs around governance and compliance.",
+      "realWorldExample": "Snyk keeps developer-focused vulnerability fixing free (to drive adoption/loops) but charges for reporting, user management, and governance at scale.",
+      "visualizationType": "DosDonts",
+      "visualizationData": {
+        "do": [
+          "Growth Promoters (Viral Loops)",
+          "Habit-forming Core Value",
+          "Low Cost-to-Serve Items"
+        ],
+        "dont": [
+          "Governance & Compliance Features",
+          "High Cost-to-Serve Items",
+          "Business Critical Scale (SSO/Reporting)"
+        ]
+      }
+    }
+  ],
+  "filename": "Ben Williams"
+}

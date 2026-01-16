@@ -1,0 +1,94 @@
+{
+  "guest": {
+    "name": "Bob Moesta",
+    "title": "Co-founder and CEO",
+    "company": "The Rewired Group",
+    "background": "Co-creator of the Jobs to Be Done Framework, entrepreneur who started eight companies, and adjunct lecturer at the Kellogg School of Management."
+  },
+  "episodeSummary": "Bob Moesta, co-creator of the Jobs to Be Done framework, joins Lenny to demystify the theory and application of JTBD. Moesta explains that products are hired to solve struggling moments rather than just based on demographics. He details the 'Four Forces of Progress' that drive or inhibit behavior change, outlines a specific 'Causal Interview Protocol' for uncovering deep insights, and breaks down the 'Demand-Side Buying Timeline' to align sales processes with customer psychology. The conversation covers practical examples from Snickers to software like Intercom and Autobooks, emphasizing that understanding the context and outcome is more critical than pain and gain.",
+  "methodologies": [
+    {
+      "name": "The Four Forces of Progress",
+      "category": "Framework",
+      "summary": "A behavioral model that defines the opposing forces influencing a customer's decision to switch from an old solution (A) to a new one (B). It posits that behavior change is not random but the result of specific causal energies.",
+      "principles": [
+        "F1 (Push): The struggling moment or context in the current situation that prompts a desire for change.",
+        "F2 (Pull): The attraction to the new solution and the vision of a better outcome.",
+        "F3 (Anxiety): The fear of the new solution and uncertainty about whether it will work.",
+        "F4 (Habit): The inertia and allegiance to the current way of doing things.",
+        "Change Equation: (Push + Pull) > (Anxiety + Habit)."
+      ],
+      "problemItSolves": "Explains why customers fail to convert despite having a 'better' product, often due to hidden anxieties or habits rather than a lack of product features.",
+      "whenToUse": "When analyzing customer churn, low conversion rates, or defining the value proposition of a new product.",
+      "commonMistakes": "Focusing only on Pain and Gain (F1 and F2) while ignoring the friction caused by Anxiety and Habit (F3 and F4), or assuming product features create demand rather than struggling moments.",
+      "quote": "If F1 and F2 are not greater than F3 and F4, they're not going to move, they're not going to do anything.",
+      "realWorldExample": "Selling condos: Customers wouldn't buy despite wanting the condo because they didn't know how to move their stuff (F3/F4). Adding moving services and storage (reducing friction) increased sales by 30%.",
+      "visualizationType": "Equation",
+      "visualizationData": {
+        "terms": [
+          "F1 (Push of Situation)",
+          "F2 (Pull of New Solution)",
+          "F3 (Anxiety of New)",
+          "F4 (Habit of Present)"
+        ],
+        "operator": ">",
+        "result": "Behavior Change (Switch)"
+      }
+    },
+    {
+      "name": "The Causal Interview Protocol",
+      "category": "Research Method",
+      "summary": "A specific interviewing technique designed to reconstruct the customer's timeline and uncover the causal mechanisms behind a purchase, resembling a criminal investigation or therapy session rather than a standard survey.",
+      "principles": [
+        "Interview only people who have already made the progress (purchased/switched).",
+        "Do not use a discussion guide; follow the story and the energy.",
+        "Penetrate the 'Pablum' and 'Fantasy/Nightmare' layers to get to the 'Reality' layer.",
+        "Cluster interviews by causal pathways, not demographic segments.",
+        "Listen for the 'struggling moment' that triggered the search."
+      ],
+      "problemItSolves": "Unreliable customer data where people rationalize their decisions with logic after the fact, missing the emotional and contextual drivers.",
+      "whenToUse": "During customer discovery, when validating zero-to-one product concepts, or when trying to understand why a product is being hired.",
+      "commonMistakes": "Asking 'Why?' repeatedly (which invites rationalization) instead of 'What happened?' or 'Tell me the story'; believing customers' hypothetical claims ('I would buy this').",
+      "quote": "It's criminal and intelligence interrogation that feels like therapy because most people don't actually know why they bought.",
+      "realWorldExample": "Discovering why people buy Snickers (meal replacement/mastication for energy) vs. Milky Way (emotional reward/melting texture), leading to completely different competitive sets.",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Frame the Scope (Identify the purchase/switch)",
+          "Recruit (Find recent purchasers)",
+          "Extract the Story (Reconstruct timeline & forces)",
+          "Cluster Patterns (Identify causal pathways)",
+          "Define Jobs (Context + Outcome)"
+        ]
+      }
+    },
+    {
+      "name": "The Demand-Side Buying Timeline",
+      "category": "Sales & Marketing",
+      "summary": "A chronological model of the buying process from the customer's perspective, dividing the journey into distinct psychological phases that require different support, distinct from a company's sales funnel.",
+      "principles": [
+        "The buying process is not linear or random; it follows distinct phases of maturity.",
+        "Phases: First Thought, Passive Looking (Problem Aware), Active Looking (Solution Aware), Deciding (Trade-offs), First Use, Ongoing Use.",
+        "Sales interaction must match the customer's current phase (e.g., education vs. comparison).",
+        "Value is defined by the progress from the starting point to the outcome."
+      ],
+      "problemItSolves": "Sales friction caused by pushing for a 'close' or 'demo' when the customer is still in the 'passive looking' or learning phase.",
+      "whenToUse": "Designing sales funnels, creating content marketing strategies, and structuring product demos.",
+      "commonMistakes": "Treating all leads the same; forcing a closing demo on a customer who is only 'passive looking'; assuming the sales process is about convincing rather than enabling.",
+      "quote": "Instead of trying to base the sales process on how we want to sell, we need to actually design the sales process on how they want to buy.",
+      "realWorldExample": "Autobooks split their single demo into three different types based on the buyer's phase (Story/Context, Alternatives, Choices/Trade-offs), which cut the sales cycle in half and increased conversion by 4x.",
+      "visualizationType": "Timeline",
+      "visualizationData": {
+        "stages": [
+          "First Thought",
+          "Passive Looking",
+          "Active Looking",
+          "Deciding",
+          "First Use",
+          "Ongoing Use"
+        ]
+      }
+    }
+  ],
+  "filename": "Bob Moesta"
+}

@@ -1,0 +1,89 @@
+{
+  "guest": {
+    "name": "Benjamin Mann",
+    "title": "Co-founder",
+    "company": "Anthropic",
+    "background": "Former architect of GPT-3 at OpenAI; currently serves as tech lead for product engineering at Anthropic, focusing on aligning AI to be helpful, harmless, and honest."
+  },
+  "episodeSummary": "Benjamin Mann discusses the trajectory of AI development, predicting a 50% chance of superintelligence by 2028. He details Anthropic's departure from OpenAI due to safety concerns, the mechanics of Constitutional AI (RLAIF), and how to build products for exponential technologies. He also introduces the 'Economic Turing Test' as a metric for AGI and offers advice on future-proofing careers.",
+  "methodologies": [
+    {
+      "name": "The Exponential Puck Framework",
+      "category": "Product Strategy",
+      "summary": "A strategic approach to product development in rapidly accelerating fields. Instead of building for current model capabilities, teams should analyze exponential scaling laws to predict future capabilities (6-12 months out) and build products that rely on those future states, even if current success rates are low.",
+      "principles": [
+        "Internalize the exponential curve; progress looks flat until the knee of the curve.",
+        "Don't build for today's model limitations.",
+        "Identify capabilities working 20% of the time today; assume they will work 100% of the time soon.",
+        "Design the product experience for the future capability state."
+      ],
+      "problemItSolves": "Prevents teams from building products that are obsolete by launch time or failing to leverage upcoming intelligence leaps.",
+      "whenToUse": "When developing software on top of rapidly improving foundational technologies (like LLMs) where capabilities double frequently.",
+      "commonMistakes": "treating new tools like old tools (e.g., just using autocomplete vs. ambitious coding agents); giving up when a prompt fails once.",
+      "quote": "Don't build for today, build for six months from now... things that aren't quite working that are working 20% of the time, will start working 100% of the time.",
+      "realWorldExample": "Anthropic's 'Claude Code' was built assuming users would move away from IDEs to terminals, even before the model was fully perfect at it.",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Analyze Scaling Laws (The Exponential)",
+          "Identify '20% Success' Capabilities",
+          "Forecast 6-12 Month Trajectory",
+          "Build UX for '100% Success' State"
+        ]
+      }
+    },
+    {
+      "name": "Constitutional Product Alignment",
+      "category": "AI Safety & Engineering",
+      "summary": "A methodology for aligning AI behavior using RLAIF (Reinforcement Learning from AI Feedback) rather than human feedback. It involves baking a 'constitution' of values (e.g., UN Declaration of Human Rights) into the model, allowing it to critique and rewrite its own responses to ensure safety and character consistency.",
+      "principles": [
+        "Define natural language principles (The Constitution).",
+        "Remove humans from the immediate feedback loop (Scalability).",
+        "Model generates initial response.",
+        "Model critiques response against principles.",
+        "Model rewrites response if necessary."
+      ],
+      "problemItSolves": "Solves the scalability limit of human feedback (RLHF) and ensures models are helpful, harmless, and honest without 'sycophancy' (telling users what they want to hear).",
+      "whenToUse": "When training large-scale models where human labeling is too slow or inconsistent, or when defining specific agent personas/values.",
+      "commonMistakes": "Relying solely on user engagement metrics (sycophancy) rather than principled alignment.",
+      "quote": "If the answer is no, actually I wasn't in compliance with the principle, then we ask the model itself to critique itself and rewrite its own response.",
+      "realWorldExample": "Claude's refusal to help build bioweapons while still being polite and explaining why, based on internal values.",
+      "visualizationType": "Cycle",
+      "visualizationData": {
+        "stages": [
+          "Input Prompt",
+          "Generate Raw Response",
+          "Check Against Constitution",
+          "Self-Critique & Rewrite",
+          "Final Aligned Output"
+        ]
+      }
+    },
+    {
+      "name": "The Economic Turing Test",
+      "category": "Economic Metrics",
+      "summary": "A pragmatic definition for identifying Transformative AI (or AGI). Instead of philosophical sentience, it tests whether an AI agent can competitively replace a human in a specific economic role over a sustained period.",
+      "principles": [
+        "Contract an agent for a specific job duration (1-3 months).",
+        "Evaluate performance blindly against human standards.",
+        "The test is passed if the employer decides to hire the agent, realizing later it was a machine.",
+        "Scale this across a 'market basket' of jobs to measure broad economic transformation."
+      ],
+      "problemItSolves": "Provides a concrete, measurable benchmark for 'AGI' that moves beyond vague definitions of general intelligence to economic impact.",
+      "whenToUse": "When evaluating the maturity of AI agents for workforce deployment or forecasting macroeconomic shifts.",
+      "commonMistakes": "Judging AI based on short, isolated tasks rather than sustained job performance over time.",
+      "quote": "If you contract an agent for a month... and it turns out to be a machine rather than a person, then it's passed the Economic Turing Test for that role.",
+      "realWorldExample": "Hiring a remote contractor for data entry or coding, finding their work excellent, and discovering it was an autonomous agent.",
+      "visualizationType": "Checklist",
+      "visualizationData": {
+        "items": [
+          "Contract agent for role (1-3 months)",
+          "Agent performs job duties autonomously",
+          "Employer decides to 'hire' based on merit",
+          "Verify: Agent was a machine (Pass/Fail)"
+        ]
+      }
+    }
+  ],
+  "filename": "Benjamin Mann"
+}

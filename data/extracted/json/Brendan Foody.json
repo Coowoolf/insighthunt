@@ -1,0 +1,102 @@
+{
+  "guest": {
+    "name": "Brendan Foody",
+    "title": "CEO and Co-founder",
+    "company": "Mercor",
+    "background": "Youngest unicorn founder, scaled Mercor from $1M to $400M ARR in 16 months, pioneered AI-driven hiring for AI labs."
+  },
+  "episodeSummary": "Brendan Foody discusses the explosive growth of Mercor and the transition of the AI industry into the 'Era of Evals.' He explains how labor markets are shifting from crowdsourced low-skill tasks to high-skill expert reinforcement learning, outlines the 'elasticity' of future careers, and shares the aggressive execution principles that allowed Mercor to become the fastest-growing company in history.",
+  "methodologies": [
+    {
+      "name": "The Eval-Driven Product Cycle",
+      "category": "Product Development / AI Strategy",
+      "summary": "A cyclical framework for building AI products where the evaluation metric (Eval) serves as the Product Requirement Document (PRD). Instead of traditional feature shipping, the product loop focuses on defining success criteria and using reinforcement learning to climb that metric.",
+      "principles": [
+        "The model is the product; the eval is the PRD.",
+        "Success is measured by automated verifiers, not just human feel.",
+        "Reinforcement Learning (RL) climbs the eval metric.",
+        "Data shifts from pre-training volume to post-training quality."
+      ],
+      "problemItSolves": "Solves the bottleneck of effectively measuring and improving model capabilities when human intuition is too slow or unscalable.",
+      "whenToUse": "When building AI-native products or integrating LLMs where output quality must be systematically improved over time.",
+      "commonMistakes": "Relying solely on 'vibe checks' rather than rigorous, quantifiable evaluation sets.",
+      "quote": "If the model is the product, then the eval is the product requirement document.",
+      "realWorldExample": "An AI lab defining a 'perfect redline' rubric for a legal contract, then running experiments until the model consistently hits that rubric score.",
+      "visualizationType": "Cycle",
+      "visualizationData": {
+        "steps": [
+          "Define the Eval (The PRD/Rubric)",
+          "Run Experiments (Generate Outputs)",
+          "Measure Capabilities (Score vs Eval)",
+          "Reinforcement Learning (Update Model)",
+          "Iterate/Raise Bar"
+        ]
+      }
+    },
+    {
+      "name": "The Market Shear Discovery Process",
+      "category": "Strategy / Founder Psychology",
+      "summary": "A process for identifying hyper-growth opportunities by looking for 'market shears'—gaps created where technology moves faster than incumbents can adapt. It involves identifying leading indicators, finding the vacuum, and executing with extreme intensity.",
+      "principles": [
+        "Ignore stagnant incumbents; look for market vacuums.",
+        "Identify leading indicators in fast-moving markets.",
+        "Validate with flagship customers (wealthiest/most desperate).",
+        "Force product-market fit through sheer will and speed."
+      ],
+      "problemItSolves": "Helps founders avoid crowded legacy markets and identify 'why now' opportunities that allow for historic growth rates.",
+      "whenToUse": "During the ideation phase or when pivoting a startup to find a massive, unaddressed pocket of demand.",
+      "commonMistakes": "Trying to compete in legacy markets with slight improvements rather than finding a new market vacuum.",
+      "quote": "Sometimes you just need to shear it from the market and know that it's there... find the customer that's surprisingly easy to sell into.",
+      "realWorldExample": "Mercor realizing AI labs needed high-end experts (lawyers/coders) for RLHF, while existing incumbents were still selling low-end crowdsourced labor.",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Scan for Leading Indicators (New Tech/Capital Flow)",
+          "Identify the Market Vacuum (Unmet High-Value Demand)",
+          "Secure Flagship Validation (Sell the Vision)",
+          "Execute with Intensity (Scale into the Gap)"
+        ]
+      }
+    },
+    {
+      "name": "The Elasticity Career Matrix",
+      "category": "Career Strategy / Future of Work",
+      "summary": "A decision framework for predicting which careers will survive and thrive in the AI era based on the elasticity of demand for the output. It posits that jobs where productivity gains lead to higher consumption (elastic) are safe, while fixed-demand jobs are at risk.",
+      "principles": [
+        "Productivity × Elasticity = Career Growth.",
+        "Avoid fields with fixed demand (Inelastic).",
+        "Embrace fields where lower cost creates infinite demand (Elastic).",
+        "Use AI as a lever to increase personal throughput."
+      ],
+      "problemItSolves": "Helps individuals decide what skills to study and which industries to enter to avoid displacement by AI automation.",
+      "whenToUse": "When making career pivots, choosing a college major, or deciding which skills to upskill in.",
+      "commonMistakes": "Assuming all knowledge work will be displaced equally, rather than distinguishing between finite and infinite demand sectors.",
+      "quote": "If we make everyone 10 times more productive, that'll increase demand, not reduce it [for elastic fields].",
+      "realWorldExample": "Accounting (Inelastic/Risk): The world only needs so many tax returns. Software Engineering (Elastic/Safe): If coding gets 10x cheaper, we build 100x more software.",
+      "visualizationType": "Matrix2x2",
+      "visualizationData": {
+        "xAxis": "AI Leverage Potential (Productivity Gain)",
+        "yAxis": "Demand Elasticity (Market Appetite)",
+        "quadrants": [
+          {
+            "label": "The Boom Sector",
+            "description": "High Leverage / High Elasticity (e.g., Software, PM, R&D). AI makes you 10x faster, market buys 100x more."
+          },
+          {
+            "label": "The Displacement Zone",
+            "description": "High Leverage / Low Elasticity (e.g., Accounting, Basic Admin). AI does the work, market demand is fixed, jobs shrink."
+          },
+          {
+            "label": "Human-Centric/Services",
+            "description": "Low Leverage / High Elasticity (e.g., Nursing, Trades). AI helps little, but demand is high."
+          },
+          {
+            "label": "Stagnant/Niche",
+            "description": "Low Leverage / Low Elasticity. Hard to automate, but low growth."
+          }
+        ]
+      }
+    }
+  ],
+  "filename": "Brendan Foody"
+}

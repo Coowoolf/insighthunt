@@ -1,0 +1,101 @@
+{
+  "guest": {
+    "name": "Brandon Chu",
+    "title": "VP of Product (at time of recording)",
+    "company": "Shopify",
+    "background": "Former investment banker and Kraft Foods employee who pivoted to tech by founding a startup (Tunezy). After an acquisition, he worked at FreshBooks before joining Shopify, where he spent 7+ years scaling from PM to VP, eventually leading Product Acceleration."
+  },
+  "episodeSummary": "Brandon Chu, VP of Product at Shopify, discusses the unique product culture at Shopify, emphasizing their 'digital by default' approach and the importance of 'founder skills' for PMs. He explores the nuances of Platform Product Management, specifically the need to stack-rank constituents. The conversation also covers his philosophy on decision-making velocity, the career-accelerating power of writing, and how Shopify uses 'Bursts' to maintain connection in a remote-first world.",
+  "methodologies": [
+    {
+      "name": "The Triage & Velocity Decision Matrix",
+      "category": "Decision Making",
+      "summary": "A framework for managing the overwhelming volume of decisions a Product Manager faces by categorizing them based on stakes and reversibility to optimize for speed versus quality.",
+      "principles": [
+        "Determine the importance of a decision immediately (is it reversible? is it material?).",
+        "Most decisions (98%) are low-stakes or reversible; use 'gut feel' or delegate these to maintain high team velocity.",
+        "Reserve 90%+ of mental energy and time for the top 1-2% of mission-critical, irreversible decisions.",
+        "Never allow indecision on low-stakes items to become a blocker for the team."
+      ],
+      "problemItSolves": "Prevents decision fatigue and bottlenecks where PMs slow down engineering teams by over-analyzing minor choices.",
+      "whenToUse": "Daily, when faced with a queue of questions, feature requests, or trade-offs from the team.",
+      "commonMistakes": "Treating every decision with equal weight; falling into 'analysis paralysis' on reversible UI tweaks.",
+      "quote": "If you're going to be a really good PM, you have to have that skill... spend all your time on those very few important decisions. And for all other decisions, you should just literally just go with whatever your gut is.",
+      "realWorldExample": "Deciding to change a button color (reversible, low impact) should take seconds (gut check), whereas changing the data privacy policy for the entire platform (irreversible, high impact) requires weeks of deep work.",
+      "visualizationType": "Matrix2x2",
+      "visualizationData": {
+        "xAxis": "Reversibility (Low to High)",
+        "yAxis": "Impact/Materiality (Low to High)",
+        "quadrants": [
+          {
+            "label": "The Danger Zone (High Impact, Irreversible)",
+            "action": "Deep Focus (Spend 90% of time here)"
+          },
+          {
+            "label": "High Velocity Zone (Low Impact, Reversible)",
+            "action": "Trust Gut / Delegate (Speed is priority)"
+          },
+          {
+            "label": "The Trap (Low Impact, Irreversible)",
+            "action": "Avoid/Deprioritize"
+          },
+          {
+            "label": "The Noise (Low Impact, Reversible)",
+            "action": "Automate/Ignore"
+          }
+        ]
+      }
+    },
+    {
+      "name": "The Platform Constituent Stack",
+      "category": "Platform Strategy",
+      "summary": "A prioritization model specifically for platform PMs to resolve conflicts between multiple stakeholders (Merchants, Developers, Buyers) by establishing a clear hierarchy of needs.",
+      "principles": [
+        "Recognize that platforms have multi-sided markets with competing incentives.",
+        "Establish a hard 'stack rank' of constituents before conflicts arise.",
+        "Make policy and design choices that favor the top constituent, even if it hurts those lower in the stack.",
+        "Accept longer feedback cycles (5-10x longer) compared to direct-to-consumer products."
+      ],
+      "problemItSolves": "Resolves strategic deadlocks when a feature benefits one group (e.g., developers) but hurts another (e.g., end-user privacy).",
+      "whenToUse": "When designing APIs, data-sharing policies, or ecosystem rules where stakeholders have zero-sum interests.",
+      "commonMistakes": "Trying to please everyone equally, leading to a diluted platform value proposition; failing to protect the primary constituent.",
+      "quote": "You have to understand those principles and the stack rank of the constituents there to be able to make good policy and design choices.",
+      "realWorldExample": "Shopify prioritizes Merchants (Entrepreneurs) first. If an app developer wants data that helps them but spams the merchant's customer, Shopify blocks it. Contrast with Amazon, which stacks the Consumer first, often at the expense of the Seller.",
+      "visualizationType": "Pyramid",
+      "visualizationData": {
+        "levels": [
+          "Base Priority: The Merchant (Entrepreneur/Business Owner)",
+          "Middle Layer: The Developer Ecosystem (Partners)",
+          "Top Layer: The End Buyer (Consumer)"
+        ],
+        "note": "Decisions flow from the base up. The Base priority overrides the layers above it."
+      }
+    },
+    {
+      "name": "The 'Digital-Burst' Collaboration Model",
+      "category": "Remote Work Culture",
+      "summary": "A hybrid operating model that combines 'digital by default' remote work with intentional, high-intensity in-person gatherings called 'Bursts' to foster creativity and connection.",
+      "principles": [
+        "Work is digital by default; hire from anywhere.",
+        "In-person time is still critical for energy and creativity, not just status updates.",
+        "Use infrastructure (internal apps) to remove friction from meeting up (booking flights/hotels automatically).",
+        "Oscillate between deep remote work and short, intense periods of social/strategic bonding."
+      ],
+      "problemItSolves": " mitigates the isolation and low-energy traps of fully remote work while retaining the flexibility of not having a daily commute.",
+      "whenToUse": "When a remote team's energy is flagging, or at the start of a major creative cycle (e.g., quarterly planning).",
+      "commonMistakes": "Using in-person time for routine work that could be done remotely; neglecting the social/bonding aspect of the gathering.",
+      "quote": "We tried to turn all the weaknesses on its head... optimize for the stuff that was amazing about [in-person] and make it super easy and fun.",
+      "realWorldExample": "A team of 20 uses Shopify's internal app to book a 'Burst' in Laguna Beach. They spend 3 days doing high-velocity creative roadmap planning and social bonding, then return to their home countries to execute remotely.",
+      "visualizationType": "Cycle",
+      "visualizationData": {
+        "steps": [
+          "Phase 1: Remote Execution (Deep Work / Asynchronous)",
+          "Phase 2: Signal (Energy dip or Creative Need)",
+          "Phase 3: The Burst (In-person, High Velocity, Social Bonding)",
+          "Phase 4: Alignment & Dispersion"
+        ]
+      }
+    }
+  ],
+  "filename": "Brandon Chu"
+}
