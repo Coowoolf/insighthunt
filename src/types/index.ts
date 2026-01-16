@@ -33,6 +33,16 @@ export interface Methodology {
     principles: string[];
     quote?: string;
     upvotes: number;
+    // Deep dive fields
+    problemItSolves?: string;
+    whenToUse?: string;
+    commonMistakes?: string;
+    realWorldExample?: string;
+    // Guest context
+    guestBackground?: string;
+    guestTitle?: string;
+    guestCompany?: string;
+    episodeSummary?: string;
 }
 
 export const CATEGORY_INFO: Record<Category, { label: string; emoji: string; gradient: string }> = {

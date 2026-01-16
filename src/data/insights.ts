@@ -37,9 +37,19 @@ function transformData() {
                 category: validateCategory(m.category),
                 tags: generateTags(m.name, m.category),
                 summary: m.summary,
-                principles: m.principles,
+                principles: m.principles || [],
                 quote: m.quote,
-                upvotes: Math.floor(Math.random() * 150) + 50, // Random initial upvotes
+                upvotes: Math.floor(Math.random() * 150) + 50,
+                // Deep dive fields
+                problemItSolves: m.problemItSolves,
+                whenToUse: m.whenToUse,
+                commonMistakes: m.commonMistakes,
+                realWorldExample: m.realWorldExample,
+                // Guest context
+                guestBackground: episode.guest.background,
+                guestTitle: episode.guest.title,
+                guestCompany: episode.guest.company,
+                episodeSummary: episode.episodeSummary,
             };
             methodologies.push(methodology);
             guest.methodologies.push(methodology);
