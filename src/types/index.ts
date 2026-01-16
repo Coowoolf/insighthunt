@@ -22,6 +22,24 @@ export interface Guest {
     methodologies: Methodology[];
 }
 
+export type VisualizationType =
+    | 'StepFlow'
+    | 'Timeline'
+    | 'Funnel'
+    | 'Cycle'
+    | 'Matrix2x2'
+    | 'DosDonts'
+    | 'Spectrum'
+    | 'BeforeAfter'
+    | 'MindMap'
+    | 'TreeDiagram'
+    | 'Pyramid'
+    | 'Onion'
+    | 'Equation'
+    | 'Checklist'
+    | 'Scorecard'
+    | 'CaseStudy';
+
 export interface Methodology {
     id: string;
     name: string;
@@ -43,6 +61,9 @@ export interface Methodology {
     guestTitle?: string;
     guestCompany?: string;
     episodeSummary?: string;
+    // Dynamic visualization
+    visualizationType?: VisualizationType;
+    visualizationData?: Record<string, any>;
 }
 
 export const CATEGORY_INFO: Record<Category, { label: string; emoji: string; gradient: string }> = {

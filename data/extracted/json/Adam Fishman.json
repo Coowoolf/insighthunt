@@ -1,79 +1,130 @@
 {
   "guest": {
     "name": "Adam Fishman",
-    "title": "EIR at Reforge & Product/Growth Advisor",
-    "company": "Reforge / FishmanAF",
-    "background": "Former CPO at Imperfect Foods and VP of Product/Growth at Patreon. He was the first growth hire at Lyft, giving him deep expertise in scaling marketplaces, building growth teams from scratch, and optimizing user activation."
+    "title": "EIR & Program Partner",
+    "company": "Reforge",
+    "background": "Former CPO at Imperfect Foods, VP of Product/Growth at Patreon, VP of Growth at Lyft. Expert in growth leadership and hiring."
   },
-  "episodeSummary": "Adam Fishman dissects the mechanics of hiring growth leaders, optimizing onboarding for retention rather than just conversion, and evaluating career moves. He introduces the Growth Competency Model to help founders identify the right talent mix and explains why onboarding is the highest-leverage growth activity, supported by case studies from Patreon and Lyft.",
-  "keyTakeaways": [
-    "Treat onboarding as a retention lever, not a conversion lever; optimizing it can shift cohort retention curves by 10-20%.",
-    "Use 'proxy metrics' (e.g., time to first $100 earned) to measure onboarding success immediately rather than waiting for 90-day retention data.",
-    "Do not hire a 'Head of Growth' looking for a silver bullet; evaluate candidates based on specific competency gaps in your current team.",
-    "Internal transfers often outperform external hires for early growth roles because they already possess deep Customer Knowledge.",
-    "Apply 'Opinionated Defaults' in onboarding to make it difficult for users to make choices that data shows lead to failure.",
-    "Evaluate potential employers like an investor using the PMF framework (People, Mission, Financials) because time is a scarcer resource than capital.",
-    "Conduct backchannel reference checks on your potential manager and the company culture before accepting an offer."
-  ],
+  "episodeSummary": "Adam Fishman discusses his comprehensive Growth Competency Model for hiring and evaluating talent, explains why onboarding is a critical retention lever rather than just conversion, and shares his 'PMF' framework for evaluating potential employers.",
   "methodologies": [
     {
       "name": "The Growth Competency Model",
-      "category": "team-culture",
-      "problemItSolves": "Founders often hire the wrong growth profile (e.g., a strategist when they need an executor) or look for non-existent 'unicorn' hires.",
-      "summary": "A hiring and evaluation framework that breaks down growth expertise into four quadrants: Growth Execution, Customer Knowledge, Growth Strategy, and Communication/Influence. The goal is to build a team that covers all bases, rather than finding one person who is a 10/10 in everything.",
+      "category": "Talent & Leadership",
+      "summary": "A comprehensive framework for evaluating growth practitioners across four key dimensions to ensure a balanced team, rather than hunting for a non-existent 'unicorn' individual.",
       "principles": [
-        "Assess for Execution (Channel fluency, experimentation) and Customer Knowledge (Data fluency, psychology) for junior/first hires.",
-        "Assess for Strategy (Loop modeling, capital allocation) and Influence (Stakeholder management) for senior leadership roles.",
-        "Use the model to balance the team; if you have a strong strategist, hire an executor next."
+        "Don't look for one person who is an 11/10 in everything.",
+        "Balance skills across the team to cover gaps.",
+        "Use the model to give concrete feedback (e.g., 'improve loop modeling' vs 'be more strategic')."
       ],
-      "whenToUse": "When writing a job description for a growth role, evaluating candidates during interviews, or conducting performance reviews.",
-      "commonMistakes": "Hiring a 'silver bullet' strategist for an early-stage company that actually needs a 'brick-layer' to execute experiments.",
-      "quote": "If you don't know what you're doing... that very driven, hungry and enthusiastic person is going to run through a lot of brick walls, which is great, except they're going to miss the fact that the door was standing right next to the wall.",
-      "realWorldExample": "At Lyft, Adam hired Ben Lauzier (a marketer) because he had high 'Growth Execution' and 'Customer Knowledge' scores, even though he wasn't a senior strategist yet."
+      "problemItSolves": "Founders hiring the wrong growth profile (e.g., seeking a silver bullet) and lack of canonical standards for growth careers.",
+      "whenToUse": "During hiring to define role requirements, or during performance reviews to identify skill gaps.",
+      "commonMistakes": "Hiring a senior strategist when you need an executor (or vice versa); failing to test for basic execution skills.",
+      "quote": "The goal of the competency model is not to find a unicorn human being... The goal is to create a well-rounded team.",
+      "realWorldExample": "Hiring Ben Lauzier at Lyft (strong execution/customer knowledge) vs. Sean at Patreon (internal transfer with deep customer context).",
+      "visualizationType": "MindMap",
+      "visualizationData": {
+        "centralConcept": "Growth Competency Model",
+        "branches": [
+          {
+            "name": "Growth Execution",
+            "subBranches": [
+              "Channel Fluency",
+              "Experimentation",
+              "Productizing Learnings"
+            ]
+          },
+          {
+            "name": "Customer Knowledge",
+            "subBranches": [
+              "Data Fluency/Instrumentation",
+              "User Psychology",
+              "Narrative/Creative Approach"
+            ]
+          },
+          {
+            "name": "Growth Strategy",
+            "subBranches": [
+              "Growth Loop Modeling",
+              "Capital Allocation/Forecasting",
+              "Prioritization/Roadmapping"
+            ]
+          },
+          {
+            "name": "Communication & Influence",
+            "subBranches": [
+              "Strategic Communication",
+              "Team Leadership",
+              "Stakeholder Management"
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "Opinionated Defaults",
-      "category": "growth-metrics",
-      "problemItSolves": "New users often make suboptimal choices during setup due to decision fatigue or lack of context, leading to poor retention and low LTV.",
-      "summary": "Designing the onboarding flow to preset the most successful configurations for the user. It allows choice but adds friction to options that data suggests result in failure.",
+      "category": "Product Design / Onboarding",
+      "summary": "A product design principle where the platform uses data to pre-select the best choices for the user, making it 'hard to do the wrong thing' and 'easy to do the right thing.'",
       "principles": [
-        "Analyze high-LTV users to identify their setup patterns (e.g., specific pricing tiers or settings).",
-        "Set these patterns as the default state in the onboarding flow.",
-        "Add friction (extra clicks or warnings) if a user tries to select a configuration correlated with high churn."
+        "Identify high-propensity behaviors using data.",
+        "Set those behaviors as the default state.",
+        "Add friction to changing the default if the change leads to lower success."
       ],
-      "whenToUse": "During the 'Activation' phase of the user journey, specifically when users are configuring their account or profile.",
-      "commonMistakes": "Removing choice entirely (forcing the user) versus guiding them with strong defaults.",
-      "quote": "Opinionated defaults is basically making it hard to do the wrong thing... and easy to do the right thing, but not eliminating choice.",
-      "realWorldExample": "At Patreon, data showed creators with 3 pricing tiers earned more. The onboarding flow defaulted to 3 tiers. This intervention (along with human matching) increased first-month revenue by 25%."
+      "problemItSolves": "User paralysis during onboarding and users setting themselves up for failure by making suboptimal configuration choices.",
+      "whenToUse": "Designing complex setup flows (like creator pages or hosting settings) where users lack the expertise to choose correctly.",
+      "commonMistakes": "Offering a 'blank slate' or 'neutral' setup; assuming more choice equals better user experience.",
+      "quote": "Making it hard to do the wrong thing... and easy to do the right thing but not eliminating choice.",
+      "realWorldExample": "Patreon defaulting creators to a 3-tier pricing model (proven to work) rather than 1 tier or 40 tiers; Airbnb defaulting hosts to 'Instant Book'.",
+      "visualizationType": "DosDonts",
+      "visualizationData": {
+        "comparisonTopic": "Designing User Configuration",
+        "dos": [
+          "Do: Pre-select options correlated with high retention.",
+          "Do: Add friction (warnings/steps) when users deviate to suboptimal settings.",
+          "Do: Base defaults on aggregate success data (e.g., top 10% of users)."
+        ],
+        "donts": [
+          "Don't: Present a blank canvas/empty state.",
+          "Don't: Treat all configuration options as equally valid.",
+          "Don't: Force users to 'guess' the right settings without guidance."
+        ]
+      }
     },
     {
       "name": "PMF for Candidates",
-      "category": "career-leadership",
-      "problemItSolves": "Talented operators often join companies that are culturally toxic or financially unstable because they don't perform due diligence.",
-      "summary": "A decision-making framework for candidates to evaluate job offers based on three non-negotiable pillars: People, Mission, and Financials.",
+      "category": "Career Strategy",
+      "summary": "A decision-making framework for job seekers to evaluate potential employers based on three non-negotiable pillars: People, Mission, and Financials.",
       "principles": [
-        "People: Can you have productive disagreements with them? (Test this by asking about their last conflict).",
-        "Mission: Does the company actually improve lives or outcomes for its customers?",
-        "Financials: Does the company practice fiscal discipline? (Crucial in economic downturns)."
+        "Time is your scarcest resource; invest it like a VC invests money.",
+        "Do not settle for 2 out of 3.",
+        "Conduct 'due diligence' including backchannel references on future bosses."
       ],
-      "whenToUse": "Whenever you are considering a job offer or deciding between multiple offers.",
-      "commonMistakes": "Compromising on one pillar (e.g., great financials but toxic people) leads to burnout or short tenure.",
-      "quote": "You're investing an even more scarce resource [than money]. You're investing your time... You can always get more money... but time is fleeting.",
-      "realWorldExample": "Adam admits he failed to apply this at Wyzant (misaligned expectations on strategy) and Imperfect Foods (C-suite infighting), leading to difficult tenures."
-    }
-  ],
-  "notableQuotes": [
-    {
-      "text": "Onboarding is the only part of your product experience that a hundred percent of people are ever going to touch. Good luck getting a hundred percent feature adoption of anything else.",
-      "context": "Explaining why onboarding deserves disproportionate resources compared to other feature development."
-    },
-    {
-      "text": "Your brand is the promise that you're making and your product experience is your delivery of that promise.",
-      "context": "Defining the relationship between marketing (brand) and product, and how onboarding bridges the gap."
-    },
-    {
-      "text": "What is not scalable when you're using people becomes very scalable if you can replicate components of that with technology.",
-      "context": "Discussing how Patreon manually matched creators to success managers, learned what worked, and then built those lessons into the software."
+      "problemItSolves": "Joining a company that looks good on paper but has a toxic culture, no runway, or a mission you don't care about.",
+      "whenToUse": "When evaluating a job offer or deciding between multiple companies.",
+      "commonMistakes": "Shortcuting criteria; getting dazzled by the brand but ignoring the people or financial health.",
+      "quote": "You should have a set of criteria that you are unapologetically rigorous around.",
+      "realWorldExample": "Adam's mistake at Imperfect Foods (Great Mission/Financials, but 'People' aspect failed due to C-suite infighting).",
+      "visualizationType": "Scorecard",
+      "visualizationData": {
+        "evaluationTarget": "Company Evaluation (PMF)",
+        "metrics": [
+          {
+            "category": "People",
+            "criteria": "Can I have hard conversations? Do I respect the leadership?",
+            "weight": "High"
+          },
+          {
+            "category": "Mission",
+            "criteria": "Does the company improve lives? Is the outcome worth the effort?",
+            "weight": "High"
+          },
+          {
+            "category": "Financials",
+            "criteria": "Fiscal discipline, runway, and sustainable unit economics.",
+            "weight": "High"
+          }
+        ],
+        "scoringSystem": "Pass/Fail (Must have all 3)"
+      }
     }
   ],
   "filename": "Adam Fishman"

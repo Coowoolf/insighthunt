@@ -3,101 +3,125 @@
     "name": "Arielle Jackson",
     "title": "Marketer in Residence",
     "company": "First Round Capital",
-    "background": "Arielle spent nine years at Google helping grow Gmail, was one of the first marketers at Square launching the Square Stand, and has since advised over 100 early-stage companies including Patreon, Loom, and Sprig on brand and marketing strategy."
+    "background": "Former marketing leader at Google (Gmail) and Square; Consultant for Patreon, Loom, Front, Eero."
   },
-  "episodeSummary": "Arielle Jackson deconstructs the often amorphous concept of \"brand\" into a rigorous, step-by-step engineering process. She covers how to scientifically name a product, how to define a brand's purpose and personality, and why positioning must precede product development. The conversation provides specific frameworks for translating high-level company goals into concrete messaging that passes the \"human test.\"",
-  "keyTakeaways": [
-    "Positioning must happen before writing code; it dictates the product roadmap and marketing strategy.",
-    "A brand is not a logo or color palette; it is strictly defined as 'who people think you are'.",
-    "When naming, use a 'code name' so ridiculous you would never launch with it, preventing premature attachment to a mediocre placeholder.",
-    "Avoid 'empty vessel' names (like Yahoo or Eero) unless you have a massive budget to educate the market; suggestive names (like Seesaw) do the marketing work for you.",
-    "Use the 'Bar Test' to validate copy: if you wouldn't say the sentence to a friend at a bar, it shouldn't be on your website.",
-    "Start with a highly specific 'Model Persona' (e.g., a specific dad in St. Louis) to capture a broader target audience (e.g., tech-savvy dads).",
-    "Brands need tension to be interesting; define personality attributes as 'We are X, but not Y' (e.g., Playful but not silly).",
-    "For PR, stop doing straight funding announcements; use funding only as a hook to tell a larger story about product momentum or customer success."
-  ],
+  "episodeSummary": "Arielle Jackson breaks down the foundational elements of startup marketing, focusing on a rigorous naming protocol, a three-part brand framework (Purpose, Positioning, Personality), and tactical advice for early-stage PR and hiring.",
   "methodologies": [
     {
       "name": "The Seven-Criteria Naming Protocol",
-      "category": "product-strategy",
-      "problemItSolves": "Prevents teams from choosing names based on subjective feelings or trends that become dated, ensuring the name aids marketing efforts.",
-      "summary": "A structured approach to generating and vetting product names that moves from positioning to creative brainstorming, and finally to a rigorous objective filtering process.",
+      "category": "Naming Strategy",
+      "summary": "A rigorous filter to evaluate brainstormed names against objective constraints rather than subjective preference.",
       "principles": [
-        "Step 1: Write a Naming Brief. Define what the name must communicate, what to avoid, and competitive landscape.",
-        "Step 2: Conduct two specific brainstorms: one based on synonyms/antonyms of positioning words, and a second 'Thematic' brainstorm (e.g., if naming an AI farm tool, brainstorm 'History of Botany').",
-        "Step 3: Filter the shortlist (10-25 names) through a Red/Yellow/Green analysis against 7 criteria: Trademark, Domain, Distinctiveness, Timelessness, Reflection of Messaging, Sound/Pronunciation, and Appearance.",
-        "Step 4: Select 3-5 top contenders for legal review (never fall in love with just one)."
+        "Avoid 'naming trends' (e.g., dropping vowels) to ensure timelessness.",
+        "Assess distinctiveness to avoid sounding like competitors.",
+        "Verify trademark and domain availability early (red/yellow/green rating).",
+        "Consider visual appearance (symmetry/height) and auditory ease."
       ],
-      "whenToUse": "When launching a new company, a new product line, or rebranding due to a trademark conflict.",
-      "commonMistakes": "Falling for naming trends (e.g., dropping vowels like 'Flickr' or adding 'ly'), which dates the company quickly.",
+      "problemItSolves": "Prevents founders from choosing names based on 'gut feel' that fail legally, visually, or strategically later on.",
+      "whenToUse": "After generating a shortlist of 10-25 candidate names during a brainstorming session.",
+      "commonMistakes": "Falling in love with a name before checking trademark availability; choosing a 'trendy' name that dates the company.",
       "quote": "A good name is just going to help you, but I don't think a bad name is going to kill a good company.",
-      "realWorldExample": "Naming the ed-tech company 'Seesaw' because it evokes the back-and-forth between teacher, parent, and student, and taps into childhood nostalgia."
+      "realWorldExample": "Seesaw (evocative, fits the back-and-forth of education) vs. Lattice (rejected because 'Lettuce' confusion).",
+      "visualizationType": "Scorecard",
+      "visualizationData": {
+        "metrics": [
+          "Trademark / Legal Use",
+          "Domain Availability",
+          "Distinctiveness / Memorability",
+          "Timelessness (Avoid Trends)",
+          "Reflection of Key Messaging",
+          "Sound / Pronunciation Ease",
+          "Visual Appearance / Length"
+        ],
+        "ratingScale": "Red / Yellow / Green"
+      }
     },
     {
       "name": "The 'Bar Test' Positioning Framework",
-      "category": "product-strategy",
-      "problemItSolves": "Eliminates jargon-filled, vague value propositions (like 'empowers' or 'leverages') that customers ignore.",
-      "summary": "A method to distill complex product features into a single, human-readable statement that explains exactly what the product is and why it matters, verified by reading it aloud.",
+      "category": "Positioning",
+      "summary": "A role-play exercise to ensure positioning statements sound like human conversation rather than corporate jargon.",
       "principles": [
-        "Step 1: Define the concentric circles of your audience. TAM (outer), Target Audience (middle), Model Persona (center dot).",
-        "Step 2: Answer the core questions: Who is it for? What is their problem? How do they solve it today? What do you make?",
-        "Step 3: Fill out the positioning statement: 'For [Target Audience] who [Statement of Need], [Product Name] is a [Category] that [Key Benefit]. Unlike [Alternative], our product [Differentiator].'",
-        "Step 4: Execute the Bar Test. Imagine saying this statement to a friend at a bar. If it sounds robotic (e.g., 'We leverage AI to empower...'), rewrite it until it sounds like natural speech (e.g., 'It turns your iPad into a cash register')."
+        "Positioning must be colloquial enough to say to a friend at a bar.",
+        "Avoid words people don't speak aloud (e.g., 'leverages', 'empowers').",
+        "Structure: What is it + Benefit + Differentiator.",
+        "If the friend asks 'What do you mean?', the test is failing."
       ],
-      "whenToUse": "Before writing website copy, creating a pitch deck, or even writing the first line of code for a new feature.",
-      "commonMistakes": "Using corporate verbs like 'empower,' 'optimize,' or 'leverage' instead of concrete actions.",
-      "quote": "If you can't explain what you do to me in a sentence, you have a positioning problem.",
-      "realWorldExample": "Square Stand's positioning was distilled to: 'Turn your iPad into a point of sale.' Simple, descriptive, and human."
+      "problemItSolves": "Eliminates 'marketing fluff' and incomprehensible B2B jargon from the core value proposition.",
+      "whenToUse": "Immediately after drafting the formal positioning statement, before writing website copy.",
+      "commonMistakes": "Trying to sound too 'smart' or 'corporate' instead of clear; ADP's 'make summer fun' campaign failing the authenticity test.",
+      "quote": "If you can't explain what you do to me in a sentence... you have a positioning problem.",
+      "realWorldExample": "Square Stand: 'Turns your iPad into a Point of Sale' (Human) vs. 'Leverages tablet hardware for merchant transactions' (Corporate).",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "Step 1: Set the Scene (You are at a bar with a target persona)",
+          "Step 2: The Trigger ('Hey, I just started using [Product]')",
+          "Step 3: The Explanation (Speak the Benefit + Category naturally)",
+          "Step 4: The Validation (Does the friend nod, or ask 'What?')"
+        ]
+      }
     },
     {
       "name": "The Brand Tension Star",
-      "category": "team-culture",
-      "problemItSolves": "Prevents brand personalities from being generic, boring, or schizophrenic (e.g., a security company trying to be 'fun').",
-      "summary": "A framework to define the tone and voice of the product by identifying where it sits on standard dimensions and establishing guardrails against over-indexing on those traits.",
+      "category": "Brand Personality",
+      "summary": "A framework to define brand personality by selecting two dominant traits from Aaker's 5 Dimensions and creating tension-based attributes.",
       "principles": [
-        "Step 1: Analyze Jennifer Aaker's 5 Brand Dimensions (Sincerity, Excitement, Competence, Sophistication, Ruggedness) and pick the two your brand spikes in.",
-        "Step 2: Define 5 specific attributes using the 'X but not Y' format.",
-        "Step 3: Ensure 'Y' represents the negative extreme of 'X'. (e.g., 'We are playful, but not silly' or 'We are daring, but not stupid').",
-        "Step 4: Use these 5 statements to audit all copy, design, and customer support interactions."
+        "Brands need tension to be interesting; pure positivity is boring.",
+        "Select two dominant spikes (e.g., Sincerity + Competence).",
+        "Define attributes using the formula: 'We are X, but not Y' (where Y is the negative extreme of X).",
+        "Based on Jennifer Aaker's 5 Dimensions of Brand Personality."
       ],
-      "whenToUse": "When creating a style guide, hiring writers/agencies, or deciding on the visual identity of the product.",
-      "commonMistakes": "Listing generic positive traits without the 'but not' tension (e.g., 'We are nice, helpful, and reliable' tells you nothing).",
-      "quote": "Brands need tension to be interesting.",
-      "realWorldExample": "Google's early brand attribute was defined as 'Playful, but not silly,' distinguishing it from a standard utility while maintaining competence."
+      "problemItSolves": "Prevents generic brand personalities (e.g., 'we are nice and helpful') by forcing specific constraints.",
+      "whenToUse": "When defining the voice, tone, and visual identity of the brand.",
+      "commonMistakes": "Listing compatible adjectives (e.g., 'We are reliable and smart') instead of creating tension.",
+      "quote": "Google is playful, but not silly. Mountain Dew is daring, but not stupid.",
+      "realWorldExample": "Rolex (Sophisticated/Competent) vs. Mountain Dew (Rugged/Exciting).",
+      "visualizationType": "DosDonts",
+      "visualizationData": {
+        "pairs": [
+          {
+            "do": "Playful",
+            "dont": "Silly"
+          },
+          {
+            "do": "Daring",
+            "dont": "Stupid"
+          },
+          {
+            "do": "Confident",
+            "dont": "Arrogant"
+          },
+          {
+            "do": "Simple",
+            "dont": "Basic"
+          }
+        ]
+      }
     },
     {
       "name": "The Purpose Discovery Process",
-      "category": "team-culture",
-      "problemItSolves": "Aligns the team on a 10-year North Star and gives customers a reason to root for the company beyond the product's utility.",
-      "summary": "A brainstorming exercise to find the intersection between what the world needs (cultural tension) and what the brand delivers at its best.",
+      "category": "Brand Strategy",
+      "summary": "A method to find a company's 'North Star' by finding the intersection between external cultural forces and internal product truths.",
       "principles": [
-        "Step 1: List relevant 'Cultural Tensions'—what is happening in the zeitgeist or the customer's life that creates anxiety or need (e.g., 'Operations people are overworked').",
-        "Step 2: List the 'Brand's Best Self'—how customers describe the product when it works perfectly.",
-        "Step 3: Combine these to finish the sentence: 'The world would be a better place if...' and 'We exist to...'",
-        "Step 4: Refine into a single sentence that explains the change you want to see in the world, irrespective of financial gain."
+        "Purpose is why you exist beyond financial gain.",
+        "Identify 'Cultural Tensions' (Zeitgeist/what's happening in the world).",
+        "Identify 'Brand's Best Self' (What the product actually delivers).",
+        "Combine them to finish the sentence: 'We exist to...'"
       ],
-      "whenToUse": "During early company formation or when the company has lost its way and needs to realign hiring and strategy.",
-      "commonMistakes": "Confusing purpose with 'mission', 'vision', and 'values'. You only need one clear Purpose statement.",
-      "quote": "Your purpose is why you do what you do. It makes people want to root for you.",
-      "realWorldExample": "LogicLoop's purpose: 'To make operations data work harder than operations people.'"
-    }
-  ],
-  "notableQuotes": [
-    {
-      "text": "I'll never write a line of code without doing positioning first.",
-      "context": "A student in Arielle's course realizing that building product without defining who it is for is a waste of engineering time."
-    },
-    {
-      "text": "Disney means magic today. Volvo means safety. Those names are not good. If I just put it in a spreadsheet... no one would pick it.",
-      "context": "Explaining that brand equity is built over time through consistency, not just by picking a clever name."
-    },
-    {
-      "text": "Tech savvy dads... lived in suburban St. Louis, had a 2,800 Square foot house that was made of brick... He was the VP of sales... more of a tech enthusiast than an actual software engineer.",
-      "context": "Describing the incredibly specific 'Model Persona' used to launch Eero, illustrating the power of niche focus."
-    },
-    {
-      "text": "Startups don't have enough runway to be everything to everyone.",
-      "context": "The business case for why narrowing your target audience is a survival mechanism, not a limitation."
+      "problemItSolves": "Aligns the team on a 10-year vision and gives customers a reason to root for the company.",
+      "whenToUse": "Early in company formation or during a rebrand; distinct from the 18-month positioning strategy.",
+      "commonMistakes": "Confusing purpose with 'mission', 'vision', or 'values'—just pick one clear purpose statement.",
+      "quote": "The world would be a better place if [result]... We exist to [action].",
+      "realWorldExample": "LogicLoop: 'Make operations data work harder than operations people.' (Tension: burnout in ops vs. Truth: automation).",
+      "visualizationType": "Equation",
+      "visualizationData": {
+        "terms": [
+          "Cultural Tensions (Zeitgeist)",
+          "Brand's Best Self (Product Truths)"
+        ],
+        "result": "Brand Purpose (Why we exist)",
+        "operator": "+"
+      }
     }
   ],
   "filename": "Arielle Jackson"

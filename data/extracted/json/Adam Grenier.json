@@ -2,62 +2,61 @@
   "guest": {
     "name": "Adam Grenier",
     "title": "Advisor & Investor",
-    "company": "Former Uber, Masterclass",
-    "background": "Former Head of Growth Marketing & Innovation at Uber and VP of Marketing at Masterclass. He is a recognized authority on building growth infrastructure, pioneering the 'Growth CMO' role, and scaling complex marketplaces."
+    "company": "Reforge / A16Z (Scout) / Self-Employed",
+    "background": "Former Head of Growth Marketing & Innovation at Uber, VP of Product & Marketing at Lambda School, and VP of Marketing at Masterclass. Currently advises startups and invests."
   },
-  "episodeSummary": "Adam Grenier dissects the intersection of growth marketing and product strategy, offering a rigorous framework for evaluating emerging acquisition channels rather than chasing trends. He defines the modern \"Growth CMO\" role, arguing for the integration of product mechanics into marketing leadership. The conversation also provides a raw, necessary look at distinguishing between professional burnout and clinical depression in high-pressure tech environments.",
-  "keyTakeaways": [
-    "Assume you have lost Product-Market Fit during economic shifts because the 'Market' variable has changed, necessitating a re-evaluation of the core customer base rather than just launching new channels.",
-    "Apply the 'Medium Match' test before testing a new channel: Do the channel's specific strengths (e.g., audio discovery) overlap with both customer needs and company goals?",
-    "Leverage 'Channel DNA' by aligning with a platform's monetization strategy; if you help them solve their own ad-product problems (like Hotel Tonight did for FB), you gain a strategic advantage.",
-    "Cap emerging channel experiments at one quarter; if you don't see qualitative momentum or positive 'fishing' signals by then, put it on ice.",
-    "Adopt the 'Growth CMO' mindset by applying Agile product development principles (sprints, backlogs, iteration) to brand and marketing campaigns.",
-    "Distinguish burnout from depression by monitoring 'adaptability'; burnout usually retains openness to change/fun, whereas depression manifests as a shutdown of adaptability and avoidance of joy."
-  ],
+  "episodeSummary": "Adam Grenier joins Lenny to discuss the evolution of growth marketing, offering a framework for evaluating emerging acquisition channels like TikTok or influencers. He defines the 'Growth CMO' role, contrasting it with traditional marketing leadership, and emphasizes the integration of product and marketing. The conversation also covers mental health, distinguishing between burnout and depression in high-pressure tech environments.",
   "methodologies": [
     {
       "name": "Emerging Channel Evaluation Framework",
-      "category": "growth-metrics",
-      "problemItSolves": "Prevents teams from wasting resources chasing 'hot' new channels (FOMO) that structurally do not fit the business model.",
-      "summary": "A three-part filter to determine if an emerging channel is worth the investment. It moves beyond popularity to analyze the structural alignment between the channel's medium, the company's DNA, and the customer's needs.",
+      "category": "Growth Strategy",
+      "summary": "A three-step framework to determine if a company should invest resources into a new or unproven acquisition channel, focusing on strategic fit, channel maturity, and internal readiness.",
       "principles": [
-        "Analyze Medium Match: Ensure an overlap exists between Customer Needs, Company Goals, and the functional Strengths of the channel (e.g., Spotify fits Clubhouse; Notion does not).",
-        "Assess Channel DNA & Monetization: Evaluate if your business model supports the channel's own monetization goals. If you help them prove their ad model works, you get alpha access.",
-        "Audit Company DNA: Verify internal risk profile. Never divert resources to unproven channels if your core channels (Google/FB) represent a leaky bucket."
+        "Strategic Overlap: Ensure the channel's strengths align with customer needs and company goals.",
+        "Channel DNA: Assess the channel's trajectory, risk of change, and monetization model.",
+        "Company DNA: Evaluate internal risk tolerance, resource bandwidth, and the stability of existing channels."
       ],
-      "whenToUse": "When leadership suggests jumping on a trend (e.g., 'We need a TikTok strategy') or when seeking the next S-curve of growth after core channels flatten.",
-      "commonMistakes": "Testing a new channel when core channels aren't working yet; applying B2B tactics to consumer-entertainment platforms without adjusting for the medium.",
-      "quote": "If you just assume you need to launch a new channel to fix this problem, you're going to be wrong... start by assuming you no longer have product market fit.",
-      "realWorldExample": "Hotel Tonight gaining early access to Facebook Mobile Ads because they positioned themselves as the perfect case study for Facebook's need to prove non-gaming ad efficacy."
+      "problemItSolves": "Prevents teams from wasting resources on 'hot' new channels (like Clubhouse or VR) that don't align with their business model or stage.",
+      "whenToUse": "When deciding whether to launch an experiment on a new platform (e.g., TikTok, Influencers, OTT).",
+      "commonMistakes": "Jumping into a channel just because it is trending without checking if it serves the specific customer need; expecting immediate scalable results from an immature platform.",
+      "quote": "Start by assuming you no longer have product market fit... It's a different market now... But if you just assume you need to launch a new channel to fix this problem, you're going to be wrong.",
+      "realWorldExample": "Spotify and Clubhouse (Good overlap: Audio-first, discovery needs); Hotel Tonight and Facebook Mobile Ads (Monetization alignment).",
+      "visualizationType": "StepFlow",
+      "visualizationData": {
+        "steps": [
+          "1. Assess Strategic Overlap (Customer Needs + Company Goals + Channel Strengths)",
+          "2. Analyze Channel DNA (Trajectory, Volatility, Monetization Model)",
+          "3. Evaluate Company DNA (Risk Appetite, Team Bandwidth, Current Channel Mix)"
+        ]
+      }
     },
     {
       "name": "The Growth CMO Model",
-      "category": "career-leadership",
-      "problemItSolves": "Addresses the high failure rate of traditional CMOs in product-led growth companies by bridging the cultural and operational gap between Engineering/Product and Marketing.",
-      "summary": "A leadership approach where marketing operates with the rigor, data-dependence, and iterative cadence of an engineering team. It dissolves the barrier between 'product' and 'promotion,' treating brand as an iterative investment rather than a static asset.",
+      "category": "Organizational Structure",
+      "summary": "A leadership model that shifts marketing from a siloed, campaign-based function to an iterative, data-driven discipline deeply integrated with product development.",
       "principles": [
-        "Brand as Iteration: Treat brand investments/campaigns as experiments requiring rapid feedback loops and data validation, not just 'launch and leave'.",
-        "Agile Marketing Operations: Run marketing teams using product methodologies—sprints, backlogs, and retrospectives—to align cadence with product teams.",
-        "The T-Shaped Leader: Acknowledge the 'Valley of Despair' in skill gaps (e.g., a performance marketer doing PR) and hire specifically to fill the non-dominant side of the T."
+        "Integration: Marketing and Product are 'married at the hip' rather than separate silos.",
+        "Iteration: Shift from long-term rigid planning to agile sprints and rapid feedback loops.",
+        "Full-Funnel Experimentation: Apply testing rigor to brand, retention, and creative, not just acquisition.",
+        "Data Orientation: Use data to drive decisions across brand investments and customer lifecycle."
       ],
-      "whenToUse": "When hiring a marketing leader for a Series B+ product-led company, or when significant friction exists between Product and Marketing teams regarding goals.",
-      "commonMistakes": "Creating silos where Product builds the feature and Marketing simply 'colors in the box' later; assuming 'performance' means ignoring brand health.",
+      "problemItSolves": "Resolves the friction between traditional CMOs and modern product-led organizations, where traditional methods fail to adapt to rapid changes.",
+      "whenToUse": "When hiring marketing leadership for a tech/product-driven company or restructuring the marketing function.",
+      "commonMistakes": "Hiring a traditional brand CMO for an early-stage product company; treating brand as a 'campaign' rather than an iterative investment.",
       "quote": "Product is no longer a part of marketing... they're married at the hip. They're one and the same.",
-      "realWorldExample": "Using the 'Yes, and...' improv technique to bridge cross-functional conflicts between central growth teams and local city operations at Uber."
-    }
-  ],
-  "notableQuotes": [
-    {
-      "text": "Start by assuming you no longer have product market fit, because you had product market fit in a different market.",
-      "context": "On how to react to economic downturns or major market shifts."
-    },
-    {
-      "text": "If you go and dedicate two quarters of work to Clubhouse, I need to accept that they are so early in this curve that there's a good chance this is a once in a lifetime opportunity and it'll be over.",
-      "context": "On accepting the risk profile of testing very early-stage channels."
-    },
-    {
-      "text": "When I'm exhausted, I'll still show up to work... I'm going to go and if I can take an improv class, it's going to be a blast... If I'm depressed, I won't go to that improv class.",
-      "context": "On the specific behavioral difference between burnout and depression."
+      "realWorldExample": "Coca-Cola's early coupon strategy (an early example of marketplace dynamics and growth thinking applied to product distribution).",
+      "visualizationType": "BeforeAfter",
+      "visualizationData": {
+        "before": "Traditional CMO",
+        "after": "Growth CMO",
+        "changes": [
+          "Campaign-based → Iterative & Ongoing",
+          "Siloed from Product → Integrated with Product",
+          "Annual/Multi-year Planning → Agile Sprints",
+          "Brand as 'Action' → Brand as Investment Loop",
+          "Learning-focused → Performance & Data-driven"
+        ]
+      }
     }
   ],
   "filename": "Adam Grenier"

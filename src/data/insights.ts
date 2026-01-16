@@ -50,6 +50,9 @@ function transformData() {
                 guestTitle: episode.guest.title,
                 guestCompany: episode.guest.company,
                 episodeSummary: episode.episodeSummary,
+                // Dynamic visualization
+                visualizationType: m.visualizationType,
+                visualizationData: m.visualizationData,
             };
             methodologies.push(methodology);
             guest.methodologies.push(methodology);
