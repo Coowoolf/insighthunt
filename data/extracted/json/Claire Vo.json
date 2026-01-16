@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Claire Vo",
+    "title": "Chief Product Officer",
+    "company": "LaunchDarkly",
+    "background": "A veteran product leader (CPO at Color, Optimizely, LaunchDarkly) and serial founder who codes. She is the creator of ChatPRD and is known for operating at high velocity in late-stage companies while bridging the gap between product and engineering."
+  },
+  "episodeSummary": "Claire Vo dismantles the myth that late-stage companies must move slowly, introducing her 'one click faster' philosophy for organizational velocity. She explores the evolving CPTO role, actionable strategies for bending career trajectories to one's will, and how AI tools like her own ChatPRD are shifting the product management craft from 'lowercase c' documentation to 'Capital C' influence.",
+  "keyTakeaways": [
+    "Decouple decision-making from meeting cadences; never wait for a recurring meeting to make a decision that can be made today.",
+    "Apply the 'One Click Faster' rule: if you think it takes a year, aim for a half; if a half, aim for a quarter.",
+    "Conduct a 'Zone of Genius' audit by categorizing calendar activities into 'hated', 'tolerated', 'liked', and 'loved/unique value' to focus career growth.",
+    "When seeking promotion, propose a solution to an organizational problem (e.g., a leadership gap) rather than asking for a title change.",
+    "Maintain a hyper-responsive 'Personal SLA' to ensure you are never the bottleneck for your engineering or product teams.",
+    "Use AI to automate 'lowercase c' communication (specs, updates, summaries) so you can focus on 'Capital C' communication (influence, alignment, boldness).",
+    "Adopt the 'Short Toes' principle: allow engineering and design to step into product lanes and vice versa to increase velocity."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'One Click Faster' Operating Model",
+      "category": "execution",
+      "problemItSolves": "Combats the natural entropy and sluggishness that infects growing organizations, where 'operating like a big company' becomes an excuse for slowness.",
+      "summary": "A tactical approach to resetting organizational clock speed. It rejects the idea that pace must degrade with scale by systematically pulling timelines forward and decoupling execution from administrative cadences.",
+      "principles": [
+        "Pull the Clock Forward: Explicitly ask teams to bring timelines in by one increment (Year -> Half, Half -> Quarter, Quarter -> Month).",
+        "Decouple Decisions from Meetings: Never use 'we'll discuss next week' refers to a recurring meeting. Discuss now, decide tomorrow.",
+        "Zero-Latency Personal SLA: As a leader, ensure your response time for approvals or unblocking is near-instant to set the rhythm for the org.",
+        "Fast Beats Right: Prioritize directional speed over perfect analysis; momentum solves more problems than hesitation."
+      ],
+      "whenToUse": "When joining a later-stage company that has become lethargic, or when a team defaults to 'we'll review this in the next sprint' mentality.",
+      "commonMistakes": "Simply demanding speed without unblocking the team yourself (failing the Personal SLA) or compromising the talent bar.",
+      "quote": "If you think something needs to be done this year, it needs to be done this half.",
+      "realWorldExample": "At LaunchDarkly, Claire explicitly communicated the expectation of bringing clock speed 'one click faster' to leadership, which shifted the cultural norm from waiting for meeting cycles to immediate execution."
+    },
+    {
+      "name": "The 'Org Architect' Career Strategy",
+      "category": "career-leadership",
+      "problemItSolves": "Addresses career stagnation where PMs feel trapped in their current scope or wait passively for promotions that depend on rigid cycles.",
+      "summary": "A proactive method for career advancement that involves identifying organizational gaps and proposing structural changes that solve a business problem while elevating your own role.",
+      "principles": [
+        "Identify the Vacuum: Look for leadership gaps or dysfunctional areas outside your direct scope (e.g., Marketing or Engineering).",
+        "Draw the Chart: Literally map out a new org structure that solves the problem, placing yourself in the solution role.",
+        "Pitch the Business Value: Frame the proposal as 'solving a leverage/span-of-control issue for the company,' not 'I want a promotion.'",
+        "Bend the Universe: Assume organizational structures are fluid and can be reshaped around high-talent individuals."
+      ],
+      "whenToUse": "When you are a high-performing individual contributor or manager hitting a ceiling, or when you see a peer leader leave creating a void.",
+      "commonMistakes": "Focusing the pitch on your personal need for growth rather than the company's need for stability or efficiency.",
+      "quote": "The universe is bendable to your will... just because we're organized in a particular way now doesn't mean that's the way they have to be.",
+      "realWorldExample": "When the head of marketing left her previous company, Claire drew an org chart combining product and marketing/growth, pitched it to her boss as a solution to the vacancy, and successfully took over that expanded scope."
+    },
+    {
+      "name": "The 'Capital C' Communication Shift",
+      "category": "product-strategy",
+      "problemItSolves": "Prepares Product Managers for the AI era where functional documentation (writing specs) is commoditized, risking the relevance of the traditional PM role.",
+      "summary": "A framework for bifurcating PM work into tasks AI can handle versus human-centric leadership. It encourages PMs to offload structural work to focus on high-leverage influence.",
+      "principles": [
+        "Automate 'Lowercase c' Communication: Use AI (like ChatPRD) for functional trading of information—specs, agendas, status updates.",
+        "Doubledown on 'Capital C' Communication: Focus energy on influence, boldness, convincing stakeholders, and navigating complex human systems.",
+        "Treat Prompting as a Product Skill: Learn to build non-deterministic products by mastering context and instruction in prompts.",
+        "Synthesize vs. Generate: Shift value proposition from 'generating the idea' to 'synthesizing inputs into a winning plan'."
+      ],
+      "whenToUse": "When PMs feel overwhelmed by administrative overhead or fear their role is being threatened by AI efficiency.",
+      "commonMistakes": "Resisting AI tools to 'protect' the craft of writing requirements, rather than evolving to become a product editor and strategist.",
+      "quote": "Is it going to eliminate PMs next year? Probably not. Are the skills required going to shift? Yes.",
+      "realWorldExample": "Claire uses ChatPRD to generate the 'boring' parts of technical specs (e.g., data export requirements for Snowflake) so she can spend her time on the product narrative and stakeholder alignment."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "People often think that I get hired into later stage companies because I'm supposed to teach them how to operate like a big company, and in fact, I say I'm hired to remind them they can operate like a startup.",
+      "context": " discussing her philosophy on speed and bureaucracy in large organizations."
+    },
+    {
+      "text": "Fast beats right.",
+      "context": "Claire's life motto regarding decision-making and execution."
+    },
+    {
+      "text": "The universe is bendable to your will.",
+      "context": "Her core advice for founders and career-driven individuals about not accepting the status quo as fixed."
+    },
+    {
+      "text": "She may be just a prompt, but she is prompt.",
+      "context": "Describing her AI tool, ChatPRD, and the value of immediate iterations."
+    }
+  ],
+  "filename": "Claire Vo"
+}

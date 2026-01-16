@@ -1,0 +1,86 @@
+{
+  "guest": {
+    "name": "Dan Shipper",
+    "title": "Co-founder and CEO",
+    "company": "Every",
+    "background": "Dan Shipper is a writer, engineer, and entrepreneur who runs Every, a media and product incubation company. He is a leading voice in the 'AI-first' movement, famously operating a 15-person team that builds four products and a daily newsletter with zero manual coding."
+  },
+  "episodeSummary": "Dan Shipper joins Lenny to dismantle the traditional software development lifecycle, revealing how Every operates at the bleeding edge of AI adoption. The conversation explores the shift from 'building' to 'allocation' (managing agents), detailed workflows for engineering teams that don't write code, and a product strategy based on unbundling expensive human services. Shipper provides a concrete look at how non-technical and technical leaders alike can utilize local agents (like Claude Code) to achieve massive productivity gains.",
+  "keyTakeaways": [
+    "Hire a 'Head of AI Operations' whose sole KPI is to audit internal workflows and build prompts/automations to remove repetitive tasks for the team.",
+    "Shift engineering metrics from 'lines of code' to 'agent management'; at Every, engineers no longer write code manually but instead manage suites of agents (like Claude Code) via detailed PRDs.",
+    "Utilize 'Local Agent' workflows (e.g., Claude Code, Gemini CLI) to process sensitive local files (meeting notes, codebases) for deep analysis without uploading to a web chat interface.",
+    "Adopt the 'Service Unbundling' strategy for product ideation: Identify expensive services (legal, chief of staff, copy editing) and build AI wrappers that democratize access to them.",
+    "Implement 'Compounding Engineering': Every unit of work should produce a prompt or automation that makes the next unit of work faster (e.g., a prompt that writes PRDs based on rough notes).",
+    "Foster AI adoption through 'Social Proof Loops': CEOs must use the tools visibly, hold weekly 'prompt share' meetings, and publish internal usage stats to gamify adoption."
+  ],
+  "methodologies": [
+    {
+      "name": "The Service Unbundling Strategy",
+      "category": "product-strategy",
+      "problemItSolves": "Helps product teams identify high-value, high-demand product opportunities in a saturated market by looking beyond 'another SaaS app'.",
+      "summary": "A framework for ideation that focuses on taking expensive, exclusive human services (lawyers, therapists, chiefs of staff) and democratizing them via AI wrappers. Instead of inventing new behaviors, it automates existing high-value behaviors that were previously cost-prohibitive.",
+      "principles": [
+        "Identify 'Luxury' Services: Look for services only rich people or large companies buy (e.g., on-call lawyers, professional copy editors, chiefs of staff).",
+        "Internal Dogfooding: Build a 'wrapper' (simple interface over an LLM) to solve this problem for your own team first.",
+        "The Vibe Check: Evaluate success based on internal 'vibes' and high-frequency usage by your own team, rather than external market research.",
+        "Unbundle to SaaS: Once the internal tool (the wrapper) becomes indispensable, spin it out as a standalone product."
+      ],
+      "whenToUse": "When brainstorming new product lines or features, especially for teams looking to leverage AI to disrupt service-heavy industries.",
+      "commonMistakes": "Over-complicating the MVP before validating if the AI model can actually perform the specific 'human' task effectively.",
+      "quote": "There are a lot of expensive services that rich people and big companies are paid for right now... what cheap intelligence does is it makes those kinds of things affordable for small companies and individuals.",
+      "realWorldExample": "Every built 'Cora' (an AI Chief of Staff for email) and 'Sparkle' (file cleaner) because they needed these expensive human-level services internally but couldn't afford to hire humans for them."
+    },
+    {
+      "name": "The Agentic Engineering Loop",
+      "category": "execution",
+      "problemItSolves": "Allows small teams to ship enterprise-grade software at high velocity by removing the bottleneck of manual syntax generation.",
+      "summary": "A development workflow where engineers stop writing code manually and start acting as 'Agent Managers'. The focus shifts from syntax to architecture, requirements gathering, and code review.",
+      "principles": [
+        "Prompt-Driven Architecture: Engineers spend their time writing detailed PRDs and instructions in English rather than writing functions in Python/JS.",
+        "Multi-Agent Deployment: Use specific agents for specific tasks (e.g., one instance of Claude Code for coding, an 'Agent Charlie' for GitHub PR reviews).",
+        "Compounding Prompts: Build a library of prompts that turn rough notes into technical specs, ensuring that the setup for the agent gets faster every time.",
+        "Review-Centric Quality Control: The human's primary role shifts to high-level code review and 'vibe checking' the output, rather than debugging syntax."
+      ],
+      "whenToUse": "For lean engineering teams or startups that need to output a volume of work usually requiring 5-10x the headcount.",
+      "commonMistakes": "Assuming non-technical people can do this immediately; you still need engineers to understand *what* the code is doing during the review phase.",
+      "quote": "No one is manually coding anymore. Organizations like ours, people who are playing at the edge, we're doing things that, in three years, everybody else is going to be doing.",
+      "realWorldExample": "The 'Cora' team (2 engineers) manages 15 instances of Claude Code simultaneously to build and maintain a product serving millions of emails, effectively doing the work of a 20-person team."
+    },
+    {
+      "name": "The AI-First Cultural Rollout",
+      "category": "team-culture",
+      "problemItSolves": "Overcomes internal resistance and 'usage stagnation' where employees don't adopt AI tools despite having access to them.",
+      "summary": "A change management framework to transition a company from 'AI-curious' to 'AI-native' by leveraging leadership behavior and social proof.",
+      "principles": [
+        "The CEO Benchmark: The CEO must visibly use AI daily. If the leader delegates AI usage, the team will view it as 'low status' work.",
+        "The 'Tobi Memo' Strategy: Send a company-wide memo declaring the company AI-first, explicitly stating 'I wrote this email with ChatGPT, and you should too.'",
+        "Weekly Prompt Shares: Host a weekly meeting dedicated solely to team members showing off a prompt that saved them time.",
+        "Usage Leaderboards: Publish weekly stats on who is using the AI tools the most to gamify adoption and highlight the '10% early adopters' who will teach the others."
+      ],
+      "whenToUse": "When an organization has purchased Copilot/ChatGPT Enterprise licenses but sees low active usage rates.",
+      "commonMistakes": "Treating AI adoption as a compliance requirement rather than a productivity unlock; failing to identify and reward the internal 'power users'.",
+      "quote": "If the CEO is in it all the time... everybody else is going to start doing it. If the CEO is like, 'I don't know, this is for someone else,' no one else is going to be able to lead that charge.",
+      "realWorldExample": "The hedge fund Walleye sent a memo explicitly stating the CEO used ChatGPT to write it, and they now hold weekly meetings where employees demo their best prompts to the rest of the firm."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The business you're building, the team you're building, the way you're operating is the very bleeding edge of how companies are trying to operate in this AI era.",
+      "context": "Lenny setting the stage for why Dan Shipper's operational model at Every is significant."
+    },
+    {
+      "text": "I think that AI may be one of the biggest forces for reshoring American jobs.",
+      "context": "Dan's contrarian take on how AI allows small US teams to outcompete large offshore call centers."
+    },
+    {
+      "text": "Software is becoming content.",
+      "context": "Dan describing how building software is becoming as accessible and creative as writing a blog post."
+    },
+    {
+      "text": "Right now, management skills are not broadly distributed... It's now going to be much cheaper to manage, so more people are going to have to do it.",
+      "context": "Explaining the 'Allocation Economy' where individual contributors must learn to manage AI agents."
+    }
+  ],
+  "filename": "Dan Shipper"
+}

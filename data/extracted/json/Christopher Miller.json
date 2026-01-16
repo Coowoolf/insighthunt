@@ -1,0 +1,105 @@
+{
+  "guest": {
+    "name": "Chris Miller",
+    "title": "VP of Product, Growth and AI",
+    "company": "HubSpot",
+    "background": "Chris started as an individual contributor PM at HubSpot and helped establish their early growth team, playing a pivotal role in shifting HubSpot from a sales-led to a product-led growth (PLG) giant. He now leads both Growth and AI teams and serves as an Operator in Residence at OpenView."
+  },
+  "episodeSummary": "Chris Miller breaks down HubSpot's evolution from a sales-heavy inbound marketing company to a Product-Led Growth powerhouse. He shares the specific tactics used to build the initial growth team, how to navigate the tension between sales and self-service, and the critical distinction between mentors and sponsors in career development. The conversation covers the 'hybrid' reality of B2B PLG, why most companies fail at transitioning, and how to maintain customer obsession at scale.",
+  "keyTakeaways": [
+    "Product-Led Growth (PLG) does not mean 100% self-service; it means the product is the primary revenue driver while humans act as a backstop for complex edge cases.",
+    "When defining problems in PRDs, explicitly distinguish between a 'Business Problem' and a 'Customer Problem'—never conflate the two.",
+    "A Growth PM needs resilience above all else; expect a 70-80% failure rate on experiments. If you are winning more than 30% of the time, your bets are too small.",
+    "To accelerate your career, seek 'Sponsors' (who bet political capital on you) rather than just 'Mentors' (who give advice).",
+    "PLG investments should be treated as R&D, not immediate sales optimization; patience is required for the seed to bear fruit.",
+    "Identify 'orphaned' assets in your product (like a neglected pricing page) and take radical accountability for them to drive unexpected growth.",
+    "Use 'Micro-apps' (free, single-utility tools like Website Grader) as a diversified channel to drive top-of-funnel traffic outside of SEO."
+  ],
+  "methodologies": [
+    {
+      "name": "The Hybrid PLG Spectrum",
+      "category": "product-strategy",
+      "problemItSolves": "Helps B2B companies transition to Product-Led Growth without alienating their sales team or ignoring the complexities of enterprise buyers.",
+      "summary": "This framework rejects the binary choice between 'Sales-Led' and 'Product-Led.' It advocates for a modular approach where the product handles the standard path to revenue, and humans are inserted only where specific friction points (security reviews, data migration, emotional reassurance) cannot be solved by software yet.",
+      "principles": [
+        "Principle 1: Define PLG as 'Product grows revenue, Humans are the backstop'—not 'No Humans allowed.'",
+        "Principle 2: Audit the 'Zero-to-One' journey (visit to activation) to identify where human intervention is a necessity versus a crutch.",
+        "Principle 3: Deploy humans for 'durable cost structures' like complex data migrations or high-stakes security reviews, not for basic onboarding.",
+        "Principle 4: Enable 'Sales-Assist' where the product qualifies the lead and the human closes the deal, rather than creating a turf war.",
+        "Principle 5: Accept that different segments (e.g., SMB vs. Enterprise) will exist at different points on the spectrum simultaneously."
+      ],
+      "whenToUse": "When a sales-led company wants to introduce self-service but fears cannibalization or believes their product is 'too complex' for PLG.",
+      "commonMistakes": "Assuming PLG requires firing the sales team or that every customer must be able to checkout without speaking to anyone.",
+      "quote": "At the highest level, [PLG] is taking a go-to-market approach where your product's job is to grow revenue and you use humans as a backstop and not the other way around.",
+      "realWorldExample": "HubSpot allows small businesses to buy self-service while maintaining sales teams for customers who need help with complex data migrations or have security/IT requirements."
+    },
+    {
+      "name": "The Problem Specificity Protocol",
+      "category": "user-research",
+      "problemItSolves": "Prevents teams from building 'customer-hostile' features that solve business needs (revenue) at the expense of user experience.",
+      "summary": "A rigorous documentation method that forces Product Managers to linguistically separate business objectives from user needs. By parsing these out, teams realize that business problems usually stem from unsolved customer problems, preventing short-sighted optimization.",
+      "principles": [
+        "Principle 1: Ban the unqualified word 'Problem' in specs. You must write 'Business Problem,' 'Customer Problem,' or 'Efficiency Problem.'",
+        "Principle 2: Map the causality. Ask: 'What is the actual customer problem that is leading to this downstream negative business problem?'",
+        "Principle 3: Explicitly list assumptions and predicted 'Blast Radius' (negative side effects) of the proposed solution.",
+        "Principle 4: If a solution solves the Business Problem but hurts the Customer Problem, it is rejected unless it serves a long-term strategic survival need."
+      ],
+      "whenToUse": "During the PRD/Spec writing phase, especially for Growth teams under pressure to hit revenue targets.",
+      "commonMistakes": "Optimizing for a short-term business metric (e.g., forcing a modal to increase leads) that degrades long-term retention.",
+      "quote": "I don't know that we even talk about problems without a qualifier. Are we talking about a business problem? Are we talking about a customer problem?",
+      "realWorldExample": "When HubSpot analyzes a drop in conversion, they don't just ask 'how do we fix the conversion rate?' (Business Problem); they ask 'what friction is the user encountering here?' (Customer Problem)."
+    },
+    {
+      "name": "The Neglected Asset Growth Play",
+      "category": "execution",
+      "problemItSolves": "Enables new or small growth teams to find high-impact wins in a crowded or mature product environment.",
+      "summary": "A strategy for identifying high-potential, high-traffic areas of the product that are technically 'owned' but effectively neglected by feature teams. By taking radical accountability for these orphaned assets, growth teams can achieve step-function changes without needing permission to build new features.",
+      "principles": [
+        "Principle 1: Audit the product for high-value pages (pricing, checkout, settings) that no team is actively iterating on.",
+        "Principle 2: Ask the nominal owners: 'Are you working on this?' If the answer is no, ask: 'Can we take this?'",
+        "Principle 3: Apply the 'Discoverability, Desirability, Doability' lens to redesign the asset.",
+        "Principle 4: Adopt an aggressive 'Foriveness over Permission' mentality—prove value quickly to earn the right to tackle bigger problems."
+      ],
+      "whenToUse": "When establishing a new Growth team or when a PM feels blocked by dependencies on core product roadmaps.",
+      "commonMistakes": "Waiting for a mandate to fix a problem rather than seizing the 'orphaned' opportunity.",
+      "quote": "We approached the team who owned it and we were like, 'Are you all working on this?' They were like, 'Nah...'. We were like, 'Can we take this?' They were like, 'Sure, if you want it.' And so, we took it and immediately blew it up.",
+      "realWorldExample": "Chris's early team found that HubSpot's pricing/checkout page was neglected code. They took it over, redesigned it for usability, and created a massive step-change in self-service revenue."
+    },
+    {
+      "name": "The Sponsor Acquisition Framework",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs break through career plateaus where hard work alone isn't leading to promotion or increased scope.",
+      "summary": "This methodology shifts the focus from finding mentors (who give advice) to finding sponsors (who spend political capital on you). It relies on proactive value delivery and 'scraping your knees' to build the trust required for sponsorship.",
+      "principles": [
+        "Principle 1: Differentiate between Mentors and Sponsors. Sponsors are advocates who speak for you when you aren't in the room.",
+        "Principle 2: Earn sponsorship through 'Volunteer Labor.' Ask PMs/Leaders: 'What can I take off your plate to make your day easier?'",
+        "Principle 3: Embrace 'Scraping Your Knees.' Show that you can recover from failure; sponsors invest in resilience, not perfection.",
+        "Principle 4: Show up in rooms you aren't invited to (respectfully) with a prepared, contrarian point of view.",
+        "Principle 5: Invite hard feedback and handle it with zero ego. This signals coachability, a key trait sponsors look for."
+      ],
+      "whenToUse": "When looking to move from IC to Leadership, or when transitioning into Product from a different function (like Support or CS).",
+      "commonMistakes": "Thinking that academic learning (courses/books) is a substitute for the 'trial by fire' experience that earns a sponsor's trust.",
+      "quote": "Mentors are great... but calling them mentors I think sells what they were very short. I would actually describe those folks as being sponsors and advocates, people who were willing to put up capital, whether that's professional, social capital to bet on you.",
+      "realWorldExample": "Chris crashed a party at the Guinness Storehouse to pitch the COO on a new pricing model. While the idea wasn't fully adopted, the boldness and preparation earned him a seat at the executive table later."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you're doing product-led growth the right way... you're going to fail more than you're going to be successful along the way. If you're hitting more than 30, 40% of the time, you're thinking too small.",
+      "context": "Discussing the resilience required for growth product management."
+    },
+    {
+      "text": "Give value before you extract value.",
+      "context": "Explaining the core philosophy behind HubSpot's inbound marketing and freemium PLG strategy."
+    },
+    {
+      "text": "No one lies to Google because it's transactional. If I lie to Google, I'm not going to get what I want.",
+      "context": "Discussing his favorite book 'Everybody Lies' and the value of behavioral data over survey data."
+    },
+    {
+      "text": "The details matter. Riding the fence is usually not taste.",
+      "context": "Defining what 'taste' means in product management—having a strong, informed opinion."
+    }
+  ],
+  "filename": "Christopher Miller"
+}

@@ -1,0 +1,111 @@
+{
+  "guest": {
+    "name": "David Placek",
+    "title": "Founder",
+    "company": "Lexicon Branding",
+    "background": "The legendary founder of Lexicon Branding, responsible for naming iconic products and companies including BlackBerry, Pentium, Swiffer, Sonos, Azure, Vercel, and the Impossible Burger. He pioneered the use of linguistics and sound symbolism in commercial naming."
+  },
+  "episodeSummary": "David Placek demystifies the black box of product naming, transforming it from a creative guessing game into a rigorous science combining linguistics, cognitive psychology, and strategy. He challenges the common desire for 'comfortable' names, arguing that distinctiveness requires discomfort and friction. The episode details Lexicon's proprietary three-step process, specific exercises for founders to define their 'win' state, and the hidden power of sound symbolism in influencing consumer behavior.",
+  "keyTakeaways": [
+    "Comfort is the enemy of a great name; if your team is immediately comfortable with a name, it is likely too descriptive and safe.",
+    "Polarization is a signal of strength; if half the team hates a name and half loves it, there is energy there (e.g., the Pentium story).",
+    "Do not use large group brainstorms; they regress to the mean. Use small teams (2 people) working in parallel.",
+    "A name provides an 'asymmetric advantage'—it is the only marketing asset used in every single interaction for the life of the company.",
+    "Use 'Sound Symbolism' to map letters to attributes: 'V' creates vibrancy (Vercel), 'B' signals reliability (BlackBerry), 'Z' creates noise (Azure).",
+    "The .com domain is an 'area code'—it matters far less than having the right name. Don't sacrifice the brand name just to get a matching URL.",
+    "Compound names (Windsurf, Facebook, PowerPoint) act as multipliers (1+1=3) because they trigger multiple association networks in the brain."
+  ],
+  "methodologies": [
+    {
+      "name": "The Diamond Naming Strategy",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from brainstorming random words without a clear strategic north star, or focusing on 'cool' names that don't drive business goals.",
+      "summary": "A geometric exercise to align stakeholders on the specific behavior and experience the name must evoke before any creative work begins.",
+      "principles": [
+        "Draw a diamond. At the top, write 'WIN'. Define exactly what winning looks like for this product.",
+        "Right Point: 'What do we HAVE to win?' (Current assets, technology, team strengths).",
+        "Bottom Point: 'What do we NEED to win?' (Market gaps, specific perceptions, resources).",
+        "Left Point: 'What do we have to SAY to win?' (The core narrative).",
+        "Synthesize: Focus the naming effort on the 'Say' point—translate that message into a behavior or experience, not just a description."
+      ],
+      "whenToUse": "At the very beginning of a naming project, before any brainstorming occurs, to align co-founders or stakeholders.",
+      "commonMistakes": "Listing 'A good name' under 'What do we need to win' (circular logic) or rushing the exercise in under an hour.",
+      "quote": "It’s not about the past. You’re actually creating the future... We’re creating an experience for you.",
+      "realWorldExample": "Used generally by Lexicon to help startups move from 'we need a name' to 'we need to signal a specific behavior'."
+    },
+    {
+      "name": "The Context-Shift Brainstorming",
+      "category": "team-culture",
+      "problemItSolves": "Overcomes 'Engineer's Block' where subject matter experts suggest literal, descriptive, and boring names (e.g., 'ProChip' vs 'Pentium').",
+      "summary": "A technique to unlock lateral thinking by assigning small teams to name metaphorical proxies rather than the actual product.",
+      "principles": [
+        "Divide the creative group into small teams (2 people max).",
+        "Team A gets the 'Real Brief': They know the product and its specs.",
+        "Team B gets the 'Metaphor Brief': Tell them they are naming a physical object that shares the product's attributes (e.g., 'Name a fast bicycle' instead of 'fast software').",
+        "Team C gets the 'Experience Brief': Focus purely on the feeling (e.g., 'Name something that represents flow').",
+        "Harvest the output: The 'mistakes' and metaphors from Teams B and C often yield the most distinctive brand names."
+      ],
+      "whenToUse": "During the 'Invent' phase when generating the initial list of 1,000+ ideas.",
+      "commonMistakes": "Judging the metaphorical names too early for technical accuracy rather than emotional resonance.",
+      "quote": "When people are working on what they know is not the real assignment, they are now free to make all kinds of mistakes.",
+      "realWorldExample": "For 'Windsurf' (an AI coding agent), a team was tasked with exploring words related to movement, flow, and sports, rather than 'coding' or 'AI', leading to the final name."
+    },
+    {
+      "name": "The 'Competitor Launch' Validation",
+      "category": "user-research",
+      "problemItSolves": "Eliminates the 'Pleasing the Boss' bias and subjective 'I don't like it' reactions during name testing.",
+      "summary": "A reframing technique for validating names that removes the evaluator's burden of responsibility and measures market impact.",
+      "principles": [
+        "Do not ask: 'What do you think of this name for our company?' (This invites critique).",
+        "Do ask: 'Imagine a new competitor just launched with the name [NAME]. What do you think they do? What is their vibe?'",
+        "Evaluate based on 'Predisposition': Does the name make them curious? Does it signal 'these guys are different'? ",
+        "Look for comments like 'I don't know what they do, but they aren't like the other guys.'",
+        "Prioritize names that create an 'Experience' over names that describe the function."
+      ],
+      "whenToUse": "When narrowing down a shortlist of 5-10 names and seeking feedback from outside the core team.",
+      "commonMistakes": "Accepting 'It sounds weird' as negative feedback. 'Weird' often means 'New/Distinctive'.",
+      "quote": "If your team is comfortable with the name, chances are you don't have the name yet.",
+      "realWorldExample": "When testing names, Lexicon looks for consumers to say 'They're not like the other guys,' which was the goal for names like Google vs. Infoseek."
+    },
+    {
+      "name": "Phonosemantic Engineering",
+      "category": "execution",
+      "problemItSolves": "Ensures the name subconsciously reinforces the product's value proposition through sound symbolism.",
+      "summary": "Applying linguistic science to select letters and sounds that trigger specific cognitive responses independent of language.",
+      "principles": [
+        "For Aliveness/Speed: Use 'V' (most vibrant sound) or 'Z' (noisy/energetic). Examples: Vercel, Azure.",
+        "For Reliability/Trust: Use 'B' (the most reliable sound). Example: BlackBerry.",
+        "For Innovation/Precision: Use 'X' (crisp, tech-forward).",
+        "For Flow/Ease: Use vowels and liquid consonants (L, R).",
+        "Processing Fluency: Ensure the name is easy for the brain to process (simple spelling) even if the word is invented."
+      ],
+      "whenToUse": "During the filtering process to select the best candidates from the brainstorm list.",
+      "commonMistakes": "Choosing a 'soft' sounding name for a high-performance/aggressive product.",
+      "quote": "V, from our research... is the most alive and vibrant sound in the English alphabet... whether you were born in Rome or in Sausalito.",
+      "realWorldExample": "BlackBerry was chosen because the 'B's signaled reliability to counter the stress of constant connectivity; Azure used 'Z' to create a signal in the noisy cloud market."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If your team is comfortable with the name, chances are you don't have the name yet.",
+      "context": "Discussing why clients often reject the best names initially because they seek comfort over distinctiveness."
+    },
+    {
+      "text": "Polarization is a sign of strength in the word.",
+      "context": "referencing Andy Grove's decision to pick the name Pentium because the team argued about it."
+    },
+    {
+      "text": "You don't want to make a statement here. You want to start a story.",
+      "context": "David's advice to Microsoft when they wanted to name Azure 'Cloud Pro'."
+    },
+    {
+      "text": "Design will change, messaging will change, products will change, but that name is there.",
+      "context": "Explaining the concept of 'Cumulative Advantage'—the name is the longest-living asset of a company."
+    },
+    {
+      "text": "Distinctiveness is what creates that cumulative advantage. Imitation is a form of suicide.",
+      "context": "Discussing why descriptive names (like Cloud Pro) fail to build long-term value."
+    }
+  ],
+  "filename": "David Placek"
+}

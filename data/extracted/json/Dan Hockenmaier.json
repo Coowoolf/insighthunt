@@ -1,0 +1,100 @@
+{
+  "guest": {
+    "name": "Dan Hockenmaier",
+    "title": "Head of Strategy and Analytics",
+    "company": "Faire",
+    "background": "A renowned marketplace expert who previously worked at Thumbtack during its scaling phase and founded the strategy consulting firm Basis One. He is considered one of the world's leading authorities on marketplace dynamics, growth models, and unit economics."
+  },
+  "episodeSummary": "Dan Hockenmaier deconstructs the complex mechanics of building and scaling marketplace businesses, contrasting them with traditional SaaS models. He provides a masterclass on constructing growth models, defining true liquidity, and making high-stakes strategic decisions regarding verticalization and expansion.",
+  "keyTakeaways": [
+    "Treat marketplace management like gardening, not construction; ecosystems require a light touch and awareness of second-order effects.",
+    "Do not use growth models for financial forecasting; use them as a 'common currency' to compare trade-offs between disparate product teams during planning.",
+    "Retention is the highest leverage metric in a model, but it is rarely moved by 'resurrection' campaigns; it is moved by fixing the early user experience.",
+    "True marketplace liquidity is defined by reliability (search-to-fill rate) rather than just volume.",
+    "When expanding a marketplace, prioritize 'adjacency' (ease of operational overlap) over total addressable market (TAM).",
+    "Avoid the 'Unbundling Fallacy'; verticalization only works if the niche has high frequency, high order value, or a self-contained network.",
+    "Marketplace unit economics improve with scale (CAC down, LTV up), whereas SaaS economics often degrade as you reach saturation."
+  ],
+  "methodologies": [
+    {
+      "name": "The Zero-Based Growth Model",
+      "category": "growth-metrics",
+      "problemItSolves": "Solves the difficulty of comparing disparate product initiatives (e.g., a brand awareness campaign vs. a conversion optimization project) during resource allocation.",
+      "summary": "A mathematical representation of the business that links inputs (traffic, conversion, retention) to outputs (contribution margin). Unlike financial forecasts, this model is used to normalize the potential impact of different teams into a single value metric.",
+      "principles": [
+        "Step 1: Build the 'Macro Model' covering the core loop: Acquisition Channels, Retention Curves, and Monetization/Unit Economics.",
+        "Step 2: Create 'Mini-Models' for individual product pods that link their specific north star metric (e.g., quality score) to the macro inputs.",
+        "Step 3: Run 'Zero-Based Accounting' during planning; force teams to quantify how their initiatives impact the variables in the model.",
+        "Step 4: Use the model to translate all initiatives into a 'common currency' (e.g., projected contribution margin) to make trade-off decisions."
+      ],
+      "whenToUse": "During quarterly or annual planning cycles, or when determining headcount allocation across product pods.",
+      "commonMistakes": "Using the growth model as a financial prediction tool for the board rather than an opportunity assessment tool for the product team.",
+      "quote": "If you think about running a marketplace, you're basically like a gardener. You have to have a very light touch. If you're building a SaaS business, you're a construction worker.",
+      "realWorldExample": "At Thumbtack, modeling revealed that the repeat rate of new customers was the single biggest lever for LTV, causing them to shift resources from SEO/Acquisition to cross-selling and lifecycle product features."
+    },
+    {
+      "name": "The Composite Marketplace CAC Framework",
+      "category": "growth-metrics",
+      "problemItSolves": "Addresses the issue of over-spending on supply or demand in isolation without understanding the holistic cost of a transaction.",
+      "summary": "A formula for calculating the true cost of customer acquisition in a two-sided marketplace by accounting for the interdependent cost of acquiring the necessary supply to service that demand.",
+      "principles": [
+        "Step 1: Calculate the direct CAC for the demand side (Consumer).",
+        "Step 2: Determine the 'Liquidity Ratio'—how many suppliers are needed to service one consumer (e.g., 0.1 drivers per rider).",
+        "Step 3: Calculate the CAC for the supply side and multiply it by the Liquidity Ratio.",
+        "Step 4: Sum these figures to get the Composite CAC. Compare this total against LTV to determine the true payback period.",
+        "Step 5: Push spending on both sides until this Composite CAC hits your maximum allowable payback period threshold."
+      ],
+      "whenToUse": "When setting marketing budgets or determining if unit economics are actually positive in a specific geography or category.",
+      "commonMistakes": "Optimizing for 'marketplace balance' ratios (e.g., 1:10) rather than optimizing for the ROI of the combined acquisition cost.",
+      "quote": "You need to include the CAC of acquiring that customer, but also the CAC of acquiring the supply for that customer to purchase... expressed as a ratio.",
+      "realWorldExample": "This approach allows companies like Uber or Faire to understand that even if Rider CAC is low, if Driver CAC is skyrocketing, the composite unit economics might be negative."
+    },
+    {
+      "name": "Early Experience Variance Reduction",
+      "category": "product-strategy",
+      "problemItSolves": "Fixes retention issues by addressing the root cause (bad first impressions) rather than trying to resurrect churned users.",
+      "summary": "A method to improve retention by identifying and eliminating the 'bad luck' scenarios in a user's first week, thereby homogenizing the onboarding experience toward the mean or better.",
+      "principles": [
+        "Step 1: Segment new users by their first-week outcomes (e.g., earnings for a driver, successful purchase for a buyer).",
+        "Step 2: Identify the bottom quartile of experiences—those who did everything right but had a bad result due to marketplace randomness (e.g., low density, bad match).",
+        "Step 3: Implement product interventions (guarantees, subsidies, manual matching) to artificially lift these users to the average experience level.",
+        "Step 4: Measure the downstream retention of these cohorts; proving value early 'teaches' the user the platform is worth sticking with."
+      ],
+      "whenToUse": "When retention curves are flattening at a lower-than-desired rate, or when early churn is high despite a seemingly good product.",
+      "commonMistakes": "Focusing on 'resurrection' campaigns (emailing people who left 6 months ago) instead of fixing the onboarding variability.",
+      "quote": "If you can target streamlining that experience... you pull up all those below average first experiences to average and drive much better retention curves going forward.",
+      "realWorldExample": "Uber and Lyft using 'earnings guarantees' for new drivers. A driver might have a bad first week due to luck, but the guarantee simulates a 'good' week, proving the platform's value and keeping them retained."
+    },
+    {
+      "name": "The Liquidity & Depth Audit",
+      "category": "growth-metrics",
+      "problemItSolves": "Helps marketplaces move beyond vanity metrics like GMV to measure the actual health and defensibility of the platform.",
+      "summary": "A framework for evaluating marketplace health by focusing on reliability (Liquidity) and share of wallet (Depth) rather than just aggregate growth.",
+      "principles": [
+        "Step 1: Define Liquidity as a reliability metric specific to the user's intent (e.g., 'Search-to-Fill Rate' or 'Wait Time < 5 mins').",
+        "Step 2: Measure Share of Wallet: What percentage of the supplier's total income or the buyer's total spend flows through the platform?",
+        "Step 3: Prioritize depth (Share of Wallet) over breadth (New Users) to increase defensibility and reduce multi-tenanting.",
+        "Step 4: Only expand to new verticals if you have achieved liquidity stability in the current core."
+      ],
+      "whenToUse": "When evaluating the health of a marketplace startup or deciding between growing the user base vs. deepening engagement.",
+      "commonMistakes": "Assuming GMV growth means the marketplace is healthy, while ignoring that users are finding matches less than 50% of the time.",
+      "quote": "If you could tell me we could grow GMV 10% by getting 10% more customers or by getting 10% more of our current customers' wallet, I would take the latter.",
+      "realWorldExample": "Faire looking at independent retailers' shelves to see what percentage of their inventory was sourced via Faire vs. other channels as a primary health metric."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "For a marketplace, you're messing with this ecosystem that you don't actually really understand how it works. And sometimes you might do something over here which drives this long-term effect two months later.",
+      "context": "Explaining why marketplace product management requires a 'gardener' mindset rather than a 'builder' mindset."
+    },
+    {
+      "text": "The most common analytical failure mode is: 'Our best users do X, so why can't we make other users do that same thing?' It almost never works that way.",
+      "context": "Discussing why correlation is not causation in retention analysis and why forcing behaviors rarely drives value."
+    },
+    {
+      "text": "Demand is the currency... If you go to a supplier and say, 'I have this customer for you that I can give to you at a rate that's going to make you money,' they're always going to say yes.",
+      "context": "Arguing that while supply is hard to build, demand aggregation is the ultimate constraint and value driver of a marketplace."
+    }
+  ],
+  "filename": "Dan Hockenmaier"
+}

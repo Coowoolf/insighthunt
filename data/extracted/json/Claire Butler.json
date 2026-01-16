@@ -1,0 +1,105 @@
+{
+  "guest": {
+    "name": "Claire Butler",
+    "title": "Senior Director of Marketing",
+    "company": "Figma",
+    "background": "Claire was the 10th employee and first marketing hire at Figma, joining before the product launched. She has led Figma's bottom-up growth motion, community strategy, and go-to-market execution for over eight years, helping scale the company from stealth to a multi-billion dollar valuation."
+  },
+  "episodeSummary": "Claire Butler dissects Figma's legendary bottom-up go-to-market strategy, revealing how they ignored traditional marketing to build a product cult. She details the specific two-part framework of getting individual contributors to love the tool and then equipping them to spread it, while sharing tactical stories about manual user onboarding, the role of 'Designer Advocates' in sales, and how to execute community-led growth.",
+  "keyTakeaways": [
+    "Do not optimize your way to Product Market Fit; early on, ignore metrics and look for 'pull' signals (like users physically taking the laptop to use the tool).",
+    "For technical audiences, eliminate 'marketing fluff'; use technical content written by engineers or practitioners to build credibility.",
+    "Go to where the community already exists (e.g., Twitter) rather than forcing them to join your new forum or Slack channel immediately.",
+    "Hire 'Practitioner Advocates' (e.g., Designer Advocates) who sit between marketing, sales, and product to validate technical credibility in sales calls.",
+    "Turn your biggest adoption blocker (e.g., Design Systems for Figma) into your primary upsell driver for the enterprise tier.",
+    "Aggregate small bug fixes and 'paper cuts' into a branded 'Little Big Updates' launch to build massive goodwill and community trust.",
+    "In the early days, do things that don't scale—like driving to a user's office to fix a specific laptop configuration just to keep one active user.",
+    "Transparency during crises (like downtime or acquisitions) creates stronger brand loyalty than hiding behind a corporate handle."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Love-Then-Spread' GTM Motion",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the challenge of penetrating large enterprises with a new tool when top-down sales are ineffective or premature.",
+      "summary": "A two-phase strategy where you first focus exclusively on getting individual contributors (ICs) to love the product through craft and quality, and then empower those ICs to act as internal champions who spread the tool virally across the organization.",
+      "principles": [
+        "Phase 1 (Love): Build technical credibility by producing content that respects the user's craft (no buzzwords), often written by the builders themselves.",
+        "Phase 2 (Love): Go to the user's existing watering holes (e.g., Twitter, Reddit) to gather feedback rather than trying to build your own community from scratch.",
+        "Phase 3 (Spread): Remove friction by allowing unlimited free viewers/collaborators, ensuring the tool can spread virally without hitting a paywall immediately.",
+        "Phase 4 (Spread): Identify the specific organizational blocker (e.g., Design Systems) and build advanced features around it to trigger the upgrade from Pro to Enterprise."
+      ],
+      "whenToUse": "Best used by PLG (Product-Led Growth) companies targeting technical users (developers, designers, data scientists) who have high standards for tooling.",
+      "commonMistakes": "Introducing sales gates too early or trying to market 'collaboration' benefits before the core single-player tool is best-in-class.",
+      "quote": "Get ICs at a company to love you and then enable them to spread the product within the organization.",
+      "realWorldExample": "Figma realized their 'Starter Team' limit on collaborators was hurting viral growth, so they switched the limit to 'projects' instead, allowing unlimited people to collaborate for free, which fueled the spread within companies like Microsoft."
+    },
+    {
+      "name": "The 'Tom Factor' Advocacy Model",
+      "category": "career-leadership",
+      "problemItSolves": "Bridges the credibility gap in sales conversations where traditional account executives lack the technical depth to convince expert practitioners.",
+      "summary": "A hiring and organizational structure where you employ power users/practitioners (Advocates) who report to marketing but participate in sales calls. They provide technical validation, not sales pitches, and act as a bi-directional loop between customers and the product team.",
+      "principles": [
+        "Hire for passion and craft expertise, not sales experience (e.g., hire a designer to talk to designers).",
+        "Deploy Advocates into sales calls as 'neutral' technical experts to unblock concerns and explain workflows.",
+        "Use Advocates to filter and synthesize product feedback from the field back to engineering, acting as a high-fidelity signal filter.",
+        "Measure success by community trust and deal assist/velocity, not by individual quotas."
+      ],
+      "whenToUse": "When selling complex, technical B2B SaaS products where the buyer is a practitioner with a high 'bullshit detector.'",
+      "commonMistakes": "Turning these advocates into quota-carrying sales reps, which destroys their neutrality and credibility.",
+      "quote": "They called him the Tom Factor because he was so powerful, and their deals were so much more likely to close if he joined the calls.",
+      "realWorldExample": "Tom Lowry, an early Designer Advocate, would join sales calls not to sell, but to consult on workflows. Sales reps realized deals closed significantly faster when Tom was present, leading to the scaling of the entire Advocate team."
+    },
+    {
+      "name": "The 'Little Big Updates' Framework",
+      "category": "execution",
+      "problemItSolves": " addresses the tension between needing to ship flashy new features for growth while preventing technical debt and user annoyance from accumulating.",
+      "summary": "A periodic release strategy where the team dedicates 'Quality Weeks' to fix dozens of small annoyances, bugs, and workflow friction points, then bundles them into a single, celebratory marketing launch event.",
+      "principles": [
+        "Dedicate specific engineering cycles (Quality Weeks) purely to non-feature work.",
+        "Source the 'fixes' directly from social media complaints and support tickets.",
+        "Bundle 30-50 small fixes into one coherent launch announcement rather than trickling them out silently.",
+        "Publicly credit the specific users who complained about the bugs in the release notes to build community intimacy."
+      ],
+      "whenToUse": "When a product has reached a level of maturity where 'paper cuts' (minor UX issues) are starting to erode user sentiment, or during gaps between major feature releases.",
+      "commonMistakes": "Treating bug fixes as silent maintenance work rather than a marketing opportunity to demonstrate customer obsession.",
+      "quote": "We realized there's a problem... we'd fix it. And telling people 'Oh, we fixed this' made them feel more ownership of the tool too.",
+      "realWorldExample": "Figma aggregates small quality-of-life improvements (like saving one click in a workflow) into an annual 'Little Big Updates' launch, which often receives more praise than their major feature releases."
+    },
+    {
+      "name": "The Social Graph Scraper Method",
+      "category": "user-research",
+      "problemItSolves": "Helps early-stage startups identify who to target for feedback and influence when they have zero brand recognition.",
+      "summary": "A scrappy, pre-launch tactic where you map the social connections of your target industry to identify clusters of influence, then hyper-target those nodes for feedback (not sales).",
+      "principles": [
+        "Map the ecosystem: Identify the top 5-10 thought leaders in your space.",
+        "Scrape/Analyze connections: Build a visual graph of who follows whom to identify 'clusters' (e.g., iconographers vs. UI designers).",
+        "Target the nodes: DM the influential connectors within specific clusters asking purely for feedback.",
+        "Leverage the graph: Use the feedback loops to create a network effect where influential users validate the tool to their followers.",
+        "Visualize expansion: Use internal tools to track how usage spreads from one user node to another within a company."
+      ],
+      "whenToUse": "During the Stealth or Beta phase when you need high-quality feedback and early evangelists but lack a marketing budget.",
+      "commonMistakes": "Using the identified leads for cold sales pitches instead of genuine product feedback requests.",
+      "quote": "Dylan built this tool... where he identified a couple influencers... and figured out who followed them... and made this massive node graph of these pockets of different topics of design.",
+      "realWorldExample": "Dylan Field (CEO) wrote a script to scrape Twitter connections of design leaders to map out clusters (e.g., iconographers, PMs). They then targeted specific influencers in those clusters for feedback, which kickstarted their community."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You can't optimize your way to product market fit. I don't care at the early stages if something's optimized by 5% from an email.",
+      "context": "Claire discussing why early-stage startups should ignore vanity metrics and conversion optimization in favor of finding true user love."
+    },
+    {
+      "text": "Designers don't want to hear from marketers. They don't want to be marketed to and they have an extremely high bullshit meter.",
+      "context": "Explaining why Figma pivoted away from traditional product marketing to technical content and advocacy."
+    },
+    {
+      "text": "We're making these high level strategic decisions and someone else has to go buy the ice.",
+      "context": "A metaphor for the early startup experience where you oscillate between deciding company naming strategy and doing menial manual labor."
+    },
+    {
+      "text": "I remember Dylan was like, 'Everybody drop everything. We have to fix this.'",
+      "context": "When their very first user (Coda) couldn't open a file, the CEO drove an engineer to the user's office to debug a laptop issue personally."
+    }
+  ],
+  "filename": "Claire Butler"
+}

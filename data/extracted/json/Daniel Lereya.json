@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Daniel Lereya",
+    "title": "Chief Product and Technology Officer (CPTO)",
+    "company": "Monday.com",
+    "background": "Daniel joined Monday.com when it had roughly 40 employees and $4M ARR, guiding the product and technology organization through hyper-growth to over 2,500 employees and $1B+ in ARR. He has overseen the transition from a single product to a multi-product platform."
+  },
+  "episodeSummary": "Daniel Lereya shares the internal transformations Monday.com underwent to scale from a small startup to a multi-product public company. The conversation centers on a pivotal moment where competitor speed forced them to reinvent their engineering culture, the implementation of 'radical transparency' to turn employees into partners, and the necessity of shifting from feature-output to impact-outcomes. He also discusses the counterintuitive risks of not taking bold leaps and how to operationalize ambition.",
+  "keyTakeaways": [
+    "Treat competitor speed as a 'gift' that proves what is possible, rather than a demoralizing factor.",
+    "Set 'impossible goals' (e.g., 25 features in one month) not to burn people out, but to force a complete rethink of the 'how' behind execution.",
+    "Radical transparency—sharing churn, revenue, and failures—creates deep partnership; shielding employees from bad news alienates them.",
+    "Infrastructure challenges shouldn't just be patched; they should be reimagined as strategic competitive advantages (e.g., MondayDB).",
+    "Use 'Time Traps' to force focus: set a strict deadline and cut scope to meet it, rather than extending timelines to perfect the scope.",
+    "As a leader, the skills that got you to your current level (e.g., knowing every detail) become liabilities at the next level; you must let go of former superpowers.",
+    "Don't build features to 'enhance' or 'augment'; build them to move specific numbers, and obsess over those numbers daily."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Impossible Goal' Execution Model",
+      "category": "execution",
+      "problemItSolves": "Teams getting stuck in incrementalism, where standard processes yield slow results and 'working harder' isn't the solution.",
+      "summary": "A framework for shattering velocity plateaus by setting a target so ambitious that current workflows are mathematically impossible to use, forcing the team to reinvent their underlying infrastructure and process.",
+      "principles": [
+        "Identify a 'gift' from the market: Use a competitor's achievement to prove that a higher velocity is possible.",
+        "Set a non-linear target: Instead of '10% faster,' aim for '4 months of work in 1 month' to break the mental model of 'just work harder.'",
+        "Build the infrastructure first: Spend the initial phase defining the abstract product architecture (e.g., the generic structure of a column) so specific instances can be built in hours, not weeks.",
+        "Hackathon the delivery: Compress the execution phase into a high-intensity, short burst (e.g., a one-day hackathon) where every engineer owns one unit of value."
+      ],
+      "whenToUse": "When a team is shipping slowly despite high effort, or when a competitor has significantly outpaced you in feature delivery.",
+      "commonMistakes": "Setting the goal without allowing the team to change the process (leading to burnout) or failing to build the shared infrastructure before the sprint.",
+      "quote": "If we're going to add 25 more, multiply it by four months... we are lost. So we said, 'Okay, we need to take upon ourselves an ambitious goal, like 25 columns in one month.'",
+      "realWorldExample": "Monday.com realized competitors shipped 30 new column types while they were building one every four months. They re-architected the column infrastructure and held a hackathon, shipping 30 columns in 1.5 months."
+    },
+    {
+      "name": "The 'Shared Brain' Transparency Protocol",
+      "category": "team-culture",
+      "problemItSolves": "Siloed decision-making where leadership carries the burden of business metrics while individual contributors focus only on shipping tickets.",
+      "summary": "A system of extreme data openness that exposes every employee to raw business metrics (churn, revenue, bugs), treating them as partners who can solve problems autonomously rather than just 'working hands.'",
+      "principles": [
+        "Democratize the 'Dark Side of the Moon': Share the scary numbers (churn, missed targets) so leadership isn't alone in worrying about them.",
+        "Visual & Auditory Feedback: Install physical dashboards in the office and use sound cues (e.g., Simpson's sound for sales, specific alerts for churn) to create a shared sensory environment.",
+        "Daily Number Obsession: Every team must publish a 'Daily Numbers' update in Slack, analyzing their specific metric (e.g., AI actions used) rather than feature progress.",
+        "Legal Workarounds for Access: Even as a public company, require PMs/staff to sign 10b5 trading plans (automatic selling) so they can legally continue to see insider non-public data."
+      ],
+      "whenToUse": "When employees feel disconnected from the business strategy or when 'good execution' isn't translating to business results.",
+      "commonMistakes": "Filtering data to 'protect' morale—this actually creates distance. Another mistake is sharing data without context or the ability for ICs to influence it.",
+      "quote": "We really want everyone's brains in the challenge, and not just one centralized brain and a lot of working hands.",
+      "realWorldExample": "Monday.com displays dashboards with churn and revenue at the office entrance. When adoption for a new AI feature was low, a developer noticed it via the daily numbers, identified a legal ToS blocker, and fixed it, unlocking 98% adoption."
+    },
+    {
+      "name": "The 'Future-Back' Impact Audit",
+      "category": "product-strategy",
+      "problemItSolves": "The 'Build Trap' where teams ship many features but cannot articulate or demonstrate tangible business value at the end of a cycle.",
+      "summary": "A planning and review mechanism that forces teams to work backwards from a concrete future state rather than forwards from a feature list.",
+      "principles": [
+        "The One-Year Slide: Start the year with a single slide describing exactly how the customer's life is different one year from today. Review this exact slide a year later.",
+        "The Quarterly Reality Check: Ask, 'How will the product be different in 3 months?' If the answer is 'enhanced security' or 'more features' rather than a specific customer change, the plan is weak.",
+        "Bi-Weekly Highlights: Individuals write highlights every two weeks focusing on impact. If a team struggles to list meaningful impacts, it flags a focus problem.",
+        "Define 'Needle Movement' First: Before writing code, a PM must define exactly how they will know the needle moved. If this measurement isn't in place, development doesn't start."
+      ],
+      "whenToUse": "During quarterly planning or when a team feels busy but leadership questions the ROI of their work.",
+      "commonMistakes": "Confusing 'shipping a feature' with 'impact.' The goal is not the release; the goal is the metric change the release caused.",
+      "quote": "If you can't answer that and you say, 'Listen, I'm doing so much,' but you can't point to this exact thing [that transformed], you have a focus problem.",
+      "realWorldExample": "Daniel uses a specific slide at the yearly kickoff that states, 'When I stand here a year from now, X will be different.' He holds himself accountable to that specific slide the following year."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "In some cases, doing the biggest impact is not developing another feature, it's about making the current value more accessible.",
+      "context": "Discussing the AI Blocks launch where the solution wasn't new code, but changing the Terms of Service."
+    },
+    {
+      "text": "We received a gift from our competitors. They showed us that it's possible.",
+      "context": "Reframing the moment they realized they were being out-shipped by the competition."
+    },
+    {
+      "text": "Many times your superpowers that brought you to this point... if you let it go you won't be successful and it's frightening. But I really feel that you need to constantly evaluate what your current role is.",
+      "context": "On the necessity of leaders evolving and dropping habits (like knowing every detail) that used to make them successful."
+    },
+    {
+      "text": "Not taking bold risks, not making bold moves, it's a risk for itself.",
+      "context": "On the decision to launch five products simultaneously rather than testing them incrementally."
+    }
+  ],
+  "filename": "Daniel Lereya"
+}
