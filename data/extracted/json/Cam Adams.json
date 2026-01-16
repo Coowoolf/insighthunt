@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Cameron Adams",
+    "title": "Co-founder & Chief Product Officer",
+    "company": "Canva",
+    "background": "Cameron Adams is a co-founder of Canva, a design platform with over $2.3B in ARR and profitable for seven years. A former Google designer (Google Wave), he has overseen Canva's product strategy from pre-launch to 170 million monthly active users."
+  },
+  "episodeSummary": "In this conversation, Cameron Adams reveals the unconventional product and cultural strategies that scaled Canva to a $26B+ valuation. He challenges standard Silicon Valley dogmas—such as the 'crappy MVP' approach and traditional management hierarchies—offering instead frameworks for 'Minimum Viable Delight,' a coaching-based organizational structure, and a highly specific 'Jobs-to-be-Done' SEO engine.",
+  "keyTakeaways": [
+    "**Reject the 'Crappy MVP':** Don't launch a barely functional product if your value proposition relies on experience and joy; wait until the product sparks emotional delight to drive organic word-of-mouth.",
+    "**The 'Give Away Your Legos' Mindset:** Scaling requires leaders to hand off tasks they love and are good at. Success is finding joy in enabling others to do those tasks rather than doing them yourself.",
+    "**Coaching Over Management:** Replace traditional managers with 'Coaches' focused purely on skill development and career trajectory, separating performance reviews from daily skill growth.",
+    "**Visual Vision Setting:** In design-led companies, product specs must be visual prototypes, not text documents. If you can't see it, you can't build it.",
+    "**Aggressive Internationalization:** Don't wait to expand. Canva localized into 8 languages in Year 3 and 100+ by Year 4, unlocking massive growth in markets like Brazil and Indonesia that outpace the US.",
+    "**The 'Fear of the Blank Page' Unlock:** Onboarding should solve emotional blockers, not just functional ones. Use absurdly simple first steps (e.g., 'Search for a monkey') to build immediate confidence.",
+    "**Intent-Based SEO:** Don't just rank for keywords; build specific landing pages that immediately solve the user's specific query (e.g., 'Halloween Poster') with a usable template, minimizing time-to-value."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Minimum Viable Delight' Strategy",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents the launch of functional but uninspiring products that fail to generate the organic word-of-mouth growth required for consumer-scale success.",
+      "summary": "Contrary to the 'Lean Startup' methodology of shipping fast and broken, this approach advocates holding back launch until the product experience generates a genuine emotional response ('spark of joy') in a specific high-need persona.",
+      "principles": [
+        "**Target High-Emotion Personas:** Identify the user segment most desperate for a solution (e.g., Social Media Managers in 2013) rather than a broad 'everyone' audience initially.",
+        "**The 'Spark' Threshold:** Do not launch until user testing reveals excitement (dilated pupils, asking 'how do I pay?'), not just utility.",
+        "**Experience is the Product:** For creative tools, the user interface and 'joy of use' are not wrappers; they are the core value proposition.",
+        "**Solve the 'Empty State' Fear:** The product must look and feel valuable before the user has even done any work."
+      ],
+      "whenToUse": "When building prosumer tools, creative software, or products where 'experience' is the primary differentiator against entrenched, clunky competitors.",
+      "commonMistakes": "Confusing 'delight' with 'feature bloat'—it's not about having every feature, but about the polish of the core features.",
+      "quote": "If they weren't excited about using it the next day, then that wasn't a bar that we wanted to hit... It needs to light up their eyes.",
+      "realWorldExample": "Canva waited a full year to launch. They realized Social Media Managers were the beachhead market because they had high volume needs and no budget for professional tools, focusing the MVP specifically on their delight."
+    },
+    {
+      "name": "The 'Micro-Win' Onboarding Flow",
+      "category": "user-research",
+      "problemItSolves": "Overcomes the 'Blank Page Syndrome' where users churn immediately because they are intimidated by the creative freedom or complexity of a new tool.",
+      "summary": "A behavioral onboarding framework that forces users to take absurdly simple, low-stakes actions to build cumulative confidence, rather than explaining features via tooltips.",
+      "principles": [
+        "**The 'Monkey' Principle:** Assign a task so specific and simple (e.g., 'Search for a monkey') that failure is impossible, disarming the user's anxiety.",
+        "**Cumulative Confidence:** Structure the first 60 seconds as a series of micro-steps (Search -> Drag -> Drop) that result in a finished artifact.",
+        "**Emotional Payoff:** The end state of onboarding must trigger the thought: 'I didn't know I could do this' (identity shift) rather than 'Now I know how the tool works' (skill acquisition).",
+        "**Learn and Play:** Integrate education directly into the creative canvas, allowing users to manipulate live assets rather than watching videos."
+      ],
+      "whenToUse": "For complex SaaS tools, creative platforms, or any product where the user starts with a 'blank slate' and might feel imposter syndrome.",
+      "commonMistakes": "Using 'coach marks' (pop-ups pointing to buttons) instead of forcing interaction within the canvas itself.",
+      "quote": "Searching for a monkey is something you probably don't do in most tools... but it was still super easy. Anyone can type monkey.",
+      "realWorldExample": "Canva's original onboarding asked users to search for a 'monkey,' drag it to the canvas, and put a hat on it. It was playful, low-pressure, and proved the tool's ease of use in under 30 seconds."
+    },
+    {
+      "name": "The 'Intent-to-Template' SEO Engine",
+      "category": "growth-metrics",
+      "problemItSolves": "Captures high-intent search traffic and converts it by minimizing the friction between a Google search and a completed task.",
+      "summary": "A programmatic SEO strategy that maps millions of specific 'Jobs-to-be-Done' (JTBD) search queries directly to pre-fabricated solution templates, bypassing generic homepages.",
+      "principles": [
+        "**Granular JTBD Mapping:** Create landing pages for highly specific intents (e.g., 'Wedding Menu' vs. 'Menu Maker' vs. 'Design Tool').",
+        "**The Promise-Delivery Match:** The landing page must visually confirm it solves the exact query immediately (show the Wedding Menu template, not a blank canvas).",
+        "**One-Click to Edit:** The Call-to-Action (CTA) should drop the user directly into the editor with that specific template pre-loaded.",
+        "**Scale via Templatization:** Use a programmatic approach to generate thousands of these landing pages based on inventory."
+      ],
+      "whenToUse": "When your product supports a vast array of use cases (horizontal platform) and you need to acquire users cheaply via organic search.",
+      "commonMistakes": "Driving specific search traffic to a generic homepage or requiring a sign-up wall before the user sees the template they searched for.",
+      "quote": "If they searched for 'want to make a Halloween poster'... they'd land on the Halloween poster landing page... [with] a button there that immediately took them into a Halloween poster template.",
+      "realWorldExample": "Led by Andre, Canva built pages for every conceivable design use case. If you search 'make a flyer,' you land on a page specifically about flyers, not Canva's homepage, drastically increasing conversion."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "It needs to light up their eyes. They need to be like, 'How do I sign up for this thing tomorrow? How do I get it? How do I pay for it?'",
+      "context": "Describing the benchmark for when a product is actually ready to launch."
+    },
+    {
+      "text": "Finding joy in the other things of building a team, passing on your experience... is really what giving away your Lego is about.",
+      "context": "On the necessity of founders and early employees letting go of their individual contributor work to scale."
+    },
+    {
+      "text": "We didn't want to do product management like they did at Google... Google's a fantastically engineering-driven culture... At Canva, we focus a lot on experience.",
+      "context": "Explaining why Canva's PM culture is design-led rather than engineering-led."
+    },
+    {
+      "text": "I didn't know I could be a designer.",
+      "context": "The specific phrase users would say after completing the 'Monkey' onboarding flow, signaling a successful activation."
+    }
+  ],
+  "filename": "Cam Adams"
+}

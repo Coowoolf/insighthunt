@@ -1,0 +1,103 @@
+{
+  "guest": {
+    "name": "Carilu Dietrich",
+    "title": "Hypergrowth Advisor & Former Head of Marketing",
+    "company": "Atlassian (Former), Advisor to Miro, 1Password, Segment",
+    "background": "Carilu Dietrich is a veteran marketing executive best known for leading marketing at Atlassian through their IPO. She now advises CEOs and CMOs of hypergrowth B2B companies like Miro, Bill.com, and 1Password on scaling from $30M to $500M+ ARR."
+  },
+  "episodeSummary": "Carilu Dietrich dissects the mechanics of hypergrowth, drawing on her experience taking Atlassian to IPO without a traditional sales team. She outlines frameworks for career acceleration to the C-suite, the specific metrics used to identify winning companies, and the nuances of layering sales onto a Product-Led Growth (PLG) motion. The episode also covers the friction points between Product and Marketing and how to resolve them using the 'Amazon Press Release' method.",
+  "keyTakeaways": [
+    "To achieve hypergrowth, you cannot rely solely on paid acquisition; organic, inbound, and viral word-of-mouth are mathematical necessities.",
+    "When evaluating a company to join, look for Net Dollar Retention (NDR) ideally above 120-140% as a primary signal of product health.",
+    "In PLG, do not bundle products for the 'Land' motion; bundling slows down self-service evaluation. Use bundling only for expansion and retention.",
+    "Delay hiring sales hunters as long as possible; instead, use sales teams initially for renewals and enterprise assistance rather than cold prospecting.",
+    "Aspiring executives must shift their language from functional metrics (e.g., leads, traffic) to financial and board-level metrics (e.g., revenue, CAC, Rule of 40).",
+    "Hypergrowth companies 'skip' stages (e.g., jumping from 50 to 100 employees quickly), requiring the hiring of '2X or 3X leaders' who have already seen the next two stages of growth.",
+    "Marketing and Product friction often stems from handing over a 'bag of doorknobs' features; writing the press release *before* building aligns the narrative."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Hypergrowth Post-It' Selection Matrix",
+      "category": "career-leadership",
+      "problemItSolves": "Helps job seekers and investors identify companies with genuine momentum and high probability of successful exits/IPO.",
+      "summary": "A 10-point checklist Carilu uses to evaluate advisory clients, which serves as a rigorous due diligence framework for anyone choosing their next employer.",
+      "principles": [
+        "Check the 'Rule of 40': Growth rate + profit margin should equal 40% or higher.",
+        "Analyze Net Dollar Retention (NDR): Look for >120%; Snowflake was at ~160% (indicates product sells itself to existing base).",
+        "Verify Investor Quality: Are they top-tier? Did they participate in the most recent round (signaling continued confidence)?",
+        "Assess Market Position: Are they #1 in Forrester/Gartner or the clear category leader?",
+        "Review 'Burn Rate' vs. Cash on Hand: Is the runway sufficient to survive a downturn without desperate measures?",
+        "Check Glassdoor Scores: Low employee satisfaction correlates with lower long-term survival rates."
+      ],
+      "whenToUse": "When deciding between job offers or evaluating advisory/investment opportunities.",
+      "commonMistakes": "Focusing only on the brand name or salary without checking the underlying financial health metrics like NDR or burn rate.",
+      "quote": "If you pick the right company with the right momentum, you have a better chance of getting higher level experiences and accelerated career growth.",
+      "realWorldExample": "Carilu referenced how picking Atlassian (high momentum) versus Oracle (low momentum) radically changed the trajectory of career growth for her teams."
+    },
+    {
+      "name": "The 'R&D-First' Capital Allocation Model",
+      "category": "product-strategy",
+      "problemItSolves": "Determines how to allocate budget between engineering and sales to sustain long-term Product-Led Growth (PLG).",
+      "summary": "Based on the Atlassian model, this framework advocates for inverting the traditional SaaS budget ratio by minimizing sales/marketing spend and reinvesting that capital directly into R&D to build a product that acts as the primary sales engine.",
+      "principles": [
+        "Allocate 2-3x more budget to R&D than competitors to create a superior, self-service product.",
+        "Restrict Sales Focus: Sales teams should initially focus *only* on renewals or high-friction enterprise procurement, not outbound prospecting.",
+        "Pricing Transparency: Publish pricing openly to remove friction and the need for sales negotiation.",
+        "The 'Sales Engineer' Pivot: Instead of hiring SDRs to cold call, hire technical staff to assist users who are already 'kicking the tires' of the product.",
+        "Wait for 'Pull': Only layer in sales when the inbound volume or enterprise complexity demands it, not to force growth artificially."
+      ],
+      "whenToUse": "Early-to-mid stage SaaS companies deciding on their first sales hires or budget allocation for the upcoming fiscal year.",
+      "commonMistakes": "Hiring a VP of Sales too early who immediately hires a team of outbound SDRs, blowing the budget on CAC before the product has sufficient viral loops.",
+      "quote": "You can't pay enough to grow at those rates and have a viable company... The biggest thing is an amazing product that people love to use.",
+      "realWorldExample": "Atlassian spent massive amounts on R&D relative to Sales/Marketing compared to industry benchmarks, allowing the product to drive the flywheel while Sales only managed renewals and large accounts."
+    },
+    {
+      "name": "The 'Bag of Doorknobs' Test",
+      "category": "execution",
+      "problemItSolves": "Prevents the misalignment where Product builds a collection of features that Marketing cannot position or sell effectively.",
+      "summary": "A pre-development alignment technique where Product and Marketing agree on the 'hook' before code is written, ensuring the final output isn't just a collection of disjointed features (a bag of doorknobs) but a cohesive solution (the door).",
+      "principles": [
+        "Write the Press Release First: Adopt the Amazon mechanism; draft the launch announcement before development begins.",
+        "Negotiate the Narrative: If the press release feels weak or unexciting, Product and Marketing must iterate on the scope *now*, not later.",
+        "Define the 'Door': Ensure the features sum up to a thematic value proposition, not just a list of functional improvements.",
+        "Check for Marketability: Ask 'Will anyone actually care about this headline?' If not, pivot the product strategy."
+      ],
+      "whenToUse": "During the product ideation and roadmap planning phase, specifically before PRDs are finalized.",
+      "commonMistakes": "Building the product in isolation and then handing it to PMM/Marketing two weeks before launch saying 'make this go viral'.",
+      "quote": "One of my mentors had this comment: 'It's a bag of doorknobs.' What do I do with this bag of doorknobs? Who wants to buy a bag of doorknobs? They want to buy the door.",
+      "realWorldExample": "Carilu mentions using this at Classy to prevent the marketing team from being handed a collection of features that didn't have a unifying theme."
+    },
+    {
+      "name": "The 'C-Suite Translator' Framework",
+      "category": "career-leadership",
+      "problemItSolves": "Helps functional leaders (Product, Marketing, Engineering) break the glass ceiling to become true executives.",
+      "summary": "A 5-step mental shift required to move from a functional head to a C-suite executive, focusing on broadening scope beyond one's domain expertise.",
+      "principles": [
+        "Map to Revenue: Explicitly link your department's metrics to the company's top-line revenue.",
+        "Speak 'Board' Language: Learn finance. Stop talking about 'leads' or 'velocity' and start talking about CAC, LTV, and burn.",
+        "The 'Factory Tour' Method: Spend time understanding the daily challenges of every other department (like the Tesla employee tracking parts across the factory).",
+        "Interim Leadership: Volunteer to fill gaps in other departments (e.g., Marketing running Product Beta) to prove cross-functional competency.",
+        "Think in Systems: View the company as a single interconnected machine, not a collection of silos."
+      ],
+      "whenToUse": "When preparing for a promotion to VP/C-level or when you feel 'stuck' in a functional director role.",
+      "commonMistakes": "Doubling down on being the 'best' marketer or coder rather than becoming a generalist business leader who understands finance and strategy.",
+      "quote": "If you want to be in the C-suite, it's a job about how the system works.",
+      "realWorldExample": "Carilu volunteered to run the product beta and release engineering when the Head of Product left, which gave her insight into product that made her a better CMO."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Hypergrowth companies go through the stages of growth that would take other companies five years or 10 years... They really need to keep hiring 2X and 3X leaders who have seen the next stage of growth, because it's going to be here before you know it.",
+      "context": "Discussing the unique hiring challenges of companies growing at exponential rates."
+    },
+    {
+      "text": "Worrying is wasted energy. Take that fear and uncertainty and thank it for giving us urgency.",
+      "context": "Her advice on dealing with economic downturns and layoff anxiety."
+    },
+    {
+      "text": "How many people have you fired? And tell me about each of the experiences.",
+      "context": "Her favorite interview question to gauge the maturity and humanity of a leadership candidate."
+    }
+  ],
+  "filename": "Carilu Dietrich"
+}

@@ -1,0 +1,104 @@
+{
+  "guest": {
+    "name": "Brian Chesky",
+    "title": "Co-founder & CEO",
+    "company": "Airbnb",
+    "background": "Co-founder of Airbnb, turning it into an $80B+ global business. A RISD graduate and industrial designer by training, Chesky is known for bringing design-led thinking and non-traditional management structures to the technology sector."
+  },
+  "episodeSummary": "Brian Chesky details the radical restructuring of Airbnb that saved the company during the pandemic and defined its current trajectory. He challenges Silicon Valley norms by advocating for a functional organizational structure, the merging of product management with product marketing, and the elimination of the traditional 'empowered' divisional model in favor of a 'CEO as Chief Product Officer' approach. The conversation covers the necessity of leaders being 'in the details,' the shift from performance marketing to brand education, and how to maintain speed at scale.",
+  "keyTakeaways": [
+    "Eliminate the separation between Inbound (PM) and Outbound (PMM); PMs must own the story and distribution, not just the feature build.",
+    "Shift from a Divisional (GM) model to a Functional model to reduce politics, redundancy, and technical debt.",
+    "The CEO must act as the Chief Product Officer; if the CEO isn't driving the product, the company loses its product soul.",
+    "Implement a 'Single Consciousness' roadmap: one unified rolling 2-year plan for the entire company, updated every 6 months, rather than fragmented team roadmaps.",
+    "Metrics should be subordinate to the calendar; ship on a rhythm (e.g., May and November releases) to force alignment and decision-making.",
+    "Treat performance marketing as a 'laser' (lighting up a corner) and brand marketing as a 'chandelier' (lighting the whole room); prioritize education over arbitrage.",
+    "Remove 'people managers' who are not domain experts; leaders must be able to do the work they are managing.",
+    "Design and Engineering should report to the CEO independently; Design should not be subservient to Product."
+  ],
+  "methodologies": [
+    {
+      "name": "The Functional Consolidation Model",
+      "category": "team-culture",
+      "problemItSolves": "Solves the 'divisional drift' where separate business units create silos, redundancy, politics, and incoherent user experiences.",
+      "summary": "A restructuring approach that removes General Managers and divisions, organizing the company strictly by function (Design, Engineering, Marketing, etc.). It centralizes decision-making and ensures experts lead experts.",
+      "principles": [
+        "Eliminate Business Units/Divisions: Move from GM-led verticals (e.g., 'Hosts', 'China', 'Experiences') to central functions.",
+        "Experts Leading Experts: No generic managers. The head of Design must be a world-class designer; the head of Engineering must be a top engineer.",
+        "Centralized Prioritization: Resource allocation happens at the top executive level, preventing teams from hoarding resources or building redundant stacks.",
+        "Influence over Authority: PMs manage by influence, not control. They do not 'own' the engineers or designers but orchestrate the outcome."
+      ],
+      "whenToUse": "Best for companies post-product-market fit that are sensing a slowdown in velocity, increased bureaucracy, or a fracturing of the user experience.",
+      "commonMistakes": "Keeping 'people managers' who cannot evaluate the technical or creative quality of the work, leading to a disconnect between leadership and execution.",
+      "quote": "If you create a division, your division is as successful as you are a priority. So now you have to advocate for your division... that creates what we call politics.",
+      "realWorldExample": "During the pandemic, Chesky moved Airbnb from 10 divisions back to a functional startup structure, reducing headcount while increasing shipping velocity and profitability."
+    },
+    {
+      "name": "The Single Consciousness Roadmap",
+      "category": "product-strategy",
+      "problemItSolves": "Addresses the fragmentation where 10 different teams ship 10 different features that users don't notice, and marketing has no coherent story to tell.",
+      "summary": "A planning framework where the entire company operates off a single, rolling two-year roadmap. This ensures that engineering, design, and marketing are perfectly synchronized for massive, unified launches.",
+      "principles": [
+        "The Rolling 2-Year View: Maintain a roadmap that looks 2 years out, updated every 6 months. The immediate horizon is fixed; the distant horizon is flexible.",
+        "Metrics Subordinate to Calendar: Commit to release dates (e.g., Summer and Winter releases). This forces scope decisions and prevents endless optimization loops.",
+        "Launches as Episodes: Treat product releases like TV episodes or chapters in a book. Bundle features into a cohesive narrative that marketing can actually sell.",
+        "Total Visibility: All projects must be on the central roadmap (except minor infra). If it's not on the sheet, it doesn't exist."
+      ],
+      "whenToUse": "When a company is shipping frequently but customers aren't noticing, or when engineering and marketing are out of sync.",
+      "commonMistakes": "Allowing teams to have 'shadow roadmaps' or side projects that consume resources but don't roll up to the company-wide narrative.",
+      "quote": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
+      "realWorldExample": "Airbnb's 'Winter Release' and 'Summer Release' cadence, where they bundle hundreds of upgrades (like Guest Favorites and the new Host Tab) into a single newsworthy moment."
+    },
+    {
+      "name": "The 'In-The-Details' Review Loop",
+      "category": "execution",
+      "problemItSolves": "Combats the 'ivory tower' leadership problem where executives don't know the truth about project status until it's too late.",
+      "summary": "A leadership cadence where the CEO/Leader reviews actual work (designs, prototypes, copy) on a weekly basis, rather than just reviewing metrics or status slides.",
+      "principles": [
+        "Review the Work, Not the Deck: Leaders should look at the product, the code, or the creative assets, not just a presentation about the work.",
+        "Weekly/Bi-Weekly Cadence: High-frequency reviews allow leaders to unblock teams immediately rather than waiting for quarterly post-mortems.",
+        "Identify Bottlenecks Personally: By seeing the prototype weekly, a leader can spot if 'the tires are off' and identify exactly which cross-functional dependency is blocking progress.",
+        "Micromanagement vs. Details: 'Micromanagement' is telling people what to do; 'Being in the details' is knowing what is happening so you can ensure quality."
+      ],
+      "whenToUse": "Critical for founders or product leaders who feel the product quality is slipping or that the team is moving too slowly.",
+      "commonMistakes": "Using reviews to punish rather than to problem-solve/unblock, or reviewing only when things go wrong (reactive) vs. a consistent cadence (proactive).",
+      "quote": "How do you know they're doing a good job if you're not in the details?",
+      "realWorldExample": "Chesky reviewing the 'Guest Favorites' feature and listing tab designs weekly, allowing him to harmonize the guest and host experiences personally."
+    },
+    {
+      "name": "The 'Add A Zero' Heuristic",
+      "category": "growth-metrics",
+      "problemItSolves": "Overcomes incrementalism where teams only optimize for 10% gains using existing processes.",
+      "summary": "A mental model for goal setting where leaders arbitrarily increase the target by 10x (add a zero) to force the team to abandon current processes and use first-principles thinking.",
+      "principles": [
+        "Force a Process Break: If the goal is 10x higher, the current way of working is mathematically impossible. The team *must* invent a new way.",
+        "First Principles Thinking: Break the problem down to its fundamental components to reconstruct a solution that supports scale.",
+        "See Potential in People: Use the ambitious goal to signal belief in the team's capability, not just as a demand for more hours.",
+        "Pace Setting: Use the expanded goal to drive decision velocity. 'Can we decide this now?' instead of 'Circle back next week.'"
+      ],
+      "whenToUse": "During annual planning or kick-offs for major initiatives where the team is defaulting to safe, low-impact optimization work.",
+      "commonMistakes": "Simply demanding 10x results without allowing the team to change the underlying constraints or resources.",
+      "quote": "If you want to improve the speed of a company, then make faster decisions.",
+      "realWorldExample": "The internal Airbnb mantra of 'Add a zero' which pushes teams to rethink how they acquire hosts or manage support tickets at a fundamentally different scale."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Way too many founders apologize for how they want to run the company. They find some midpoint between how they want to run a company and how the people they lead want to run the company. That's a good way to make everyone miserable.",
+      "context": "Chesky discussing the mistake of compromising on leadership style to appease employees."
+    },
+    {
+      "text": "If you build a great product and no one knows about it, did you even build a product?",
+      "context": "Explaining why Product Managers must also be experts in Product Marketing and distribution."
+    },
+    {
+      "text": "The culture is what happens when you're not in the room.",
+      "context": "Describing how being in the details initially trains the team to make the right decisions later when the leader isn't present."
+    },
+    {
+      "text": "I think flat design is over or ending... I think we're going to move back into a world with color, texture, dimensionality.",
+      "context": "Chesky predicting the next major trend in UI/UX design."
+    }
+  ],
+  "filename": "Brian Chesky"
+}

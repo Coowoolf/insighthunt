@@ -1,0 +1,88 @@
+{
+  "guest": {
+    "name": "Camille Fournier",
+    "title": "Author & Tech Executive",
+    "company": "Various (formerly Two Sigma, Rent the Runway, Goldman Sachs)",
+    "background": "Camille is one of the most respected technology executives in the industry and the author of 'The Manager's Path', the definitive guide for engineering management. She is a former CTO of Rent The Runway and has held senior leadership roles at Two Sigma, JP Morgan Chase, and Goldman Sachs."
+  },
+  "episodeSummary": "Camille Fournier dissects the friction points between Product Managers and Engineers, offering tactical advice on how to build trust, avoid 'hoarding' credit, and prevent over-engineering. She also provides a contrarian perspective on software rewrites, arguing they are often traps due to underestimated migration costs, and lays out a blueprint for modern Platform Engineering teams treating internal infrastructure as a product.",
+  "keyTakeaways": [
+    "PMs annoy engineers most by hoarding credit, ignoring technical details, playing 'telephone' between stakeholders, and hoarding ideation.",
+    "When PMs hoard product ideation, engineers often seek creative outlets by over-engineering the technical stack.",
+    "Rewrites are usually a trap; the complexity lies in the data migration and hidden legacy logic, not the new code construction.",
+    "If a legacy system is stable and doesn't require new features, it is almost never worth the cost of a rewrite.",
+    "Effective Platform Engineering requires a product mindset; if a platform team lacks a PM, the consumer (you) must product manage them.",
+    "Engineering leaders should not move into management until technical mastery is 'in their bones' (often ~10 years of practice).",
+    "Reduce meeting bloat by stopping 'maintenance' one-on-ones with stakeholders; rely on project-based collaboration instead.",
+    "Platform teams should only be formed once an organization hits 50+ engineers and faces scaling inefficiencies."
+  ],
+  "methodologies": [
+    {
+      "name": "The Anti-Friction Engineering Partnership",
+      "category": "team-culture",
+      "problemItSolves": "Reduces animosity between PMs and engineers, preventing the 'over-engineering' loop where engineers complicate tech stacks to find creative fulfillment.",
+      "summary": "A behavioral framework for PMs to build trust with engineering teams by distributing ownership and removing communication bottlenecks. It posits that engineers who feel heard on product strategy are less likely to overcomplicate technical decisions.",
+      "principles": [
+        "Share the Glory: Step back during presentations and let engineers present the work they built; do not be the sole face of the initiative.",
+        "Involve Engineers in Ideation: Allow engineers to contribute to product problem-solving. If you block their creative input on product, they will use code architecture as their creative outlet (leading to over-engineering).",
+        "Stop Playing Telephone: If you cannot answer a technical question, do not mediate the answer. Connect the stakeholder directly to the engineer to avoid translation errors.",
+        "Respect the 'Details': Never dismiss technical constraints as 'small things.' Acknowledge that successful engineering is entirely about managing details."
+      ],
+      "whenToUse": "When taking over a new team, when engineering estimates seem inflated due to complexity, or when morale is low.",
+      "commonMistakes": "Thinking you need to know all the answers to be valuable, or fearing that letting engineers speak to stakeholders will derail the roadmap.",
+      "quote": "When you take the people that are part of the project team out of the creative loop entirely, they're going to find that creative outlet somewhere else and it's actually kind of bad for the product.",
+      "realWorldExample": "Camille highlights that when PMs hoard ideas, engineers start obsessing over frameworks and rewrites to regain a sense of creative control."
+    },
+    {
+      "name": "The Rewrite Viability Audit",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from falling into the 'Rewrite Trap,' where years are wasted rebuilding systems with negative ROI and stalled feature development.",
+      "summary": "A decision-making heuristic to evaluate if a system rewrite is necessary. It shifts the focus from 'how hard is it to build the new thing' to 'how hard is it to migrate the old thing.'",
+      "principles": [
+        "The Migration Multiplier: Recognize that migrating users/data from the old system takes significantly longer than building the new system.",
+        "The 'Do Nothing' Test: Ask, 'If we didn't touch this system for a year, would it harm the business?' If the answer is no, do not rewrite it, even if the code is ugly.",
+        "The Hidden Logic Assessment: Acknowledge that legacy systems contain undocumented business rules and data formatting logic that will be lost or broken in a rewrite.",
+        "Evolution over Revolution: Instead of a full rewrite, identify distinct components (e.g., the recommendation API) to uplift and refactor in isolation."
+      ],
+      "whenToUse": "When an engineering team proposes a 'ground-up' rewrite of a legacy system to move faster or use modern tech.",
+      "commonMistakes": "Assuming the new system will automatically be faster, or forgetting that you must support the old system simultaneously during the multi-year build.",
+      "quote": "Engineers notoriously, notoriously, notoriously, massively underestimate the migration time for old system to new system.",
+      "realWorldExample": "Camille discusses how teams often convince themselves that a new framework will solve support woes, only to realize the migration halts all feature work for 6-24 months."
+    },
+    {
+      "name": "The Platform-as-Product Operating Model",
+      "category": "execution",
+      "problemItSolves": "Fixes internal platform teams that build tools no one uses, have infinite budgets with no ROI, or block product teams with rigid standards.",
+      "summary": "A framework for structuring and interacting with internal platform teams. It treats internal infrastructure as a product that requires customer discovery, adoption metrics, and stakeholder management.",
+      "principles": [
+        "Staff for Software, Not Just Ops: Platform teams must include software engineers to build scalable tools, not just SREs or SysAdmins.",
+        "Mandatory Product Management: Internal platforms need PMs to define the 'what' and 'why.' If a platform team lacks a PM, the consuming team must step in to 'product manage' them.",
+        "Harvest, Don't Invent: The best platform features often start as solutions built by individual application teams. The platform team should 'harvest' these proven solutions and scale them, rather than inventing from zero.",
+        "Service-Level Empathy: Platform teams must manage the 'pain' of forced migrations (e.g., cloud upgrades) for their internal customers."
+      ],
+      "whenToUse": "When your organization exceeds 50 engineers, or when interacting with an internal tools team that is unresponsive to business needs.",
+      "commonMistakes": "Treating platform engineering as just 'DevOps V2' without a product focus, or building bespoke tools when buying or adopting open source would suffice.",
+      "quote": "Platforms are products, ultimately. You should be thinking about how do I create coherent offerings that make this company more productive?",
+      "realWorldExample": "Camille advises a product manager whose platform team is unresponsive to 'find the parts of the team that are working' and actively product manage them by defining problems clearly, effectively filling the void of the missing Platform PM."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The product managers that have done the best, they're not threatened by other people having ideas.",
+      "context": "On why inclusive ideation leads to better team dynamics and less over-engineering."
+    },
+    {
+      "text": "If you never fired someone and regretted it, you don't know where the line is.",
+      "context": "Referencing a philosophy on performance management and understanding the limits of team optimization."
+    },
+    {
+      "text": "Don't stop being hands-on technical until you feel like it's in your bones... until you have mastery.",
+      "context": "Advice for engineers thinking about moving into management; suggesting a ~10 year mastery path before switching tracks."
+    },
+    {
+      "text": "Management is a service job. You are serving the team, you are serving the company.",
+      "context": "Dispelling the myth that becoming a manager gives you more freedom and authority."
+    }
+  ],
+  "filename": "Camille Fournier"
+}

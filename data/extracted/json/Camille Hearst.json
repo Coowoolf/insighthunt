@@ -1,0 +1,87 @@
+{
+  "guest": {
+    "name": "Camille Hearst",
+    "title": "Head of Fan Monetization",
+    "company": "Spotify",
+    "background": "A veteran product leader with deep expertise in the creator economy and media. She previously served as Head of Product for Creators at Patreon, Product Marketing Manager at YouTube and iTunes (Apple), and founded the startup Kit (acquired by Patreon)."
+  },
+  "episodeSummary": "Camille Hearst breaks down the evolution of the creator economy, drawing from her experiences at Spotify, Patreon, and Apple. She contrasts the 'Apple Way' of narrative-led product development with traditional product management and offers deep insights into building two-sided marketplaces. The conversation covers actionable strategies for solving supply-side marketplace challenges, preparing startups for acquisition, and frameworks for de-risking high-stakes product innovation.",
+  "keyTakeaways": [
+    "In two-sided marketplaces, prioritize supply stability over demand aggregation; without available inventory (or drivers/creators), demand churns immediately.",
+    "Adopt the 'Apple Model' by defining the launch story and press release months before building, letting the narrative dictate the feature set.",
+    "When preparing for a potential exit, treat M&A like a sales funnel: build relationships with potential acquirers years in advance under the guise of 'partnership' rather than 'sale'.",
+    "To solve the 'hamster wheel' of content creation, platforms must build tools that passive-ize income or automate content generation (e.g., AI summaries, merch) to prevent creator burnout.",
+    "Use 'Dual Track Agile' not just for speed, but to force the team to tackle the highest-risk/highest-reward assumptions first during discovery.",
+    "Monetization for creators requires moving beyond direct content sales to 'value exchange' moments, such as listening parties or exclusive access.",
+    "The most successful creators (and by extension, platform users) rely on three pillars: Consistency, Collaboration, and Curation."
+  ],
+  "methodologies": [
+    {
+      "name": "The Supply-Anchored Marketplace Strategy",
+      "category": "product-strategy",
+      "problemItSolves": "Addresses the 'chicken and egg' problem in marketplaces where product teams often over-rotate on user experience (demand) while neglecting the inventory (supply) necessary to make the service viable.",
+      "summary": "A strategy that treats supply not just as a user segment, but as the operational foundation of the business. It posits that demand generation is futile if supply liquidity (availability) is not solved first through operational excellence and pain-point resolution.",
+      "principles": [
+        "Prioritize Supply Availability: Before optimizing the consumer UI, ensure there is zero friction in supply availability (e.g., cars on the road, songs in the library).",
+        "Solve Operational Pain Points: Build features that manage the 'business' of the supplier (taxes, payments, insurance) to lock them into the platform.",
+        "Buffer Against Churn: Recognize that supply-side failure (e.g., no cars available) is more damaging to brand trust than demand-side friction.",
+        "Vertical-Specific Tooling: Create specialized tools that lower the cost of production for the supplier to increase their output frequency."
+      ],
+      "whenToUse": "When launching a new marketplace vertical or when seeing high bounce rates on a platform due to lack of inventory/service availability.",
+      "commonMistakes": "Spending marketing budget to drive demand before the supply side has reached critical mass or liquidity.",
+      "quote": "I actually just think they're two-sided and you start with the supply... It doesn't matter how nice the user experience is... if when someone opens that app, there are no cars available.",
+      "realWorldExample": "Camille's experience at Hailo (Uber competitor), where they realized a beautiful app was useless without the operational groundwork to ensure taxi drivers were active and available in the US market."
+    },
+    {
+      "name": "The Narrative-Led Development Model",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents feature creep and disjointed product launches by aligning the entire development process around a singular, compelling customer story.",
+      "summary": "Derived from the 'Apple Way,' this approach replaces the traditional metrics-led PM role with a partnership between Product Marketing (Narrative), Design (Experience), and Engineering (Execution). The product roadmap is defined by the story you want to tell at launch.",
+      "principles": [
+        "Define the Anchor Story: Write the key marketing messages and press release months before the product is built.",
+        "The Demo is the Spec: Focus development on perfecting the specific 'demo moments' that will be shown to the public or stakeholders (e.g., Steve Jobs' library).",
+        "Design & Engineering Lead Craft: Remove the 'middleman' strategist; let makers determine the best implementation of the narrative.",
+        "Curate the Content: For media/content products, manually curate the initial library to ensure the first impression matches the high-level narrative."
+      ],
+      "whenToUse": "When building consumer-facing products where brand perception, launch hype, and emotional resonance are critical to adoption.",
+      "commonMistakes": "Letting engineering constraints dictate the narrative, rather than having the narrative force engineering breakthroughs.",
+      "quote": "We would think months ahead of time, like what's the anchor story... That was what framed what features you wanted to build and what problems you would put on the table to be solved.",
+      "realWorldExample": "At Apple, Camille managed the 'press room' setups where the iTunes library was manually curated to match Steve Jobs' personal taste for demos, ensuring the product narrative (magic, simplicity) was perfectly executed during the presentation."
+    },
+    {
+      "name": "The Risk-First Discovery Protocol",
+      "category": "execution",
+      "problemItSolves": "Mitigates the tendency of product teams to execute on low-hanging fruit while deferring existential product risks until it's too late.",
+      "summary": "An adaptation of Dual Track Agile that specifically targets the 'Big Swings' in the discovery track. Instead of balancing the portfolio, the discovery track is exclusively used to de-risk the most ambitious, high-failure-rate ideas immediately.",
+      "principles": [
+        "Dual Track Separation: Run Discovery (figuring out what to build) and Delivery (building it) as simultaneous, continuous loops.",
+        "Prioritize by Risk Magnitude: Plot ideas on an Impact vs. Risk matrix, but aggressively select the High Risk/High Impact items for immediate discovery.",
+        "De-risk Assumptions First: Validate the things that could kill the business model before writing production code.",
+        "Permission to Fail: Explicitly frame the discovery track as a place where 'failure' is a successful outcome if it prevents wasted engineering time."
+      ],
+      "whenToUse": "When a team is stuck in incrementalism or when leadership is demanding innovation but the team is afraid of failure.",
+      "commonMistakes": "Using the discovery track only for small usability tweaks rather than testing fundamental value propositions.",
+      "quote": "Taking the things in the top, the biggest swing, and actually prioritizing those first in terms of product discovery... if you constantly put those off... how are you ever going to truly innovate?",
+      "realWorldExample": "Camille applied this at Hailo and subsequent roles to move beyond safe feature iterations and test major new business lines without disrupting the core engineering roadmap."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "A frog in a well cannot know the ocean.",
+      "context": "A Japanese proverb Camille cites as a life motto, encouraging product leaders to push beyond their limited perspective/environment."
+    },
+    {
+      "text": "Real musicians have day jobs.",
+      "context": "Camille quoting her father to explain the 'starving artist' ethos that often prevents creators from effectively monetizing their work."
+    },
+    {
+      "text": "Start preparing to sell your company from the moment you found it.",
+      "context": "Her advice on acquisition strategy, emphasizing that relationships with acquirers must be built long before the need to sell arises."
+    },
+    {
+      "text": "There were rumors that people who had not given him a good answer, that ended up being their last day at Apple.",
+      "context": "Sharing the lore regarding Steve Jobs' elevator test, illustrating the high-stakes culture of excellence at Apple."
+    }
+  ],
+  "filename": "Camille Hearst"
+}

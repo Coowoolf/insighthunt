@@ -1,0 +1,90 @@
+{
+  "guest": {
+    "name": "Camille Ricketts",
+    "title": "Former Head of Marketing at Notion / Head of Content at First Round Capital",
+    "company": "Notion / First Round Capital",
+    "background": "Camille was the first marketing hire at Notion, where she architected their legendary community-led growth strategy. Previously, she built the First Round Review from scratch, setting the industry standard for VC content marketing, and worked in comms at early Tesla alongside Elon Musk."
+  },
+  "episodeSummary": "In this deep dive into organic growth, Camille Ricketts deconstructs how Notion used community and content to achieve ubiquity without massive ad spend. She articulates the difference between community-led growth and standard support, providing frameworks for when to invest in ambassadors versus customer advisory boards. Additionally, she applies product thinking to content marketing, explaining how to achieve 'Content-Market Fit' by solving deep user anxieties rather than just publishing generic articles.",
+  "keyTakeaways": [
+    "Stop measuring Community ROI immediately; instead, track 'net new visitors' to the website as a proxy for brand discovery and intent.",
+    "Identify your product's 'Atomic Unit of Sharing' (e.g., Notion templates, Figma files) to determine if community-led growth is viable for you.",
+    "For content marketing, prioritize 'Painkillers' (solving anxiety, confusion, or loneliness) over 'Vitamins' (nice-to-know information).",
+    "Do not scale communities indefinitely; cap monthly intake (e.g., 20 people/month) to preserve culture and intimacy.",
+    "Incentivize ambassadors with access and status (early features, direct lines to product teams) rather than transactional cash payments.",
+    "Use 'The Big Break' PR strategy: Focus on landing one definitive story in a major outlet (like WSJ) to establish credibility, rather than constant low-level noise.",
+    "If you are Pre-PMF and Enterprise, build a Customer Advisory Board, not a mass community.",
+    "Treat content creation like product development: invest ~10 hours per piece to ensure it clears the quality bar of the internet."
+  ],
+  "methodologies": [
+    {
+      "name": "The Community-Fit Matrix",
+      "category": "product-strategy",
+      "problemItSolves": "Helps founders and PMs decide which type of community initiative (if any) is appropriate for their specific company stage and customer type.",
+      "summary": "A 2x2 decision matrix based on whether the company has achieved Product-Market Fit (PMF) and whether it serves Enterprise or Consumer markets. Different quadrants require vastly different community structures.",
+      "principles": [
+        "Quadrant 1 (Enterprise + Pre-PMF): Build 'Customer Advisory Boards'. Focus on small, tight circles of ideal users to give feedback and shape the roadmap.",
+        "Quadrant 2 (Enterprise + Post-PMF): Build 'Champions & Consultants'. Focus on certifying external experts who can implement your software (e.g., Salesforce ecosystem) and internal power users.",
+        "Quadrant 3 (Consumer + Post-PMF): Build 'Ambassadors & Influencers'. Focus on vocal users who want to express their identity through your product (e.g., Notion, Figma).",
+        "Quadrant 4 (Consumer + Pre-PMF): Focus on direct user research and finding the 'Atomic Unit of Sharing' before scaling community."
+      ],
+      "whenToUse": "When a leadership team is debating investing in 'community' but hasn't defined what that actually means or looks like.",
+      "commonMistakes": "Trying to build a massive ambassador program for an enterprise product that is still in the early design partner phase.",
+      "quote": "If you're strongly enterprise and you have product market fit... make sure that they have a place to gather and a place to feel like they are more connected with your team than the average person gets to be.",
+      "realWorldExample": "Notion focused on Ambassadors/Influencers because they were Consumer/Prosumer Post-PMF. Contrast with Stripe Atlas, which built community around founder knowledge (adjacent to product) for their B2B audience."
+    },
+    {
+      "name": "The Content-Market Fit Canvas",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents teams from wasting resources on content that generates no traffic, engagement, or brand equity.",
+      "summary": "This framework applies product management rigor to content creation. Instead of asking 'what should we write?', it asks 'what problem are we solving for the user?' to ensure the content acts as a painkiller.",
+      "principles": [
+        "Step 1: Define the Audience Persona deep-dive. Not just demographics, but psychographics.",
+        "Step 2: Identify the Anxiety. What causes them fear? What do they need to get promoted? What do they need to avoid failure?",
+        "Step 3: Select the 'Job to be Done' (JTBD). Choose one lane: Help them make money, Entertain them, Help them get better at work/life, or Inform them (News).",
+        "Step 4: The 'Painkiller' Test. If the content were removed, would the user feel a void or return to a state of anxiety? If not, it's just a vitamin.",
+        "Step 5: High-Effort Execution. Allocate significant time (8+ hours) per piece to connect dots and synthesize unique insights."
+      ],
+      "whenToUse": "When launching a company blog, newsletter, or media arm to ensure it drives actual business value.",
+      "commonMistakes": "Writing about company news or features instead of addressing the user's personal or professional anxieties.",
+      "quote": "The way that you think about product market fit, you have to think about content market fit... What is it that they need to get promoted? What is it that they need to avoid failure?",
+      "realWorldExample": "First Round Review didn't just write about VC news; they wrote detailed tactical guides on management because they identified that founders felt 'lonely' and 'anxious' about operational failure."
+    },
+    {
+      "name": "The 'Velvet Rope' Scaling Protocol",
+      "category": "team-culture",
+      "problemItSolves": "Prevents a community from becoming noisy, low-quality, and diluted as it grows.",
+      "summary": "A counter-intuitive approach to community growth that prioritizes slow, gated expansion to maintain cultural density and intimacy among members.",
+      "principles": [
+        "Step 1: Application-Only Access. Create a light friction barrier (application form) to gauge genuine intent and passion.",
+        "Step 2: Fixed Cohort Intake. Cap new admissions (e.g., 20 people per month) regardless of demand.",
+        "Step 3: Ritualized Onboarding. Have new members introduce themselves deeply (where they are from, how the product changed their life) to the existing group.",
+        "Step 4: Decentralized Moderation. Encourage members to create their own sub-nodes (e.g., Notion Vietnam Facebook Group) rather than centralizing everything.",
+        "Step 5: Status over Salary. Reward members with insider access (PM AMAs, beta features) rather than payment."
+      ],
+      "whenToUse": "When you have identified a group of passionate early adopters and want to formalize them into a program without killing the organic vibe.",
+      "commonMistakes": "Opening the floodgates to hit a vanity metric (e.g., 'We have 5,000 ambassadors'), which turns the community into an auditorium where no one speaks.",
+      "quote": "One of the worst things you can do is say, let's cut this off at the knees if it's not generating ROI... give your community time to actually grow in what feels like an organic fashion.",
+      "realWorldExample": "Notion's Ambassador program started with just 20 people and only added small cohorts monthly, resulting in high engagement where members felt like 'family' rather than just users."
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The way that you think about product market fit, you have to think about content market fit.",
+      "context": "Camille explaining why most corporate blogs fail—they don't treat content as a product that solves a specific user need."
+    },
+    {
+      "text": "Painkillers always win.",
+      "context": "Discussing the prioritization of content topics—content must solve an acute pain or anxiety, not just be 'nice to have'."
+    },
+    {
+      "text": "If you grow to something like, 'oh we have 5,000 ambassadors,' the conversation is actually very muted. I think because people feel like they're speaking to an auditorium whenever they say anything.",
+      "context": "Explaining the paradox of community size—larger groups often lead to lower engagement due to the bystander effect and loss of intimacy."
+    },
+    {
+      "text": "Identify who are our best fit customers... not necessarily who we wish they would be, but it's actually the hard cold reality of who they actually are.",
+      "context": "Advice on how to select the first batch of ambassadors or power users."
+    }
+  ],
+  "filename": "Camille Ricketts"
+}

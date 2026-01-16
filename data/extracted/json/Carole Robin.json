@@ -1,0 +1,90 @@
+{
+  "guest": {
+    "name": "Carole Robin",
+    "title": "Co-founder at Leaders in Tech & Former Stanford GSB Professor",
+    "company": "Leaders in Tech",
+    "background": "Carole Robin taught the legendary 'Interpersonal Dynamics' (known as 'Touchy Feely') course at Stanford GSB for over 20 years. She is the co-author of 'Connect' and now runs Leaders in Tech, helping high-growth tech leaders build robust relationships and effective cultures."
+  },
+  "episodeSummary": "Carole Robin dismantles the myth that 'soft skills' are secondary in business, arguing that interpersonal competence is the primary driver of professional success. She provides a masterclass on giving feedback without causing defensiveness, the strategic use of vulnerability, and how to navigate the 'three realities' of human interaction. The episode offers a rigorous toolkit for product leaders to move relationships from transactional to exceptional.",
+  "keyTakeaways": [
+    "Feedback fails when you cross the 'Net': You only know your intent and your behavior; you do not know the other person's reality.",
+    "Eliminate 'I feel that' and 'I feel like' from your vocabulary; these are thoughts and judgments masquerading as emotions, and they trigger defensiveness.",
+    "Anger is a secondary emotion that usually pushes people away; expressing the underlying fear or hurt draws people in and solves problems faster.",
+    "Apply the 15% Rule to vulnerability: disclose just 15% outside your comfort zone to build trust without being professionally inappropriate.",
+    "Stop asking 'Why' questions; they imply judgment. Switch to 'What,' 'Where,' 'When,' and 'How' to foster genuine inquiry.",
+    "Mental models formed early in careers (e.g., 'emotions don't belong at work') often become blockers for senior leadership roles.",
+    "Use the AFOG acronym (Another F***ing Opportunity For Growth) to instantly reframe failure into a learning mechanism."
+  ],
+  "methodologies": [
+    {
+      "name": "The Three Realities Feedback Model",
+      "category": "team-culture",
+      "problemItSolves": "Prevents the defensiveness and conflict that usually arises when giving critical feedback to team members or stakeholders.",
+      "summary": "A framework that separates an interaction into three distinct realities to ensure feedback is fact-based and disputable. It forces the speaker to stay on 'their side of the net' by only discussing what they know to be true.",
+      "principles": [
+        "Identify Reality #1 (Intent): Know that your internal intent is invisible to others.",
+        "Identify Reality #2 (Behavior): Focus strictly on observable actions (what was said or done). This is the only shared reality.",
+        "Identify Reality #3 (Impact): Acknowledge you do not know the other person's reality. Only speak to the impact their behavior had on you.",
+        "Use the Formula: 'When you [Specific Behavior], I feel [Specific Emotion from Vocabulary List] because [Impact/Reason].'",
+        "Avoid 'Net Jumping': Never impute motives (e.g., 'You were being disrespectful') or state their reality (e.g., 'You weren't listening')."
+      ],
+      "whenToUse": "During performance reviews, conflict resolution, or when a stakeholder's behavior is blocking product progress.",
+      "commonMistakes": "Using 'I feel that...' or 'I feel like...' followed by a judgment (e.g., 'I feel like you don't care'). This is an attribution, not a feeling.",
+      "quote": "I feel that you don't care and I feel you're being insensitive are not feelings, and that's where we make our biggest mistakes when it comes to feedback.",
+      "realWorldExample": "Carole's student felt disrespected when she checked her watch. Instead of saying 'You are rude,' he said, 'When you looked at your watch while I was answering, I felt disrespected.'"
+    },
+    {
+      "name": "The 15% Disclosure Rule",
+      "category": "career-leadership",
+      "problemItSolves": "Solves the 'Goldilocks' problem of vulnerability: sharing too little creates distance, while sharing too much (oversharing) damages professional credibility.",
+      "summary": "A risk-management heuristic for building trust. It encourages leaders to step slightly outside their 'Comfort Zone' into the 'Learning Zone' without entering the 'Danger Zone.'",
+      "principles": [
+        "Visualize three concentric circles: Comfort Zone (center), Learning Zone (middle), Danger Zone (outer).",
+        "Identify a piece of information or feeling you would normally withhold.",
+        "Push yourself to share 15% more than feels naturally comfortable.",
+        "Observe the reaction; if reciprocated, the relationship deepens and your Comfort Zone expands.",
+        "Differentiate 'Appropriate Vulnerability': Do not dump unresolved emotional burdens on the team; share feelings that are relevant to the work context."
+      ],
+      "whenToUse": "When onboarding new team members, during difficult all-hands meetings (e.g., bad metrics), or when trying to bond with a co-founder.",
+      "commonMistakes": "Confusing vulnerability with weakness or emotional dumping. The goal is to show humanity, not incompetence.",
+      "quote": "If you step a little bit outside your comfort zone, you're very unlikely to freak yourself or the other person out... then we settle into a new, slightly larger comfort zone.",
+      "realWorldExample": "A CEO missed a product deadline. Instead of yelling (Comfort Zone/Anger), he used the 15% rule to admit, 'I am scared that I am the only one worried about this.' The team immediately rallied to fix it."
+    },
+    {
+      "name": "The Art of Inquiry Protocol",
+      "category": "user-research",
+      "problemItSolves": "Addresses the issue of asking leading questions or 'gotcha' questions that shut down dialogue and prevent uncovering the root cause of a problem.",
+      "summary": "A questioning technique designed to suspend judgment and elicit genuine information. It shifts the goal from confirming a hypothesis to a true 'quest' for understanding.",
+      "principles": [
+        "Suspend Judgment: You cannot be curious if you have already decided what is happening.",
+        "Ban the word 'Why': 'Why' questions trigger defensiveness (it sounds like parental scolding).",
+        "Utilize the Reporter's Questions: Start questions exclusively with 'What', 'Where', 'When', and 'How'.",
+        "Focus on Specifics: Ask 'Where is this manifesting?' or 'How might we unpack this?' rather than broad generalizations.",
+        "Listen for the Answer: Do not formulate your next response while the other person is speaking."
+      ],
+      "whenToUse": "During user interviews, debugging team process failures, or navigating disagreements on product strategy.",
+      "commonMistakes": "Asking binary Yes/No questions or disguising advice as a question (e.g., 'Don't you think you should...?').",
+      "quote": "Questions that start with what, when, where, how. Stay away from why.",
+      "realWorldExample": "Instead of asking a spouse/colleague 'Why are you upset?', which leads to denial ('I'm not upset!'), ask 'What is going on for you right now?'"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "People do business with people, not ideas, not products, not machines, not tactics, strategies, not even money.",
+      "context": "Explaining why 'Touchy Feely' is actually a hardcore business course."
+    },
+    {
+      "text": "Anger is a distancing emotion and there are other emotions that are connecting.",
+      "context": "Discussing how anger is often a secondary emotion covering up fear or hurt."
+    },
+    {
+      "text": "In the absence of data, people make shit up.",
+      "context": "Why leaders must disclose more information about themselves and their context to control the narrative."
+    },
+    {
+      "text": "Feedback is either constructive or complimentary... Compare that to 'nice job, thanks'. All feedback is data.",
+      "context": "Redefining positive feedback from vague praise to specific data points that reinforce behavior."
+    }
+  ],
+  "filename": "Carole Robin"
+}
