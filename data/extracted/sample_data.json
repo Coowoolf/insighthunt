@@ -1,0 +1,722 @@
+[
+  {
+    "guest": {
+      "name": "Ada Chen Rekhi",
+      "title": "Co-founder & Executive Coach",
+      "company": "Notejoy"
+    },
+    "keyTakeaways": [
+      "Utilize 'Curiosity Loops' to gather contextual advice from a curated group of peers rather than relying on generic feedback.",
+      "Define a personal set of values to create an 'internal scorecard' for decision-making, countering the 'external scorecard' of status and money.",
+      "Apply the 'Explore and Exploit' framework to career management: optimize for variety and learning in the early career (Explore) before deepening expertise (Exploit).",
+      "Avoid the 'Boiling Frog' syndrome by proactively monitoring your work environment to ensure you aren't stagnating or tolerating a deteriorating situation.",
+      "Most professionals do not need a coach immediately; consider mentors, peer groups, or courses first. If hiring a coach, interview multiple candidates to ensure the right 'vibe'."
+    ],
+    "methodologies": [
+      {
+        "name": "Curiosity Loops",
+        "category": "career-leadership",
+        "summary": "A structured method for gathering high-quality, contextual advice on specific decisions by querying a small group of trusted individuals.",
+        "principles": [
+          "Ask a specific, non-biased question that solicits rationale.",
+          "Curate a mix of subject matter experts and people who know you personally.",
+          "Make the ask lightweight (e.g., picking from a list) to reduce cognitive load.",
+          "Close the loop by sharing your decision and thanking the contributors."
+        ],
+        "quote": "Curiosity loops actually are this way of really thinking about how do you make your advice contextual."
+      },
+      {
+        "name": "Personal Values Scorecard",
+        "category": "career-leadership",
+        "summary": "An exercise to identify and stack-rank core personal values to act as a filter for major life and career decisions.",
+        "principles": [
+          "Select resonating words from a broad list.",
+          "Filter down to groups and stack rank the top values.",
+          "Create a 3-5 sentence summary of your value stack.",
+          "Use this internal scorecard to evaluate opportunities against personal meaningfulness rather than external prestige."
+        ],
+        "quote": "It's this internal scorecard of what really matters to you in your decision making process as opposed to the external scorecard of status, money, wealth."
+      },
+      {
+        "name": "Explore and Exploit Career Framework",
+        "category": "career-leadership",
+        "summary": "A strategy derived from computer science and biology applied to career trajectory, balancing the search for new opportunities with leveraging existing skills.",
+        "principles": [
+          "In 'Explore' mode (typically early career), prioritize learning, variety, and testing hypotheses about what you enjoy.",
+          "In 'Exploit' mode, double down on a specific skill set or industry where you have found leverage and success.",
+          "Don't be the 'frog'—regularly assess if you are learning or if the environment is slowly becoming toxic."
+        ],
+        "quote": "Explore and exploit... is really just around what mode you're in. You're either in a mode of explorer where you have a bunch of unknowns... or you're exploiting, where you actually have found something that's really rich."
+      },
+      {
+        "name": "Strategic Coach Selection",
+        "category": "career-leadership",
+        "summary": "A vetting process for determining if executive coaching is necessary and finding the right fit.",
+        "principles": [
+          "First, evaluate if goals can be met via mentors, courses, or peer groups.",
+          "Interview 2-3 different coaches rather than hiring the first recommendation.",
+          "Prioritize personal connection ('vibe') and psychological safety over just resume credentials.",
+          "Consider niche coaches for specific skills (e.g., public speaking, writing) rather than one general coach."
+        ],
+        "quote": "I strongly recommend to everyone. If you're thinking about getting a coach, talk to two or three different coaches. And really get a sense of their vibe."
+      }
+    ],
+    "filename": "Ada Chen Rekhi"
+  },
+  {
+    "guest": {
+      "name": "Adam Fishman",
+      "title": "EIR & Program Partner",
+      "company": "Reforge"
+    },
+    "keyTakeaways": [
+      "Onboarding is the only part of a product that 100% of users experience; it is the critical link between the brand promise and product delivery.",
+      "Effective growth hiring requires balancing a team across the 'Growth Competency Model' rather than hunting for a non-existent 'unicorn' who is perfect at everything.",
+      "Smart onboarding utilizes 'Opinionated Defaults'—making it difficult for users to choose settings that lead to failure while making successful paths the easiest option.",
+      "Use proxy metrics (leading indicators) like 'time to first dollar' or 'velocity to value' to measure onboarding success, as waiting for 90-day retention data is too slow.",
+      "Evaluate potential employers using the 'PMF for Candidates' framework: People (colleagues), Mission (impact), and Financials (fiscal discipline)."
+    ],
+    "methodologies": [
+      {
+        "name": "Growth Competency Model",
+        "category": "team-culture",
+        "summary": "A framework for hiring and evaluating growth practitioners by assessing them across four distinct quadrants, acknowledging that no single individual possesses mastery in all areas.",
+        "principles": [
+          "Growth Execution (Channel fluency, experimentation)",
+          "Customer Knowledge (Data fluency, user psychology)",
+          "Growth Strategy (Loop modeling, capital allocation)",
+          "Communication & Influence (Stakeholder management, team leadership)"
+        ],
+        "quote": "The goal of the competency model is not to find a unicorn human being that is an 11 out of 10 on every one of these things, because frankly, that person doesn't exist."
+      },
+      {
+        "name": "Opinionated Defaults",
+        "category": "product-strategy",
+        "summary": "A design philosophy for onboarding that guides users toward success by pre-selecting configurations known to drive retention, while adding friction to suboptimal choices.",
+        "principles": [
+          "Make it hard to do the wrong thing",
+          "Make it easy to do the right thing",
+          "Do not eliminate choice, but heavily guide the user",
+          "Base defaults on data from successful user cohorts"
+        ],
+        "quote": "Opinionated defaults... is basically making it hard to do the wrong thing when you're setting up your Patreon page and easy to do the right thing but not eliminating choice."
+      },
+      {
+        "name": "PMF for Candidates",
+        "category": "career-leadership",
+        "summary": "A rigorous criteria framework for job seekers to evaluate potential employers to ensure alignment and minimize the risk of layoffs or toxic environments.",
+        "principles": [
+          "People: Can I have hard conversations with them? Do I respect them?",
+          "Mission: Do people have a better outcome in life because this company exists?",
+          "Financials: Does the company exercise fiscal discipline and responsible planning?"
+        ],
+        "quote": "PMF stands for people, mission and financials. And these are my three criteria... you should have a set of criteria that you are unapologetically rigorous around."
+      },
+      {
+        "name": "Productizing Human Intervention",
+        "category": "execution",
+        "summary": "A growth tactic where high-touch, unscalable human support is used to validate value and identify successful behaviors, which are then codified into software features for scale.",
+        "principles": [
+          "Identify high-potential users via data",
+          "Intervene manually to drive success (e.g., increased revenue)",
+          "Analyze the human impact",
+          "Replicate the guidance via automated product features"
+        ],
+        "quote": "What is not scalable when you're using people becomes very scalable if you can replicate components of that with technology."
+      }
+    ],
+    "filename": "Adam Fishman"
+  },
+  {
+    "guest": {
+      "name": "Adam Grenier",
+      "title": "Growth Advisor (Former VP of Marketing)",
+      "company": "Masterclass"
+    },
+    "keyTakeaways": [
+      "When economic conditions change, assume you have lost Product Market Fit (PMF) because the market context has shifted; do not simply try to fix the problem by adding new marketing channels.",
+      "The 'Yes, and...' principle from improv is a vital tool for cross-functional collaboration, allowing teams to validate conflicting constraints (e.g., central vs. local goals) without halting progress.",
+      "Evaluate emerging acquisition channels (like TikTok or VR) based on the overlap between customer needs/company goals and the channel's strengths, the channel's DNA (lifecycle stage/monetization), and your company's risk profile.",
+      "A 'Growth CMO' differs from a traditional CMO by applying agile product development principles—such as sprinting, backlogs, and rapid iteration—to marketing and brand building.",
+      "When testing new channels, timebox experiments to one quarter maximum; look for directional momentum and qualitative signals rather than immediate statistical significance.",
+      "Burnout is often a mask for depression; high-performing tech leaders must distinguish between needing a break and needing mental health support."
+    ],
+    "methodologies": [
+      {
+        "name": "Emerging Channel Evaluation Framework",
+        "category": "growth-metrics",
+        "summary": "A strategic decision-making framework to determine if a company should invest resources into a new or hype-driven acquisition channel.",
+        "principles": [
+          "**Analyze Overlap**: Ensure there is a match between the customer's need, the company's goals, and the channel's specific strengths (e.g., Audio content fits Clubhouse).",
+          "**Assess Channel DNA**: Determine the channel's lifecycle stage (risk of disappearing vs. ground floor opportunity) and alignment with its monetization strategy.",
+          "**Assess Company DNA**: Evaluate internal risk tolerance and resource availability; ensure a baseline channel (like Google/Facebook) is already working before diversifying."
+        ],
+        "quote": "The exploring emerging channels framework that I'll take... has three core ingredients... understanding if there is an overlap between what the customers need is, what your company's goals are, and what the channel actually does really well."
+      },
+      {
+        "name": "Improv for Business Leadership",
+        "category": "team-culture",
+        "summary": "Applying the rules of improvisational comedy to improve communication, reduce defensiveness in cross-functional meetings, and sharpen marketing messaging.",
+        "principles": [
+          "**'Yes, and...'**: Accept the reality of a colleague's statement or constraint (the 'Yes') and build upon it (the 'And') to maintain momentum rather than shutting down the conversation.",
+          "**The Gift of Details**: Use specific, vivid details in communication and positioning to provide 'meat' for others to work with, rather than generic statements."
+        ],
+        "quote": "If you approach it with that 'Yes, and...', it's often still true... Both of these things can be true at once... So, now that we accept both and can work off of each other, we're more likely to build both a better rapport and energy."
+      },
+      {
+        "name": "The Growth CMO Model",
+        "category": "career-leadership",
+        "summary": "A redefined executive marketing role that merges traditional marketing creativity with the analytical and iterative rigor of product management.",
+        "principles": [
+          "**Agile Marketing**: Run the marketing function using sprints, backlogs, and iterative cycles rather than long-term rigid planning.",
+          "**Product-Marketing Unity**: Treat product and marketing as integrated; the product is the primary marketing engine.",
+          "**Data-Driven Brand**: Measure brand and retention efforts with the same rigor as direct response, using proxies and directional data if necessary."
+        ],
+        "quote": "In my mind, a Growth CMO is looking at each brand investment as how do you then immediately follow that up with the next one? How do you shift to this fast product iteration mindset with even things like brand?"
+      },
+      {
+        "name": "New Channel Experimentation Constraints",
+        "category": "execution",
+        "summary": "A tactical approach to testing unproven acquisition channels to minimize waste while maximizing learning velocity.",
+        "principles": [
+          "**The 5% Rule**: Expect emerging channels to succeed only about 5% of the time.",
+          "**Quarterly Timebox**: Do not let an experiment bleed past one quarter; usually, signal is visible within a month.",
+          "**Momentum over Significance**: In early stages (like Clubhouse or early TikTok), look for week-over-week growth (momentum) rather than perfect click-through attribution."
+        ],
+        "quote": "If you're going over a quarter and you don't feel like directionally it's getting better or it's interesting, I would put it back on ice for a while."
+      },
+      {
+        "name": "Market-Driven PMF Re-evaluation",
+        "category": "product-strategy",
+        "summary": "A mindset shift for navigating economic downturns or major market changes by treating the product as pre-PMF rather than simply optimizing existing funnels.",
+        "principles": [
+          "**Assume PMF is Lost**: If the market context changes, previous product-market fit is nullified.",
+          "**Total Base Reset**: Recognize that the entire customer base's psychology has changed, not just the next marginal acquisition target.",
+          "**Restart over Fix**: Do not launch new channels to fix a fundamental market misalignment; adjust the core offering or messaging first."
+        ],
+        "quote": "Start by assuming you no longer have product market fit, because you had product market fit in a different market. It's a different market now, so you have to start over."
+      }
+    ],
+    "filename": "Adam Grenier"
+  },
+  {
+    "guest": {
+      "name": "Adriel Frederick",
+      "title": "VP of Product",
+      "company": "Reddit"
+    },
+    "keyTakeaways": [
+      "Innovation teams in large companies must position themselves as core to the mission to avoid organizational rejection.",
+      "Diverse teams drastically reduce product development cycles by internalizing global user perspectives, reducing the need for external research on basic cultural nuances.",
+      "PMs act as a damping buffer during PR crises, focusing the team on valid product criticisms rather than external noise.",
+      "Algorithms require human strategic oversight because they optimize for objectives but lack context on intent, constraints, and long-term effects.",
+      "Growth is not just about 'hacks'; it requires grinding on core actions and occasionally investing in massive infrastructure changes ('cannonballs').",
+      "Data reveals where a problem exists, but observing the 'marginal user' reveals why it exists."
+    ],
+    "methodologies": [
+      {
+        "name": "Incubating R&D Teams",
+        "category": "team-culture",
+        "summary": "A framework for setting up innovation teams within established companies to prevent 'organ rejection' from the main body of the organization.",
+        "principles": [
+          "Ensure the work is viewed as core and critical to the company mission, not a side project.",
+          "Structure outcomes so it feels like 'everyone's success,' not just the R&D team's win.",
+          "Clarify that innovation is not exclusive to the R&D team; other teams still innovate on core products."
+        ],
+        "quote": "The rest of the company needs to see what you're doing as being core and critical to the mission. It can't seem like these guys are just playing off in a corner."
+      },
+      {
+        "name": "Diversity as Operational Efficiency",
+        "category": "team-culture",
+        "summary": "Leveraging diverse team backgrounds not just for social good, but as a strategic advantage to speed up product decision-making for global markets.",
+        "principles": [
+          "Internalize global perspectives to resolve design arguments quickly without waiting for external research panels.",
+          "Avoid 'colonial' product design where a homogeneous group assumes the needs of global users.",
+          "Prioritize retention of diverse talent as the prerequisite for successful recruiting."
+        ],
+        "quote": "You got to have your teams look like the world, it just makes you so much faster."
+      },
+      {
+        "name": "Human-in-the-Loop Algorithmic Design",
+        "category": "product-strategy",
+        "summary": "Designing systems where algorithms amplify human intent rather than replacing human judgment, particularly in pricing and marketplaces.",
+        "principles": [
+          "Treat operational control as a first-order product requirement.",
+          "Use humans to define strategy and constraints; use algorithms to optimize within those constraints.",
+          "Build interfaces that allow operators to inject judgment calls (e.g., during weather events) that algorithms cannot foresee."
+        ],
+        "quote": "The algorithms don't understand long term effects often, nor do they understand how people might respond to it... working on algorithmic heavy products, your job is figuring out what the algorithm should be responsible for, what people are responsible for."
+      },
+      {
+        "name": "The Marginal User Analysis",
+        "category": "user-research",
+        "summary": "A research method focused on users on the cusp of conversion or in 'worst-case' scenarios to unlock growth.",
+        "principles": [
+          "Identify segments with high traffic but low conversion (the marginal user).",
+          "Test against the worst-case technical constraints (e.g., feature phones on Edge networks).",
+          "Do not rely solely on funnels; use qualitative observation to find problems orthogonal to the data (e.g., cultural naming conventions)."
+        ],
+        "quote": "Don't use the data alone to figure out who the marginal user is... You have to go watch them to find the answer."
+      },
+      {
+        "name": "Cannonball Growth Strategy",
+        "category": "growth-metrics",
+        "summary": "Balancing small optimizations with massive, fundamental product changes to drive growth.",
+        "principles": [
+          "Move beyond 'hacks' to focus on grinding down friction in core actions.",
+          "Deploy 'lead bullets' (small fixes) alongside 'cannonballs' (heavy investment structural changes like phone number sign-ups).",
+          "Respect the user's intelligence; relying only on tricks/hacks is a short-term strategy."
+        ],
+        "quote": "There was no silver bullets, just many lead bullets... And a few massive cannonballs every now and then."
+      },
+      {
+        "name": "Galvanizing Metrics",
+        "category": "execution",
+        "summary": "Using simple, communicable metrics (like Facebook's 7 friends in 10 days) to align organizational momentum, even if the metric isn't scientifically perfect.",
+        "principles": [
+          "The value of a metric lies in its ability to be understood and communicated.",
+          "Create a discrete number and timeframe to stop academic debate and start execution.",
+          "Accept minor data inaccuracies (kinks in the curve) in exchange for massive organizational velocity."
+        ],
+        "quote": "What I thought was brilliant about that was not the metric, it was the designing it to be understood and communicated."
+      }
+    ],
+    "filename": "Adriel Frederick"
+  },
+  {
+    "guest": {
+      "name": "Aishwarya Naresh Reganti & Kiriti Badam",
+      "title": "AI Researchers & Product Leaders",
+      "company": "OpenAI (Kiriti) / Independent & Maven (Aishwarya)"
+    },
+    "keyTakeaways": [
+      "Building AI products requires managing non-determinism in both user inputs and model outputs.",
+      "There is a fundamental trade-off between agency (autonomy) and control; as agency increases, human control decreases, requiring higher trust.",
+      "Do not start with full autonomy (V3); start with high-control/low-agency solutions (V1) and graduate upwards.",
+      "The 'Problem First' mindset prevents teams from getting lost in technical complexity by focusing on the specific user friction being solved.",
+      "Evals are not a silver bullet; successful teams use a hybrid of offline evals, production monitoring, and qualitative 'vibes'.",
+      "Pain is the new moat; the difficulty of implementing and refining AI workflows creates competitive advantage.",
+      "Leaders must be hands-on with AI tools to rebuild their product intuition."
+    ],
+    "methodologies": [
+      {
+        "name": "The Agency-Control Graduation Ladder",
+        "category": "product-strategy",
+        "summary": "A phased deployment strategy for AI agents that mitigates risk by starting with low autonomy and gradually increasing it as the system proves reliable.",
+        "principles": [
+          "V1 (Copilot/Draft): AI suggests or drafts, human reviews and executes.",
+          "V2 (Manager): AI executes multi-step tasks under human supervision/approval.",
+          "V3 (Agent): AI acts autonomously with post-hoc review.",
+          "Never relinquish control without first validating reliability."
+        ],
+        "quote": "Every time you hand over decision-making capabilities to agentic systems, you're kind of relinquishing some amount of control on your end."
+      },
+      {
+        "name": "Continuous Calibration, Continuous Development (CCCD)",
+        "category": "execution",
+        "summary": "A modified software development lifecycle specifically for AI that emphasizes a feedback loop between development (scoping/curating) and calibration (analyzing emerging behaviors).",
+        "principles": [
+          "Scope capability and curate datasets before building.",
+          "Deploy and monitor for 'unknown unknown' behaviors.",
+          "Calibrate by spotting error patterns and fixing data/prompts.",
+          "Design new evaluation metrics based on observed production failures.",
+          "Use human-in-the-loop logs as free error analysis."
+        ],
+        "quote": "It's about have you built the right flywheels in place so that you can improve over time."
+      },
+      {
+        "name": "Hybrid Evaluation Strategy",
+        "category": "growth-metrics",
+        "summary": "A balanced approach to quality assurance that rejects the binary choice between offline evals and online monitoring.",
+        "principles": [
+          "Use Offline Evals to prevent regressions on known failure modes.",
+          "Use Production Monitoring (implicit signals like regenerations/thumbs down) to catch new, unexpected behaviors.",
+          "Incorporate 'Vibes' and qualitative usage for open-ended domains (like coding).",
+          "Don't rely on generic benchmarks; build custom datasets based on your specific problem."
+        ],
+        "quote": "I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion."
+      },
+      {
+        "name": "Intuition Rebuilding for Leaders",
+        "category": "career-leadership",
+        "summary": "A practice for executives to overcome obsolete product instincts by engaging directly with AI tools.",
+        "principles": [
+          "Schedule dedicated 'hands-on' time with AI tools (e.g., 4:00-6:00 AM blocks).",
+          "Admit vulnerability: accept that pre-AI intuitions may be wrong.",
+          "Consult subject matter experts (SMEs) constantly, as they are crucial for judging output quality.",
+          "Avoid 'Vibe Coding' without understanding the operational complexity of deployment."
+        ],
+        "quote": "Leaders have to get back to being hands-on. You must be comfortable with the fact that your intuitions might not be right."
+      }
+    ],
+    "filename": "Aishwarya Naresh Reganti + Kiriti Badam"
+  },
+  {
+    "guest": {
+      "name": "Albert Cheng",
+      "title": "Head of Growth / Growth Leader",
+      "company": "Chess.com (formerly Duolingo, Grammarly)"
+    },
+    "keyTakeaways": [
+      "User retention is the single most important factor for consumer subscription success; without it, monetization pressure on day one becomes unsustainable.",
+      "For mature products, 'current user retention' (habitual users) is a more powerful lever than new user acquisition.",
+      "The 'Explore and Exploit' framework helps teams balance finding new opportunities (divergent) with maximizing existing ones (convergent).",
+      "Effective freemium monetization often involves 'sampling' premium value within the free experience rather than hiding it behind hard paywalls.",
+      "Brand marketing and growth experimentation are multiplicative, not adversarial; product personality (like Duo the owl) fuels marketing channels.",
+      "In hiring, 'clock speed' and high agency are often more valuable than deep experience, especially as AI renders past habits obsolete."
+    ],
+    "methodologies": [
+      {
+        "name": "Explore and Exploit Framework",
+        "category": "product-strategy",
+        "summary": "A strategic cycle where teams oscillate between 'exploring' (finding the right mountain to climb) and 'exploiting' (climbing it effectively). This prevents the team from becoming too scattershot or getting stuck in local maximization.",
+        "principles": [
+          "Oscillate between divergent brainstorming and convergent optimization.",
+          "When an experiment wins (or loses big), extract the insight and apply it across adjacent product areas.",
+          "Use data explorer tools to identify when experimentation yields are diminishing, signaling a need to return to exploration."
+        ],
+        "quote": "If you do too much in exploitation... it can lead to this saturation and stagnation where you're just locally maximizing a thing."
+      },
+      {
+        "name": "Freemium Value Sampling (Reverse Trial)",
+        "category": "growth-metrics",
+        "summary": "A monetization strategy where free users are given a capped, real-time taste of premium features within their natural workflow, rather than a time-based full trial.",
+        "principles": [
+          "Intersperse premium suggestions/features directly into the free user's usage loop.",
+          "Make the free product a reflection of the product's full capabilities.",
+          "Use capped usage (e.g., 3 premium suggestions per day) to drive upgrade intent without friction."
+        ],
+        "quote": "What if we actually sampled a number of different paid suggestions and interspersed them to free users across their writing? ... All of a sudden, people were seeing Grammarly as a much more powerful tool."
+      },
+      {
+        "name": "AI-Accelerated Execution",
+        "category": "execution",
+        "summary": "Leveraging AI tools to compress the time required for data analysis, prototyping, and insight generation, thereby increasing the 'clock speed' of the growth team.",
+        "principles": [
+          "Implement Text-to-SQL bots (Slack) to handle ad-hoc data queries and democratize data access.",
+          "Use AI prototyping (V0, Lovable) to bypass written specs and move straight to visual ideas.",
+          "Utilize LLMs to summarize experiment analysis and suggest next steps."
+        ],
+        "quote": "AI, I think can be applied to speed up some elements of that essentially experiment cycle... that ideation, that research cycle was much, much faster."
+      },
+      {
+        "name": "High-Agency Hiring",
+        "category": "team-culture",
+        "summary": "A hiring philosophy that prioritizes energy, adaptability, and speed over tenure or specific domain experience, particularly in rapidly shifting tech landscapes.",
+        "principles": [
+          "Prioritize 'clock speed' and energy.",
+          "View deep experience as a potential 'crutch' that may rely on outdated habits.",
+          "Look for individuals willing to intentionally discard learned habits to adapt to new tools (like AI)."
+        ],
+        "quote": "I saw some of the highest performers just being people that had very high agency, had that clock speed... Sometimes experience could be a crutch."
+      },
+      {
+        "name": "Resurrection of Dormant Users",
+        "category": "growth-metrics",
+        "summary": "For mature products with large inactive user bases, growth strategy shifts from new acquisition to re-engaging and 'resurrecting' past users.",
+        "principles": [
+          "Treat resurrected users as a distinct cohort with a unique UX (e.g., replacement tests in Duolingo).",
+          "Leverage social notifications (contact sync) to trigger FOMO or social connection.",
+          "Recognize that as a company matures, new user acquisition becomes a smaller fraction of the active user base compared to resurrected users."
+        ],
+        "quote": "Eventually that math adds up where you have, let's say hundreds of millions of dormant users... it's actually worth spending some time making sure that that resurrected... experience inside the product is really excellent."
+      }
+    ],
+    "filename": "Albert Cheng"
+  },
+  {
+    "guest": {
+      "name": "Alex Hardiman",
+      "title": "Chief Product Officer",
+      "company": "The New York Times"
+    },
+    "keyTakeaways": [
+      "Business goals at NYT exist to service the mission (seeking truth and informed democracy), reversing the typical corporate dynamic where impact serves the business.",
+      "The 'Solar System' product strategy treats News as the sun—providing brand trust and traffic—which then fuels 'satellite' products like Games, Cooking, and Wirecutter.",
+      "NYT aims to solve the 'Essential Subscription' problem by bundling news with daily life needs (cooking, playing, shopping) to reach a TAM of 135 million people.",
+      "Product teams at NYT uniquely embed editors and journalists directly into cross-functional 'missions' to marry data signals with editorial craft.",
+      "During 'Wartime' scenarios (e.g., COVID-19, post-2016 election), product teams must be willing to abandon roadmaps entirely to focus on immediate public utility and safety.",
+      "Successful acquisition integration (like Wordle) requires preserving the 'core magic' of the user loop while solving backend user needs (like saving stats) invisibly."
+    ],
+    "methodologies": [
+      {
+        "name": "The Solar System Strategy (Essential Subscription)",
+        "category": "product-strategy",
+        "summary": "A portfolio strategy where the core product (News) acts as the 'Sun'—providing gravity, trust, and audience—to support 'satellite' planets (Games, Cooking, Audio, Shopping).",
+        "principles": [
+          "News is the primary funnel and brand anchor.",
+          "Satellite products address specific 'life needs' and passions.",
+          "The bundle connects these distinct experiences into a single daily habit.",
+          "Target a specific TAM willing to pay for high-quality journalism (135M people)."
+        ],
+        "quote": "When you think about the New York Times, we actually have the solar system metaphor where for us news is the sun in the sense that it's why we exist... But then that sun helps you give birth to other satellite planets or products that have a lot of the same DNA."
+      },
+      {
+        "name": "Mission vs. Function Matrix Organization",
+        "category": "team-culture",
+        "summary": "An organizational structure that splits reporting lines into Functions (Product, Design, Engineering) for craft excellence and Missions (Consumer, Monetization, Platform) for goal execution.",
+        "principles": [
+          "Functions focus on career growth, standards, and equitable promotion.",
+          "Missions are cross-functional teams focused on specific business goals.",
+          "Uniquely, 'Consumer' missions embed editors/journalists alongside PMs and Engineers.",
+          "Product helps stories find audiences but does not influence story selection (maintaining editorial independence)."
+        ],
+        "quote": "Editors are embedded within consumer missions... That is where having editors involved, particularly like editors who are very product minded, it brings in the best of their expertise and marries it with a lot of the normal signal."
+      },
+      {
+        "name": "Wartime Product Management",
+        "category": "execution",
+        "summary": "A crisis-response framework used during events like the 2016 Election aftermath or the onset of COVID-19, characterized by high urgency and the suspension of standard roadmaps.",
+        "principles": [
+          "Diagnose the reality on the ground with extreme humility.",
+          "Blow up existing roadmaps; ignore non-essential work.",
+          "Focus entirely on utility, accuracy, and public safety.",
+          "Rally the team around a single, unified purpose greater than business metrics."
+        ],
+        "quote": "I think about wartime product management... The idea of being able to take all of these crazy inputs, trying to create a very structured model to figure out, 'Okay, what is true? Where do we have conviction?... How do you get a team rallied around a shared context in one single goal?'"
+      },
+      {
+        "name": "The 'Eye of Sauron' Career Heuristic",
+        "category": "career-leadership",
+        "summary": "A career growth strategy involving proactively seeking out the most chaotic, high-stakes problems (the 'Eye of Sauron') within an organization rather than avoiding them.",
+        "principles": [
+          "Move toward the 'center of the storm' or the CEO's top priority.",
+          " chaotic environments allow product managers to thrive by creating structure.",
+          "Develop grit and resilience by solving problems with no existing playbook.",
+          "Use these high-pressure roles to accelerate pattern recognition skills."
+        ],
+        "quote": "I am drawn to those types of problems for sure... These are actually the conditions where product manager, I think, thrive."
+      }
+    ],
+    "filename": "Alex Hardimen"
+  },
+  {
+    "guest": {
+      "name": "Alex Komoroske",
+      "title": "Founder",
+      "company": "Stealth Startup (formerly Stripe, Google)"
+    },
+    "keyTakeaways": [
+      "LLMs act as 'magical duct tape,' fundamentally changing the cost structure of software by making code generation cheap but reliability variable.",
+      "In an era of AI-generated content, human 'taste' and a unique perspective become the primary differentiators.",
+      "Large organizations often operate under 'Kayfabe'—a shared pretense that a strategy is working even when individuals know it isn't.",
+      "Product leaders should shift from a 'Builder' mindset (high effort, linear output) to a 'Gardener' mindset (planting seeds, compounding growth).",
+      "Organizations function like 'slime molds' where coordination costs increase with the square of the number of people; leaders must navigate this rather than fight it.",
+      "Productivity requires creating space for deep reflection to turn raw notes into synthesized insights."
+    ],
+    "methodologies": [
+      {
+        "name": "Gardener Mindset",
+        "category": "product-strategy",
+        "summary": "A strategic approach that prioritizes creating self-sustaining ecosystems and compounding loops over linear building and direct manipulation.",
+        "principles": [
+          "Plant 'acorns' (low-cost experiments) that have the potential to grow into 'oak trees'.",
+          "Look for systems with network effects or accelerating rates of return.",
+          "Dedicate 70% of effort to legible value to buy 'cover fire' for the 30% of experimental gardening.",
+          "Don't try to predict the winner beforehand; farm for miracles."
+        ],
+        "quote": "What I look for instead are things that can be gardened, things that can grow on their own and that you can direct or maybe give a little bit of extra energy to or curate over."
+      },
+      {
+        "name": "Organizational Kayfabe",
+        "category": "team-culture",
+        "summary": "A framework for understanding how large organizations maintain cohesion through shared illusions, and how to navigate them without becoming cynical.",
+        "principles": [
+          "Acknowledge that optimism (Kayfabe) is necessary for organizational lubrication.",
+          "Recognize that challenging the 'fake' reality can be dangerous to one's career.",
+          "Introduce disconfirming evidence gently or through 'ugly baby' ideas that don't threaten the core narrative immediately.",
+          "Avoid becoming a zombie who believes the Kayfabe entirely."
+        ],
+        "quote": "Kayfabe... means a thing that everybody knows is fake and yet everybody acts like is real. And I think it's one of the defining forces within an organization."
+      },
+      {
+        "name": "Slime Mold Theory",
+        "category": "team-culture",
+        "summary": "A mental model viewing organizations as biological systems where coordination costs are the primary constraint.",
+        "principles": [
+          "Treat small startups like sports cars (steerable) and large orgs like big rigs (require process and slow pivoting).",
+          "Do not fight the coordination cost; adapt the operating style to it.",
+          "Design for emergence rather than top-down control in large systems.",
+          "Use program management to handle the 'big rig' dynamics."
+        ],
+        "quote": "The core dynamic that makes organizations hard to navigate as they get larger... is this emergent force or coordination... finding this coordination cost grows with the square of the number of people."
+      },
+      {
+        "name": "The Compendium / Bits and Bobs",
+        "category": "career-leadership",
+        "summary": "A disciplined knowledge management practice involving rapid capture and scheduled deep reflection.",
+        "principles": [
+          "Capture raw notes and ideas immediately during meetings.",
+          "Weekly review sessions (Fridays) to process, clean, and synthesize notes.",
+          "Use embeddings or tags to find connections between new and old ideas.",
+          "Publish synthesized thoughts to clarify thinking and invite serendipity."
+        ],
+        "quote": "I take a lot of notes... And then once a week, I go through, I take a few hours and I just reflect to myself and try to find patterns and unpack and find meaning and things."
+      },
+      {
+        "name": "AI as Magical Duct Tape",
+        "category": "product-strategy",
+        "summary": "A product philosophy for the AI era that embraces the 'squishy' and imperfect nature of LLMs.",
+        "principles": [
+          "Assume the software will not be perfect; design for 95% accuracy.",
+          "Focus on 'weird' and 'playful' ideas that were previously impossible due to cost.",
+          "Use AI to enhance individual agency rather than just team collaboration.",
+          "Leverage 'taste' to curate the output of the 'squishy computer'."
+        ],
+        "quote": "To me, LLMs are magical duct tape... So much of how the industry is built presupposes the idea that software is expensive to write and cheap to run, and LLMs undermine both of these."
+      }
+    ],
+    "filename": "Alex Komoroske"
+  },
+  {
+    "guest": {
+      "name": "Alexander Embiricos",
+      "title": "Product Lead for Codex",
+      "company": "OpenAI"
+    },
+    "keyTakeaways": [
+      "Codex has seen 20x growth since August and serves trillions of tokens a week, becoming the most served coding model in OpenAI's API.",
+      "The Sora Android app was built in just 28 days (18 to internal beta, 10 to public launch) with only 2-3 engineers using Codex, eventually reaching #1 in the App Store.",
+      "OpenAI operates on a hyper-bottoms-up culture where individual autonomy and empirical testing override rigid top-down planning.",
+      "The initial version of Codex (Cloud) was 'too far in the future'; growth unlocked when they integrated into existing workflows (IDE extensions) to build trust first.",
+      "The limiting factor for AGI is currently human typing and multitasking speed, suggesting AI needs to become proactive to bypass human bottlenecks.",
+      "Future AI agents will likely be 'coding agents' by default, as writing code is the most effective way for models to manipulate computers.",
+      "Designers and PMs at OpenAI use 'vibe coding' to build working prototypes and PRs, compressing the talent stack and reducing communication overhead."
+    ],
+    "methodologies": [
+      {
+        "name": "The Software Teammate Framework",
+        "category": "product-strategy",
+        "summary": "Moving beyond AI as a simple autocomplete tool to an agent that acts as a proactive intern, participating in planning, validation, and deployment.",
+        "principles": [
+          "Proactivity: The agent shouldn't wait for prompts to help.",
+          "Context Awareness: Agents must eventually access Slack, Datadog, and other systems.",
+          "Evolution of Trust: Start as an intern that needs supervision, evolve into an autonomous teammate."
+        ],
+        "quote": "We think of Codex as just the beginning of a software engineering teammate. It's a bit like this really smart intern that refuses to read Slack, doesn't check Datadog unless you ask it to."
+      },
+      {
+        "name": "Empirical Bottoms-Up Execution",
+        "category": "team-culture",
+        "summary": "A management style that prioritizes rapid experimentation and individual autonomy over long-term rigid planning, specifically suited for high-talent density environments.",
+        "principles": [
+          "Fuzzy Aim: Define the 1-year vision loosely, but execute tactically based on immediate feedback.",
+          "Ready-Fire-Aim: Deploy primordial versions quickly to see how people use them.",
+          "Extreme Autonomy: Rely on high individual drive rather than top-down 'rallying the ship'."
+        ],
+        "quote": "It's much more important for us to be very humble and learn a lot more empirically and just try things quickly. And the org is set up in that way to be incredibly bottoms up."
+      },
+      {
+        "name": "The Adoption Bridge Strategy",
+        "category": "growth-metrics",
+        "summary": "To transition users to a futuristic workflow (autonomous cloud agents), the product must first meet them in their current workflow (local IDEs) to gather context and build trust.",
+        "principles": [
+          "Don't launch too far in the future: Pure cloud agents were hard to configure.",
+          "Interactive Onboarding: Use the chat/IDE experience to help the user configure the agent's environment dynamically.",
+          "Gradual Delegation: Users learn to trust the agent interactively before delegating asynchronous tasks."
+        ],
+        "quote": "The key unlock is actually first you need to land with users in a way that's much more intuitive and trivial to get value from."
+      },
+      {
+        "name": "Integrated Stack Optimization",
+        "category": "execution",
+        "summary": "Accelerating product capabilities by tightly integrating the research (model), the API, and the product harness (UI/Tools) rather than treating them as separate silos.",
+        "principles": [
+          "Holistic Feature Development: Features like 'compaction' require changes at the model, API, and harness levels simultaneously.",
+          "Opinionated Harness: Optimizing the toolset (e.g., specific focus on shell/terminal) allows the model to be trained more effectively for that specific environment."
+        ],
+        "quote": "One of the biggest accelerants... is just we're building all three things in parallel and tuning each one and constantly experimenting with how those things work with a tightly integrated product and research team."
+      },
+      {
+        "name": "Talent Stack Compression",
+        "category": "career-leadership",
+        "summary": "Leveraging AI to allow non-engineering roles (PMs, Designers) to execute technical tasks, removing communication layers and speeding up delivery.",
+        "principles": [
+          "Vibe Coding: Non-engineers generating prototypes or production code via natural language.",
+          "Skip Communication Boundaries: Instead of writing a spec for an engineer, the PM/Designer builds the prototype directly.",
+          "Universal Literacy: Coding becomes a ubiquitous tool for analysis and design, not just software engineering."
+        ],
+        "quote": "Every time someone can do more, you can skip one communication boundary and make the team that much more efficient."
+      }
+    ],
+    "filename": "Alexander Embiricos"
+  },
+  {
+    "guest": {
+      "name": "Alisa Cohn",
+      "title": "Executive Coach",
+      "company": "Alisa Cohn (Independent)"
+    },
+    "keyTakeaways": [
+      "Difficult conversations are essential for growth; avoiding them to prevent 'upsetting' employees harms the company and the individual.",
+      "A leader's primary job is to drive results and set expectations, not to make employees happy. Happiness often follows winning and clarity.",
+      "Structure feedback using observable facts rather than judgments to reduce defensiveness.",
+      "When delivering bad news (like denying a promotion), do not bury the lead, explain the business reasoning, and provide 'hope for the future' via a development plan.",
+      "Before firing someone, there must be a 'deal breaker' conversation where the consequences of non-improvement are explicitly stated.",
+      "Meetings must end with specific closure questions to prevent circular discussions and ensure execution.",
+      "Positive feedback (praise) requires the same level of specificity and preparation as constructive feedback to be effective."
+    ],
+    "methodologies": [
+      {
+        "name": "The Constructive Feedback Script",
+        "category": "career-leadership",
+        "summary": "A structured approach to giving difficult feedback that minimizes defensiveness by focusing on external observations and mutual goals.",
+        "principles": [
+          "Start with a neutral opener ('I want to chat with you about...').",
+          "Use 'What I'm hearing/observing' to state facts, not personal attacks.",
+          "Use 'We both know' to align on shared standards.",
+          "End with a clear call to action on how to fix the issue."
+        ],
+        "quote": "I want to chat with you about the way you're interacting with your peers... What I'm hearing from them is that you're missing deadlines... I want to continue to help you find opportunities to build your skills."
+      },
+      {
+        "name": "Handling Defensiveness (The Pause)",
+        "category": "team-culture",
+        "summary": "A tactic to de-escalate a situation when an employee becomes emotional or argumentative during feedback.",
+        "principles": [
+          "Identify the emotional shift immediately.",
+          "Call for a pause in the conversation.",
+          "Reiterate positive intent (e.g., 'I'm telling you this to make you better').",
+          "Offer to reschedule the discussion to allow for digestion."
+        ],
+        "quote": "Let's just pause for a second. First of all, I want you to know that I'm telling you this actually, just to make you better... I want to know if we can continue having this conversation now or if we need to kind of pause it."
+      },
+      {
+        "name": "The Non-Promotion Conversation",
+        "category": "career-leadership",
+        "summary": "A framework for delivering disappointing news regarding promotions while maintaining employee engagement.",
+        "principles": [
+          "Deliver the news immediately (don't bury the lead).",
+          "Explain the decision based on business needs or skill gaps (e.g., 'we need someone who has done this role multiple times').",
+          "Provide 'Hope for the Future' by committing to help them build the necessary skills.",
+          "Validate their feelings but hold firm on the decision."
+        ],
+        "quote": "I know this is going to be challenging for you to hear, not going to promote you, but I want you to know this. It's really important to me that you're able to succeed in your career here."
+      },
+      {
+        "name": "The Pre-Firing 'Deal Breaker' Talk",
+        "category": "team-culture",
+        "summary": "The final warning conversation required before termination to ensure the employee is not surprised.",
+        "principles": [
+          "State clearly that this is a difficult conversation.",
+          "Reference specific history: 'We have talked about this multiple times.'",
+          "Set a specific timeframe for improvement (e.g., 30 days).",
+          "Explicitly state the consequence: 'We will have to part ways.'"
+        ],
+        "quote": "I need you to fix this within the next 30 days. Otherwise, I'm sorry to say, we're going to have to find a way to part ways because I can't keep this going with you."
+      },
+      {
+        "name": "Meeting Closure Protocol",
+        "category": "execution",
+        "summary": "Three mandatory questions to ask at the end of every meeting to ensure alignment and accountability.",
+        "principles": [
+          "Question 1: What did we decide here?",
+          "Question 2: Who needs to do what by when? (Action Items)",
+          "Question 3: Who else needs to know? (Communication Plan)"
+        ],
+        "quote": "My three questions to end the meeting are, what did we decide here? Who needs to do what by when? And who else needs to know?"
+      }
+    ],
+    "filename": "Alisa Cohn"
+  }
+]

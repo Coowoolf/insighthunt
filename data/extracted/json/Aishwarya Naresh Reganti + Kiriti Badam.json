@@ -1,0 +1,68 @@
+{
+  "guest": {
+    "name": "Aishwarya Naresh Reganti & Kiriti Badam",
+    "title": "AI Researchers & Product Leaders",
+    "company": "OpenAI (Kiriti) / Independent & Maven (Aishwarya)"
+  },
+  "keyTakeaways": [
+    "Building AI products requires managing non-determinism in both user inputs and model outputs.",
+    "There is a fundamental trade-off between agency (autonomy) and control; as agency increases, human control decreases, requiring higher trust.",
+    "Do not start with full autonomy (V3); start with high-control/low-agency solutions (V1) and graduate upwards.",
+    "The 'Problem First' mindset prevents teams from getting lost in technical complexity by focusing on the specific user friction being solved.",
+    "Evals are not a silver bullet; successful teams use a hybrid of offline evals, production monitoring, and qualitative 'vibes'.",
+    "Pain is the new moat; the difficulty of implementing and refining AI workflows creates competitive advantage.",
+    "Leaders must be hands-on with AI tools to rebuild their product intuition."
+  ],
+  "methodologies": [
+    {
+      "name": "The Agency-Control Graduation Ladder",
+      "category": "product-strategy",
+      "summary": "A phased deployment strategy for AI agents that mitigates risk by starting with low autonomy and gradually increasing it as the system proves reliable.",
+      "principles": [
+        "V1 (Copilot/Draft): AI suggests or drafts, human reviews and executes.",
+        "V2 (Manager): AI executes multi-step tasks under human supervision/approval.",
+        "V3 (Agent): AI acts autonomously with post-hoc review.",
+        "Never relinquish control without first validating reliability."
+      ],
+      "quote": "Every time you hand over decision-making capabilities to agentic systems, you're kind of relinquishing some amount of control on your end."
+    },
+    {
+      "name": "Continuous Calibration, Continuous Development (CCCD)",
+      "category": "execution",
+      "summary": "A modified software development lifecycle specifically for AI that emphasizes a feedback loop between development (scoping/curating) and calibration (analyzing emerging behaviors).",
+      "principles": [
+        "Scope capability and curate datasets before building.",
+        "Deploy and monitor for 'unknown unknown' behaviors.",
+        "Calibrate by spotting error patterns and fixing data/prompts.",
+        "Design new evaluation metrics based on observed production failures.",
+        "Use human-in-the-loop logs as free error analysis."
+      ],
+      "quote": "It's about have you built the right flywheels in place so that you can improve over time."
+    },
+    {
+      "name": "Hybrid Evaluation Strategy",
+      "category": "growth-metrics",
+      "summary": "A balanced approach to quality assurance that rejects the binary choice between offline evals and online monitoring.",
+      "principles": [
+        "Use Offline Evals to prevent regressions on known failure modes.",
+        "Use Production Monitoring (implicit signals like regenerations/thumbs down) to catch new, unexpected behaviors.",
+        "Incorporate 'Vibes' and qualitative usage for open-ended domains (like coding).",
+        "Don't rely on generic benchmarks; build custom datasets based on your specific problem."
+      ],
+      "quote": "I feel evals are important, production monitoring is important, but this notion of only one of them is going to solve things for you that is completely dismissible in my opinion."
+    },
+    {
+      "name": "Intuition Rebuilding for Leaders",
+      "category": "career-leadership",
+      "summary": "A practice for executives to overcome obsolete product instincts by engaging directly with AI tools.",
+      "principles": [
+        "Schedule dedicated 'hands-on' time with AI tools (e.g., 4:00-6:00 AM blocks).",
+        "Admit vulnerability: accept that pre-AI intuitions may be wrong.",
+        "Consult subject matter experts (SMEs) constantly, as they are crucial for judging output quality.",
+        "Avoid 'Vibe Coding' without understanding the operational complexity of deployment."
+      ],
+      "quote": "Leaders have to get back to being hands-on. You must be comfortable with the fact that your intuitions might not be right."
+    }
+  ],
+  "filename": "Aishwarya Naresh Reganti + Kiriti Badam"
+}

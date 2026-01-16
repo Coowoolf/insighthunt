@@ -1,26 +1,173 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream: #FAF8F5;
+  --dark: #0C0C10;
+  --brand-start: #6366f1;
+  --brand-mid: #a855f7;
+  --brand-end: #ec4899;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  @font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300 800;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/outfit/v11/QGYvz_MVcBeNP4NJukt1.woff2') format('woff2');
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    font-family: 'Outfit', system-ui, sans-serif;
+    background-color: var(--cream);
+    min-height: 100vh;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+
+  /* Ambient floating decorations */
+  .ambient-sphere {
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .ambient-sphere-1 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, #a855f7, #ec4899);
+    top: -100px;
+    right: -100px;
+  }
+
+  .ambient-sphere-2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #6366f1, #a855f7);
+    bottom: 10%;
+    left: -100px;
+  }
+
+  .ambient-sphere-3 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(135deg, #FB923C, #FBBF24);
+    top: 40%;
+    right: 5%;
+  }
+
+  /* Clay card style */
+  .clay-card {
+    background: white;
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow:
+      0 8px 32px rgba(99, 102, 241, 0.12),
+      0 4px 16px rgba(168, 85, 247, 0.08);
+    transition: all 0.3s ease;
+  }
+
+  .clay-card:hover {
+    transform: translateY(-4px);
+    box-shadow:
+      0 12px 48px rgba(99, 102, 241, 0.2),
+      0 8px 24px rgba(168, 85, 247, 0.12);
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-mid) 50%, var(--brand-end) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Category badge */
+  .category-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(168, 85, 247, 0.1));
+    color: #6366f1;
+  }
+
+  /* Upvote button */
+  .upvote-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.08), rgba(168, 85, 247, 0.08));
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    font-weight: 600;
+    color: #6366f1;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+
+  .upvote-btn:hover {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(168, 85, 247, 0.15));
+    border-color: rgba(99, 102, 241, 0.4);
+    transform: scale(1.05);
+  }
+
+  /* Search input */
+  .search-input {
+    width: 100%;
+    padding: 16px 20px 16px 48px;
+    border-radius: 16px;
+    border: 2px solid rgba(99, 102, 241, 0.15);
+    background: white;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    transition: all 0.2s ease;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+  }
+
+  /* Header glass effect */
+  .glass-header {
+    background: rgba(250, 248, 245, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(99, 102, 241, 0.1);
+  }
+
+  /* Shadow glow utilities (Dopamine Geek Style v1.2) */
+  .shadow-glow {
+    box-shadow:
+      0 0 20px rgba(99, 102, 241, 0.15),
+      0 0 40px rgba(168, 85, 247, 0.08);
+  }
+
+  .shadow-clay-lg {
+    box-shadow:
+      0 16px 64px rgba(99, 102, 241, 0.25),
+      0 12px 32px rgba(168, 85, 247, 0.15);
+  }
+
+  /* Gradient background */
+  .bg-gradient-brand {
+    background: linear-gradient(135deg, var(--brand-start), var(--brand-mid), var(--brand-end));
+  }
+
+  /* Link styling for guest pages */
+  a.clay-card {
+    display: block;
+    text-decoration: none;
+  }
 }

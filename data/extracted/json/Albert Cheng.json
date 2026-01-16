@@ -1,0 +1,73 @@
+{
+  "guest": {
+    "name": "Albert Cheng",
+    "title": "Head of Growth / Growth Leader",
+    "company": "Chess.com (formerly Duolingo, Grammarly)"
+  },
+  "keyTakeaways": [
+    "User retention is the single most important factor for consumer subscription success; without it, monetization pressure on day one becomes unsustainable.",
+    "For mature products, 'current user retention' (habitual users) is a more powerful lever than new user acquisition.",
+    "The 'Explore and Exploit' framework helps teams balance finding new opportunities (divergent) with maximizing existing ones (convergent).",
+    "Effective freemium monetization often involves 'sampling' premium value within the free experience rather than hiding it behind hard paywalls.",
+    "Brand marketing and growth experimentation are multiplicative, not adversarial; product personality (like Duo the owl) fuels marketing channels.",
+    "In hiring, 'clock speed' and high agency are often more valuable than deep experience, especially as AI renders past habits obsolete."
+  ],
+  "methodologies": [
+    {
+      "name": "Explore and Exploit Framework",
+      "category": "product-strategy",
+      "summary": "A strategic cycle where teams oscillate between 'exploring' (finding the right mountain to climb) and 'exploiting' (climbing it effectively). This prevents the team from becoming too scattershot or getting stuck in local maximization.",
+      "principles": [
+        "Oscillate between divergent brainstorming and convergent optimization.",
+        "When an experiment wins (or loses big), extract the insight and apply it across adjacent product areas.",
+        "Use data explorer tools to identify when experimentation yields are diminishing, signaling a need to return to exploration."
+      ],
+      "quote": "If you do too much in exploitation... it can lead to this saturation and stagnation where you're just locally maximizing a thing."
+    },
+    {
+      "name": "Freemium Value Sampling (Reverse Trial)",
+      "category": "growth-metrics",
+      "summary": "A monetization strategy where free users are given a capped, real-time taste of premium features within their natural workflow, rather than a time-based full trial.",
+      "principles": [
+        "Intersperse premium suggestions/features directly into the free user's usage loop.",
+        "Make the free product a reflection of the product's full capabilities.",
+        "Use capped usage (e.g., 3 premium suggestions per day) to drive upgrade intent without friction."
+      ],
+      "quote": "What if we actually sampled a number of different paid suggestions and interspersed them to free users across their writing? ... All of a sudden, people were seeing Grammarly as a much more powerful tool."
+    },
+    {
+      "name": "AI-Accelerated Execution",
+      "category": "execution",
+      "summary": "Leveraging AI tools to compress the time required for data analysis, prototyping, and insight generation, thereby increasing the 'clock speed' of the growth team.",
+      "principles": [
+        "Implement Text-to-SQL bots (Slack) to handle ad-hoc data queries and democratize data access.",
+        "Use AI prototyping (V0, Lovable) to bypass written specs and move straight to visual ideas.",
+        "Utilize LLMs to summarize experiment analysis and suggest next steps."
+      ],
+      "quote": "AI, I think can be applied to speed up some elements of that essentially experiment cycle... that ideation, that research cycle was much, much faster."
+    },
+    {
+      "name": "High-Agency Hiring",
+      "category": "team-culture",
+      "summary": "A hiring philosophy that prioritizes energy, adaptability, and speed over tenure or specific domain experience, particularly in rapidly shifting tech landscapes.",
+      "principles": [
+        "Prioritize 'clock speed' and energy.",
+        "View deep experience as a potential 'crutch' that may rely on outdated habits.",
+        "Look for individuals willing to intentionally discard learned habits to adapt to new tools (like AI)."
+      ],
+      "quote": "I saw some of the highest performers just being people that had very high agency, had that clock speed... Sometimes experience could be a crutch."
+    },
+    {
+      "name": "Resurrection of Dormant Users",
+      "category": "growth-metrics",
+      "summary": "For mature products with large inactive user bases, growth strategy shifts from new acquisition to re-engaging and 'resurrecting' past users.",
+      "principles": [
+        "Treat resurrected users as a distinct cohort with a unique UX (e.g., replacement tests in Duolingo).",
+        "Leverage social notifications (contact sync) to trigger FOMO or social connection.",
+        "Recognize that as a company matures, new user acquisition becomes a smaller fraction of the active user base compared to resurrected users."
+      ],
+      "quote": "Eventually that math adds up where you have, let's say hundreds of millions of dormant users... it's actually worth spending some time making sure that that resurrected... experience inside the product is really excellent."
+    }
+  ],
+  "filename": "Albert Cheng"
+}

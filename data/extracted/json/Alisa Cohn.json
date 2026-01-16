@@ -1,0 +1,78 @@
+{
+  "guest": {
+    "name": "Alisa Cohn",
+    "title": "Executive Coach",
+    "company": "Alisa Cohn (Independent)"
+  },
+  "keyTakeaways": [
+    "Difficult conversations are essential for growth; avoiding them to prevent 'upsetting' employees harms the company and the individual.",
+    "A leader's primary job is to drive results and set expectations, not to make employees happy. Happiness often follows winning and clarity.",
+    "Structure feedback using observable facts rather than judgments to reduce defensiveness.",
+    "When delivering bad news (like denying a promotion), do not bury the lead, explain the business reasoning, and provide 'hope for the future' via a development plan.",
+    "Before firing someone, there must be a 'deal breaker' conversation where the consequences of non-improvement are explicitly stated.",
+    "Meetings must end with specific closure questions to prevent circular discussions and ensure execution.",
+    "Positive feedback (praise) requires the same level of specificity and preparation as constructive feedback to be effective."
+  ],
+  "methodologies": [
+    {
+      "name": "The Constructive Feedback Script",
+      "category": "career-leadership",
+      "summary": "A structured approach to giving difficult feedback that minimizes defensiveness by focusing on external observations and mutual goals.",
+      "principles": [
+        "Start with a neutral opener ('I want to chat with you about...').",
+        "Use 'What I'm hearing/observing' to state facts, not personal attacks.",
+        "Use 'We both know' to align on shared standards.",
+        "End with a clear call to action on how to fix the issue."
+      ],
+      "quote": "I want to chat with you about the way you're interacting with your peers... What I'm hearing from them is that you're missing deadlines... I want to continue to help you find opportunities to build your skills."
+    },
+    {
+      "name": "Handling Defensiveness (The Pause)",
+      "category": "team-culture",
+      "summary": "A tactic to de-escalate a situation when an employee becomes emotional or argumentative during feedback.",
+      "principles": [
+        "Identify the emotional shift immediately.",
+        "Call for a pause in the conversation.",
+        "Reiterate positive intent (e.g., 'I'm telling you this to make you better').",
+        "Offer to reschedule the discussion to allow for digestion."
+      ],
+      "quote": "Let's just pause for a second. First of all, I want you to know that I'm telling you this actually, just to make you better... I want to know if we can continue having this conversation now or if we need to kind of pause it."
+    },
+    {
+      "name": "The Non-Promotion Conversation",
+      "category": "career-leadership",
+      "summary": "A framework for delivering disappointing news regarding promotions while maintaining employee engagement.",
+      "principles": [
+        "Deliver the news immediately (don't bury the lead).",
+        "Explain the decision based on business needs or skill gaps (e.g., 'we need someone who has done this role multiple times').",
+        "Provide 'Hope for the Future' by committing to help them build the necessary skills.",
+        "Validate their feelings but hold firm on the decision."
+      ],
+      "quote": "I know this is going to be challenging for you to hear, not going to promote you, but I want you to know this. It's really important to me that you're able to succeed in your career here."
+    },
+    {
+      "name": "The Pre-Firing 'Deal Breaker' Talk",
+      "category": "team-culture",
+      "summary": "The final warning conversation required before termination to ensure the employee is not surprised.",
+      "principles": [
+        "State clearly that this is a difficult conversation.",
+        "Reference specific history: 'We have talked about this multiple times.'",
+        "Set a specific timeframe for improvement (e.g., 30 days).",
+        "Explicitly state the consequence: 'We will have to part ways.'"
+      ],
+      "quote": "I need you to fix this within the next 30 days. Otherwise, I'm sorry to say, we're going to have to find a way to part ways because I can't keep this going with you."
+    },
+    {
+      "name": "Meeting Closure Protocol",
+      "category": "execution",
+      "summary": "Three mandatory questions to ask at the end of every meeting to ensure alignment and accountability.",
+      "principles": [
+        "Question 1: What did we decide here?",
+        "Question 2: Who needs to do what by when? (Action Items)",
+        "Question 3: Who else needs to know? (Communication Plan)"
+      ],
+      "quote": "My three questions to end the meeting are, what did we decide here? Who needs to do what by when? And who else needs to know?"
+    }
+  ],
+  "filename": "Alisa Cohn"
+}

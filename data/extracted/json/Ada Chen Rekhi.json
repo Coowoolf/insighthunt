@@ -1,0 +1,64 @@
+{
+  "guest": {
+    "name": "Ada Chen Rekhi",
+    "title": "Co-founder & Executive Coach",
+    "company": "Notejoy"
+  },
+  "keyTakeaways": [
+    "Utilize 'Curiosity Loops' to gather contextual advice from a curated group of peers rather than relying on generic feedback.",
+    "Define a personal set of values to create an 'internal scorecard' for decision-making, countering the 'external scorecard' of status and money.",
+    "Apply the 'Explore and Exploit' framework to career management: optimize for variety and learning in the early career (Explore) before deepening expertise (Exploit).",
+    "Avoid the 'Boiling Frog' syndrome by proactively monitoring your work environment to ensure you aren't stagnating or tolerating a deteriorating situation.",
+    "Most professionals do not need a coach immediately; consider mentors, peer groups, or courses first. If hiring a coach, interview multiple candidates to ensure the right 'vibe'."
+  ],
+  "methodologies": [
+    {
+      "name": "Curiosity Loops",
+      "category": "career-leadership",
+      "summary": "A structured method for gathering high-quality, contextual advice on specific decisions by querying a small group of trusted individuals.",
+      "principles": [
+        "Ask a specific, non-biased question that solicits rationale.",
+        "Curate a mix of subject matter experts and people who know you personally.",
+        "Make the ask lightweight (e.g., picking from a list) to reduce cognitive load.",
+        "Close the loop by sharing your decision and thanking the contributors."
+      ],
+      "quote": "Curiosity loops actually are this way of really thinking about how do you make your advice contextual."
+    },
+    {
+      "name": "Personal Values Scorecard",
+      "category": "career-leadership",
+      "summary": "An exercise to identify and stack-rank core personal values to act as a filter for major life and career decisions.",
+      "principles": [
+        "Select resonating words from a broad list.",
+        "Filter down to groups and stack rank the top values.",
+        "Create a 3-5 sentence summary of your value stack.",
+        "Use this internal scorecard to evaluate opportunities against personal meaningfulness rather than external prestige."
+      ],
+      "quote": "It's this internal scorecard of what really matters to you in your decision making process as opposed to the external scorecard of status, money, wealth."
+    },
+    {
+      "name": "Explore and Exploit Career Framework",
+      "category": "career-leadership",
+      "summary": "A strategy derived from computer science and biology applied to career trajectory, balancing the search for new opportunities with leveraging existing skills.",
+      "principles": [
+        "In 'Explore' mode (typically early career), prioritize learning, variety, and testing hypotheses about what you enjoy.",
+        "In 'Exploit' mode, double down on a specific skill set or industry where you have found leverage and success.",
+        "Don't be the 'frog'—regularly assess if you are learning or if the environment is slowly becoming toxic."
+      ],
+      "quote": "Explore and exploit... is really just around what mode you're in. You're either in a mode of explorer where you have a bunch of unknowns... or you're exploiting, where you actually have found something that's really rich."
+    },
+    {
+      "name": "Strategic Coach Selection",
+      "category": "career-leadership",
+      "summary": "A vetting process for determining if executive coaching is necessary and finding the right fit.",
+      "principles": [
+        "First, evaluate if goals can be met via mentors, courses, or peer groups.",
+        "Interview 2-3 different coaches rather than hiring the first recommendation.",
+        "Prioritize personal connection ('vibe') and psychological safety over just resume credentials.",
+        "Consider niche coaches for specific skills (e.g., public speaking, writing) rather than one general coach."
+      ],
+      "quote": "I strongly recommend to everyone. If you're thinking about getting a coach, talk to two or three different coaches. And really get a sense of their vibe."
+    }
+  ],
+  "filename": "Ada Chen Rekhi"
+}

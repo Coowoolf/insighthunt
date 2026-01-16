@@ -1,0 +1,66 @@
+{
+  "guest": {
+    "name": "Alex Hardiman",
+    "title": "Chief Product Officer",
+    "company": "The New York Times"
+  },
+  "keyTakeaways": [
+    "Business goals at NYT exist to service the mission (seeking truth and informed democracy), reversing the typical corporate dynamic where impact serves the business.",
+    "The 'Solar System' product strategy treats News as the sun—providing brand trust and traffic—which then fuels 'satellite' products like Games, Cooking, and Wirecutter.",
+    "NYT aims to solve the 'Essential Subscription' problem by bundling news with daily life needs (cooking, playing, shopping) to reach a TAM of 135 million people.",
+    "Product teams at NYT uniquely embed editors and journalists directly into cross-functional 'missions' to marry data signals with editorial craft.",
+    "During 'Wartime' scenarios (e.g., COVID-19, post-2016 election), product teams must be willing to abandon roadmaps entirely to focus on immediate public utility and safety.",
+    "Successful acquisition integration (like Wordle) requires preserving the 'core magic' of the user loop while solving backend user needs (like saving stats) invisibly."
+  ],
+  "methodologies": [
+    {
+      "name": "The Solar System Strategy (Essential Subscription)",
+      "category": "product-strategy",
+      "summary": "A portfolio strategy where the core product (News) acts as the 'Sun'—providing gravity, trust, and audience—to support 'satellite' planets (Games, Cooking, Audio, Shopping).",
+      "principles": [
+        "News is the primary funnel and brand anchor.",
+        "Satellite products address specific 'life needs' and passions.",
+        "The bundle connects these distinct experiences into a single daily habit.",
+        "Target a specific TAM willing to pay for high-quality journalism (135M people)."
+      ],
+      "quote": "When you think about the New York Times, we actually have the solar system metaphor where for us news is the sun in the sense that it's why we exist... But then that sun helps you give birth to other satellite planets or products that have a lot of the same DNA."
+    },
+    {
+      "name": "Mission vs. Function Matrix Organization",
+      "category": "team-culture",
+      "summary": "An organizational structure that splits reporting lines into Functions (Product, Design, Engineering) for craft excellence and Missions (Consumer, Monetization, Platform) for goal execution.",
+      "principles": [
+        "Functions focus on career growth, standards, and equitable promotion.",
+        "Missions are cross-functional teams focused on specific business goals.",
+        "Uniquely, 'Consumer' missions embed editors/journalists alongside PMs and Engineers.",
+        "Product helps stories find audiences but does not influence story selection (maintaining editorial independence)."
+      ],
+      "quote": "Editors are embedded within consumer missions... That is where having editors involved, particularly like editors who are very product minded, it brings in the best of their expertise and marries it with a lot of the normal signal."
+    },
+    {
+      "name": "Wartime Product Management",
+      "category": "execution",
+      "summary": "A crisis-response framework used during events like the 2016 Election aftermath or the onset of COVID-19, characterized by high urgency and the suspension of standard roadmaps.",
+      "principles": [
+        "Diagnose the reality on the ground with extreme humility.",
+        "Blow up existing roadmaps; ignore non-essential work.",
+        "Focus entirely on utility, accuracy, and public safety.",
+        "Rally the team around a single, unified purpose greater than business metrics."
+      ],
+      "quote": "I think about wartime product management... The idea of being able to take all of these crazy inputs, trying to create a very structured model to figure out, 'Okay, what is true? Where do we have conviction?... How do you get a team rallied around a shared context in one single goal?'"
+    },
+    {
+      "name": "The 'Eye of Sauron' Career Heuristic",
+      "category": "career-leadership",
+      "summary": "A career growth strategy involving proactively seeking out the most chaotic, high-stakes problems (the 'Eye of Sauron') within an organization rather than avoiding them.",
+      "principles": [
+        "Move toward the 'center of the storm' or the CEO's top priority.",
+        " chaotic environments allow product managers to thrive by creating structure.",
+        "Develop grit and resilience by solving problems with no existing playbook.",
+        "Use these high-pressure roles to accelerate pattern recognition skills."
+      ],
+      "quote": "I am drawn to those types of problems for sure... These are actually the conditions where product manager, I think, thrive."
+    }
+  ],
+  "filename": "Alex Hardimen"
+}

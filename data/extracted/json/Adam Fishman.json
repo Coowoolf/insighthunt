@@ -1,0 +1,64 @@
+{
+  "guest": {
+    "name": "Adam Fishman",
+    "title": "EIR & Program Partner",
+    "company": "Reforge"
+  },
+  "keyTakeaways": [
+    "Onboarding is the only part of a product that 100% of users experience; it is the critical link between the brand promise and product delivery.",
+    "Effective growth hiring requires balancing a team across the 'Growth Competency Model' rather than hunting for a non-existent 'unicorn' who is perfect at everything.",
+    "Smart onboarding utilizes 'Opinionated Defaults'—making it difficult for users to choose settings that lead to failure while making successful paths the easiest option.",
+    "Use proxy metrics (leading indicators) like 'time to first dollar' or 'velocity to value' to measure onboarding success, as waiting for 90-day retention data is too slow.",
+    "Evaluate potential employers using the 'PMF for Candidates' framework: People (colleagues), Mission (impact), and Financials (fiscal discipline)."
+  ],
+  "methodologies": [
+    {
+      "name": "Growth Competency Model",
+      "category": "team-culture",
+      "summary": "A framework for hiring and evaluating growth practitioners by assessing them across four distinct quadrants, acknowledging that no single individual possesses mastery in all areas.",
+      "principles": [
+        "Growth Execution (Channel fluency, experimentation)",
+        "Customer Knowledge (Data fluency, user psychology)",
+        "Growth Strategy (Loop modeling, capital allocation)",
+        "Communication & Influence (Stakeholder management, team leadership)"
+      ],
+      "quote": "The goal of the competency model is not to find a unicorn human being that is an 11 out of 10 on every one of these things, because frankly, that person doesn't exist."
+    },
+    {
+      "name": "Opinionated Defaults",
+      "category": "product-strategy",
+      "summary": "A design philosophy for onboarding that guides users toward success by pre-selecting configurations known to drive retention, while adding friction to suboptimal choices.",
+      "principles": [
+        "Make it hard to do the wrong thing",
+        "Make it easy to do the right thing",
+        "Do not eliminate choice, but heavily guide the user",
+        "Base defaults on data from successful user cohorts"
+      ],
+      "quote": "Opinionated defaults... is basically making it hard to do the wrong thing when you're setting up your Patreon page and easy to do the right thing but not eliminating choice."
+    },
+    {
+      "name": "PMF for Candidates",
+      "category": "career-leadership",
+      "summary": "A rigorous criteria framework for job seekers to evaluate potential employers to ensure alignment and minimize the risk of layoffs or toxic environments.",
+      "principles": [
+        "People: Can I have hard conversations with them? Do I respect them?",
+        "Mission: Do people have a better outcome in life because this company exists?",
+        "Financials: Does the company exercise fiscal discipline and responsible planning?"
+      ],
+      "quote": "PMF stands for people, mission and financials. And these are my three criteria... you should have a set of criteria that you are unapologetically rigorous around."
+    },
+    {
+      "name": "Productizing Human Intervention",
+      "category": "execution",
+      "summary": "A growth tactic where high-touch, unscalable human support is used to validate value and identify successful behaviors, which are then codified into software features for scale.",
+      "principles": [
+        "Identify high-potential users via data",
+        "Intervene manually to drive success (e.g., increased revenue)",
+        "Analyze the human impact",
+        "Replicate the guidance via automated product features"
+      ],
+      "quote": "What is not scalable when you're using people becomes very scalable if you can replicate components of that with technology."
+    }
+  ],
+  "filename": "Adam Fishman"
+}

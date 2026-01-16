@@ -1,0 +1,84 @@
+{
+  "guest": {
+    "name": "Adriel Frederick",
+    "title": "VP of Product",
+    "company": "Reddit"
+  },
+  "keyTakeaways": [
+    "Innovation teams in large companies must position themselves as core to the mission to avoid organizational rejection.",
+    "Diverse teams drastically reduce product development cycles by internalizing global user perspectives, reducing the need for external research on basic cultural nuances.",
+    "PMs act as a damping buffer during PR crises, focusing the team on valid product criticisms rather than external noise.",
+    "Algorithms require human strategic oversight because they optimize for objectives but lack context on intent, constraints, and long-term effects.",
+    "Growth is not just about 'hacks'; it requires grinding on core actions and occasionally investing in massive infrastructure changes ('cannonballs').",
+    "Data reveals where a problem exists, but observing the 'marginal user' reveals why it exists."
+  ],
+  "methodologies": [
+    {
+      "name": "Incubating R&D Teams",
+      "category": "team-culture",
+      "summary": "A framework for setting up innovation teams within established companies to prevent 'organ rejection' from the main body of the organization.",
+      "principles": [
+        "Ensure the work is viewed as core and critical to the company mission, not a side project.",
+        "Structure outcomes so it feels like 'everyone's success,' not just the R&D team's win.",
+        "Clarify that innovation is not exclusive to the R&D team; other teams still innovate on core products."
+      ],
+      "quote": "The rest of the company needs to see what you're doing as being core and critical to the mission. It can't seem like these guys are just playing off in a corner."
+    },
+    {
+      "name": "Diversity as Operational Efficiency",
+      "category": "team-culture",
+      "summary": "Leveraging diverse team backgrounds not just for social good, but as a strategic advantage to speed up product decision-making for global markets.",
+      "principles": [
+        "Internalize global perspectives to resolve design arguments quickly without waiting for external research panels.",
+        "Avoid 'colonial' product design where a homogeneous group assumes the needs of global users.",
+        "Prioritize retention of diverse talent as the prerequisite for successful recruiting."
+      ],
+      "quote": "You got to have your teams look like the world, it just makes you so much faster."
+    },
+    {
+      "name": "Human-in-the-Loop Algorithmic Design",
+      "category": "product-strategy",
+      "summary": "Designing systems where algorithms amplify human intent rather than replacing human judgment, particularly in pricing and marketplaces.",
+      "principles": [
+        "Treat operational control as a first-order product requirement.",
+        "Use humans to define strategy and constraints; use algorithms to optimize within those constraints.",
+        "Build interfaces that allow operators to inject judgment calls (e.g., during weather events) that algorithms cannot foresee."
+      ],
+      "quote": "The algorithms don't understand long term effects often, nor do they understand how people might respond to it... working on algorithmic heavy products, your job is figuring out what the algorithm should be responsible for, what people are responsible for."
+    },
+    {
+      "name": "The Marginal User Analysis",
+      "category": "user-research",
+      "summary": "A research method focused on users on the cusp of conversion or in 'worst-case' scenarios to unlock growth.",
+      "principles": [
+        "Identify segments with high traffic but low conversion (the marginal user).",
+        "Test against the worst-case technical constraints (e.g., feature phones on Edge networks).",
+        "Do not rely solely on funnels; use qualitative observation to find problems orthogonal to the data (e.g., cultural naming conventions)."
+      ],
+      "quote": "Don't use the data alone to figure out who the marginal user is... You have to go watch them to find the answer."
+    },
+    {
+      "name": "Cannonball Growth Strategy",
+      "category": "growth-metrics",
+      "summary": "Balancing small optimizations with massive, fundamental product changes to drive growth.",
+      "principles": [
+        "Move beyond 'hacks' to focus on grinding down friction in core actions.",
+        "Deploy 'lead bullets' (small fixes) alongside 'cannonballs' (heavy investment structural changes like phone number sign-ups).",
+        "Respect the user's intelligence; relying only on tricks/hacks is a short-term strategy."
+      ],
+      "quote": "There was no silver bullets, just many lead bullets... And a few massive cannonballs every now and then."
+    },
+    {
+      "name": "Galvanizing Metrics",
+      "category": "execution",
+      "summary": "Using simple, communicable metrics (like Facebook's 7 friends in 10 days) to align organizational momentum, even if the metric isn't scientifically perfect.",
+      "principles": [
+        "The value of a metric lies in its ability to be understood and communicated.",
+        "Create a discrete number and timeframe to stop academic debate and start execution.",
+        "Accept minor data inaccuracies (kinks in the curve) in exchange for massive organizational velocity."
+      ],
+      "quote": "What I thought was brilliant about that was not the metric, it was the designing it to be understood and communicated."
+    }
+  ],
+  "filename": "Adriel Frederick"
+}
