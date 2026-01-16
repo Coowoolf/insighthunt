@@ -2,6 +2,9 @@ import { getAllMethodologies, getMethodologyById } from '@/data/insights';
 import { CATEGORY_INFO } from '@/types';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { PrincipleFlow } from '@/components/diagrams/PrincipleFlow';
+import { MindMap } from '@/components/diagrams/MindMap';
+import { WhenToUseCard } from '@/components/diagrams/ComparisonCard';
 
 // Generate static paths for all methodologies
 export async function generateStaticParams() {
@@ -25,6 +28,12 @@ export default async function MethodologyPage({ params }: Props) {
 
     const categoryInfo = CATEGORY_INFO[methodology.category];
 
+    // Parse principles for visualization
+    const principleTexts = methodology.principles.map(p => {
+        const match = p.match(/^(?:Step\s*)?(\d+)[:.]\s*(.+)$/i);
+        return match ? match[2] : p;
+    });
+
     return (
         <div className="min-h-screen bg-cream">
             {/* Header */}
@@ -45,148 +54,141 @@ export default async function MethodologyPage({ params }: Props) {
                 </div>
             </header>
 
-            <main className="max-w-4xl mx-auto px-6 py-12">
+            <main className="max-w-5xl mx-auto px-6 py-12">
                 {/* Hero Section */}
-                <div className="mb-12">
-                    <div className="flex items-center gap-3 mb-4">
+                <div className="mb-12 text-center">
+                    <div className="flex items-center justify-center gap-3 mb-4">
                         <span className="category-badge">
                             {categoryInfo.emoji} {categoryInfo.label}
                         </span>
-                        <span className="text-sm text-gray-500">
-                            by <span className="font-medium text-gray-700">{methodology.guestName}</span>
-                        </span>
                     </div>
 
-                    <h1 className="text-4xl font-bold text-gray-900 mb-4">
+                    <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                         {methodology.name}
                     </h1>
 
-                    {methodology.guestBackground && (
-                        <p className="text-gray-600 text-lg leading-relaxed mb-6">
-                            <span className="font-semibold">{methodology.guestName}</span>
-                            {methodology.guestTitle && `, ${methodology.guestTitle}`}
-                            {methodology.guestCompany && ` at ${methodology.guestCompany}`}
-                            {'. '}{methodology.guestBackground}
-                        </p>
-                    )}
+                    <p className="text-lg text-gray-500 mb-6">
+                        by <span className="font-semibold text-gray-700">{methodology.guestName}</span>
+                        {methodology.guestTitle && <span> • {methodology.guestTitle}</span>}
+                        {methodology.guestCompany && <span> at {methodology.guestCompany}</span>}
+                    </p>
 
-                    {methodology.episodeSummary && (
-                        <div className="bg-gradient-to-r from-brand-start/5 to-brand-end/5 rounded-xl p-6 border border-brand-start/10">
-                            <h3 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wider">Episode Context</h3>
-                            <p className="text-gray-600 leading-relaxed">{methodology.episodeSummary}</p>
-                        </div>
+                    {methodology.guestBackground && (
+                        <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                            {methodology.guestBackground}
+                        </p>
                     )}
                 </div>
 
-                {/* Problem It Solves */}
+                {/* Episode Context Card */}
+                {methodology.episodeSummary && (
+                    <div className="mb-12 bg-gradient-to-r from-brand-start/5 to-brand-end/5 rounded-2xl p-6 border border-brand-start/10">
+                        <h3 className="text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wider flex items-center gap-2">
+                            <span>🎙️</span> Episode Context
+                        </h3>
+                        <p className="text-gray-600 leading-relaxed">{methodology.episodeSummary}</p>
+                    </div>
+                )}
+
+                {/* Problem It Solves - Visual Card */}
                 {methodology.problemItSolves && (
-                    <section className="mb-10">
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center">
-                                <span className="text-xl">🎯</span>
+                    <section className="mb-12">
+                        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 border-2 border-amber-200 p-8">
+                            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-amber-200 to-orange-200 rounded-full blur-3xl opacity-50" />
+                            <div className="relative">
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center shadow-lg">
+                                        <span className="text-2xl text-white">🎯</span>
+                                    </div>
+                                    <h2 className="text-2xl font-bold text-gray-900">Problem It Solves</h2>
+                                </div>
+                                <p className="text-gray-700 text-lg leading-relaxed">
+                                    {methodology.problemItSolves}
+                                </p>
                             </div>
-                            <h2 className="text-2xl font-bold text-gray-900">Problem It Solves</h2>
                         </div>
-                        <p className="text-gray-700 text-lg leading-relaxed pl-13">
-                            {methodology.problemItSolves}
-                        </p>
                     </section>
                 )}
 
-                {/* Summary */}
-                <section className="mb-10">
-                    <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center">
-                            <span className="text-xl">📖</span>
+                {/* Overview Summary */}
+                <section className="mb-12">
+                    <div className="flex items-center gap-3 mb-6">
+                        <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg">
+                            <span className="text-2xl text-white">📖</span>
                         </div>
-                        <h2 className="text-2xl font-bold text-gray-900">Overview</h2>
+                        <h2 className="text-2xl font-bold text-gray-900">Framework Overview</h2>
                     </div>
-                    <p className="text-gray-700 text-lg leading-relaxed pl-13">
+                    <p className="text-gray-700 text-lg leading-relaxed bg-white rounded-xl p-6 border border-gray-100 shadow-sm">
                         {methodology.summary}
                     </p>
                 </section>
 
-                {/* Core Principles */}
-                <section className="mb-10">
-                    <div className="flex items-center gap-3 mb-6">
-                        <div className="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center">
-                            <span className="text-xl">⚡</span>
-                        </div>
-                        <h2 className="text-2xl font-bold text-gray-900">Core Principles</h2>
-                    </div>
-                    <div className="space-y-4">
-                        {methodology.principles.map((principle, index) => (
-                            <div
-                                key={index}
-                                className="flex gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
-                            >
-                                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-brand-start to-brand-mid flex items-center justify-center text-white font-bold text-sm">
-                                    {index + 1}
-                                </div>
-                                <p className="text-gray-700 leading-relaxed">{principle}</p>
-                            </div>
-                        ))}
-                    </div>
+                {/* VISUAL: Mind Map for Core Framework */}
+                <section className="mb-12 bg-white rounded-2xl p-8 border border-gray-100 shadow-lg">
+                    <MindMap
+                        title="Framework Structure"
+                        centerText={methodology.name.length > 30 ? methodology.name.substring(0, 27) + '...' : methodology.name}
+                        centerEmoji={categoryInfo.emoji}
+                        nodes={principleTexts.slice(0, 5).map((text, i) => ({
+                            text: text.length > 50 ? text.substring(0, 47) + '...' : text,
+                            emoji: ['1️⃣', '2️⃣', '3️⃣', '4️⃣', '5️⃣'][i]
+                        }))}
+                    />
                 </section>
 
-                {/* When to Use & Common Mistakes */}
-                {(methodology.whenToUse || methodology.commonMistakes) && (
-                    <div className="grid md:grid-cols-2 gap-6 mb-10">
-                        {methodology.whenToUse && (
-                            <section className="bg-emerald-50 rounded-xl p-6 border border-emerald-100">
-                                <div className="flex items-center gap-2 mb-3">
-                                    <span className="text-xl">✅</span>
-                                    <h3 className="text-lg font-bold text-emerald-900">When to Use</h3>
-                                </div>
-                                <p className="text-emerald-800 leading-relaxed">
-                                    {methodology.whenToUse}
-                                </p>
-                            </section>
-                        )}
+                {/* VISUAL: Principle Flow (Step by Step) */}
+                <section className="mb-12 bg-white rounded-2xl p-8 border border-gray-100 shadow-lg">
+                    <PrincipleFlow
+                        principles={methodology.principles}
+                        title="Step-by-Step Framework"
+                    />
+                </section>
 
-                        {methodology.commonMistakes && (
-                            <section className="bg-red-50 rounded-xl p-6 border border-red-100">
-                                <div className="flex items-center gap-2 mb-3">
-                                    <span className="text-xl">⚠️</span>
-                                    <h3 className="text-lg font-bold text-red-900">Common Mistakes</h3>
-                                </div>
-                                <p className="text-red-800 leading-relaxed">
-                                    {methodology.commonMistakes}
-                                </p>
-                            </section>
-                        )}
-                    </div>
+                {/* VISUAL: When to Use & Common Mistakes */}
+                {(methodology.whenToUse || methodology.commonMistakes) && (
+                    <section className="mb-12">
+                        <WhenToUseCard
+                            whenToUse={methodology.whenToUse}
+                            commonMistakes={methodology.commonMistakes}
+                        />
+                    </section>
                 )}
 
-                {/* Real World Example */}
+                {/* Real World Example - Visual Card */}
                 {methodology.realWorldExample && (
-                    <section className="mb-10">
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="w-10 h-10 rounded-lg bg-cyan-100 flex items-center justify-center">
-                                <span className="text-xl">💼</span>
+                    <section className="mb-12">
+                        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-cyan-50 to-teal-50 border-2 border-cyan-200 p-8">
+                            <div className="absolute bottom-0 left-0 w-40 h-40 bg-gradient-to-br from-cyan-200 to-teal-200 rounded-full blur-3xl opacity-50" />
+                            <div className="relative">
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-teal-500 flex items-center justify-center shadow-lg">
+                                        <span className="text-2xl text-white">💼</span>
+                                    </div>
+                                    <h2 className="text-2xl font-bold text-gray-900">Real World Example</h2>
+                                </div>
+                                <p className="text-gray-700 text-lg leading-relaxed">
+                                    {methodology.realWorldExample}
+                                </p>
                             </div>
-                            <h2 className="text-2xl font-bold text-gray-900">Real World Example</h2>
-                        </div>
-                        <div className="bg-cyan-50 rounded-xl p-6 border border-cyan-100">
-                            <p className="text-cyan-900 leading-relaxed text-lg">
-                                {methodology.realWorldExample}
-                            </p>
                         </div>
                     </section>
                 )}
 
-                {/* Quote */}
+                {/* Quote - Large Visual */}
                 {methodology.quote && (
-                    <section className="mb-10">
-                        <blockquote className="relative bg-gradient-to-br from-brand-start/10 to-brand-end/10 rounded-2xl p-8 border-l-4 border-brand-mid">
-                            <div className="absolute top-4 left-4 text-6xl text-brand-start/20 font-serif">"</div>
-                            <p className="text-xl text-gray-800 italic leading-relaxed pl-8 pr-4">
-                                {methodology.quote}
-                            </p>
-                            <footer className="mt-4 pl-8 text-gray-600 font-medium">
-                                — {methodology.guestName}
-                            </footer>
-                        </blockquote>
+                    <section className="mb-12">
+                        <div className="relative bg-gradient-to-br from-violet-100 via-purple-50 to-pink-100 rounded-2xl p-10 border border-purple-200 shadow-xl overflow-hidden">
+                            <div className="absolute top-4 left-6 text-8xl text-purple-200 font-serif">"</div>
+                            <div className="absolute bottom-4 right-6 text-8xl text-purple-200 font-serif rotate-180">"</div>
+                            <div className="relative z-10">
+                                <p className="text-2xl text-gray-800 italic leading-relaxed text-center px-8 mb-6">
+                                    {methodology.quote}
+                                </p>
+                                <p className="text-center text-gray-600 font-semibold">
+                                    — {methodology.guestName}
+                                </p>
+                            </div>
+                        </div>
                     </section>
                 )}
 
@@ -197,7 +199,7 @@ export default async function MethodologyPage({ params }: Props) {
                         {methodology.tags.map(tag => (
                             <span
                                 key={tag}
-                                className="px-4 py-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-full border border-gray-200"
+                                className="px-4 py-2 text-sm font-medium text-gray-600 bg-white rounded-full border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
                             >
                                 #{tag}
                             </span>
