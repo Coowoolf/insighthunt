@@ -3,7 +3,8 @@
     "name": "Keith Coleman & Jay Baxter",
     "title": "Product Lead & Founding ML Engineer",
     "company": "Community Notes (X)",
-    "background": "Keith Coleman and Jay Baxter lead the Community Notes team at X (formerly Twitter). Keith, a former product leader, and Jay, a machine learning engineer, developed the open-source, crowd-sourced context system that uses bridging algorithms to combat misinformation."
+    "background": "Keith Coleman and Jay Baxter lead the Community Notes team at X (formerly Twitter). Keith, a former product leader, and Jay, a machine learning engineer, developed the open-source, crowd-sourced context system that uses bridging algorithms to combat misinformation.",
+    "background_zh": "Keith Coleman 和 Jay Baxter 负责领导 X（前 Twitter）的 Community Notes 团队。Keith 是产品负责人出身，Jay 则是机器学习工程师，两人共同开发了这套开源的众包背景信息系统，通过桥接算法（Bridging Algorithms）来对抗虚假信息。"
   },
   "episodeSummary": "Keith Coleman and Jay Baxter discuss the origins, principles, and engineering behind Community Notes. They reveal how a small, 'thermal' team used dynamic goal-setting and a unique bridging-based algorithm to build a decentralized fact-checking system that scales effectively where traditional methods failed. The conversation covers the transition from Birdwatch, the impact of open-sourcing the algorithm, and the operational philosophy of 'Continuous Calibration' that allows them to move rapidly.",
   "methodologies": [
@@ -31,7 +32,19 @@
           "Review Results",
           "Recalibrate Goal"
         ]
-      }
+      },
+      "summary_zh": "这是一种动态作业模式，它摒弃了僵化的长期规划（如季度 OKR），转而主张高频的目标设定与执行。团队利用极简的共享文档进行每日对齐，并基于实时数据反馈，以双周为周期动态校准产品路线图。",
+      "problemItSolves_zh": "规避大型组织常见的官僚内耗与目标脱节，赋能小团队快速交付互联网级规模的解决方案。",
+      "whenToUse_zh": "运作一支小型且高度互信的团队（“热力团队”），应对模糊或快速变化的问题。",
+      "commonMistakes_zh": "面对新数据仍固守过时的 OKR；放任团队精力分散于多个项目。",
+      "realWorldExample_zh": "Community Notes 团队摒弃了正式的季度规划，通过基于试点数据每周动态调整路线图，成功将一个小规模试点项目扩展为全球级功能。",
+      "principles_zh": [
+        "动态目标设定：依据实时数据而非日历季度来设定里程碑。",
+        "极致聚焦：维持一支小型自治团队，对单一使命保持 100% 的专注。",
+        "轻量化协同：优先采用轻量级工具（如 Google Docs），而非繁琐的项目管理软件。",
+        "快速校准：一旦数据指向更优路径，立即调整优先级方向。"
+      ],
+      "name_zh": "Continuous Calibration, Continuous Development (CCCD)（持续校准，持续开发 (CCCD)）"
     },
     {
       "name": "The Agency-Control Graduation Framework",
@@ -57,7 +70,19 @@
           "Writer (Creating Context)",
           "Sustained Contributor (Maintenance)"
         ]
-      }
+      },
+      "summary_zh": "这是一套基于能力的用户成长体系，旨在通过要求贡献者先验证自身的判断力，从而获取内容创作权，以此确保平台质量。参与者必须先证明自己具备识别优质笔记的能力（即参与评分），随后才能解锁撰写笔记的权限。",
+      "problemItSolves_zh": "通过筛选胜任力与中立性，防止恶意行为者及低质内容淹没去中心化系统。",
+      "whenToUse_zh": "构建极度依赖信任机制的去中心化网络、社区治理体系或众包知识库。",
+      "commonMistakes_zh": "立即向全量用户开放所有权限；采用单纯的多数票决机制，反而强化了偏见。",
+      "realWorldExample_zh": "Community Notes 贡献者以评分员身份起步，只有当其评分持续与“桥接共识”对齐时，才能解锁“撰写笔记”按钮。",
+      "principles_zh": [
+        "权益进阶：写作权限是一种特权，需通过经证实的评估能力来解锁。",
+        "桥接式验证：质量由对立群体间的共识所定义，而非单纯的多数票决。",
+        "动态资质考核：若贡献者的产出持续缺乏价值，其特权将被收回。",
+        "化名诚信机制：允许匿名可降低社交压力，提升用户跨越阵营壁垒的意愿。"
+      ],
+      "name_zh": "The Agency-Control Graduation Framework（「能动性-管控」进阶框架）"
     },
     {
       "name": "Problem-First Workflow Analysis",
@@ -83,8 +108,21 @@
           "Open Public Pilot",
           "Scale & Expand"
         ]
-      }
+      },
+      "summary_zh": "一套严谨的研发全生命周期，始于对根本问题的定义，并强制要求在规模化之前，每个阶段都需通过明确的概念验证（POC）。该方法拒绝盲从行业惯例（如人工核查），除非其能通过问题分析的验证。",
+      "problemItSolves_zh": "避免基于假设或行业现状，构建高成本且无法规模化的解决方案。",
+      "whenToUse_zh": "在低信任、大规模的高风险环境中，从 0 到 1 打造产品。",
+      "commonMistakes_zh": "核心机制未验证即开始规模化；依赖用户无法验证的“黑盒”逻辑。",
+      "realWorldExample_zh": "团队首先利用静态原型（Static Mockups）测试 Community Notes 以验证需求，随后通过 MTurk 任务验证可行性，最后才着手构建线上试点版本（Live Pilot）。",
+      "principles_zh": [
+        "极致关注问题：全力聚焦解决核心痛点（如信息质量），而非单纯追求业务指标。",
+        "分阶段验证：产品必须在每个阶段（Mockup -> Pilot -> Scale）验证其价值假设。",
+        "第一性原理设计：若现有方案（如 Trust & Safety 团队）无法从根本上解决规模化与信任难题，则果断摒弃。",
+        "极致透明：通过开源代码和数据来构建信任，而非依赖品牌背书。"
+      ],
+      "name_zh": "Problem-First Workflow Analysis（问题优先工作流分析）"
     }
   ],
-  "filename": "Aishwarya Naresh Reganti + Kiriti Badam"
+  "filename": "Aishwarya Naresh Reganti + Kiriti Badam",
+  "episodeSummary_zh": "Keith Coleman 和 Jay Baxter 深入复盘了 Community Notes 的起源、设计原则及底层工程架构。他们揭示了一支小规模的“高能”团队，是如何通过动态目标设定和独特的“桥接算法”（bridging-based algorithm），构建出一套去中心化的事实核查系统，成功攻克了传统方法无法有效规模化的难题。本次对话涵盖了产品从 Birdwatch 时期的演变、算法开源产生的深远影响，以及支撑团队快速迭代的“持续校准”（Continuous Calibration）运营哲学。"
 }

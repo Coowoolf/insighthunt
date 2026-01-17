@@ -3,7 +3,8 @@
     "name": "Barbra Gago",
     "title": "Founder & CEO (Pando), former CMO (Miro)",
     "company": "Pando",
-    "background": "Expert in B2B SaaS hyper-growth, formerly VP Marketing at Greenhouse and Head of Marketing at CultureAmp. Led Miro's global rebrand and category creation."
+    "background": "Expert in B2B SaaS hyper-growth, formerly VP Marketing at Greenhouse and Head of Marketing at CultureAmp. Led Miro's global rebrand and category creation.",
+    "background_zh": "B2B SaaS 爆发式增长专家，曾任 Greenhouse 市场副总裁及 CultureAmp 市场负责人。主导了 Miro 的全球品牌重塑与新品类开创。"
   },
   "episodeSummary": "Barbra Gago joins Lenny to discuss the mechanics of category creation, the strategic process of rebranding a hyper-growth company, and the philosophy of building 'opinionated software' that enforces best practices to solve systemic business problems.",
   "methodologies": [
@@ -32,7 +33,19 @@
           "Competitive Proof: Are there competitors validating the need?",
           "Scope of Vision: Is the existing category too small for the product's potential?"
         ]
-      }
+      },
+      "summary_zh": "通过分析市场环境、用户心智及预算现状，系统性地评估并决策应当开创一个全新的品类，还是在既有品类中参与竞争。",
+      "problemItSolves_zh": "防止初创公司在缺乏真实市场需求时盲目投入资源开创新品类，或在拥挤的赛道中因无法实现差异化而失败。",
+      "whenToUse_zh": "当发布新产品或调整定位，需要在“颠覆”（开创新品类）与“改良”（现有品类）之间做出决策时。",
+      "commonMistakes_zh": "试图在没有任何竞品的情况下开创品类（竞品的存在恰恰验证了品类的可行性），或者忽略了用户寻找解决方案的真实路径。",
+      "realWorldExample_zh": "Greenhouse 曾试图打造“招聘优化”品类，但最终还是接受了“ATS”这一分类，因为企业的预算都在这里；Miro 开创了“可视化协作”品类，因为“在线白板”的市场体量太小。",
+      "principles_zh": [
+        "评估预算：买家是否有现成的预算科目？",
+        "分析语言：客户如何描述他们的痛点？",
+        "考察竞争：是否有竞品正在验证这一赛道？",
+        "分析师验证：G2 或 Gartner 是否认可这一品类？"
+      ],
+      "name_zh": "The Category Viability Audit（品类可行性评估）"
     },
     {
       "name": "The Agile Rebrand Protocol",
@@ -59,7 +72,19 @@
           "4. Asset & Legal Production (Operational)",
           "5. 'Leap of Faith' Launch (Execution)"
         ]
-      }
+      },
+      "summary_zh": "一套将品牌演进视为产品研发流程的品牌重塑框架，通过敏捷冲刺、跨职能小组和用户反馈闭环来驱动实施。",
+      "problemItSolves_zh": "通过在正式发布前确保组织对齐并获得客户认可，降低品牌重塑的高风险。",
+      "whenToUse_zh": "当公司名称或品牌形象限制了外界对其业务边界或发展潜力的认知时（例如：'RealtimeBoard' 听起来更像是一个单一功能，而非平台级产品）。",
+      "commonMistakes_zh": "任由市场部“闭门造车”，未能拉通全公司共识，或忽视原有品牌资产。",
+      "realWorldExample_zh": "Miro 从 RealtimeBoard 进行品牌重塑的案例，期间经历过 Logo 选用亮粉色还是黄色的激烈争论，最终团队决定保留黄色，以传承“便利贴”这一核心品牌资产。",
+      "principles_zh": [
+        "品牌产品化：采用敏捷 Sprint 和工单管理。",
+        "跨职能负责制：尽早引入法务、产品及销售团队。",
+        "用户参与：针对 Logo 和概念开展用户测试。",
+        "运气与信念：为切换上线期的突发状况做好准备。"
+      ],
+      "name_zh": "The Agile Rebrand Protocol（敏捷品牌重塑协议）"
     },
     {
       "name": "Opinionated Software Framework",
@@ -85,8 +110,11 @@
           "Enforced Rules (e.g., Structured Rubrics)",
           "Core Values (e.g., Candor, Anti-Bias)"
         ]
-      }
+      },
+      "summary_zh": "一种产品哲学，主张通过硬性规则强制贯彻特定的价值观与最佳实践，而非提供无限制的灵活性。",
+      "problemItSolves_zh": "解决因软件灵活性过高、纵容不良习惯延续而导致的系统性人为与组织偏差（如招聘偏见或低效反馈）。"
     }
   ],
-  "filename": "Barbra Gago"
+  "filename": "Barbra Gago",
+  "episodeSummary_zh": "Barbra Gago 做客本期节目，与 Lenny 深度探讨了品类开创的运作机制、超高速增长企业品牌重塑的战略路径，以及构建“有态度软件（Opinionated Software）”的产品哲学——即如何通过固化最佳实践来解决系统性业务难题。"
 }

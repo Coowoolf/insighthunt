@@ -3,7 +3,8 @@
     "name": "Annie Duke",
     "title": "Author, Special Partner",
     "company": "First Round Capital",
-    "background": "Former professional poker player (World Series of Poker winner) turned decision science expert and consultant."
+    "background": "Former professional poker player (World Series of Poker winner) turned decision science expert and consultant.",
+    "background_zh": "前职业扑克牌手（世界扑克大赛冠军），现转型为决策科学专家与顾问。"
   },
   "episodeSummary": "Annie Duke joins Lenny to dismantle common decision-making misconceptions. She explains why intuition needs to be made explicit, why meetings should never be used for idea discovery, and how to shorten 'long' feedback loops in venture capital and product management. She also dives into the psychology of quitting, introducing concepts like kill criteria to overcome sunk cost fallacy.",
   "methodologies": [
@@ -31,7 +32,19 @@
           "4. The Meeting (Discussion Only): Group convenes solely to discuss the variance in opinions.",
           "5. Decision: Leader makes the call (or voting occurs), often asynchronously after the meeting."
         ]
-      }
+      },
+      "summary_zh": "这是一套旨在消除“群体迷思”和“强制干扰”的会议机制。通过将“观点生成”与“讨论环节”彻底分离，该框架确保了成员的独立思考，并将会议时间聚焦于核心分歧点。",
+      "problemItSolves_zh": "避免决策被声音最大或最自信的人主导，消除群体思维，并让潜藏的异议浮出水面。",
+      "whenToUse_zh": "产品路线图规划、项目排期预估、功能头脑风暴或投资决策。",
+      "commonMistakes_zh": "现场即兴头脑风暴，允许随意打断发言，将寻求共识/对齐作为首要目标。",
+      "realWorldExample_zh": "First Round Capital 采用一套结构化的会议流程来评估公司，要求合伙人在展开讨论之前，先针对特定维度（如市场、团队）独立进行投票和评分。",
+      "principles_zh": [
+        "停止过度交流，坚持独立产出观点。",
+        "会议仅用于讨论，而非信息同步或制定决策。",
+        "摒弃对“对齐”或“共识”的执念，这只会滋生强制妥协。",
+        "复述他人观点以确信其被聆听（保持好奇心，而非施压）。"
+      ],
+      "name_zh": "The Nominal Group Meeting Framework（名义小组会议框架）"
     },
     {
       "name": "Pre-Mortems with Kill Criteria",
@@ -57,7 +70,19 @@
           "4. Pre-Commitment: Establish the rule 'If [Criteria] occurs, we [Kill/Pivot]'.",
           "5. Execution & Monitoring: actively scan for the criteria during the project."
         ]
-      }
+      },
+      "summary_zh": "标准“事前验尸”分析的进阶版，它不再仅停留于设想失败场景，而是基于明确的负面信号，制定预先锁定的执行预案。",
+      "problemItSolves_zh": "克服沉没成本谬误，以及项目上线后对负面信号进行合理化的倾向（即“暴风雪中强行登顶”效应）。",
+      "whenToUse_zh": "在新产品上线、签署长期合约，或跟进销售线索之前。",
+      "commonMistakes_zh": "进行了事前验尸却未调整计划，或是识别了风险却未设定明确的叫停触发条件。",
+      "realWorldExample_zh": "某销售团队识别出了无效商机的信号（例如：客户只关心价格，不愿看演示）。设定的叫停标准为：如果客户拒绝演示，立即停止跟进。",
+      "principles_zh": [
+        "仅推演失败是不够的，必须落实具体的行动承诺。",
+        "识别与失败状态高度相关的信号。",
+        "确立「终止标准」：一旦监测到 X 信号，必须采取 Y 行动。",
+        "将「浪费」视为前瞻性而非回溯性的概念（忽略沉没成本）。"
+      ],
+      "name_zh": "Pre-Mortems with Kill Criteria（设定终止标准的事前验尸）"
     },
     {
       "name": "Shortening the Feedback Loop",
@@ -87,8 +112,21 @@
             "details": "e.g., Net New ARR, Retention, Hiring Top Talent"
           }
         ]
-      }
+      },
+      "summary_zh": "该思维模型旨在破除一种迷思，即认为某些决策（如 VC 投资或长期产品押注）需要数年时间才能验证。其核心在于识别出与长期成功高度相关的短期代理指标。",
+      "problemItSolves_zh": "无法从决策中实时获取认知，且习惯以“长期愿景”为挡箭牌，从而逃避面对糟糕的业绩表现。",
+      "whenToUse_zh": "风险投资、长周期研发、品牌建设战役",
+      "commonMistakes_zh": "误以为必须等到最终结局或产出才能评估决策质量；忽视了 A 轮融资或留存率等阶段性信号。",
+      "realWorldExample_zh": "First Round 并没有苦等 10 年直到项目退出，而是将“种子轮投资能否拿到 A 轮融资”（这是一个必要条件）作为指标，在大约 18 个月内评估决策质量。",
+      "principles_zh": [
+        "不存在所谓的长反馈周期，那只是你选择了等待。",
+        "识别达成长期目标的必要（非充分）条件。",
+        "聚焦与结果强相关的“中间信号”（代理指标）。",
+        "牺牲心理安全感（即“无知”），换取决策质量（即“早知”）。"
+      ],
+      "name_zh": "Shortening the Feedback Loop（缩短反馈循环）"
     }
   ],
-  "filename": "Annie Duke"
+  "filename": "Annie Duke",
+  "episodeSummary_zh": "Annie Duke 做客 Lenny 的节目，深度拆解了常见的决策误区。她阐述了为何必须将“直觉”显性化，为何决不能在会议中进行想法探索，以及如何在风险投资和产品管理中缩短漫长的反馈周期。此外，她还深入剖析了关于“放弃”的心理机制，引入了“终止标准（Kill Criteria）”等概念，以帮助克服沉没成本谬误。"
 }

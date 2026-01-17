@@ -3,7 +3,8 @@
     "name": "Alexander Embiricos",
     "title": "Product Lead for Codex",
     "company": "OpenAI",
-    "background": "Former startup founder (screen sharing/pair programming), PM at Dropbox"
+    "background": "Former startup founder (screen sharing/pair programming), PM at Dropbox",
+    "background_zh": "前创业公司创始人（屏幕共享/结对编程），Dropbox 产品经理"
   },
   "episodeSummary": "Alexander Embiricos explores the evolution of Codex from a code completion tool to a proactive 'Software Engineering Teammate'. He discusses the internal strategies OpenAI uses to build agents (The Three-Layer Agent Stack), the shift in developer workflows towards 'Vibe Coding' and 'Chatter-Driven Development', and shares case studies of massive acceleration, such as building the Sora Android app in under a month.",
   "methodologies": [
@@ -38,7 +39,19 @@
             "description": "Autonomous, signal-driven (monitors Slack/Logs), asynchronous execution, high trust delegation."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一个关于 AI Agent 演进的概念模型，描述了其从「被动响应式工具」向「主动式合作伙伴」的转变。该模型不再将 AI 视为静态工具，而是将其定义为一位能够随着时间推移积累上下文、建立信任并逐步获得自主权的协作队友。",
+      "problemItSolves_zh": "突破 AI 作为被动工具需依赖持续指令输入的局限，旨在降低人类管理 AI 时的认知负荷。",
+      "whenToUse_zh": "在将 AI Agent 整合至团队工作流，或制定智能体（Agentic）产品开发路线图时。",
+      "commonMistakes_zh": "期望 Agent 在未通过上下文和规范进行“入职引导”的情况下就能立即独立运作；仅将其视为文本生成工具，而非具备执行力的行动主体。",
+      "realWorldExample_zh": "让 Codex 为其自身的训练任务 On-call，自主监控图表并修复配置错误。",
+      "principles_zh": [
+        "**类实习生管理**：像带新实习生一样对待 Agent —— 初期严格验收（Verify），随后建立信任。",
+        "**主动性**：Agent 最终应具备监测信号并无需指令（Prompts）即可自主行动的能力。",
+        "**上下文融合**：Agent 必须打通业务工具链（如 Datadog, Slack）才能真正发挥效能。",
+        "**信任演进**：从基于 Chat 的微观管理，向基于异步/后台运行的充分授权模式过渡。"
+      ],
+      "name_zh": "The Software Engineering Teammate（软件工程队友）"
     },
     {
       "name": "The Three-Layer Agent Stack",
@@ -71,7 +84,19 @@
             "description": "The foundation model (e.g., GPT-5.1-Codex-Max) providing reasoning and coding intelligence."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一套构建高效 AI Agent 的框架，通过在模型智能、API 接口和产品封装这三个层级上协同创新来实现。成功的关键在于各层级的深度融合，而非简单地将模型视为黑盒。",
+      "problemItSolves_zh": "弥合模型原生能力与实际产品效用之间的脱节，确保模型具备可用性、上下文感知能力及持久性。",
+      "whenToUse_zh": "当构建 AI 产品或 Agent，且单纯依靠模型原生智能不足以解决用户问题时。",
+      "commonMistakes_zh": "仅优化模型而未适配 Harness/UI；误判通用 API 足以支撑长耗时任务等复杂的 Agent 行为。",
+      "realWorldExample_zh": "要实现“压缩”机制以支持 Codex 24 小时持续运行，需要模型具备摘要总结能力，API 负责处理交接，而 Harness 则需准备好数据载荷。",
+      "principles_zh": [
+        "全栈迭代：类似 'Compaction' 的功能，要求在模型、API 和 Harness 三层同步进行联动调整。",
+        "Harness 专属性：当模型针对特定环境（如 Shell/终端 vs 定制化工具）进行定向训练时，Agent 表现最佳。",
+        "反馈闭环：产品层（Harness）的实际使用数据必须形成回路，反哺模型训练。",
+        "安全沙箱：Harness 需为模型执行代码提供安全隔离的运行环境。"
+      ],
+      "name_zh": "The Three-Layer Agent Stack（三层智能体栈）"
     },
     {
       "name": "Vibe Coding & Chatter-Driven Development",
@@ -109,8 +134,22 @@
             "detail": "Validation, 'Swiping Right', and Deployment"
           }
         ]
-      }
+      },
+      "summary_zh": "一种全新的软件开发生命周期，它不再依赖正式的需求规格文档，而是基于“直觉”、聊天记录、社媒动态等非正式信号快速生成代码。该模式以速度和迭代为核心，利用 AI Agent（智能体）进行快速原型搭建与代码打磨。",
+      "problemItSolves_zh": "消除在探索性或快速响应任务中，由正式需求规格与人工编码构成的效率瓶颈。",
+      "whenToUse_zh": "适用于快速原型开发、内部工具搭建、实时响应 Bug 或问题，以及那些“体感”与速度优先于早期架构完美度的场景。",
+      "commonMistakes_zh": "未经严格评审便贸然应用于关键核心底层架构；跳过了将原型进行生产级加固的 \"Vibe Engineering\" 环节。",
+      "realWorldExample_zh": "Sora Android App 由一支小团队历时 18 天开发完成，利用 Codex 移植了 iOS 端的逻辑；设计师则通过 \"Vibe Coding\" 构建了一个动画编辑器，用于制作特定的动画效果。",
+      "principles_zh": [
+        "**信号优于文档**：直接利用现有的沟通语料（Slack、工单）作为 Prompts。",
+        "**Vibe Code 优先**：快速生成“用完即弃”的原型，以验证假设。",
+        "**工程落地在后**：将原型打磨为生产级代码，提交 PR。",
+        "**评审即交互**：人的角色从“手动编码”向“审核与筛选”迁移。",
+        "**代码泛在化**：万物皆可代码，涵盖临时动效或数据看板。"
+      ],
+      "name_zh": "Vibe Coding & Chatter-Driven Development（氛围式编程与对话驱动开发）"
     }
   ],
-  "filename": "Alex Hardimen"
+  "filename": "Alex Hardimen",
+  "episodeSummary_zh": "Alexander Embiricos 深度解析了 Codex 从单纯的代码补全工具向主动式“软件工程队友”的演进历程。他分享了 OpenAI 构建 Agent 的内部策略（三层 Agent 架构），探讨了开发者工作流向 \"Vibe Coding\" 和 \"Chatter-Driven Development\" 的范式转移，并复盘了研发效能大幅跃升的实战案例，包括如何在一个月内极速完成 Sora Android App 的开发。"
 }

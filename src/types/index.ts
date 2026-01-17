@@ -64,6 +64,15 @@ export interface Methodology {
     // Dynamic visualization
     visualizationType?: VisualizationType;
     visualizationData?: Record<string, any>;
+    // Chinese translations (bilingual support)
+    name_zh?: string;
+    summary_zh?: string;
+    principles_zh?: string[];
+    problemItSolves_zh?: string;
+    whenToUse_zh?: string;
+    commonMistakes_zh?: string;
+    realWorldExample_zh?: string;
+    quote_zh?: string;
 }
 
 export const CATEGORY_INFO: Record<Category, { label: string; emoji: string; gradient: string }> = {

@@ -3,7 +3,8 @@
     "name": "Alex Komoroske",
     "title": "Founder (Stealth Startup)",
     "company": "Formerly Stripe, Google",
-    "background": "Spent 13 years at Google leading Chrome's Open Web Platform and AR, served as Head of Corporate Strategy at Stripe. Known for 'Bits and Bobs' and applying complexity science to organizational management."
+    "background": "Spent 13 years at Google leading Chrome's Open Web Platform and AR, served as Head of Corporate Strategy at Stripe. Known for 'Bits and Bobs' and applying complexity science to organizational management.",
+    "background_zh": "深耕 Google 13 年，主导 Chrome 开放网络平台及 AR 业务；曾任 Stripe 企业战略负责人。以 'Bits and Bobs' 系列及其将复杂性科学应用于组织管理的理念著称。"
   },
   "episodeSummary": "Alex Komoroske joins Lenny to discuss the shift from industrial 'builder' mindsets to complexity-aware 'gardening' mindsets. He explores how Large Language Models (LLMs) act as 'magical duct tape,' how to navigate 'Organizational Kayfabe' (the shared illusions within companies), and how to generate emergent strategy through 'Nerd Clubs.' The conversation focuses on adapting to uncertainty, leveraging bottom-up emergence, and maintaining agency in large systems.",
   "methodologies": [
@@ -44,7 +45,19 @@
             "Community Gardening"
           ]
         }
-      }
+      },
+      "summary_zh": "从“建造者思维”（刚性规划、自上而下管控）向“园丁思维”（营造生长环境、培育生态系统）转变。该方法论主张播撒大量低成本的“种子”（创意/原型），并加注投资那些展现出内生增长势能（涌现）的项目。",
+      "problemItSolves_zh": "规避“建设者”式规划的风险，此类规划往往消耗大于产出，且难以适应复杂多变的环境。",
+      "whenToUse_zh": "当涉及生态系统、网络效应，或无法预知“标准答案”的高度不确定性环境时。",
+      "commonMistakes_zh": "期望每颗“种子”都能立即带来 ROI；试图强行催熟某颗特定的“种子”；未能提供“掩护火力”（即显性价值）来为实验保驾护航。",
+      "realWorldExample_zh": "开发一款开源工具；若有开发者使用，则追加投入。若无，试错成本极低（仅耗时数小时，而非数月）。",
+      "principles_zh": [
+        "投入 70% 的精力交付清晰可见却“枯燥”的显性价值，以此换取信任筹码。",
+        "用 30% 的时间播种具备复利效应的“橡子”（创新种子）。",
+        "避免主观预判胜负，转而敏锐捕捉自然增长的信号。",
+        "保护幼苗免受“松鼠”（组织内部的免疫排异）侵害。"
+      ],
+      "name_zh": "The Gardening Mindset（园艺思维）"
     },
     {
       "name": "Strategy Salons (Nerd Clubs)",
@@ -71,7 +84,19 @@
           "Escalate: Organize a live event (lunch) only when demand is high.",
           "Sustain: Send 'FOMO' notes to non-attendees to maintain momentum."
         ]
-      }
+      },
+      "summary_zh": "一种在复杂环境中构建严谨战略的方法论。它通过建立私密且低风险的社群（“极客俱乐部”），促使多元视角发生碰撞。该方法依托心理安全感，激发“Yes, and”式的建设性创意，最终汇聚成突破性战略。",
+      "problemItSolves_zh": "克服“委员会式设计”的失效模式，打破正式高管评审在处理模糊、复杂问题域时的局限性。",
+      "whenToUse_zh": "当需要为新领域制定战略，解决没有单一团队持有明确答案的跨职能难题，或是试图打破群体迷思时。",
+      "commonMistakes_zh": "邀请破坏氛围的“扫兴者”（批评家/愤世嫉俗者）；\n放任讨论冷场（陷入“死亡螺旋”）；\n强求特定产出，而非等待结果自然涌现。",
+      "realWorldExample_zh": "在 Google 组建 'Navel Gazers' 小组，从而避开高昂且对抗式的高管评审，实现 12 个不同团队的战略对齐。",
+      "principles_zh": [
+        "以一小群高能量的“晶种”成员为核心冷启动。",
+        "打造“隐秘”且“极客”的调性，筛选具备内驱力的成员。",
+        "贯彻 \"Yes, And\" 准则；对无效想法予以忽略而非批判。",
+        "随时间推移逐步引入多元视角（新奇性探索）。"
+      ],
+      "name_zh": "Strategy Salons (Nerd Clubs)（战略沙龙（极客俱乐部））"
     },
     {
       "name": "Navigating Organizational Kayfabe",
@@ -102,8 +127,21 @@
           "Don't: Become cynical or disengage",
           "Don't: Assume leaders are bad actors; they are trapped in the same system"
         ]
-      }
+      },
+      "summary_zh": "这是一套旨在帮助你在大型组织中生存并发挥影响力的**框架**。其核心在于通过承认 'Kayfabe'（即组织内共识性的虚假现实/盲目乐观），避免自己沦为行尸走肉或无谓的殉道者。这需要保持“双重思维”——在对外完美演绎组织要求的人设的同时，内心始终坚守客观真相。",
+      "problemItSolves_zh": "防止职业倦怠和“烈士式”牺牲（因直言真相而被开除），同时避免陷入全员信奉虚假叙事的“僵尸组织”状态。",
+      "whenToUse_zh": "当你发现既定战略注定失败，但高层尚未准备好接受现实时；在大型层级组织中应对进度汇报。",
+      "commonMistakes_zh": "陷入犬儒主义（彻底躺平）；不合时宜地充当“激进直言者”（惨遭阻击）；错把“剧本”当现实（沦为行尸走肉）。",
+      "realWorldExample_zh": "项目状态本是 Yellow，却被汇报为 Green，理由是认为在领导过目之前能解决；这种操作经过 5 个层级的层层叠加，最终导致高层认知与现实彻底脱节。",
+      "principles_zh": [
+        "承认“组织假象”（盲目乐观或善意谎言）是大型组织的润滑剂。",
+        "意识到按下“真相按钮”（揭穿谎言）会触发组织的免疫防御机制。",
+        "保持“双重思维”：行为上配合“演出”，决策时基于现实。",
+        "温和地“助推”系统，而非直接打破幻象。"
+      ],
+      "name_zh": "Navigating Organizational Kayfabe（驾驭组织幻象）"
     }
   ],
-  "filename": "Alex Komoroske"
+  "filename": "Alex Komoroske",
+  "episodeSummary_zh": "Alex Komoroske 做客 Lenny 的节目，深入探讨了思维模式的转变：从工业时代的“建造者”思维，转向具备复杂性认知的“园丁”思维。他探讨了 LLM 如何充当“神奇胶带”，如何应对“组织剧场效应”（Organizational Kayfabe，即公司内部的共同幻觉），以及如何通过“极客社群”催生涌现式战略。本次对话重点聚焦于适应不确定性、撬动自下而上的涌现力量，以及如何在庞大的系统中保持个体能动性。"
 }

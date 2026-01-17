@@ -30,7 +30,12 @@
           "Execute Ask (Low friction, e.g., 'Pick 2')",
           "Synthesize & Close Loop (Analyze patterns, thank advisors)"
         ]
-      }
+      },
+      "summary_zh": "一套结构化的方法，旨在从精心筛选的同行圈子中获取具备语境的建议，而非依赖单一导师或提出模糊的问题。该方法通过向领域专家和熟悉你的伙伴提出针对性问题，从而有效识别认知盲区。",
+      "problemItSolves_zh": "规避缺乏语境的“错误建议”，并通过快速收集多维度的高质量数据，避免陷入决策瘫痪。",
+      "whenToUse_zh": "当面临重大决策（职业转型、产品方向、个人困境），且感到难以抉择或陷入僵局时。",
+      "commonMistakes_zh": "提问缺乏针对性、依赖单一信源（单点故障），或未向提供帮助者同步后续进展。",
+      "realWorldExample_zh": "Ada 正是利用这一方法完成了本期播客访谈的选题：她给 10 到 11 位朋友发邮件列出 9 个备选话题，请他们选出最感兴趣的两个。"
     },
     {
       "name": "Explore and Exploit Framework",

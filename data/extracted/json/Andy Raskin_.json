@@ -3,7 +3,8 @@
     "name": "Andy Raskin",
     "title": "Strategic Narrative Consultant",
     "company": "Andy Raskin",
-    "background": "Former computer science major and startup founder turned journalist and consultant who helps CEOs align their teams around a strategic narrative."
+    "background": "Former computer science major and startup founder turned journalist and consultant who helps CEOs align their teams around a strategic narrative.",
+    "background_zh": "计算机科班出身的创业者，后转型为记者与顾问。致力于协助 CEO 围绕战略叙事（Strategic Narrative）拉齐团队认知。"
   },
   "episodeSummary": "In this episode, Andy Raskin breaks down why the traditional 'problem/solution' pitch (the Arrogant Doctor) is failing. He introduces the Strategic Narrative Framework, a five-part structure inspired by movie scripts and exemplified by companies like Salesforce and Zuora. Raskin explains how to frame a product as the key to winning a new game in a shifting world, aligning sales, product, and marketing around a single, high-stakes story.",
   "methodologies": [
@@ -32,8 +33,22 @@
           "4. Identify Obstacles: Highlight the specific challenges preventing the buyer from reaching the Object.",
           "5. Present the Solution: Introduce the product/features as 'Magic Gifts' to overcome the obstacles."
         ]
-      }
+      },
+      "summary_zh": "一套包含五个步骤的叙事架构，旨在取代传统的“问题/解决方案”式提案。该框架不再将公司定位为解决痛点的“医生”，而是将客户视为应对世界级宏大变革（从旧游戏规则转向新游戏规则）的“主角”，通过发起一场变革浪潮，实现产品、销售与市场团队的深度协同。",
+      "problemItSolves_zh": "过度聚焦功能特性的低效销售话术、产品与 GTM 团队缺乏战略对齐，以及难以在红海市场中实现差异化突围。",
+      "whenToUse_zh": "处于 B 轮融资或规模化扩张期（创始人主导的销售模式遭遇瓶颈时）、业务转型期，或通过并购（M&A）拓展新产品线时。",
+      "commonMistakes_zh": "生搬硬套 Zuora 的演示模板却未对故事内核进行适配，只是简单罗列要点而非明确定义具体的“游戏规则改变”，或是未能让买家痛切感知到“生死攸关”的利害关系。",
+      "realWorldExample_zh": "Zuora 将时代的变革界定为从“交易经济”（旧游戏）向“订阅经济”（新游戏）的转型，并将核心目标设定为“将客户转化为订阅用户”。",
+      "principles_zh": [
+        "摒弃“傲慢医生”视角（即传统的“问题-解决方案”模式），转而定义一场行业变革。",
+        "明确指出宏观环境中不可逆转的趋势，而非局限于客户的具体痛点。",
+        "建立紧迫感，阐明赢得这场“新游戏”是关乎生死的存亡之战。",
+        "将产品功能定位为“魔法道具”，旨在赋能客户（故事的主角）克服阻碍，达成新目标。",
+        "该叙事逻辑必须成为指引全公司的“战略北极星”，而不仅仅是一份销售演示文稿。"
+      ],
+      "name_zh": "The Strategic Narrative Framework（战略叙事框架）"
     }
   ],
-  "filename": "Andy Raskin_"
+  "filename": "Andy Raskin_",
+  "episodeSummary_zh": "在本期节目中，Andy Raskin 深度拆解了为何传统的“问题/解决方案”式推介（即“傲慢医生”模式）已不再奏效。他引入了“战略叙事框架”，这是一套借鉴电影剧本创作的五步法结构，并已被 Salesforce 和 Zuora 等巨头成功验证。Raskin 详细阐述了如何将产品定位为在剧变世界中赢得“新游戏”的关键要素，并围绕这一攸关成败的核心叙事，彻底拉齐销售、产品和市场团队的认知。"
 }

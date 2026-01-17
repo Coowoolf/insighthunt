@@ -3,7 +3,8 @@
     "name": "Amjad Masad",
     "title": "Co-founder & CEO",
     "company": "Replit",
-    "background": "Software engineer and entrepreneur who founded Replit, an AI-powered software development platform. Previously worked at Facebook and Codecademy, focusing on making programming more accessible."
+    "background": "Software engineer and entrepreneur who founded Replit, an AI-powered software development platform. Previously worked at Facebook and Codecademy, focusing on making programming more accessible.",
+    "background_zh": "软件工程师、创业者，AI 驱动的软件开发平台 Replit 创始人。曾任职于 Facebook 和 Codecademy，致力于降低编程门槛，推动编程普及。"
   },
   "episodeSummary": "Amjad Masad joins Lenny to demonstrate Replit's AI Agent, capable of building full-stack applications from simple prompts. They discuss the democratization of software creation, the emergence of AI Computer Interfaces (ACI), and the shifting role of Product Managers from specification-writers to 'Generative' creators who prototype ideas directly. Amjad argues that as execution costs plummet, the primary bottleneck moves from engineering capacity to idea generation.",
   "methodologies": [
@@ -30,7 +31,19 @@
         ],
         "result": "Exponential Product Leverage",
         "operator": "Compound Interaction"
-      }
+      },
+      "summary_zh": "该经验法则指出，掌握基础编程技能的投入产出比（ROI）正以每六个月翻倍的速度增长。随着 AI 模型能力的不断进化，只需具备极少量的技术储备（如调试、代码阅读、Prompting），就能赋予用户指数级的效能提升与资源撬动能力。",
+      "problemItSolves_zh": "非技术背景创始人或 PM 对学习编程的迟疑，担心需要经年累月的学习才能产生实际价值。",
+      "whenToUse_zh": "在此类场景下适用：在决策技术培训的投入力度，或提升产品团队技术素养时。",
+      "commonMistakes_zh": "优先死磕传统 CS 课程（如 Git、算法）而忽视 AI 原生工作流；误以为 AI 会淘汰编程技能，而非意识到编程能力将因此具备更强的撬动效应。",
+      "realWorldExample_zh": "产品经理掌握基础 SQL 和 Python 技能，自行修复 AI Agent 生成的数据库迁移报错，从而无需依赖工程师即可独立发布原型。",
+      "principles_zh": [
+        "优先掌握代码的基础结构逻辑，而非深究具体语法细节。",
+        "聚焦于代码调试与阅读能力，而非从零开始手写代码。",
+        "将 AI 视为效能倍增器：1 份技能 × AI = 100 倍产出。",
+        "紧跟模型演进，每半年迭代一次工具栈与 Prompting 技巧。"
+      ],
+      "name_zh": "Amjad's Law of Coding ROI（Amjad 编程 ROI 定律）"
     },
     {
       "name": "The Generative Product Manager",
@@ -56,7 +69,19 @@
           "Siloed Roles → Hybrid Creators",
           "Management → Generation"
         ]
-      }
+      },
+      "summary_zh": "这是一场由 AI 工具驱动的产品经理角色范式转移。随着软件研发成本趋近于零，核心瓶颈正从工程实现转向创意构想。产品经理必须完成职能转型：从传统的撰写 PRD 和管理需求池，转向直接生成可用原型，并基于实际运行的软件进行快速迭代。",
+      "problemItSolves_zh": "产品经理、设计师与工程师之间的“传声筒游戏”及低带宽沟通（文字/文档）",
+      "whenToUse_zh": "搭建现代化产品团队，或定义未来 PM 招聘所需的能力模型时。",
+      "commonMistakes_zh": "死守僵化的产品路线图；单纯依赖文档式交接；未能利用 AI 构建产品的 v0 版本。",
+      "realWorldExample_zh": "CEO 利用 Replit Agent 仅需数分钟即可搭建功能需求仪表盘，省去了以往耗费数日撰写规格文档和进行设计评审的过程。",
+      "principles_zh": [
+        "转移瓶颈焦点：从关注“技术能否实现”转向关注“产品价值判断”。",
+        "提升产出频次：快速验证更多产品构想。",
+        "原型优于文档：直接交付可运行的 React 代码或 Live Apps，而非仅提供 Figma 设计稿。",
+        "跨界融合能力：打破设计、产品与工程研发之间的专业壁垒。"
+      ],
+      "name_zh": "The Generative Product Manager（生成式产品经理）"
     },
     {
       "name": "AI Computer Interfaces (ACI)",
@@ -81,8 +106,21 @@
           "Infrastructure Layer (Multiplayer/File System)",
           "ACI Tooling (Editor, Terminal, Browser Interfaces)"
         ]
-      }
+      },
+      "summary_zh": "这是一门与人机交互 (HCI) 并行的新兴学科，专注于为 LLM 设计专属的交互界面。鉴于 LLM 本质上属于“外星物种”，它们需要一套特定的工具栈（例如纯文本编辑器、结构化错误日志、API 访问权限），才能与计算环境进行高效交互。",
+      "problemItSolves_zh": "AI Agent 在使用人类交互界面（如基于视觉识别点击按钮）或缺乏反馈闭环时表现出的不可靠性。",
+      "whenToUse_zh": "用于构建智能体工作流，或深入解析 Replit Agent 的底层运行机制。",
+      "commonMistakes_zh": "将 AI 视为依赖 GUI 的人类用户；限制 AI 对运行时环境的访问权限。",
+      "realWorldExample_zh": "Replit 为 AI 提供了安装 Linux 软件包和编辑代码的专用“工具”，并将执行结果以文本日志形式呈现，而非展示可视化的终端界面。",
+      "principles_zh": [
+        "提供 UI/状态的文本化表征（相比像素，LLM 更擅长处理文本信息）。",
+        "通过 API 开放独立工具能力（如代码编辑器、终端、浏览器）。",
+        "构建反馈闭环（运行代码 → 识别报错 → 修复代码）。",
+        "分层抽象：屏蔽底层 OS 复杂细节，同时保留控制权。"
+      ],
+      "name_zh": "AI Computer Interfaces (ACI)（AI 计算机接口 (ACI)）"
     }
   ],
-  "filename": "Amjad Masad"
+  "filename": "Amjad Masad",
+  "episodeSummary_zh": "Amjad Masad 做客 Lenny 的节目，现场演示了 Replit 的 AI Agent，它仅凭简单的 Prompt 即可构建全栈应用。双方探讨了软件开发的平民化、AI 计算机接口 (ACI) 的兴起，以及产品经理角色的转型——从传统的“文档撰写者”进化为能直接制作原型的“生成式”创作者。Amjad 指出，随着执行成本骤降，核心瓶颈已从工程研发能力转移至创意的生成。"
 }

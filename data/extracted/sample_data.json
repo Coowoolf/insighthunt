@@ -31,7 +31,12 @@
             "Execute Ask (Low friction, e.g., 'Pick 2')",
             "Synthesize & Close Loop (Analyze patterns, thank advisors)"
           ]
-        }
+        },
+        "summary_zh": "一套结构化的方法，旨在从精心筛选的同行圈子中获取具备语境的建议，而非依赖单一导师或提出模糊的问题。该方法通过向领域专家和熟悉你的伙伴提出针对性问题，从而有效识别认知盲区。",
+        "problemItSolves_zh": "规避缺乏语境的“错误建议”，并通过快速收集多维度的高质量数据，避免陷入决策瘫痪。",
+        "whenToUse_zh": "当面临重大决策（职业转型、产品方向、个人困境），且感到难以抉择或陷入僵局时。",
+        "commonMistakes_zh": "提问缺乏针对性、依赖单一信源（单点故障），或未向提供帮助者同步后续进展。",
+        "realWorldExample_zh": "Ada 正是利用这一方法完成了本期播客访谈的选题：她给 10 到 11 位朋友发邮件列出 9 个备选话题，请他们选出最感兴趣的两个。"
       },
       {
         "name": "Explore and Exploit Framework (Ada's Approach)",
@@ -305,7 +310,8 @@
       "name": "Adriel Frederick",
       "title": "VP of Product",
       "company": "Reddit",
-      "background": "Former Director of Product at Lyft (Marketplace/Pricing), Early PM at Facebook (Growth/User Acquisition), Strategy Consultant at McKinsey. Originally from Trinidad and Tobago."
+      "background": "Former Director of Product at Lyft (Marketplace/Pricing), Early PM at Facebook (Growth/User Acquisition), Strategy Consultant at McKinsey. Originally from Trinidad and Tobago.",
+      "background_zh": "前 Lyft 产品总监（交易平台/定价），Facebook 早期产品经理（增长/获客），麦肯锡战略顾问。原籍特立尼达和多巴哥。"
     },
     "episodeSummary": "Adriel Frederick discusses the intersection of human intuition and algorithmic scale, sharing lessons from Facebook's early growth team and Lyft's marketplace challenges. He advocates for 'Human-in-the-Loop' design where algorithms amplify human intent rather than replacing judgment. He also details the 'Marginal User' framework for debugging growth and the importance of a balanced portfolio of 'Cannonballs' (big bets) and 'Lead Bullets' (optimizations).",
     "methodologies": [
@@ -408,17 +414,28 @@
               "description": "Rare/Uncommon. If found, execute immediately."
             }
           ]
-        }
+        },
+        "commonMistakes_zh": "误以为在缺乏核心产品价值主张（“炮弹”）的情况下，仅靠“增长黑客”战术（“铅弹”）就能取得成功；因进行过多琐碎实验而产生隐性成本。",
+        "realWorldExample_zh": "Facebook：“铅弹”指的是文案微调或按钮调整；“炮弹”则是指面向发展中国家支持短信注册，或是重构整个好友推荐引擎。",
+        "principles_zh": [
+          "组合平衡：80% 的资源投入“炮弹”类项目，20% 投入“铅弹”类项目（比例随产品成熟度调整）。",
+          "铅弹：侧重于优化迭代，包括小的增长手段、文案调整和 UI 微调。",
+          "炮弹：涉及底层重构、上线全新的核心功能，以及工程量巨大的重研发项目。",
+          "早期产品需要“炮弹”来寻求突破；成熟期产品则更多依赖“铅弹”进行持续优化。"
+        ],
+        "name_zh": "The Cannonballs and Lead Bullets Portfolio（炮弹与铅弹组合）"
       }
     ],
-    "filename": "Adriel Frederick"
+    "filename": "Adriel Frederick",
+    "episodeSummary_zh": "Adriel Frederick 探讨了人类直觉与算法规模化的结合，并分享了他在 Facebook 早期增长团队以及应对 Lyft 双边市场挑战时的实战经验。他主张采用“人在回路”（Human-in-the-Loop）的设计理念，即利用算法来放大人类的意图，而非完全替代人类的判断力。此外，他还深入拆解了用于诊断增长瓶颈的“边际用户”（Marginal User）框架，并强调了构建平衡产品组合的重要性——即在“炮弹”（Cannonballs，即战略性大赌注）与“铅弹”（Lead Bullets，即战术性优化）之间找到最佳平衡点。"
   },
   {
     "guest": {
       "name": "Keith Coleman & Jay Baxter",
       "title": "Product Lead & Founding ML Engineer",
       "company": "Community Notes (X)",
-      "background": "Keith Coleman and Jay Baxter lead the Community Notes team at X (formerly Twitter). Keith, a former product leader, and Jay, a machine learning engineer, developed the open-source, crowd-sourced context system that uses bridging algorithms to combat misinformation."
+      "background": "Keith Coleman and Jay Baxter lead the Community Notes team at X (formerly Twitter). Keith, a former product leader, and Jay, a machine learning engineer, developed the open-source, crowd-sourced context system that uses bridging algorithms to combat misinformation.",
+      "background_zh": "Keith Coleman 和 Jay Baxter 负责领导 X（前 Twitter）的 Community Notes 团队。Keith 是产品负责人出身，Jay 则是机器学习工程师，两人共同开发了这套开源的众包背景信息系统，通过桥接算法（Bridging Algorithms）来对抗虚假信息。"
     },
     "episodeSummary": "Keith Coleman and Jay Baxter discuss the origins, principles, and engineering behind Community Notes. They reveal how a small, 'thermal' team used dynamic goal-setting and a unique bridging-based algorithm to build a decentralized fact-checking system that scales effectively where traditional methods failed. The conversation covers the transition from Birdwatch, the impact of open-sourcing the algorithm, and the operational philosophy of 'Continuous Calibration' that allows them to move rapidly.",
     "methodologies": [
@@ -446,7 +463,19 @@
             "Review Results",
             "Recalibrate Goal"
           ]
-        }
+        },
+        "summary_zh": "这是一种动态作业模式，它摒弃了僵化的长期规划（如季度 OKR），转而主张高频的目标设定与执行。团队利用极简的共享文档进行每日对齐，并基于实时数据反馈，以双周为周期动态校准产品路线图。",
+        "problemItSolves_zh": "规避大型组织常见的官僚内耗与目标脱节，赋能小团队快速交付互联网级规模的解决方案。",
+        "whenToUse_zh": "运作一支小型且高度互信的团队（“热力团队”），应对模糊或快速变化的问题。",
+        "commonMistakes_zh": "面对新数据仍固守过时的 OKR；放任团队精力分散于多个项目。",
+        "realWorldExample_zh": "Community Notes 团队摒弃了正式的季度规划，通过基于试点数据每周动态调整路线图，成功将一个小规模试点项目扩展为全球级功能。",
+        "principles_zh": [
+          "动态目标设定：依据实时数据而非日历季度来设定里程碑。",
+          "极致聚焦：维持一支小型自治团队，对单一使命保持 100% 的专注。",
+          "轻量化协同：优先采用轻量级工具（如 Google Docs），而非繁琐的项目管理软件。",
+          "快速校准：一旦数据指向更优路径，立即调整优先级方向。"
+        ],
+        "name_zh": "Continuous Calibration, Continuous Development (CCCD)（持续校准，持续开发 (CCCD)）"
       },
       {
         "name": "The Agency-Control Graduation Framework",
@@ -472,7 +501,19 @@
             "Writer (Creating Context)",
             "Sustained Contributor (Maintenance)"
           ]
-        }
+        },
+        "summary_zh": "这是一套基于能力的用户成长体系，旨在通过要求贡献者先验证自身的判断力，从而获取内容创作权，以此确保平台质量。参与者必须先证明自己具备识别优质笔记的能力（即参与评分），随后才能解锁撰写笔记的权限。",
+        "problemItSolves_zh": "通过筛选胜任力与中立性，防止恶意行为者及低质内容淹没去中心化系统。",
+        "whenToUse_zh": "构建极度依赖信任机制的去中心化网络、社区治理体系或众包知识库。",
+        "commonMistakes_zh": "立即向全量用户开放所有权限；采用单纯的多数票决机制，反而强化了偏见。",
+        "realWorldExample_zh": "Community Notes 贡献者以评分员身份起步，只有当其评分持续与“桥接共识”对齐时，才能解锁“撰写笔记”按钮。",
+        "principles_zh": [
+          "权益进阶：写作权限是一种特权，需通过经证实的评估能力来解锁。",
+          "桥接式验证：质量由对立群体间的共识所定义，而非单纯的多数票决。",
+          "动态资质考核：若贡献者的产出持续缺乏价值，其特权将被收回。",
+          "化名诚信机制：允许匿名可降低社交压力，提升用户跨越阵营壁垒的意愿。"
+        ],
+        "name_zh": "The Agency-Control Graduation Framework（「能动性-管控」进阶框架）"
       },
       {
         "name": "Problem-First Workflow Analysis",
@@ -498,17 +539,31 @@
             "Open Public Pilot",
             "Scale & Expand"
           ]
-        }
+        },
+        "summary_zh": "一套严谨的研发全生命周期，始于对根本问题的定义，并强制要求在规模化之前，每个阶段都需通过明确的概念验证（POC）。该方法拒绝盲从行业惯例（如人工核查），除非其能通过问题分析的验证。",
+        "problemItSolves_zh": "避免基于假设或行业现状，构建高成本且无法规模化的解决方案。",
+        "whenToUse_zh": "在低信任、大规模的高风险环境中，从 0 到 1 打造产品。",
+        "commonMistakes_zh": "核心机制未验证即开始规模化；依赖用户无法验证的“黑盒”逻辑。",
+        "realWorldExample_zh": "团队首先利用静态原型（Static Mockups）测试 Community Notes 以验证需求，随后通过 MTurk 任务验证可行性，最后才着手构建线上试点版本（Live Pilot）。",
+        "principles_zh": [
+          "极致关注问题：全力聚焦解决核心痛点（如信息质量），而非单纯追求业务指标。",
+          "分阶段验证：产品必须在每个阶段（Mockup -> Pilot -> Scale）验证其价值假设。",
+          "第一性原理设计：若现有方案（如 Trust & Safety 团队）无法从根本上解决规模化与信任难题，则果断摒弃。",
+          "极致透明：通过开源代码和数据来构建信任，而非依赖品牌背书。"
+        ],
+        "name_zh": "Problem-First Workflow Analysis（问题优先工作流分析）"
       }
     ],
-    "filename": "Aishwarya Naresh Reganti + Kiriti Badam"
+    "filename": "Aishwarya Naresh Reganti + Kiriti Badam",
+    "episodeSummary_zh": "Keith Coleman 和 Jay Baxter 深入复盘了 Community Notes 的起源、设计原则及底层工程架构。他们揭示了一支小规模的“高能”团队，是如何通过动态目标设定和独特的“桥接算法”（bridging-based algorithm），构建出一套去中心化的事实核查系统，成功攻克了传统方法无法有效规模化的难题。本次对话涵盖了产品从 Birdwatch 时期的演变、算法开源产生的深远影响，以及支撑团队快速迭代的“持续校准”（Continuous Calibration）运营哲学。"
   },
   {
     "guest": {
       "name": "Albert Cheng",
       "title": "Head of Growth (formerly at Duolingo & Grammarly)",
       "company": "Chess.com",
-      "background": "Expert in consumer growth who led teams at Duolingo, Grammarly, and Chess.com. Former pianist with a background in engineering and product management at YouTube."
+      "background": "Expert in consumer growth who led teams at Duolingo, Grammarly, and Chess.com. Former pianist with a background in engineering and product management at YouTube.",
+      "background_zh": "C端增长专家，曾领导 Duolingo、Grammarly 和 Chess.com 团队。早年是钢琴家，拥有 YouTube 工程与产品管理的复合背景。"
     },
     "episodeSummary": "Albert Cheng discusses his growth philosophies honed at three major consumer subscription companies. He covers the Explore and Exploit framework for managing experimentation, the Gamification Triad for retention, and his unique approach to hiring high-agency talent. The conversation delves into practical tactics for monetization, the integration of AI in growth workflows, and the cultural shift required to scale experimentation from zero to 1,000 tests per year.",
     "methodologies": [
@@ -535,7 +590,18 @@
             "Saturation (Diminishing Returns)"
           ],
           "centerLabel": "Growth Momentum"
-        }
+        },
+        "summary_zh": "一种周期性的增长策略，通过在探索新机会（找对山头）与最大化其价值（攀登山峰）之间交替切换，以防止业务陷入停滞。",
+        "problemItSolves_zh": "避免团队过于发散（过度探索）或陷入局部最优（过度利用）。",
+        "whenToUse_zh": "在管理增长实验组合，或某个业务领域面临边际效益递减时。",
+        "commonMistakes_zh": "长期停留在“利用”模式导致增长饱和，或在“探索”时缺乏将成果规模化的策略。",
+        "realWorldExample_zh": "Chess.com 通过“探索”用户复盘棋局的动机（发现用户主要在获胜而非战败后复盘），进而“利用”这一洞察重构了产品流程，着重强化胜利时刻的庆祝感，最终将用户参与度提升了 25%。",
+        "principles_zh": [
+          "探索：运用发散思维挖掘新的增长杠杆或深度洞察（如用户心理）。",
+          "利用：通过收敛聚焦，将已验证的洞察在产品层面进行规模化放大与优化。",
+          "动态切换：识别边际收益递减（饱和）的拐点，并及时回归探索模式。"
+        ],
+        "name_zh": "Explore and Exploit Framework（探索与利用框架）"
       },
       {
         "name": "The Gamification Triad",
@@ -580,7 +646,18 @@
               ]
             }
           ]
-        }
+        },
+        "summary_zh": "源自 Jorge Mazal 的游戏化结构模型，由三大核心支柱构成；三者需协同作用，以驱动长期留存。",
+        "problemItSolves_zh": "确保短期行为与长期价值挂钩，使游戏化超越肤浅的徽章机制。",
+        "whenToUse_zh": "在设计或评估产品的留存机制与习惯回路时。",
+        "commonMistakes_zh": "仅聚焦核心循环而缺失长线元游戏机制，或缺乏价值沉淀感（如个人档案）。",
+        "realWorldExample_zh": "Duolingo 利用课程（Core）、学习路径/排行榜（Meta）以及连胜/虚拟形象（Profile），维持了长达数年的用户留存。",
+        "principles_zh": [
+          "**核心循环 (Core Loop)**：提供即时反馈的高频紧凑行为（如单节课程或单局游戏）。",
+          "**元游戏 (Metagame)**：提供方向指引的长线成长体系（如排行榜、通关路径）。",
+          "**个人档案 (Profile)**：用户身份与投入沉淀的载体（如数据统计、历史记录），旨在建立用户承诺。"
+        ],
+        "name_zh": "The Gamification Triad（游戏化铁三角）"
       },
       {
         "name": "High Agency 'Clock Speed' Hiring",
@@ -625,17 +702,31 @@
             "Deep Domain Expertise (if rigid)",
             "Years of Experience (if slow)"
           ]
-        }
+        },
+        "summary_zh": "一种招聘理念，主张在 AI 等高速迭代的行业中，优先看重候选人的主观能动性和学习速度等底层特质，而非深厚的领域经验。",
+        "problemItSolves_zh": "避免录用那些“履历光鲜”却过于刻板，无法适应快节奏或 AI 颠覆性环境的候选人。",
+        "whenToUse_zh": "适用于招聘增长型岗位、初创公司，或正处于重大技术变革期的行业。",
+        "commonMistakes_zh": "过度看重简历关键词或名企光环，而忽视了执行速度缓慢的问题。",
+        "realWorldExample_zh": "多邻国与传统科技大厂的招聘差异；寻找能够每年落地 1,000 次实验的执行者，而非仅追求完美规划的人。",
+        "principles_zh": [
+          "**能动性优于经验**：经验有时反而是一种依赖，阻碍候选人摒弃旧有的思维惯性。",
+          "**迭代速率**：候选人的学习与迭代速度，是预测其未来成功的核心指标。",
+          "**空杯心态**：具备有意识地摒弃既有习惯，以适应新范式的能力。",
+          "**气场与软信号**：将沟通风格和个人能量状态，作为评估过程中的关键数据点。"
+        ],
+        "name_zh": "High Agency 'Clock Speed' Hiring（高能动性“高转速”招聘）"
       }
     ],
-    "filename": "Albert Cheng"
+    "filename": "Albert Cheng",
+    "episodeSummary_zh": "Albert Cheng 分享了他在三家头部消费级订阅制公司磨练出的增长哲学。他详细拆解了用于管理实验的“探索与利用”框架、提升留存的“游戏化三要素”，以及招聘高能动性人才的独特方法。此外，对话还深入探讨了商业化变现的实战策略、AI 在增长工作流中的整合应用，以及如何通过文化变革实现实验规模从 0 到每年 1000 次的跨越。"
   },
   {
     "guest": {
       "name": "Alexander Embiricos",
       "title": "Product Lead for Codex",
       "company": "OpenAI",
-      "background": "Former startup founder (screen sharing/pair programming), PM at Dropbox"
+      "background": "Former startup founder (screen sharing/pair programming), PM at Dropbox",
+      "background_zh": "前创业公司创始人（屏幕共享/结对编程），Dropbox 产品经理"
     },
     "episodeSummary": "Alexander Embiricos explores the evolution of Codex from a code completion tool to a proactive 'Software Engineering Teammate'. He discusses the internal strategies OpenAI uses to build agents (The Three-Layer Agent Stack), the shift in developer workflows towards 'Vibe Coding' and 'Chatter-Driven Development', and shares case studies of massive acceleration, such as building the Sora Android app in under a month.",
     "methodologies": [
@@ -670,7 +761,19 @@
               "description": "Autonomous, signal-driven (monitors Slack/Logs), asynchronous execution, high trust delegation."
             }
           ]
-        }
+        },
+        "summary_zh": "这是一个关于 AI Agent 演进的概念模型，描述了其从「被动响应式工具」向「主动式合作伙伴」的转变。该模型不再将 AI 视为静态工具，而是将其定义为一位能够随着时间推移积累上下文、建立信任并逐步获得自主权的协作队友。",
+        "problemItSolves_zh": "突破 AI 作为被动工具需依赖持续指令输入的局限，旨在降低人类管理 AI 时的认知负荷。",
+        "whenToUse_zh": "在将 AI Agent 整合至团队工作流，或制定智能体（Agentic）产品开发路线图时。",
+        "commonMistakes_zh": "期望 Agent 在未通过上下文和规范进行“入职引导”的情况下就能立即独立运作；仅将其视为文本生成工具，而非具备执行力的行动主体。",
+        "realWorldExample_zh": "让 Codex 为其自身的训练任务 On-call，自主监控图表并修复配置错误。",
+        "principles_zh": [
+          "**类实习生管理**：像带新实习生一样对待 Agent —— 初期严格验收（Verify），随后建立信任。",
+          "**主动性**：Agent 最终应具备监测信号并无需指令（Prompts）即可自主行动的能力。",
+          "**上下文融合**：Agent 必须打通业务工具链（如 Datadog, Slack）才能真正发挥效能。",
+          "**信任演进**：从基于 Chat 的微观管理，向基于异步/后台运行的充分授权模式过渡。"
+        ],
+        "name_zh": "The Software Engineering Teammate（软件工程队友）"
       },
       {
         "name": "The Three-Layer Agent Stack",
@@ -703,7 +806,19 @@
               "description": "The foundation model (e.g., GPT-5.1-Codex-Max) providing reasoning and coding intelligence."
             }
           ]
-        }
+        },
+        "summary_zh": "这是一套构建高效 AI Agent 的框架，通过在模型智能、API 接口和产品封装这三个层级上协同创新来实现。成功的关键在于各层级的深度融合，而非简单地将模型视为黑盒。",
+        "problemItSolves_zh": "弥合模型原生能力与实际产品效用之间的脱节，确保模型具备可用性、上下文感知能力及持久性。",
+        "whenToUse_zh": "当构建 AI 产品或 Agent，且单纯依靠模型原生智能不足以解决用户问题时。",
+        "commonMistakes_zh": "仅优化模型而未适配 Harness/UI；误判通用 API 足以支撑长耗时任务等复杂的 Agent 行为。",
+        "realWorldExample_zh": "要实现“压缩”机制以支持 Codex 24 小时持续运行，需要模型具备摘要总结能力，API 负责处理交接，而 Harness 则需准备好数据载荷。",
+        "principles_zh": [
+          "全栈迭代：类似 'Compaction' 的功能，要求在模型、API 和 Harness 三层同步进行联动调整。",
+          "Harness 专属性：当模型针对特定环境（如 Shell/终端 vs 定制化工具）进行定向训练时，Agent 表现最佳。",
+          "反馈闭环：产品层（Harness）的实际使用数据必须形成回路，反哺模型训练。",
+          "安全沙箱：Harness 需为模型执行代码提供安全隔离的运行环境。"
+        ],
+        "name_zh": "The Three-Layer Agent Stack（三层智能体栈）"
       },
       {
         "name": "Vibe Coding & Chatter-Driven Development",
@@ -741,17 +856,32 @@
               "detail": "Validation, 'Swiping Right', and Deployment"
             }
           ]
-        }
+        },
+        "summary_zh": "一种全新的软件开发生命周期，它不再依赖正式的需求规格文档，而是基于“直觉”、聊天记录、社媒动态等非正式信号快速生成代码。该模式以速度和迭代为核心，利用 AI Agent（智能体）进行快速原型搭建与代码打磨。",
+        "problemItSolves_zh": "消除在探索性或快速响应任务中，由正式需求规格与人工编码构成的效率瓶颈。",
+        "whenToUse_zh": "适用于快速原型开发、内部工具搭建、实时响应 Bug 或问题，以及那些“体感”与速度优先于早期架构完美度的场景。",
+        "commonMistakes_zh": "未经严格评审便贸然应用于关键核心底层架构；跳过了将原型进行生产级加固的 \"Vibe Engineering\" 环节。",
+        "realWorldExample_zh": "Sora Android App 由一支小团队历时 18 天开发完成，利用 Codex 移植了 iOS 端的逻辑；设计师则通过 \"Vibe Coding\" 构建了一个动画编辑器，用于制作特定的动画效果。",
+        "principles_zh": [
+          "**信号优于文档**：直接利用现有的沟通语料（Slack、工单）作为 Prompts。",
+          "**Vibe Code 优先**：快速生成“用完即弃”的原型，以验证假设。",
+          "**工程落地在后**：将原型打磨为生产级代码，提交 PR。",
+          "**评审即交互**：人的角色从“手动编码”向“审核与筛选”迁移。",
+          "**代码泛在化**：万物皆可代码，涵盖临时动效或数据看板。"
+        ],
+        "name_zh": "Vibe Coding & Chatter-Driven Development（氛围式编程与对话驱动开发）"
       }
     ],
-    "filename": "Alex Hardimen"
+    "filename": "Alex Hardimen",
+    "episodeSummary_zh": "Alexander Embiricos 深度解析了 Codex 从单纯的代码补全工具向主动式“软件工程队友”的演进历程。他分享了 OpenAI 构建 Agent 的内部策略（三层 Agent 架构），探讨了开发者工作流向 \"Vibe Coding\" 和 \"Chatter-Driven Development\" 的范式转移，并复盘了研发效能大幅跃升的实战案例，包括如何在一个月内极速完成 Sora Android App 的开发。"
   },
   {
     "guest": {
       "name": "Alex Komoroske",
       "title": "Founder (Stealth Startup)",
       "company": "Formerly Stripe, Google",
-      "background": "Spent 13 years at Google leading Chrome's Open Web Platform and AR, served as Head of Corporate Strategy at Stripe. Known for 'Bits and Bobs' and applying complexity science to organizational management."
+      "background": "Spent 13 years at Google leading Chrome's Open Web Platform and AR, served as Head of Corporate Strategy at Stripe. Known for 'Bits and Bobs' and applying complexity science to organizational management.",
+      "background_zh": "深耕 Google 13 年，主导 Chrome 开放网络平台及 AR 业务；曾任 Stripe 企业战略负责人。以 'Bits and Bobs' 系列及其将复杂性科学应用于组织管理的理念著称。"
     },
     "episodeSummary": "Alex Komoroske joins Lenny to discuss the shift from industrial 'builder' mindsets to complexity-aware 'gardening' mindsets. He explores how Large Language Models (LLMs) act as 'magical duct tape,' how to navigate 'Organizational Kayfabe' (the shared illusions within companies), and how to generate emergent strategy through 'Nerd Clubs.' The conversation focuses on adapting to uncertainty, leveraging bottom-up emergence, and maintaining agency in large systems.",
     "methodologies": [
@@ -792,7 +922,19 @@
               "Community Gardening"
             ]
           }
-        }
+        },
+        "summary_zh": "从“建造者思维”（刚性规划、自上而下管控）向“园丁思维”（营造生长环境、培育生态系统）转变。该方法论主张播撒大量低成本的“种子”（创意/原型），并加注投资那些展现出内生增长势能（涌现）的项目。",
+        "problemItSolves_zh": "规避“建设者”式规划的风险，此类规划往往消耗大于产出，且难以适应复杂多变的环境。",
+        "whenToUse_zh": "当涉及生态系统、网络效应，或无法预知“标准答案”的高度不确定性环境时。",
+        "commonMistakes_zh": "期望每颗“种子”都能立即带来 ROI；试图强行催熟某颗特定的“种子”；未能提供“掩护火力”（即显性价值）来为实验保驾护航。",
+        "realWorldExample_zh": "开发一款开源工具；若有开发者使用，则追加投入。若无，试错成本极低（仅耗时数小时，而非数月）。",
+        "principles_zh": [
+          "投入 70% 的精力交付清晰可见却“枯燥”的显性价值，以此换取信任筹码。",
+          "用 30% 的时间播种具备复利效应的“橡子”（创新种子）。",
+          "避免主观预判胜负，转而敏锐捕捉自然增长的信号。",
+          "保护幼苗免受“松鼠”（组织内部的免疫排异）侵害。"
+        ],
+        "name_zh": "The Gardening Mindset（园艺思维）"
       },
       {
         "name": "Strategy Salons (Nerd Clubs)",
@@ -819,7 +961,19 @@
             "Escalate: Organize a live event (lunch) only when demand is high.",
             "Sustain: Send 'FOMO' notes to non-attendees to maintain momentum."
           ]
-        }
+        },
+        "summary_zh": "一种在复杂环境中构建严谨战略的方法论。它通过建立私密且低风险的社群（“极客俱乐部”），促使多元视角发生碰撞。该方法依托心理安全感，激发“Yes, and”式的建设性创意，最终汇聚成突破性战略。",
+        "problemItSolves_zh": "克服“委员会式设计”的失效模式，打破正式高管评审在处理模糊、复杂问题域时的局限性。",
+        "whenToUse_zh": "当需要为新领域制定战略，解决没有单一团队持有明确答案的跨职能难题，或是试图打破群体迷思时。",
+        "commonMistakes_zh": "邀请破坏氛围的“扫兴者”（批评家/愤世嫉俗者）；\n放任讨论冷场（陷入“死亡螺旋”）；\n强求特定产出，而非等待结果自然涌现。",
+        "realWorldExample_zh": "在 Google 组建 'Navel Gazers' 小组，从而避开高昂且对抗式的高管评审，实现 12 个不同团队的战略对齐。",
+        "principles_zh": [
+          "以一小群高能量的“晶种”成员为核心冷启动。",
+          "打造“隐秘”且“极客”的调性，筛选具备内驱力的成员。",
+          "贯彻 \"Yes, And\" 准则；对无效想法予以忽略而非批判。",
+          "随时间推移逐步引入多元视角（新奇性探索）。"
+        ],
+        "name_zh": "Strategy Salons (Nerd Clubs)（战略沙龙（极客俱乐部））"
       },
       {
         "name": "Navigating Organizational Kayfabe",
@@ -850,17 +1004,31 @@
             "Don't: Become cynical or disengage",
             "Don't: Assume leaders are bad actors; they are trapped in the same system"
           ]
-        }
+        },
+        "summary_zh": "这是一套旨在帮助你在大型组织中生存并发挥影响力的**框架**。其核心在于通过承认 'Kayfabe'（即组织内共识性的虚假现实/盲目乐观），避免自己沦为行尸走肉或无谓的殉道者。这需要保持“双重思维”——在对外完美演绎组织要求的人设的同时，内心始终坚守客观真相。",
+        "problemItSolves_zh": "防止职业倦怠和“烈士式”牺牲（因直言真相而被开除），同时避免陷入全员信奉虚假叙事的“僵尸组织”状态。",
+        "whenToUse_zh": "当你发现既定战略注定失败，但高层尚未准备好接受现实时；在大型层级组织中应对进度汇报。",
+        "commonMistakes_zh": "陷入犬儒主义（彻底躺平）；不合时宜地充当“激进直言者”（惨遭阻击）；错把“剧本”当现实（沦为行尸走肉）。",
+        "realWorldExample_zh": "项目状态本是 Yellow，却被汇报为 Green，理由是认为在领导过目之前能解决；这种操作经过 5 个层级的层层叠加，最终导致高层认知与现实彻底脱节。",
+        "principles_zh": [
+          "承认“组织假象”（盲目乐观或善意谎言）是大型组织的润滑剂。",
+          "意识到按下“真相按钮”（揭穿谎言）会触发组织的免疫防御机制。",
+          "保持“双重思维”：行为上配合“演出”，决策时基于现实。",
+          "温和地“助推”系统，而非直接打破幻象。"
+        ],
+        "name_zh": "Navigating Organizational Kayfabe（驾驭组织幻象）"
       }
     ],
-    "filename": "Alex Komoroske"
+    "filename": "Alex Komoroske",
+    "episodeSummary_zh": "Alex Komoroske 做客 Lenny 的节目，深入探讨了思维模式的转变：从工业时代的“建造者”思维，转向具备复杂性认知的“园丁”思维。他探讨了 LLM 如何充当“神奇胶带”，如何应对“组织剧场效应”（Organizational Kayfabe，即公司内部的共同幻觉），以及如何通过“极客社群”催生涌现式战略。本次对话重点聚焦于适应不确定性、撬动自下而上的涌现力量，以及如何在庞大的系统中保持个体能动性。"
   },
   {
     "guest": {
       "name": "Alexander Embiricos",
       "title": "Product Lead for Codex",
       "company": "OpenAI",
-      "background": "Former startup founder (screen sharing/pair programming), former PM at Dropbox. Now leads the product team for OpenAI's coding agent, Codex."
+      "background": "Former startup founder (screen sharing/pair programming), former PM at Dropbox. Now leads the product team for OpenAI's coding agent, Codex.",
+      "background_zh": "前创业公司创始人（屏幕共享/结对编程方向），前 Dropbox 产品经理。现任 OpenAI 编程智能体 Codex 产品负责人。"
     },
     "episodeSummary": "Alexander Embiricos discusses the evolution of Codex from a code completion tool to a proactive software engineering 'teammate.' He explores OpenAI's unique 'empirical bottoms-up' product culture, the massive acceleration of internal development (building Sora's app in 28 days), and the future of agentic workflows where AI proactively acts on team chatter and signals.",
     "methodologies": [
@@ -895,7 +1063,19 @@
               "description": "Full lifecycle ownership. Monitors streams (Chatter/Metrics). Proactively initiates work. 'Default Helpful'."
             }
           ]
-        }
+        },
+        "summary_zh": "该框架旨在推动 AI 智能体从单纯的工具向自主型合作伙伴演进。其核心主张是：真正的“AI 队友”必须超越基础的代码生成，深度参与软件研发的全生命周期——涵盖创意构思、规划设计、验证测试及后期维护——并具备在无需显式指令下主动采取行动的能力。",
+        "problemItSolves_zh": "消除人工发起 Prompting 的交互摩擦与上下文切换的认知负荷，推动 AI 从「被动工具」向「主动效能倍增器」跃迁。",
+        "whenToUse_zh": "当设计 Agent 工作流，或评估开发环境中 AI 集成的成熟度时。",
+        "commonMistakes_zh": "将 Agent 视为“黑盒”代码生成器，未赋予其访问验证工具（测试/构建）的权限或提供环境上下文。",
+        "realWorldExample_zh": "Codex 为自身的模型训练任务承担 On-call 值班职责，实时监控指标图表，并在零人工干预的情况下自主修复配置错误。",
+        "principles_zh": [
+          "**从工具进阶为实习生**：起步阶段将其定位为“高潜实习生”，初期虽缺乏上下文（如 Slack/Datadog 访问权限）且需人工监督，但具备成长潜力。",
+          "**全域上下文融合**：Agent 必须深度接入完整的开发环境（Runtime、日志、沟通记录），才能实现真正的自主闭环。",
+          "**默认主动（Proactivity by Default）**：从被动的“指令驱动（Prompt-to-Patch）”模式转型，打造能实时监控系统并主动提出修复方案的自驱型 Agent。",
+          "**全生命周期覆盖**：Agent 深度参与从需求规划（Specs）、代码编写、Code Review 到上线部署的研发全流程。"
+        ],
+        "name_zh": "The 'Teammate' Agent Model（“队友”智能体模型）"
       },
       {
         "name": "Empirical Bottoms-Up Development",
@@ -920,7 +1100,19 @@
             "Empirical Learning (Feedback Analysis)",
             "Pivot or Scale (Rapid Iteration)"
           ]
-        }
+        },
+        "summary_zh": "一种优先采用快速原型（'vibe coding'）和内部“吃狗粮”策略，而非拘泥于僵化长期规划的产品开发理念。它深刻认识到：在 AI 时代，技术能力的更迭速度极快，传统的“先瞄准后开枪”式路线图已不再适用。",
+        "problemItSolves_zh": "避免对不适配随机模型的功能进行过度设计，缩短创新 AI 能力的落地周期。",
+        "whenToUse_zh": "基于快速演进的基础设施（如 LLMs）构建产品，且用户行为呈现涌现性及不可预测性时。",
+        "commonMistakes_zh": "在“预备、瞄准”（即打磨战略 PPT）上消耗过多时间，而在“开火”（即上线发布与验证）上投入不足；或者生搬硬套，误以为传统的 PM 框架能直接复用于 AI 领域。",
+        "realWorldExample_zh": "Sora Android App 由一个微型团队历时 18 天构建完成，通过 Codex 移植 iOS 端逻辑，并在 10 天后正式对外发布。",
+        "principles_zh": [
+          "先开火，后瞄准：立即构建原型验证可行性，拒绝在撰写需求文档上空耗数月。",
+          "极致“吃狗粮”：在公司内部运营中高强度使用自家产品（如构建 Atlas 或 Sora 应用），以此挖掘最真实的体验痛点。",
+          "宏观模糊，微观犀利：对 1 年期愿景保持适度模糊，但基于实效反馈，在周维度上进行极度务实的战术执行。",
+          "Vibe Coding（AI 灵感编程）：在工程资源正式投入前，由设计师和产品经理利用 AI 快速编写“用完即扔”的原型以验证创意。"
+        ],
+        "name_zh": "Empirical Bottoms-Up Development（实证式自下而上开发）"
       },
       {
         "name": "Chatter-Driven Development",
@@ -945,17 +1137,31 @@
             "Proactive Artifact Generation (Code/PR/Answer)",
             "Human Verification (Swipe/Merge)"
           ]
-        }
+        },
+        "summary_zh": "一种面向未来的开发范式，AI Agent 通过监测非结构化的团队沟通（如 Slack、Linear、会议实录）来推断意图，并在无需正式规格说明的情况下，主动生成代码或解决问题。",
+        "problemItSolves_zh": "消除将业务意图转化为技术规格的瓶颈，降低启动 AI 任务的阻力。",
+        "whenToUse_zh": "适用于需要借助“无处不在的代码”进行即席分析、Bug 修复或快速原型开发的高信任度环境。",
+        "commonMistakes_zh": "误以为 Agent 必须依赖正式的 Spec 文档才能发挥价值，而非训练其去解析团队自然的讨论内容。",
+        "realWorldExample_zh": "Block 的工程师利用 “Goose” 捕捉会议内容并主动起草 PR 或邮件；OpenAI 团队利用 Codex 直接在 Slack 中响应数据查询。",
+        "principles_zh": [
+          "**全域监听**：Agent 作为被动观察者，接入 Slack、邮件及会议等所有沟通场域。",
+          "**语境推断**：Agent 解析非结构化的“碎片化讨论”，从中识别 Bug、功能需求或疑问。",
+          "**主动执行**：无需等待显性指令，Agent 即可预先起草 PR、响应咨询或运行分析。",
+          "**低摩擦评审**：人工通过极简交互（如“右滑”）即可批准工作，替代深度的代码评审。"
+        ],
+        "name_zh": "Chatter-Driven Development（对话驱动开发）"
       }
     ],
-    "filename": "Alexander Embiricos"
+    "filename": "Alexander Embiricos",
+    "episodeSummary_zh": "Alexander Embiricos 探讨了 Codex 如何从单纯的代码补全工具，演进为主动式软件工程“队友”。他深度解析了 OpenAI 独特的“实证驱动、自下而上”的产品文化，内部研发效能的极致提升（仅用 28 天便构建出 Sora 应用），并展望了智能体工作流（Agentic Workflows）的未来——即 AI 能够基于团队沟通内容与各类信号，主动采取行动。"
   },
   {
     "guest": {
       "name": "Alisa Cohn",
       "title": "Executive Coach & Author",
       "company": "Alisa Cohn Coaching",
-      "background": "Named the Top Startup Coach in the World at the Thinkers50 Marshall Goldsmith Coaching Awards. Author of 'From Start-Up to Grown-Up'. Coach to leaders at Etsy, Venmo, DraftKings, and The New York Times."
+      "background": "Named the Top Startup Coach in the World at the Thinkers50 Marshall Goldsmith Coaching Awards. Author of 'From Start-Up to Grown-Up'. Coach to leaders at Etsy, Venmo, DraftKings, and The New York Times.",
+      "background_zh": "荣获 Thinkers50 Marshall Goldsmith 教练大奖评选的“全球顶级创业教练”称号。著有《From Start-Up to Grown-Up》一书。担任 Etsy、Venmo、DraftKings 及《纽约时报》等多家知名企业的高管教练。"
     },
     "episodeSummary": "Executive coach Alisa Cohn breaks down the specific scripts and frameworks for handling the hardest parts of leadership: having delicate conversations, firing employees, aligning with co-founders, and running effective meetings. She emphasizes that a leader's job is to drive results rather than make employees happy.",
     "methodologies": [
@@ -985,7 +1191,19 @@
             "Culture Definition: Results-driven vs. Family-feel?",
             "Operating Style: Communication preferences and pet peeves."
           ]
-        }
+        },
+        "summary_zh": "一套供联合创始人在创业启动前（或定期回顾时）进行对齐的关键议题清单，旨在规避 65% 因联合创始人冲突而导致的创业失败。",
+        "problemItSolves_zh": "预防联合创始人决裂及恶性错位，避免这些隐患在发展后期摧毁创业公司。",
+        "whenToUse_zh": "在签署公司注册文件前、引入新联合创始人时，或作为年度合伙关系体检。",
+        "commonMistakes_zh": "仅凭私交就预设双方完全对齐；因碍于情面或觉得“太伤感情”而回避关键对话。",
+        "realWorldExample_zh": "两位联合创始人意识到时为时已晚：一方渴望追求巨大的创投回报，另一方却只想做一家叫得上所有员工名字的“小而美”公司，最终导致了痛苦的分道扬镳。",
+        "principles_zh": [
+          "明确核心价值观（如：追求卓越 vs. 工作生活平衡）。",
+          "定义成功愿景（如：谋求 IPO vs. 经营小而美的生意）。",
+          "在冲突发生前，预设争议解决机制。",
+          "确立决策层级（明确当意见相左时，由谁拥有最终拍板权）。"
+        ],
+        "name_zh": "The Founder Prenup（创始人“婚前协议”）"
       },
       {
         "name": "Delicate Conversation Scripts",
@@ -1013,7 +1231,19 @@
             "5. The Pause: Check for reaction/defensiveness.",
             "6. The Future: 'I want to help you succeed by [Next Steps]...'"
           ]
-        }
+        },
+        "summary_zh": "一套用于传达棘手反馈（如绩效问题、辞退、晋升驳回）的结构化框架。其核心在于基于可观察的事实而非主观评判，从而降低防御心理并明确预期。",
+        "problemItSolves_zh": "管理者因害怕得罪员工而回避必要反馈，导致平庸蔓延，最终造成令人措手不及的解雇。",
+        "whenToUse_zh": "绩效面谈、纠正行为偏差、拒绝晋升或辞退。",
+        "commonMistakes_zh": "为了当“老好人”而表述模糊，针对个人性格而非具体行为，或在面对员工情绪波动时退缩。",
+        "realWorldExample_zh": "主管告知下属因技能短板未获晋升，但将沟通重点重构为“协助其储备未来发展的关键能力”，从而在传达决策的同时维系了良好的职场关系。",
+        "principles_zh": [
+          "基于可观测的事实与数据，而非主观评判或直觉感受。",
+          "将反馈与员工的职业发展目标或公司业务成果挂钩。",
+          "管理好自身心态：沟通的初衷是帮助对方改进，而非情绪宣泄。",
+          "做好应对情绪反应（如防御心态或哭泣）的准备，并坚守原则底线。"
+        ],
+        "name_zh": "Delicate Conversation Scripts（高难度沟通话术）"
       },
       {
         "name": "The Meeting Closing Ritual",
@@ -1038,17 +1268,31 @@
             "Question 2: Who needs to do what by when? (Assign Accountability)",
             "Question 3: Who else needs to know? (Communication Cascade)"
           ]
-        }
+        },
+        "summary_zh": "在每次会议结束前必问的三个具体问题，旨在确保认知对齐、责任落实以及信息同步顺畅。",
+        "problemItSolves_zh": "“会议宿醉”：由于缺乏明确的决策或行动项记录，导致人们不得不针对同一议题反复开会。",
+        "whenToUse_zh": "每次高管或团队会议的最后 5-10 分钟。",
+        "commonMistakes_zh": "会议讨论直至最后一秒，跳过收尾总结；默认所有参会者的理解已完全一致。",
+        "realWorldExample_zh": "高管团队轮流回答“我们做出了什么决策”，结果发现竟然有六种不同的答案，这迫使他们在散会前必须先对齐共识。",
+        "principles_zh": [
+          "若不即时对齐共识，会议便毫无价值。",
+          "参会者往往对会议结论存在认知偏差。",
+          "决策必须同步给未参会的相关方。",
+          "明确具体的责任人和截止日期是不可妥协的底线。"
+        ],
+        "name_zh": "The Meeting Closing Ritual（会议收尾仪式）"
       }
     ],
-    "filename": "Alisa Cohn"
+    "filename": "Alisa Cohn",
+    "episodeSummary_zh": "高管教练 Alisa Cohn 深度拆解了应对领导力最棘手挑战的具体话术与框架，包括：如何进行高难度对话、解雇员工、与联合创始人对齐以及主持高效会议。她强调，领导者的核心职责是驱动结果，而非取悦员工。"
   },
   {
     "guest": {
       "name": "Ami Vora",
       "title": "Chief Product Officer",
       "company": "Faire",
-      "background": "Former VP at Meta (Facebook, WhatsApp, Instagram)"
+      "background": "Former VP at Meta (Facebook, WhatsApp, Instagram)",
+      "background_zh": "前 Meta 副总裁（Facebook、WhatsApp、Instagram）"
     },
     "episodeSummary": "Ami Vora shares insights on high-impact product leadership, covering strategies for effective product reviews, the power of metaphors in product alignment, and how to set distinct goals to prevent teams from overlapping. She emphasizes execution over strategy and the importance of 'fascinating' curiosity during disagreements.",
     "methodologies": [
@@ -1075,7 +1319,19 @@
             "Base: The PM - Role: Deep Analysis, Data Synthesis & Recommendation."
           ],
           "label": "Hierarchy of Information Density"
-        }
+        },
+        "summary_zh": "一套面向高管汇报的框架，其核心假设是高管接收新细节的认知带宽有限（即“雷龙脑”），一次只能吸收三个关键事实。该方法旨在避免单纯的信息堆砌，转而输出清晰的决策建议。",
+        "problemItSolves_zh": "高管不堪重负，决策停滞，产品评审沦为数据审查而非战略对齐。",
+        "whenToUse_zh": "准备向高层领导进行产品评审，或向缺乏背景信息的利益相关方汇报复杂数据。",
+        "commonMistakes_zh": "- 罗列所有工作细节或数据只为自证苦劳；\n- 指望高管替你提炼数据洞察；\n- 缺乏鲜明的观点或主张。",
+        "realWorldExample_zh": "汇报产品变更时，与其堆砌 10 张图表，不如提出 1 个建议并辅以 3 个关键事实，以便管理者在必要时补充上下文。",
+        "principles_zh": [
+          "高管单次只能接收约 3 个关键事实。",
+          "PM 负责给出决策建议，管理者负责把控上下文背景。",
+          "拒绝堆砌数据；做好归档备查，汇报时仅呈现结论。",
+          "利用评审机会校准决策原则，而非仅敲定单点决策。"
+        ],
+        "name_zh": "The Dinosaur Brain Approach to Product Reviews（“恐龙脑”产品评审法）"
       },
       {
         "name": "Metaphor-Driven Product Alignment",
@@ -1113,7 +1369,19 @@
               "concept": "Instant connection, High reliability (like voice)"
             }
           ]
-        }
+        },
+        "summary_zh": "通过极具感染力的意象和情感隐喻，帮助团队在产品的“体感”层面实现对齐。当具体需求尚未定义清晰时，这种叙事逻辑将作为设计师和工程师进行决策的启发式指引。",
+        "problemItSolves_zh": "产品体验割裂，设计风格“眼花缭乱”或“冷漠刻板”，以及不得不对细枝末节进行的微观管理。",
+        "whenToUse_zh": "启动新功能、定义产品的北极星指标，或拉齐跨职能团队（设计、研发、产品）对产品调性的共识。",
+        "commonMistakes_zh": "用抽象的商业目标替代了情感化隐喻；选用的隐喻无法映射到预期的用户体验。",
+        "realWorldExample_zh": "WhatsApp 将“面对面沟通”确立为核心隐喻（具体场景类比为“在自家客厅共处”）。这一理念主导了后续的功能设计，例如支持“随进随出”的轻量级通话机制，以及营造私密、即兴的互动氛围。",
+        "principles_zh": [
+          "定义产品意图传递给用户的核心感受。",
+          "锚定一个能唤起该情感共鸣的现实世界场景（例如“多洛雷斯公园”）。",
+          "利用该隐喻指导产品的微观决策（如图标体系、文案风格、响应延迟）。",
+          "产品叙事重于功能规格。"
+        ],
+        "name_zh": "Metaphor-Driven Product Alignment（隐喻驱动的产品对齐）"
       },
       {
         "name": "Anti-Toddler Soccer Goal Setting",
@@ -1151,17 +1419,31 @@
               "metric": "Site Latency / Uptime"
             }
           ]
-        }
+        },
+        "summary_zh": "旨在避免所有团队盲目追逐同一个顶层指标（即“幼儿足球效应”，所有人一窝蜂抢同一个球）的策略。该方法主张拆解出差异化且互不重叠的目标，向上对齐并支撑核心成果，确保业务的“全场”关键领域均得到有效覆盖。",
+        "problemItSolves_zh": "资源争夺\n团队相互踩踏\n产品覆盖盲区\n具体投入缺乏权责归属",
+        "whenToUse_zh": "大型产品组织内多团队的组织架构设计、季度规划及 OKR 制定。",
+        "commonMistakes_zh": "直接要求所有团队背负“营收增长”指标；泳道划分过窄，导致无法对用户旅程产生实质影响。",
+        "realWorldExample_zh": "不再让所有团队都紧盯 GMV，而是让 A 团队聚焦「新用户转化」，B 团队负责「留存/复购率」，C 团队主攻分场景的「客单价」。",
+        "principles_zh": [
+          "避免让全员背负同一个顶层指标（如 GMV）。",
+          "全盘布局：为不同团队分配差异化的输入指标。",
+          "厘清激励机制，避免团队之间相互踩踏与内耗。",
+          "确保个人目标在数学或逻辑上能够向上对齐至公司目标。"
+        ],
+        "name_zh": "Anti-Toddler Soccer Goal Setting（反“幼儿足球”式目标设定）"
       }
     ],
-    "filename": "Ami Vora"
+    "filename": "Ami Vora",
+    "episodeSummary_zh": "Ami Vora 分享了关于高影响力产品领导力的见解，内容涵盖高效产品评审的策略、利用隐喻促进产品对齐，以及如何设定差异化目标以避免团队重叠。她强调执行重于战略，并指出在面对分歧时，保持一种“饶有兴致”的好奇心至关重要。"
   },
   {
     "guest": {
       "name": "Amjad Masad",
       "title": "Co-founder & CEO",
       "company": "Replit",
-      "background": "Software engineer and entrepreneur who founded Replit, an AI-powered software development platform. Previously worked at Facebook and Codecademy, focusing on making programming more accessible."
+      "background": "Software engineer and entrepreneur who founded Replit, an AI-powered software development platform. Previously worked at Facebook and Codecademy, focusing on making programming more accessible.",
+      "background_zh": "软件工程师、创业者，AI 驱动的软件开发平台 Replit 创始人。曾任职于 Facebook 和 Codecademy，致力于降低编程门槛，推动编程普及。"
     },
     "episodeSummary": "Amjad Masad joins Lenny to demonstrate Replit's AI Agent, capable of building full-stack applications from simple prompts. They discuss the democratization of software creation, the emergence of AI Computer Interfaces (ACI), and the shifting role of Product Managers from specification-writers to 'Generative' creators who prototype ideas directly. Amjad argues that as execution costs plummet, the primary bottleneck moves from engineering capacity to idea generation.",
     "methodologies": [
@@ -1188,7 +1470,19 @@
           ],
           "result": "Exponential Product Leverage",
           "operator": "Compound Interaction"
-        }
+        },
+        "summary_zh": "该经验法则指出，掌握基础编程技能的投入产出比（ROI）正以每六个月翻倍的速度增长。随着 AI 模型能力的不断进化，只需具备极少量的技术储备（如调试、代码阅读、Prompting），就能赋予用户指数级的效能提升与资源撬动能力。",
+        "problemItSolves_zh": "非技术背景创始人或 PM 对学习编程的迟疑，担心需要经年累月的学习才能产生实际价值。",
+        "whenToUse_zh": "在此类场景下适用：在决策技术培训的投入力度，或提升产品团队技术素养时。",
+        "commonMistakes_zh": "优先死磕传统 CS 课程（如 Git、算法）而忽视 AI 原生工作流；误以为 AI 会淘汰编程技能，而非意识到编程能力将因此具备更强的撬动效应。",
+        "realWorldExample_zh": "产品经理掌握基础 SQL 和 Python 技能，自行修复 AI Agent 生成的数据库迁移报错，从而无需依赖工程师即可独立发布原型。",
+        "principles_zh": [
+          "优先掌握代码的基础结构逻辑，而非深究具体语法细节。",
+          "聚焦于代码调试与阅读能力，而非从零开始手写代码。",
+          "将 AI 视为效能倍增器：1 份技能 × AI = 100 倍产出。",
+          "紧跟模型演进，每半年迭代一次工具栈与 Prompting 技巧。"
+        ],
+        "name_zh": "Amjad's Law of Coding ROI（Amjad 编程 ROI 定律）"
       },
       {
         "name": "The Generative Product Manager",
@@ -1214,7 +1508,19 @@
             "Siloed Roles → Hybrid Creators",
             "Management → Generation"
           ]
-        }
+        },
+        "summary_zh": "这是一场由 AI 工具驱动的产品经理角色范式转移。随着软件研发成本趋近于零，核心瓶颈正从工程实现转向创意构想。产品经理必须完成职能转型：从传统的撰写 PRD 和管理需求池，转向直接生成可用原型，并基于实际运行的软件进行快速迭代。",
+        "problemItSolves_zh": "产品经理、设计师与工程师之间的“传声筒游戏”及低带宽沟通（文字/文档）",
+        "whenToUse_zh": "搭建现代化产品团队，或定义未来 PM 招聘所需的能力模型时。",
+        "commonMistakes_zh": "死守僵化的产品路线图；单纯依赖文档式交接；未能利用 AI 构建产品的 v0 版本。",
+        "realWorldExample_zh": "CEO 利用 Replit Agent 仅需数分钟即可搭建功能需求仪表盘，省去了以往耗费数日撰写规格文档和进行设计评审的过程。",
+        "principles_zh": [
+          "转移瓶颈焦点：从关注“技术能否实现”转向关注“产品价值判断”。",
+          "提升产出频次：快速验证更多产品构想。",
+          "原型优于文档：直接交付可运行的 React 代码或 Live Apps，而非仅提供 Figma 设计稿。",
+          "跨界融合能力：打破设计、产品与工程研发之间的专业壁垒。"
+        ],
+        "name_zh": "The Generative Product Manager（生成式产品经理）"
       },
       {
         "name": "AI Computer Interfaces (ACI)",
@@ -1239,17 +1545,31 @@
             "Infrastructure Layer (Multiplayer/File System)",
             "ACI Tooling (Editor, Terminal, Browser Interfaces)"
           ]
-        }
+        },
+        "summary_zh": "这是一门与人机交互 (HCI) 并行的新兴学科，专注于为 LLM 设计专属的交互界面。鉴于 LLM 本质上属于“外星物种”，它们需要一套特定的工具栈（例如纯文本编辑器、结构化错误日志、API 访问权限），才能与计算环境进行高效交互。",
+        "problemItSolves_zh": "AI Agent 在使用人类交互界面（如基于视觉识别点击按钮）或缺乏反馈闭环时表现出的不可靠性。",
+        "whenToUse_zh": "用于构建智能体工作流，或深入解析 Replit Agent 的底层运行机制。",
+        "commonMistakes_zh": "将 AI 视为依赖 GUI 的人类用户；限制 AI 对运行时环境的访问权限。",
+        "realWorldExample_zh": "Replit 为 AI 提供了安装 Linux 软件包和编辑代码的专用“工具”，并将执行结果以文本日志形式呈现，而非展示可视化的终端界面。",
+        "principles_zh": [
+          "提供 UI/状态的文本化表征（相比像素，LLM 更擅长处理文本信息）。",
+          "通过 API 开放独立工具能力（如代码编辑器、终端、浏览器）。",
+          "构建反馈闭环（运行代码 → 识别报错 → 修复代码）。",
+          "分层抽象：屏蔽底层 OS 复杂细节，同时保留控制权。"
+        ],
+        "name_zh": "AI Computer Interfaces (ACI)（AI 计算机接口 (ACI)）"
       }
     ],
-    "filename": "Amjad Masad"
+    "filename": "Amjad Masad",
+    "episodeSummary_zh": "Amjad Masad 做客 Lenny 的节目，现场演示了 Replit 的 AI Agent，它仅凭简单的 Prompt 即可构建全栈应用。双方探讨了软件开发的平民化、AI 计算机接口 (ACI) 的兴起，以及产品经理角色的转型——从传统的“文档撰写者”进化为能直接制作原型的“生成式”创作者。Amjad 指出，随着执行成本骤降，核心瓶颈已从工程研发能力转移至创意的生成。"
   },
   {
     "guest": {
       "name": "Andrew Wilkinson",
       "title": "Co-founder and CEO",
       "company": "Tiny",
-      "background": "Co-founder of Metalab and Tiny (often called the Berkshire Hathaway of the internet), which owns over 40 profitable businesses including Dribble, AeroPress, and Letterboxd."
+      "background": "Co-founder of Metalab and Tiny (often called the Berkshire Hathaway of the internet), which owns over 40 profitable businesses including Dribble, AeroPress, and Letterboxd.",
+      "background_zh": "Metalab 和 Tiny 联合创始人（Tiny 常被誉为“互联网界的伯克希尔·哈撒韦”），旗下拥有包括 Dribble、AeroPress 和 Letterboxd 在内的 40 多家盈利企业。"
     },
     "episodeSummary": "Andrew Wilkinson discusses his journey from barista to building a holding company worth hundreds of millions. He shares frameworks for selecting startup ideas by avoiding hyper-competitive markets, his philosophy on 'lazy leadership' to scale businesses without burnout, and the specific criteria Tiny uses to acquire 'un-mess-up-able' companies. He also dives into the impact of AI on knowledge work and his personal journey with wealth, happiness, and mental health.",
     "methodologies": [
@@ -1293,7 +1613,18 @@
               "description": "Low Fish / High Fishermen (Bad Business Models)"
             }
           ]
-        }
+        },
+        "summary_zh": "源自查理·芒格的战略思想，建议创业者避开竞争白热化的“拥挤池塘”，转而寻找需求旺盛但竞争稀缺的细分赛道（即“林中池塘”）。",
+        "problemItSolves_zh": "避免首次创业者因进入饱和市场而折戟，在这些市场中，激烈的竞争会将利润空间挤压殆尽。",
+        "whenToUse_zh": "处于初创企业的创意构思阶段，或商业模式转型期间。",
+        "commonMistakes_zh": "在一个前人屡屡折戟的市场中，盲目认为“我能做得更好”（例如：毫无经验却去开餐馆或酒吧）。",
+        "realWorldExample_zh": "Andrew 的朋友选择做餐厅隔油池清理生意（高需求、低竞争），而非直接开餐厅（高竞争、低毛利）。",
+        "principles_zh": [
+          "避免“健身房”心态：切忌起步阶段就试图硬拉 300 磅（直接正面硬刚行业巨头）。",
+          "忽略“酷”因素：相比咖啡馆、AI 等“酷”赛道，害虫防治、政府填表这类“枯燥”业务往往拥有更优的供需竞争比。",
+          "寻找“不公平优势”：切入那些能充分撬动你独特技能或资产的领域，建立起步优势。"
+        ],
+        "name_zh": "Fish Where the Fish Are（择地而渔）"
       },
       {
         "name": "Lazy Leadership",
@@ -1318,7 +1649,19 @@
             "Phase 3: Delegate (Hire for the 'grind' tasks)",
             "Phase 4: The Business (Founder focuses only on 'Superpower' areas)"
           ]
-        }
+        },
+        "summary_zh": "一种致力于成为“任务绝缘体”的管理哲学。其目标是极力从具体执行事务中抽身，将一份单纯的“工作”转化为可规模化的“事业”。",
+        "problemItSolves_zh": "防止创始人倦怠，避免陷入“只是给自己创造了一份工作，而非构建一项资产”的陷阱。",
+        "whenToUse_zh": "当独立创业项目初具规模，创始人开始疲于应对繁杂的履约交付工作时。",
+        "commonMistakes_zh": "固守“新教工作伦理”，创始人误以为只有亲自下场干脏活累活，才能确立自身价值的正当性。",
+        "realWorldExample_zh": "一家高压清洗公司案例：创始人起初亲自下场清洗车道，一旦日均销售线索达到 10 条，立即雇佣专人负责清洗交付，自己则完全聚焦于销售。",
+        "principles_zh": [
+          "识别“苦活”：找出那些你厌恶或低撬动率（Low-leverage）的任务。",
+          "规模化放权：将营收增长至足以雇人处理机械性劳动的水平。",
+          "打造“不粘”体质：确保任务能从你身上滑落，并落实到员工或系统上。",
+          "聚焦“超能力”：只做你热爱且高价值的工作（如销售/市场）。"
+        ],
+        "name_zh": "Lazy Leadership（懒人领导力）"
       },
       {
         "name": "The Tiny Acquisition Moat",
@@ -1352,17 +1695,31 @@
               "description": "Painful to leave, though less consumer-friendly (e.g., Salesforce)"
             }
           ]
-        }
+        },
+        "summary_zh": "Tiny 用于筛选具备长期韧性且“难以搞砸”的业务的标准。他们寻找的是结构性优势，旨在保护业务免受竞争对手侵蚀及管理失误的影响。",
+        "problemItSolves_zh": "通过剔除那些严重依赖特定明星创始人或完美执行力的脆弱业务，降低投资风险。",
+        "whenToUse_zh": "在评估收购标的，或研判初创企业的长期生存能力时。",
+        "commonMistakes_zh": "基于“潜力”去收购一家亟待业务重组（Turnaround）的公司，或者收购一家虽然切换成本高但用户极度反感的公司（长期来看，这种护城河不堪一击）。",
+        "realWorldExample_zh": "Letterboxd（网络效应护城河：用户因社交关系链和历史数据沉淀而难以迁移）vs. 普通代理机构（无护城河：切换成本极低）。",
+        "principles_zh": [
+          "极简性：业务模式不应依赖“天才级”的管理能力才能维持生存。",
+          "定价权：具备在不流失客户的前提下提升价格的能力。",
+          "用户粘性：构建高迁移成本，建立用户流失壁垒。",
+          "规避复杂：避免涉足那些靠“缝缝补补”勉强支撑的脆弱业务。"
+        ],
+        "name_zh": "The Tiny Acquisition Moat（微型获客护城河）"
       }
     ],
-    "filename": "Andrew Wilkinson"
+    "filename": "Andrew Wilkinson",
+    "episodeSummary_zh": "Andrew Wilkinson 讲述了他从咖啡师起步，最终打造出一家估值数亿美金控股公司的创业历程。他分享了通过避开红海市场来筛选创业方向的决策框架，阐述了如何在避免职业倦怠的前提下利用“懒人领导力”实现业务规模化，并详细披露了 Tiny 控股用于收购那些“几乎不可能搞砸”的公司的具体标准。此外，他还深度剖析了 AI 对知识型工作的影响，并坦诚分享了关于财富、幸福感及心理健康的心路历程。"
   },
   {
     "guest": {
       "name": "Andy Johns",
       "title": "Mental Health Advocate & Former VP of Growth/Product",
       "company": "Clues.Life (formerly Wealthfront, Facebook, Twitter)",
-      "background": "A legendary product and growth leader who spent 17 years at top startups before stepping away from a lucrative VC and executive career to focus on mental health advocacy and healing for high achievers."
+      "background": "A legendary product and growth leader who spent 17 years at top startups before stepping away from a lucrative VC and executive career to focus on mental health advocacy and healing for high achievers.",
+      "background_zh": "一位深耕顶级初创企业 17 载的传奇产品与增长领军人物。他放弃了高回报的风投及高管生涯，转而致力于高绩效人群的心理健康倡导与疗愈。"
     },
     "episodeSummary": "In this deeply personal episode, Andy Johns opens up about the severe burnout and mental health struggles that led him to walk away from a peak career in tech. He details the psychological toll of achievement addiction, breaks down his four-step framework for deep personal transformation, and introduces a new mental model for navigating life through surrender rather than conquest.",
     "methodologies": [
@@ -1389,7 +1746,19 @@
             "3. Self-Compassion (Internal Healing)",
             "4. Compassion for Others (External Shift)"
           ]
-        }
+        },
+        "summary_zh": "一套用于疗愈深层情感创伤并重构身份认同的循序渐进框架。该演进路径始于痛苦这一催化剂，经由深度自我探索的艰难迭代，最终实现个体与自我及他人交互关系的底层重构。",
+        "problemItSolves_zh": "深度职业倦怠、存在主义危机、尚未化解的创伤，以及虽获外在成功却深陷停滞的困局。",
+        "whenToUse_zh": "当遭遇重大人生危机、陷入职业倦怠，或意识到既有的应对机制（如成就驱动模式）已不再奏效时。",
+        "commonMistakes_zh": "试图将疗愈过程理性化而回避情绪体验，或是试图跳过“探寻真相”阶段，急于直接追求“感觉好转”的结果。",
+        "realWorldExample_zh": "Andy 的亲身经历：在意识到自己追求成功的动力实则是对母亲离世的创伤反应后，他接受了住院及心理治疗。",
+        "principles_zh": [
+          "变革往往需要痛苦作为催化剂。",
+          "疗愈需要深度复盘，直面过去或潜意识中令人不适的真相。",
+          "只有洞察根因，才能真正实现宽恕与自爱。",
+          "真正的自我关怀，会自动转化为对他人的同理心。"
+        ],
+        "name_zh": "The Four Steps of Deep Personal Transformation（深度个人转型四步法）"
       },
       {
         "name": "The River Surrender Mindset",
@@ -1411,17 +1780,32 @@
         "visualizationData": {
           "before": "The Mountain Climber: Life is a struggle to the top, addiction to achievement, constant planning/optimizing, fear of falling, ego-driven.",
           "after": "The River Surrender: Life is a flow to navigate, reliance on intuition, releasing control ('Mummy Mode'), trust in the journey, peace-driven."
-        }
+        },
+        "summary_zh": "这是一种哲学层面的认知重构：从将人生视为一系列待征服的“高山”（成就导向），转变为将其视为一条待驾驭的“长河”（直觉驱动）。该方法论主张放下掌控执念，信赖生命之流的势能，摒弃过度理性的分析噪音，以敏锐捕捉信号来替代对僵化计划的执行。",
+        "problemItSolves_zh": "陷入“享乐跑步机”带来的倦怠感、“成就上瘾”的无尽追逐，以及因试图掌控生活与职场中每一个结果而产生的深度焦虑。",
+        "whenToUse_zh": "当你因无休止的追逐感到身心俱疲，当“赢”本身已不再带来快乐，亦或是正处于逻辑失效、充满不确定性的人生转型期时。",
+        "commonMistakes_zh": "一旦脱离既定剧本便惊慌失措，试图逆流而上退回旧常态，或是将“顺应”误读为“放弃”，而非一种战略性的释放。",
+        "realWorldExample_zh": "安迪最终落脚越南，是被“水流”推向了那里（包括行李丢失的意外和直觉的指引），而非因为执行了某种僵化的战略规划。",
+        "principles_zh": [
+          "停止对抗洪流，逆势死磕只会导致溺亡。",
+          "开启“木乃伊模式”：后仰放松，任由水流承托前行。",
+          "平息理性的规划思维，敏锐捕捉直觉信号。",
+          "接纳事实：未来既无法被精准预测，也无法被预先优化。",
+          "人生并非线性的向上攀登，而是一段顺流而下的体验旅程。"
+        ],
+        "name_zh": "The River Surrender Mindset（顺流臣服心法）"
       }
     ],
-    "filename": "Andy Johns"
+    "filename": "Andy Johns",
+    "episodeSummary_zh": "在这期极具个人色彩的节目中，Andy Johns 坦陈了导致他从科技圈职业巅峰隐退的严重职业倦怠与心理健康危机。他深度剖析了“成就成瘾”带来的心理代价，拆解了他实现深度个人蜕变的四步框架，并引入了一套全新的心智模型：通过“臣服”而非“征服”来驾驭人生。"
   },
   {
     "guest": {
       "name": "Andy Raskin",
       "title": "Strategic Narrative Consultant",
       "company": "Andy Raskin",
-      "background": "Former computer science major and startup founder turned journalist and consultant who helps CEOs align their teams around a strategic narrative."
+      "background": "Former computer science major and startup founder turned journalist and consultant who helps CEOs align their teams around a strategic narrative.",
+      "background_zh": "计算机科班出身的创业者，后转型为记者与顾问。致力于协助 CEO 围绕战略叙事（Strategic Narrative）拉齐团队认知。"
     },
     "episodeSummary": "In this episode, Andy Raskin breaks down why the traditional 'problem/solution' pitch (the Arrogant Doctor) is failing. He introduces the Strategic Narrative Framework, a five-part structure inspired by movie scripts and exemplified by companies like Salesforce and Zuora. Raskin explains how to frame a product as the key to winning a new game in a shifting world, aligning sales, product, and marketing around a single, high-stakes story.",
     "methodologies": [
@@ -1450,17 +1834,32 @@
             "4. Identify Obstacles: Highlight the specific challenges preventing the buyer from reaching the Object.",
             "5. Present the Solution: Introduce the product/features as 'Magic Gifts' to overcome the obstacles."
           ]
-        }
+        },
+        "summary_zh": "一套包含五个步骤的叙事架构，旨在取代传统的“问题/解决方案”式提案。该框架不再将公司定位为解决痛点的“医生”，而是将客户视为应对世界级宏大变革（从旧游戏规则转向新游戏规则）的“主角”，通过发起一场变革浪潮，实现产品、销售与市场团队的深度协同。",
+        "problemItSolves_zh": "过度聚焦功能特性的低效销售话术、产品与 GTM 团队缺乏战略对齐，以及难以在红海市场中实现差异化突围。",
+        "whenToUse_zh": "处于 B 轮融资或规模化扩张期（创始人主导的销售模式遭遇瓶颈时）、业务转型期，或通过并购（M&A）拓展新产品线时。",
+        "commonMistakes_zh": "生搬硬套 Zuora 的演示模板却未对故事内核进行适配，只是简单罗列要点而非明确定义具体的“游戏规则改变”，或是未能让买家痛切感知到“生死攸关”的利害关系。",
+        "realWorldExample_zh": "Zuora 将时代的变革界定为从“交易经济”（旧游戏）向“订阅经济”（新游戏）的转型，并将核心目标设定为“将客户转化为订阅用户”。",
+        "principles_zh": [
+          "摒弃“傲慢医生”视角（即传统的“问题-解决方案”模式），转而定义一场行业变革。",
+          "明确指出宏观环境中不可逆转的趋势，而非局限于客户的具体痛点。",
+          "建立紧迫感，阐明赢得这场“新游戏”是关乎生死的存亡之战。",
+          "将产品功能定位为“魔法道具”，旨在赋能客户（故事的主角）克服阻碍，达成新目标。",
+          "该叙事逻辑必须成为指引全公司的“战略北极星”，而不仅仅是一份销售演示文稿。"
+        ],
+        "name_zh": "The Strategic Narrative Framework（战略叙事框架）"
       }
     ],
-    "filename": "Andy Raskin_"
+    "filename": "Andy Raskin_",
+    "episodeSummary_zh": "在本期节目中，Andy Raskin 深度拆解了为何传统的“问题/解决方案”式推介（即“傲慢医生”模式）已不再奏效。他引入了“战略叙事框架”，这是一套借鉴电影剧本创作的五步法结构，并已被 Salesforce 和 Zuora 等巨头成功验证。Raskin 详细阐述了如何将产品定位为在剧变世界中赢得“新游戏”的关键要素，并围绕这一攸关成败的核心叙事，彻底拉齐销售、产品和市场团队的认知。"
   },
   {
     "guest": {
       "name": "Anneka Gupta",
       "title": "Chief Product Officer",
       "company": "Rubrik",
-      "background": "Previously President, GM, and Head of Product at LiveRamp; Lecturer at Stanford GSB"
+      "background": "Previously President, GM, and Head of Product at LiveRamp; Lecturer at Stanford GSB",
+      "background_zh": "曾任 LiveRamp 总裁、总经理及产品负责人；斯坦福商学院讲师"
     },
     "episodeSummary": "Anneka Gupta shares actionable frameworks for becoming a more strategic product leader, including the definition of strategic thinking, navigating difficult personalities, and decision-making. She discusses the importance of shifting from a scarcity to an abundance mindset to manage energy and resilience, and how to utilize a 'historian' approach to contextualize and improve organizational decision-making.",
     "methodologies": [
@@ -1504,7 +1903,18 @@
               "description": "Low Vision, Low Change"
             }
           ]
-        }
+        },
+        "summary_zh": "该框架定义了被视为具备“战略高度”所必需的两个核心要素：阐述具有感召力的叙事逻辑的能力（The Why），以及推动艰难变革的执行魄力（Change Agent）。",
+        "problemItSolves_zh": "将“你需要更有战略性”这类笼统的反馈拆解为具体、可落地的技能，让模糊的评价变得清晰明确。",
+        "whenToUse_zh": "申请职级晋升、应对绩效考评，或制定产品战略时。",
+        "commonMistakes_zh": "沉迷于执行细节而忽视战略叙事，或是空谈宏大构想却无意推动艰难的落地工作。",
+        "realWorldExample_zh": "在会议中汇总多方视角以拉齐共识（确立战略动机），在此基础上再推进具体方案（发挥变革推动者作用）。",
+        "principles_zh": [
+          "阐明决策动因：围绕决策构建简明有力、具说服力的叙事逻辑。",
+          "成为变革推动者：主导那些符合长期利益但充满挑战的关键举措。",
+          "协同效应：二者缺一不可；有愿景无执行是空想，有执行无愿景则流于战术。"
+        ],
+        "name_zh": "The Strategic 'Why' & Change Agent Framework（“战略动因”与变革推动者框架）"
       },
       {
         "name": "The Abundance Mindset for Leadership",
@@ -1525,7 +1935,19 @@
         "visualizationData": {
           "before": "Scarcity Mindset: Operates from fear, views challenges as hurdles, drains energy, reacts with frustration.",
           "after": "Abundance Mindset: Operates from curiosity, views challenges as 'fun' puzzles, maximizes energy, reacts with gratitude."
-        }
+        },
+        "summary_zh": "一种用于驾驭危机和高压情境的认知重构技巧。其核心在于将思维模式从聚焦恐惧与阻碍的“匮乏心态”，切换至拥抱乐趣、学习与感恩的“富足心态”。",
+        "problemItSolves_zh": "克服职业倦怠、决策瘫痪，以及面对尖锐反馈时的防御心态。",
+        "whenToUse_zh": "面临裁员、组织架构调整，或应对棘手同事时。",
+        "commonMistakes_zh": "陷入稀缺心态，视一切问题为威胁而非机遇。",
+        "realWorldExample_zh": "将 Anneka 被迫更换直属下级的棘手局面进行认知重构，将其转化为一次学习成长的契机，而非视为无法逾越的危机。",
+        "principles_zh": [
+          "重构恐惧视角：将严峻挑战视为激动人心的闯关游戏或解谜题。",
+          "管理精力而非时间：优化心力与情绪带宽（如规律饮食、顺应精力波峰安排日程）。",
+          "保持幽默与感恩：带着好奇心应对棘手的合作对象，发掘其带来的学习契机。",
+          "心态宽广：坚持“善意假设”，专注于寻找机会点而非聚焦于阻碍（Blockers）。"
+        ],
+        "name_zh": "The Abundance Mindset for Leadership（领导力的富足心态）"
       },
       {
         "name": "The Historian Decision-Making Model",
@@ -1551,17 +1973,31 @@
             "4. Formulate Hypothesis: Create strategy informed by history",
             "5. Decide & Iterate: Commit to direction and learn from results"
           ]
-        }
+        },
+        "summary_zh": "一套通过深挖与分析组织历史来提升决策质量的流程，旨在规划新路径之前，透彻理解过往失败的背景与脉络。",
+        "problemItSolves_zh": "避免重蹈覆辙，并有效化解诸如“我们之前早就试过了”这类内部阻力。",
+        "whenToUse_zh": "入职新公司、接手老产品，或提出已被尝试过的策略时。",
+        "commonMistakes_zh": "忽视过往想法背后的“历史包袱”，或在未充分理解历史背景的情况下做出决策。",
+        "realWorldExample_zh": "Anneka 深入复盘 Rubrik 既往部分产品的失败归因，以此决策是将这些产品重启还是彻底放弃。",
+        "principles_zh": [
+          "挖掘历史：主动调研过往的产品上线与失败案例。",
+          "还原决策语境：深入理解当时做出特定决策的背景与动因。",
+          "识别历史包袱：敏锐察觉团队对特定想法所背负的情绪负担。",
+          "决策与迭代：利用历史背景支撑假设，在非 100% 确定的情况下果断决策。"
+        ],
+        "name_zh": "The Historian Decision-Making Model（历史学家决策模型）"
       }
     ],
-    "filename": "Anneka Gupta"
+    "filename": "Anneka Gupta",
+    "episodeSummary_zh": "Anneka Gupta 分享了一套极具实操性的框架，助力产品人进阶为战略型管理者。内容涵盖战略思维的定义、如何应对棘手的人际挑战，以及决策机制。她探讨了如何通过从「稀缺心态」向「富足心态」的转变，来有效进行精力管理并提升职场韧性；同时阐述了如何运用「历史学家」视角来还原背景，进而优化组织的决策质量。"
   },
   {
     "guest": {
       "name": "Annie Duke",
       "title": "Author, Special Partner",
       "company": "First Round Capital",
-      "background": "Former professional poker player (World Series of Poker winner) turned decision science expert and consultant."
+      "background": "Former professional poker player (World Series of Poker winner) turned decision science expert and consultant.",
+      "background_zh": "前职业扑克牌手（世界扑克大赛冠军），现转型为决策科学专家与顾问。"
     },
     "episodeSummary": "Annie Duke joins Lenny to dismantle common decision-making misconceptions. She explains why intuition needs to be made explicit, why meetings should never be used for idea discovery, and how to shorten 'long' feedback loops in venture capital and product management. She also dives into the psychology of quitting, introducing concepts like kill criteria to overcome sunk cost fallacy.",
     "methodologies": [
@@ -1589,7 +2025,19 @@
             "4. The Meeting (Discussion Only): Group convenes solely to discuss the variance in opinions.",
             "5. Decision: Leader makes the call (or voting occurs), often asynchronously after the meeting."
           ]
-        }
+        },
+        "summary_zh": "这是一套旨在消除“群体迷思”和“强制干扰”的会议机制。通过将“观点生成”与“讨论环节”彻底分离，该框架确保了成员的独立思考，并将会议时间聚焦于核心分歧点。",
+        "problemItSolves_zh": "避免决策被声音最大或最自信的人主导，消除群体思维，并让潜藏的异议浮出水面。",
+        "whenToUse_zh": "产品路线图规划、项目排期预估、功能头脑风暴或投资决策。",
+        "commonMistakes_zh": "现场即兴头脑风暴，允许随意打断发言，将寻求共识/对齐作为首要目标。",
+        "realWorldExample_zh": "First Round Capital 采用一套结构化的会议流程来评估公司，要求合伙人在展开讨论之前，先针对特定维度（如市场、团队）独立进行投票和评分。",
+        "principles_zh": [
+          "停止过度交流，坚持独立产出观点。",
+          "会议仅用于讨论，而非信息同步或制定决策。",
+          "摒弃对“对齐”或“共识”的执念，这只会滋生强制妥协。",
+          "复述他人观点以确信其被聆听（保持好奇心，而非施压）。"
+        ],
+        "name_zh": "The Nominal Group Meeting Framework（名义小组会议框架）"
       },
       {
         "name": "Pre-Mortems with Kill Criteria",
@@ -1615,7 +2063,19 @@
             "4. Pre-Commitment: Establish the rule 'If [Criteria] occurs, we [Kill/Pivot]'.",
             "5. Execution & Monitoring: actively scan for the criteria during the project."
           ]
-        }
+        },
+        "summary_zh": "标准“事前验尸”分析的进阶版，它不再仅停留于设想失败场景，而是基于明确的负面信号，制定预先锁定的执行预案。",
+        "problemItSolves_zh": "克服沉没成本谬误，以及项目上线后对负面信号进行合理化的倾向（即“暴风雪中强行登顶”效应）。",
+        "whenToUse_zh": "在新产品上线、签署长期合约，或跟进销售线索之前。",
+        "commonMistakes_zh": "进行了事前验尸却未调整计划，或是识别了风险却未设定明确的叫停触发条件。",
+        "realWorldExample_zh": "某销售团队识别出了无效商机的信号（例如：客户只关心价格，不愿看演示）。设定的叫停标准为：如果客户拒绝演示，立即停止跟进。",
+        "principles_zh": [
+          "仅推演失败是不够的，必须落实具体的行动承诺。",
+          "识别与失败状态高度相关的信号。",
+          "确立「终止标准」：一旦监测到 X 信号，必须采取 Y 行动。",
+          "将「浪费」视为前瞻性而非回溯性的概念（忽略沉没成本）。"
+        ],
+        "name_zh": "Pre-Mortems with Kill Criteria（设定终止标准的事前验尸）"
       },
       {
         "name": "Shortening the Feedback Loop",
@@ -1645,17 +2105,31 @@
               "details": "e.g., Net New ARR, Retention, Hiring Top Talent"
             }
           ]
-        }
+        },
+        "summary_zh": "该思维模型旨在破除一种迷思，即认为某些决策（如 VC 投资或长期产品押注）需要数年时间才能验证。其核心在于识别出与长期成功高度相关的短期代理指标。",
+        "problemItSolves_zh": "无法从决策中实时获取认知，且习惯以“长期愿景”为挡箭牌，从而逃避面对糟糕的业绩表现。",
+        "whenToUse_zh": "风险投资、长周期研发、品牌建设战役",
+        "commonMistakes_zh": "误以为必须等到最终结局或产出才能评估决策质量；忽视了 A 轮融资或留存率等阶段性信号。",
+        "realWorldExample_zh": "First Round 并没有苦等 10 年直到项目退出，而是将“种子轮投资能否拿到 A 轮融资”（这是一个必要条件）作为指标，在大约 18 个月内评估决策质量。",
+        "principles_zh": [
+          "不存在所谓的长反馈周期，那只是你选择了等待。",
+          "识别达成长期目标的必要（非充分）条件。",
+          "聚焦与结果强相关的“中间信号”（代理指标）。",
+          "牺牲心理安全感（即“无知”），换取决策质量（即“早知”）。"
+        ],
+        "name_zh": "Shortening the Feedback Loop（缩短反馈循环）"
       }
     ],
-    "filename": "Annie Duke"
+    "filename": "Annie Duke",
+    "episodeSummary_zh": "Annie Duke 做客 Lenny 的节目，深度拆解了常见的决策误区。她阐述了为何必须将“直觉”显性化，为何决不能在会议中进行想法探索，以及如何在风险投资和产品管理中缩短漫长的反馈周期。此外，她还深入剖析了关于“放弃”的心理机制，引入了“终止标准（Kill Criteria）”等概念，以帮助克服沉没成本谬误。"
   },
   {
     "guest": {
       "name": "Annie Pearl",
       "title": "Chief Product Officer",
       "company": "Calendly",
-      "background": "Former CPO at Glassdoor, Director of PM at Box, started career in law before transitioning to product via a startup."
+      "background": "Former CPO at Glassdoor, Director of PM at Box, started career in law before transitioning to product via a startup.",
+      "background_zh": "前 Glassdoor 首席产品官 (CPO)，曾任 Box 产品总监。法律背景出身，后通过初创公司转型进入产品领域。"
     },
     "episodeSummary": "Annie Pearl discusses Calendly's transition from a pure PLG motion to adding a sales-led enterprise motion, the cultural shifts required for that change, and how to structure product teams and planning processes at scale. She details frameworks for strategy (Playing to Win), execution (Phased Development), and decision-making (OPA meetings).",
     "methodologies": [
@@ -1682,7 +2156,19 @@
             "3. Determine How to Win (Value Prop/differentiation)",
             "4. Execute (Capabilities & Systems)"
           ]
-        }
+        },
+        "summary_zh": "一种战略框架，旨在通过对“产品在何处竞争”及“如何获胜”制定一套整合性的决策来实现战略聚焦，避免因试图面面俱到地满足所有人的需求而导致资源分散。",
+        "problemItSolves_zh": "避免产品团队试图覆盖过多的横向场景，从而导致价值稀释以及难以排定优先级。",
+        "whenToUse_zh": "制定长期产品战略时，或公司需要从横向广度布局向垂直细分深耕转型时。",
+        "commonMistakes_zh": "跳过 \"Where to Play\" 环节，试图为所有类型的用户开发功能（例如：战略重心是企业级销售，却在为个体经营者开发 Venmo 集成）。",
+        "realWorldExample_zh": "Calendly 借助该框架完成了战略重心转移：从一款面向大众的通用型工具，转型为专门针对企业级市场（Horizon 2）中的销售、招聘及客户成功团队。",
+        "principles_zh": [
+          "战略是一套系统性的选择组合。",
+          "必须明确界定你的“战场”（市场、细分赛道、用户画像）。",
+          "必须定义你的“制胜策略”（针对该目标的价值主张）。",
+          "明智聚焦：决定“不做”与决定“做”同等重要。"
+        ],
+        "name_zh": "Playing to Win Framework（制胜战略框架）"
       },
       {
         "name": "Phased Development Commitments",
@@ -1723,7 +2209,19 @@
               "commitment": "Iteration"
             }
           ]
-        }
+        },
+        "summary_zh": "一种避免为未明确工作锁定长期交付日期的路线图规划方法。团队仅承诺当前阶段的工作，将需求探索与方案设计作为独立于最终开发构建的承诺事项。",
+        "problemItSolves_zh": "消除了因强行预估“未知变量”以及在缺乏充分探索验证的情况下就承诺六个月后的交付排期，从而导致项目延期的协作摩擦。",
+        "whenToUse_zh": "适用于路线图规划及季度执行周期，尤其是对于那些在研发估时准确性上存在挑战的组织。",
+        "commonMistakes_zh": "在尚未验证问题或完成方案设计前，就承诺上线日期。",
+        "realWorldExample_zh": "Calendly 将工作拆解为探索、方案、开发、发布/衡量，且仅对当前进行的阶段估算排期。",
+        "principles_zh": [
+          "仅对需求范围完全确定的工作承诺交付日期。",
+          "探索阶段承诺的是开展调研，而非投入开发。",
+          "方案阶段承诺的是设计与验证，而非产品上线。",
+          "只有在方案设计完成后，才确定工程开发排期。"
+        ],
+        "name_zh": "Phased Development Commitments（阶段性开发承诺）"
       },
       {
         "name": "OPA (Opportunity/Problem Assessment)",
@@ -1750,17 +2248,31 @@
             "Is the solution hypothesis ready for investigation?",
             "Has the team 'sparred' for blind spots?"
           ]
-        }
+        },
+        "summary_zh": "一种周期性的例行机制与交付物，产品经理需在正式推进前向同僚展示早期构想或验证数据，通过“思维碰撞”和辩论来获取反馈。",
+        "problemItSolves_zh": "避免产品经理闭门造车形成信息孤岛，并确保在投入昂贵的研发资源之前，进行严谨的思考与论证。",
+        "whenToUse_zh": "在项目从“探索阶段”推进至“方案阶段”之前，或在决策是否要针对一个新的问题领域展开调研时。",
+        "commonMistakes_zh": "将其视为面向管理层的“路演”式提案，而非一场建设性的同行评审。",
+        "realWorldExample_zh": "Calendly 的 PM 会带着调研结论参加 OPA 会议，在进行深度投入前，验证该机会是否值得跟进。",
+        "principles_zh": [
+          "营造心理安全氛围，鼓励开展严谨的观点碰撞（Sparring）。",
+          "将“问题评估”与“解决方案提案”严格剥离。",
+          "管理者可适当回避，以促进平级间（Peer-to-peer）的坦诚交流。",
+          "使用统一的文档/模板，对论证逻辑进行结构化梳理。"
+        ],
+        "name_zh": "OPA (Opportunity/Problem Assessment)（OPA（机会/问题评估））"
       }
     ],
-    "filename": "Annie Pearl"
+    "filename": "Annie Pearl",
+    "episodeSummary_zh": "Annie Pearl 深度复盘了 Calendly 从纯 PLG 模式向融合销售驱动（Sales-led）的企业级模式转型的全过程，剖析了该变革所需的组织文化转型，并分享了在规模化扩张阶段如何构建产品团队架构及优化规划流程。她详细拆解了三大核心框架：用于制定战略的 \"Playing to Win\" 框架、用于落地执行的“分阶段开发”框架，以及用于高效决策的 OPA 会议机制。"
   },
   {
     "guest": {
       "name": "Anton Osika",
       "title": "Co-founder and CEO",
       "company": "Lovable",
-      "background": "Former CTO at a YC startup, creator of the open-source tool GPT Engineer, now building the 'last piece of software' with Lovable."
+      "background": "Former CTO at a YC startup, creator of the open-source tool GPT Engineer, now building the 'last piece of software' with Lovable.",
+      "background_zh": "曾任 YC 创业公司 CTO，开源工具 GPT Engineer 作者，目前在 Lovable 打造“最后一款软件”。"
     },
     "episodeSummary": "Anton Osika shares how Lovable, an AI software engineer, reached $10M ARR in two months with a team of 15. He discusses the 'scaling laws' of AI reliability, his intense 'Shackleton-style' hiring philosophy for finding 'cracked' engineers, and the evolution of product building from MVP to 'Absolutely Lovable Products' in an age where coding is democratized.",
     "methodologies": [
@@ -1787,7 +2299,19 @@
             "Quantitatively Tune System",
             "Fast Feedback Loop"
           ]
-        }
+        },
+        "summary_zh": "这是一套系统性的 AI 可靠性提升方案，核心在于将“陷入停滞”视为首要瓶颈。团队不再追求泛泛的优化，而是深度识别具体的失效模式（如 Bug 或逻辑死路），并通过建立紧密的反馈闭环，针对这些卡点对系统进行可量化的精准调优。",
+        "problemItSolves_zh": "AI Agent 频繁陷入僵局、产生幻觉，或无法完成诸如全栈应用开发等复杂的多步骤任务。",
+        "whenToUse_zh": "当构建 Agentic AI 系统，且可靠性成为制约效用规模化的主要瓶颈时。",
+        "commonMistakes_zh": "过于关注通用的模型优化，而非解决具体的卡点；缺乏对“卡点率”的定量衡量。",
+        "realWorldExample_zh": "Lovable 特别专注于确保 AI 在处理复杂任务（如添加登录功能或接入 Stripe 支付）时不会出错，从而赋能用户构建真正的应用。",
+        "principles_zh": [
+          "精准定位 AI 流程受阻的具体卡点（如鉴权、支付环节）",
+          "聚焦解决特定瓶颈，而非泛泛提升通用智能",
+          "基于通过率/失败率数据，对系统进行定量调优",
+          "维持极速反馈闭环，快速迭代修复方案"
+        ],
+        "name_zh": "The 'Unstuck' Scaling Framework（“破局”规模化框架）"
       },
       {
         "name": "Shackleton-Style Team Building",
@@ -1818,7 +2342,19 @@
             "Focus only on a narrow craft/specialty",
             "Prioritize process over speed"
           ]
-        }
+        },
+        "summary_zh": "一套源于欧内斯特·沙克尔顿南极探险广告灵感的高强度招聘筛选机制。它明确劝退追求安逸的求职者，旨在吸引那些极度执着、具备高能动性，且能在紧迫节奏与艰巨使命中越战越勇的通才。",
+        "problemItSolves_zh": "筛选掉那些在高速增长的初创环境中，将职位视为“仅仅是一份工作”或抱有“乘客”心态的候选人。",
+        "whenToUse_zh": "适用于致力于攻克未解技术难题的早期高增长公司招聘。",
+        "commonMistakes_zh": "招聘过于关注狭窄的垂直技能，而非具备高度能动性的通才；未能在初期对工作强度进行明确的预期管理。",
+        "realWorldExample_zh": "Lovable 仅凭 15 人团队就实现了超 1000 万美元 ARR，这归功于其招募的“硬核”工程师——他们具备极致的 Owner 意识，且能在充满野心的混乱环境中如鱼得水。",
+        "principles_zh": [
+          "筛选具备极高紧迫感且适配 AGI 发展节奏的人才",
+          "承诺艰巨的使命与荣耀，而非舒适安逸",
+          "招聘拥有一项“超能力”但能落地所有环节的通才",
+          "要求对产品和团队保持近乎偏执的极致关注"
+        ],
+        "name_zh": "Shackleton-Style Team Building（沙克尔顿式团队建设）"
       },
       {
         "name": "Minimum Lovable Product (MLP)",
@@ -1842,17 +2378,31 @@
             "Lovable Product",
             "Absolutely Lovable Product (ALP)"
           ]
-        }
+        },
+        "summary_zh": "对经典 MVP 概念的重构。在 AI 赋能的时代，仅发布“勉强可用”的产品已远远不够。核心目标是产品上线即让用户喜爱，并通过持续迭代提升“喜爱度”，从而驱动自然增长。",
+        "problemItSolves_zh": "开发出的产品虽然在技术上可行，但在拥挤的赛道中，却因缺乏惊喜感或“灵魂”而无法获得市场青睐。",
+        "whenToUse_zh": "当为新产品上线或重大功能发布界定范围时。",
+        "commonMistakes_zh": "发布一个枯燥乏味、纯功能性的 MVP，无法激发用户的分享欲望。",
+        "realWorldExample_zh": "Lovable 上线时聚焦于打造高质量且令人喜爱的用户体验，以此驱动了原生的口碑增长，在未进行传统营销投放的情况下，MAU 达到 30 万。",
+        "principles_zh": [
+          "起步于 MLP（最小喜爱产品），而非仅仅是 MVP（最小可行产品）",
+          "持续迭代，打造用户喜爱的产品",
+          "致力于实现 ALP（极致喜爱产品）",
+          "增长源于用户对产品的热爱，而非单纯依赖市场营销"
+        ],
+        "name_zh": "Minimum Lovable Product (MLP)（MLP（最小喜爱产品））"
       }
     ],
-    "filename": "Anton Osika"
+    "filename": "Anton Osika",
+    "episodeSummary_zh": "Anton Osika 分享了 AI 软件工程师产品 Lovable 如何在仅有 15 人团队的情况下，于两个月内达成 1000 万美元 ARR。他深入探讨了 AI 可靠性的“缩放定律”，为寻觅“顶级技术狂人”而采用的极度严苛、“沙克尔顿式”招聘哲学，以及在编程民主化时代，产品构建逻辑如何从 MVP 演进为打造“绝对令人喜爱的产品”。"
   },
   {
     "guest": {
       "name": "Anuj Rathi",
       "title": "Chief Product and Marketing Officer",
       "company": "Jupiter Money",
-      "background": "Former SVP of Revenue and Growth at Swiggy, VP of Product at Snapdeal, Senior PM at Walmart Labs, and first Product Manager at Flipkart."
+      "background": "Former SVP of Revenue and Growth at Swiggy, VP of Product at Snapdeal, Senior PM at Walmart Labs, and first Product Manager at Flipkart.",
+      "background_zh": "曾任 Swiggy 营收与增长高级副总裁、Snapdeal 产品副总裁、Walmart Labs 高级产品经理，以及 Flipkart 首位产品经理。"
     },
     "episodeSummary": "Anuj Rathi discusses the evolution of product management in India, the importance of 'full-stack' product thinking, and how to operationalize the 'Working Backwards' process. He shares specific frameworks for understanding user psychology, prioritizing product roadmaps, and making strategic high-stakes decisions.",
     "methodologies": [
@@ -1896,7 +2446,18 @@
               ]
             }
           ]
-        }
+        },
+        "summary_zh": "该框架源自 Scott Belsky，其核心洞察在于当代互联网用户具备三大底层特质：**“懒惰”**（缺乏时间与耐心）、**“虚荣”**（受自我意识、行为习惯或社会地位驱动）以及**“自私”**（追求即时满足，关注“这对我有什么好处”）。产品的新手引导（Onboarding）与营销策略必须针对这些特质进行优化，方能有效抢占用户注意力。",
+        "problemItSolves_zh": "避免产品团队陷入为关注产品的“理想用户”进行设计的误区，帮助团队面向真实且冷漠的用户打造产品。",
+        "whenToUse_zh": "适用于设计新用户引导、撰写营销文案，以及打造产品体验的“第一公里”时。",
+        "commonMistakes_zh": "假设用户本身感兴趣、愿意阅读说明书，或者愿意在缺乏即时激励的情况下改变习惯。",
+        "realWorldExample_zh": "在 Swiggy 和 Jupiter，重新定义了新手引导流程：不再将其视为功能演示，而是直接回应“这对我有什么好处”（对应 Selfish 维度），并最大程度缩短操作链路（对应 Lazy 维度）。",
+        "principles_zh": [
+          "懒惰：用户不愿耗费精力研究界面交互；必须将操作摩擦降至为零。",
+          "虚荣：用户固守习惯且自我意识强；产品必须能提升其形象或契合其身份认同。",
+          "自私：用户不关心产品功能本身；他们只在意能否获得即时的个人收益。"
+        ],
+        "name_zh": "The 'Lazy, Vain, and Selfish' User Framework（“懒惰、虚荣、自私”用户框架）"
       },
       {
         "name": "The Four BBs Strategy Framework",
@@ -1939,7 +2500,19 @@
               "description": "Pivots, New Identity, Moonshots"
             }
           ]
-        }
+        },
+        "summary_zh": "一套战略分配框架，将产品工作划分为四个独立类别，旨在确保产品路线图在维护、增长和创新之间保持平衡。",
+        "problemItSolves_zh": "通过强制设定明确的资源配比，有效化解了研发团队（主张偿还技术债）、产品经理（主张功能迭代）与管理层（主张登月型创新）之间的冲突。",
+        "whenToUse_zh": "在进行季度或年度 Roadmap 规划及资源分配讨论时。",
+        "commonMistakes_zh": "将基础建设工作误称为“技术债”（严重打击士气），或因深陷“基本盘”业务而未能给“战略押注”分配足够的资源。",
+        "realWorldExample_zh": "以 Swiggy 为例，公司决定将战略重心从 Bread and Butter（基本盘业务：餐饮外卖）转移至 Breaking Bad（颠覆性业务：Instamart/生鲜杂货配送），旨在将公司重塑为一家即时便利服务平台。",
+        "principles_zh": [
+          "卓越基石：不可妥协的技术债治理与系统维护（不只是填坑，而是构建卓越的底层架构）。",
+          "核心基本盘：维系业务运转的核心功能及渐进式优化。",
+          "战略下注：旨在实现显著增长或差异化优势的高风险、大规模战略举措。",
+          "破局重塑：关乎存亡的战略转型、登月计划或对公司定位的彻底重构。"
+        ],
+        "name_zh": "The Four BBs Strategy Framework（Four BBs 战略框架）"
       },
       {
         "name": "Divergent Working Backwards (3 PR/FAQs)",
@@ -1965,17 +2538,31 @@
             "Stakeholder Review & Debate (Compare the 3 futures)",
             "Select One Path & Commit"
           ]
-        }
+        },
+        "summary_zh": "亚马逊“逆向工作法”的进阶版。与其撰写单一的新闻稿（PR），团队需起草三份截然不同、思维发散的 PR，旨在最终收敛决策前，充分探索不同的战略方向。",
+        "problemItSolves_zh": "避免团队陷入对初始创意的盲目迷恋，为管理层提供真正的决策选项，而非仅对单一方案进行“通过或否决”的二元决策。",
+        "whenToUse_zh": "适用于定义新产品线、重大功能发布或战略转型。",
+        "commonMistakes_zh": "撰写的三个方案仅有细微差别（增量式），而非真正的思维发散（战略性备选方案）。",
+        "realWorldExample_zh": "会员体系设计：方案 A（双层级模式），方案 B（积分制体系），方案 C（聚焦特定细分客群）。",
+        "principles_zh": [
+          "**“三”之法则**：针对同一问题，务必探索三种截然不同的解决方案。",
+          "**展示而非空谈**：为每个版本撰写完整的 PR/FAQ，涵盖合规、法务及运营等执行细节。",
+          "**先发散后收敛**：通过强制团队推演不同的可能性，避免陷入局部最优解。",
+          "**敢于反对，坚决执行**：一旦管理层选定最终方案，团队必须全力以赴投入执行。"
+        ],
+        "name_zh": "Divergent Working Backwards (3 PR/FAQs)（发散式逆向工作法 (3 PR/FAQs)）"
       }
     ],
-    "filename": "Anuj Rathi"
+    "filename": "Anuj Rathi",
+    "episodeSummary_zh": "Anuj Rathi 探讨了印度产品管理的演变、“全栈”产品思维的重要性，以及如何落地“逆向工作法”流程。他分享了具体的框架，用于洞察用户心理、规划产品路线图优先级，以及制定高风险的战略决策。"
   },
   {
     "guest": {
       "name": "Aparna Chennapragada",
       "title": "Chief Product Officer, AI Product Strategy",
       "company": "Microsoft",
-      "background": "Former CPO at Robinhood, VP at Google (Lens, AR, Assistant), Engineering Leader at Akamai, Board Member at eBay and Capital One."
+      "background": "Former CPO at Robinhood, VP at Google (Lens, AR, Assistant), Engineering Leader at Akamai, Board Member at eBay and Capital One.",
+      "background_zh": "前 Robinhood 首席产品官，谷歌副总裁（负责 Lens、AR、Assistant），Akamai 工程负责人，eBay 及 Capital One 董事。"
     },
     "episodeSummary": "Aparna Chennapragada, CPO at Microsoft, discusses the shift in product development driven by AI. She explores the transition from graphical interfaces to natural language experiences (NLX), the necessity of prototyping as a primary specification tool, and frameworks for evaluating the timing and viability of zero-to-one products. The conversation covers the balance between innovation and governance in enterprise AI, the evolving role of product managers, and the concept of collaborative intelligence between humans and agents.",
     "methodologies": [
@@ -2015,7 +2602,19 @@
               "detail": "Guided Navigation / Suggestions"
             }
           ]
-        }
+        },
+        "summary_zh": "该框架定义了自然语言交互界面所需的新原则与 UI 组件，旨在超越简单的聊天形式，转向结构化且经过精心设计的对话体验。",
+        "problemItSolves_zh": "避免产品沦为“缝合怪”——即在缺乏设计体系支撑的情况下，生硬地将 AI 裸模型接入应用；从而确保产品的可用性与用户信任。",
+        "whenToUse_zh": "在设计 AI 智能体、聊天机器人或对话式交互界面时，确保体验直观且高效。",
+        "commonMistakes_zh": "- 陷入“模型即产品”的误区而忽视设计\n- 将 AI 构建为缺乏反馈机制的“黑盒”\n- 输出结果后未能提供后续引导",
+        "realWorldExample_zh": "设计一款研究型 Agent，使其不仅限于回答问题，更能主动规划信息搜集方案；或是设计一款图像生成工具，能基于逻辑推荐后续的风格调整建议。",
+        "principles_zh": [
+          "Prompt 即 UI：Prompt 是一个独立的 UI 组件，类似于下拉菜单或选项卡。",
+          "方案可编辑：针对复杂目标，Agent 应交付结构化且可编辑的方案，而非纯文本。",
+          "过程外显：可视化 Agent 的推理过程（Thinking Aloud）以建立信任，在信息详尽度与实用性间取得平衡。",
+          "预设后续引导：主动建议下一步操作，引导用户走通“最优体验路径”（Happy Path）。"
+        ],
+        "name_zh": "The NLX (Natural Language Experience) Design Stack（NLX（自然语言体验）设计栈）"
       },
       {
         "name": "The 'Why Now?' Inflection Triangulation",
@@ -2039,7 +2638,18 @@
             "Consumer Behavior Shift (Are habits changing fundamental demand?)",
             "Business Model Innovation (Is there a new economic advantage?)"
           ]
-        }
+        },
+        "summary_zh": "一套面向 0 到 1 产品的验证框架，要求三个特定市场拐点中至少两者发生交汇。",
+        "problemItSolves_zh": "帮助产品负责人避免过早启动业务（这无异于错误），或打造缺乏市场催化剂的产品。",
+        "whenToUse_zh": "在初创公司或新产品线的创意构思阶段，用于评估项目的可行性与入场时机。",
+        "commonMistakes_zh": "仅依赖单一要素（通常只是炫酷的技术），却缺乏相应的用户行为转变或商业模式变革。",
+        "realWorldExample_zh": "Google Lens（技术：深度学习 + 行为：照片即记忆）；Robinhood（技术：移动端 + 商业模式：零佣金）。",
+        "principles_zh": [
+          "**技术拐点**：技术的阶跃式变革（如深度学习、LLM）。",
+          "**用户行为变迁**：用户与世界交互方式的根本性改变（如将图片作为沟通媒介）。",
+          "**商业模式变革**：价值变现的新路径（如 SaaS、按结果付费）。"
+        ],
+        "name_zh": "The 'Why Now?' Inflection Triangulation（“为什么是现在”拐点三角定位法）"
       },
       {
         "name": "The 'Solve Before Scale' Protocol",
@@ -2068,17 +2678,30 @@
               "description": "Stability, Quantitative Metrics (CTR/Retention), Optimization, Growth"
             }
           ]
-        }
+        },
+        "summary_zh": "一种分阶段的产品开发方法论，主张在依赖定量指标进行规模化扩张之前，优先基于定性信号解决核心问题。",
+        "problemItSolves_zh": "通过优先验证核心价值主张，避免过早优化，防止陷入“局部最优”。",
+        "whenToUse_zh": "在构建 0 到 1 产品，且产品形态尚未明确时。",
+        "commonMistakes_zh": "过早追求指标的虚假精确性；畏惧早期“解决”阶段的混沌状态；在尚未真正解决核心用户需求时进行规模化。",
+        "realWorldExample_zh": "Google Now 早期在个性化逻辑上遭遇失败，随后转型为主动辅助模式（即 'Solve' 阶段），之后才进行规模化扩张。",
+        "principles_zh": [
+          "第一阶段（解决）：拥抱混乱与方向上的剧烈转向。忽略“成熟指标”（如 CTR、留存），专注于定性的“魔法时刻”（例如：设置定时器）。",
+          "第二阶段（规模化）：仅在核心价值被验证后，才进行流程化、优化并应用标准增长指标。",
+          "原型 > PRD：以构建促思考；利用原型来探索产品方向。"
+        ],
+        "name_zh": "The 'Solve Before Scale' Protocol（“先解决，后规模化”法则）"
       }
     ],
-    "filename": "Aparna Chennapragada"
+    "filename": "Aparna Chennapragada",
+    "episodeSummary_zh": "微软首席产品官（CPO）Aparna Chennapragada 深度探讨了 AI 驱动下的产品开发范式变革。她剖析了从图形用户界面向自然语言交互体验（NLX）的演进，强调了将原型设计（Prototyping）确立为核心需求定义工具的必要性，并分享了评估「0 到 1」产品推出时机与可行性的决策框架。此外，对话还涵盖了企业级 AI 在创新与合规治理之间的平衡之道、产品经理职能的演进，以及人类与 AI 智能体（Agents）之间的「协作智能」概念。"
   },
   {
     "guest": {
       "name": "Archie Abrams",
       "title": "VP of Product and Head of Growth",
       "company": "Shopify",
-      "background": "Leads an org of over 600 people across product, design, engineering, and growth. Previously at Udemy."
+      "background": "Leads an org of over 600 people across product, design, engineering, and growth. Previously at Udemy.",
+      "background_zh": "管理一支超 600 人的团队，职能覆盖产品、设计、工程及增长。曾任职于 Udemy。"
     },
     "episodeSummary": "Archie Abrams discusses Shopify's contrarian approach to growth and product development, including their refusal to use metrics for core product decisions, their 100-year planning horizon, and why they optimize for churn to maximize entrepreneurship.",
     "methodologies": [
@@ -2117,7 +2740,19 @@
               "action": "Final Reckoning: Compare Cohort GMV. If neutral/negative, deprecate feature or pivot strategy"
             }
           ]
-        }
+        },
+        "summary_zh": "一套通过设立长期对照组（Holdout）来审视短期增长收益的度量框架，旨在验证即时的指标提升能否在 1-3 年内转化为可持续的商业价值（GMV）。",
+        "problemItSolves_zh": "消除“透支效应”的幻觉，防止增长团队将本就会发生的自然收益归功于自己；同时识别出那些短期表现亮眼，但长期会损耗产品价值的功能。",
+        "whenToUse_zh": "当在用户价值具有长周期复利效应（如 SaaS、电商、金融科技），而非短期交易闭环的平台上进行实验时。",
+        "commonMistakes_zh": "仅凭两周的统计显著性就急于宣布胜利；误以为短期数据持平即意味着功能失败（却忽略了后期可能产生的复利效应）。",
+        "realWorldExample_zh": "Shopify 对支付失败通知功能进行了测试。短期效果：支付挽回量大幅提升。长期效果（12 个月）：GMV 增量为零。原因在于这批用户并非坚定的创业者，无论如何最终都会流失。",
+        "principles_zh": [
+          "建立长期隔离组，在 12-18 个月的长周期内不对其发布新功能。",
+          "上线 6-12 个月后自动提醒实验负责人，以复盘长期数据表现。",
+          "优先关注同期群 GMV（Cohort GMV），而非短期转化率。",
+          "接受 30-40% 的短期收益在长期维度下往往表现为无显著差异或零影响。"
+        ],
+        "name_zh": "The Long-Horizon Holdout Protocol（长周期留出组协议）"
       },
       {
         "name": "The Absolute Volume Framework",
@@ -2146,7 +2781,19 @@
             "state": "Massive Top of Funnel -> Lower Conversion Rate % -> High Total Output",
             "focus": "Optimizing for the outcome"
           }
-        }
+        },
+        "summary_zh": "这代表了一种思维模式的转变：从单纯追求优化效率类指标（如比率/百分比），转向追求“绝对规模”的最大化。该框架的核心观点是：过度追求转化率的优化，往往会诱导团队通过收窄漏斗开口来筛选高质量用户，这反而导致了最终成功转化总量的下降。",
+        "problemItSolves_zh": "破解“局部最优”陷阱：即团队通过增加注册难度来人为做高转化率，却无意中将潜在的“璞玉”型用户拒之门外。",
+        "whenToUse_zh": "适用于幂律型业务（如平台模式或 VC/天使投资），即依靠极少数的超级赢家来覆盖大量失败项目的成本。",
+        "commonMistakes_zh": "因流失率上升或 LTV/CAC 短期下滑而陷入恐慌；试图通过增设筛选步骤（增加摩擦成本）来提升线索质量分。",
+        "realWorldExample_zh": "Shopify 坚持不在注册环节增加“资质筛选”类的摩擦。他们接受大量商家会失败（流失）的现实，但通过保持大门敞开，确保不会因误杀而阻碍下一个 Allbirds 或 FIGS 的诞生。",
+        "principles_zh": [
+          "增长团队严禁将“转化率”设为核心北极星指标。",
+          "以成功用户的绝对数量（如“已激活商家总数”）作为衡量成功的标准。",
+          "极力拓宽漏斗开口（降低门槛），哪怕这会导致转化率下降。",
+          "接受更高的流失率和更低的效率指标，将其视为利用幂律法则捕获极致头部赢家的必要成本。"
+        ],
+        "name_zh": "The Absolute Volume Framework（绝对体量框架）"
       },
       {
         "name": "The Taste-Driven Core Model",
@@ -2170,17 +2817,31 @@
             "Middle: Taste & Intuition (The 'Okay-to' Review Process)",
             "Top: 100-Year Vision (The North Star)"
           ]
-        }
+        },
+        "summary_zh": "一种产品研发理念，主张核心产品团队不再背负数据指标与 KPI，转而依赖创始人的直觉（“Taste”）、长期愿景以及技术品质。",
+        "problemItSolves_zh": "防止陷入“短期主义”，避免产品沦为局部优化功能的割裂堆砌，确保构建具有内聚力的高品质平台。",
+        "whenToUse_zh": "适用于定义品牌长期价值主张、且需要深度架构完整性的“核心”产品领域（而非侧重实验性的增长领域）。",
+        "commonMistakes_zh": "强制要求每个功能都背 KPI；让 A/B 测试决定产品方向；为追求上线速度而牺牲技术架构。",
+        "realWorldExample_zh": "CSV 导入项目案例：团队并没有一味追求“快速上线”，而是与 Tobi 花时间深入辩论技术架构选型（采用开源方案还是内部自研库），因为“如何实现”直接关乎平台是否具备延续百年的生命力。",
+        "principles_zh": [
+          "原则优先级：1. 打造极致产品，2. 商业变现。切勿本末倒置。",
+          "技术实现决定战略：架构设计需为未来保留选择权。",
+          "“准入”机制：所有版本发布前，必须通过视频 Demo 由管理层（Glen/Tobi）进行视觉验收与审批。",
+          "重注核心：核心功能不做 A/B 测试；凭坚定信念打造百年基业级的解决方案。"
+        ],
+        "name_zh": "The Taste-Driven Core Model（品味驱动核心模型）"
       }
     ],
-    "filename": "Archie Abrams"
+    "filename": "Archie Abrams",
+    "episodeSummary_zh": "Archie Abrams 深入探讨了 Shopify 在增长和产品开发上的反共识策略，包括他们拒绝使用数据指标来制定核心产品决策、坚持百年的规划周期，以及为何通过优化流失率来最大化创业精神。"
   },
   {
     "guest": {
       "name": "Arielle Jackson",
       "title": "Marketer in Residence",
       "company": "First Round Capital",
-      "background": "Former marketing leader at Google (Gmail) and Square; Consultant for Patreon, Loom, Front, Eero."
+      "background": "Former marketing leader at Google (Gmail) and Square; Consultant for Patreon, Loom, Front, Eero.",
+      "background_zh": "曾任 Google (Gmail) 和 Square 市场负责人；Patreon、Loom、Front 和 Eero 顾问。"
     },
     "episodeSummary": "Arielle Jackson breaks down the foundational elements of startup marketing, focusing on a rigorous naming protocol, a three-part brand framework (Purpose, Positioning, Personality), and tactical advice for early-stage PR and hiring.",
     "methodologies": [
@@ -2211,7 +2872,19 @@
             "Visual Appearance / Length"
           ],
           "ratingScale": "Red / Yellow / Green"
-        }
+        },
+        "summary_zh": "一套严谨的筛选机制，旨在依据客观约束条件而非主观偏好，对脑暴产出的备选名称进行评估。",
+        "problemItSolves_zh": "防止创始人仅凭“直觉”命名，规避后续在法律、视觉或战略层面遭遇失败。",
+        "whenToUse_zh": "在头脑风暴环节产出 10-25 个候选名称清单之后。",
+        "commonMistakes_zh": "在确认商标可用性之前就对名字产生执念；选取盲目跟风的“时髦”名称，导致品牌迅速显得过时。",
+        "realWorldExample_zh": "Seesaw（极具意象感，契合教育中的往复互动） vs. Lattice（已淘汰，因易与 “Lettuce” 混淆）。",
+        "principles_zh": [
+          "避免盲目跟风“命名潮流”（如省略元音），确保名称具有持久生命力。",
+          "评估名称独特性，避免与竞品雷同。",
+          "尽早验证商标及域名的可用性（采用红/黄/绿风险评级）。",
+          "综合考量视觉呈现（对称性/字形结构）与听觉辨识度。"
+        ],
+        "name_zh": "The Seven-Criteria Naming Protocol（七项标准命名法则）"
       },
       {
         "name": "The 'Bar Test' Positioning Framework",
@@ -2236,7 +2909,19 @@
             "Step 3: The Explanation (Speak the Benefit + Category naturally)",
             "Step 4: The Validation (Does the friend nod, or ask 'What?')"
           ]
-        }
+        },
+        "summary_zh": "一种角色扮演演练，旨在确保定位陈述听起来像是自然的人际对话，而非生硬的企业黑话。",
+        "problemItSolves_zh": "从核心价值主张中剔除“营销套话”和晦涩难懂的 B2B 术语。",
+        "whenToUse_zh": "在拟定正式定位陈述之后，撰写官网文案之前。",
+        "commonMistakes_zh": "试图显得过于“高深”或“商务”，而非清晰直白；ADP 的“让夏天更有趣”活动就未能通过真实性检验。",
+        "realWorldExample_zh": "Square Stand：“把你的 iPad 变成收银机”（人话） vs. “撬动平板硬件以处理商户交易”（官方话术）",
+        "principles_zh": [
+          "产品定位必须足够通俗口语化，就像在酒吧给朋友介绍一样自然。",
+          "拒绝使用口语中不常说的词（如“撬动”、“赋能”）。",
+          "叙述结构：产品是什么 + 核心价值 + 差异化优势。",
+          "如果朋友反问“你这是什么意思？”，说明测试未通过。"
+        ],
+        "name_zh": "The 'Bar Test' Positioning Framework（“酒吧测试”定位框架）"
       },
       {
         "name": "The Brand Tension Star",
@@ -2273,7 +2958,19 @@
               "dont": "Basic"
             }
           ]
-        }
+        },
+        "summary_zh": "一种通过从 Aaker 五维模型中萃取两大主导特质，并构建基于张力的属性来定义品牌个性的框架。",
+        "problemItSolves_zh": "通过施加特定约束条件，防止品牌个性陷入同质化（例如“友善且乐于助人”这类泛泛之谈）。",
+        "whenToUse_zh": "在定义品牌的声音、语调及视觉形象时。",
+        "commonMistakes_zh": "罗列彼此兼容的形容词（例如“我们既可靠又聪明”），而非构建张力。",
+        "realWorldExample_zh": "劳力士（高雅/专业）vs. 激浪（粗犷/刺激）",
+        "principles_zh": [
+          "品牌需要「张力」才有趣；单纯的正面形象往往平庸乏味。",
+          "选定两个主导的「峰值」（例如：真诚 + 能力）。",
+          "采用公式定义品牌属性：「我们是 X，但绝非 Y」（其中 Y 代表 X 的负面极端）。",
+          "基于 Jennifer Aaker 的「品牌个性五大维度」模型。"
+        ],
+        "name_zh": "The Brand Tension Star（品牌张力星）"
       },
       {
         "name": "The Purpose Discovery Process",
@@ -2298,17 +2995,31 @@
           ],
           "result": "Brand Purpose (Why we exist)",
           "operator": "+"
-        }
+        },
+        "summary_zh": "通过寻找外部文化力量与内部产品真相的交集，来确立公司“北极星”的方法。",
+        "problemItSolves_zh": "让团队在十年愿景上达成对齐，并赋予客户坚定支持公司的理由。",
+        "whenToUse_zh": "公司初创期或品牌重塑阶段；区别于 18 个月周期的定位策略。",
+        "commonMistakes_zh": "将“宗旨”与“使命”、“愿景”或“价值观”混为一谈——只需确定一个清晰的宗旨陈述即可。",
+        "realWorldExample_zh": "LogicLoop：“让运营数据比运营人员更努力。”（张力：运营倦怠 vs. 真相：自动化）。",
+        "principles_zh": [
+          "使命（Purpose）是指超越财务回报的存在意义。",
+          "洞察“文化张力”（即 Zeitgeist/社会宏观现状）。",
+          "明确“品牌本真”（即产品实际交付的核心价值）。",
+          "结合二者，补全核心陈述：“我们的存在是为了……”"
+        ],
+        "name_zh": "The Purpose Discovery Process（使命探索流程）"
       }
     ],
-    "filename": "Arielle Jackson"
+    "filename": "Arielle Jackson",
+    "episodeSummary_zh": "Arielle Jackson 深度解析了初创企业的营销基石，重点涵盖严谨的命名法则、品牌三大支柱框架（使命、定位、调性），以及针对早期 PR 和招聘的实战建议。"
   },
   {
     "guest": {
       "name": "Asha Sharma",
       "title": "Corporate Vice President of Product, AI Platform",
       "company": "Microsoft",
-      "background": "Former COO at Instacart, VP of Product at Meta (Messenger/Instagram Direct), Early employee at Porch Group."
+      "background": "Former COO at Instacart, VP of Product at Meta (Messenger/Instagram Direct), Early employee at Porch Group.",
+      "background_zh": "Instacart 前 COO，Meta 产品副总裁（Messenger/Instagram Direct），Porch Group 早期员工。"
     },
     "episodeSummary": "Asha Sharma discusses the paradigm shift from building products as static artifacts to living organisms in the age of AI. She covers the rise of agentic workflows, the necessity of 'post-training' investment, and how Microsoft structures product planning amidst rapid technological change.",
     "methodologies": [
@@ -2335,7 +3046,19 @@
             "Execute 4-6 Week Squad Sprints",
             "Leave Slack for Disruption"
           ]
-        }
+        },
+        "summary_zh": "这是一套专为极速演进的 AI 时代打造的规划框架，旨在解决传统年度规划与僵化路线图失效的问题。它以基于行业结构性变革定义的「季节」取代固定时间线，确保团队在锁定北极星方向的同时，保持高度敏捷。",
+        "problemItSolves_zh": "当底层技术（如 GPT 模型）快速演进时，无法制定精准的长期路线图。",
+        "whenToUse_zh": "处于超高速增长或快速迭代的行业（如 AI），在此类环境中，半年的规划会迅速过时。",
+        "commonMistakes_zh": "固守僵化的年度计划；将产能排满至 100%，未给新模型能力预留空间。",
+        "realWorldExample_zh": "微软确立了“原型季”，随后进入“智能体季”，以此对齐数千名工程师的步调。",
+        "principles_zh": [
+          "基于长期宏观趋势识别当前的“季节”（例如“Agent 季节”）。",
+          "设定灵活的季度 OKR，为团队提供方向性指引。",
+          "以敏捷小组（Squad）为单位，围绕 4-6 周的目标推进执行。",
+          "刻意在系统中预留“余量”（Slack），以应对突发事项及创新的陡峭曲线。"
+        ],
+        "name_zh": "The Seasonal Planning Protocol（季度规划机制）"
       },
       {
         "name": "The Organism Conversion Loop",
@@ -2361,7 +3084,19 @@
             "Deploy & Observe",
             "Repeat"
           ]
-        }
+        },
+        "summary_zh": "不再将产品视为静态的“交付物”，而是转变为随使用不断进化的“有机体”。其核心机制是一套“新陈代谢”系统，通过摄入数据并消化奖励，从而自主优化产出结果。",
+        "problemItSolves_zh": "依赖人工手动更新才能迭代的静态软件；跟上智能边际成本趋近于零的趋势。",
+        "whenToUse_zh": "打造 AI 原生产品，利用用户交互数据直接微调模型性能。",
+        "commonMistakes_zh": "仅关注 UI/GUI 而忽视了数据回路；未能为该回路建立可观测性与评估机制。",
+        "realWorldExample_zh": "微软 Dragon（面向医生）通过将 60 万条经专家标注的交互数据反哺回模型，成功将采纳率从约 30%-60% 提升至 83%。",
+        "principles_zh": [
+          "将产品视为有生命的有机体，而非静态交付物。",
+          "设计“新陈代谢”机制：即产品摄取数据的速率。",
+          "搭建奖励模型（RLHF/Fine-tuning）以引导产出方向。",
+          "聚焦于从数据摄入到产出优化的闭环。"
+        ],
+        "name_zh": "The Organism Conversion Loop（有机体转化闭环）"
       },
       {
         "name": "The Platform Fundamentals Pyramid",
@@ -2385,17 +3120,31 @@
             "Middle: Matching Logic & Optimization Engine",
             "Top: Features, UI, & Pixels"
           ]
-        }
+        },
+        "summary_zh": "这套平台价值层级体系主张将“隐形工作”（基础设施）的优先级置于显性功能之上。成功的平台之所以胜出，首先在于其建立的可靠性与信任感，而非花哨的功能特性。",
+        "problemItSolves_zh": "资源错配于华而不实的功能，却忽视了驱动留存和用户信任的核心基建。",
+        "whenToUse_zh": "适用于构建大型平台、即时通讯应用或交易市场。",
+        "commonMistakes_zh": "误以为驱动平台成功的是“深色模式”或“表情贴纸”等功能，而非延迟、隐私或匹配逻辑。",
+        "realWorldExample_zh": "WhatsApp 胜在稳定性和加密技术；Porch 胜在匹配算法，而非房屋报告的 UI 界面。",
+        "principles_zh": [
+          "基础层：“不可见的工作”（可靠性、隐私、安全、数据驻留）。",
+          "中间层：优化与匹配（连接供需或输入/输出的核心引擎）。",
+          "顶层：功能与像素（用户可见的 UI 元素）。",
+          "平台的成败取决于底层的稳固程度，而非顶层的华丽表象。"
+        ],
+        "name_zh": "The Platform Fundamentals Pyramid（平台基础金字塔）"
       }
     ],
-    "filename": "Asha Sharma"
+    "filename": "Asha Sharma",
+    "episodeSummary_zh": "Asha Sharma 深度探讨了 AI 时代产品构建的范式变革：从打造静态制品转向培育动态有机体。她分析了智能体工作流（Agentic Workflows）的兴起、“后训练”阶段投入的必要性，以及微软如何在技术疾速变革的背景下构建产品规划体系。"
   },
   {
     "guest": {
       "name": "Austin Hay",
       "title": "Head of Marketing Technology",
       "company": "Ramp",
-      "background": "VP of Business Operations at Runway, VP of Growth at mParticle, early employee at Branch Metrics, Reforge Creator"
+      "background": "VP of Business Operations at Runway, VP of Growth at mParticle, early employee at Branch Metrics, Reforge Creator",
+      "background_zh": "Runway 商业运营副总裁，mParticle 增长副总裁，Branch Metrics 早期员工，Reforge 课程作者"
     },
     "episodeSummary": "Austin Hay demystifies the complex world of Marketing Technology (MarTech), explaining how to scale systems from startup to enterprise. He discusses the critical distinction between marketing ops and martech, offers a future-proof data schema for attribution in a post-cookie world, and shares mental models for decision-making and build/buy strategies.",
     "methodologies": [
@@ -2421,7 +3170,19 @@
             "Step 2: Identify People (Who are the stakeholders/owners?)",
             "Step 3: Design System (What tool/automation solves this?)"
           ]
-        }
+        },
+        "summary_zh": "一套循序渐进的诊断框架，旨在避免过早陷入工具选型的误区。它倒逼管理者在着手配置软件权限或启动采购流程之前，必须先明确核心问题及相关干系人。",
+        "problemItSolves_zh": "避免陷入“盲目追新”的误区及由此产生的技术债，杜绝试图通过采购工具来解决定义模糊的问题，或企图绕过必要的人工协作流程。",
+        "whenToUse_zh": "当团队成员申请引入新工具、索要管理权限以试图“修补”问题，或对失效流程进行复盘诊断时。",
+        "commonMistakes_zh": "在未厘清背景的情况下，直接跳到“系统”层面（例如：开通权限或采购软件）。",
+        "realWorldExample_zh": "销售经理希望实现入职流程自动化（Problem）。与其直接搭建自动化系统（System），你首先要确认 CRO 是否需要审批录用，或是否涉及必要的培训环节（People）。",
+        "principles_zh": [
+          "工具旨在解决问题；切勿从工具出发。",
+          "第一步，识别核心症结（Problem）。",
+          "第二步，厘清利益相关方与流程负责人（People）。",
+          "待前两者明确后，方可着手设计或调整技术方案（System）。"
+        ],
+        "name_zh": "The PPS (Problem-People-System) Diagnostic（PPS（问题-人-系统）诊断）"
       },
       {
         "name": "The Future-Proof Attribution Schema",
@@ -2466,7 +3227,20 @@
               ]
             }
           ]
-        }
+        },
+        "summary_zh": "一套数据采集策略，旨在从 Day 1 起搭建多触点归因（MTA）的基础设施，且无需在初期依赖昂贵的第三方工具。其核心在于聚焦“用户-对象”粒度的关键数据点采集。",
+        "problemItSolves_zh": "解决企业后期迁移至 MTA（多触点归因）时，因未沉淀必要的历史触点数据而导致的数据断层问题。",
+        "whenToUse_zh": "当为 B2C 或 B2B 网站搭建新的数据仓库、CDP 或规划埋点方案时。",
+        "commonMistakes_zh": "单纯依赖基于 Session 的 UTM 或第三方 Cookie，而未存储持久化的用户层级属性。",
+        "realWorldExample_zh": "用户通过 Google 广告访问（记录首次触点）。随后通过 Facebook 访问（更新末次触点）。数据仓库现已完整掌握用户旅程的起止两端。",
+        "principles_zh": [
+          "在数据接入点收集原始参数（UTMs, Click IDs）。",
+          "将数据存储在用户对象（User Object）层级，而非仅记录在事件（Event）中。",
+          "固化“首次”交互数据，保持其不可变更。",
+          "持续更新“末次”交互数据。",
+          "自主设计分类体系，切勿依赖工具的默认设置。"
+        ],
+        "name_zh": "The Future-Proof Attribution Schema（面向未来的归因体系）"
       },
       {
         "name": "The 'Build AND Buy' Hybrid Model",
@@ -2491,7 +3265,19 @@
           ],
           "operator": "+",
           "result": "Unique Competitive Advantage & Velocity"
-        }
+        },
+        "summary_zh": "对经典“自研还是外采（Build vs. Buy）”决策难题的重构。它摒弃了非此即彼的二元思维，主张直接采购 90% 的通用标准化方案，并将核心研发资源集中投入到剩余 10% 的定制化开发中，在此基础上构建独特的业务价值。",
+        "problemItSolves_zh": "避免工程团队浪费数年时间去重复建设像 A/B 测试引擎这样的通用工具，或采购那些僵化且无法适配具体业务需求的外部工具。",
+        "whenToUse_zh": "在评估 A/B 测试平台、CDP 或 CRM 等核心基建决策时。",
+        "commonMistakes_zh": "仅因单一功能需求就从零自研整套平台，或是采购了工具却不愿投入研发资源进行妥善集成。",
+        "realWorldExample_zh": "采购 split.io 作为底层 A/B 测试引擎（Buy），但同时自研一套适配公司特定工作流的定制化内部接口与报表层（Build）。",
+        "principles_zh": [
+          "避免陷入“自建还是外采”的二元对立陷阱。",
+          "外采核心基础设施（即通用化底层）。",
+          "自建定制化层（即核心竞争优势）。",
+          "建立“协同效应”：利用 API 深度用户的身份，促使供应商致力于支持你的业务成功。"
+        ],
+        "name_zh": "The 'Build AND Buy' Hybrid Model（“自研与外采”混合模式）"
       },
       {
         "name": "The 'Thinking Gray' Protocol",
@@ -2514,17 +3300,31 @@
           "endLabel": "Decision Execution (Necessary)",
           "middleLabel": "The 'Gray' Zone (Suspended Judgment & Data Collection)",
           "description": "A linear scale where the goal is to stay in the middle (Gray) as long as possible before moving to the end (Decision)."
-        }
+        },
+        "summary_zh": "源自 Steven B. Sample 的一种反直觉领导力哲学。它主张克制立即做出非黑即白（二元）决策的冲动，转而尽可能长时间地保持“灰度”（延缓判断）状态，以等待更优质的数据涌现。",
+        "problemItSolves_zh": "避免因急于下结论的焦虑，导致在招聘或系统架构中陷入过早优化与偏见。",
+        "whenToUse_zh": "在招聘面试（评估候选人）或复杂的系统架构决策中，特别是面对那些没有显而易见答案的场景。",
+        "commonMistakes_zh": "混淆了“决策果断”与“盲目求快”；仅凭第一印象或主观偏见，便对人选或工具妄下定论。",
+        "realWorldExample_zh": "面试候选人时，克制过早下达“喜欢”或“不喜欢”的定论，坚持在汇总所有面试数据之后再做决策。",
+        "principles_zh": [
+          "克制第一时间进行“好坏”或“是非”定性的冲动。",
+          "保持“灰度”状态：专注于收集事实，暂不预设结论。",
+          "仅在决策截止点倒逼时，才收敛为非黑即白的决断。",
+          "将此原则应用于人才（招聘）与系统（架构）层面。"
+        ],
+        "name_zh": "The 'Thinking Gray' Protocol（“灰度思考”法则）"
       }
     ],
-    "filename": "Austin Hay"
+    "filename": "Austin Hay",
+    "episodeSummary_zh": "Austin Hay 深度拆解了复杂的营销技术 (MarTech) 领域，阐述了如何实现系统从初创期到企业级的规模化扩展。他不仅剖析了 Marketing Ops 与 MarTech 之间的核心差异，还提出了一套面向「后 Cookie 时代」的归因数据架构，并分享了用于辅助决策及评估「自研 vs 采购」策略的思维模型。"
   },
   {
     "guest": {
       "name": "Ayo Omojola",
       "title": "Chief Product Officer",
       "company": "Carbon Health",
-      "background": "Former Cash App founding team member, co-created Cash Card, Angel Investor, Board Member at Pinwheel."
+      "background": "Former Cash App founding team member, co-created Cash Card, Angel Investor, Board Member at Pinwheel.",
+      "background_zh": "前 Cash App 创始团队成员，Cash Card 联合缔造者，天使投资人，Pinwheel 董事。"
     },
     "episodeSummary": "Ayo Omojola discusses the principles behind Cash App's massive success, emphasizing the need for true product differentiation beyond just being 'better.' He shares his philosophies on deep-dive validation ('Factory Floor'), navigating regulated industries, and his unique high-risk, high-reward strategy of hiring former founders to increase team density and output.",
     "methodologies": [
@@ -2551,7 +3351,18 @@
           ],
           "result": "Sustainable Product Success",
           "operator": "+"
-        }
+        },
+        "summary_zh": "这是一套用于评估产品是否具备真实市场潜力的框架。该方法论强调，仅仅做到“与众不同”或“渐进式改良”是远远不够的；产品必须具备鲜明的独特性、提供实质性的体验优势，并能解决用户最关切的核心痛点。",
+        "problemItSolves_zh": "避免开发出虽然设计精良，却无法获得市场牵引力的“艺术品”或“锦上添花”型产品。",
+        "whenToUse_zh": "在产品构思阶段，或为寻找产品市场匹配而进行转型时。",
+        "commonMistakes_zh": "仅关注差异化而缺乏实用性，或是试图为用户并不买账的“更优版本”索取溢价。",
+        "realWorldExample_zh": "Cash App vs. Venmo：Cash App 不仅仅是又一款普通的电子钱包；当竞品通常需要数天才能到账时，它提供了“即时”到账功能。这正是其关键的差异化优势。",
+        "principles_zh": [
+          "仅有“差异化”是不够的：容易被复制。",
+          "仅做到“更好”是不够的：往往只意味着更贵，或仅仅是渐进式的改良。",
+          "必须具备“关键性”：必须对终端用户至关重要（例如：资金实时到账）。"
+        ],
+        "name_zh": "The 'Different-Better-Critical' Triad（“差异化-更优-关键”铁三角）"
       },
       {
         "name": "The 'Factory Floor' Validation",
@@ -2577,7 +3388,19 @@
             "Step 4: Run rapid micro-experiments on variables",
             "Step 5: Verify result against physical/legal reality"
           ]
-        }
+        },
+        "summary_zh": "这是一种解决复杂执行难题的方法论。其核心在于绕过“专家”和中间代理，亲自掌握如物理定律、法规政策、制造工艺等底层约束。这要求必须深入“车间一线”，直接对关键变量进行测试与验证。",
+        "problemItSolves_zh": "突破那些看似“不可能”的卡点，即供应商或法务团队仅凭惯例而非客观事实，便断言无法执行的情况。",
+        "whenToUse_zh": "当创新因外部依赖、供应商限制或监管政策不明朗而陷入停滞时。",
+        "commonMistakes_zh": "将供应商的拒绝视为最终定论，或轻信对监管法规的笼统概括。",
+        "realWorldExample_zh": "**打造 Cash Card**：面对供应商寄来的不合格样品，Ayo 深入工厂一线，亲自测试了 1000 多种激光参数与塑料材质的组合，最终实现了理想的设计效果。",
+        "principles_zh": [
+          "专家往往基于经验惯性而非物理定律，给出“教条式”的答案。",
+          "必须追根究底，直到触及物理或法规的“硬边界”。",
+          "亲自对底层变量（如激光参数、具体法规条文）进行迭代。",
+          "执行负责人必须掌控一切细节。"
+        ],
+        "name_zh": "The 'Factory Floor' Validation（“车间”验证）"
       },
       {
         "name": "The 'Founder-Density' Hiring Model",
@@ -2620,17 +3443,31 @@
               "description": "Avoid."
             }
           ]
-        }
+        },
+        "summary_zh": "一种优先录用前创业者（包括创业失败者）而非传统企业背景候选人的招聘哲学。这一策略不追求员工的长期留任，而是用“稳定性”换取极致的主人翁精神、极速的执行力以及对形式主义的敏锐洞察力。",
+        "problemItSolves_zh": "解决大型组织中迭代缓慢、缺乏 Owner 意识以及官僚主义蔓延的问题。",
+        "whenToUse_zh": "当正在进行“内部创业”，或急需对新垂直业务进行激进扩张时。",
+        "commonMistakes_zh": "期望他们留任 4 年以上，或试图将其硬塞进僵化的岗位定义中。",
+        "realWorldExample_zh": "在 Carbon Health，Ayo 招聘了约 15% 的前创业者。他们显著提升了团队的产出效能，但也带来了较高的人员流失率，因为这些人最终会离职去再次创业。",
+        "principles_zh": [
+          "创始人往往兼具“冒充者综合症”与“极度渴望自证”的矛盾特质。",
+          "他们能迅速破除组织中的官僚主义，杜绝一切无谓内耗。",
+          "他们大概率会在两年左右离职，去开启下一个创业项目。",
+          "招聘需坚持“长期主义”：要在他们投递简历前，就先为其提供价值。"
+        ],
+        "name_zh": "The 'Founder-Density' Hiring Model（“创始人密度”招聘模型）"
       }
     ],
-    "filename": "Ayo Omojola"
+    "filename": "Ayo Omojola",
+    "episodeSummary_zh": "Ayo Omojola 探讨了 Cash App 巨大成功背后的原则，强调必须追求真正的产品差异化，而不仅仅是做得“更好”。他分享了关于深度验证（“车间一线”理论）和在强监管行业中突围的方法论，以及他那套独特的高风险高回报策略——通过招聘前创业者来提升团队的人才密度与产出效能。"
   },
   {
     "guest": {
       "name": "Bangaly Kaba",
       "title": "Director of Product Management",
       "company": "YouTube",
-      "background": "Former VP of Product at Instacart, Head of Growth at Instagram, Early Growth PM at Facebook. Started career in education as a teacher and dean."
+      "background": "Former VP of Product at Instacart, Head of Growth at Instagram, Early Growth PM at Facebook. Started career in education as a teacher and dean.",
+      "background_zh": "前 Instacart 产品副总裁，Instagram 增长负责人，Facebook 早期增长产品经理。职业生涯始于教育领域，曾任教师及教务长。"
     },
     "episodeSummary": "Bangaly Kaba joins Lenny to share his frameworks for career navigation and product leadership, drawing from his experience at YouTube, Instagram, Instacart, and Facebook. He breaks down his 'Impact Career Equation' for evaluating roles, the 'Understand Work' operating model for de-risking product bets, and the 'Adjacent User Theory' for driving sustained growth. He also discusses the '5-Box Change Diagnostic' for managing team culture and the importance of leadership as a coaching practice.",
     "methodologies": [
@@ -2656,7 +3493,19 @@
             "Identify (Opportunities & Root Causes)",
             "Execute (De-risked Solutions)"
           ]
-        }
+        },
+        "summary_zh": "一套优先深度理解问题而非急于确定方案的产品执行框架，旨在规避常见的“提出方案 -> 论证合理性 -> 落地执行”这一反模式，从而避免业务指标的增长停滞。",
+        "problemItSolves_zh": "防止团队基于主观假设或薄弱依据构建功能，避免最终无法驱动指标增长。",
+        "whenToUse_zh": "当团队在缺乏清晰根因分析的情况下急于堆砌功能，或尽管保持高交付节奏但产品指标却毫无起色时。",
+        "commonMistakes_zh": "为急于展示进展而跳过“理解”阶段；仅专注于执行工作；上线前未配置数据埋点。",
+        "realWorldExample_zh": "在 Instagram，团队投入了一个季度对注册漏斗进行数据埋点（即“理解现状”工作），而非盲目堆砌功能，从而发现了关键的用户流失节点。",
+        "principles_zh": [
+          "将“识别、论证、执行”模式替换为“理解、识别、执行”。",
+          "在产品路线图（Roadmap）中刻意为“理解性工作”（如数据埋点、用户调研）预留空间。",
+          "并行推进已知需求的执行落地与未知领域的探索理解。",
+          "前期适当放慢节奏，以换取后期的迭代提速与更高的产品胜率。"
+        ],
+        "name_zh": "The 'Understand Work' Operating Model（“理解工作”运作模式）"
       },
       {
         "name": "The Impact Career Equation",
@@ -2681,7 +3530,19 @@
             "Environment (Manager + Resources + Scope + Team + Culture)",
             "Skills (Communication + Strategy + Execution)"
           ]
-        }
+        },
+        "summary_zh": "一套决策框架，通过计算环境因素与个人技能的乘积来量化潜在影响力，从而客观评估职业机会及当前岗位。",
+        "problemItSolves_zh": "帮助专业人士突破职业瓶颈、权衡 Offer 选择，或诊断当前岗位表现不佳的根因。",
+        "whenToUse_zh": "适用于绩效考核、求职，或职业发展陷入瓶颈时。",
+        "commonMistakes_zh": "过度优化薪酬而非影响力；忽视“管理者”这一变量，殊不知它掌控着绝大多数的其他环境变量。",
+        "realWorldExample_zh": "Bangaly 借此意识到，尽管他在 Facebook 拥有一支卓越的团队，但业务范畴（Scope）和汇报关系的变动导致了一种局面，让他无法在避免职业倦怠的同时最大化自身影响力。",
+        "principles_zh": [
+          "影响力是应当优化的核心输入，薪酬则是随之而来的输出。",
+          "影响力 = 环境 × 技能。",
+          "环境变量：直属主管、资源、业务范围、团队、薪酬、文化。",
+          "技能变量：沟通能力、战略思维、执行力。"
+        ],
+        "name_zh": "The Impact Career Equation（影响力职业方程式）"
       },
       {
         "name": "The Adjacent User Theory",
@@ -2705,7 +3566,19 @@
             "Adjacent Users (Struggle with specific barriers)",
             "Future Market (Late Majority)"
           ]
-        }
+        },
+        "summary_zh": "一种增长策略，专注于识别并解决紧邻当前核心用户群的“相邻用户”问题——这类用户对产品已有认知，但因特定阻碍而难以顺利上手使用。",
+        "problemItSolves_zh": "在早期用户群体趋于饱和时维持增长；避免陷入仅为深度用户做设计的误区。",
+        "whenToUse_zh": "当同期群留存曲线出现下滑，或切入新市场及新人群时。",
+        "commonMistakes_zh": "- 错误地预设新用户与老用户画像一致\n- 忽视对“冷启动”体验的验证\n- 过度依赖核心用户的反馈",
+        "realWorldExample_zh": "Instagram 在印度的增长取决于对“相邻用户”的理解：这群用户依赖搜索“Amit Kumar”（姓名）而非个人资料元数据来建立联系，这一洞察促使团队调整了社交关系的呈现逻辑。",
+        "principles_zh": [
+          "爆发式增长会迅速改变用户画像。",
+          "核心用户体验良好，而相邻用户却举步维艰。",
+          "要实现增长，必须精准识别相邻用户圈层面临的具体障碍（如技能、设备或文化差异）。",
+          "模拟相邻用户的视角“吃狗粮”（如使用新账号或低端设备体验产品）。"
+        ],
+        "name_zh": "The Adjacent User Theory（相邻用户理论）"
       },
       {
         "name": "The 5-Box Change Diagnostic",
@@ -2735,17 +3608,33 @@
             "Resources",
             "Action Plan"
           ]
-        }
+        },
+        "summary_zh": "这是一套用于管理复杂组织变革的诊断工具。该模型认为，成功的变革需要具备五大关键要素；若缺失其中任何一项，都会导致特定的负面情绪症状。",
+        "problemItSolves_zh": "通过将表象症状映射至缺失的结构性要素，诊断团队在落地新战略或文化转型时受阻的根本原因。",
+        "whenToUse_zh": "接手新的领导职位，或需要扭转陷入困境的团队文化时。",
+        "commonMistakes_zh": "试图通过增加培训（技能层面）来解决“阻力”，而非修正激励机制；忽视团队的情绪信号。",
+        "realWorldExample_zh": "Bangaly 加入 YouTube 时发现，团队在“产品技艺”（技能）层面缺乏统一的心智模型。为此，他专门开发了一套课件体系，旨在填补这一认知空白并缓解团队焦虑。",
+        "principles_zh": [
+          "变革 = 愿景 + 技能 + 激励 + 资源 + 行动计划",
+          "缺乏愿景 → 困惑",
+          "缺乏技能 → 焦虑",
+          "缺乏激励 → 抵触",
+          "缺乏资源 → 挫败感",
+          "缺乏行动计划 → 原地空转"
+        ],
+        "name_zh": "The 5-Box Change Diagnostic（五盒变革诊断模型）"
       }
     ],
-    "filename": "Bangaly Kaba"
+    "filename": "Bangaly Kaba",
+    "episodeSummary_zh": "Bangaly Kaba 做客 Lenny 的节目，结合他在 YouTube、Instagram、Instacart 和 Facebook 的实战经验，分享了他在职业规划和产品领导力方面的核心框架。他深度拆解了用于评估职业机会的“职业影响力公式”（Impact Career Equation）、用于降低产品押注风险的“理解工作”（Understand Work）运营模型，以及驱动持续增长的“相邻用户理论”（Adjacent User Theory）。此外，他还探讨了用于管理团队文化的“5-Box 变革诊断法”，并强调了教练式领导力的重要性。"
   },
   {
     "guest": {
       "name": "Barbra Gago",
       "title": "Founder & CEO (Pando), former CMO (Miro)",
       "company": "Pando",
-      "background": "Expert in B2B SaaS hyper-growth, formerly VP Marketing at Greenhouse and Head of Marketing at CultureAmp. Led Miro's global rebrand and category creation."
+      "background": "Expert in B2B SaaS hyper-growth, formerly VP Marketing at Greenhouse and Head of Marketing at CultureAmp. Led Miro's global rebrand and category creation.",
+      "background_zh": "B2B SaaS 爆发式增长专家，曾任 Greenhouse 市场副总裁及 CultureAmp 市场负责人。主导了 Miro 的全球品牌重塑与新品类开创。"
     },
     "episodeSummary": "Barbra Gago joins Lenny to discuss the mechanics of category creation, the strategic process of rebranding a hyper-growth company, and the philosophy of building 'opinionated software' that enforces best practices to solve systemic business problems.",
     "methodologies": [
@@ -2774,7 +3663,19 @@
             "Competitive Proof: Are there competitors validating the need?",
             "Scope of Vision: Is the existing category too small for the product's potential?"
           ]
-        }
+        },
+        "summary_zh": "通过分析市场环境、用户心智及预算现状，系统性地评估并决策应当开创一个全新的品类，还是在既有品类中参与竞争。",
+        "problemItSolves_zh": "防止初创公司在缺乏真实市场需求时盲目投入资源开创新品类，或在拥挤的赛道中因无法实现差异化而失败。",
+        "whenToUse_zh": "当发布新产品或调整定位，需要在“颠覆”（开创新品类）与“改良”（现有品类）之间做出决策时。",
+        "commonMistakes_zh": "试图在没有任何竞品的情况下开创品类（竞品的存在恰恰验证了品类的可行性），或者忽略了用户寻找解决方案的真实路径。",
+        "realWorldExample_zh": "Greenhouse 曾试图打造“招聘优化”品类，但最终还是接受了“ATS”这一分类，因为企业的预算都在这里；Miro 开创了“可视化协作”品类，因为“在线白板”的市场体量太小。",
+        "principles_zh": [
+          "评估预算：买家是否有现成的预算科目？",
+          "分析语言：客户如何描述他们的痛点？",
+          "考察竞争：是否有竞品正在验证这一赛道？",
+          "分析师验证：G2 或 Gartner 是否认可这一品类？"
+        ],
+        "name_zh": "The Category Viability Audit（品类可行性评估）"
       },
       {
         "name": "The Agile Rebrand Protocol",
@@ -2801,7 +3702,19 @@
             "4. Asset & Legal Production (Operational)",
             "5. 'Leap of Faith' Launch (Execution)"
           ]
-        }
+        },
+        "summary_zh": "一套将品牌演进视为产品研发流程的品牌重塑框架，通过敏捷冲刺、跨职能小组和用户反馈闭环来驱动实施。",
+        "problemItSolves_zh": "通过在正式发布前确保组织对齐并获得客户认可，降低品牌重塑的高风险。",
+        "whenToUse_zh": "当公司名称或品牌形象限制了外界对其业务边界或发展潜力的认知时（例如：'RealtimeBoard' 听起来更像是一个单一功能，而非平台级产品）。",
+        "commonMistakes_zh": "任由市场部“闭门造车”，未能拉通全公司共识，或忽视原有品牌资产。",
+        "realWorldExample_zh": "Miro 从 RealtimeBoard 进行品牌重塑的案例，期间经历过 Logo 选用亮粉色还是黄色的激烈争论，最终团队决定保留黄色，以传承“便利贴”这一核心品牌资产。",
+        "principles_zh": [
+          "品牌产品化：采用敏捷 Sprint 和工单管理。",
+          "跨职能负责制：尽早引入法务、产品及销售团队。",
+          "用户参与：针对 Logo 和概念开展用户测试。",
+          "运气与信念：为切换上线期的突发状况做好准备。"
+        ],
+        "name_zh": "The Agile Rebrand Protocol（敏捷品牌重塑协议）"
       },
       {
         "name": "Opinionated Software Framework",
@@ -2827,17 +3740,21 @@
             "Enforced Rules (e.g., Structured Rubrics)",
             "Core Values (e.g., Candor, Anti-Bias)"
           ]
-        }
+        },
+        "summary_zh": "一种产品哲学，主张通过硬性规则强制贯彻特定的价值观与最佳实践，而非提供无限制的灵活性。",
+        "problemItSolves_zh": "解决因软件灵活性过高、纵容不良习惯延续而导致的系统性人为与组织偏差（如招聘偏见或低效反馈）。"
       }
     ],
-    "filename": "Barbra Gago"
+    "filename": "Barbra Gago",
+    "episodeSummary_zh": "Barbra Gago 做客本期节目，与 Lenny 深度探讨了品类开创的运作机制、超高速增长企业品牌重塑的战略路径，以及构建“有态度软件（Opinionated Software）”的产品哲学——即如何通过固化最佳实践来解决系统性业务难题。"
   },
   {
     "guest": {
       "name": "Ben Williams",
       "title": "VP of Product",
       "company": "Snyk",
-      "background": "Computer Science background, formerly at IBM Rational, CloudBees (DevOps startup), joined Snyk to build growth organization and developer experience."
+      "background": "Computer Science background, formerly at IBM Rational, CloudBees (DevOps startup), joined Snyk to build growth organization and developer experience.",
+      "background_zh": "拥有计算机科学背景，曾任职于 IBM Rational 和 CloudBees（DevOps 创业公司），后加入 Snyk 负责搭建增长体系与开发者体验。"
     },
     "episodeSummary": "Ben Williams discusses Snyk's evolution from a niche developer tool to an $8.6B security giant. He details the transition from pure product-led growth (PLG) to a hybrid model with product-led sales (PLS), emphasizing the importance of starting narrow and deep. The conversation covers structuring growth teams, creating effective loops, defining activation milestones, and frameworks for crafting vision and mission statements.",
     "methodologies": [
@@ -2864,7 +3781,19 @@
             "Validate: Prove Retention/PMF",
             "Expand: Add Breadth & Enterprise Governance"
           ]
-        }
+        },
+        "summary_zh": "一种市场切入策略，主张优先针对细分群体深度解决特定痛点，随后再拓展至更广泛的使用场景或企业级管控领域。",
+        "problemItSolves_zh": "防止初创公司过早将战线铺得太广，导致价值稀释，难以找到产品市场匹配。",
+        "whenToUse_zh": "寻求初期市场牵引力和留存的早期创业公司或新产品线。",
+        "commonMistakes_zh": "试图一开始就支持所有编程语言或生态系统；在赢得开发者喜爱之前，就急于构建企业级治理功能。",
+        "realWorldExample_zh": "Snyk 起步时仅聚焦于 Node.js 开发者群体，提供开源包检测服务。直到积累了约 5,000 名免费用户并验证了高留存表现后，才开始拓展对其他语言的支持或开发企业级功能。",
+        "principles_zh": [
+          "锁定极度细分的用户画像与使用场景（例如：使用开源组件的 Node.js 开发者）。",
+          "深度解决单一使用场景以验证价值（例如：发现漏洞）。",
+          "基于该细分领域的留存数据，验证产品市场匹配。",
+          "只有在深度夯实之后，再进行广度扩展（如支持更多语言、企业级功能）。"
+        ],
+        "name_zh": "The Depth-First PLG Wedge（深度优先 PLG 切入策略）"
       },
       {
         "name": "The Nirvana Vision Framework",
@@ -2887,7 +3816,19 @@
             "TOP: Vision (The Nirvana State - 'In the Future...')",
             "BASE: Mission (The Method - 'How we get there')"
           ]
-        }
+        },
+        "summary_zh": "这是一个用于区分“愿景”与“使命”以拉齐团队认知的框架。愿景描绘的是一种中立的未来状态，而使命则定义了公司实现这一未来的具体路径。",
+        "problemItSolves_zh": "为团队厘清“Why”和“How”，规避无法指导决策的模糊战略陈述。",
+        "whenToUse_zh": "制定或刷新公司战略，或为子团队（如增长团队）确立具体的业务方向时。",
+        "commonMistakes_zh": "在愿景声明中包含产品名称；愿景设定过于短期。",
+        "realWorldExample_zh": "Snyk 增长愿景：“每一位开发者都能安全地释放创造力。”\n使命：“通过无摩擦的自助式采用，将每一位开发者连接到 Snyk 平台的价值。”",
+        "principles_zh": [
+          "愿景：展望 5-10 年后的“终极理想状态”，描述中完全不涉及公司或具体产品。",
+          "愿景约束：必须锚定目标市场，但不得预设解决方案。",
+          "使命：为实现愿景所采取的持续迭代路径或方法论。",
+          "使命约束：必须承载独特的差异化优势。"
+        ],
+        "name_zh": "The Nirvana Vision Framework（涅槃愿景框架）"
       },
       {
         "name": "The Impact and Learnings Ritual",
@@ -2913,7 +3854,19 @@
             "Group Socialization (Monthly)",
             "Apply to New Hypotheses"
           ]
-        }
+        },
+        "summary_zh": "一套结构化的例会机制，旨在向全组织同步实验数据与复盘心得，打破增长团队内部的信息孤岛，确保核心洞察在全公司范围内充分共享。",
+        "problemItSolves_zh": "消除“经验孤岛”，防止过往实验的成败得失被遗忘，同时助力销售与 GTM 团队深入洞察用户行为。",
+        "whenToUse_zh": "各独立增长小组每周进行；整个增长大团队每月进行。",
+        "commonMistakes_zh": "将会议用于汇报功能上线进度，而非复盘所获认知。",
+        "realWorldExample_zh": "Snyk 每周由 PM 主导复盘“影响力与经验”文档，随后由总监主持月度会议，向全公司同步关键洞察。",
+        "principles_zh": [
+          "每周在共享文档中持续沉淀复盘心得。",
+          "会议应聚焦探讨复盘结论的指导意义，而非单纯同步进度。",
+          "每月汇总各团队的复盘成果，进行部门级评审。",
+          "向销售、市场及核心产研团队同步关键洞察。"
+        ],
+        "name_zh": "The Impact and Learnings Ritual（成效与复盘仪式）"
       },
       {
         "name": "The Freemium Boundary Heuristic",
@@ -2942,10 +3895,23 @@
             "High Cost-to-Serve Items",
             "Business Critical Scale (SSO/Reporting)"
           ]
-        }
+        },
+        "summary_zh": "一套用于界定功能应归属于免费版还是付费版的决策逻辑，旨在增长飞轮与企业价值获取之间寻求平衡。",
+        "problemItSolves_zh": "解决过度释放价值（蚕食付费转化）与价值供给不足（抑制用户增长）之间的矛盾。",
+        "whenToUse_zh": "设计或迭代 PLG 产品的包装与定价档位。",
+        "commonMistakes_zh": "将驱动病毒传播的功能设为付费门槛；将高服务成本的功能放入免费层级；预设试用期时长必须固定不变。",
+        "realWorldExample_zh": "Snyk 将面向开发者的漏洞修复功能保持免费（以此驱动产品采纳和增长飞轮），但对规模化的报告、用户管理及治理管控功能收费。",
+        "principles_zh": [
+          "免费版：聚焦于能推动增长飞轮（Growth Loop）且服务成本较低的功能。",
+          "付费版：解决管理管控、合规性、核心业务规模化需求或具备高服务成本的功能。",
+          "试用策略：利用试用期支持用户限时评估付费功能，需定期复盘限制维度的合理性（是用量限制还是时长限制）。",
+          "持续迭代：随着产品趋于成熟，持续审视并挑战免费与付费的划分边界。"
+        ],
+        "name_zh": "The Freemium Boundary Heuristic（免费增值边界启发法）"
       }
     ],
-    "filename": "Ben Williams"
+    "filename": "Ben Williams",
+    "episodeSummary_zh": "Ben Williams 深度解析了 Snyk 如何从一款垂直领域的开发者工具，演变为估值 86 亿美元的安全行业巨头。他详细复盘了 Snyk 从纯 PLG（产品驱动增长）模式向融合 PLS（产品驱动销售）的混合模式转型的过程，并特别强调了早期“单点突破、做深做透”的重要性。此外，本期内容还涵盖了增长团队搭建、打造高效增长飞轮、定义关键激活里程碑，以及制定愿景与使命的实战框架。"
   },
   {
     "guest": {
@@ -9605,6 +10571,19 @@
             "Step 5: The Proof (Evidence)"
           ]
         },
+        "summary_zh": "一种用叙事弧线取代功能堆砌的框架。它通过确立市场洞察为产品构建语境，指出维持现状的失效，并最终顺理成章地推出产品，将其定义为解决特定问题的唯一合理解法。",
+        "problemItSolves_zh": "避免客户产生“那又怎样”的反应，即解决客户虽然理解功能特性，却无法感知其核心价值或紧迫性的问题。",
+        "whenToUse_zh": "销售沟通、产品演示，以及构建官网核心传播讯息时。",
+        "commonMistakes_zh": "宣讲开场直奔产品/功能；未能正视竞品或现状。",
+        "realWorldExample_zh": "Help Scout 不仅仅将自己定位为一款支持工具，而是立足于“客户成功是增长驱动力”这一核心洞察，这与将客服视为“成本中心”的竞品形成了鲜明对比。",
+        "principles_zh": [
+          "从市场洞察/变革切入（构建背景）",
+          "定义现状/现有替代方案（树立“反派”）",
+          "突显现状的落差/痛点",
+          "待痛点激化后，引入解决方案（“英雄”登场）",
+          "提供实证（达成闭环）"
+        ],
+        "name_zh": "The Dunford Pitch Narrative（邓福德推介叙事）",
         "_source_episode": "April Dunford 2.0"
       },
       {
@@ -9633,6 +10612,19 @@
             "Stage 5: Market Category (The Context)"
           ]
         },
+        "summary_zh": "一套五步“萃取”流程，旨在透过竞争替代品的视角筛选产品能力，从而提炼出真正的差异化价值并锁定最契合的市场品类。",
+        "problemItSolves_zh": "消除模糊、主观臆断的定位（例如“我们是某某领域的 Uber”），推动全公司围绕基于事实的差异化优势实现认知对齐。",
+        "whenToUse_zh": "当产品被误解、销售线索（Leads）感到困惑，或正处于战略转型/重新定位阶段。",
+        "commonMistakes_zh": "从“用户为什么喜欢我们”切入（会导致确认偏误），或是忽视了“维持现状”也是竞争对手。",
+        "realWorldExample_zh": "Postman 从测试工具转型为“API 平台”——这一品类定位使其价值显而易见。",
+        "principles_zh": [
+          "产品定位必须锚定于竞争性替代方案（包括电子表格或人工操作）。",
+          "唯有与替代方案形成差异化的产品能力，才具备实际意义。",
+          "价值是将产品功能转化为对用户“有何意义（So What）”的解读。",
+          "最佳适配客户的定义，取决于谁最看重这一特定的价值。",
+          "市场品类构建了一种语境，旨在让产品价值显而易见。"
+        ],
+        "name_zh": "The Differentiated Value Extraction（差异化价值萃取）",
         "_source_episode": "April Dunford 2.0"
       },
       {
@@ -9669,6 +10661,19 @@
             }
           ]
         },
+        "summary_zh": "这套方法论旨在攻克导致 40% 丢单率的“搁置决策”难题。通过为客户方的内部推手（Champion）提供一套清晰的市场分类框架，使其能够将竞品归类为“虽有价值但不适合我们”的范畴，从而赋能推手向经济决策人（Economic Buyer）有力论证选择该特定方案的合理性。",
+        "problemItSolves_zh": "因买方陷入决策瘫痪，或无法向上级论证采购价值，导致败给“不做决策”或“维持现状”的输单损失。",
+        "whenToUse_zh": "处于极度拥挤的赛道（如 CRM、MarTech），客户难以从众多位于“右上角象限”的头部竞品中做出区分。",
+        "commonMistakes_zh": "为所有干系人（如 IT、法务等）建立画像，而非聚焦于关键倡导者；假装竞品不存在。",
+        "realWorldExample_zh": "向买家解释：“方案 A 针对的是超大型企业，方案 B 适用于微型初创团队；但如果您是一家中型高增长企业，您正需要我们的专项能力。”",
+        "principles_zh": [
+          "面对海量选项，客户往往感到不知所措，且极度恐惧决策失误。",
+          "供应商必须提供一套市场心智模型（即阐明“市场格局如何划分”）。",
+          "明确界定竞品的适用场景（如“仅适合传统企业”），从而针对目标买家将竞品“排除出局”。",
+          "聚焦核心，全力赋能“内部推手（Champion）”画像，由其在组织内部传递价值。",
+          "产品定位必须成为买家进行“决策合理化”的有力工具。"
+        ],
+        "name_zh": "The Indecision-Killer Protocol（犹豫终结法则）",
         "_source_episode": "April Dunford 2.0"
       },
       {
@@ -9695,6 +10700,17 @@
             "5. Market Category: Define the context/market where this value is obvious to these customers."
           ]
         },
+        "summary_zh": "这是一套从竞争性替代方案（而非产品本身）切入的系统化定位推导流程。其逻辑闭环依次为：先明确你要打败什么（替代方案），再梳理你拥有什么（独特属性），进而推导这能实现什么价值（价值主张），锁定谁会关注（目标客群），最终界定所处的市场语境（市场类别）。",
+        "problemItSolves_zh": "避免团队目标对齐出现偏差，以及价值主张模糊导致无法引起客户共鸣。",
+        "whenToUse_zh": "当产品转化遇到瓶颈、处于战略转型期，或各部门对产品的描述不一致时。",
+        "commonMistakes_zh": "先定市场品类；忽视“现状”（如电子表格/实习生人力）这一竞对。",
+        "realWorldExample_zh": "Help Scout：避开了拥挤的“客户支持软件”赛道，选择与“事务型支持工具”（Zendesk）进行差异化对标，面向电商品牌主打“客服即增长驱动力”的定位。",
+        "principles_zh": [
+          "定位是一项团队运动（销售、市场、产品、客户成功及 CEO 均需参与）。",
+          "切勿以“用户为何喜爱我们”作为起点（过于主观）。",
+          "差异化的定义必须以“现状”或“入围竞品”为参照。"
+        ],
+        "name_zh": "The 5-Component Positioning Method（五要素定位法）",
         "_source_episode": "April Dunford"
       },
       {
@@ -9719,6 +10735,17 @@
             "Tertiary: The Buying Committee (IT, Legal, End Users - Barriers to clear)"
           ]
         },
+        "summary_zh": "这是对传统 B2B 用户画像（如“IT 人员 Eric”）的批判。该策略主张，在复杂的 B2B 交易中，初期唯一至关重要的画像是“关键拥护者（Champion）”——即那个肩负解决问题重任的人。市场营销应完全聚焦于“武装”这位拥护者，助其向其他利益相关者进行内部销售。",
+        "problemItSolves_zh": "浪费营销资源为仅在交易收尾阶段才介入的利益相关者（如法务或 IT）构建详尽却无关的用户画像。",
+        "whenToUse_zh": "在定义 B2B 企业软件或涉及复杂销售周期的目标客群时。",
+        "commonMistakes_zh": "构建基于“性格特征”的画像（例如“喜欢电子游戏”），而非基于角色的动机。",
+        "realWorldExample_zh": "一位负责 CRM 选型的销售运营经理（John），他就是所谓的“内部倡导者”（Champion）。他需要向 VP（即“经济决策人”）论证决策的合理性，并获得 IT 部门的最终签批。",
+        "principles_zh": [
+          "B2B 采购决策通常涉及 5-7 人，但这并不意味着你需要构建 7 个用户画像。",
+          "关键倡导者（Champion）既是把关人，也是你在客户内部的销售推手。",
+          "产品定位必须优先与关键倡导者产生共鸣，才有可能进入采购短名单。"
+        ],
+        "name_zh": "The Champion-First Persona Strategy（拥护者优先画像策略）",
         "_source_episode": "April Dunford"
       },
       {
@@ -9752,6 +10779,17 @@
             }
           ]
         },
+        "summary_zh": "这是一个关于初创公司定位演进的隐喻。早期创业公司应设定一个“宽泛”的定位假设（类似“广撒网”），以此来验证市场的真实反馈（看捞上来的是什么“鱼”）。只有在通过模式识别搞清楚了“谁在买”以及“为什么买”之后，才应该收紧定位（转为精准捕捞的“金枪鱼网”）。",
+        "problemItSolves_zh": "防止早期初创团队在缺乏数据验证的情况下，过早将自己锁定在错误的市场赛道上。",
+        "whenToUse_zh": "种子期或产品市场匹配前阶段；推出创新技术时。",
+        "commonMistakes_zh": "过早收窄产品定位；当其他细分市场表现出兴趣时，拒绝灵活调整。",
+        "realWorldExample_zh": "Segway：失败归因于拒绝进行精准定位（到底是走人行道还是机动车道？），导致定位长期过于宽泛。反观 Magic Leap，虽然起步宽泛（主打“黑科技”），但随后收敛并聚焦于 B2B 制造业。",
+        "principles_zh": [
+          "达成 PMF 前的产品定位，本质上只是一种假设。",
+          "让市场牵引你找到最契合的应用场景。",
+          "过早收窄定位会导致错失真正的最佳市场（例如：原计划捕捞金枪鱼，实则真正的收获却是石斑鱼）。"
+        ],
+        "name_zh": "The Fishing Net Thesis（渔网理论）",
         "_source_episode": "April Dunford"
       }
     ],

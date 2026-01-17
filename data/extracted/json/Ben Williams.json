@@ -3,7 +3,8 @@
     "name": "Ben Williams",
     "title": "VP of Product",
     "company": "Snyk",
-    "background": "Computer Science background, formerly at IBM Rational, CloudBees (DevOps startup), joined Snyk to build growth organization and developer experience."
+    "background": "Computer Science background, formerly at IBM Rational, CloudBees (DevOps startup), joined Snyk to build growth organization and developer experience.",
+    "background_zh": "拥有计算机科学背景，曾任职于 IBM Rational 和 CloudBees（DevOps 创业公司），后加入 Snyk 负责搭建增长体系与开发者体验。"
   },
   "episodeSummary": "Ben Williams discusses Snyk's evolution from a niche developer tool to an $8.6B security giant. He details the transition from pure product-led growth (PLG) to a hybrid model with product-led sales (PLS), emphasizing the importance of starting narrow and deep. The conversation covers structuring growth teams, creating effective loops, defining activation milestones, and frameworks for crafting vision and mission statements.",
   "methodologies": [
@@ -30,7 +31,19 @@
           "Validate: Prove Retention/PMF",
           "Expand: Add Breadth & Enterprise Governance"
         ]
-      }
+      },
+      "summary_zh": "一种市场切入策略，主张优先针对细分群体深度解决特定痛点，随后再拓展至更广泛的使用场景或企业级管控领域。",
+      "problemItSolves_zh": "防止初创公司过早将战线铺得太广，导致价值稀释，难以找到产品市场匹配。",
+      "whenToUse_zh": "寻求初期市场牵引力和留存的早期创业公司或新产品线。",
+      "commonMistakes_zh": "试图一开始就支持所有编程语言或生态系统；在赢得开发者喜爱之前，就急于构建企业级治理功能。",
+      "realWorldExample_zh": "Snyk 起步时仅聚焦于 Node.js 开发者群体，提供开源包检测服务。直到积累了约 5,000 名免费用户并验证了高留存表现后，才开始拓展对其他语言的支持或开发企业级功能。",
+      "principles_zh": [
+        "锁定极度细分的用户画像与使用场景（例如：使用开源组件的 Node.js 开发者）。",
+        "深度解决单一使用场景以验证价值（例如：发现漏洞）。",
+        "基于该细分领域的留存数据，验证产品市场匹配。",
+        "只有在深度夯实之后，再进行广度扩展（如支持更多语言、企业级功能）。"
+      ],
+      "name_zh": "The Depth-First PLG Wedge（深度优先 PLG 切入策略）"
     },
     {
       "name": "The Nirvana Vision Framework",
@@ -53,7 +66,19 @@
           "TOP: Vision (The Nirvana State - 'In the Future...')",
           "BASE: Mission (The Method - 'How we get there')"
         ]
-      }
+      },
+      "summary_zh": "这是一个用于区分“愿景”与“使命”以拉齐团队认知的框架。愿景描绘的是一种中立的未来状态，而使命则定义了公司实现这一未来的具体路径。",
+      "problemItSolves_zh": "为团队厘清“Why”和“How”，规避无法指导决策的模糊战略陈述。",
+      "whenToUse_zh": "制定或刷新公司战略，或为子团队（如增长团队）确立具体的业务方向时。",
+      "commonMistakes_zh": "在愿景声明中包含产品名称；愿景设定过于短期。",
+      "realWorldExample_zh": "Snyk 增长愿景：“每一位开发者都能安全地释放创造力。”\n使命：“通过无摩擦的自助式采用，将每一位开发者连接到 Snyk 平台的价值。”",
+      "principles_zh": [
+        "愿景：展望 5-10 年后的“终极理想状态”，描述中完全不涉及公司或具体产品。",
+        "愿景约束：必须锚定目标市场，但不得预设解决方案。",
+        "使命：为实现愿景所采取的持续迭代路径或方法论。",
+        "使命约束：必须承载独特的差异化优势。"
+      ],
+      "name_zh": "The Nirvana Vision Framework（涅槃愿景框架）"
     },
     {
       "name": "The Impact and Learnings Ritual",
@@ -79,7 +104,19 @@
           "Group Socialization (Monthly)",
           "Apply to New Hypotheses"
         ]
-      }
+      },
+      "summary_zh": "一套结构化的例会机制，旨在向全组织同步实验数据与复盘心得，打破增长团队内部的信息孤岛，确保核心洞察在全公司范围内充分共享。",
+      "problemItSolves_zh": "消除“经验孤岛”，防止过往实验的成败得失被遗忘，同时助力销售与 GTM 团队深入洞察用户行为。",
+      "whenToUse_zh": "各独立增长小组每周进行；整个增长大团队每月进行。",
+      "commonMistakes_zh": "将会议用于汇报功能上线进度，而非复盘所获认知。",
+      "realWorldExample_zh": "Snyk 每周由 PM 主导复盘“影响力与经验”文档，随后由总监主持月度会议，向全公司同步关键洞察。",
+      "principles_zh": [
+        "每周在共享文档中持续沉淀复盘心得。",
+        "会议应聚焦探讨复盘结论的指导意义，而非单纯同步进度。",
+        "每月汇总各团队的复盘成果，进行部门级评审。",
+        "向销售、市场及核心产研团队同步关键洞察。"
+      ],
+      "name_zh": "The Impact and Learnings Ritual（成效与复盘仪式）"
     },
     {
       "name": "The Freemium Boundary Heuristic",
@@ -108,8 +145,21 @@
           "High Cost-to-Serve Items",
           "Business Critical Scale (SSO/Reporting)"
         ]
-      }
+      },
+      "summary_zh": "一套用于界定功能应归属于免费版还是付费版的决策逻辑，旨在增长飞轮与企业价值获取之间寻求平衡。",
+      "problemItSolves_zh": "解决过度释放价值（蚕食付费转化）与价值供给不足（抑制用户增长）之间的矛盾。",
+      "whenToUse_zh": "设计或迭代 PLG 产品的包装与定价档位。",
+      "commonMistakes_zh": "将驱动病毒传播的功能设为付费门槛；将高服务成本的功能放入免费层级；预设试用期时长必须固定不变。",
+      "realWorldExample_zh": "Snyk 将面向开发者的漏洞修复功能保持免费（以此驱动产品采纳和增长飞轮），但对规模化的报告、用户管理及治理管控功能收费。",
+      "principles_zh": [
+        "免费版：聚焦于能推动增长飞轮（Growth Loop）且服务成本较低的功能。",
+        "付费版：解决管理管控、合规性、核心业务规模化需求或具备高服务成本的功能。",
+        "试用策略：利用试用期支持用户限时评估付费功能，需定期复盘限制维度的合理性（是用量限制还是时长限制）。",
+        "持续迭代：随着产品趋于成熟，持续审视并挑战免费与付费的划分边界。"
+      ],
+      "name_zh": "The Freemium Boundary Heuristic（免费增值边界启发法）"
     }
   ],
-  "filename": "Ben Williams"
+  "filename": "Ben Williams",
+  "episodeSummary_zh": "Ben Williams 深度解析了 Snyk 如何从一款垂直领域的开发者工具，演变为估值 86 亿美元的安全行业巨头。他详细复盘了 Snyk 从纯 PLG（产品驱动增长）模式向融合 PLS（产品驱动销售）的混合模式转型的过程，并特别强调了早期“单点突破、做深做透”的重要性。此外，本期内容还涵盖了增长团队搭建、打造高效增长飞轮、定义关键激活里程碑，以及制定愿景与使命的实战框架。"
 }

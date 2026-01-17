@@ -3,7 +3,8 @@
     "name": "Andrew Wilkinson",
     "title": "Co-founder and CEO",
     "company": "Tiny",
-    "background": "Co-founder of Metalab and Tiny (often called the Berkshire Hathaway of the internet), which owns over 40 profitable businesses including Dribble, AeroPress, and Letterboxd."
+    "background": "Co-founder of Metalab and Tiny (often called the Berkshire Hathaway of the internet), which owns over 40 profitable businesses including Dribble, AeroPress, and Letterboxd.",
+    "background_zh": "Metalab 和 Tiny 联合创始人（Tiny 常被誉为“互联网界的伯克希尔·哈撒韦”），旗下拥有包括 Dribble、AeroPress 和 Letterboxd 在内的 40 多家盈利企业。"
   },
   "episodeSummary": "Andrew Wilkinson discusses his journey from barista to building a holding company worth hundreds of millions. He shares frameworks for selecting startup ideas by avoiding hyper-competitive markets, his philosophy on 'lazy leadership' to scale businesses without burnout, and the specific criteria Tiny uses to acquire 'un-mess-up-able' companies. He also dives into the impact of AI on knowledge work and his personal journey with wealth, happiness, and mental health.",
   "methodologies": [
@@ -47,7 +48,18 @@
             "description": "Low Fish / High Fishermen (Bad Business Models)"
           }
         ]
-      }
+      },
+      "summary_zh": "源自查理·芒格的战略思想，建议创业者避开竞争白热化的“拥挤池塘”，转而寻找需求旺盛但竞争稀缺的细分赛道（即“林中池塘”）。",
+      "problemItSolves_zh": "避免首次创业者因进入饱和市场而折戟，在这些市场中，激烈的竞争会将利润空间挤压殆尽。",
+      "whenToUse_zh": "处于初创企业的创意构思阶段，或商业模式转型期间。",
+      "commonMistakes_zh": "在一个前人屡屡折戟的市场中，盲目认为“我能做得更好”（例如：毫无经验却去开餐馆或酒吧）。",
+      "realWorldExample_zh": "Andrew 的朋友选择做餐厅隔油池清理生意（高需求、低竞争），而非直接开餐厅（高竞争、低毛利）。",
+      "principles_zh": [
+        "避免“健身房”心态：切忌起步阶段就试图硬拉 300 磅（直接正面硬刚行业巨头）。",
+        "忽略“酷”因素：相比咖啡馆、AI 等“酷”赛道，害虫防治、政府填表这类“枯燥”业务往往拥有更优的供需竞争比。",
+        "寻找“不公平优势”：切入那些能充分撬动你独特技能或资产的领域，建立起步优势。"
+      ],
+      "name_zh": "Fish Where the Fish Are（择地而渔）"
     },
     {
       "name": "Lazy Leadership",
@@ -72,7 +84,19 @@
           "Phase 3: Delegate (Hire for the 'grind' tasks)",
           "Phase 4: The Business (Founder focuses only on 'Superpower' areas)"
         ]
-      }
+      },
+      "summary_zh": "一种致力于成为“任务绝缘体”的管理哲学。其目标是极力从具体执行事务中抽身，将一份单纯的“工作”转化为可规模化的“事业”。",
+      "problemItSolves_zh": "防止创始人倦怠，避免陷入“只是给自己创造了一份工作，而非构建一项资产”的陷阱。",
+      "whenToUse_zh": "当独立创业项目初具规模，创始人开始疲于应对繁杂的履约交付工作时。",
+      "commonMistakes_zh": "固守“新教工作伦理”，创始人误以为只有亲自下场干脏活累活，才能确立自身价值的正当性。",
+      "realWorldExample_zh": "一家高压清洗公司案例：创始人起初亲自下场清洗车道，一旦日均销售线索达到 10 条，立即雇佣专人负责清洗交付，自己则完全聚焦于销售。",
+      "principles_zh": [
+        "识别“苦活”：找出那些你厌恶或低撬动率（Low-leverage）的任务。",
+        "规模化放权：将营收增长至足以雇人处理机械性劳动的水平。",
+        "打造“不粘”体质：确保任务能从你身上滑落，并落实到员工或系统上。",
+        "聚焦“超能力”：只做你热爱且高价值的工作（如销售/市场）。"
+      ],
+      "name_zh": "Lazy Leadership（懒人领导力）"
     },
     {
       "name": "The Tiny Acquisition Moat",
@@ -106,8 +130,21 @@
             "description": "Painful to leave, though less consumer-friendly (e.g., Salesforce)"
           }
         ]
-      }
+      },
+      "summary_zh": "Tiny 用于筛选具备长期韧性且“难以搞砸”的业务的标准。他们寻找的是结构性优势，旨在保护业务免受竞争对手侵蚀及管理失误的影响。",
+      "problemItSolves_zh": "通过剔除那些严重依赖特定明星创始人或完美执行力的脆弱业务，降低投资风险。",
+      "whenToUse_zh": "在评估收购标的，或研判初创企业的长期生存能力时。",
+      "commonMistakes_zh": "基于“潜力”去收购一家亟待业务重组（Turnaround）的公司，或者收购一家虽然切换成本高但用户极度反感的公司（长期来看，这种护城河不堪一击）。",
+      "realWorldExample_zh": "Letterboxd（网络效应护城河：用户因社交关系链和历史数据沉淀而难以迁移）vs. 普通代理机构（无护城河：切换成本极低）。",
+      "principles_zh": [
+        "极简性：业务模式不应依赖“天才级”的管理能力才能维持生存。",
+        "定价权：具备在不流失客户的前提下提升价格的能力。",
+        "用户粘性：构建高迁移成本，建立用户流失壁垒。",
+        "规避复杂：避免涉足那些靠“缝缝补补”勉强支撑的脆弱业务。"
+      ],
+      "name_zh": "The Tiny Acquisition Moat（微型获客护城河）"
     }
   ],
-  "filename": "Andrew Wilkinson"
+  "filename": "Andrew Wilkinson",
+  "episodeSummary_zh": "Andrew Wilkinson 讲述了他从咖啡师起步，最终打造出一家估值数亿美金控股公司的创业历程。他分享了通过避开红海市场来筛选创业方向的决策框架，阐述了如何在避免职业倦怠的前提下利用“懒人领导力”实现业务规模化，并详细披露了 Tiny 控股用于收购那些“几乎不可能搞砸”的公司的具体标准。此外，他还深度剖析了 AI 对知识型工作的影响，并坦诚分享了关于财富、幸福感及心理健康的心路历程。"
 }

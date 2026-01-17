@@ -3,7 +3,8 @@
     "name": "Arielle Jackson",
     "title": "Marketer in Residence",
     "company": "First Round Capital",
-    "background": "Former marketing leader at Google (Gmail) and Square; Consultant for Patreon, Loom, Front, Eero."
+    "background": "Former marketing leader at Google (Gmail) and Square; Consultant for Patreon, Loom, Front, Eero.",
+    "background_zh": "曾任 Google (Gmail) 和 Square 市场负责人；Patreon、Loom、Front 和 Eero 顾问。"
   },
   "episodeSummary": "Arielle Jackson breaks down the foundational elements of startup marketing, focusing on a rigorous naming protocol, a three-part brand framework (Purpose, Positioning, Personality), and tactical advice for early-stage PR and hiring.",
   "methodologies": [
@@ -34,7 +35,19 @@
           "Visual Appearance / Length"
         ],
         "ratingScale": "Red / Yellow / Green"
-      }
+      },
+      "summary_zh": "一套严谨的筛选机制，旨在依据客观约束条件而非主观偏好，对脑暴产出的备选名称进行评估。",
+      "problemItSolves_zh": "防止创始人仅凭“直觉”命名，规避后续在法律、视觉或战略层面遭遇失败。",
+      "whenToUse_zh": "在头脑风暴环节产出 10-25 个候选名称清单之后。",
+      "commonMistakes_zh": "在确认商标可用性之前就对名字产生执念；选取盲目跟风的“时髦”名称，导致品牌迅速显得过时。",
+      "realWorldExample_zh": "Seesaw（极具意象感，契合教育中的往复互动） vs. Lattice（已淘汰，因易与 “Lettuce” 混淆）。",
+      "principles_zh": [
+        "避免盲目跟风“命名潮流”（如省略元音），确保名称具有持久生命力。",
+        "评估名称独特性，避免与竞品雷同。",
+        "尽早验证商标及域名的可用性（采用红/黄/绿风险评级）。",
+        "综合考量视觉呈现（对称性/字形结构）与听觉辨识度。"
+      ],
+      "name_zh": "The Seven-Criteria Naming Protocol（七项标准命名法则）"
     },
     {
       "name": "The 'Bar Test' Positioning Framework",
@@ -59,7 +72,19 @@
           "Step 3: The Explanation (Speak the Benefit + Category naturally)",
           "Step 4: The Validation (Does the friend nod, or ask 'What?')"
         ]
-      }
+      },
+      "summary_zh": "一种角色扮演演练，旨在确保定位陈述听起来像是自然的人际对话，而非生硬的企业黑话。",
+      "problemItSolves_zh": "从核心价值主张中剔除“营销套话”和晦涩难懂的 B2B 术语。",
+      "whenToUse_zh": "在拟定正式定位陈述之后，撰写官网文案之前。",
+      "commonMistakes_zh": "试图显得过于“高深”或“商务”，而非清晰直白；ADP 的“让夏天更有趣”活动就未能通过真实性检验。",
+      "realWorldExample_zh": "Square Stand：“把你的 iPad 变成收银机”（人话） vs. “撬动平板硬件以处理商户交易”（官方话术）",
+      "principles_zh": [
+        "产品定位必须足够通俗口语化，就像在酒吧给朋友介绍一样自然。",
+        "拒绝使用口语中不常说的词（如“撬动”、“赋能”）。",
+        "叙述结构：产品是什么 + 核心价值 + 差异化优势。",
+        "如果朋友反问“你这是什么意思？”，说明测试未通过。"
+      ],
+      "name_zh": "The 'Bar Test' Positioning Framework（“酒吧测试”定位框架）"
     },
     {
       "name": "The Brand Tension Star",
@@ -96,7 +121,19 @@
             "dont": "Basic"
           }
         ]
-      }
+      },
+      "summary_zh": "一种通过从 Aaker 五维模型中萃取两大主导特质，并构建基于张力的属性来定义品牌个性的框架。",
+      "problemItSolves_zh": "通过施加特定约束条件，防止品牌个性陷入同质化（例如“友善且乐于助人”这类泛泛之谈）。",
+      "whenToUse_zh": "在定义品牌的声音、语调及视觉形象时。",
+      "commonMistakes_zh": "罗列彼此兼容的形容词（例如“我们既可靠又聪明”），而非构建张力。",
+      "realWorldExample_zh": "劳力士（高雅/专业）vs. 激浪（粗犷/刺激）",
+      "principles_zh": [
+        "品牌需要「张力」才有趣；单纯的正面形象往往平庸乏味。",
+        "选定两个主导的「峰值」（例如：真诚 + 能力）。",
+        "采用公式定义品牌属性：「我们是 X，但绝非 Y」（其中 Y 代表 X 的负面极端）。",
+        "基于 Jennifer Aaker 的「品牌个性五大维度」模型。"
+      ],
+      "name_zh": "The Brand Tension Star（品牌张力星）"
     },
     {
       "name": "The Purpose Discovery Process",
@@ -121,8 +158,21 @@
         ],
         "result": "Brand Purpose (Why we exist)",
         "operator": "+"
-      }
+      },
+      "summary_zh": "通过寻找外部文化力量与内部产品真相的交集，来确立公司“北极星”的方法。",
+      "problemItSolves_zh": "让团队在十年愿景上达成对齐，并赋予客户坚定支持公司的理由。",
+      "whenToUse_zh": "公司初创期或品牌重塑阶段；区别于 18 个月周期的定位策略。",
+      "commonMistakes_zh": "将“宗旨”与“使命”、“愿景”或“价值观”混为一谈——只需确定一个清晰的宗旨陈述即可。",
+      "realWorldExample_zh": "LogicLoop：“让运营数据比运营人员更努力。”（张力：运营倦怠 vs. 真相：自动化）。",
+      "principles_zh": [
+        "使命（Purpose）是指超越财务回报的存在意义。",
+        "洞察“文化张力”（即 Zeitgeist/社会宏观现状）。",
+        "明确“品牌本真”（即产品实际交付的核心价值）。",
+        "结合二者，补全核心陈述：“我们的存在是为了……”"
+      ],
+      "name_zh": "The Purpose Discovery Process（使命探索流程）"
     }
   ],
-  "filename": "Arielle Jackson"
+  "filename": "Arielle Jackson",
+  "episodeSummary_zh": "Arielle Jackson 深度解析了初创企业的营销基石，重点涵盖严谨的命名法则、品牌三大支柱框架（使命、定位、调性），以及针对早期 PR 和招聘的实战建议。"
 }

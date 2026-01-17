@@ -3,7 +3,8 @@
     "name": "Anuj Rathi",
     "title": "Chief Product and Marketing Officer",
     "company": "Jupiter Money",
-    "background": "Former SVP of Revenue and Growth at Swiggy, VP of Product at Snapdeal, Senior PM at Walmart Labs, and first Product Manager at Flipkart."
+    "background": "Former SVP of Revenue and Growth at Swiggy, VP of Product at Snapdeal, Senior PM at Walmart Labs, and first Product Manager at Flipkart.",
+    "background_zh": "曾任 Swiggy 营收与增长高级副总裁、Snapdeal 产品副总裁、Walmart Labs 高级产品经理，以及 Flipkart 首位产品经理。"
   },
   "episodeSummary": "Anuj Rathi discusses the evolution of product management in India, the importance of 'full-stack' product thinking, and how to operationalize the 'Working Backwards' process. He shares specific frameworks for understanding user psychology, prioritizing product roadmaps, and making strategic high-stakes decisions.",
   "methodologies": [
@@ -47,7 +48,18 @@
             ]
           }
         ]
-      }
+      },
+      "summary_zh": "该框架源自 Scott Belsky，其核心洞察在于当代互联网用户具备三大底层特质：**“懒惰”**（缺乏时间与耐心）、**“虚荣”**（受自我意识、行为习惯或社会地位驱动）以及**“自私”**（追求即时满足，关注“这对我有什么好处”）。产品的新手引导（Onboarding）与营销策略必须针对这些特质进行优化，方能有效抢占用户注意力。",
+      "problemItSolves_zh": "避免产品团队陷入为关注产品的“理想用户”进行设计的误区，帮助团队面向真实且冷漠的用户打造产品。",
+      "whenToUse_zh": "适用于设计新用户引导、撰写营销文案，以及打造产品体验的“第一公里”时。",
+      "commonMistakes_zh": "假设用户本身感兴趣、愿意阅读说明书，或者愿意在缺乏即时激励的情况下改变习惯。",
+      "realWorldExample_zh": "在 Swiggy 和 Jupiter，重新定义了新手引导流程：不再将其视为功能演示，而是直接回应“这对我有什么好处”（对应 Selfish 维度），并最大程度缩短操作链路（对应 Lazy 维度）。",
+      "principles_zh": [
+        "懒惰：用户不愿耗费精力研究界面交互；必须将操作摩擦降至为零。",
+        "虚荣：用户固守习惯且自我意识强；产品必须能提升其形象或契合其身份认同。",
+        "自私：用户不关心产品功能本身；他们只在意能否获得即时的个人收益。"
+      ],
+      "name_zh": "The 'Lazy, Vain, and Selfish' User Framework（“懒惰、虚荣、自私”用户框架）"
     },
     {
       "name": "The Four BBs Strategy Framework",
@@ -90,7 +102,19 @@
             "description": "Pivots, New Identity, Moonshots"
           }
         ]
-      }
+      },
+      "summary_zh": "一套战略分配框架，将产品工作划分为四个独立类别，旨在确保产品路线图在维护、增长和创新之间保持平衡。",
+      "problemItSolves_zh": "通过强制设定明确的资源配比，有效化解了研发团队（主张偿还技术债）、产品经理（主张功能迭代）与管理层（主张登月型创新）之间的冲突。",
+      "whenToUse_zh": "在进行季度或年度 Roadmap 规划及资源分配讨论时。",
+      "commonMistakes_zh": "将基础建设工作误称为“技术债”（严重打击士气），或因深陷“基本盘”业务而未能给“战略押注”分配足够的资源。",
+      "realWorldExample_zh": "以 Swiggy 为例，公司决定将战略重心从 Bread and Butter（基本盘业务：餐饮外卖）转移至 Breaking Bad（颠覆性业务：Instamart/生鲜杂货配送），旨在将公司重塑为一家即时便利服务平台。",
+      "principles_zh": [
+        "卓越基石：不可妥协的技术债治理与系统维护（不只是填坑，而是构建卓越的底层架构）。",
+        "核心基本盘：维系业务运转的核心功能及渐进式优化。",
+        "战略下注：旨在实现显著增长或差异化优势的高风险、大规模战略举措。",
+        "破局重塑：关乎存亡的战略转型、登月计划或对公司定位的彻底重构。"
+      ],
+      "name_zh": "The Four BBs Strategy Framework（Four BBs 战略框架）"
     },
     {
       "name": "Divergent Working Backwards (3 PR/FAQs)",
@@ -116,8 +140,21 @@
           "Stakeholder Review & Debate (Compare the 3 futures)",
           "Select One Path & Commit"
         ]
-      }
+      },
+      "summary_zh": "亚马逊“逆向工作法”的进阶版。与其撰写单一的新闻稿（PR），团队需起草三份截然不同、思维发散的 PR，旨在最终收敛决策前，充分探索不同的战略方向。",
+      "problemItSolves_zh": "避免团队陷入对初始创意的盲目迷恋，为管理层提供真正的决策选项，而非仅对单一方案进行“通过或否决”的二元决策。",
+      "whenToUse_zh": "适用于定义新产品线、重大功能发布或战略转型。",
+      "commonMistakes_zh": "撰写的三个方案仅有细微差别（增量式），而非真正的思维发散（战略性备选方案）。",
+      "realWorldExample_zh": "会员体系设计：方案 A（双层级模式），方案 B（积分制体系），方案 C（聚焦特定细分客群）。",
+      "principles_zh": [
+        "**“三”之法则**：针对同一问题，务必探索三种截然不同的解决方案。",
+        "**展示而非空谈**：为每个版本撰写完整的 PR/FAQ，涵盖合规、法务及运营等执行细节。",
+        "**先发散后收敛**：通过强制团队推演不同的可能性，避免陷入局部最优解。",
+        "**敢于反对，坚决执行**：一旦管理层选定最终方案，团队必须全力以赴投入执行。"
+      ],
+      "name_zh": "Divergent Working Backwards (3 PR/FAQs)（发散式逆向工作法 (3 PR/FAQs)）"
     }
   ],
-  "filename": "Anuj Rathi"
+  "filename": "Anuj Rathi",
+  "episodeSummary_zh": "Anuj Rathi 探讨了印度产品管理的演变、“全栈”产品思维的重要性，以及如何落地“逆向工作法”流程。他分享了具体的框架，用于洞察用户心理、规划产品路线图优先级，以及制定高风险的战略决策。"
 }

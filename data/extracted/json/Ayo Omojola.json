@@ -3,7 +3,8 @@
     "name": "Ayo Omojola",
     "title": "Chief Product Officer",
     "company": "Carbon Health",
-    "background": "Former Cash App founding team member, co-created Cash Card, Angel Investor, Board Member at Pinwheel."
+    "background": "Former Cash App founding team member, co-created Cash Card, Angel Investor, Board Member at Pinwheel.",
+    "background_zh": "前 Cash App 创始团队成员，Cash Card 联合缔造者，天使投资人，Pinwheel 董事。"
   },
   "episodeSummary": "Ayo Omojola discusses the principles behind Cash App's massive success, emphasizing the need for true product differentiation beyond just being 'better.' He shares his philosophies on deep-dive validation ('Factory Floor'), navigating regulated industries, and his unique high-risk, high-reward strategy of hiring former founders to increase team density and output.",
   "methodologies": [
@@ -30,7 +31,18 @@
         ],
         "result": "Sustainable Product Success",
         "operator": "+"
-      }
+      },
+      "summary_zh": "这是一套用于评估产品是否具备真实市场潜力的框架。该方法论强调，仅仅做到“与众不同”或“渐进式改良”是远远不够的；产品必须具备鲜明的独特性、提供实质性的体验优势，并能解决用户最关切的核心痛点。",
+      "problemItSolves_zh": "避免开发出虽然设计精良，却无法获得市场牵引力的“艺术品”或“锦上添花”型产品。",
+      "whenToUse_zh": "在产品构思阶段，或为寻找产品市场匹配而进行转型时。",
+      "commonMistakes_zh": "仅关注差异化而缺乏实用性，或是试图为用户并不买账的“更优版本”索取溢价。",
+      "realWorldExample_zh": "Cash App vs. Venmo：Cash App 不仅仅是又一款普通的电子钱包；当竞品通常需要数天才能到账时，它提供了“即时”到账功能。这正是其关键的差异化优势。",
+      "principles_zh": [
+        "仅有“差异化”是不够的：容易被复制。",
+        "仅做到“更好”是不够的：往往只意味着更贵，或仅仅是渐进式的改良。",
+        "必须具备“关键性”：必须对终端用户至关重要（例如：资金实时到账）。"
+      ],
+      "name_zh": "The 'Different-Better-Critical' Triad（“差异化-更优-关键”铁三角）"
     },
     {
       "name": "The 'Factory Floor' Validation",
@@ -56,7 +68,19 @@
           "Step 4: Run rapid micro-experiments on variables",
           "Step 5: Verify result against physical/legal reality"
         ]
-      }
+      },
+      "summary_zh": "这是一种解决复杂执行难题的方法论。其核心在于绕过“专家”和中间代理，亲自掌握如物理定律、法规政策、制造工艺等底层约束。这要求必须深入“车间一线”，直接对关键变量进行测试与验证。",
+      "problemItSolves_zh": "突破那些看似“不可能”的卡点，即供应商或法务团队仅凭惯例而非客观事实，便断言无法执行的情况。",
+      "whenToUse_zh": "当创新因外部依赖、供应商限制或监管政策不明朗而陷入停滞时。",
+      "commonMistakes_zh": "将供应商的拒绝视为最终定论，或轻信对监管法规的笼统概括。",
+      "realWorldExample_zh": "**打造 Cash Card**：面对供应商寄来的不合格样品，Ayo 深入工厂一线，亲自测试了 1000 多种激光参数与塑料材质的组合，最终实现了理想的设计效果。",
+      "principles_zh": [
+        "专家往往基于经验惯性而非物理定律，给出“教条式”的答案。",
+        "必须追根究底，直到触及物理或法规的“硬边界”。",
+        "亲自对底层变量（如激光参数、具体法规条文）进行迭代。",
+        "执行负责人必须掌控一切细节。"
+      ],
+      "name_zh": "The 'Factory Floor' Validation（“车间”验证）"
     },
     {
       "name": "The 'Founder-Density' Hiring Model",
@@ -99,8 +123,21 @@
             "description": "Avoid."
           }
         ]
-      }
+      },
+      "summary_zh": "一种优先录用前创业者（包括创业失败者）而非传统企业背景候选人的招聘哲学。这一策略不追求员工的长期留任，而是用“稳定性”换取极致的主人翁精神、极速的执行力以及对形式主义的敏锐洞察力。",
+      "problemItSolves_zh": "解决大型组织中迭代缓慢、缺乏 Owner 意识以及官僚主义蔓延的问题。",
+      "whenToUse_zh": "当正在进行“内部创业”，或急需对新垂直业务进行激进扩张时。",
+      "commonMistakes_zh": "期望他们留任 4 年以上，或试图将其硬塞进僵化的岗位定义中。",
+      "realWorldExample_zh": "在 Carbon Health，Ayo 招聘了约 15% 的前创业者。他们显著提升了团队的产出效能，但也带来了较高的人员流失率，因为这些人最终会离职去再次创业。",
+      "principles_zh": [
+        "创始人往往兼具“冒充者综合症”与“极度渴望自证”的矛盾特质。",
+        "他们能迅速破除组织中的官僚主义，杜绝一切无谓内耗。",
+        "他们大概率会在两年左右离职，去开启下一个创业项目。",
+        "招聘需坚持“长期主义”：要在他们投递简历前，就先为其提供价值。"
+      ],
+      "name_zh": "The 'Founder-Density' Hiring Model（“创始人密度”招聘模型）"
     }
   ],
-  "filename": "Ayo Omojola"
+  "filename": "Ayo Omojola",
+  "episodeSummary_zh": "Ayo Omojola 探讨了 Cash App 巨大成功背后的原则，强调必须追求真正的产品差异化，而不仅仅是做得“更好”。他分享了关于深度验证（“车间一线”理论）和在强监管行业中突围的方法论，以及他那套独特的高风险高回报策略——通过招聘前创业者来提升团队的人才密度与产出效能。"
 }

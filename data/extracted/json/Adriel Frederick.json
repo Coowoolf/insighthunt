@@ -3,7 +3,8 @@
     "name": "Adriel Frederick",
     "title": "VP of Product",
     "company": "Reddit",
-    "background": "Former Director of Product at Lyft (Marketplace/Pricing), Early PM at Facebook (Growth/User Acquisition), Strategy Consultant at McKinsey. Originally from Trinidad and Tobago."
+    "background": "Former Director of Product at Lyft (Marketplace/Pricing), Early PM at Facebook (Growth/User Acquisition), Strategy Consultant at McKinsey. Originally from Trinidad and Tobago.",
+    "background_zh": "前 Lyft 产品总监（交易平台/定价），Facebook 早期产品经理（增长/获客），麦肯锡战略顾问。原籍特立尼达和多巴哥。"
   },
   "episodeSummary": "Adriel Frederick discusses the intersection of human intuition and algorithmic scale, sharing lessons from Facebook's early growth team and Lyft's marketplace challenges. He advocates for 'Human-in-the-Loop' design where algorithms amplify human intent rather than replacing judgment. He also details the 'Marginal User' framework for debugging growth and the importance of a balanced portfolio of 'Cannonballs' (big bets) and 'Lead Bullets' (optimizations).",
   "methodologies": [
@@ -106,8 +107,18 @@
             "description": "Rare/Uncommon. If found, execute immediately."
           }
         ]
-      }
+      },
+      "commonMistakes_zh": "误以为在缺乏核心产品价值主张（“炮弹”）的情况下，仅靠“增长黑客”战术（“铅弹”）就能取得成功；因进行过多琐碎实验而产生隐性成本。",
+      "realWorldExample_zh": "Facebook：“铅弹”指的是文案微调或按钮调整；“炮弹”则是指面向发展中国家支持短信注册，或是重构整个好友推荐引擎。",
+      "principles_zh": [
+        "组合平衡：80% 的资源投入“炮弹”类项目，20% 投入“铅弹”类项目（比例随产品成熟度调整）。",
+        "铅弹：侧重于优化迭代，包括小的增长手段、文案调整和 UI 微调。",
+        "炮弹：涉及底层重构、上线全新的核心功能，以及工程量巨大的重研发项目。",
+        "早期产品需要“炮弹”来寻求突破；成熟期产品则更多依赖“铅弹”进行持续优化。"
+      ],
+      "name_zh": "The Cannonballs and Lead Bullets Portfolio（炮弹与铅弹组合）"
     }
   ],
-  "filename": "Adriel Frederick"
+  "filename": "Adriel Frederick",
+  "episodeSummary_zh": "Adriel Frederick 探讨了人类直觉与算法规模化的结合，并分享了他在 Facebook 早期增长团队以及应对 Lyft 双边市场挑战时的实战经验。他主张采用“人在回路”（Human-in-the-Loop）的设计理念，即利用算法来放大人类的意图，而非完全替代人类的判断力。此外，他还深入拆解了用于诊断增长瓶颈的“边际用户”（Marginal User）框架，并强调了构建平衡产品组合的重要性——即在“炮弹”（Cannonballs，即战略性大赌注）与“铅弹”（Lead Bullets，即战术性优化）之间找到最佳平衡点。"
 }

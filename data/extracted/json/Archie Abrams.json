@@ -3,7 +3,8 @@
     "name": "Archie Abrams",
     "title": "VP of Product and Head of Growth",
     "company": "Shopify",
-    "background": "Leads an org of over 600 people across product, design, engineering, and growth. Previously at Udemy."
+    "background": "Leads an org of over 600 people across product, design, engineering, and growth. Previously at Udemy.",
+    "background_zh": "管理一支超 600 人的团队，职能覆盖产品、设计、工程及增长。曾任职于 Udemy。"
   },
   "episodeSummary": "Archie Abrams discusses Shopify's contrarian approach to growth and product development, including their refusal to use metrics for core product decisions, their 100-year planning horizon, and why they optimize for churn to maximize entrepreneurship.",
   "methodologies": [
@@ -42,7 +43,19 @@
             "action": "Final Reckoning: Compare Cohort GMV. If neutral/negative, deprecate feature or pivot strategy"
           }
         ]
-      }
+      },
+      "summary_zh": "一套通过设立长期对照组（Holdout）来审视短期增长收益的度量框架，旨在验证即时的指标提升能否在 1-3 年内转化为可持续的商业价值（GMV）。",
+      "problemItSolves_zh": "消除“透支效应”的幻觉，防止增长团队将本就会发生的自然收益归功于自己；同时识别出那些短期表现亮眼，但长期会损耗产品价值的功能。",
+      "whenToUse_zh": "当在用户价值具有长周期复利效应（如 SaaS、电商、金融科技），而非短期交易闭环的平台上进行实验时。",
+      "commonMistakes_zh": "仅凭两周的统计显著性就急于宣布胜利；误以为短期数据持平即意味着功能失败（却忽略了后期可能产生的复利效应）。",
+      "realWorldExample_zh": "Shopify 对支付失败通知功能进行了测试。短期效果：支付挽回量大幅提升。长期效果（12 个月）：GMV 增量为零。原因在于这批用户并非坚定的创业者，无论如何最终都会流失。",
+      "principles_zh": [
+        "建立长期隔离组，在 12-18 个月的长周期内不对其发布新功能。",
+        "上线 6-12 个月后自动提醒实验负责人，以复盘长期数据表现。",
+        "优先关注同期群 GMV（Cohort GMV），而非短期转化率。",
+        "接受 30-40% 的短期收益在长期维度下往往表现为无显著差异或零影响。"
+      ],
+      "name_zh": "The Long-Horizon Holdout Protocol（长周期留出组协议）"
     },
     {
       "name": "The Absolute Volume Framework",
@@ -71,7 +84,19 @@
           "state": "Massive Top of Funnel -> Lower Conversion Rate % -> High Total Output",
           "focus": "Optimizing for the outcome"
         }
-      }
+      },
+      "summary_zh": "这代表了一种思维模式的转变：从单纯追求优化效率类指标（如比率/百分比），转向追求“绝对规模”的最大化。该框架的核心观点是：过度追求转化率的优化，往往会诱导团队通过收窄漏斗开口来筛选高质量用户，这反而导致了最终成功转化总量的下降。",
+      "problemItSolves_zh": "破解“局部最优”陷阱：即团队通过增加注册难度来人为做高转化率，却无意中将潜在的“璞玉”型用户拒之门外。",
+      "whenToUse_zh": "适用于幂律型业务（如平台模式或 VC/天使投资），即依靠极少数的超级赢家来覆盖大量失败项目的成本。",
+      "commonMistakes_zh": "因流失率上升或 LTV/CAC 短期下滑而陷入恐慌；试图通过增设筛选步骤（增加摩擦成本）来提升线索质量分。",
+      "realWorldExample_zh": "Shopify 坚持不在注册环节增加“资质筛选”类的摩擦。他们接受大量商家会失败（流失）的现实，但通过保持大门敞开，确保不会因误杀而阻碍下一个 Allbirds 或 FIGS 的诞生。",
+      "principles_zh": [
+        "增长团队严禁将“转化率”设为核心北极星指标。",
+        "以成功用户的绝对数量（如“已激活商家总数”）作为衡量成功的标准。",
+        "极力拓宽漏斗开口（降低门槛），哪怕这会导致转化率下降。",
+        "接受更高的流失率和更低的效率指标，将其视为利用幂律法则捕获极致头部赢家的必要成本。"
+      ],
+      "name_zh": "The Absolute Volume Framework（绝对体量框架）"
     },
     {
       "name": "The Taste-Driven Core Model",
@@ -95,8 +120,21 @@
           "Middle: Taste & Intuition (The 'Okay-to' Review Process)",
           "Top: 100-Year Vision (The North Star)"
         ]
-      }
+      },
+      "summary_zh": "一种产品研发理念，主张核心产品团队不再背负数据指标与 KPI，转而依赖创始人的直觉（“Taste”）、长期愿景以及技术品质。",
+      "problemItSolves_zh": "防止陷入“短期主义”，避免产品沦为局部优化功能的割裂堆砌，确保构建具有内聚力的高品质平台。",
+      "whenToUse_zh": "适用于定义品牌长期价值主张、且需要深度架构完整性的“核心”产品领域（而非侧重实验性的增长领域）。",
+      "commonMistakes_zh": "强制要求每个功能都背 KPI；让 A/B 测试决定产品方向；为追求上线速度而牺牲技术架构。",
+      "realWorldExample_zh": "CSV 导入项目案例：团队并没有一味追求“快速上线”，而是与 Tobi 花时间深入辩论技术架构选型（采用开源方案还是内部自研库），因为“如何实现”直接关乎平台是否具备延续百年的生命力。",
+      "principles_zh": [
+        "原则优先级：1. 打造极致产品，2. 商业变现。切勿本末倒置。",
+        "技术实现决定战略：架构设计需为未来保留选择权。",
+        "“准入”机制：所有版本发布前，必须通过视频 Demo 由管理层（Glen/Tobi）进行视觉验收与审批。",
+        "重注核心：核心功能不做 A/B 测试；凭坚定信念打造百年基业级的解决方案。"
+      ],
+      "name_zh": "The Taste-Driven Core Model（品味驱动核心模型）"
     }
   ],
-  "filename": "Archie Abrams"
+  "filename": "Archie Abrams",
+  "episodeSummary_zh": "Archie Abrams 深入探讨了 Shopify 在增长和产品开发上的反共识策略，包括他们拒绝使用数据指标来制定核心产品决策、坚持百年的规划周期，以及为何通过优化流失率来最大化创业精神。"
 }

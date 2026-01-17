@@ -3,7 +3,8 @@
     "name": "Andy Johns",
     "title": "Mental Health Advocate & Former VP of Growth/Product",
     "company": "Clues.Life (formerly Wealthfront, Facebook, Twitter)",
-    "background": "A legendary product and growth leader who spent 17 years at top startups before stepping away from a lucrative VC and executive career to focus on mental health advocacy and healing for high achievers."
+    "background": "A legendary product and growth leader who spent 17 years at top startups before stepping away from a lucrative VC and executive career to focus on mental health advocacy and healing for high achievers.",
+    "background_zh": "一位深耕顶级初创企业 17 载的传奇产品与增长领军人物。他放弃了高回报的风投及高管生涯，转而致力于高绩效人群的心理健康倡导与疗愈。"
   },
   "episodeSummary": "In this deeply personal episode, Andy Johns opens up about the severe burnout and mental health struggles that led him to walk away from a peak career in tech. He details the psychological toll of achievement addiction, breaks down his four-step framework for deep personal transformation, and introduces a new mental model for navigating life through surrender rather than conquest.",
   "methodologies": [
@@ -30,7 +31,19 @@
           "3. Self-Compassion (Internal Healing)",
           "4. Compassion for Others (External Shift)"
         ]
-      }
+      },
+      "summary_zh": "一套用于疗愈深层情感创伤并重构身份认同的循序渐进框架。该演进路径始于痛苦这一催化剂，经由深度自我探索的艰难迭代，最终实现个体与自我及他人交互关系的底层重构。",
+      "problemItSolves_zh": "深度职业倦怠、存在主义危机、尚未化解的创伤，以及虽获外在成功却深陷停滞的困局。",
+      "whenToUse_zh": "当遭遇重大人生危机、陷入职业倦怠，或意识到既有的应对机制（如成就驱动模式）已不再奏效时。",
+      "commonMistakes_zh": "试图将疗愈过程理性化而回避情绪体验，或是试图跳过“探寻真相”阶段，急于直接追求“感觉好转”的结果。",
+      "realWorldExample_zh": "Andy 的亲身经历：在意识到自己追求成功的动力实则是对母亲离世的创伤反应后，他接受了住院及心理治疗。",
+      "principles_zh": [
+        "变革往往需要痛苦作为催化剂。",
+        "疗愈需要深度复盘，直面过去或潜意识中令人不适的真相。",
+        "只有洞察根因，才能真正实现宽恕与自爱。",
+        "真正的自我关怀，会自动转化为对他人的同理心。"
+      ],
+      "name_zh": "The Four Steps of Deep Personal Transformation（深度个人转型四步法）"
     },
     {
       "name": "The River Surrender Mindset",
@@ -52,8 +65,22 @@
       "visualizationData": {
         "before": "The Mountain Climber: Life is a struggle to the top, addiction to achievement, constant planning/optimizing, fear of falling, ego-driven.",
         "after": "The River Surrender: Life is a flow to navigate, reliance on intuition, releasing control ('Mummy Mode'), trust in the journey, peace-driven."
-      }
+      },
+      "summary_zh": "这是一种哲学层面的认知重构：从将人生视为一系列待征服的“高山”（成就导向），转变为将其视为一条待驾驭的“长河”（直觉驱动）。该方法论主张放下掌控执念，信赖生命之流的势能，摒弃过度理性的分析噪音，以敏锐捕捉信号来替代对僵化计划的执行。",
+      "problemItSolves_zh": "陷入“享乐跑步机”带来的倦怠感、“成就上瘾”的无尽追逐，以及因试图掌控生活与职场中每一个结果而产生的深度焦虑。",
+      "whenToUse_zh": "当你因无休止的追逐感到身心俱疲，当“赢”本身已不再带来快乐，亦或是正处于逻辑失效、充满不确定性的人生转型期时。",
+      "commonMistakes_zh": "一旦脱离既定剧本便惊慌失措，试图逆流而上退回旧常态，或是将“顺应”误读为“放弃”，而非一种战略性的释放。",
+      "realWorldExample_zh": "安迪最终落脚越南，是被“水流”推向了那里（包括行李丢失的意外和直觉的指引），而非因为执行了某种僵化的战略规划。",
+      "principles_zh": [
+        "停止对抗洪流，逆势死磕只会导致溺亡。",
+        "开启“木乃伊模式”：后仰放松，任由水流承托前行。",
+        "平息理性的规划思维，敏锐捕捉直觉信号。",
+        "接纳事实：未来既无法被精准预测，也无法被预先优化。",
+        "人生并非线性的向上攀登，而是一段顺流而下的体验旅程。"
+      ],
+      "name_zh": "The River Surrender Mindset（顺流臣服心法）"
     }
   ],
-  "filename": "Andy Johns"
+  "filename": "Andy Johns",
+  "episodeSummary_zh": "在这期极具个人色彩的节目中，Andy Johns 坦陈了导致他从科技圈职业巅峰隐退的严重职业倦怠与心理健康危机。他深度剖析了“成就成瘾”带来的心理代价，拆解了他实现深度个人蜕变的四步框架，并引入了一套全新的心智模型：通过“臣服”而非“征服”来驾驭人生。"
 }

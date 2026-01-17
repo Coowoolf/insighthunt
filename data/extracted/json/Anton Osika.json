@@ -3,7 +3,8 @@
     "name": "Anton Osika",
     "title": "Co-founder and CEO",
     "company": "Lovable",
-    "background": "Former CTO at a YC startup, creator of the open-source tool GPT Engineer, now building the 'last piece of software' with Lovable."
+    "background": "Former CTO at a YC startup, creator of the open-source tool GPT Engineer, now building the 'last piece of software' with Lovable.",
+    "background_zh": "曾任 YC 创业公司 CTO，开源工具 GPT Engineer 作者，目前在 Lovable 打造“最后一款软件”。"
   },
   "episodeSummary": "Anton Osika shares how Lovable, an AI software engineer, reached $10M ARR in two months with a team of 15. He discusses the 'scaling laws' of AI reliability, his intense 'Shackleton-style' hiring philosophy for finding 'cracked' engineers, and the evolution of product building from MVP to 'Absolutely Lovable Products' in an age where coding is democratized.",
   "methodologies": [
@@ -30,7 +31,19 @@
           "Quantitatively Tune System",
           "Fast Feedback Loop"
         ]
-      }
+      },
+      "summary_zh": "这是一套系统性的 AI 可靠性提升方案，核心在于将“陷入停滞”视为首要瓶颈。团队不再追求泛泛的优化，而是深度识别具体的失效模式（如 Bug 或逻辑死路），并通过建立紧密的反馈闭环，针对这些卡点对系统进行可量化的精准调优。",
+      "problemItSolves_zh": "AI Agent 频繁陷入僵局、产生幻觉，或无法完成诸如全栈应用开发等复杂的多步骤任务。",
+      "whenToUse_zh": "当构建 Agentic AI 系统，且可靠性成为制约效用规模化的主要瓶颈时。",
+      "commonMistakes_zh": "过于关注通用的模型优化，而非解决具体的卡点；缺乏对“卡点率”的定量衡量。",
+      "realWorldExample_zh": "Lovable 特别专注于确保 AI 在处理复杂任务（如添加登录功能或接入 Stripe 支付）时不会出错，从而赋能用户构建真正的应用。",
+      "principles_zh": [
+        "精准定位 AI 流程受阻的具体卡点（如鉴权、支付环节）",
+        "聚焦解决特定瓶颈，而非泛泛提升通用智能",
+        "基于通过率/失败率数据，对系统进行定量调优",
+        "维持极速反馈闭环，快速迭代修复方案"
+      ],
+      "name_zh": "The 'Unstuck' Scaling Framework（“破局”规模化框架）"
     },
     {
       "name": "Shackleton-Style Team Building",
@@ -61,7 +74,19 @@
           "Focus only on a narrow craft/specialty",
           "Prioritize process over speed"
         ]
-      }
+      },
+      "summary_zh": "一套源于欧内斯特·沙克尔顿南极探险广告灵感的高强度招聘筛选机制。它明确劝退追求安逸的求职者，旨在吸引那些极度执着、具备高能动性，且能在紧迫节奏与艰巨使命中越战越勇的通才。",
+      "problemItSolves_zh": "筛选掉那些在高速增长的初创环境中，将职位视为“仅仅是一份工作”或抱有“乘客”心态的候选人。",
+      "whenToUse_zh": "适用于致力于攻克未解技术难题的早期高增长公司招聘。",
+      "commonMistakes_zh": "招聘过于关注狭窄的垂直技能，而非具备高度能动性的通才；未能在初期对工作强度进行明确的预期管理。",
+      "realWorldExample_zh": "Lovable 仅凭 15 人团队就实现了超 1000 万美元 ARR，这归功于其招募的“硬核”工程师——他们具备极致的 Owner 意识，且能在充满野心的混乱环境中如鱼得水。",
+      "principles_zh": [
+        "筛选具备极高紧迫感且适配 AGI 发展节奏的人才",
+        "承诺艰巨的使命与荣耀，而非舒适安逸",
+        "招聘拥有一项“超能力”但能落地所有环节的通才",
+        "要求对产品和团队保持近乎偏执的极致关注"
+      ],
+      "name_zh": "Shackleton-Style Team Building（沙克尔顿式团队建设）"
     },
     {
       "name": "Minimum Lovable Product (MLP)",
@@ -85,8 +110,21 @@
           "Lovable Product",
           "Absolutely Lovable Product (ALP)"
         ]
-      }
+      },
+      "summary_zh": "对经典 MVP 概念的重构。在 AI 赋能的时代，仅发布“勉强可用”的产品已远远不够。核心目标是产品上线即让用户喜爱，并通过持续迭代提升“喜爱度”，从而驱动自然增长。",
+      "problemItSolves_zh": "开发出的产品虽然在技术上可行，但在拥挤的赛道中，却因缺乏惊喜感或“灵魂”而无法获得市场青睐。",
+      "whenToUse_zh": "当为新产品上线或重大功能发布界定范围时。",
+      "commonMistakes_zh": "发布一个枯燥乏味、纯功能性的 MVP，无法激发用户的分享欲望。",
+      "realWorldExample_zh": "Lovable 上线时聚焦于打造高质量且令人喜爱的用户体验，以此驱动了原生的口碑增长，在未进行传统营销投放的情况下，MAU 达到 30 万。",
+      "principles_zh": [
+        "起步于 MLP（最小喜爱产品），而非仅仅是 MVP（最小可行产品）",
+        "持续迭代，打造用户喜爱的产品",
+        "致力于实现 ALP（极致喜爱产品）",
+        "增长源于用户对产品的热爱，而非单纯依赖市场营销"
+      ],
+      "name_zh": "Minimum Lovable Product (MLP)（MLP（最小喜爱产品））"
     }
   ],
-  "filename": "Anton Osika"
+  "filename": "Anton Osika",
+  "episodeSummary_zh": "Anton Osika 分享了 AI 软件工程师产品 Lovable 如何在仅有 15 人团队的情况下，于两个月内达成 1000 万美元 ARR。他深入探讨了 AI 可靠性的“缩放定律”，为寻觅“顶级技术狂人”而采用的极度严苛、“沙克尔顿式”招聘哲学，以及在编程民主化时代，产品构建逻辑如何从 MVP 演进为打造“绝对令人喜爱的产品”。"
 }

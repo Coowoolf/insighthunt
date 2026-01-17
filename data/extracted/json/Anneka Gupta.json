@@ -3,7 +3,8 @@
     "name": "Anneka Gupta",
     "title": "Chief Product Officer",
     "company": "Rubrik",
-    "background": "Previously President, GM, and Head of Product at LiveRamp; Lecturer at Stanford GSB"
+    "background": "Previously President, GM, and Head of Product at LiveRamp; Lecturer at Stanford GSB",
+    "background_zh": "曾任 LiveRamp 总裁、总经理及产品负责人；斯坦福商学院讲师"
   },
   "episodeSummary": "Anneka Gupta shares actionable frameworks for becoming a more strategic product leader, including the definition of strategic thinking, navigating difficult personalities, and decision-making. She discusses the importance of shifting from a scarcity to an abundance mindset to manage energy and resilience, and how to utilize a 'historian' approach to contextualize and improve organizational decision-making.",
   "methodologies": [
@@ -47,7 +48,18 @@
             "description": "Low Vision, Low Change"
           }
         ]
-      }
+      },
+      "summary_zh": "该框架定义了被视为具备“战略高度”所必需的两个核心要素：阐述具有感召力的叙事逻辑的能力（The Why），以及推动艰难变革的执行魄力（Change Agent）。",
+      "problemItSolves_zh": "将“你需要更有战略性”这类笼统的反馈拆解为具体、可落地的技能，让模糊的评价变得清晰明确。",
+      "whenToUse_zh": "申请职级晋升、应对绩效考评，或制定产品战略时。",
+      "commonMistakes_zh": "沉迷于执行细节而忽视战略叙事，或是空谈宏大构想却无意推动艰难的落地工作。",
+      "realWorldExample_zh": "在会议中汇总多方视角以拉齐共识（确立战略动机），在此基础上再推进具体方案（发挥变革推动者作用）。",
+      "principles_zh": [
+        "阐明决策动因：围绕决策构建简明有力、具说服力的叙事逻辑。",
+        "成为变革推动者：主导那些符合长期利益但充满挑战的关键举措。",
+        "协同效应：二者缺一不可；有愿景无执行是空想，有执行无愿景则流于战术。"
+      ],
+      "name_zh": "The Strategic 'Why' & Change Agent Framework（“战略动因”与变革推动者框架）"
     },
     {
       "name": "The Abundance Mindset for Leadership",
@@ -68,7 +80,19 @@
       "visualizationData": {
         "before": "Scarcity Mindset: Operates from fear, views challenges as hurdles, drains energy, reacts with frustration.",
         "after": "Abundance Mindset: Operates from curiosity, views challenges as 'fun' puzzles, maximizes energy, reacts with gratitude."
-      }
+      },
+      "summary_zh": "一种用于驾驭危机和高压情境的认知重构技巧。其核心在于将思维模式从聚焦恐惧与阻碍的“匮乏心态”，切换至拥抱乐趣、学习与感恩的“富足心态”。",
+      "problemItSolves_zh": "克服职业倦怠、决策瘫痪，以及面对尖锐反馈时的防御心态。",
+      "whenToUse_zh": "面临裁员、组织架构调整，或应对棘手同事时。",
+      "commonMistakes_zh": "陷入稀缺心态，视一切问题为威胁而非机遇。",
+      "realWorldExample_zh": "将 Anneka 被迫更换直属下级的棘手局面进行认知重构，将其转化为一次学习成长的契机，而非视为无法逾越的危机。",
+      "principles_zh": [
+        "重构恐惧视角：将严峻挑战视为激动人心的闯关游戏或解谜题。",
+        "管理精力而非时间：优化心力与情绪带宽（如规律饮食、顺应精力波峰安排日程）。",
+        "保持幽默与感恩：带着好奇心应对棘手的合作对象，发掘其带来的学习契机。",
+        "心态宽广：坚持“善意假设”，专注于寻找机会点而非聚焦于阻碍（Blockers）。"
+      ],
+      "name_zh": "The Abundance Mindset for Leadership（领导力的富足心态）"
     },
     {
       "name": "The Historian Decision-Making Model",
@@ -94,8 +118,21 @@
           "4. Formulate Hypothesis: Create strategy informed by history",
           "5. Decide & Iterate: Commit to direction and learn from results"
         ]
-      }
+      },
+      "summary_zh": "一套通过深挖与分析组织历史来提升决策质量的流程，旨在规划新路径之前，透彻理解过往失败的背景与脉络。",
+      "problemItSolves_zh": "避免重蹈覆辙，并有效化解诸如“我们之前早就试过了”这类内部阻力。",
+      "whenToUse_zh": "入职新公司、接手老产品，或提出已被尝试过的策略时。",
+      "commonMistakes_zh": "忽视过往想法背后的“历史包袱”，或在未充分理解历史背景的情况下做出决策。",
+      "realWorldExample_zh": "Anneka 深入复盘 Rubrik 既往部分产品的失败归因，以此决策是将这些产品重启还是彻底放弃。",
+      "principles_zh": [
+        "挖掘历史：主动调研过往的产品上线与失败案例。",
+        "还原决策语境：深入理解当时做出特定决策的背景与动因。",
+        "识别历史包袱：敏锐察觉团队对特定想法所背负的情绪负担。",
+        "决策与迭代：利用历史背景支撑假设，在非 100% 确定的情况下果断决策。"
+      ],
+      "name_zh": "The Historian Decision-Making Model（历史学家决策模型）"
     }
   ],
-  "filename": "Anneka Gupta"
+  "filename": "Anneka Gupta",
+  "episodeSummary_zh": "Anneka Gupta 分享了一套极具实操性的框架，助力产品人进阶为战略型管理者。内容涵盖战略思维的定义、如何应对棘手的人际挑战，以及决策机制。她探讨了如何通过从「稀缺心态」向「富足心态」的转变，来有效进行精力管理并提升职场韧性；同时阐述了如何运用「历史学家」视角来还原背景，进而优化组织的决策质量。"
 }

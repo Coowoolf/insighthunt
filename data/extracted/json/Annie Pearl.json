@@ -3,7 +3,8 @@
     "name": "Annie Pearl",
     "title": "Chief Product Officer",
     "company": "Calendly",
-    "background": "Former CPO at Glassdoor, Director of PM at Box, started career in law before transitioning to product via a startup."
+    "background": "Former CPO at Glassdoor, Director of PM at Box, started career in law before transitioning to product via a startup.",
+    "background_zh": "前 Glassdoor 首席产品官 (CPO)，曾任 Box 产品总监。法律背景出身，后通过初创公司转型进入产品领域。"
   },
   "episodeSummary": "Annie Pearl discusses Calendly's transition from a pure PLG motion to adding a sales-led enterprise motion, the cultural shifts required for that change, and how to structure product teams and planning processes at scale. She details frameworks for strategy (Playing to Win), execution (Phased Development), and decision-making (OPA meetings).",
   "methodologies": [
@@ -30,7 +31,19 @@
           "3. Determine How to Win (Value Prop/differentiation)",
           "4. Execute (Capabilities & Systems)"
         ]
-      }
+      },
+      "summary_zh": "一种战略框架，旨在通过对“产品在何处竞争”及“如何获胜”制定一套整合性的决策来实现战略聚焦，避免因试图面面俱到地满足所有人的需求而导致资源分散。",
+      "problemItSolves_zh": "避免产品团队试图覆盖过多的横向场景，从而导致价值稀释以及难以排定优先级。",
+      "whenToUse_zh": "制定长期产品战略时，或公司需要从横向广度布局向垂直细分深耕转型时。",
+      "commonMistakes_zh": "跳过 \"Where to Play\" 环节，试图为所有类型的用户开发功能（例如：战略重心是企业级销售，却在为个体经营者开发 Venmo 集成）。",
+      "realWorldExample_zh": "Calendly 借助该框架完成了战略重心转移：从一款面向大众的通用型工具，转型为专门针对企业级市场（Horizon 2）中的销售、招聘及客户成功团队。",
+      "principles_zh": [
+        "战略是一套系统性的选择组合。",
+        "必须明确界定你的“战场”（市场、细分赛道、用户画像）。",
+        "必须定义你的“制胜策略”（针对该目标的价值主张）。",
+        "明智聚焦：决定“不做”与决定“做”同等重要。"
+      ],
+      "name_zh": "Playing to Win Framework（制胜战略框架）"
     },
     {
       "name": "Phased Development Commitments",
@@ -71,7 +84,19 @@
             "commitment": "Iteration"
           }
         ]
-      }
+      },
+      "summary_zh": "一种避免为未明确工作锁定长期交付日期的路线图规划方法。团队仅承诺当前阶段的工作，将需求探索与方案设计作为独立于最终开发构建的承诺事项。",
+      "problemItSolves_zh": "消除了因强行预估“未知变量”以及在缺乏充分探索验证的情况下就承诺六个月后的交付排期，从而导致项目延期的协作摩擦。",
+      "whenToUse_zh": "适用于路线图规划及季度执行周期，尤其是对于那些在研发估时准确性上存在挑战的组织。",
+      "commonMistakes_zh": "在尚未验证问题或完成方案设计前，就承诺上线日期。",
+      "realWorldExample_zh": "Calendly 将工作拆解为探索、方案、开发、发布/衡量，且仅对当前进行的阶段估算排期。",
+      "principles_zh": [
+        "仅对需求范围完全确定的工作承诺交付日期。",
+        "探索阶段承诺的是开展调研，而非投入开发。",
+        "方案阶段承诺的是设计与验证，而非产品上线。",
+        "只有在方案设计完成后，才确定工程开发排期。"
+      ],
+      "name_zh": "Phased Development Commitments（阶段性开发承诺）"
     },
     {
       "name": "OPA (Opportunity/Problem Assessment)",
@@ -98,8 +123,21 @@
           "Is the solution hypothesis ready for investigation?",
           "Has the team 'sparred' for blind spots?"
         ]
-      }
+      },
+      "summary_zh": "一种周期性的例行机制与交付物，产品经理需在正式推进前向同僚展示早期构想或验证数据，通过“思维碰撞”和辩论来获取反馈。",
+      "problemItSolves_zh": "避免产品经理闭门造车形成信息孤岛，并确保在投入昂贵的研发资源之前，进行严谨的思考与论证。",
+      "whenToUse_zh": "在项目从“探索阶段”推进至“方案阶段”之前，或在决策是否要针对一个新的问题领域展开调研时。",
+      "commonMistakes_zh": "将其视为面向管理层的“路演”式提案，而非一场建设性的同行评审。",
+      "realWorldExample_zh": "Calendly 的 PM 会带着调研结论参加 OPA 会议，在进行深度投入前，验证该机会是否值得跟进。",
+      "principles_zh": [
+        "营造心理安全氛围，鼓励开展严谨的观点碰撞（Sparring）。",
+        "将“问题评估”与“解决方案提案”严格剥离。",
+        "管理者可适当回避，以促进平级间（Peer-to-peer）的坦诚交流。",
+        "使用统一的文档/模板，对论证逻辑进行结构化梳理。"
+      ],
+      "name_zh": "OPA (Opportunity/Problem Assessment)（OPA（机会/问题评估））"
     }
   ],
-  "filename": "Annie Pearl"
+  "filename": "Annie Pearl",
+  "episodeSummary_zh": "Annie Pearl 深度复盘了 Calendly 从纯 PLG 模式向融合销售驱动（Sales-led）的企业级模式转型的全过程，剖析了该变革所需的组织文化转型，并分享了在规模化扩张阶段如何构建产品团队架构及优化规划流程。她详细拆解了三大核心框架：用于制定战略的 \"Playing to Win\" 框架、用于落地执行的“分阶段开发”框架，以及用于高效决策的 OPA 会议机制。"
 }

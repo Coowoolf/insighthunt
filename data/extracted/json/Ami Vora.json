@@ -3,7 +3,8 @@
     "name": "Ami Vora",
     "title": "Chief Product Officer",
     "company": "Faire",
-    "background": "Former VP at Meta (Facebook, WhatsApp, Instagram)"
+    "background": "Former VP at Meta (Facebook, WhatsApp, Instagram)",
+    "background_zh": "前 Meta 副总裁（Facebook、WhatsApp、Instagram）"
   },
   "episodeSummary": "Ami Vora shares insights on high-impact product leadership, covering strategies for effective product reviews, the power of metaphors in product alignment, and how to set distinct goals to prevent teams from overlapping. She emphasizes execution over strategy and the importance of 'fascinating' curiosity during disagreements.",
   "methodologies": [
@@ -30,7 +31,19 @@
           "Base: The PM - Role: Deep Analysis, Data Synthesis & Recommendation."
         ],
         "label": "Hierarchy of Information Density"
-      }
+      },
+      "summary_zh": "一套面向高管汇报的框架，其核心假设是高管接收新细节的认知带宽有限（即“雷龙脑”），一次只能吸收三个关键事实。该方法旨在避免单纯的信息堆砌，转而输出清晰的决策建议。",
+      "problemItSolves_zh": "高管不堪重负，决策停滞，产品评审沦为数据审查而非战略对齐。",
+      "whenToUse_zh": "准备向高层领导进行产品评审，或向缺乏背景信息的利益相关方汇报复杂数据。",
+      "commonMistakes_zh": "- 罗列所有工作细节或数据只为自证苦劳；\n- 指望高管替你提炼数据洞察；\n- 缺乏鲜明的观点或主张。",
+      "realWorldExample_zh": "汇报产品变更时，与其堆砌 10 张图表，不如提出 1 个建议并辅以 3 个关键事实，以便管理者在必要时补充上下文。",
+      "principles_zh": [
+        "高管单次只能接收约 3 个关键事实。",
+        "PM 负责给出决策建议，管理者负责把控上下文背景。",
+        "拒绝堆砌数据；做好归档备查，汇报时仅呈现结论。",
+        "利用评审机会校准决策原则，而非仅敲定单点决策。"
+      ],
+      "name_zh": "The Dinosaur Brain Approach to Product Reviews（“恐龙脑”产品评审法）"
     },
     {
       "name": "Metaphor-Driven Product Alignment",
@@ -68,7 +81,19 @@
             "concept": "Instant connection, High reliability (like voice)"
           }
         ]
-      }
+      },
+      "summary_zh": "通过极具感染力的意象和情感隐喻，帮助团队在产品的“体感”层面实现对齐。当具体需求尚未定义清晰时，这种叙事逻辑将作为设计师和工程师进行决策的启发式指引。",
+      "problemItSolves_zh": "产品体验割裂，设计风格“眼花缭乱”或“冷漠刻板”，以及不得不对细枝末节进行的微观管理。",
+      "whenToUse_zh": "启动新功能、定义产品的北极星指标，或拉齐跨职能团队（设计、研发、产品）对产品调性的共识。",
+      "commonMistakes_zh": "用抽象的商业目标替代了情感化隐喻；选用的隐喻无法映射到预期的用户体验。",
+      "realWorldExample_zh": "WhatsApp 将“面对面沟通”确立为核心隐喻（具体场景类比为“在自家客厅共处”）。这一理念主导了后续的功能设计，例如支持“随进随出”的轻量级通话机制，以及营造私密、即兴的互动氛围。",
+      "principles_zh": [
+        "定义产品意图传递给用户的核心感受。",
+        "锚定一个能唤起该情感共鸣的现实世界场景（例如“多洛雷斯公园”）。",
+        "利用该隐喻指导产品的微观决策（如图标体系、文案风格、响应延迟）。",
+        "产品叙事重于功能规格。"
+      ],
+      "name_zh": "Metaphor-Driven Product Alignment（隐喻驱动的产品对齐）"
     },
     {
       "name": "Anti-Toddler Soccer Goal Setting",
@@ -106,8 +131,21 @@
             "metric": "Site Latency / Uptime"
           }
         ]
-      }
+      },
+      "summary_zh": "旨在避免所有团队盲目追逐同一个顶层指标（即“幼儿足球效应”，所有人一窝蜂抢同一个球）的策略。该方法主张拆解出差异化且互不重叠的目标，向上对齐并支撑核心成果，确保业务的“全场”关键领域均得到有效覆盖。",
+      "problemItSolves_zh": "资源争夺\n团队相互踩踏\n产品覆盖盲区\n具体投入缺乏权责归属",
+      "whenToUse_zh": "大型产品组织内多团队的组织架构设计、季度规划及 OKR 制定。",
+      "commonMistakes_zh": "直接要求所有团队背负“营收增长”指标；泳道划分过窄，导致无法对用户旅程产生实质影响。",
+      "realWorldExample_zh": "不再让所有团队都紧盯 GMV，而是让 A 团队聚焦「新用户转化」，B 团队负责「留存/复购率」，C 团队主攻分场景的「客单价」。",
+      "principles_zh": [
+        "避免让全员背负同一个顶层指标（如 GMV）。",
+        "全盘布局：为不同团队分配差异化的输入指标。",
+        "厘清激励机制，避免团队之间相互踩踏与内耗。",
+        "确保个人目标在数学或逻辑上能够向上对齐至公司目标。"
+      ],
+      "name_zh": "Anti-Toddler Soccer Goal Setting（反“幼儿足球”式目标设定）"
     }
   ],
-  "filename": "Ami Vora"
+  "filename": "Ami Vora",
+  "episodeSummary_zh": "Ami Vora 分享了关于高影响力产品领导力的见解，内容涵盖高效产品评审的策略、利用隐喻促进产品对齐，以及如何设定差异化目标以避免团队重叠。她强调执行重于战略，并指出在面对分歧时，保持一种“饶有兴致”的好奇心至关重要。"
 }

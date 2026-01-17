@@ -3,7 +3,8 @@
     "name": "Aparna Chennapragada",
     "title": "Chief Product Officer, AI Product Strategy",
     "company": "Microsoft",
-    "background": "Former CPO at Robinhood, VP at Google (Lens, AR, Assistant), Engineering Leader at Akamai, Board Member at eBay and Capital One."
+    "background": "Former CPO at Robinhood, VP at Google (Lens, AR, Assistant), Engineering Leader at Akamai, Board Member at eBay and Capital One.",
+    "background_zh": "前 Robinhood 首席产品官，谷歌副总裁（负责 Lens、AR、Assistant），Akamai 工程负责人，eBay 及 Capital One 董事。"
   },
   "episodeSummary": "Aparna Chennapragada, CPO at Microsoft, discusses the shift in product development driven by AI. She explores the transition from graphical interfaces to natural language experiences (NLX), the necessity of prototyping as a primary specification tool, and frameworks for evaluating the timing and viability of zero-to-one products. The conversation covers the balance between innovation and governance in enterprise AI, the evolving role of product managers, and the concept of collaborative intelligence between humans and agents.",
   "methodologies": [
@@ -43,7 +44,19 @@
             "detail": "Guided Navigation / Suggestions"
           }
         ]
-      }
+      },
+      "summary_zh": "该框架定义了自然语言交互界面所需的新原则与 UI 组件，旨在超越简单的聊天形式，转向结构化且经过精心设计的对话体验。",
+      "problemItSolves_zh": "避免产品沦为“缝合怪”——即在缺乏设计体系支撑的情况下，生硬地将 AI 裸模型接入应用；从而确保产品的可用性与用户信任。",
+      "whenToUse_zh": "在设计 AI 智能体、聊天机器人或对话式交互界面时，确保体验直观且高效。",
+      "commonMistakes_zh": "- 陷入“模型即产品”的误区而忽视设计\n- 将 AI 构建为缺乏反馈机制的“黑盒”\n- 输出结果后未能提供后续引导",
+      "realWorldExample_zh": "设计一款研究型 Agent，使其不仅限于回答问题，更能主动规划信息搜集方案；或是设计一款图像生成工具，能基于逻辑推荐后续的风格调整建议。",
+      "principles_zh": [
+        "Prompt 即 UI：Prompt 是一个独立的 UI 组件，类似于下拉菜单或选项卡。",
+        "方案可编辑：针对复杂目标，Agent 应交付结构化且可编辑的方案，而非纯文本。",
+        "过程外显：可视化 Agent 的推理过程（Thinking Aloud）以建立信任，在信息详尽度与实用性间取得平衡。",
+        "预设后续引导：主动建议下一步操作，引导用户走通“最优体验路径”（Happy Path）。"
+      ],
+      "name_zh": "The NLX (Natural Language Experience) Design Stack（NLX（自然语言体验）设计栈）"
     },
     {
       "name": "The 'Why Now?' Inflection Triangulation",
@@ -67,7 +80,18 @@
           "Consumer Behavior Shift (Are habits changing fundamental demand?)",
           "Business Model Innovation (Is there a new economic advantage?)"
         ]
-      }
+      },
+      "summary_zh": "一套面向 0 到 1 产品的验证框架，要求三个特定市场拐点中至少两者发生交汇。",
+      "problemItSolves_zh": "帮助产品负责人避免过早启动业务（这无异于错误），或打造缺乏市场催化剂的产品。",
+      "whenToUse_zh": "在初创公司或新产品线的创意构思阶段，用于评估项目的可行性与入场时机。",
+      "commonMistakes_zh": "仅依赖单一要素（通常只是炫酷的技术），却缺乏相应的用户行为转变或商业模式变革。",
+      "realWorldExample_zh": "Google Lens（技术：深度学习 + 行为：照片即记忆）；Robinhood（技术：移动端 + 商业模式：零佣金）。",
+      "principles_zh": [
+        "**技术拐点**：技术的阶跃式变革（如深度学习、LLM）。",
+        "**用户行为变迁**：用户与世界交互方式的根本性改变（如将图片作为沟通媒介）。",
+        "**商业模式变革**：价值变现的新路径（如 SaaS、按结果付费）。"
+      ],
+      "name_zh": "The 'Why Now?' Inflection Triangulation（“为什么是现在”拐点三角定位法）"
     },
     {
       "name": "The 'Solve Before Scale' Protocol",
@@ -96,8 +120,20 @@
             "description": "Stability, Quantitative Metrics (CTR/Retention), Optimization, Growth"
           }
         ]
-      }
+      },
+      "summary_zh": "一种分阶段的产品开发方法论，主张在依赖定量指标进行规模化扩张之前，优先基于定性信号解决核心问题。",
+      "problemItSolves_zh": "通过优先验证核心价值主张，避免过早优化，防止陷入“局部最优”。",
+      "whenToUse_zh": "在构建 0 到 1 产品，且产品形态尚未明确时。",
+      "commonMistakes_zh": "过早追求指标的虚假精确性；畏惧早期“解决”阶段的混沌状态；在尚未真正解决核心用户需求时进行规模化。",
+      "realWorldExample_zh": "Google Now 早期在个性化逻辑上遭遇失败，随后转型为主动辅助模式（即 'Solve' 阶段），之后才进行规模化扩张。",
+      "principles_zh": [
+        "第一阶段（解决）：拥抱混乱与方向上的剧烈转向。忽略“成熟指标”（如 CTR、留存），专注于定性的“魔法时刻”（例如：设置定时器）。",
+        "第二阶段（规模化）：仅在核心价值被验证后，才进行流程化、优化并应用标准增长指标。",
+        "原型 > PRD：以构建促思考；利用原型来探索产品方向。"
+      ],
+      "name_zh": "The 'Solve Before Scale' Protocol（“先解决，后规模化”法则）"
     }
   ],
-  "filename": "Aparna Chennapragada"
+  "filename": "Aparna Chennapragada",
+  "episodeSummary_zh": "微软首席产品官（CPO）Aparna Chennapragada 深度探讨了 AI 驱动下的产品开发范式变革。她剖析了从图形用户界面向自然语言交互体验（NLX）的演进，强调了将原型设计（Prototyping）确立为核心需求定义工具的必要性，并分享了评估「0 到 1」产品推出时机与可行性的决策框架。此外，对话还涵盖了企业级 AI 在创新与合规治理之间的平衡之道、产品经理职能的演进，以及人类与 AI 智能体（Agents）之间的「协作智能」概念。"
 }

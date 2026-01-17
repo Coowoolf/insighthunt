@@ -3,7 +3,8 @@
     "name": "Albert Cheng",
     "title": "Head of Growth (formerly at Duolingo & Grammarly)",
     "company": "Chess.com",
-    "background": "Expert in consumer growth who led teams at Duolingo, Grammarly, and Chess.com. Former pianist with a background in engineering and product management at YouTube."
+    "background": "Expert in consumer growth who led teams at Duolingo, Grammarly, and Chess.com. Former pianist with a background in engineering and product management at YouTube.",
+    "background_zh": "C端增长专家，曾领导 Duolingo、Grammarly 和 Chess.com 团队。早年是钢琴家，拥有 YouTube 工程与产品管理的复合背景。"
   },
   "episodeSummary": "Albert Cheng discusses his growth philosophies honed at three major consumer subscription companies. He covers the Explore and Exploit framework for managing experimentation, the Gamification Triad for retention, and his unique approach to hiring high-agency talent. The conversation delves into practical tactics for monetization, the integration of AI in growth workflows, and the cultural shift required to scale experimentation from zero to 1,000 tests per year.",
   "methodologies": [
@@ -30,7 +31,18 @@
           "Saturation (Diminishing Returns)"
         ],
         "centerLabel": "Growth Momentum"
-      }
+      },
+      "summary_zh": "一种周期性的增长策略，通过在探索新机会（找对山头）与最大化其价值（攀登山峰）之间交替切换，以防止业务陷入停滞。",
+      "problemItSolves_zh": "避免团队过于发散（过度探索）或陷入局部最优（过度利用）。",
+      "whenToUse_zh": "在管理增长实验组合，或某个业务领域面临边际效益递减时。",
+      "commonMistakes_zh": "长期停留在“利用”模式导致增长饱和，或在“探索”时缺乏将成果规模化的策略。",
+      "realWorldExample_zh": "Chess.com 通过“探索”用户复盘棋局的动机（发现用户主要在获胜而非战败后复盘），进而“利用”这一洞察重构了产品流程，着重强化胜利时刻的庆祝感，最终将用户参与度提升了 25%。",
+      "principles_zh": [
+        "探索：运用发散思维挖掘新的增长杠杆或深度洞察（如用户心理）。",
+        "利用：通过收敛聚焦，将已验证的洞察在产品层面进行规模化放大与优化。",
+        "动态切换：识别边际收益递减（饱和）的拐点，并及时回归探索模式。"
+      ],
+      "name_zh": "Explore and Exploit Framework（探索与利用框架）"
     },
     {
       "name": "The Gamification Triad",
@@ -75,7 +87,18 @@
             ]
           }
         ]
-      }
+      },
+      "summary_zh": "源自 Jorge Mazal 的游戏化结构模型，由三大核心支柱构成；三者需协同作用，以驱动长期留存。",
+      "problemItSolves_zh": "确保短期行为与长期价值挂钩，使游戏化超越肤浅的徽章机制。",
+      "whenToUse_zh": "在设计或评估产品的留存机制与习惯回路时。",
+      "commonMistakes_zh": "仅聚焦核心循环而缺失长线元游戏机制，或缺乏价值沉淀感（如个人档案）。",
+      "realWorldExample_zh": "Duolingo 利用课程（Core）、学习路径/排行榜（Meta）以及连胜/虚拟形象（Profile），维持了长达数年的用户留存。",
+      "principles_zh": [
+        "**核心循环 (Core Loop)**：提供即时反馈的高频紧凑行为（如单节课程或单局游戏）。",
+        "**元游戏 (Metagame)**：提供方向指引的长线成长体系（如排行榜、通关路径）。",
+        "**个人档案 (Profile)**：用户身份与投入沉淀的载体（如数据统计、历史记录），旨在建立用户承诺。"
+      ],
+      "name_zh": "The Gamification Triad（游戏化铁三角）"
     },
     {
       "name": "High Agency 'Clock Speed' Hiring",
@@ -120,8 +143,21 @@
           "Deep Domain Expertise (if rigid)",
           "Years of Experience (if slow)"
         ]
-      }
+      },
+      "summary_zh": "一种招聘理念，主张在 AI 等高速迭代的行业中，优先看重候选人的主观能动性和学习速度等底层特质，而非深厚的领域经验。",
+      "problemItSolves_zh": "避免录用那些“履历光鲜”却过于刻板，无法适应快节奏或 AI 颠覆性环境的候选人。",
+      "whenToUse_zh": "适用于招聘增长型岗位、初创公司，或正处于重大技术变革期的行业。",
+      "commonMistakes_zh": "过度看重简历关键词或名企光环，而忽视了执行速度缓慢的问题。",
+      "realWorldExample_zh": "多邻国与传统科技大厂的招聘差异；寻找能够每年落地 1,000 次实验的执行者，而非仅追求完美规划的人。",
+      "principles_zh": [
+        "**能动性优于经验**：经验有时反而是一种依赖，阻碍候选人摒弃旧有的思维惯性。",
+        "**迭代速率**：候选人的学习与迭代速度，是预测其未来成功的核心指标。",
+        "**空杯心态**：具备有意识地摒弃既有习惯，以适应新范式的能力。",
+        "**气场与软信号**：将沟通风格和个人能量状态，作为评估过程中的关键数据点。"
+      ],
+      "name_zh": "High Agency 'Clock Speed' Hiring（高能动性“高转速”招聘）"
     }
   ],
-  "filename": "Albert Cheng"
+  "filename": "Albert Cheng",
+  "episodeSummary_zh": "Albert Cheng 分享了他在三家头部消费级订阅制公司磨练出的增长哲学。他详细拆解了用于管理实验的“探索与利用”框架、提升留存的“游戏化三要素”，以及招聘高能动性人才的独特方法。此外，对话还深入探讨了商业化变现的实战策略、AI 在增长工作流中的整合应用，以及如何通过文化变革实现实验规模从 0 到每年 1000 次的跨越。"
 }

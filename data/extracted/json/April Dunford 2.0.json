@@ -3,7 +3,8 @@
     "name": "April Dunford",
     "title": "Author & Positioning Consultant",
     "company": "aprildunford.com",
-    "background": "Former VP of Marketing at seven successful B2B startups; consultant to over 200 tech companies; author of 'Obviously Awesome'."
+    "background": "Former VP of Marketing at seven successful B2B startups; consultant to over 200 tech companies; author of 'Obviously Awesome'.",
+    "background_zh": "曾任 7 家成功 B2B 创业公司的市场副总裁；200 多家科技公司的顾问；著有《Obviously Awesome》。"
   },
   "episodeSummary": "April Dunford deconstructs the art of product positioning, explaining why it is distinct from branding and messaging. She outlines a rigorous 5-step methodology for discovering differentiated value, explains how to craft a sales narrative that kills indecision, and clarifies the confusion between market segmentation and buyer personas.",
   "methodologies": [
@@ -32,7 +33,20 @@
           "Step 4: The Differentiated Value (Your Solution)",
           "Step 5: The Proof (Evidence)"
         ]
-      }
+      },
+      "summary_zh": "一种用叙事弧线取代功能堆砌的框架。它通过确立市场洞察为产品构建语境，指出维持现状的失效，并最终顺理成章地推出产品，将其定义为解决特定问题的唯一合理解法。",
+      "problemItSolves_zh": "避免客户产生“那又怎样”的反应，即解决客户虽然理解功能特性，却无法感知其核心价值或紧迫性的问题。",
+      "whenToUse_zh": "销售沟通、产品演示，以及构建官网核心传播讯息时。",
+      "commonMistakes_zh": "宣讲开场直奔产品/功能；未能正视竞品或现状。",
+      "realWorldExample_zh": "Help Scout 不仅仅将自己定位为一款支持工具，而是立足于“客户成功是增长驱动力”这一核心洞察，这与将客服视为“成本中心”的竞品形成了鲜明对比。",
+      "principles_zh": [
+        "从市场洞察/变革切入（构建背景）",
+        "定义现状/现有替代方案（树立“反派”）",
+        "突显现状的落差/痛点",
+        "待痛点激化后，引入解决方案（“英雄”登场）",
+        "提供实证（达成闭环）"
+      ],
+      "name_zh": "The Dunford Pitch Narrative（邓福德推介叙事）"
     },
     {
       "name": "The Differentiated Value Extraction",
@@ -59,7 +73,20 @@
           "Stage 4: Best-Fit Customer Segments (Who cares?)",
           "Stage 5: Market Category (The Context)"
         ]
-      }
+      },
+      "summary_zh": "一套五步“萃取”流程，旨在透过竞争替代品的视角筛选产品能力，从而提炼出真正的差异化价值并锁定最契合的市场品类。",
+      "problemItSolves_zh": "消除模糊、主观臆断的定位（例如“我们是某某领域的 Uber”），推动全公司围绕基于事实的差异化优势实现认知对齐。",
+      "whenToUse_zh": "当产品被误解、销售线索（Leads）感到困惑，或正处于战略转型/重新定位阶段。",
+      "commonMistakes_zh": "从“用户为什么喜欢我们”切入（会导致确认偏误），或是忽视了“维持现状”也是竞争对手。",
+      "realWorldExample_zh": "Postman 从测试工具转型为“API 平台”——这一品类定位使其价值显而易见。",
+      "principles_zh": [
+        "产品定位必须锚定于竞争性替代方案（包括电子表格或人工操作）。",
+        "唯有与替代方案形成差异化的产品能力，才具备实际意义。",
+        "价值是将产品功能转化为对用户“有何意义（So What）”的解读。",
+        "最佳适配客户的定义，取决于谁最看重这一特定的价值。",
+        "市场品类构建了一种语境，旨在让产品价值显而易见。"
+      ],
+      "name_zh": "The Differentiated Value Extraction（差异化价值萃取）"
     },
     {
       "name": "The Indecision-Killer Protocol",
@@ -94,8 +121,22 @@
             "description": "The only choice for [Specific Context/Need]"
           }
         ]
-      }
+      },
+      "summary_zh": "这套方法论旨在攻克导致 40% 丢单率的“搁置决策”难题。通过为客户方的内部推手（Champion）提供一套清晰的市场分类框架，使其能够将竞品归类为“虽有价值但不适合我们”的范畴，从而赋能推手向经济决策人（Economic Buyer）有力论证选择该特定方案的合理性。",
+      "problemItSolves_zh": "因买方陷入决策瘫痪，或无法向上级论证采购价值，导致败给“不做决策”或“维持现状”的输单损失。",
+      "whenToUse_zh": "处于极度拥挤的赛道（如 CRM、MarTech），客户难以从众多位于“右上角象限”的头部竞品中做出区分。",
+      "commonMistakes_zh": "为所有干系人（如 IT、法务等）建立画像，而非聚焦于关键倡导者；假装竞品不存在。",
+      "realWorldExample_zh": "向买家解释：“方案 A 针对的是超大型企业，方案 B 适用于微型初创团队；但如果您是一家中型高增长企业，您正需要我们的专项能力。”",
+      "principles_zh": [
+        "面对海量选项，客户往往感到不知所措，且极度恐惧决策失误。",
+        "供应商必须提供一套市场心智模型（即阐明“市场格局如何划分”）。",
+        "明确界定竞品的适用场景（如“仅适合传统企业”），从而针对目标买家将竞品“排除出局”。",
+        "聚焦核心，全力赋能“内部推手（Champion）”画像，由其在组织内部传递价值。",
+        "产品定位必须成为买家进行“决策合理化”的有力工具。"
+      ],
+      "name_zh": "The Indecision-Killer Protocol（犹豫终结法则）"
     }
   ],
-  "filename": "April Dunford 2.0"
+  "filename": "April Dunford 2.0",
+  "episodeSummary_zh": "April Dunford 深度剖析了产品定位的艺术，阐明了其与品牌建设及信息传递的本质区别。她梳理了一套严谨的“五步法”框架用于挖掘差异化价值，解析了如何打造能消除客户决策犹豫的销售叙事，并厘清了市场细分与用户画像之间的常见误区。"
 }

@@ -3,7 +3,8 @@
     "name": "Alisa Cohn",
     "title": "Executive Coach & Author",
     "company": "Alisa Cohn Coaching",
-    "background": "Named the Top Startup Coach in the World at the Thinkers50 Marshall Goldsmith Coaching Awards. Author of 'From Start-Up to Grown-Up'. Coach to leaders at Etsy, Venmo, DraftKings, and The New York Times."
+    "background": "Named the Top Startup Coach in the World at the Thinkers50 Marshall Goldsmith Coaching Awards. Author of 'From Start-Up to Grown-Up'. Coach to leaders at Etsy, Venmo, DraftKings, and The New York Times.",
+    "background_zh": "荣获 Thinkers50 Marshall Goldsmith 教练大奖评选的“全球顶级创业教练”称号。著有《From Start-Up to Grown-Up》一书。担任 Etsy、Venmo、DraftKings 及《纽约时报》等多家知名企业的高管教练。"
   },
   "episodeSummary": "Executive coach Alisa Cohn breaks down the specific scripts and frameworks for handling the hardest parts of leadership: having delicate conversations, firing employees, aligning with co-founders, and running effective meetings. She emphasizes that a leader's job is to drive results rather than make employees happy.",
   "methodologies": [
@@ -33,7 +34,19 @@
           "Culture Definition: Results-driven vs. Family-feel?",
           "Operating Style: Communication preferences and pet peeves."
         ]
-      }
+      },
+      "summary_zh": "一套供联合创始人在创业启动前（或定期回顾时）进行对齐的关键议题清单，旨在规避 65% 因联合创始人冲突而导致的创业失败。",
+      "problemItSolves_zh": "预防联合创始人决裂及恶性错位，避免这些隐患在发展后期摧毁创业公司。",
+      "whenToUse_zh": "在签署公司注册文件前、引入新联合创始人时，或作为年度合伙关系体检。",
+      "commonMistakes_zh": "仅凭私交就预设双方完全对齐；因碍于情面或觉得“太伤感情”而回避关键对话。",
+      "realWorldExample_zh": "两位联合创始人意识到时为时已晚：一方渴望追求巨大的创投回报，另一方却只想做一家叫得上所有员工名字的“小而美”公司，最终导致了痛苦的分道扬镳。",
+      "principles_zh": [
+        "明确核心价值观（如：追求卓越 vs. 工作生活平衡）。",
+        "定义成功愿景（如：谋求 IPO vs. 经营小而美的生意）。",
+        "在冲突发生前，预设争议解决机制。",
+        "确立决策层级（明确当意见相左时，由谁拥有最终拍板权）。"
+      ],
+      "name_zh": "The Founder Prenup（创始人“婚前协议”）"
     },
     {
       "name": "Delicate Conversation Scripts",
@@ -61,7 +74,19 @@
           "5. The Pause: Check for reaction/defensiveness.",
           "6. The Future: 'I want to help you succeed by [Next Steps]...'"
         ]
-      }
+      },
+      "summary_zh": "一套用于传达棘手反馈（如绩效问题、辞退、晋升驳回）的结构化框架。其核心在于基于可观察的事实而非主观评判，从而降低防御心理并明确预期。",
+      "problemItSolves_zh": "管理者因害怕得罪员工而回避必要反馈，导致平庸蔓延，最终造成令人措手不及的解雇。",
+      "whenToUse_zh": "绩效面谈、纠正行为偏差、拒绝晋升或辞退。",
+      "commonMistakes_zh": "为了当“老好人”而表述模糊，针对个人性格而非具体行为，或在面对员工情绪波动时退缩。",
+      "realWorldExample_zh": "主管告知下属因技能短板未获晋升，但将沟通重点重构为“协助其储备未来发展的关键能力”，从而在传达决策的同时维系了良好的职场关系。",
+      "principles_zh": [
+        "基于可观测的事实与数据，而非主观评判或直觉感受。",
+        "将反馈与员工的职业发展目标或公司业务成果挂钩。",
+        "管理好自身心态：沟通的初衷是帮助对方改进，而非情绪宣泄。",
+        "做好应对情绪反应（如防御心态或哭泣）的准备，并坚守原则底线。"
+      ],
+      "name_zh": "Delicate Conversation Scripts（高难度沟通话术）"
     },
     {
       "name": "The Meeting Closing Ritual",
@@ -86,8 +111,21 @@
           "Question 2: Who needs to do what by when? (Assign Accountability)",
           "Question 3: Who else needs to know? (Communication Cascade)"
         ]
-      }
+      },
+      "summary_zh": "在每次会议结束前必问的三个具体问题，旨在确保认知对齐、责任落实以及信息同步顺畅。",
+      "problemItSolves_zh": "“会议宿醉”：由于缺乏明确的决策或行动项记录，导致人们不得不针对同一议题反复开会。",
+      "whenToUse_zh": "每次高管或团队会议的最后 5-10 分钟。",
+      "commonMistakes_zh": "会议讨论直至最后一秒，跳过收尾总结；默认所有参会者的理解已完全一致。",
+      "realWorldExample_zh": "高管团队轮流回答“我们做出了什么决策”，结果发现竟然有六种不同的答案，这迫使他们在散会前必须先对齐共识。",
+      "principles_zh": [
+        "若不即时对齐共识，会议便毫无价值。",
+        "参会者往往对会议结论存在认知偏差。",
+        "决策必须同步给未参会的相关方。",
+        "明确具体的责任人和截止日期是不可妥协的底线。"
+      ],
+      "name_zh": "The Meeting Closing Ritual（会议收尾仪式）"
     }
   ],
-  "filename": "Alisa Cohn"
+  "filename": "Alisa Cohn",
+  "episodeSummary_zh": "高管教练 Alisa Cohn 深度拆解了应对领导力最棘手挑战的具体话术与框架，包括：如何进行高难度对话、解雇员工、与联合创始人对齐以及主持高效会议。她强调，领导者的核心职责是驱动结果，而非取悦员工。"
 }

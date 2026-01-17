@@ -3,7 +3,8 @@
     "name": "Asha Sharma",
     "title": "Corporate Vice President of Product, AI Platform",
     "company": "Microsoft",
-    "background": "Former COO at Instacart, VP of Product at Meta (Messenger/Instagram Direct), Early employee at Porch Group."
+    "background": "Former COO at Instacart, VP of Product at Meta (Messenger/Instagram Direct), Early employee at Porch Group.",
+    "background_zh": "Instacart 前 COO，Meta 产品副总裁（Messenger/Instagram Direct），Porch Group 早期员工。"
   },
   "episodeSummary": "Asha Sharma discusses the paradigm shift from building products as static artifacts to living organisms in the age of AI. She covers the rise of agentic workflows, the necessity of 'post-training' investment, and how Microsoft structures product planning amidst rapid technological change.",
   "methodologies": [
@@ -30,7 +31,19 @@
           "Execute 4-6 Week Squad Sprints",
           "Leave Slack for Disruption"
         ]
-      }
+      },
+      "summary_zh": "这是一套专为极速演进的 AI 时代打造的规划框架，旨在解决传统年度规划与僵化路线图失效的问题。它以基于行业结构性变革定义的「季节」取代固定时间线，确保团队在锁定北极星方向的同时，保持高度敏捷。",
+      "problemItSolves_zh": "当底层技术（如 GPT 模型）快速演进时，无法制定精准的长期路线图。",
+      "whenToUse_zh": "处于超高速增长或快速迭代的行业（如 AI），在此类环境中，半年的规划会迅速过时。",
+      "commonMistakes_zh": "固守僵化的年度计划；将产能排满至 100%，未给新模型能力预留空间。",
+      "realWorldExample_zh": "微软确立了“原型季”，随后进入“智能体季”，以此对齐数千名工程师的步调。",
+      "principles_zh": [
+        "基于长期宏观趋势识别当前的“季节”（例如“Agent 季节”）。",
+        "设定灵活的季度 OKR，为团队提供方向性指引。",
+        "以敏捷小组（Squad）为单位，围绕 4-6 周的目标推进执行。",
+        "刻意在系统中预留“余量”（Slack），以应对突发事项及创新的陡峭曲线。"
+      ],
+      "name_zh": "The Seasonal Planning Protocol（季度规划机制）"
     },
     {
       "name": "The Organism Conversion Loop",
@@ -56,7 +69,19 @@
           "Deploy & Observe",
           "Repeat"
         ]
-      }
+      },
+      "summary_zh": "不再将产品视为静态的“交付物”，而是转变为随使用不断进化的“有机体”。其核心机制是一套“新陈代谢”系统，通过摄入数据并消化奖励，从而自主优化产出结果。",
+      "problemItSolves_zh": "依赖人工手动更新才能迭代的静态软件；跟上智能边际成本趋近于零的趋势。",
+      "whenToUse_zh": "打造 AI 原生产品，利用用户交互数据直接微调模型性能。",
+      "commonMistakes_zh": "仅关注 UI/GUI 而忽视了数据回路；未能为该回路建立可观测性与评估机制。",
+      "realWorldExample_zh": "微软 Dragon（面向医生）通过将 60 万条经专家标注的交互数据反哺回模型，成功将采纳率从约 30%-60% 提升至 83%。",
+      "principles_zh": [
+        "将产品视为有生命的有机体，而非静态交付物。",
+        "设计“新陈代谢”机制：即产品摄取数据的速率。",
+        "搭建奖励模型（RLHF/Fine-tuning）以引导产出方向。",
+        "聚焦于从数据摄入到产出优化的闭环。"
+      ],
+      "name_zh": "The Organism Conversion Loop（有机体转化闭环）"
     },
     {
       "name": "The Platform Fundamentals Pyramid",
@@ -80,8 +105,21 @@
           "Middle: Matching Logic & Optimization Engine",
           "Top: Features, UI, & Pixels"
         ]
-      }
+      },
+      "summary_zh": "这套平台价值层级体系主张将“隐形工作”（基础设施）的优先级置于显性功能之上。成功的平台之所以胜出，首先在于其建立的可靠性与信任感，而非花哨的功能特性。",
+      "problemItSolves_zh": "资源错配于华而不实的功能，却忽视了驱动留存和用户信任的核心基建。",
+      "whenToUse_zh": "适用于构建大型平台、即时通讯应用或交易市场。",
+      "commonMistakes_zh": "误以为驱动平台成功的是“深色模式”或“表情贴纸”等功能，而非延迟、隐私或匹配逻辑。",
+      "realWorldExample_zh": "WhatsApp 胜在稳定性和加密技术；Porch 胜在匹配算法，而非房屋报告的 UI 界面。",
+      "principles_zh": [
+        "基础层：“不可见的工作”（可靠性、隐私、安全、数据驻留）。",
+        "中间层：优化与匹配（连接供需或输入/输出的核心引擎）。",
+        "顶层：功能与像素（用户可见的 UI 元素）。",
+        "平台的成败取决于底层的稳固程度，而非顶层的华丽表象。"
+      ],
+      "name_zh": "The Platform Fundamentals Pyramid（平台基础金字塔）"
     }
   ],
-  "filename": "Asha Sharma"
+  "filename": "Asha Sharma",
+  "episodeSummary_zh": "Asha Sharma 深度探讨了 AI 时代产品构建的范式变革：从打造静态制品转向培育动态有机体。她分析了智能体工作流（Agentic Workflows）的兴起、“后训练”阶段投入的必要性，以及微软如何在技术疾速变革的背景下构建产品规划体系。"
 }

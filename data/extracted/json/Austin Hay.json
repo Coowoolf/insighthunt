@@ -3,7 +3,8 @@
     "name": "Austin Hay",
     "title": "Head of Marketing Technology",
     "company": "Ramp",
-    "background": "VP of Business Operations at Runway, VP of Growth at mParticle, early employee at Branch Metrics, Reforge Creator"
+    "background": "VP of Business Operations at Runway, VP of Growth at mParticle, early employee at Branch Metrics, Reforge Creator",
+    "background_zh": "Runway 商业运营副总裁，mParticle 增长副总裁，Branch Metrics 早期员工，Reforge 课程作者"
   },
   "episodeSummary": "Austin Hay demystifies the complex world of Marketing Technology (MarTech), explaining how to scale systems from startup to enterprise. He discusses the critical distinction between marketing ops and martech, offers a future-proof data schema for attribution in a post-cookie world, and shares mental models for decision-making and build/buy strategies.",
   "methodologies": [
@@ -29,7 +30,19 @@
           "Step 2: Identify People (Who are the stakeholders/owners?)",
           "Step 3: Design System (What tool/automation solves this?)"
         ]
-      }
+      },
+      "summary_zh": "一套循序渐进的诊断框架，旨在避免过早陷入工具选型的误区。它倒逼管理者在着手配置软件权限或启动采购流程之前，必须先明确核心问题及相关干系人。",
+      "problemItSolves_zh": "避免陷入“盲目追新”的误区及由此产生的技术债，杜绝试图通过采购工具来解决定义模糊的问题，或企图绕过必要的人工协作流程。",
+      "whenToUse_zh": "当团队成员申请引入新工具、索要管理权限以试图“修补”问题，或对失效流程进行复盘诊断时。",
+      "commonMistakes_zh": "在未厘清背景的情况下，直接跳到“系统”层面（例如：开通权限或采购软件）。",
+      "realWorldExample_zh": "销售经理希望实现入职流程自动化（Problem）。与其直接搭建自动化系统（System），你首先要确认 CRO 是否需要审批录用，或是否涉及必要的培训环节（People）。",
+      "principles_zh": [
+        "工具旨在解决问题；切勿从工具出发。",
+        "第一步，识别核心症结（Problem）。",
+        "第二步，厘清利益相关方与流程负责人（People）。",
+        "待前两者明确后，方可着手设计或调整技术方案（System）。"
+      ],
+      "name_zh": "The PPS (Problem-People-System) Diagnostic（PPS（问题-人-系统）诊断）"
     },
     {
       "name": "The Future-Proof Attribution Schema",
@@ -74,7 +87,20 @@
             ]
           }
         ]
-      }
+      },
+      "summary_zh": "一套数据采集策略，旨在从 Day 1 起搭建多触点归因（MTA）的基础设施，且无需在初期依赖昂贵的第三方工具。其核心在于聚焦“用户-对象”粒度的关键数据点采集。",
+      "problemItSolves_zh": "解决企业后期迁移至 MTA（多触点归因）时，因未沉淀必要的历史触点数据而导致的数据断层问题。",
+      "whenToUse_zh": "当为 B2C 或 B2B 网站搭建新的数据仓库、CDP 或规划埋点方案时。",
+      "commonMistakes_zh": "单纯依赖基于 Session 的 UTM 或第三方 Cookie，而未存储持久化的用户层级属性。",
+      "realWorldExample_zh": "用户通过 Google 广告访问（记录首次触点）。随后通过 Facebook 访问（更新末次触点）。数据仓库现已完整掌握用户旅程的起止两端。",
+      "principles_zh": [
+        "在数据接入点收集原始参数（UTMs, Click IDs）。",
+        "将数据存储在用户对象（User Object）层级，而非仅记录在事件（Event）中。",
+        "固化“首次”交互数据，保持其不可变更。",
+        "持续更新“末次”交互数据。",
+        "自主设计分类体系，切勿依赖工具的默认设置。"
+      ],
+      "name_zh": "The Future-Proof Attribution Schema（面向未来的归因体系）"
     },
     {
       "name": "The 'Build AND Buy' Hybrid Model",
@@ -99,7 +125,19 @@
         ],
         "operator": "+",
         "result": "Unique Competitive Advantage & Velocity"
-      }
+      },
+      "summary_zh": "对经典“自研还是外采（Build vs. Buy）”决策难题的重构。它摒弃了非此即彼的二元思维，主张直接采购 90% 的通用标准化方案，并将核心研发资源集中投入到剩余 10% 的定制化开发中，在此基础上构建独特的业务价值。",
+      "problemItSolves_zh": "避免工程团队浪费数年时间去重复建设像 A/B 测试引擎这样的通用工具，或采购那些僵化且无法适配具体业务需求的外部工具。",
+      "whenToUse_zh": "在评估 A/B 测试平台、CDP 或 CRM 等核心基建决策时。",
+      "commonMistakes_zh": "仅因单一功能需求就从零自研整套平台，或是采购了工具却不愿投入研发资源进行妥善集成。",
+      "realWorldExample_zh": "采购 split.io 作为底层 A/B 测试引擎（Buy），但同时自研一套适配公司特定工作流的定制化内部接口与报表层（Build）。",
+      "principles_zh": [
+        "避免陷入“自建还是外采”的二元对立陷阱。",
+        "外采核心基础设施（即通用化底层）。",
+        "自建定制化层（即核心竞争优势）。",
+        "建立“协同效应”：利用 API 深度用户的身份，促使供应商致力于支持你的业务成功。"
+      ],
+      "name_zh": "The 'Build AND Buy' Hybrid Model（“自研与外采”混合模式）"
     },
     {
       "name": "The 'Thinking Gray' Protocol",
@@ -122,8 +160,21 @@
         "endLabel": "Decision Execution (Necessary)",
         "middleLabel": "The 'Gray' Zone (Suspended Judgment & Data Collection)",
         "description": "A linear scale where the goal is to stay in the middle (Gray) as long as possible before moving to the end (Decision)."
-      }
+      },
+      "summary_zh": "源自 Steven B. Sample 的一种反直觉领导力哲学。它主张克制立即做出非黑即白（二元）决策的冲动，转而尽可能长时间地保持“灰度”（延缓判断）状态，以等待更优质的数据涌现。",
+      "problemItSolves_zh": "避免因急于下结论的焦虑，导致在招聘或系统架构中陷入过早优化与偏见。",
+      "whenToUse_zh": "在招聘面试（评估候选人）或复杂的系统架构决策中，特别是面对那些没有显而易见答案的场景。",
+      "commonMistakes_zh": "混淆了“决策果断”与“盲目求快”；仅凭第一印象或主观偏见，便对人选或工具妄下定论。",
+      "realWorldExample_zh": "面试候选人时，克制过早下达“喜欢”或“不喜欢”的定论，坚持在汇总所有面试数据之后再做决策。",
+      "principles_zh": [
+        "克制第一时间进行“好坏”或“是非”定性的冲动。",
+        "保持“灰度”状态：专注于收集事实，暂不预设结论。",
+        "仅在决策截止点倒逼时，才收敛为非黑即白的决断。",
+        "将此原则应用于人才（招聘）与系统（架构）层面。"
+      ],
+      "name_zh": "The 'Thinking Gray' Protocol（“灰度思考”法则）"
     }
   ],
-  "filename": "Austin Hay"
+  "filename": "Austin Hay",
+  "episodeSummary_zh": "Austin Hay 深度拆解了复杂的营销技术 (MarTech) 领域，阐述了如何实现系统从初创期到企业级的规模化扩展。他不仅剖析了 Marketing Ops 与 MarTech 之间的核心差异，还提出了一套面向「后 Cookie 时代」的归因数据架构，并分享了用于辅助决策及评估「自研 vs 采购」策略的思维模型。"
 }

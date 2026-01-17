@@ -3,7 +3,8 @@
     "name": "April Dunford",
     "title": "Founder & CEO",
     "company": "Ambient Strategy",
-    "background": "Expert on product positioning, author of 'Obviously Awesome', former VP of Marketing at seven successful B2B startups."
+    "background": "Expert on product positioning, author of 'Obviously Awesome', former VP of Marketing at seven successful B2B startups.",
+    "background_zh": "产品定位专家，《Obviously Awesome》作者，曾任 7 家成功 B2B 创业公司的市场副总裁。"
   },
   "episodeSummary": "April Dunford joins Lenny to demystify product positioning, explaining that it is not just marketing fluff but a foundational business concept. She breaks down her 5-component methodology for deriving positioning, discusses the difference between brand, messaging, and positioning, and offers specific advice for early-stage startups versus growth-stage companies regarding how tight their positioning should be. She also clarifies the confusion between segmentation and personas in B2B sales.",
   "methodologies": [
@@ -30,7 +31,18 @@
           "4. Best Fit Customers: Identify characteristics of accounts that care deeply about this specific value.",
           "5. Market Category: Define the context/market where this value is obvious to these customers."
         ]
-      }
+      },
+      "summary_zh": "这是一套从竞争性替代方案（而非产品本身）切入的系统化定位推导流程。其逻辑闭环依次为：先明确你要打败什么（替代方案），再梳理你拥有什么（独特属性），进而推导这能实现什么价值（价值主张），锁定谁会关注（目标客群），最终界定所处的市场语境（市场类别）。",
+      "problemItSolves_zh": "避免团队目标对齐出现偏差，以及价值主张模糊导致无法引起客户共鸣。",
+      "whenToUse_zh": "当产品转化遇到瓶颈、处于战略转型期，或各部门对产品的描述不一致时。",
+      "commonMistakes_zh": "先定市场品类；忽视“现状”（如电子表格/实习生人力）这一竞对。",
+      "realWorldExample_zh": "Help Scout：避开了拥挤的“客户支持软件”赛道，选择与“事务型支持工具”（Zendesk）进行差异化对标，面向电商品牌主打“客服即增长驱动力”的定位。",
+      "principles_zh": [
+        "定位是一项团队运动（销售、市场、产品、客户成功及 CEO 均需参与）。",
+        "切勿以“用户为何喜爱我们”作为起点（过于主观）。",
+        "差异化的定义必须以“现状”或“入围竞品”为参照。"
+      ],
+      "name_zh": "The 5-Component Positioning Method（五要素定位法）"
     },
     {
       "name": "The Champion-First Persona Strategy",
@@ -53,7 +65,18 @@
           "Secondary: The Economic Buyer (The Final Decision/Budget Holder)",
           "Tertiary: The Buying Committee (IT, Legal, End Users - Barriers to clear)"
         ]
-      }
+      },
+      "summary_zh": "这是对传统 B2B 用户画像（如“IT 人员 Eric”）的批判。该策略主张，在复杂的 B2B 交易中，初期唯一至关重要的画像是“关键拥护者（Champion）”——即那个肩负解决问题重任的人。市场营销应完全聚焦于“武装”这位拥护者，助其向其他利益相关者进行内部销售。",
+      "problemItSolves_zh": "浪费营销资源为仅在交易收尾阶段才介入的利益相关者（如法务或 IT）构建详尽却无关的用户画像。",
+      "whenToUse_zh": "在定义 B2B 企业软件或涉及复杂销售周期的目标客群时。",
+      "commonMistakes_zh": "构建基于“性格特征”的画像（例如“喜欢电子游戏”），而非基于角色的动机。",
+      "realWorldExample_zh": "一位负责 CRM 选型的销售运营经理（John），他就是所谓的“内部倡导者”（Champion）。他需要向 VP（即“经济决策人”）论证决策的合理性，并获得 IT 部门的最终签批。",
+      "principles_zh": [
+        "B2B 采购决策通常涉及 5-7 人，但这并不意味着你需要构建 7 个用户画像。",
+        "关键倡导者（Champion）既是把关人，也是你在客户内部的销售推手。",
+        "产品定位必须优先与关键倡导者产生共鸣，才有可能进入采购短名单。"
+      ],
+      "name_zh": "The Champion-First Persona Strategy（拥护者优先画像策略）"
     },
     {
       "name": "The Fishing Net Thesis",
@@ -85,8 +108,20 @@
             "description": "Smash gas on the specific segment. Re-align positioning to be the 'Perfect Solution' for that specific profile."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一个关于初创公司定位演进的隐喻。早期创业公司应设定一个“宽泛”的定位假设（类似“广撒网”），以此来验证市场的真实反馈（看捞上来的是什么“鱼”）。只有在通过模式识别搞清楚了“谁在买”以及“为什么买”之后，才应该收紧定位（转为精准捕捞的“金枪鱼网”）。",
+      "problemItSolves_zh": "防止早期初创团队在缺乏数据验证的情况下，过早将自己锁定在错误的市场赛道上。",
+      "whenToUse_zh": "种子期或产品市场匹配前阶段；推出创新技术时。",
+      "commonMistakes_zh": "过早收窄产品定位；当其他细分市场表现出兴趣时，拒绝灵活调整。",
+      "realWorldExample_zh": "Segway：失败归因于拒绝进行精准定位（到底是走人行道还是机动车道？），导致定位长期过于宽泛。反观 Magic Leap，虽然起步宽泛（主打“黑科技”），但随后收敛并聚焦于 B2B 制造业。",
+      "principles_zh": [
+        "达成 PMF 前的产品定位，本质上只是一种假设。",
+        "让市场牵引你找到最契合的应用场景。",
+        "过早收窄定位会导致错失真正的最佳市场（例如：原计划捕捞金枪鱼，实则真正的收获却是石斑鱼）。"
+      ],
+      "name_zh": "The Fishing Net Thesis（渔网理论）"
     }
   ],
-  "filename": "April Dunford"
+  "filename": "April Dunford",
+  "episodeSummary_zh": "April Dunford 做客 Lenny 的节目，深度拆解产品定位（Product Positioning）。她强调，定位绝非营销噱头（Marketing Fluff），而是商业的基石概念。April 详细阐述了她推导定位的“五要素方法论”，辨析了品牌、核心信息（Messaging）与定位之间的差异，并针对早期初创团队与成长期企业，就定位的聚焦程度（Tightness）给出了具体建议。此外，她还厘清了 B2B 销售场景下“市场细分”与“用户画像”这两个常被混淆的概念。"
 }
