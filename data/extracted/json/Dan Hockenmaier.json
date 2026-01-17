@@ -3,7 +3,8 @@
     "name": "Dan Hockenmaier",
     "title": "Head of Strategy and Analytics",
     "company": "Faire",
-    "background": "A renowned marketplace expert who previously worked at Thumbtack during its scaling phase and founded the strategy consulting firm Basis One. He is considered one of the world's leading authorities on marketplace dynamics, growth models, and unit economics."
+    "background": "A renowned marketplace expert who previously worked at Thumbtack during its scaling phase and founded the strategy consulting firm Basis One. He is considered one of the world's leading authorities on marketplace dynamics, growth models, and unit economics.",
+    "background_zh": "知名交易平台专家，曾在 Thumbtack 规模化扩张期任职，并创办了战略咨询公司 Basis One。他被公认为全球在双边市场机制、增长模型及单位经济模型领域的顶尖权威。"
   },
   "episodeSummary": "Dan Hockenmaier deconstructs the complex mechanics of building and scaling marketplace businesses, contrasting them with traditional SaaS models. He provides a masterclass on constructing growth models, defining true liquidity, and making high-stakes strategic decisions regarding verticalization and expansion.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "During quarterly or annual planning cycles, or when determining headcount allocation across product pods.",
       "commonMistakes": "Using the growth model as a financial prediction tool for the board rather than an opportunity assessment tool for the product team.",
       "quote": "If you think about running a marketplace, you're basically like a gardener. You have to have a very light touch. If you're building a SaaS business, you're a construction worker.",
-      "realWorldExample": "At Thumbtack, modeling revealed that the repeat rate of new customers was the single biggest lever for LTV, causing them to shift resources from SEO/Acquisition to cross-selling and lifecycle product features."
+      "realWorldExample": "At Thumbtack, modeling revealed that the repeat rate of new customers was the single biggest lever for LTV, causing them to shift resources from SEO/Acquisition to cross-selling and lifecycle product features.",
+      "summary_zh": "一种将输入端（流量、转化、留存）与输出端（边际贡献）相关联的业务数学模型。有别于财务预测，该模型用于将不同团队的潜在影响归一化为单一的价值指标。",
+      "problemItSolves_zh": "解决了在资源分配时，难以对不同维度的产品举措（例如：品牌推广战役 vs 转化率优化项目）进行横向对比的难题。",
+      "whenToUse_zh": "在季度或年度规划周期，或在确定各产品小组的人力分配时。",
+      "commonMistakes_zh": "将增长模型当作面向董事会的财务预测工具，而非供产品团队使用的机会评估工具。",
+      "realWorldExample_zh": "Thumbtack 的模型测算表明，新客复购率是撬动 LTV 的单一最大杠杆。这一发现促使他们调整战略重心，将资源从 SEO 和获客转移到了交叉销售及用户生命周期产品功能的开发上。",
+      "principles_zh": [
+        "第一步：搭建涵盖核心飞轮的“宏观模型”，具体包括获客渠道、留存曲线以及变现/单位经济模型。",
+        "第二步：为各个产品小组建立“微观模型”，将其特定的北极星指标（如质量分）映射到宏观模型的输入变量上。",
+        "第三步：在规划阶段执行“零基核算”，强制要求团队量化其项目举措如何影响模型中的各项变量。",
+        "第四步：利用该模型将所有项目举措转化为一种“通用货币”（如预估边际贡献），以便进行权衡决策。"
+      ],
+      "name_zh": "The Zero-Based Growth Model（零基增长模型）"
     },
     {
       "name": "The Composite Marketplace CAC Framework",
@@ -47,7 +60,20 @@
       "whenToUse": "When setting marketing budgets or determining if unit economics are actually positive in a specific geography or category.",
       "commonMistakes": "Optimizing for 'marketplace balance' ratios (e.g., 1:10) rather than optimizing for the ROI of the combined acquisition cost.",
       "quote": "You need to include the CAC of acquiring that customer, but also the CAC of acquiring the supply for that customer to purchase... expressed as a ratio.",
-      "realWorldExample": "This approach allows companies like Uber or Faire to understand that even if Rider CAC is low, if Driver CAC is skyrocketing, the composite unit economics might be negative."
+      "realWorldExample": "This approach allows companies like Uber or Faire to understand that even if Rider CAC is low, if Driver CAC is skyrocketing, the composite unit economics might be negative.",
+      "summary_zh": "一套用于计算双边市场真实获客成本的公式，该公式将承接需求所需的必要供给端获客关联成本纳入了考量。",
+      "problemItSolves_zh": "解决因缺乏对交易综合成本的全局考量，导致在供给侧或需求侧孤立过度投入的问题。",
+      "whenToUse_zh": "当制定营销预算，或评估特定区域/品类的单体经济模型是否真正转正时。",
+      "commonMistakes_zh": "优化“供需平衡”比例（如 1:10），而非优化综合获客成本的 ROI。",
+      "realWorldExample_zh": "这套框架能帮助 Uber 或 Faire 这类公司意识到：即便乘客端 CAC 很低，但若司机端 CAC 飙升，综合单位经济模型仍可能为负。",
+      "principles_zh": [
+        "第一步：计算需求侧（消费者）的直接 CAC。",
+        "第二步：确定“流动性比率”——即服务一位消费者所需的供给端数量（例如：每位乘客对应 0.1 位司机）。",
+        "第三步：计算供给侧的 CAC，并乘以流动性比率。",
+        "第四步：将上述数值加总得出综合 CAC。将其与 LTV 进行对标，以测算真实的回收周期。",
+        "第五步：持续加大双边获客投入，直至综合 CAC 触及可容忍的最大回收周期阈值。"
+      ],
+      "name_zh": "The Composite Marketplace CAC Framework（交易平台综合 CAC 框架）"
     },
     {
       "name": "Early Experience Variance Reduction",
@@ -63,7 +89,19 @@
       "whenToUse": "When retention curves are flattening at a lower-than-desired rate, or when early churn is high despite a seemingly good product.",
       "commonMistakes": "Focusing on 'resurrection' campaigns (emailing people who left 6 months ago) instead of fixing the onboarding variability.",
       "quote": "If you can target streamlining that experience... you pull up all those below average first experiences to average and drive much better retention curves going forward.",
-      "realWorldExample": "Uber and Lyft using 'earnings guarantees' for new drivers. A driver might have a bad first week due to luck, but the guarantee simulates a 'good' week, proving the platform's value and keeping them retained."
+      "realWorldExample": "Uber and Lyft using 'earnings guarantees' for new drivers. A driver might have a bad first week due to luck, but the guarantee simulates a 'good' week, proving the platform's value and keeping them retained.",
+      "summary_zh": "一种通过识别并剔除用户首周“运气不佳”场景来提升留存的方法，旨在收敛体验方差，将新手体验拉齐至平均或更优水准。",
+      "problemItSolves_zh": "通过直击根因（糟糕的初始体验）解决留存问题，而非试图召回流失用户。",
+      "whenToUse_zh": "当留存曲线趋于平缓但稳定水位低于预期，或产品本身尚可但早期流失率居高不下时。",
+      "commonMistakes_zh": "过度关注“流失召回”（例如给 6 个月前流失的用户发邮件），而忽视了解决 Onboarding 阶段的体验差异问题。",
+      "realWorldExample_zh": "Uber 和 Lyft 针对新司机推出的“收入保底”机制。新司机首周可能因运气不佳导致收益低迷，而保底机制通过模拟“高收益”周的体验，向其验证平台价值，从而有效确保留存。",
+      "principles_zh": [
+        "第一步：根据首周业务结果对新用户进行分层（例如司机的收入状况，或买家的成功下单情况）。",
+        "第二步：锁定体验最差的后 25% 用户——这类用户行为正确，但受市场随机性（如供给密度低、匹配质量差）影响而导致结果不佳。",
+        "第三步：实施产品干预手段（如兜底保障、补贴激励、人工撮合），人为将这部分用户的体验拉升至大盘平均水位。",
+        "第四步：监测这些同期群（Cohorts）的后续留存指标；通过尽早交付价值，建立用户对平台值得长期使用的认知。"
+      ],
+      "name_zh": "Early Experience Variance Reduction（早期体验方差缩减）"
     },
     {
       "name": "The Liquidity & Depth Audit",
@@ -79,7 +117,19 @@
       "whenToUse": "When evaluating the health of a marketplace startup or deciding between growing the user base vs. deepening engagement.",
       "commonMistakes": "Assuming GMV growth means the marketplace is healthy, while ignoring that users are finding matches less than 50% of the time.",
       "quote": "If you could tell me we could grow GMV 10% by getting 10% more customers or by getting 10% more of our current customers' wallet, I would take the latter.",
-      "realWorldExample": "Faire looking at independent retailers' shelves to see what percentage of their inventory was sourced via Faire vs. other channels as a primary health metric."
+      "realWorldExample": "Faire looking at independent retailers' shelves to see what percentage of their inventory was sourced via Faire vs. other channels as a primary health metric.",
+      "summary_zh": "一套评估交易平台健康度的框架，重点关注交易可靠性（流动性）与钱包份额（深度），而非单纯追求总量增长。",
+      "problemItSolves_zh": "帮助交易平台摆脱 GMV 等虚荣指标的局限，转而衡量平台的真实健康度与防御性。",
+      "whenToUse_zh": "适用于评估交易平台（Marketplace）初创企业的业务健康度，或在“扩大用户规模”与“深耕用户参与度”之间进行权衡决策时。",
+      "commonMistakes_zh": "误认为 GMV 增长即代表平台健康，却忽视了用户的匹配成功率不足 50%。",
+      "realWorldExample_zh": "Faire 审视独立零售商的货架，将通过 Faire 采购的库存占比（相对于其他渠道）作为核心健康指标。",
+      "principles_zh": [
+        "第一步：将“流动性”定义为基于用户意图的履约可靠性指标（例如“搜索成交率”或“等待时长 < 5分钟”）。",
+        "第二步：测算钱包份额：供给端的总收入或需求端的总支出中，经由平台交易的比例是多少？",
+        "第三步：优先通过深度（钱包份额）而非广度（新用户）来构建竞争壁垒，降低多归属倾向。",
+        "第四步：仅当核心业务的流动性已趋于稳固时，再向新垂类拓展。"
+      ],
+      "name_zh": "The Liquidity & Depth Audit（流动性与深度诊断）"
     }
   ],
   "notableQuotes": [
@@ -96,5 +146,6 @@
       "context": "Arguing that while supply is hard to build, demand aggregation is the ultimate constraint and value driver of a marketplace."
     }
   ],
-  "filename": "Dan Hockenmaier"
+  "filename": "Dan Hockenmaier",
+  "episodeSummary_zh": "Dan Hockenmaier 深度拆解了构建与规模化 Marketplace 业务的复杂底层逻辑，并将其与传统 SaaS 模式进行了对比。他带来了一堂关于搭建增长模型、定义真实流动性的大师课，并深入探讨了在垂直化和业务扩张等高风险场景下的战略决策逻辑。"
 }

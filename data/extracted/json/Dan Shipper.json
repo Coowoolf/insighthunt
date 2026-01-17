@@ -3,7 +3,8 @@
     "name": "Dan Shipper",
     "title": "Co-founder and CEO",
     "company": "Every",
-    "background": "Dan Shipper is a writer, engineer, and entrepreneur who runs Every, a media and product incubation company. He is a leading voice in the 'AI-first' movement, famously operating a 15-person team that builds four products and a daily newsletter with zero manual coding."
+    "background": "Dan Shipper is a writer, engineer, and entrepreneur who runs Every, a media and product incubation company. He is a leading voice in the 'AI-first' movement, famously operating a 15-person team that builds four products and a daily newsletter with zero manual coding.",
+    "background_zh": "Dan Shipper 是一位集作家、工程师和创业者于一身的跨界人才，目前掌舵着媒体与产品孵化机构 Every。作为 \"AI-first\" 浪潮的领军人物，他的标志性成就是带领一支 15 人的团队，在零人工编码的情况下，并发构建了 4 款产品并运营着一份日更 Newsletter。"
   },
   "episodeSummary": "Dan Shipper joins Lenny to dismantle the traditional software development lifecycle, revealing how Every operates at the bleeding edge of AI adoption. The conversation explores the shift from 'building' to 'allocation' (managing agents), detailed workflows for engineering teams that don't write code, and a product strategy based on unbundling expensive human services. Shipper provides a concrete look at how non-technical and technical leaders alike can utilize local agents (like Claude Code) to achieve massive productivity gains.",
   "keyTakeaways": [
@@ -29,7 +30,19 @@
       "whenToUse": "When brainstorming new product lines or features, especially for teams looking to leverage AI to disrupt service-heavy industries.",
       "commonMistakes": "Over-complicating the MVP before validating if the AI model can actually perform the specific 'human' task effectively.",
       "quote": "There are a lot of expensive services that rich people and big companies are paid for right now... what cheap intelligence does is it makes those kinds of things affordable for small companies and individuals.",
-      "realWorldExample": "Every built 'Cora' (an AI Chief of Staff for email) and 'Sparkle' (file cleaner) because they needed these expensive human-level services internally but couldn't afford to hire humans for them."
+      "realWorldExample": "Every built 'Cora' (an AI Chief of Staff for email) and 'Sparkle' (file cleaner) because they needed these expensive human-level services internally but couldn't afford to hire humans for them.",
+      "summary_zh": "这是一套产品构想框架，核心旨在将昂贵且专属的人工服务（如律师、心理咨询师、幕僚长）通过 AI 封装实现普惠化。该策略不主张创造新的用户行为，而是致力于将那些过去因成本高昂而难以普及的现有高价值行为自动化。",
+      "problemItSolves_zh": "帮助产品团队在饱和市场中，跳出“又一个 SaaS 应用”的思维定势，识别高价值、高需求的产品机会。",
+      "whenToUse_zh": "在构思新产品线或功能时，特别是针对那些寻求**撬动** AI 以颠覆重服务行业的团队。",
+      "commonMistakes_zh": "在验证 AI 模型能否真正胜任特定的“人工”任务之前，过度复杂化 MVP。",
+      "realWorldExample_zh": "Every 之所以开发 'Cora'（邮件 AI 幕僚长）和 'Sparkle'（文件清理工具），是因为团队内部需要这类高昂的真人级服务，但又负担不起雇佣专人的成本。",
+      "principles_zh": [
+        "**锁定“贵族化”服务**：寻找那些通常仅有高净值人群或头部企业才消费得起的高昂服务（例如：专属律师、专业文案润色、幕僚长等）。",
+        "**内部“吃狗粮”验证**：开发一个“套壳”工具（基于 LLM 的轻量级封装界面），优先解决团队自身的真实痛点。",
+        "**注重“体感”校验**：以团队内部的真实“体感”和高频使用率作为价值评估标准，而非依赖传统的外部市场调研。",
+        "**SaaS 化独立变现**：一旦该内部工具成为团队不可或缺的刚需，立即将其孵化为独立的 SaaS 产品对外发布。"
+      ],
+      "name_zh": "The Service Unbundling Strategy（服务拆分策略）"
     },
     {
       "name": "The Agentic Engineering Loop",
@@ -45,7 +58,19 @@
       "whenToUse": "For lean engineering teams or startups that need to output a volume of work usually requiring 5-10x the headcount.",
       "commonMistakes": "Assuming non-technical people can do this immediately; you still need engineers to understand *what* the code is doing during the review phase.",
       "quote": "No one is manually coding anymore. Organizations like ours, people who are playing at the edge, we're doing things that, in three years, everybody else is going to be doing.",
-      "realWorldExample": "The 'Cora' team (2 engineers) manages 15 instances of Claude Code simultaneously to build and maintain a product serving millions of emails, effectively doing the work of a 20-person team."
+      "realWorldExample": "The 'Cora' team (2 engineers) manages 15 instances of Claude Code simultaneously to build and maintain a product serving millions of emails, effectively doing the work of a 20-person team.",
+      "summary_zh": "这是一种变革性的研发工作流，工程师不再进行手工编码，而是转型为“Agent 管理者”。工作重心从语法细节转移至架构设计、需求梳理及代码评审。",
+      "problemItSolves_zh": "通过消除手动编写语法的瓶颈，赋能小团队以高速交付企业级软件。",
+      "whenToUse_zh": "适用于精益工程团队或初创公司，需交付通常相当于 5-10 倍人力规模的产出。",
+      "commonMistakes_zh": "误以为非技术人员能立刻独立上手；但在评审阶段，你依然需要工程师来解读代码究竟在执行什么逻辑。",
+      "realWorldExample_zh": "\"Cora\" 团队（仅 2 名工程师）通过并发管理 15 个 Claude Code 实例，构建并维护着一款处理百万级邮件量的产品，实现了相当于 20 人团队的效能。",
+      "principles_zh": [
+        "提示词驱动架构：工程师将核心精力投入到撰写详尽的英文 PRD 和指令上，而非直接编写 Python 或 JS 函数代码。",
+        "多智能体部署：针对特定任务部署专用 Agent 实现各司其职（如使用 Claude Code 编写代码，部署 'Agent Charlie' 进行 GitHub PR 评审）。",
+        "提示词复利：沉淀一套能将粗糙草案转化为技术规格书的 Prompt 资产库，确保 Agent 的启动配置效率随迭代不断提升。",
+        "评审导向质控：人类的核心角色从调试语法细节转向高阶 Code Review 和对产出结果的“直觉把关”（Vibe Checking）。"
+      ],
+      "name_zh": "The Agentic Engineering Loop（智能体工程闭环）"
     },
     {
       "name": "The AI-First Cultural Rollout",
@@ -61,7 +86,19 @@
       "whenToUse": "When an organization has purchased Copilot/ChatGPT Enterprise licenses but sees low active usage rates.",
       "commonMistakes": "Treating AI adoption as a compliance requirement rather than a productivity unlock; failing to identify and reward the internal 'power users'.",
       "quote": "If the CEO is in it all the time... everybody else is going to start doing it. If the CEO is like, 'I don't know, this is for someone else,' no one else is going to be able to lead that charge.",
-      "realWorldExample": "The hedge fund Walleye sent a memo explicitly stating the CEO used ChatGPT to write it, and they now hold weekly meetings where employees demo their best prompts to the rest of the firm."
+      "realWorldExample": "The hedge fund Walleye sent a memo explicitly stating the CEO used ChatGPT to write it, and they now hold weekly meetings where employees demo their best prompts to the rest of the firm.",
+      "summary_zh": "一套通过撬动领导层行为与社会认同，推动公司从“AI 好奇”向“AI 原生”转型的变革管理框架。",
+      "problemItSolves_zh": "克服内部阻力与“使用停滞”难题，解决员工虽有 AI 工具访问权限却未实际采用的问题。",
+      "whenToUse_zh": "企业已采购 Copilot/ChatGPT Enterprise 授权，但面临活跃使用率低迷的问题。",
+      "commonMistakes_zh": "将 AI 落地视为合规性任务，而非解锁生产力的手段；未能识别并激励内部的“超级用户”。",
+      "realWorldExample_zh": "对冲基金 Walleye 发布了一份备忘录，明确注明该内容由 CEO 使用 ChatGPT 撰写。此外，他们还设立了例行周会，组织员工向全公司 Demo 各自的最佳 Prompt。",
+      "principles_zh": [
+        "**CEO 标杆准则**：CEO 必须在日常工作中显性化地高频使用 AI。一旦领导者将 AI 工作“下放”给他人，团队便会将其视为“低价值”的打杂工作。",
+        "**“Tobi 备忘录”策略**：发布全员信确立“AI-First”战略，并在信中明确标注：“本邮件由 ChatGPT 撰写，建议大家效仿。”",
+        "**Prompt 每周分享会**：设立专项周会，专注于让团队成员 Showcase 那些能够显著提效的优质 Prompt（提示词）。",
+        "**使用率排行榜**：每周公示 AI 工具的高频使用者数据，通过游戏化机制推动落地，并筛选出 10% 的“早期先行者”来赋能带动团队。"
+      ],
+      "name_zh": "The AI-First Cultural Rollout（AI 优先文化落地）"
     }
   ],
   "notableQuotes": [
@@ -82,5 +119,6 @@
       "context": "Explaining the 'Allocation Economy' where individual contributors must learn to manage AI agents."
     }
   ],
-  "filename": "Dan Shipper"
+  "filename": "Dan Shipper",
+  "episodeSummary_zh": "Dan Shipper 做客 Lenny 播客，深度解构了传统的软件开发生命周期，并揭秘了 Every 公司如何在 AI 应用的最前沿进行实战运作。本次对话探讨了从“构建”向“调配”（即管理智能体）的核心范式转变、零代码工程团队的详细工作流，以及如何通过拆解高昂人工服务来制定产品战略。此外，Shipper 还具体展示了技术与非技术管理者如何利用本地 Agent（如 Claude Code）实现生产力的爆发式增长。"
 }

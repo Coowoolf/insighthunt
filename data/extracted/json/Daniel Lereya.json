@@ -3,7 +3,8 @@
     "name": "Daniel Lereya",
     "title": "Chief Product and Technology Officer (CPTO)",
     "company": "Monday.com",
-    "background": "Daniel joined Monday.com when it had roughly 40 employees and $4M ARR, guiding the product and technology organization through hyper-growth to over 2,500 employees and $1B+ in ARR. He has overseen the transition from a single product to a multi-product platform."
+    "background": "Daniel joined Monday.com when it had roughly 40 employees and $4M ARR, guiding the product and technology organization through hyper-growth to over 2,500 employees and $1B+ in ARR. He has overseen the transition from a single product to a multi-product platform.",
+    "background_zh": "Daniel 加入 Monday.com 时，公司仅有约 40 名员工，ARR 为 400 万美元。他带领产研团队经历了爆发式增长，将团队规模扩充至 2,500 人以上，ARR 突破 10 亿美元。在此期间，他主导了公司从单一产品向多产品平台的战略转型。"
   },
   "episodeSummary": "Daniel Lereya shares the internal transformations Monday.com underwent to scale from a small startup to a multi-product public company. The conversation centers on a pivotal moment where competitor speed forced them to reinvent their engineering culture, the implementation of 'radical transparency' to turn employees into partners, and the necessity of shifting from feature-output to impact-outcomes. He also discusses the counterintuitive risks of not taking bold leaps and how to operationalize ambition.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a team is shipping slowly despite high effort, or when a competitor has significantly outpaced you in feature delivery.",
       "commonMistakes": "Setting the goal without allowing the team to change the process (leading to burnout) or failing to build the shared infrastructure before the sprint.",
       "quote": "If we're going to add 25 more, multiply it by four months... we are lost. So we said, 'Okay, we need to take upon ourselves an ambitious goal, like 25 columns in one month.'",
-      "realWorldExample": "Monday.com realized competitors shipped 30 new column types while they were building one every four months. They re-architected the column infrastructure and held a hackathon, shipping 30 columns in 1.5 months."
+      "realWorldExample": "Monday.com realized competitors shipped 30 new column types while they were building one every four months. They re-architected the column infrastructure and held a hackathon, shipping 30 columns in 1.5 months.",
+      "summary_zh": "一种旨在突破效能瓶颈的框架。它通过设定极其激进的目标，致使现有工作流在数理逻辑上无法支撑，从而倒逼团队彻底重构底层基建与流程。",
+      "problemItSolves_zh": "团队受困于渐进式改良，常规流程见效缓慢，且单纯依靠“加倍努力”已无法破局。",
+      "whenToUse_zh": "当团队竭尽全力却交付缓慢，或是被竞对在功能迭代速度上显著超越时。",
+      "commonMistakes_zh": "定下目标却不允许团队调整流程（这将导致团队倦怠），或未能在 Sprint 启动前搭建好共享基础设施。",
+      "realWorldExample_zh": "Monday.com 发现竞对已经上线了 30 种新的列类型，而自己每四个月才能开发一种。团队随即重构了列功能的底层架构，并通过组织黑客马拉松，仅用 1.5 个月就上线了 30 种列类型。",
+      "principles_zh": [
+        "**寻找市场的“馈赠”**：利用竞对的已有成果作为对标，证明实现更高迭代速度的可行性。",
+        "**设定非线性目标**：放弃“提效 10%”的渐进式思维，转而追求“1 个月完成 4 个月工作量”，借此打破单纯依赖“加倍努力”的思维定势。",
+        "**优先夯实底层基建**：在前期集中精力定义抽象的产品架构（如通用的组件结构），确保后续具体功能实例的开发周期从“周”缩短至“小时”级别。",
+        "**采用黑客松式交付**：将执行阶段压缩为高强度的极速冲刺（如单日黑客松），让每位工程师独立 Owner 一个完整的价值单元。"
+      ],
+      "name_zh": "The 'Impossible Goal' Execution Model（“不可能目标”执行模型）"
     },
     {
       "name": "The 'Shared Brain' Transparency Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "When employees feel disconnected from the business strategy or when 'good execution' isn't translating to business results.",
       "commonMistakes": "Filtering data to 'protect' morale—this actually creates distance. Another mistake is sharing data without context or the ability for ICs to influence it.",
       "quote": "We really want everyone's brains in the challenge, and not just one centralized brain and a lot of working hands.",
-      "realWorldExample": "Monday.com displays dashboards with churn and revenue at the office entrance. When adoption for a new AI feature was low, a developer noticed it via the daily numbers, identified a legal ToS blocker, and fixed it, unlocking 98% adoption."
+      "realWorldExample": "Monday.com displays dashboards with churn and revenue at the office entrance. When adoption for a new AI feature was low, a developer noticed it via the daily numbers, identified a legal ToS blocker, and fixed it, unlocking 98% adoption.",
+      "summary_zh": "一种极致的数据透明机制，向全员开放原始业务指标（如流失率、营收、Bug），将员工视为能自主解决问题的合作伙伴，而非单纯的“执行工具”。",
+      "problemItSolves_zh": "决策孤岛：管理层独自背负业务指标压力，而执行层仅关注机械地完成工单交付。",
+      "whenToUse_zh": "当员工感到与业务战略脱节，或“优秀的执行”未能转化为业务结果时。",
+      "commonMistakes_zh": "为了“保护”士气而刻意过滤数据——这反而会制造隔阂。另一个误区是：同步数据时缺乏上下文，或者 IC 根本无法对这些数据施加影响。",
+      "realWorldExample_zh": "Monday.com 在办公室入口处展示包含流失率和营收的数据看板。当某项新 AI 功能的渗透率低迷时，一位工程师通过日常数据发现了这一问题，定位并修复了一个服务条款（ToS）层面的法律卡点，成功将渗透率解锁至 98%。",
+      "principles_zh": [
+        "公开“月球暗面”：向全员同步那些令人焦虑的数据（如用户流失、业绩未达标），别让管理层独自承担压力。",
+        "视听双重反馈：在办公区设置实体数据看板，并配合提示音（如成单时的《辛普森》音效、流失时的特定警报），打造全员共享的感官环境。",
+        "极致关注每日数据：要求各团队每天在 Slack 发布“数据日报”，深度分析核心指标（如 AI 功能使用量），而非汇报功能开发进度。",
+        "数据权限的合规路径：即便是上市公司，也应要求 PM 和员工签署 10b5 交易计划（自动出售协议），确保全员在合规前提下依然能接触内部核心数据。"
+      ],
+      "name_zh": "The 'Shared Brain' Transparency Protocol（“共享大脑”透明协议）"
     },
     {
       "name": "The 'Future-Back' Impact Audit",
@@ -62,7 +87,19 @@
       "whenToUse": "During quarterly planning or when a team feels busy but leadership questions the ROI of their work.",
       "commonMistakes": "Confusing 'shipping a feature' with 'impact.' The goal is not the release; the goal is the metric change the release caused.",
       "quote": "If you can't answer that and you say, 'Listen, I'm doing so much,' but you can't point to this exact thing [that transformed], you have a focus problem.",
-      "realWorldExample": "Daniel uses a specific slide at the yearly kickoff that states, 'When I stand here a year from now, X will be different.' He holds himself accountable to that specific slide the following year."
+      "realWorldExample": "Daniel uses a specific slide at the yearly kickoff that states, 'When I stand here a year from now, X will be different.' He holds himself accountable to that specific slide the following year.",
+      "summary_zh": "一种规划与复盘机制，强制团队从具象的未来状态倒推，而非基于功能列表顺向堆砌。",
+      "problemItSolves_zh": "“构建陷阱”：团队虽然交付了大量功能，但在周期结束时，却无法清晰阐述或证明其带来了实质性的商业价值。",
+      "whenToUse_zh": "在季度规划期间，或当团队虽然忙碌、但管理层质疑其工作 ROI 时。",
+      "commonMistakes_zh": "混淆了“功能上线”与“业务影响力”。目标不在于完成发布，而在于发布所驱动的指标变化。",
+      "realWorldExample_zh": "Daniel 在年度启动会上会展示一页专门的 PPT，声明：“明年此时，X 将会有所不同。”到了第二年，他会严格对照这页 PPT 进行复盘与问责。",
+      "principles_zh": [
+        "The One-Year Slide：年初仅用一页幻灯片，精准描述一年后用户的生活将发生怎样的改变。一年后，针对这一页内容进行复盘。",
+        "The Quarterly Reality Check：自问“3 个月后产品会有何不同？”如果答案仅仅是“安全性增强”或“功能堆砌”，而非用户层面的具体改变，说明规划非常薄弱。",
+        "Bi-Weekly Highlights：成员每双周记录一次聚焦“影响力”的工作亮点。如果团队难以列举出有实质意义的产出，往往预示着聚焦方向出了问题。",
+        "预先定义“指标撬动”（Needle Movement）：在写代码之前，PM 必须明确定义如何判定关键指标已发生变化。如果缺乏这套衡量标准，绝不启动开发。"
+      ],
+      "name_zh": "The 'Future-Back' Impact Audit（“以终为始”影响力盘点）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "On the decision to launch five products simultaneously rather than testing them incrementally."
     }
   ],
-  "filename": "Daniel Lereya"
+  "filename": "Daniel Lereya",
+  "episodeSummary_zh": "Daniel Lereya 分享了 Monday.com 从初创团队蜕变为多产品线上市公司的内部转型历程。本次对话聚焦于几个核心议题：面对竞对的迭代速度，团队如何被迫重塑工程文化；如何通过推行“极致透明”策略将员工转化为事业合伙人；以及从单纯的“功能交付”向“业务成果”导向转型的必要性。此外，他还探讨了规避大胆尝试背后那些反直觉的风险，以及如何将宏大的野心转化为可落地的执行机制。"
 }

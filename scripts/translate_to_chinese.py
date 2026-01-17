@@ -182,28 +182,68 @@ def translate_episode(filepath: Path) -> None:
     
     print(f"  ✅ Translation complete")
 
+def is_fully_translated(filepath: Path) -> bool:
+    """Check if an episode is fully translated (all methodologies have summary_zh)"""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    methodologies = data.get('methodologies', [])
+    if not methodologies:
+        return True
+    
+    # Check if ALL methodologies have summary_zh (the most important field)
+    return all(m.get('summary_zh') for m in methodologies)
+
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description='Translate InsightHunt episodes to Chinese')
+    parser.add_argument('--start', type=int, default=1, help='Starting episode number (1-indexed)')
+    parser.add_argument('--count', type=int, default=5, help='Number of episodes to process')
+    parser.add_argument('--force', action='store_true', help='Force re-translation even if already done')
+    args = parser.parse_args()
+    
     print("🌐 InsightHunt Chinese Translation")
     print("=" * 50)
     
     # Get all episode files
     files = sorted(DATA_DIR.glob("*.json"))
-    print(f"\n📊 Found {len(files)} episodes to translate\n")
+    total = len(files)
     
-    for i, filepath in enumerate(files):
+    # Calculate batch range
+    start_idx = args.start - 1  # 0-indexed
+    end_idx = min(start_idx + args.count, total)
+    batch_files = files[start_idx:end_idx]
+    
+    print(f"\n📊 Processing episodes {args.start} to {start_idx + len(batch_files)} of {total}")
+    print(f"   Batch size: {len(batch_files)}\n")
+    
+    translated = 0
+    skipped = 0
+    
+    for i, filepath in enumerate(batch_files):
         guest_name = filepath.stem
-        print(f"[{i+1}/{len(files)}] Processing: {guest_name}")
+        episode_num = start_idx + i + 1
+        print(f"[{episode_num}/{total}] Processing: {guest_name}")
+        
+        # Skip if already translated (unless --force)
+        if not args.force and is_fully_translated(filepath):
+            print(f"  ⏭️ Already fully translated, skipping")
+            skipped += 1
+            continue
         
         try:
             translate_episode(filepath)
+            translated += 1
         except Exception as e:
             print(f"  ❌ Error: {e}")
         
         time.sleep(2)  # Rate limiting between episodes
     
     print("\n" + "=" * 50)
-    print("✅ Translation complete!")
-    print(f"📊 Translated {len(files)} episodes")
+    print(f"✅ Batch complete!")
+    print(f"   Translated: {translated}")
+    print(f"   Skipped: {skipped}")
+    print(f"\n💡 Next batch: python3 scripts/translate_to_chinese.py --start {end_idx + 1} --count {args.count}")
 
 if __name__ == "__main__":
     main()

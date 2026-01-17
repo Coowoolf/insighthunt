@@ -3,7 +3,8 @@
     "name": "David Placek",
     "title": "Founder",
     "company": "Lexicon Branding",
-    "background": "The legendary founder of Lexicon Branding, responsible for naming iconic products and companies including BlackBerry, Pentium, Swiffer, Sonos, Azure, Vercel, and the Impossible Burger. He pioneered the use of linguistics and sound symbolism in commercial naming."
+    "background": "The legendary founder of Lexicon Branding, responsible for naming iconic products and companies including BlackBerry, Pentium, Swiffer, Sonos, Azure, Vercel, and the Impossible Burger. He pioneered the use of linguistics and sound symbolism in commercial naming.",
+    "background_zh": "Lexicon Branding 传奇创始人，曾主导 BlackBerry、Pentium、Swiffer、Sonos、Azure、Vercel 以及 Impossible Burger 等众多标志性产品与公司的命名。他开创性地将语言学和语音象征（Sound Symbolism）原理引入了商业命名领域。"
   },
   "episodeSummary": "David Placek demystifies the black box of product naming, transforming it from a creative guessing game into a rigorous science combining linguistics, cognitive psychology, and strategy. He challenges the common desire for 'comfortable' names, arguing that distinctiveness requires discomfort and friction. The episode details Lexicon's proprietary three-step process, specific exercises for founders to define their 'win' state, and the hidden power of sound symbolism in influencing consumer behavior.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "At the very beginning of a naming project, before any brainstorming occurs, to align co-founders or stakeholders.",
       "commonMistakes": "Listing 'A good name' under 'What do we need to win' (circular logic) or rushing the exercise in under an hour.",
       "quote": "It’s not about the past. You’re actually creating the future... We’re creating an experience for you.",
-      "realWorldExample": "Used generally by Lexicon to help startups move from 'we need a name' to 'we need to signal a specific behavior'."
+      "realWorldExample": "Used generally by Lexicon to help startups move from 'we need a name' to 'we need to signal a specific behavior'.",
+      "summary_zh": "一项几何模型演练，旨在创意工作启动前，拉齐利益相关者对名称应激发的具体行为与体验的共识。",
+      "problemItSolves_zh": "避免团队在缺乏清晰战略北极星指引下进行漫无目的的头脑风暴，或盲目追求无法驱动商业目标的“酷”名字。",
+      "whenToUse_zh": "在命名项目启动之初，开展头脑风暴之前，用于与联合创始人或利益相关方对齐。",
+      "commonMistakes_zh": "将“好名字”列入“致胜要素”（循环论证），或者试图在一小时内仓促走完整个流程。",
+      "realWorldExample_zh": "Lexicon 通常利用该策略引导初创公司完成认知转变：从“我们需要一个名字”，进阶为“我们需要传递特定的行为信号”。",
+      "principles_zh": [
+        "画一个菱形。在顶点标注“WIN”，明确定义该产品的成功标准究竟是什么。",
+        "右端点：“我们凭什么赢？”（现有资产、技术积淀、团队优势）。",
+        "底端点：“我们需要什么才能赢？”（市场空白、特定的用户认知、关键资源）。",
+        "左端点：“我们要对外传达什么？”（核心叙事）。",
+        "综合收敛：将命名重心聚焦于“传达（Say）”这一端点——将核心信息转化为一种行为模式或用户体验，而非单纯的功能描述。"
+      ],
+      "name_zh": "The Diamond Naming Strategy（钻石命名策略）"
     },
     {
       "name": "The Context-Shift Brainstorming",
@@ -48,7 +62,20 @@
       "whenToUse": "During the 'Invent' phase when generating the initial list of 1,000+ ideas.",
       "commonMistakes": "Judging the metaphorical names too early for technical accuracy rather than emotional resonance.",
       "quote": "When people are working on what they know is not the real assignment, they are now free to make all kinds of mistakes.",
-      "realWorldExample": "For 'Windsurf' (an AI coding agent), a team was tasked with exploring words related to movement, flow, and sports, rather than 'coding' or 'AI', leading to the final name."
+      "realWorldExample": "For 'Windsurf' (an AI coding agent), a team was tasked with exploring words related to movement, flow, and sports, rather than 'coding' or 'AI', leading to the final name.",
+      "summary_zh": "一种激发横向思维的技巧：通过让小团队针对隐喻性的“替代对象”（而非实际产品本身）进行命名构思，从而打破思维定势。",
+      "problemItSolves_zh": "克服“工程师思维定势”——即解决领域专家倾向于提出过于直白、描述性强却枯燥乏味名称的问题（例如：取名“ProChip”而非“Pentium”）。",
+      "whenToUse_zh": "在“Invent（创意发想）”阶段，需要产出包含 1000+ 个创意的初始清单时。",
+      "commonMistakes_zh": "过早纠结隐喻性命名的技术准确性，而忽视了其情感共鸣。",
+      "realWorldExample_zh": "在 'Windsurf'（一款 AI 编程 Agent）的案例中，团队并未局限于“编程”或“AI”等字眼，而是受命探索与“运动”、“流动”及“体育”相关的词汇，并最终由此确定了产品名称。",
+      "principles_zh": [
+        "将创意团队拆解为若干小组（每组最多 2 人）。",
+        "A 组领取「写实任务」：向其同步产品的真实情况及规格参数。",
+        "B 组领取「隐喻任务」：要求其为具备同等属性的实体物品命名（例如：命名「一辆疾速单车」而非「一款极速软件」）。",
+        "C 组领取「体验任务」：完全聚焦于感官体验（例如：「命名某种代表『心流』的事物」）。",
+        "成果收敛：B 组和 C 组产出的「偏差」与隐喻联想，往往能孵化出最具辨识度的品牌名称。"
+      ],
+      "name_zh": "The Context-Shift Brainstorming（语境切换头脑风暴）"
     },
     {
       "name": "The 'Competitor Launch' Validation",
@@ -65,7 +92,20 @@
       "whenToUse": "When narrowing down a shortlist of 5-10 names and seeking feedback from outside the core team.",
       "commonMistakes": "Accepting 'It sounds weird' as negative feedback. 'Weird' often means 'New/Distinctive'.",
       "quote": "If your team is comfortable with the name, chances are you don't have the name yet.",
-      "realWorldExample": "When testing names, Lexicon looks for consumers to say 'They're not like the other guys,' which was the goal for names like Google vs. Infoseek."
+      "realWorldExample": "When testing names, Lexicon looks for consumers to say 'They're not like the other guys,' which was the goal for names like Google vs. Infoseek.",
+      "summary_zh": "一种用于命名验证的视角重构技巧，旨在消除评估者的责任负担，并衡量市场影响力。",
+      "problemItSolves_zh": "消除命名测试中“迎合上级”的偏见，以及“我不喜欢”式的主观反应。",
+      "whenToUse_zh": "当备选名称筛选至 5-10 个，并需要向核心团队外部寻求反馈时。",
+      "commonMistakes_zh": "将“听起来很怪”误读为负面反馈。其实，“怪”往往意味着“新颖”或“独特”。",
+      "realWorldExample_zh": "在进行命名测试时，Lexicon 寻求的用户反馈是“这家公司跟别人不一样”，这正是当年 Google 相比 Infoseek 想要达到的命名目标。",
+      "principles_zh": [
+        "**不要问**：“你觉得我们公司取这个名字怎么样？”（这种问法容易诱导主观评判）。",
+        "**要问**：“想象一下，市面上刚出现了一家叫 [名字] 的竞品。你觉得他们是做什么业务的？整体调性感觉如何？”",
+        "基于“预设倾向”进行评估：这个名字是否激发了好奇心？是否传递出“这家公司与众不同”的差异化信号？",
+        "重点关注这类反馈：“虽然没看懂具体做什么，但感觉跟市面上其他家不太一样。”",
+        "优先选择能够营造“体验感”的名字，而非单纯描述“功能”的名字。"
+      ],
+      "name_zh": "The 'Competitor Launch' Validation（“竞对发布”验证）"
     },
     {
       "name": "Phonosemantic Engineering",
@@ -82,7 +122,20 @@
       "whenToUse": "During the filtering process to select the best candidates from the brainstorm list.",
       "commonMistakes": "Choosing a 'soft' sounding name for a high-performance/aggressive product.",
       "quote": "V, from our research... is the most alive and vibrant sound in the English alphabet... whether you were born in Rome or in Sausalito.",
-      "realWorldExample": "BlackBerry was chosen because the 'B's signaled reliability to counter the stress of constant connectivity; Azure used 'Z' to create a signal in the noisy cloud market."
+      "realWorldExample": "BlackBerry was chosen because the 'B's signaled reliability to counter the stress of constant connectivity; Azure used 'Z' to create a signal in the noisy cloud market.",
+      "summary_zh": "运用语言学原理甄选特定的字母与发音，以触发独立于语言体系之外的特定认知反应。",
+      "problemItSolves_zh": "确保名称通过语音象征，在潜意识层面强化产品的价值主张。",
+      "whenToUse_zh": "在从头脑风暴清单中筛选最优备选方案的过程中。",
+      "commonMistakes_zh": "为高性能或激进型产品选用了听感“柔和”的名称。",
+      "realWorldExample_zh": "黑莓（BlackBerry）之所以被选中，是因为字母“B”传递出的可靠感能够缓解“时刻在线”带来的焦虑；而 Azure 则利用字母“Z”在喧嚣的云市场中打造了独特的品牌信号。",
+      "principles_zh": [
+        "针对活力感与速度感：选用 'V'（最具震颤感/生命力）或 'Z'（强劲/高能）。案例：Vercel, Azure。",
+        "针对可靠性与信任感：选用 'B'（最具稳重感/可信赖）。案例：BlackBerry。",
+        "针对创新与精准度：选用 'X'（利落、极具未来科技感）。",
+        "针对流畅度与轻松感：选用元音及流音辅音（如 L, R）。",
+        "认知加工流畅性：确保命名符合大脑认知直觉（拼写简洁），即便是自造词也要易于辨识。"
+      ],
+      "name_zh": "Phonosemantic Engineering（音义工程）"
     }
   ],
   "notableQuotes": [
@@ -107,5 +160,6 @@
       "context": "Discussing why descriptive names (like Cloud Pro) fail to build long-term value."
     }
   ],
-  "filename": "David Placek"
+  "filename": "David Placek",
+  "episodeSummary_zh": "David Placek 对产品命名这一“黑盒”进行了祛魅，将其从单纯的创意猜谜转变为一门融合了语言学、认知心理学和战略思维的严谨科学。他对追求“听起来舒服”的命名惯性提出了质疑，主张真正的差异化往往伴随着不适感与认知摩擦。本期节目深度拆解了 Lexicon 独有的三步法流程，分享了帮助创始人定义“致胜状态”的专项练习，并揭示了语音象征在潜移默化影响消费者行为背后的隐性力量。"
 }

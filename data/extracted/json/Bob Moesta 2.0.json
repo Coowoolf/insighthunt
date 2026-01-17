@@ -3,7 +3,8 @@
     "name": "Bob Moesta",
     "title": "Co-founder and CEO",
     "company": "The Rewired Group",
-    "background": "Co-creator of the Jobs to Be Done Framework alongside Clay Christensen, founder of eight companies, and adjunct lecturer at the Kellogg School of Management."
+    "background": "Co-creator of the Jobs to Be Done Framework alongside Clay Christensen, founder of eight companies, and adjunct lecturer at the Kellogg School of Management.",
+    "background_zh": "与克莱·克里斯坦森（Clay Christensen）共同创立了 Jobs to Be Done 框架，曾创办 8 家公司，凯洛格商学院客座讲师。"
   },
   "episodeSummary": "Bob Moesta demystifies the Jobs to Be Done (JTBD) framework, shifting the focus from product features to the 'struggling moments' that cause customers to hire products. He details the 'Forces of Progress' that drive behavior change, the six-stage timeline of buying (and hiring), and advanced interviewing techniques to uncover hidden causality. The conversation applies these principles to product innovation, sales, and career development, emphasizing that people don't buy products—they hire them to make progress under specific contexts.",
   "methodologies": [
@@ -48,7 +49,19 @@
             "description": "Fear of the new/unknown"
           }
         ]
-      }
+      },
+      "summary_zh": "尽管在职业发展中常被表述为“任务（Quests）”，但这套方法论的底层逻辑植根于本集探讨的“进步的四种力量”。它将职业转型定义为一个由四种对抗力量构成的系统，而非随机事件：即“现状的推力”与“新方案的拉力”（作为推动改变的动力），与“当下的习惯”及“对新事物的焦虑”（作为阻碍改变的阻力）之间的博弈。",
+      "problemItSolves_zh": "解释了为何人们会停留在不满意的岗位，或即便面对更好的选择却未能完成职业切换（当 F3 + F4 > F1 + F2 时）。",
+      "whenToUse_zh": "当分析候选人的离职动因，或客户切换产品的原因时。",
+      "commonMistakes_zh": "仅仅聚焦于“拉力”（如特性/薪资），却忽视了阻碍转型的“焦虑”或“惯性”。",
+      "realWorldExample_zh": "候选人想要换工作（拉力），但因不了解新团队（焦虑）且适应当前工作流（惯性）而选择留任。",
+      "principles_zh": [
+        "推力 (F1)：现状中的“挣扎时刻”，促使你开始寻找新的机会。",
+        "拉力 (F2)：对新结果或更优状态的向往，即新方向的吸引力。",
+        "焦虑 (F3)：对未知的恐惧或转型带来的“新事物焦虑”。",
+        "习惯 (F4)：将你禁锢在当前岗位的惯性，即“对现状的依赖”。"
+      ],
+      "name_zh": "The Four Career Quests Framework（四大职业探索框架）"
     },
     {
       "name": "Energy-Based Role Prototyping",
@@ -96,7 +109,18 @@
             ]
           }
         ]
-      }
+      },
+      "summary_zh": "该框架将推动进展所需的“能量”拆解为三个核心维度。在进行角色或产品原型设计时，不能仅满足功能性需求，必须针对用户的完整能量画像提供解决方案。",
+      "problemItSolves_zh": "避免构建出虽然功能完备，却因忽视情感或社交摩擦而最终失败的产品方案。",
+      "whenToUse_zh": "在定义新招聘岗位或产品功能需求时，用于确保整体契合度。",
+      "commonMistakes_zh": "仅基于功能性规格（如薪资、技能）进行设计，却忽视了情感驱动力（如被忽视感）或社会驱动力（如职级地位）。",
+      "realWorldExample_zh": "员工接受降薪（功能性损失），以换取“创始人”头衔（社交收益）并减轻压力（情绪收益）。",
+      "principles_zh": [
+        "功能性能量：涉及实操层面的时间、空间、精力投入及知识储备。",
+        "情绪能量：用户的内在心理感受（如挫败感、对平衡的渴求、恐惧）。",
+        "社交能量：该选择如何影响外部评价及用户的社交形象（如身份地位、获得尊重、群体接纳度）。"
+      ],
+      "name_zh": "Energy-Based Role Prototyping（基于能量的角色原型）"
     },
     {
       "name": "The Pixar Career Narrative",
@@ -128,7 +152,18 @@
             "description": "Context, struggling moments, and irrational trade-offs (e.g., 'I needed a job closer to daycare')."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一套深度访谈方法论，旨在挖掘职业发展或购买决策背后真实的“故事”。该方法基于“人们的表达具有层级掩饰”这一认知，主张通过“盘问式”策略抽丝剥茧，剥离表层回答，从而还原核心的因果语境。",
+      "problemItSolves_zh": "甄别“单纯抱怨”与真实意图，洞察用户**实际**采取行动的深层动因，而非仅听信其口头声称的需求。",
+      "whenToUse_zh": "在客户探索访谈或候选人面试中，用于突破经过修饰的套路化回答，挖掘真实洞察。",
+      "commonMistakes_zh": "将初步的泛泛之谈（Pablum）视作真相，或盲信用户对自己未来行为的预判。",
+      "realWorldExample_zh": "候选人声称想要“更多挑战”（场面话），但通过深挖发现，其离职是因为担心被老板解雇（真实剧情）。",
+      "principles_zh": [
+        "第一层（场面话）：客套、安全、机械式的应答（例如“挺好的”）。",
+        "第二层（幻想/梦魇）：通过过度渲染最好或最坏的情境，以此为决策寻求合理化。",
+        "第三层（故事内核）：驱动行为背后的真实语境、困境挣扎以及非理性的取舍。"
+      ],
+      "name_zh": "The Pixar Career Narrative（皮克斯职业叙事）"
     },
     {
       "name": "Jobs-to-be-Done Hiring",
@@ -172,8 +207,20 @@
             "description": "Forming the new habit and integrating the solution."
           }
         ]
-      }
+      },
+      "summary_zh": "该方法论将招聘（及求职）视为一个包含清晰行为改变时间轴的购买决策流程。它超越了单纯的“痛点与收益”维度，系统梳理了候选人在接受 Offer 前、中、后所经历的六个阶段。",
+      "problemItSolves_zh": "将招聘/销售流程与候选人的实际决策准备度对齐。",
+      "whenToUse_zh": "设计招聘漏斗或销售周期，以提升转化率时。",
+      "commonMistakes_zh": "试图“锁定”一名仍处于“被动观望”阶段、仅想了解行情的候选人。",
+      "realWorldExample_zh": "Intercom 调整了销售流程，针对客户是处于“被动观望”（侧重教育引导）还是“决策评估”（侧重利弊权衡）的状态，提供差异化的产品演示。",
+      "principles_zh": [
+        "招聘是一条时间线，而非单点事件。",
+        "候选人（及买家）会经历从“萌生念头”到“持续使用”的完整路径。",
+        "你必须根据候选人在时间线上的所处阶段（如：被动求职 vs. 主动求职）进行针对性触达。"
+      ],
+      "name_zh": "Jobs-to-be-Done Hiring（JTBD \"雇佣\"逻辑）"
     }
   ],
-  "filename": "Bob Moesta 2.0"
+  "filename": "Bob Moesta 2.0",
+  "episodeSummary_zh": "Bob Moesta 深度拆解了 Jobs to Be Done (JTBD) 框架，将重心从产品功能转移到促使用户“雇佣”产品的“挣扎时刻”。他详细阐述了驱动行为改变的“进步力量”、购买（及雇佣）决策的六阶段时间线，以及用于挖掘隐性因果关系的进阶访谈技巧。本次对话将这些原则应用于产品创新、销售和职业发展，核心观点在于：用户购买产品并非为了拥有，而是为了在特定场景下“雇佣”产品以取得进步。"
 }

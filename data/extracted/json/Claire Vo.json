@@ -3,7 +3,8 @@
     "name": "Claire Vo",
     "title": "Chief Product Officer",
     "company": "LaunchDarkly",
-    "background": "A veteran product leader (CPO at Color, Optimizely, LaunchDarkly) and serial founder who codes. She is the creator of ChatPRD and is known for operating at high velocity in late-stage companies while bridging the gap between product and engineering."
+    "background": "A veteran product leader (CPO at Color, Optimizely, LaunchDarkly) and serial founder who codes. She is the creator of ChatPRD and is known for operating at high velocity in late-stage companies while bridging the gap between product and engineering.",
+    "background_zh": "资深产品领袖（曾任 Color、Optimizely 及 LaunchDarkly 首席产品官），亦是一位会写代码的连续创业者。她是 ChatPRD 的创作者，以在成熟期企业中保持高速运转、并能有效弥合产研鸿沟而著称。"
   },
   "episodeSummary": "Claire Vo dismantles the myth that late-stage companies must move slowly, introducing her 'one click faster' philosophy for organizational velocity. She explores the evolving CPTO role, actionable strategies for bending career trajectories to one's will, and how AI tools like her own ChatPRD are shifting the product management craft from 'lowercase c' documentation to 'Capital C' influence.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When joining a later-stage company that has become lethargic, or when a team defaults to 'we'll review this in the next sprint' mentality.",
       "commonMistakes": "Simply demanding speed without unblocking the team yourself (failing the Personal SLA) or compromising the talent bar.",
       "quote": "If you think something needs to be done this year, it needs to be done this half.",
-      "realWorldExample": "At LaunchDarkly, Claire explicitly communicated the expectation of bringing clock speed 'one click faster' to leadership, which shifted the cultural norm from waiting for meeting cycles to immediate execution."
+      "realWorldExample": "At LaunchDarkly, Claire explicitly communicated the expectation of bringing clock speed 'one click faster' to leadership, which shifted the cultural norm from waiting for meeting cycles to immediate execution.",
+      "summary_zh": "这是一套重塑组织运转速率的战术手段。它摒弃了“规模扩张必然导致降速”的固有观念，通过系统性地前置时间节点，将业务执行与行政节奏彻底解耦。",
+      "problemItSolves_zh": "对抗侵蚀成长型组织的天然熵增与迟钝，避免“像大公司一样运作”成为行动缓慢的借口。",
+      "whenToUse_zh": "当你加入一家行动迟缓的成熟期公司，或者团队习惯性地抱着“留到下个迭代再说”的心态时。",
+      "commonMistakes_zh": "一味追求速度，却不亲自为团队扫清障碍（未能履行个人 SLA），或是降低人才标准。",
+      "realWorldExample_zh": "在 LaunchDarkly，Claire 向管理层明确传达了将运转速率“调快一档”的期望，这一举措重塑了组织文化，将其从“坐等会议排期”转变为“即刻落地执行”。",
+      "principles_zh": [
+        "拨快时钟：明确要求团队将时间周期压缩一个层级（如将年度计划改为半年度，半年度改为季度，季度改为月度）。",
+        "决策与会议解耦：杜绝用“下周例会再议”作为拖延的借口。当下即刻讨论，次日完成决策。",
+        "零延迟个人 SLA：作为管理者，在审批或清除障碍时务必做到“秒级响应”，以此奠定整个组织的执行节奏。",
+        "速度优于正确：优先追求方向上的快速推进，而非完美的分析；保持势能往往比犹豫不决能解决更多问题。"
+      ],
+      "name_zh": "The 'One Click Faster' Operating Model（“‘快一键’运营模式”）"
     },
     {
       "name": "The 'Org Architect' Career Strategy",
@@ -46,7 +59,19 @@
       "whenToUse": "When you are a high-performing individual contributor or manager hitting a ceiling, or when you see a peer leader leave creating a void.",
       "commonMistakes": "Focusing the pitch on your personal need for growth rather than the company's need for stability or efficiency.",
       "quote": "The universe is bendable to your will... just because we're organized in a particular way now doesn't mean that's the way they have to be.",
-      "realWorldExample": "When the head of marketing left her previous company, Claire drew an org chart combining product and marketing/growth, pitched it to her boss as a solution to the vacancy, and successfully took over that expanded scope."
+      "realWorldExample": "When the head of marketing left her previous company, Claire drew an org chart combining product and marketing/growth, pitched it to her boss as a solution to the vacancy, and successfully took over that expanded scope.",
+      "summary_zh": "一种主动的职业进阶策略。通过识别组织架构中的短板，提出结构性变革方案，在解决业务痛点的同时，实现个人角色的跃升。",
+      "problemItSolves_zh": "解决职业发展停滞问题，即 PM 感到受困于现有职责范围，或被动等待依赖僵化周期的晋升。",
+      "whenToUse_zh": "当你作为高绩效 IC 或管理者触及职业天花板，亦或是因平级 Leader 离职导致组织出现管理真空时。",
+      "commonMistakes_zh": "将提案重心放在个人成长诉求，而非公司对稳定性或效率的需求。",
+      "realWorldExample_zh": "当前公司的市场负责人离职时，Claire 重新设计了一份整合产品与市场/增长职能的组织架构图，并向老板提案以此解决管理空缺。最终，她成功接管了这块扩大后的业务版图。",
+      "principles_zh": [
+        "**识别真空地带**：主动寻找职责范围之外（如市场或工程部门）存在的管理缺位或运作混乱的领域。",
+        "**重绘架构图**：具体规划一套能解决问题的新组织架构，并将自己定位为该架构中的关键破局者。",
+        "**阐述商业价值**：将提案包装为“解决公司的效能撬动或管理半径问题”，而非单纯的“个人晋升诉求”。",
+        "**重塑现实**：坚信组织架构是动态流动的，完全可以围绕核心人才进行重组与适配。"
+      ],
+      "name_zh": "The 'Org Architect' Career Strategy（“组织架构师”职业战略）"
     },
     {
       "name": "The 'Capital C' Communication Shift",
@@ -62,7 +87,19 @@
       "whenToUse": "When PMs feel overwhelmed by administrative overhead or fear their role is being threatened by AI efficiency.",
       "commonMistakes": "Resisting AI tools to 'protect' the craft of writing requirements, rather than evolving to become a product editor and strategist.",
       "quote": "Is it going to eliminate PMs next year? Probably not. Are the skills required going to shift? Yes.",
-      "realWorldExample": "Claire uses ChatPRD to generate the 'boring' parts of technical specs (e.g., data export requirements for Snowflake) so she can spend her time on the product narrative and stakeholder alignment."
+      "realWorldExample": "Claire uses ChatPRD to generate the 'boring' parts of technical specs (e.g., data export requirements for Snowflake) so she can spend her time on the product narrative and stakeholder alignment.",
+      "summary_zh": "一套将 PM 工作二分为“AI 可胜任任务”与“以人为核心的领导力”的框架。它鼓励产品经理剥离结构化工作，从而聚焦于具备高撬动力的影响力构建。",
+      "problemItSolves_zh": "助力产品经理备战 AI 时代：随着撰写功能文档（Writing Specs）日趋商品化，传统 PM 角色的存在价值正面临严峻挑战。",
+      "whenToUse_zh": "当 PM 因繁琐的事务性工作感到不堪重负，或担心自身岗位受到 AI 高效能的威胁时。",
+      "commonMistakes_zh": "抵触 AI 工具以“捍卫”撰写需求的手艺，而非进化为产品主编与策略制定者。",
+      "realWorldExample_zh": "Claire 利用 ChatPRD 生成技术规格中那些枯燥的常规内容（例如 Snowflake 的数据导出需求），从而将精力聚焦于产品叙事和相关方对齐。",
+      "principles_zh": [
+        "自动化“小写 c”沟通：利用 AI（如 ChatPRD）处理功能性的信息交互——包括规格文档、会议议程及进度同步。",
+        "加码“大写 C”沟通：将精力聚焦于影响力构建、决策魄力、说服利益相关方，以及驾驭复杂的组织协作关系。",
+        "将 Prompt 能力视为核心产品技能：通过精通上下文构建与指令设计，学会打造非确定性产品。",
+        "重“整合提炼”而非“单纯生成”：将核心价值从“产出创意”，转变为“将各类输入信息提炼为致胜方案”。"
+      ],
+      "name_zh": "The 'Capital C' Communication Shift（“大写 C”沟通跃迁）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Describing her AI tool, ChatPRD, and the value of immediate iterations."
     }
   ],
-  "filename": "Claire Vo"
+  "filename": "Claire Vo",
+  "episodeSummary_zh": "Claire Vo 打破了“成熟期企业必然行动迟缓”的迷思，提出了旨在提升组织速率的 “one click faster” 理念。她深入探讨了 CPTO 角色的演进、主动掌控职业生涯轨迹的实操策略，以及像她开发的 ChatPRD 这类 AI 工具如何重塑产品管理的本质——使其从“小写 c”层面的文档撰写，跃升为“大写 C”层面的核心影响力。"
 }

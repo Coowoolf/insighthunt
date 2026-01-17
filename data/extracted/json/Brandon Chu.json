@@ -3,7 +3,8 @@
     "name": "Brandon Chu",
     "title": "VP of Product (at time of recording)",
     "company": "Shopify",
-    "background": "Former investment banker and Kraft Foods employee who pivoted to tech by founding a startup (Tunezy). After an acquisition, he worked at FreshBooks before joining Shopify, where he spent 7+ years scaling from PM to VP, eventually leading Product Acceleration."
+    "background": "Former investment banker and Kraft Foods employee who pivoted to tech by founding a startup (Tunezy). After an acquisition, he worked at FreshBooks before joining Shopify, where he spent 7+ years scaling from PM to VP, eventually leading Product Acceleration.",
+    "background_zh": "早年曾任投资银行家及卡夫食品（Kraft Foods）员工，后通过创立 Tunezy 成功转型进入科技行业。在公司被收购后，他先是任职于 FreshBooks，随后加入 Shopify。在 Shopify 的 7 年多时间里，他从 PM 一路晋升至 VP，最终负责领导产品加速部门。"
   },
   "episodeSummary": "Brandon Chu, VP of Product at Shopify, discusses the unique product culture at Shopify, emphasizing their 'digital by default' approach and the importance of 'founder skills' for PMs. He explores the nuances of Platform Product Management, specifically the need to stack-rank constituents. The conversation also covers his philosophy on decision-making velocity, the career-accelerating power of writing, and how Shopify uses 'Bursts' to maintain connection in a remote-first world.",
   "methodologies": [
@@ -44,7 +45,19 @@
             "action": "Automate/Ignore"
           }
         ]
-      }
+      },
+      "summary_zh": "一套帮助产品经理应对海量决策挑战的框架，通过基于“风险程度”与“可逆性”对决策进行分类，以实现速度与质量的最优平衡。",
+      "problemItSolves_zh": "防止决策疲劳与瓶颈，避免 PM 因过度分析细枝末节而拖慢研发团队的进度。",
+      "whenToUse_zh": "在日常工作中，面对团队提出的一连串问题、功能需求或需要进行权衡取舍时。",
+      "commonMistakes_zh": "对所有决策赋予同等权重；在可逆的 UI 微调上陷入“分析瘫痪”。",
+      "realWorldExample_zh": "决定修改按钮颜色（可逆、低影响）只需几秒钟的直觉判断；而修改全平台数据隐私政策（不可逆、高影响）则需要数周的深度研判。",
+      "principles_zh": [
+        "第一时间评估决策的权重（考量可逆性与实质性影响）。",
+        "98% 的决策属于低风险或可逆范畴；应凭直觉快速决断或充分授权，以保障团队的高效迭代速率。",
+        "将 90% 以上的心智带宽与时间，聚焦在那 1-2% 攸关成败且不可逆的关键决策上。",
+        "严禁因低风险事项上的决策摇摆而形成阻塞点（Blocker），拖累团队进度。"
+      ],
+      "name_zh": "The Triage & Velocity Decision Matrix（分级与速率决策矩阵）"
     },
     {
       "name": "The Platform Constituent Stack",
@@ -69,7 +82,19 @@
           "Top Layer: The End Buyer (Consumer)"
         ],
         "note": "Decisions flow from the base up. The Base priority overrides the layers above it."
-      }
+      },
+      "summary_zh": "专为平台 PM 设计的优先级模型，通过建立清晰的需求层级体系，解决多方利益相关者（商家、开发者、买家）之间的冲突。",
+      "problemItSolves_zh": "解决当某项功能利好一方（如开发者）却损害另一方（如终端用户隐私）时面临的战略僵局。",
+      "whenToUse_zh": "当设计 API、数据共享策略或生态规则，且利益相关方存在零和博弈时。",
+      "commonMistakes_zh": "试图无差别地取悦所有参与方，导致平台价值主张被稀释；未能保护核心参与方的利益。",
+      "realWorldExample_zh": "Shopify 坚持将商家（创业者）置于首位。如果应用开发者为了获取对自己有利的数据而骚扰商家的客户，Shopify 会予以拦截。反观亚马逊，它将消费者置于首位，往往不惜以牺牲卖家的利益为代价。",
+      "principles_zh": [
+        "深刻理解平台本质上是多边市场，且各参与方的利益诉求往往相互冲突。",
+        "在利益冲突爆发前，必须确立各参与方之间“硬性”的绝对优先级排序。",
+        "在制定策略和产品设计时，坚定地向最高优先级的群体倾斜，哪怕这意味着要牺牲低优先级群体的利益。",
+        "建立心理预期，接受比普通 C 端产品长 5-10 倍的反馈验证周期。"
+      ],
+      "name_zh": "The Platform Constituent Stack（平台构成要素栈）"
     },
     {
       "name": "The 'Digital-Burst' Collaboration Model",
@@ -94,8 +119,21 @@
           "Phase 3: The Burst (In-person, High Velocity, Social Bonding)",
           "Phase 4: Alignment & Dispersion"
         ]
-      }
+      },
+      "summary_zh": "一种混合运营模式，结合了“默认数字化”的远程协作与被称为“Burst”的刻意规划的高强度线下聚会，旨在激发创意并建立深度连接。",
+      "problemItSolves_zh": "缓解全远程办公带来的孤立感与低能量陷阱，同时保留免通勤的灵活性。",
+      "whenToUse_zh": "当远程团队出现协作疲态，或启动关键创意周期（如季度规划）时。",
+      "commonMistakes_zh": "将线下共处的时间用于处理远程即可完成的常规事务；忽视了聚会对于社交互动与建立团队纽带的重要性。",
+      "realWorldExample_zh": "一支 20 人的团队通过 Shopify 内部应用在拉古纳海滩（Laguna Beach）预订了一场 \"Burst\"。他们开展了为期 3 天的高强度创意路线图规划与团建活动，随后返回各自国家进行远程落地执行。",
+      "principles_zh": [
+        "默认数字化办公；人才招聘打破地域限制。",
+        "线下互动的核心价值是激发活力与创意，而非单纯同步工作进度。",
+        "利用基础设施（内部工具）消除线下集结的阻力（如实现差旅自动化预订）。",
+        "在“沉浸式远程工作”与“短期高强度的社交/战略对齐”之间交替切换。"
+      ],
+      "name_zh": "The 'Digital-Burst' Collaboration Model（“数字化脉冲”协作模式）"
     }
   ],
-  "filename": "Brandon Chu"
+  "filename": "Brandon Chu",
+  "episodeSummary_zh": "Shopify 产品副总裁 Brandon Chu 深入解析了 Shopify 独特的产品文化，重点阐述了其“默认数字化（Digital by Default）”的运作模式，以及产品经理具备“创始人特质”的重要性。他探讨了平台型产品管理的深层逻辑，特别是对生态参与者进行优先级排序（Stack-rank）的必要性。此外，对话还涵盖了他关于决策效率的方法论、写作对职业生涯的杠杆作用，以及 Shopify 如何在远程优先的环境下利用 “Bursts” 机制维系团队凝聚力。"
 }

@@ -3,7 +3,8 @@
     "name": "Bill Carr",
     "title": "Co-author of Working Backwards",
     "company": "Working Backwards, LLC",
-    "background": "Former VP of Digital Media at Amazon; launched Amazon Music, Prime Video, and Amazon Studios; 15-year Amazon veteran."
+    "background": "Former VP of Digital Media at Amazon; launched Amazon Music, Prime Video, and Amazon Studios; 15-year Amazon veteran.",
+    "background_zh": "亚马逊前数字媒体副总裁；一手打造 Amazon Music、Prime Video 及 Amazon Studios；15 年亚马逊老兵。"
   },
   "episodeSummary": "Bill Carr, co-author of 'Working Backwards', deconstructs the key management philosophies and processes that drove Amazon's scale from a bookstore to a global tech giant. The conversation covers the practical implementation of working backwards from the customer, structuring teams for autonomy through single-threaded leadership, focusing on controllable input metrics over financial outputs, and maintaining high talent standards via the Bar Raiser program.",
   "methodologies": [
@@ -31,7 +32,19 @@
           "Concentric Circle Review (Iterative Feedback)",
           "Leadership Approval / Resource Allocation"
         ]
-      }
+      },
+      "summary_zh": "一种从用户出发的产品开发流程，要求在启动代码开发前先撰写新闻稿和 FAQ 文档。这旨在确保产品解决真实的用户痛点，并倒逼思维清晰化。",
+      "problemItSolves_zh": "防止开发出技术上可行但未解决用户实质痛点的产品；规避“拿着解决方案找问题”的陷阱（例如 Fire Phone）。",
+      "whenToUse_zh": "在产品研发周期的最早期，正式投入研发资源之前。",
+      "commonMistakes_zh": "使用浮夸的营销辞藻代替客观事实描述；误将其写成对外的 PR 通稿，而非用于内部验证的文档；跳过迭代评审流程。",
+      "realWorldExample_zh": "AWS 和 Prime Video 均在立项前通过 PR/FAQ 完成了产品定义；相比之下，Fire Phone 则是典型的失败案例，其原因往往归结为该流程被强行绕过，或是核心问题未得到充分验证。",
+      "principles_zh": [
+        "从客户需求出发逆向倒推，而非基于现有能力顺向开发。",
+        "撰写一篇面向未来的新闻稿，将产品的价值主张具象化。",
+        "编写 FAQ 文档，解答内部（可行性）及外部（客户）层面的疑问。",
+        "采用“同心圆”式的评审机制，逐层扩大范围进行迭代。"
+      ],
+      "name_zh": "The PR/FAQ Product Validation（PR/FAQ 产品验证）"
     },
     {
       "name": "Single-Threaded Leadership Model",
@@ -68,7 +81,19 @@
             "Clear single-owner accountability"
           ]
         }
-      }
+      },
+      "summary_zh": "一种组织架构模式，由单一负责人全权背负特定业务目标，并掌控达成该目标所需的全部跨职能资源（技术、产品、市场），从而最大程度降低外部依赖。",
+      "problemItSolves_zh": "消除矩阵式组织架构及跨部门资源争夺所导致的“协同损耗”与决策迟缓。",
+      "whenToUse_zh": "当公司组织日益复杂，因跨团队依赖和官僚式的资源争夺导致创新放缓时。",
+      "commonMistakes_zh": "在尚未建立技术 API 或完成架构解耦前就组建单线程团队；未能落实维持职能卓越的制衡机制（如 Bar Raiser）。",
+      "realWorldExample_zh": "Prime Video 针对电视端、游戏主机和移动端分别组建了独立的单线程团队，各团队均拥有独立的资源配置与产品路线图。",
+      "principles_zh": [
+        "坚持长期演进导向，而非短期项目导向。",
+        "自主权带来速度与敏捷。",
+        "消除依赖，降低协同成本。",
+        "负责人全权掌控路线图与资源。"
+      ],
+      "name_zh": "Single-Threaded Leadership Model（单线程领导力模型）"
     },
     {
       "name": "The Controllable Inputs Framework",
@@ -96,7 +121,19 @@
           "Lower Cost Structure",
           "Lower Prices"
         ]
-      }
+      },
+      "summary_zh": "将管理重心聚焦于“输入指标”（如选品、价格、速度等可控要素），而非“输出指标”（如营收、股价等滞后指标），这一理念通常被具象化为“飞轮”模型。",
+      "problemItSolves_zh": "避免因财务指标未达标而陷入短视的被动决策（如临阵突击调价），转而聚焦于长期的增长驱动力。",
+      "whenToUse_zh": "制定 OKR、进行业务周会（WBR），或增长陷入停滞时。",
+      "commonMistakes_zh": "混淆结果指标（如活跃用户、营收）与输入指标；构建了掩盖根本原因的“复合指标”（适应度函数）。",
+      "realWorldExample_zh": "亚马逊将“选品”（详情页数量）和“低价”作为核心输入（Inputs），坚信通过飞轮效应，这些因素将驱动“自由现金流”这一输出结果（Output）。",
+      "principles_zh": [
+        "产出往往具有滞后性，且容易分散注意力。",
+        "输入则是可控的，且具备因果性。",
+        "聚焦用户体验层面的输入，能够驱动增长飞轮。",
+        "对输入进行持续且严谨的度量。"
+      ],
+      "name_zh": "The Controllable Inputs Framework（可控输入框架）"
     },
     {
       "name": "The Bar Raiser Hiring Mechanism",
@@ -123,8 +160,21 @@
           "Ensures candidate raises the performance bar (top 50%)?",
           "Has full veto power over the hiring decision?"
         ]
-      }
+      },
+      "summary_zh": "一种招聘流程中的质量把控机制，通过设立一位独立于招聘汇报线之外、拥有一票否决权的指定面试官（Bar Raiser），来确保候选人的能力水准优于该岗位 50% 的现有员工。",
+      "problemItSolves_zh": "防止人才标准逐渐滑坡（即遵循“A类人才招聘A类人才，B类人才招聘C类人才”定律），并制衡用人主管因急需用人而产生的决策偏差。",
+      "whenToUse_zh": "适用于所有全职员工的面试流程，确保在规模化扩张中维持企业文化与人才密度。",
+      "commonMistakes_zh": "- 招聘经理将 Bar Raiser 视为官僚主义障碍，而非招聘助力；\n- Bar Raiser 未经苏格拉底式辩论便行使一票否决权；\n- 选拔了自身标准不够高的 Bar Raiser。",
+      "realWorldExample_zh": "该机制最初借鉴自微软的“As Appropriate”面试官制度，亚马逊通过专项培训和赋予“一票否决权”将其制度化，从而在高速增长期实现了企业文化的有效规模化。",
+      "principles_zh": [
+        "坚持长期主义招聘，而非应急填补空缺。",
+        "基于领导力准则进行客观评估。",
+        "保持第三方客观中立（独立于招聘链条之外）。",
+        "拥有一票否决权，防止拉低招聘标准。"
+      ],
+      "name_zh": "The Bar Raiser Hiring Mechanism（“把关人”招聘机制）"
     }
   ],
-  "filename": "Bill Carr"
+  "filename": "Bill Carr",
+  "episodeSummary_zh": "《逆向工作法》（Working Backwards）合著者 Bill Carr 深度拆解了助推亚马逊从一家书店蜕变为全球科技巨头的核心管理哲学与流程。本期对话涵盖了“从客户出发逆向工作法”的落地实操、如何通过“单线程领导机制”（Single-threaded Leadership）构建团队自治、聚焦可控的“输入指标”而非单纯的财务产出，以及利用“Bar Raiser”机制维持高水准的人才密度。"
 }

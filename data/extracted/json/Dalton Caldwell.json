@@ -3,7 +3,8 @@
     "name": "Dalton Caldwell",
     "title": "Managing Director & Group Partner",
     "company": "Y Combinator",
-    "background": "A veteran founder (imeem, App.net) and investor who has worked with over 1,000 startups at YC, including unicorns like Instacart, Brex, and DoorDash. He is a leading authority on early-stage startup strategy, pivoting, and avoiding failure."
+    "background": "A veteran founder (imeem, App.net) and investor who has worked with over 1,000 startups at YC, including unicorns like Instacart, Brex, and DoorDash. He is a leading authority on early-stage startup strategy, pivoting, and avoiding failure.",
+    "background_zh": "资深连续创业者（曾创办 imeem、App.net）兼投资人。在 YC 任职期间指导过超 1000 家初创公司，其中包括 Instacart、Brex 和 DoorDash 等独角兽企业。他是早期创业战略、业务转型（Pivot）及规避失败领域的权威专家。"
   },
   "episodeSummary": "Dalton Caldwell dissects the brutal realities of the early-stage startup journey, arguing that the primary driver of success is simply refusing to let the company die. He provides a tactical masterclass on how to identify \"tarpit\" ideas that look promising but always fail, the specific mechanics of a successful pivot, and why most standard product advice (like A/B testing) is toxic for early-stage companies.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When traction has stalled, the team is losing morale, and you have exhausted all logical growth channels for the current product.",
       "commonMistakes": "Pivoting to a 'fashionable' market (e.g., AI wrapper) where you have no advantage, or pivoting before fully validating that the current idea is dead.",
       "quote": "A good pivot is like going home. It's warmer, it's closer to something that you're an expert at.",
-      "realWorldExample": "Brex pivoted from a VR headset company (Vyond) to fintech because the founders had previous payment experience in Brazil. Segment pivoted from a classroom feedback tool to an analytics API based on the internal tool they built to measure their own failed app."
+      "realWorldExample": "Brex pivoted from a VR headset company (Vyond) to fintech because the founders had previous payment experience in Brazil. Segment pivoted from a classroom feedback tool to an analytics API based on the internal tool they built to measure their own failed app.",
+      "summary_zh": "这套转型框架的核心观点是：最佳的新方向，通常应当撬动团队既有的核心专长，或基于上一款产品试错过程中沉淀的深刻洞察。该方法论不将转型视为推倒重来，而是将其定义为回归优势阵地。",
+      "problemItSolves_zh": "帮助创始人与 PM 在现有产品跑不通时决策下一步的构建方向，规避盲目转向随机且低胜算的想法。",
+      "whenToUse_zh": "当业务增长陷入停滞，团队士气低落，且当前产品的所有常规增长渠道均已被穷尽。",
+      "commonMistakes_zh": "跟风转型至自身缺乏优势的热门赛道（如套壳 AI），或在当前方向尚未被彻底证伪时就过早转型。",
+      "realWorldExample_zh": "Brex 从 VR 头显公司（Vyond）转型至金融科技领域，依托的是创始人在巴西积累的支付行业经验。Segment 从课堂反馈工具转型为数据分析 API，则是基于他们此前为监测那款失败 App 而构建的内部工具。",
+      "principles_zh": [
+        "**盘点“熟悉度”**：转型方向应建立在你拥有“不公平优势”的领域认知或技术壁垒之上，而非盲目切入看似有利可图的“陌生”市场。",
+        "**撬动试错沉淀**：利用从失败产品中获得的洞察（例如曾为维持旧产品运营而搭建的内部工具）作为转型的种子，以此为支点撬动新业务。",
+        "**清点“策略库”**：只有在彻底穷尽当前产品所有真实的增长假设后才考虑转型；如果手头还有 6 个营销实验未跑，请先执行完毕。",
+        "**寻找“枯燥”痛点**：成功的转型往往指向创始人深度理解的底层基建或 B2B 问题，而非最初那个光鲜亮丽的 C 端创意。"
+      ],
+      "name_zh": "The 'Closer to Home' Pivot Strategy（“近场”转型策略）"
     },
     {
       "name": "The Tarpit Identification Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "During the ideation phase or when evaluating a potential pivot, to ensure you aren't walking into a trap disguised as an opportunity.",
       "commonMistakes": "Mistaking 'high social enthusiasm' for 'high purchase intent'. Assuming you are the first person to think of a 'friends night out' app.",
       "quote": "It is only a tarpit if it seems like it's not... You'll get all this positive feedback from the world and people have been starting that startup since the '90s.",
-      "realWorldExample": "Dalton's own music discovery startup was a tarpit. Conversely, Zip avoided a tarpit by targeting 'procurement,' a hated process dominated by old incumbents, rather than a flashy consumer idea."
+      "realWorldExample": "Dalton's own music discovery startup was a tarpit. Conversely, Zip avoided a tarpit by targeting 'procurement,' a hated process dominated by old incumbents, rather than a flashy consumer idea.",
+      "summary_zh": "这是一种用于甄别“焦油坑创意”的诊断方法——这类概念看似存在市场空白，且极易获得用户的口头支持（“我太需要这个 App 了！”），但受制于底层的消费心理或市场结构性缺陷，数十年来已导致无数创业公司折戟沉沙。",
+      "problemItSolves_zh": "防止团队在那些初期具备高社会验证，但因结构性缺陷注定失败的产品上，浪费数年时间。",
+      "whenToUse_zh": "在创意构思阶段或评估业务转型时，确保你没有误入伪装成机遇的陷阱。",
+      "commonMistakes_zh": "将“高涨的社交热情”误判为“强烈的付费意愿”。误以为自己是第一个想到做“好友聚会”类 App 的人。",
+      "realWorldExample_zh": "Dalton 自己的音乐发现创业项目就是一个典型的“焦油坑”。相比之下，Zip 成功避开了这一陷阱，他们没有选择那些表面光鲜的消费级创意，而是切入了“企业采购”领域——这是一个长期被老牌巨头垄断、且用户体验令人深恶痛绝的流程。",
+      "principles_zh": [
+        "考据历史败局：如果某个痛点从上世纪 90 年代起就有人不断尝试解决（如音乐发现、夜生活组局），那它极有可能是一个“创业泥潭”。",
+        "审视验证效度：对那些“口头叫好却无实际行动”的想法保持高度警惕——即理论反馈极其积极（如“我们应该多聚聚”），但用户缺乏实质性承诺。",
+        "“糟糕在位者”法则：避开泥潭，转而寻找那些被 PE（私募基金）掌控、且 NPS 极低的行业巨头（如采购管理软件），将其作为颠覆目标。",
+        "挺进“深山”赛道：规避“闹市区”式的想法（即所有人都在关注的红海），去“深山”里寻找机会——关注那些非主流、高门槛或枯燥乏味的冷门赛道。"
+      ],
+      "name_zh": "The Tarpit Identification Protocol（焦油坑识别协议）"
     },
     {
       "name": "The 'Collison Install' Methodology",
@@ -62,7 +87,19 @@
       "whenToUse": "In the early stages (Pre-PMF to early growth) when every single user counts and friction is the enemy.",
       "commonMistakes": "Thinking this is 'unscalable' and therefore not worth doing. Relying on documentation or self-serve flows too early.",
       "quote": "They would just install Stripe into the customer's website... They basically would not go away until you finish the implementation.",
-      "realWorldExample": "The Collison brothers (Stripe) would ask potential users for their laptop and type in the integration code on the spot, rather than sending a link."
+      "realWorldExample": "The Collison brothers (Stripe) would ask potential users for their laptop and type in the integration code on the spot, rather than sending a link.",
+      "summary_zh": "这是一种以 Stripe 创始人命名的高接触式（High-touch）用户引导策略。在此模式下，产品构建者会通过现场或远程方式直接接管客户的操作环境，确保产品当场完成部署，而非被动等待客户自行操作。",
+      "problemItSolves_zh": "消除“最后一公里”的转化阻力，解决客户虽已承诺使用，却迟迟未完成集成或实际部署的问题。",
+      "whenToUse_zh": "适用于早期阶段（Pre-PMF 至早期增长期），此时每一位用户都至关重要，任何体验阻力都是头号大敌。",
+      "commonMistakes_zh": "认为这种做法“无法规模化”，因此不值得投入。\n过早依赖文档或自助流程。",
+      "realWorldExample_zh": "Stripe 的 Collison 兄弟会直接向潜在用户借用笔记本电脑，当场手动输入集成代码，而非简单地发送一个链接。",
+      "principles_zh": [
+        "拒绝口头承诺：只有当软件在客户的生产环境中真正跑起来时，才算完成销售闭环。",
+        "亲临现场干预：尽可能前往客户办公室。若是远程协作，务必要求共享屏幕并申请接管键盘控制权。",
+        "强制跑通 \"Hello World\"：在第一笔交易或关键操作成功处理之前，绝不离场。",
+        "日历盘点：确保你 20-30% 的日程用于此类直接的、不可规模化的客户互动。"
+      ],
+      "name_zh": "The 'Collison Install' Methodology（“科里森安装”方法论）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Critiquing founders who rely on ads and landing pages instead of having awkward, real conversations."
     }
   ],
-  "filename": "Dalton Caldwell"
+  "filename": "Dalton Caldwell",
+  "episodeSummary_zh": "Dalton Caldwell 深度剖析了早期创业的残酷真相，指出成功的首要驱动力在于“坚决不让公司倒闭”。他带来了一堂战术级大师课，指导创业者如何识别那些看似前景广阔却注定失败的“焦油坑”创意，详解成功转型（Pivot）的具体执行机制，并阐述了为何大多数标准化的产品建议（如 A/B 测试）对早期公司而言无异于毒药。"
 }

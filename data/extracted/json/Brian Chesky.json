@@ -3,7 +3,8 @@
     "name": "Brian Chesky",
     "title": "Co-founder & CEO",
     "company": "Airbnb",
-    "background": "Co-founder of Airbnb, turning it into an $80B+ global business. A RISD graduate and industrial designer by training, Chesky is known for bringing design-led thinking and non-traditional management structures to the technology sector."
+    "background": "Co-founder of Airbnb, turning it into an $80B+ global business. A RISD graduate and industrial designer by training, Chesky is known for bringing design-led thinking and non-traditional management structures to the technology sector.",
+    "background_zh": "Airbnb 联合创始人，将其打造为市值超 800 亿美元的全球化企业。作为罗德岛设计学院（RISD）校友及科班出身的工业设计师，Chesky 因将设计主导思维与非传统管理架构引入科技行业而著称。"
   },
   "episodeSummary": "Brian Chesky details the radical restructuring of Airbnb that saved the company during the pandemic and defined its current trajectory. He challenges Silicon Valley norms by advocating for a functional organizational structure, the merging of product management with product marketing, and the elimination of the traditional 'empowered' divisional model in favor of a 'CEO as Chief Product Officer' approach. The conversation covers the necessity of leaders being 'in the details,' the shift from performance marketing to brand education, and how to maintain speed at scale.",
   "keyTakeaways": [
@@ -31,7 +32,19 @@
       "whenToUse": "Best for companies post-product-market fit that are sensing a slowdown in velocity, increased bureaucracy, or a fracturing of the user experience.",
       "commonMistakes": "Keeping 'people managers' who cannot evaluate the technical or creative quality of the work, leading to a disconnect between leadership and execution.",
       "quote": "If you create a division, your division is as successful as you are a priority. So now you have to advocate for your division... that creates what we call politics.",
-      "realWorldExample": "During the pandemic, Chesky moved Airbnb from 10 divisions back to a functional startup structure, reducing headcount while increasing shipping velocity and profitability."
+      "realWorldExample": "During the pandemic, Chesky moved Airbnb from 10 divisions back to a functional startup structure, reducing headcount while increasing shipping velocity and profitability.",
+      "summary_zh": "一种取消总经理（GM）与事业部建制的组织重组模式，严格按职能（如设计、工程、市场等）进行架构划分。它将决策权收归中央，确保实现“专家领导专家”的管理机制。",
+      "problemItSolves_zh": "解决“部门离散”问题，即各业务单元各自为政，导致出现孤岛效应、重复建设、组织内耗以及用户体验割裂。",
+      "whenToUse_zh": "最适用于处于 PMF 后阶段，且察觉到迭代降速、流程臃肿或用户体验割裂的公司。",
+      "commonMistakes_zh": "保留无法评估技术或创意产出质量的“People Manager”，导致管理层与执行层脱节。",
+      "realWorldExample_zh": "疫情期间，Chesky 将 Airbnb 从 10 个独立事业部重组回归为创业初期的职能制架构，在精简团队规模的同时，显著提升了产品交付速度与盈利能力。",
+      "principles_zh": [
+        "取消事业部/分部制：从总经理（GM）负责的垂直业务线（如“房东端”、“中国区”、“体验”业务）转型为中央职能型架构。",
+        "专家领导专家：杜绝“万金油”式管理者。设计负责人必须是世界级设计师，工程负责人必须是顶尖工程师。",
+        "集中优先级决策：由最高管理层统一分配资源，防止团队囤积资源或重复建设技术栈。",
+        "影响力大于职权：产品经理靠影响力而非行政命令驱动团队。PM 并不“拥有”工程师或设计师，而是通过协同各方对最终结果负责。"
+      ],
+      "name_zh": "The Functional Consolidation Model（功能整合模型）"
     },
     {
       "name": "The Single Consciousness Roadmap",
@@ -47,7 +60,19 @@
       "whenToUse": "When a company is shipping frequently but customers aren't noticing, or when engineering and marketing are out of sync.",
       "commonMistakes": "Allowing teams to have 'shadow roadmaps' or side projects that consume resources but don't roll up to the company-wide narrative.",
       "quote": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
-      "realWorldExample": "Airbnb's 'Winter Release' and 'Summer Release' cadence, where they bundle hundreds of upgrades (like Guest Favorites and the new Host Tab) into a single newsworthy moment."
+      "realWorldExample": "Airbnb's 'Winter Release' and 'Summer Release' cadence, where they bundle hundreds of upgrades (like Guest Favorites and the new Host Tab) into a single newsworthy moment.",
+      "summary_zh": "这是一种规划框架，全公司基于一份统一的两年期滚动路线图协同运转。它确保了工程、设计和市场团队的完美同步，以实现大规模的统一发布。",
+      "problemItSolves_zh": "解决组织割裂与产出碎片化问题：10 个团队各自为战发布 10 个用户无感的零散功能，导致市场部门无法构建连贯的产品叙事。",
+      "whenToUse_zh": "当公司频繁上线功能但用户无感，或者产研与市场部门步调脱节时。",
+      "commonMistakes_zh": "允许团队保留“影子路线图”或旁支项目，这些项目消耗资源，却无法向上对齐公司的全局叙事。",
+      "realWorldExample_zh": "Airbnb 的“冬季发布”和“夏季发布”模式，即将数百项产品升级（如“房客推荐”和全新的“房东”标签页）打包整合，集中在一个具有新闻价值的时间节点发布。",
+      "principles_zh": [
+        "两年滚动规划：维护跨度为两年的产品路线图，每半年更新一次。近期规划锁定不变，远期规划保持灵活。",
+        "周期优于指标：坚守既定的发布时间窗口（如夏季/冬季版本）。通过时间节点倒逼需求范围决策，杜绝陷入无休止的优化循环。",
+        "剧集式发布：将产品版本发布视为连续剧或小说章节。将功能打包成连贯的产品故事，确保市场团队有清晰的卖点进行推广。",
+        "全局可视：除微型基建任务外，所有项目必须纳入统一的主路线图。严格遵循“不在表中即不存在”原则。"
+      ],
+      "name_zh": "The Single Consciousness Roadmap（单一意识路线图）"
     },
     {
       "name": "The 'In-The-Details' Review Loop",
@@ -63,7 +88,19 @@
       "whenToUse": "Critical for founders or product leaders who feel the product quality is slipping or that the team is moving too slowly.",
       "commonMistakes": "Using reviews to punish rather than to problem-solve/unblock, or reviewing only when things go wrong (reactive) vs. a consistent cadence (proactive).",
       "quote": "How do you know they're doing a good job if you're not in the details?",
-      "realWorldExample": "Chesky reviewing the 'Guest Favorites' feature and listing tab designs weekly, allowing him to harmonize the guest and host experiences personally."
+      "realWorldExample": "Chesky reviewing the 'Guest Favorites' feature and listing tab designs weekly, allowing him to harmonize the guest and host experiences personally.",
+      "summary_zh": "一种由 CEO 或负责人主导的周度管理机制：每周直接评审具体产出（设计稿、原型、文案），而非仅关注数据指标或 PPT 进度汇报。",
+      "problemItSolves_zh": "解决管理层“身居象牙塔”的脱节问题，避免高管直到为时已晚才获知项目的真实状况。",
+      "whenToUse_zh": "对于感到产品质量滑坡或团队迭代速度过慢的创始人及产品负责人，至关重要。",
+      "commonMistakes_zh": "将评审异化为问责手段，而非解决问题或疏通卡点；仅在出问题时被动介入（反应式），而非建立主动且固定的评审节奏（前瞻式）。",
+      "realWorldExample_zh": "Chesky 每周评审“房客推荐”功能及房源页 Tab 设计，借此亲自拉齐房客与房东的双端体验。",
+      "principles_zh": [
+        "评审实物而非 PPT：管理者应直接审视产品原型、代码或设计物料，而非仅听取关于工作的汇报演示。",
+        "建立周/双周评审机制：通过高频评审，管理者能即时为团队解决卡点，而非被动等待季度复盘。",
+        "躬身入局定位瓶颈：通过每周验收原型，管理者能及时察觉项目是否“脱轨”，并准确定位阻碍进度的跨部门协同依赖。",
+        "微观管理 vs. 关注细节：“微观管理”是指挥员工如何做事，而“关注细节”则是掌握项目现状以确保交付质量。"
+      ],
+      "name_zh": "The 'In-The-Details' Review Loop（“深入细节”评审闭环）"
     },
     {
       "name": "The 'Add A Zero' Heuristic",
@@ -79,7 +116,19 @@
       "whenToUse": "During annual planning or kick-offs for major initiatives where the team is defaulting to safe, low-impact optimization work.",
       "commonMistakes": "Simply demanding 10x results without allowing the team to change the underlying constraints or resources.",
       "quote": "If you want to improve the speed of a company, then make faster decisions.",
-      "realWorldExample": "The internal Airbnb mantra of 'Add a zero' which pushes teams to rethink how they acquire hosts or manage support tickets at a fundamentally different scale."
+      "realWorldExample": "The internal Airbnb mantra of 'Add a zero' which pushes teams to rethink how they acquire hosts or manage support tickets at a fundamentally different scale.",
+      "summary_zh": "一种目标设定思维模型：管理者将目标强行提升 10 倍（即“加一个零”），以此倒逼团队摒弃现有流程，运用第一性原理进行思考。",
+      "problemItSolves_zh": "克服“增量思维”的惯性，打破团队仅沿用现有流程追求 10% 优化的局限。",
+      "whenToUse_zh": "在年度规划或重大专项启动会期间，当团队倾向于选择保守、低影响力的优化工作时。",
+      "commonMistakes_zh": "一味要求 10 倍产出，却不允许团队调整底层约束条件或资源配置。",
+      "realWorldExample_zh": "Airbnb 内部奉行“加一个零”的信条，倒逼团队基于完全不同的量级维度，重新思考房东获客与客服工单的管理模式。",
+      "principles_zh": [
+        "强制重构流程：如果目标是 10 倍增长，现有的工作模式在逻辑上将无法跑通。团队必须开创全新的路径。",
+        "回归第一性原理：将问题拆解至最底层的基本要素，重构出能够支撑规模化扩张的解决方案。",
+        "激发团队潜能：通过设定宏大的目标来传递对团队能力的信任，而非单纯地通过增加工时来施压。",
+        "重塑决策节奏：利用指数级增长的目标来倒逼决策效率。多问“现在能拍板吗？”，杜绝“下周再议”。"
+      ],
+      "name_zh": "The 'Add A Zero' Heuristic（“加零”法则）"
     }
   ],
   "notableQuotes": [
@@ -100,5 +149,6 @@
       "context": "Chesky predicting the next major trend in UI/UX design."
     }
   ],
-  "filename": "Brian Chesky"
+  "filename": "Brian Chesky",
+  "episodeSummary_zh": "Brian Chesky 深度复盘了 Airbnb 在疫情期间那场力挽狂澜的激进重组，正是这次变革奠定了公司当下的发展基调。他向硅谷的既定法则发起挑战，主张回归职能型组织架构（Functional Org），将产品管理与产品营销合二为一，摒弃传统的“充分授权型”事业部制，转而推行“CEO 即首席产品官”的管理模式。此外，本次对谈还探讨了管理者“深入细节”的必要性、从效果营销向品牌教育的战略转型，以及如何在组织规模化之后依然保持极速迭代。"
 }

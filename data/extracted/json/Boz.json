@@ -3,7 +3,8 @@
     "name": "Andrew Wilkinson",
     "title": "Co-founder and CEO",
     "company": "Tiny",
-    "background": "Founder of Metalab, co-founder of Tiny (a holding company owning over 40 businesses like Dribble and AeroPress), and former billionaire who bootstrapped to hundreds of millions in value."
+    "background": "Founder of Metalab, co-founder of Tiny (a holding company owning over 40 businesses like Dribble and AeroPress), and former billionaire who bootstrapped to hundreds of millions in value.",
+    "background_zh": "MetaLab 创始人，Tiny 联合创始人（旗下控股 Dribble、AeroPress 等 40 余家企业）；曾跻身亿万富豪行列，通过 Bootstrap（零融资）打造出数亿美元的商业价值。"
   },
   "episodeSummary": "Andrew Wilkinson shares his evolution from a stressed founder starting 'cool' but difficult businesses to a 'lazy leader' who buys profitable companies and leverages AI. He discusses the 'fish where the fish are' philosophy for startup ideas, his specific AI agent workflows for automating personal and professional tasks, and his profound realization that money does not cure anxiety, advocating for medication and accepting one's nature (like ADHD).",
   "methodologies": [
@@ -31,7 +32,19 @@
           "Step 4: Delegation (Hire 'Fully Formed' Owners)",
           "Step 5: High-Leverage Focus (Only do what you love/sales)"
         ]
-      }
+      },
+      "summary_zh": "这是一套系统化的领导力方法论，主张通过剔除、自动化和授权，优先将管理者从低杠杆事务中解放出来。其核心在于践行“懒系领导力”——即通过规避厌恶型工作，最大化提升效能与职业幸福感。",
+      "problemItSolves_zh": "创始人职业倦怠、决策疲劳，以及高价值人才深陷低价值维护性工作导致的效能损耗。",
+      "whenToUse_zh": "当你深陷行政琐事感到不堪重负，或发现自己对特定的例行事务产生拖延心理时。",
+      "commonMistakes_zh": "招聘“潜力股”并试图对其进行“改造”，或是出于“清教徒式”的工作伦理而事必躬亲。",
+      "realWorldExample_zh": "Andrew 利用 Lindy.ai 搭建 Agent 来筛选邮件，基于特定规则（如添加 Emoji、预留行程缓冲时间）管理日历，并协助进行会前准备，从而替代了真人行政助理。",
+      "principles_zh": [
+        "**识别阻力**：精准定位那些引发拖延或心理抗拒的任务。",
+        "**自动化优先**：利用 AI Agent（如 Lindy）接管重复性逻辑事务（如邮件分类、日程管理、背景调研）。",
+        "**专家授权**：聘请技能完备的“成熟人才”，直接利用其专业能力，而非将其视为需要耗费精力培养的项目。",
+        "**维持心流**：善用工具规避“宕机”状态（例如利用 ChatGPT 快速绕过技术卡点）。"
+      ],
+      "name_zh": "The Low-Friction Leader Leverage Protocol（低摩擦领导者撬动协议）"
     },
     {
       "name": "The Audience Empathy Communication Model",
@@ -68,7 +81,19 @@
             "Respecting the business model's constraints"
           ]
         }
-      }
+      },
+      "summary_zh": "实现从“主观投射”（我希望世界变成什么样）到“同理心”（世界实际上是什么样）的认知转变。这一原则既适用于商业创意的筛选（基于市场需求而非个人觉得“酷”），也适用于人员管理（理解他人本性而非试图改变他人）。",
+      "problemItSolves_zh": "因缺乏产品市场匹配导致的创业失败，以及因岗位需求与候选人特质错位造成的招聘失败。",
+      "whenToUse_zh": "验证新的创业构想，或针对特定职位面试 CEO/高管时。",
+      "commonMistakes_zh": "仅凭兴趣创业（如开咖啡馆）却忽视单体经济模型，或是招聘销售人员负责市场工作，并指望他们能改变自身的职业基因。",
+      "realWorldExample_zh": "Andrew 聘请了一位拥有 B 端销售背景的 CEO 来操盘一个依赖自然营销的业务。尽管这位 CEO 承诺会转型做市场，但最终还是受限于路径依赖，回归了销售本能。Andrew 意识到：招聘应锚定岗位所需的特定特质，而非寄希望于候选人的适应性承诺。",
+      "principles_zh": [
+        "鱼塘捕鱼原则：不要试图凭空创造需求，而是去精准捕捉现有的需求。",
+        "尊重事物本质：正视商业模式的客观现实（例如餐饮业本身就很难做）或人的本性，不要试图对抗底层逻辑。",
+        "铁锤人思维：要意识到人们倾向于沿用过往的工具习惯来解决问题，而非遵循你当下的指令。",
+        "情境化准备：善用工具（如深度调研）彻底了解沟通对象，务求在对话开始前就消除隔阂。"
+      ],
+      "name_zh": "The Audience Empathy Communication Model（受众同理心沟通模型）"
     },
     {
       "name": "The Stated vs. Revealed Preference Framework",
@@ -111,8 +136,21 @@
             "description": "No relevant history and unpromising interview. PASS."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一个用于评估人才（招聘）和业务的诊断框架。它对比了人们“声称”会做的事（Stated）与他们的历史和本性“显示”会做的事（Revealed）。该框架主张优先基于历史数据和“本性”做判断，而非面试时的承诺。",
+      "problemItSolves_zh": "招聘决策失误、长期留用低绩效员工、涉足商业模式存在结构性缺陷的业务。",
+      "whenToUse_zh": "在招聘面试环节，或评估现有员工绩效时。",
+      "commonMistakes_zh": "轻信候选人声称能切换工作风格（例如销售 VP 声称能做自然增长），或是抱着能“改造”员工的幻想而迟迟不愿放手。",
+      "realWorldExample_zh": "在面试 CEO 时，Andrew 现在会观察对方能否自发地印证他的核心假设。如果需要他进行“诱导”，或者必须费力说服对方尝试某种过往从未实践过的策略，即便对方口头答应，Andrew 也会将其判定为不匹配。",
+      "principles_zh": [
+        "历史重演：人的底层行为模式极难改变。",
+        "辞退果断法则：一旦动了辞退某人的念头，就应立即执行。",
+        "放弃“改造”幻想：你无法通过辅导彻底改变一个人的性格或核心能力。",
+        "敬畏业务规律：商业模式的客观现实（如餐饮业的物流限制）远比高超的管理技巧更重要。"
+      ],
+      "name_zh": "The Stated vs. Revealed Preference Framework（声称偏好与显示偏好框架）"
     }
   ],
-  "filename": "Boz"
+  "filename": "Boz",
+  "episodeSummary_zh": "Andrew Wilkinson 分享了他的进化历程：从一位执着于创立“很酷”但举步维艰业务的焦虑型创始人，转型为通过收购盈利公司并撬动 AI 能力的“懒系领导者”。他探讨了在挖掘创业点子时遵循的“在鱼多的地方钓鱼”这一市场选择哲学，展示了他用于自动化处理个人及职业事务的特定 AI Agent 工作流，并分享了关于“金钱无法治愈焦虑”的深刻洞察，主张通过药物干预及接受自身天性（如 ADHD）来达成自洽。"
 }

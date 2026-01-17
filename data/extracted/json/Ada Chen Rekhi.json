@@ -3,7 +3,8 @@
     "name": "Ada Chen Rekhi",
     "title": "Executive Coach & Co-founder",
     "company": "Notejoy",
-    "background": "Former SVP of Marketing at SurveyMonkey, Founder of Connected (acquired by LinkedIn), led growth marketing at LinkedIn. Currently coaches founders on scaling themselves."
+    "background": "Former SVP of Marketing at SurveyMonkey, Founder of Connected (acquired by LinkedIn), led growth marketing at LinkedIn. Currently coaches founders on scaling themselves.",
+    "background_zh": "前 SurveyMonkey 市场高级副总裁，Connected 创始人（该公司被 LinkedIn 收购），曾主导 LinkedIn 的增长营销业务。现任创始人教练，辅导创始人实现自我迭代与能力跃迁。"
   },
   "episodeSummary": "Ada Chen Rekhi joins Lenny to discuss career strategy, decision-making frameworks, and the nuances of leadership. She introduces the 'Curiosity Loop' for gathering contextual advice, breaks down the 'Explore and Exploit' phases of career development, and shares how to cultivate a 'Values-Based Inner Scorecard' to combat the ego monster. The conversation also touches on navigating Silicon Valley as a woman and the importance of 'eating your vegetables' in skill acquisition.",
   "methodologies": [
@@ -31,11 +32,18 @@
           "Synthesize & Close Loop (Analyze patterns, thank advisors)"
         ]
       },
-      "summary_zh": "一套结构化的方法，旨在从精心筛选的同行圈子中获取具备语境的建议，而非依赖单一导师或提出模糊的问题。该方法通过向领域专家和熟悉你的伙伴提出针对性问题，从而有效识别认知盲区。",
-      "problemItSolves_zh": "规避缺乏语境的“错误建议”，并通过快速收集多维度的高质量数据，避免陷入决策瘫痪。",
-      "whenToUse_zh": "当面临重大决策（职业转型、产品方向、个人困境），且感到难以抉择或陷入僵局时。",
-      "commonMistakes_zh": "提问缺乏针对性、依赖单一信源（单点故障），或未向提供帮助者同步后续进展。",
-      "realWorldExample_zh": "Ada 正是利用这一方法完成了本期播客访谈的选题：她给 10 到 11 位朋友发邮件列出 9 个备选话题，请他们选出最感兴趣的两个。"
+      "summary_zh": "这是一套结构化的方法论，旨在从精选的同侪圈子中获取结合具体情境的建议，而非依赖单一导师或提出宽泛模糊的问题。该方法通过向领域专家及深知你个人情况的伙伴提出具体问题，来有效识别认知盲区。",
+      "problemItSolves_zh": "通过快速收集多元且高质量的数据点，规避脱离语境的“片面建议”，打破因犹豫不决导致的决策瘫痪。",
+      "whenToUse_zh": "当面临重大决策（如职业转型、产品方向、个人困境），且感到难以决断或陷入僵局时。",
+      "commonMistakes_zh": "提问过于笼统、仅咨询单一对象（单点故障），或未对提供帮助者进行跟进反馈。",
+      "realWorldExample_zh": "Ada 正是利用这一方法确定了本期播客的访谈主题：她向 10-11 位朋友发送了一份包含 9 个备选话题的邮件，并邀请他们选出最感兴趣的 Top 2。",
+      "principles_zh": [
+        "提出具体且中立的问题（避免笼统地问“我该怎么做”）。",
+        "精选受众：将领域专家与了解业务背景的人员相结合。",
+        "降低认知负荷：简化回答难度（例如设定“9选2”的约束条件）。",
+        "完成闭环：处理反馈数据，并通过同步最终结论表达感谢。"
+      ],
+      "name_zh": "Curiosity Loops（好奇心回路）"
     },
     {
       "name": "Explore and Exploit Framework",
@@ -68,7 +76,19 @@
             "description": "Combining mastery with alignment to values and meaning."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一套源自计算机科学与增长战略的职业管理框架。它将发展路径界定为两个截然不同的阶段：伴随高波动性与频繁试错的“探索”（Explore）阶段，以及致力于深度聚焦并最大化撬动价值的“利用”（Exploit）阶段。",
+      "problemItSolves_zh": "帮助职场人士决策是走通才还是专才路线，并判断何时应当跳槽，何时应当留任深耕以扩大影响力。",
+      "whenToUse_zh": "当你正在评估新 Offer、考虑职业转型，或在当前岗位遭遇瓶颈期时。",
+      "commonMistakes_zh": "在“探索”模式停留过久而未能建立深度专精，或是尚未找到个人职业生涯的“产品市场匹配”便过早切换至“利用”模式。",
+      "realWorldExample_zh": "Ada 职业生涯早期辗转于微软（大厂）、初创公司（Mochi Media）并尝试自主创业（Connected），旨在通过试错验证个人兴趣。随后加入 LinkedIn，她切换至“利用”（Exploit）模式，专注于沉淀订阅业务等专项技能。",
+      "principles_zh": [
+        "**探索模式**：核心在于优化学习曲线、积累多元经验和验证假设（职业生涯早期）。",
+        "**利用模式**：核心在于追求撬动效应、深耕专业领域和获取复利回报（职业生涯中后期）。",
+        "**拒绝“温水煮青蛙”**：时刻感知环境变化；如果既没有成长（Learn）也没有收益（Earn），切勿坐以待毙，果断改变。",
+        "对当下所处的模式保持清醒的认知与主动的决策。"
+      ],
+      "name_zh": "Explore and Exploit Framework（探索与利用框架）"
     },
     {
       "name": "Values-Based Inner Scorecard",
@@ -105,8 +125,21 @@
             "Meeting others' expectations"
           ]
         }
-      }
+      },
+      "summary_zh": "源自沃伦·巴菲特的决策框架，旨在厘清外部认可（外部计分板）与内在满足（内部计分板）的差异。该方法通过定义个人价值观并进行优先级排序，从而在面临社会压力时指导决策。",
+      "problemItSolves_zh": "规避“可怕的陷阱”：在职业生涯后期虽已功成名就，却猛然惊觉深陷束缚且痛苦不堪，只因你一直在基于他人的期望进行优化。",
+      "whenToUse_zh": "当需要在光鲜亮丽、社会地位高的机会，与风险更高、看似平凡但内心感觉“更对”的路径之间做出决策时。",
+      "commonMistakes_zh": "任由“自我”膨胀凌驾于核心价值观之上，或未能对价值观进行强制排序（视所有价值观为同等重要）。",
+      "realWorldExample_zh": "通过这次练习，Lenny 意识到“选择冒险”和“简单”是他的核心价值观。这促使他决定拒绝写书，尽管这看似是他职业进阶中“顺理成章”的下一步。",
+      "principles_zh": [
+        "定义价值观：从清单中筛选并归类，对 Top 3-5 核心价值观进行强制排序。",
+        "识别“自我膨胀”：警惕何时是在为“外部记分卡”（地位、金钱、头衔）做决策。",
+        "审视决策路径：推演当前路径的走向，确认其终点是导向你的价值观，还是满足他人的期待。",
+        "坚持意义优先：优化目标应是对齐核心价值观，而非追求简历的“光鲜度”。"
+      ],
+      "name_zh": "Values-Based Inner Scorecard（基于价值观的内在记分卡）"
     }
   ],
-  "filename": "Ada Chen Rekhi"
+  "filename": "Ada Chen Rekhi",
+  "episodeSummary_zh": "Ada Chen Rekhi 做客 Lenny 播客，深入探讨职业战略、决策框架以及领导力的微妙艺术。她介绍了用于获取场景化建议的“好奇心循环”，拆解了职业发展中的“探索（Explore）与利用（Exploit）”阶段，并分享了如何构建“基于价值观的内在记分卡”以对抗“自负”心魔。此外，对话还涉及女性在硅谷的职场突围之道，以及在技能习得中“吃蔬菜”（即夯实必要基本功）的重要性。"
 }

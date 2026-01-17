@@ -3,7 +3,8 @@
     "name": "Christine Itwaru",
     "title": "Product Operations Leader",
     "company": "Pendo",
-    "background": "A long-time product leader who transitioned from traditional Product Management to pioneering the Product Operations function at Pendo. She is a recognized thought leader in the Product Ops space, helping define the role's scope, value, and execution strategy for the broader tech industry."
+    "background": "A long-time product leader who transitioned from traditional Product Management to pioneering the Product Operations function at Pendo. She is a recognized thought leader in the Product Ops space, helping define the role's scope, value, and execution strategy for the broader tech industry.",
+    "background_zh": "一位资深产品管理者，从传统产品管理转型，在 Pendo 率先开拓了 Product Ops 职能。作为该领域公认的思想领袖，她协助整个科技行业定义了这一角色的职责边界、核心价值及落地策略。"
   },
   "episodeSummary": "Christine Itwaru demystifies the rising role of Product Operations, distinguishing it from Project Management and Product Marketing. She articulates how Product Ops acts as a strategic enabler that removes internal friction, allowing PMs to focus on customers rather than internal firefighting. The conversation covers how to diagnose if an organization needs Product Ops, how to structure the function, and how to execute specific workflows like Voice of Customer synthesis and internal launch readiness.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a product team is scaling, PMs complain of burnout, or there is perceived friction between Product and Sales/CS.",
       "commonMistakes": "Assuming that hiring a Product Ops person will fix a lack of product vision; Ops fixes the 'how', not the 'what'.",
       "quote": "Do you want your PMs to constantly be fielding questions from your revenue team when they could be spending time with customers?",
-      "realWorldExample": "Pendo conducted this survey across PM and Revenue teams to justify the creation of the Product Ops role, revealing a massive disconnect in time usage."
+      "realWorldExample": "Pendo conducted this survey across PM and Revenue teams to justify the creation of the Product Ops role, revealing a massive disconnect in time usage.",
+      "summary_zh": "一套用于衡量内部干系人当前向产品经理施加的“低效税”的诊断框架。",
+      "problemItSolves_zh": "协助管理层判断是否有必要设立专职的 Product Ops 职能，还是说目前的协作阻力尚在可控范围内。",
+      "whenToUse_zh": "当产品团队处于规模化扩张阶段，PM 出现职业倦怠，或产品部门与销售/CS 团队之间存在明显协作摩擦时。",
+      "commonMistakes_zh": "误以为招聘 Product Ops 就能解决产品愿景缺失的问题；Ops 解决的是“怎么做”（How），而非“做什么”（What）。",
+      "realWorldExample_zh": "Pendo 针对 PM 和营收团队开展了这项调研，旨在论证设立 Product Ops 角色的必要性，结果揭示了双方在时间分配上存在巨大的错位。",
+      "principles_zh": [
+        "调研产品团队：量化 PM 在应对内部问询“救火”与和外部客户进行“深度交流”上的时间分配比例。",
+        "调研营收团队：量化销售和客户成功（CS）团队在获取产品解答时的阻力（例如，统计“需要四处搜寻信息”的高频程度）。",
+        "识别信息透明度断层：如果 PM 感到不堪重负，而营收团队仍感到信息匮乏，这说明存在结构性的透明度缺失，而非个体的失职。",
+        "确立“问询质量”指标：追踪流向产品团队的问题价值度。如果充斥着基础的“操作类”问题，则暴露出赋能内容的缺失。"
+      ],
+      "name_zh": "The Product Ops Viability Audit（产品运营可行性评估）"
     },
     {
       "name": "The Internal Launch Readiness Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "During the weeks leading up to a feature release, specifically for B2B products with high-touch sales or success models.",
       "commonMistakes": "Turning the digest into a list of dates and Jira tickets rather than a guide on value proposition and workflow changes.",
       "quote": "People can know when [a feature] is coming, but they need to know what it is they need to do with it.",
-      "realWorldExample": "After a disastrous launch where Pendo's own teams weren't ready, Christine implemented this protocol to ensure Sales knew how to position features and CS knew how to support them before the external release."
+      "realWorldExample": "After a disastrous launch where Pendo's own teams weren't ready, Christine implemented this protocol to ensure Sales knew how to position features and CS knew how to support them before the external release.",
+      "summary_zh": "一套结构化的沟通策略，将关注重心从“发布什么内容”转移至“公司如何做好发布准备”。",
+      "problemItSolves_zh": "规避因内部团队（销售/CS）措手不及而引发的“发布事故”，防止由此造成客户采用率低下及内部协作混乱。",
+      "whenToUse_zh": "功能发布前的数周，尤其是针对具备高接触销售或客户成功模式的 B2B 产品。",
+      "commonMistakes_zh": "将简报沦为排期表和 Jira Ticket 的堆砌，而非关于价值主张与工作流变更的指引。",
+      "realWorldExample_zh": "经历了一次因 Pendo 内部团队准备不足而导致的灾难性发布后，Christine 推行了这套机制，确保在对外发布前，销售团队明确如何定位新功能，CS 团队知晓如何提供支持。",
+      "principles_zh": [
+        "将“认知”与“就绪”解耦：知晓功能即将上线（Awareness）与清楚如何应用该功能（Readiness）截然不同。重点应聚焦于后者。",
+        "打造“产品内参”：一份精心编撰的内部刊物，旨在将功能更新转化为销售和客户成功团队可直接落地的实操指引。",
+        "厘清 PMM 与 Ops 的权责边界：PMM 负责对外的产品定位；Ops 负责对内的价值赋能（例如：“该功能如何影响客户成功经理的季度客户复盘？”）。",
+        "严格执行“完成标准（DoD）”：只有当面向内部团队的培训内容及应用内引导均已完备时，该功能才算真正“完成”。"
+      ],
+      "name_zh": "The Internal Launch Readiness Protocol（内部发布就绪规程）"
     },
     {
       "name": "The Cross-Functional VoC Synthesis",
@@ -62,7 +87,19 @@
       "whenToUse": "When the product roadmap feels disconnected from what Sales/CS are screaming for, or when there is too much noise in the feedback channels.",
       "commonMistakes": "Treating all feedback as a product mandate; failing to identify that some 'product problems' are actually 'education problems'.",
       "quote": "We were able to educate our revenue team on behalf of the product team and say, 'Guys, not everything requires a product change.'",
-      "realWorldExample": "Pendo used this framework to realize that a friction point regarding their 'Guides' product wasn't a code issue, but an onboarding/enablement gap for the Professional Services team."
+      "realWorldExample": "Pendo used this framework to realize that a friction point regarding their 'Guides' product wasn't a code issue, but an onboarding/enablement gap for the Professional Services team.",
+      "summary_zh": "一套用于汇聚、验证及转化定性与定量用户反馈的治理模型，旨在避免 PM 陷入信息过载。",
+      "problemItSolves_zh": "解决反馈碎片化问题：销售团队想要功能 A，客户成功团队想要功能 B，而产品团队却在关注功能 C 的数据。",
+      "whenToUse_zh": "当产品路线图与销售/CS 部门强烈呼吁的需求严重脱节，或反馈渠道中充斥着过多噪音时。",
+      "commonMistakes_zh": "将所有反馈都视为必须落实的产品需求；未能识别出某些“产品问题”实际上是“用户教育问题”。",
+      "realWorldExample_zh": "Pendo 运用该框架洞察到，其 'Guides' 产品存在的阻力点并非代码层面的问题，而是专业服务团队在引导与赋能方面存在的缺口。",
+      "principles_zh": [
+        "**聚合多元信息**：将 NPS 反馈主题、流失客户风险数据及阻碍高优先级签单的关键卡点，整合至统一视图中。",
+        "**组建“营收战情室”**：召集销售、客户成功及产研负责人同步评审汇总数据，让各方直面并探讨彼此冲突的优先级诉求。",
+        "**调研验证**：通过 Product Ops 将原始反馈流转至用户调研团队进行验证，甄别这些问题究竟是普遍趋势还是单纯的“噪音”。",
+        "**赋能过滤机制**：分析业务卡点并决策——是需要产品迭代（代码变更），还是优化培训与预期管理（赋能支持）？并非所有痛点都必须转化为功能需求。"
+      ],
+      "name_zh": "The Cross-Functional VoC Synthesis（跨职能 VoC 整合）"
     }
   ],
   "notableQuotes": [
@@ -79,5 +116,6 @@
       "context": "Advice to aspiring Product Ops professionals about the need to automate their own jobs to focus on higher-level strategy."
     }
   ],
-  "filename": "Christine Itwaru"
+  "filename": "Christine Itwaru",
+  "episodeSummary_zh": "Christine Itwaru 深度解析了日益重要的 Product Ops（产品运营）角色，并明确界定了其与项目管理及产品营销的区别。她指出 Product Ops 是消除内部阻力的战略赋能者，能让产品经理从内部“救火”中解脱出来，从而专注于客户价值。本期对话还探讨了如何诊断组织是否需要引入 Product Ops、如何搭建该职能架构，以及如何落地执行具体的业务流程（例如 VoC 用户之声的整合提炼和内部发版准备工作）。"
 }

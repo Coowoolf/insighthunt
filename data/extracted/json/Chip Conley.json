@@ -3,7 +3,8 @@
     "name": "Chip Conley",
     "title": "Founder of MEA (Modern Elder Academy) & Former Head of Global Hospitality and Strategy at Airbnb",
     "company": "Modern Elder Academy (MEA)",
-    "background": "A legendary entrepreneur who founded Joie de Vivre (2nd largest boutique hotel chain in the US) before joining Airbnb at age 52 as Brian Chesky's mentor and global strategist. He is a thought leader on intergenerational collaboration, emotional intelligence in business, and the psychology of leadership."
+    "background": "A legendary entrepreneur who founded Joie de Vivre (2nd largest boutique hotel chain in the US) before joining Airbnb at age 52 as Brian Chesky's mentor and global strategist. He is a thought leader on intergenerational collaboration, emotional intelligence in business, and the psychology of leadership.",
+    "background_zh": "这位传奇创业者曾创办全美第二大精品酒店集团 Joie de Vivre，随后在 52 岁时加入 Airbnb，担任创始人 Brian Chesky 的导师及全球战略官。他是代际协作、商业情商以及领导力心理学领域的思想领袖。"
   },
   "episodeSummary": "Chip Conley explores the intersection of traditional hospitality wisdom and high-speed tech innovation, detailing his experience as a 'Modern Elder' at Airbnb. The conversation dismantles the concept of 'Founder Mode' from the employee's perspective, offers frameworks for intergenerational collaboration, and provides psychological tools for managing anxiety and finding meaning in high-pressure product environments.",
   "keyTakeaways": [
@@ -29,7 +30,19 @@
       "whenToUse": "When defining a product vision, rebranding, or trying to increase retention in a commoditized market.",
       "commonMistakes": "Focusing entirely on the base (features/specs) and assuming the emotional connection will happen automatically.",
       "quote": "Isn't the product the homes and the apartments? ... We were not in home sharing, we were in the belong anywhere business.",
-      "realWorldExample": "At Airbnb, Chip helped the team pivot from viewing themselves as a 'home sharing' utility (functional) to a 'belong anywhere' platform (unrecognized need), which fundamentally changed their marketing and host education."
+      "realWorldExample": "At Airbnb, Chip helped the team pivot from viewing themselves as a 'home sharing' utility (functional) to a 'belong anywhere' platform (unrecognized need), which fundamentally changed their marketing and host education.",
+      "summary_zh": "该框架源于马斯洛需求层次理论，将面向员工、客户及投资人的价值主张划分为三个层级：生存级（底层）、成功级（中层）以及变革级（顶层）。其核心目标在于识别并交付处于金字塔顶层的价值。",
+      "problemItSolves_zh": "帮助产品团队超越基础的功能实用性，建立情感共鸣与品牌忠诚度。",
+      "whenToUse_zh": "当定义产品愿景、品牌重塑，或在同质化市场中提升留存时。",
+      "commonMistakes_zh": "过度聚焦于基础层（功能/规格），并想当然地认为情感连接会自然产生。",
+      "realWorldExample_zh": "在 Airbnb，Chip 推动团队完成了产品定位的战略转型：从“房屋共享”工具（功能层面）升级为“四海为家”平台（挖掘潜在需求）。这一举措从根本上重塑了他们的市场策略和房东教育体系。",
+      "principles_zh": [
+        "第一步：识别「基础层」（基本预期）。对客户而言，这是可靠性与功能性；对员工而言，这是薪酬待遇。",
+        "第二步：识别「中间层」（渴望）。对客户而言，这是交易满意度；对员工而言，这是获得认可。",
+        "第三步：定义「塔尖层」（隐性需求/意义）。对客户而言，这是情感价值的解锁（如「归属感」）；对员工而言，这是使命感。",
+        "第四步：将资源和传播重心向「塔尖层」倾斜。不要仅推销功能，要推销其带来的蜕变性价值。"
+      ],
+      "name_zh": "The Peak Pyramid Framework（巅峰金字塔框架）"
     },
     {
       "name": "The Anxiety Balance Sheet",
@@ -47,7 +60,21 @@
       "whenToUse": "During reorganizations, market crashes, or pre-launch crunches when team morale is low due to stress.",
       "commonMistakes": "Allowing the team to fixate on Column 4 (things they cannot control), which increases the 'Powerlessness' multiplier.",
       "quote": "98% of anxiety comes from two sources: what you don't know and what you can't control.",
-      "realWorldExample": "Chip utilizes this to manage personal and organizational crises, helping teams realize that while they cannot control external factors (regulation/market), they can control their specific response strategy."
+      "realWorldExample": "Chip utilizes this to manage personal and organizational crises, helping teams realize that while they cannot control external factors (regulation/market), they can control their specific response strategy.",
+      "summary_zh": "基于“焦虑 = 不确定性 × 无力感”公式的战术演练。通过盘点这些变量，团队可以将弥漫的焦虑转化为可落地的行动项。",
+      "problemItSolves_zh": "缓解在高速增长或混沌环境中，因模糊性引发的决策瘫痪与压力。",
+      "whenToUse_zh": "当面临组织架构调整、市场动荡或产品上线前的冲刺期，团队因高压导致士气低落时。",
+      "commonMistakes_zh": "放任团队过度纠结于第 4 列（不可控因素），从而增加了“无力感”乘数。",
+      "realWorldExample_zh": "Chip 运用这一框架来应对个人及组织层面的危机，帮助团队建立认知：尽管无法左右外部不可控因素（如监管政策或市场环境），但团队完全能够掌控具体的应对策略。",
+      "principles_zh": [
+        "第一步：建立一张四列图表。",
+        "第二步：第一列 —— 罗列“已知信息”（事实）。",
+        "第三步：第二列 —— 罗列“未知信息”（不确定性）。",
+        "第四步：第三列 —— 罗列“可控/可影响因素”（能动性）。",
+        "第五步：第四列 —— 罗列“不可控因素”（接纳）。",
+        "第六步：将执行重心完全聚焦于第三列，以降低“无力感”这一变量。"
+      ],
+      "name_zh": "The Anxiety Balance Sheet（焦虑资产负债表）"
     },
     {
       "name": "Founder Mode Alignment Protocol",
@@ -63,7 +90,19 @@
       "whenToUse": "When reporting to founders, CEOs, or executives who exhibit 'Founder Mode' traits (impatience, non-linearity, high demands).",
       "commonMistakes": "Relying on a slide deck to structure the meeting or assuming the founder shares your context on timelines/constraints.",
       "quote": "If there's not alignment, you might as well not have the meeting. Let's spend the rest of this meeting talking about alignment.",
-      "realWorldExample": "Chip navigated working with Brian Chesky by leveraging his physical tour of Airbnb hosts (Ground Truth) to successfully push for proactive tax/regulation strategies, despite Brian's initial resistance."
+      "realWorldExample": "Chip navigated working with Brian Chesky by leveraging his physical tour of Airbnb hosts (Ground Truth) to successfully push for proactive tax/regulation strategies, despite Brian's initial resistance.",
+      "summary_zh": "一套针对“高压激进型”领导者的向上管理沟通策略。其核心原则是优先实现目标的高度对齐，而非依赖面面俱到的数据汇报。",
+      "problemItSolves_zh": "缓解与极具远见但要求苛刻、且频繁变更目标的创始人共事时产生的混乱与高压。",
+      "whenToUse_zh": "当向具备“创始人模式”特质（缺乏耐心、非线性思维、极高要求）的创始人、CEO 或高管汇报时。",
+      "commonMistakes_zh": "依赖 PPT 来主导会议流程，或预设创始人已同步关于排期与限制条件的背景信息。",
+      "realWorldExample_zh": "Chip 借助实地走访 Airbnb 房东所掌握的「一线实情」（Ground Truth），在 Brian Chesky 最初持反对意见的情况下，成功推动了主动式税务与监管合规策略的落地。",
+      "principles_zh": [
+        "第一步：会前对齐。在正式汇报前，先口头确认：“本次会议的核心目的是什么？”",
+        "第二步：定义成功标准。询问创始人/Leader：“如何定义本次迭代/项目成功的具体标准？”",
+        "第三步：建立“事实基准”话语权。通过亲自下场进行用户调研（做创始人未做之事），获取超越单纯数据的权威洞察，以此撬动决策。",
+        "第四步：极简文档策略。若创始人话题转向，随时准备抛开 PPT；依靠第一步建立的对齐共识，将讨论拉回正轨。"
+      ],
+      "name_zh": "Founder Mode Alignment Protocol（创始人模式对齐协议）"
     },
     {
       "name": "Intergenerational Intelligence Model",
@@ -79,7 +118,19 @@
       "whenToUse": "When building cross-functional teams or when a startup is scaling from pure building to needing organizational stability.",
       "commonMistakes": "Viewing older employees as simply 'slower' versions of younger employees, rather than possessors of a different, complementary type of intelligence.",
       "quote": "When you have older brains connecting the dots, younger team members being really fast and focused, it's brilliant.",
-      "realWorldExample": "Chip (52) paired with Laura Modi (Younger) at Airbnb; Chip provided the holistic 'hospitality' vision (Crystallized) while the younger team executed the 'product/tech' optimization (Fluid)."
+      "realWorldExample": "Chip (52) paired with Laura Modi (Younger) at Airbnb; Chip provided the holistic 'hospitality' vision (Crystallized) while the younger team executed the 'product/tech' optimization (Fluid).",
+      "summary_zh": "一套打造多元化团队的框架，融合了“流体智力”（速度、专注、计算力）与“晶体智力”（模式识别、系统思维、情绪调节）。",
+      "problemItSolves_zh": "通过撬动不同代际的差异化认知优势，优化团队绩效。",
+      "whenToUse_zh": "组建跨职能团队时，或初创公司从单纯的产品构建向规模化与组织稳态转型时。",
+      "commonMistakes_zh": "仅仅将年长员工视为年轻员工的“降速版”，而忽略了他们具备一种截然不同且能形成优势互补的智慧。",
+      "realWorldExample_zh": "在 Airbnb，Chip（52岁）与 Laura Modi（新生代）组成搭档；Chip 提供了全局的“待客之道”愿景（晶体智力），而年轻团队则负责“产品/技术”层面的执行与优化（流体智力）。",
+      "principles_zh": [
+        "步骤 1：界定“流体智力”角色。将追求执行速度、专注度及线性解题的任务，分配给掌握前沿技术的新生代成员。",
+        "步骤 2：界定“晶体智力”角色。将需要融会贯通、全局思维及跨界洞察的任务，分配给阅历丰富的资深成员。",
+        "步骤 3：推行双向导师制。建立“现代长者”与“青年才俊”的结对机制，确保学习的双向流动（如：前沿技术与情商/领导力的互补交换）。",
+        "步骤 4：评估“隐性产出”价值。激励资深成员承担“赋能者”角色——肯定其通过辅导与信任建设，从而显著提升团队整体人效的贡献。"
+      ],
+      "name_zh": "Intergenerational Intelligence Model（代际智慧模型）"
     }
   ],
   "notableQuotes": [
@@ -104,5 +155,6 @@
       "context": "Advice to older workers in tech on how to remain relevant and hirable."
     }
   ],
-  "filename": "Chip Conley"
+  "filename": "Chip Conley",
+  "episodeSummary_zh": "Chip Conley 深入探讨了传统待客智慧与高速科技创新之间的交汇点，并详细复盘了他在 Airbnb 担任“现代长者（Modern Elder）”期间的实战经验。本次对谈从员工视角深度拆解了“创始人模式（Founder Mode）”，输出了跨代际协作的实操框架，并提供了一套在高压产品环境中管理焦虑、寻找职业价值的心理建设工具。"
 }

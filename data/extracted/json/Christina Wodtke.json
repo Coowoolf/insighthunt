@@ -3,7 +3,8 @@
     "name": "Christina Wodtke",
     "title": "Author & Lecturer at Stanford University",
     "company": "Stanford University / Wodtke Consulting",
-    "background": "Christina is the author of the seminal OKR book 'Radical Focus' and teaches product management at Stanford. She is a former product leader at LinkedIn, MySpace, Zynga, and Yahoo, known for helping companies fix broken execution processes through OKRs and storytelling."
+    "background": "Christina is the author of the seminal OKR book 'Radical Focus' and teaches product management at Stanford. She is a former product leader at LinkedIn, MySpace, Zynga, and Yahoo, known for helping companies fix broken execution processes through OKRs and storytelling.",
+    "background_zh": "Christina 是 OKR 领域里程碑式著作《绝对聚焦》（Radical Focus）的作者，同时在斯坦福大学教授产品管理课程。她曾是 LinkedIn、MySpace、Zynga 和 Yahoo 的产品高管，尤其擅长利用 OKR 和叙事技巧（Storytelling）帮助企业修复执行流程中的断层。"
   },
   "episodeSummary": "In this deep dive into execution, Christina Wodtke dismantles the bureaucratic view of OKRs, reframing them as a tool for learning and focus rather than just goal-setting. She outlines the precise cadence required to make OKRs work, the connection between 5-year missions and weekly tasks, and why 'product sense' is often just a myth for junior PMs. The episode provides a blueprint for fixing dysfunctional teams by establishing a rhythm of commitment and celebration.",
   "keyTakeaways": [
@@ -31,7 +32,19 @@
       "whenToUse": "When teams feel busy but aren't making progress on strategic goals, or when morale is low due to a lack of visible progress.",
       "commonMistakes": "Letting the Monday meeting devolve into a general status update of all tasks, rather than only discussing tasks related to the OKR.",
       "quote": "The simple act of getting together and saying, 'What was the most awesome thing that happened to you this week?'... It makes people feel like they're part of something really special.",
-      "realWorldExample": "Christina's experience at Zynga where short, focused status emails allowed her to scan the entire company's progress and identify connection points without meetings."
+      "realWorldExample": "Christina's experience at Zynga where short, focused status emails allowed her to scan the entire company's progress and identify connection points without meetings.",
+      "summary_zh": "这是一套固定且轻量级的周常机制，通过首尾呼应形成工作周闭环，确保长期战略（OKR）与日常执行有效对齐。它摒弃了模糊的进度同步，转而聚焦于信心指数盘点与卡点解决。",
+      "problemItSolves_zh": "解决 OKR “定完即忘”的问题：团队在季度初制定 OKR，随后便将其束之高阁，直到季度末才重新检视。",
+      "whenToUse_zh": "当团队陷入低效忙碌却未在战略目标上取得实质进展，或因缺乏可见成果而导致士气低迷时。",
+      "commonMistakes_zh": "让周一例会沦为对所有任务的泛泛进度汇报，而非仅聚焦于讨论与 OKR 相关的任务。",
+      "realWorldExample_zh": "Christina 在 Zynga 的实战经验：通过简短聚焦的状态邮件，她无需召开会议即可快速纵览全公司进度，并识别出业务协同点。",
+      "principles_zh": [
+        "周一承诺会：团队集结明确*本周*的具体行动计划，确保每一项任务都能实质性推动 OKR 的进展。",
+        "四象限周报：每周发送包含四个维度的进度同步：1) OKR 达成信心指数 (0-10)；2) 上周核心进展；3) 下周工作优先级；4) 潜在风险与阻塞点。",
+        "周五庆功会：举办周五成果分享会，让各团队展示本周最亮眼的工作产出（涵盖市场、设计或研发），以此鼓舞士气，保持团队势能。",
+        "学习闭环：若“下周计划”中的任务未如期转化为“上周已完成”，状态同步机制将倒逼团队探讨根本原因，从而驱动即时的复盘与认知迭代。"
+      ],
+      "name_zh": "The 'Radical Focus' Weekly Cadence（“绝对聚焦”每周节奏）"
     },
     {
       "name": "The 'Triangulated Outcome' Formulation",
@@ -47,7 +60,18 @@
       "whenToUse": "During quarterly planning when defining success criteria for a new product launch or a growth initiative.",
       "commonMistakes": "Confusing tasks (binary: ship the feature) with outcomes (analog: user behavior changed).",
       "quote": "If you just asked the question, 'What are we doing this week to get closer to our strategic goals?' That is the very heart of it.",
-      "realWorldExample": "An online interior design magazine wanting to improve 'recommendations.' Instead of a KR like 'Launch new algo,' they used '30% of audience converts from browser to member' and 'Users like 3 products per week.'"
+      "realWorldExample": "An online interior design magazine wanting to improve 'recommendations.' Instead of a KR like 'Launch new algo,' they used '30% of audience converts from browser to member' and 'Users like 3 products per week.'",
+      "summary_zh": "一种制定稳健 OKR 的方法，兼顾激励性愿景与具体的多维指标。该方法旨在确保目标的达成能切实转化为商业价值。",
+      "problemItSolves_zh": "防止团队制定出伪装成 OKR 的任务清单，或设定容易被投机取巧的目标（例如：以牺牲留存为代价提升点击量）。",
+      "whenToUse_zh": "在季度规划中，为新产品上线或增长专项定义成功标准时。",
+      "commonMistakes_zh": "混淆“任务”（二元性：上线功能）与“结果”（连续性：用户行为改变）。",
+      "principles_zh": [
+        "**单一且具有感召力的目标（Objective）：** 目标应当是定性且能激发团队动力的（例如“让用户感到惊喜”），而非枯燥的任务描述（例如“上线 v2.0 版本”）。",
+        "**三角对齐的关键结果（Key Results）：** 选择约 3 个相互制衡的 KR。通常组合为：1 个使用量指标 + 1 个营收/商业指标 + 1 个质量/满意度指标。",
+        "**“如何验证”的深度追问：** 针对每一个模糊概念（例如“愉悦感”），严谨地反问“我们如何知道用户感到了愉悦？”，直到找到可量化的代理指标（例如留存、NPS 或用户座谈反馈）。",
+        "**10 分钟极限头脑风暴：** 投入 10 分钟穷举衡量目标的*所有可能性*，以此跳出显而易见的常规指标，挖掘出真正具有洞察力的核心指标。"
+      ],
+      "name_zh": "The 'Triangulated Outcome' Formulation（“三角定位”成果表述法）"
     },
     {
       "name": "The 'Mystery-to-Success' Narrative Arc",
@@ -63,7 +87,19 @@
       "whenToUse": "Pitching a new product vision, presenting a roadmap to executives, or rallying a team around a difficult pivot.",
       "commonMistakes": "Assuming 'data speaks for itself' and omitting the narrative structure that gives the data meaning.",
       "quote": "If you tell people a bunch of facts, they'll forget most of them... But if you tell them a story that's full of facts, they will remember it.",
-      "realWorldExample": "N/A (General principle discussed in context of her book on drawing and storytelling)."
+      "realWorldExample": "N/A (General principle discussed in context of her book on drawing and storytelling).",
+      "summary_zh": "一套用于演示与提案的叙事框架，通过结构化的信息编排，摆脱枯燥的事实罗列，从而最大化信息留存与说服力。",
+      "problemItSolves_zh": "利用人类“相比原始数据更偏爱故事”的认知偏好，帮助 PM 有效影响那些参与度低或持怀疑态度的利益相关者。",
+      "whenToUse_zh": "提案新产品愿景、向高管汇报产品路线图，或是动员团队应对艰难的业务转型。",
+      "commonMistakes_zh": "误以为“数据不言自明”，却忽略了赋予数据意义的叙事结构。",
+      "realWorldExample_zh": "不适用（在其绘画与叙事著作背景下讨论的通用原则）",
+      "principles_zh": [
+        "**钩子（开篇）：** 以悬念、秘密或意外惊喜开场，迅速抓住受众的好奇心。切忌上来就机械地罗列议程。",
+        "**干货（中段）：** 紧扣解决开篇设下的悬念或冲突这一主线，以此为背景阐述客观事实、产品细节或战略规划。",
+        "**升华（结尾）：** 以成功愿景收尾——描绘冲突化解后的理想终局。这能确保在受众心中留下积极的情绪印记。",
+        "**反馈迭代闭环：** 在完成故事讲述或提案路演（Pitch）后，明确询问值得信赖的伙伴：“我在哪些方面可以做得更好，让这个叙事更具感染力？”"
+      ],
+      "name_zh": "The 'Mystery-to-Success' Narrative Arc（“从谜题到成功”叙事弧）"
     }
   ],
   "notableQuotes": [
@@ -84,5 +120,6 @@
       "context": "Advocating for a rapid, lightweight approval process for OKRs rather than weeks of bureaucratic alignment."
     }
   ],
-  "filename": "Christina Wodtke"
+  "filename": "Christina Wodtke",
+  "episodeSummary_zh": "在这场关于执行力的深度剖析中，Christina Wodtke 破除了将 OKR 视为官僚主义形式的刻板印象，将其重新定义为一种驱动学习与聚焦的工具，而非单纯的目标设定手段。她详细阐述了让 OKR 真正落地所需的运作节奏，解析了 5 年使命与每周任务之间的关联，并揭示了为何“产品感”对初级产品经理而言往往是个伪命题。本期节目通过建立“承诺与庆祝”的节奏，为修复协作失调的团队提供了一份实用的行动蓝图。"
 }

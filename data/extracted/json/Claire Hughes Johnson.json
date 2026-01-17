@@ -3,7 +3,8 @@
     "name": "Claire Hughes Johnson",
     "title": "Corporate Officer & Advisor (Former COO)",
     "company": "Stripe",
-    "background": "Former COO at Stripe for 7 years, scaling the company from 160 to 7,000+ employees. Previously spent 10 years at Google leading Gmail, YouTube, and Self-Driving Cars. Author of the book 'Scaling People'."
+    "background": "Former COO at Stripe for 7 years, scaling the company from 160 to 7,000+ employees. Previously spent 10 years at Google leading Gmail, YouTube, and Self-Driving Cars. Author of the book 'Scaling People'.",
+    "background_zh": "曾任 Stripe COO 长达 7 年，带领团队从 160 人扩张至 7,000+ 人。此前在 Google 任职 10 年，负责 Gmail、YouTube 及自动驾驶业务。著有《Scaling People》一书。"
   },
   "episodeSummary": "Claire Hughes Johnson dissects the 'operating system' required to scale a high-growth company, distinguishing between finding product-market fit and actually building a functional organization. She shares deep tactical frameworks for personal management styles, creating stability through operational cadence, and delivering difficult feedback effectively.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a startup moves from 'finding PMF' (0-1) to 'scaling the org' (1-N), typically around 50-150 employees.",
       "commonMistakes": "Waiting too long to implement levels/ladders (creating a 'bloodbath' later) or changing operating cadences too frequently before they can take root.",
       "quote": "Product market fit is just the product, and that is not a company, and that will not scale.",
-      "realWorldExample": "Stripe implementing 'Levels and Ladders' early (at ~160 people) to avoid unfair compensation structures later, despite it feeling like 'ripping the band-aid off'."
+      "realWorldExample": "Stripe implementing 'Levels and Ladders' early (at ~160 people) to avoid unfair compensation structures later, despite it feeling like 'ripping the band-aid off'.",
+      "summary_zh": "一套用于构建可规模化企业的三段式结构框架。该框架将公司建设视为一项建筑工程，必须具备地基、承重梁以及运转系统才能有效运行。",
+      "problemItSolves_zh": "确保公司架构（即“房子”）能够承载产品与团队的体量，避免在快速规模化扩张中发生组织崩塌。",
+      "whenToUse_zh": "当初创公司从“寻找 PMF”（0-1）向“组织规模化”（1-N）阶段过渡时，通常处于 50-150 人的团队规模。",
+      "commonMistakes_zh": "职级体系搭建过晚（导致后续引发“血雨腥风”），或在运作节奏尚未稳固前就频繁调整。",
+      "realWorldExample_zh": "Stripe 在约 160 人规模时便提前推行“职级体系”，尽管这无异于一次“长痛不如短痛”的阵痛，但此举旨在规避未来薪酬结构失衡的风险。",
+      "principles_zh": [
+        "**地基（纲领性文档）**：将使命（存在的意义）、价值观（工作方式）以及长期目标（3-5 年的愿景）明确定义并形成明文规定。",
+        "**梁柱（支撑结构）**：落地各类管理框架，如职级体系、招聘标准及目标管理系统（OKR），确保这些机制在组织上下贯通且可复用。",
+        "**管线（运营节奏）**：搭建组织的“布线”与节律——涵盖规划周期、QBR 及发布节点——从而提供可预期的稳定性。",
+        "**复用性**：构建可供团队在规模化扩张时直接复制的机制，避免每位管理者都要重新发明一套流程（重复造轮子）。"
+      ],
+      "name_zh": "The 'House' Operational Architecture（“屋型”运营架构）"
     },
     {
       "name": "The 'Explorer vs. Lecturer' Coaching Model",
@@ -46,7 +59,19 @@
       "whenToUse": "During 1:1s, performance reviews, or debriefing after a high-stakes presentation.",
       "commonMistakes": "Confusing 'coaching' with 'teaching' (telling them exactly how to do a task) versus 'exploring' (helping them see their own blind spots).",
       "quote": "Your job is to enable people to be their very damn best... most of management is actually exploring with someone. It is being curious.",
-      "realWorldExample": "Claire observing a direct report physically moving their chair away from the table during uncomfortable topics and mirroring that observation back to them to uncover the root cause."
+      "realWorldExample": "Claire observing a direct report physically moving their chair away from the table during uncomfortable topics and mirroring that observation back to them to uncover the root cause.",
+      "summary_zh": "一种反馈模式，管理者在其中化身为充满好奇的探索者，而非权威型专家。通过观察与提问，引导下属对问题进行自我诊断。",
+      "problemItSolves_zh": "管理者往往习惯于直接告诉下属该做什么（说教），或对棘手的反馈避而不谈，从而导致绩效低迷与信任缺失。",
+      "whenToUse_zh": "1:1 沟通、绩效评估，或关键汇报后的复盘环节。",
+      "commonMistakes_zh": "混淆了“辅导”与“教学”的概念：误将辅导当成“教学”（直接告知具体的执行步骤），而忽略了“探索”（引导对方发现自身的认知盲区）。",
+      "realWorldExample_zh": "Claire 观察到直属下级在讨论棘手话题时会将椅子后移远离桌子，她通过向对方“镜像”反馈这一肢体动作，来挖掘背后的根本原因。",
+      "principles_zh": [
+        "假设驱动式辅导：基于数据或直觉构建科学假设（例如：“我认为你在刻意回避这位利益相关方”）。",
+        "提问引导：以非对抗性的询问切入（例如：“是否存在我们尚未触及的隐性问题？”）。",
+        "强调主观观察：使用“我”字句陈述个人感知，不做评判（例如：“在那次会议中，我的感受是你似乎有些紧张”）。",
+        "镜像反馈：映射对方的肢体动作或语言信号（例如：“我注意到当我们讨论该话题时，你的椅子向后退了一些”）。"
+      ],
+      "name_zh": "The 'Explorer vs. Lecturer' Coaching Model（\"探索者\"与\"讲师\"教练模型）"
     },
     {
       "name": "The 'Left-Hand Column' Detox",
@@ -62,7 +87,19 @@
       "whenToUse": "When you feel tension in a meeting, notice a 'pink elephant' in the room, or spot a recurring performance issue.",
       "commonMistakes": "Filtering so much that the feedback becomes vague, or blurting out the raw 'left-hand' thought without detoxifying it first.",
       "quote": "Say the thing you think you cannot say... detoxify the left-hand column.",
-      "realWorldExample": "Claire calling out a conflict between two teams in a meeting by asking, 'I feel like there is something we are not talking about... do these two teams own the same project?'"
+      "realWorldExample": "Claire calling out a conflict between two teams in a meeting by asking, 'I feel like there is something we are not talking about... do these two teams own the same project?'",
+      "summary_zh": "改编自 Fred Kofman 的一种沟通技巧，旨在将尖锐的内心独白（左手栏）转化为具有建设性的外部对话（右手栏）。",
+      "problemItSolves_zh": "因担心反馈显得“过于严厉”或“难以启齿”而回避关键意见，进而导致的团队协作失效。",
+      "whenToUse_zh": "当你感受到会议气氛紧张、察觉到“房间里的大象”，或是发现反复出现的绩效问题时。",
+      "commonMistakes_zh": "过度过滤导致反馈模棱两可，或者未经“去毒”处理便直接抛出原始的“左栏”想法。",
+      "realWorldExample_zh": "Claire 在会议中直接点破了两个团队间的冲突，她问道：“我感觉有些话大家没摆在台面上说……这两个团队是不是在负责同一个项目？”",
+      "principles_zh": [
+        "识别念头：正视内心那些严苛的潜台词（例如：“Lenny 彻底搞砸了那场面试”）。",
+        "甄别意图：自省你的出发点是为了提供帮助，还是单纯为了指责。",
+        "转化为探询：将主观评判转化为带有好奇心的提问（例如：“我在想，你是否也觉得那场面试有些发挥不理想？”）。",
+        "道出“难言之语”：坦诚表达经过审视的观察，以此澄清氛围并建立深度互信。"
+      ],
+      "name_zh": "The 'Left-Hand Column' Detox（“左手栏”排毒）"
     },
     {
       "name": "Personal Operating Manual",
@@ -78,7 +115,19 @@
       "whenToUse": "When onboarding new team members or taking over a new team.",
       "commonMistakes": "Listing generic values (like 'honesty') without explaining the specific behaviors or stories that define what that means to you.",
       "quote": "If you don't start putting those things in early, people will just invent those things. And then you'll have a house that got added on to 17 times.",
-      "realWorldExample": "Claire sharing her principle of 'Say the thing you think you cannot say' so her team knows that her direct feedback is meant to be helpful, not brutal."
+      "realWorldExample": "Claire sharing her principle of 'Say the thing you think you cannot say' so her team knows that her direct feedback is meant to be helpful, not brutal.",
+      "summary_zh": "由领导者撰写的一份文档，通过阐述其价值观、行事风格及工作期望，旨在加速与团队的磨合与相互理解。",
+      "problemItSolves_zh": "管理者与团队在工作风格、价值观及沟通偏好上的误解。",
+      "whenToUse_zh": "新成员入职或接手新团队时",
+      "commonMistakes_zh": "罗列泛泛的价值观（如“诚实”），却未结合具体的行为表现或案例，来诠释其对你的实际定义。",
+      "realWorldExample_zh": "Claire 分享了“说出那些你认为‘不能说’的话”这一原则，以确保团队理解：她直截了当的反馈意在提供建设性帮助，而非粗暴的打击。",
+      "principles_zh": [
+        "**定义核心价值观**：提炼 3 个核心价值观（如：正直、好奇心），并溯源塑造这些价值观背后的个人故事或心路历程。",
+        "**绘制工作风格图谱**：在“内向 vs 外向”与“任务导向 vs 关系导向”的坐标系中，精准定位自己的位置。",
+        "**明确协作原则**：制定你的“协作准则”（Rules of Engagement），例如：“通过提升自我认知来促进团队共识”。",
+        "**发布与迭代**：将文档同步给团队，并邀请成员交换各自的“使用说明书”，在反馈中持续迭代。"
+      ],
+      "name_zh": "Personal Operating Manual（个人运行手册）"
     }
   ],
   "notableQuotes": [
@@ -99,5 +148,6 @@
       "context": "Discussing how people lazily schedule meetings without defining the purpose or decision criteria."
     }
   ],
-  "filename": "Claire Hughes Johnson"
+  "filename": "Claire Hughes Johnson",
+  "episodeSummary_zh": "Claire Hughes Johnson 深度拆解了高增长公司实现规模化扩张所需的“操作系统”，厘清了寻找产品市场匹配与构建高效运转组织之间的差异。她分享了一套极具深度的战术框架，涵盖个人管理风格、通过运营节奏建立稳定性，以及如何有效传达棘手的反馈。"
 }

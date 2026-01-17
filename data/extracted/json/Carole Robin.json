@@ -3,7 +3,8 @@
     "name": "Carole Robin",
     "title": "Co-founder at Leaders in Tech & Former Stanford GSB Professor",
     "company": "Leaders in Tech",
-    "background": "Carole Robin taught the legendary 'Interpersonal Dynamics' (known as 'Touchy Feely') course at Stanford GSB for over 20 years. She is the co-author of 'Connect' and now runs Leaders in Tech, helping high-growth tech leaders build robust relationships and effective cultures."
+    "background": "Carole Robin taught the legendary 'Interpersonal Dynamics' (known as 'Touchy Feely') course at Stanford GSB for over 20 years. She is the co-author of 'Connect' and now runs Leaders in Tech, helping high-growth tech leaders build robust relationships and effective cultures.",
+    "background_zh": "Carole Robin 曾在斯坦福商学院执教传奇课程“人际动力学”（Interpersonal Dynamics，业内俗称 \"Touchy Feely\"）长达 20 余年。作为《Connect》一书的合著者，她目前掌舵 Leaders in Tech，致力于帮助高增长科技企业的管理者构建深度人际连接与高效的组织文化。"
   },
   "episodeSummary": "Carole Robin dismantles the myth that 'soft skills' are secondary in business, arguing that interpersonal competence is the primary driver of professional success. She provides a masterclass on giving feedback without causing defensiveness, the strategic use of vulnerability, and how to navigate the 'three realities' of human interaction. The episode offers a rigorous toolkit for product leaders to move relationships from transactional to exceptional.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "During performance reviews, conflict resolution, or when a stakeholder's behavior is blocking product progress.",
       "commonMistakes": "Using 'I feel that...' or 'I feel like...' followed by a judgment (e.g., 'I feel like you don't care'). This is an attribution, not a feeling.",
       "quote": "I feel that you don't care and I feel you're being insensitive are not feelings, and that's where we make our biggest mistakes when it comes to feedback.",
-      "realWorldExample": "Carole's student felt disrespected when she checked her watch. Instead of saying 'You are rude,' he said, 'When you looked at your watch while I was answering, I felt disrespected.'"
+      "realWorldExample": "Carole's student felt disrespected when she checked her watch. Instead of saying 'You are rude,' he said, 'When you looked at your watch while I was answering, I felt disrespected.'",
+      "summary_zh": "该框架将互动拆解为三种独立的“现实”，旨在确保反馈基于事实且具有可探讨性。它要求表达者仅陈述自身确知的内容，从而倒逼其在沟通中严守“己方界限”。",
+      "problemItSolves_zh": "避免在向团队成员或利益相关者提供批评性反馈时，常引发的防御心理与冲突。",
+      "whenToUse_zh": "适用于绩效考评、解决协作冲突，或当利益相关方的行为阻碍产品推进时。",
+      "commonMistakes_zh": "使用“我觉得……”或“我感觉……”后接主观评判（例如：“我觉得你根本不在乎”）。这属于归因，而非感受。",
+      "realWorldExample_zh": "当 Carole 看了眼手表时，她的学生感到不受尊重。但他并没有直接指责说“你很无礼”，而是反馈道：“当我在回答问题时你看了眼手表，这让我感到不被尊重。”",
+      "principles_zh": [
+        "识别第一层现实（意图）：请时刻铭记，你的内心初衷对他人而言是不可见的。",
+        "识别第二层现实（行为）：严格聚焦于客观可见的行为（具体的言行），这是双方唯一共享的事实基础。",
+        "识别第三层现实（影响）：承认你无法透视对方的内心世界，仅陈述其行为对你造成的实际影响。",
+        "采用标准话术公式：“当你 [具体行为] 时，我感到 [精准的情绪词汇]，因为 [具体影响/原因]。”",
+        "避免“越界臆测”（Net Jumping）：绝不妄断动机（如“你是在不尊重我”）或替对方定义事实（如“你根本没在听”）。"
+      ],
+      "name_zh": "The Three Realities Feedback Model（三重现实反馈模型）"
     },
     {
       "name": "The 15% Disclosure Rule",
@@ -48,7 +62,20 @@
       "whenToUse": "When onboarding new team members, during difficult all-hands meetings (e.g., bad metrics), or when trying to bond with a co-founder.",
       "commonMistakes": "Confusing vulnerability with weakness or emotional dumping. The goal is to show humanity, not incompetence.",
       "quote": "If you step a little bit outside your comfort zone, you're very unlikely to freak yourself or the other person out... then we settle into a new, slightly larger comfort zone.",
-      "realWorldExample": "A CEO missed a product deadline. Instead of yelling (Comfort Zone/Anger), he used the 15% rule to admit, 'I am scared that I am the only one worried about this.' The team immediately rallied to fix it."
+      "realWorldExample": "A CEO missed a product deadline. Instead of yelling (Comfort Zone/Anger), he used the 15% rule to admit, 'I am scared that I am the only one worried about this.' The team immediately rallied to fix it.",
+      "summary_zh": "一种用于建立信任的风险管理经验法则。它鼓励管理者适度跨出“舒适区”进入“学习区”，同时避免踏入“危险区”。",
+      "problemItSolves_zh": "解决了示弱（Vulnerability）策略中关于“尺度拿捏”的难题：自我披露不足会产生隔阂，而过度分享（Oversharing）则会损害专业形象。",
+      "whenToUse_zh": "在新成员入职引导时、面临挑战的全员大会期间（例如核心指标表现不佳），或是试图与联合创始人建立深度连接时。",
+      "commonMistakes_zh": "混淆了“袒露脆弱”与“软弱”或“情绪宣泄”的界限。核心目的是展现真实的人性，而非暴露能力的不足。",
+      "realWorldExample_zh": "某位 CEO 错过了产品交付节点。他并未大发雷霆（这是宣泄愤怒的舒适区），而是运用“15% 法则”坦承道：“我很害怕，感觉似乎只有我一个人在担心这件事。”团队随即迅速凝聚，齐心协力解决了问题。",
+      "principles_zh": [
+        "建立三个同心圆的思维模型：核心为舒适区，中间层为学习区，最外层为危险区。",
+        "识别出那些你通常会选择有所保留的信息或真实感受。",
+        "突破本能的舒适界限，尝试多分享 15% 的内容。",
+        "观察反馈；若得到积极回应，彼此的信任关系将得以深化，你的舒适区也会随之扩张。",
+        "厘清“适度示弱”的边界：拒绝向团队宣泄未消化的情绪垃圾，仅分享与工作语境高度相关的真实感受。"
+      ],
+      "name_zh": "The 15% Disclosure Rule（15% 披露法则）"
     },
     {
       "name": "The Art of Inquiry Protocol",
@@ -65,7 +92,20 @@
       "whenToUse": "During user interviews, debugging team process failures, or navigating disagreements on product strategy.",
       "commonMistakes": "Asking binary Yes/No questions or disguising advice as a question (e.g., 'Don't you think you should...?').",
       "quote": "Questions that start with what, when, where, how. Stay away from why.",
-      "realWorldExample": "Instead of asking a spouse/colleague 'Why are you upset?', which leads to denial ('I'm not upset!'), ask 'What is going on for you right now?'"
+      "realWorldExample": "Instead of asking a spouse/colleague 'Why are you upset?', which leads to denial ('I'm not upset!'), ask 'What is going on for you right now?'",
+      "summary_zh": "一种旨在悬置评判、挖掘真实信息的提问技法。它将目标从“验证假设”转变为寻求理解的真正“探寻”。",
+      "problemItSolves_zh": "解决诱导性提问或“陷阱式”提问带来的问题，这类提问会阻断沟通，导致无法挖掘问题的根因。",
+      "whenToUse_zh": "进行用户访谈、诊断团队流程问题，或协调产品战略分歧时。",
+      "commonMistakes_zh": "提出二元的 Yes/No 问题，或将建议伪装成提问（例如：“你不觉得你应该……吗？”）。",
+      "realWorldExample_zh": "与其问伴侣或同事“你为什么生气？”——这往往会导致对方否认（“我没生气！”），不如问：“你当下正在经历什么？”",
+      "principles_zh": [
+        "暂缓评判：一旦预设了结论，你就无法保持好奇心。",
+        "禁用“为什么”：问“为什么”容易引发防御机制（听起来像长辈的训斥）。",
+        "采用记者式提问：严格以“是什么”、“在哪里”、“何时”及“如何”作为提问的起手式。",
+        "聚焦具体细节：多问“具体体现在哪里？”或“我们该如何拆解这个问题？”，而非泛泛而谈。",
+        "深度倾听：切勿在对方发言时急于构思你的下一句回应。"
+      ],
+      "name_zh": "The Art of Inquiry Protocol（探询艺术法则）"
     }
   ],
   "notableQuotes": [
@@ -86,5 +126,6 @@
       "context": "Redefining positive feedback from vague praise to specific data points that reinforce behavior."
     }
   ],
-  "filename": "Carole Robin"
+  "filename": "Carole Robin",
+  "episodeSummary_zh": "Carole Robin 颠覆了“软技能”在商业中仅属次要因素的刻板印象，主张人际胜任力才是职业成功的核心驱动力。她带来了一堂关于深度沟通的大师课，详尽解析了如何给予反馈而不触发对方的防御心理、如何策略性地运用“示弱”的力量，以及如何驾驭人际互动中的“三重现实”。本期节目为产品管理者提供了一套严谨的实战工具箱，旨在助力将人际关系从“交易型”向“卓越型”跃迁。"
 }

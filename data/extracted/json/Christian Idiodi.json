@@ -3,7 +3,8 @@
     "name": "Christian Idiodi",
     "title": "Partner",
     "company": "Silicon Valley Product Group (SVPG)",
-    "background": "A renowned product leader and coach who works alongside Marty Cagan. He has directed product strategy for over 205 products and is a leading expert in product transformation, coaching, and introducing product discipline to developing markets like Africa."
+    "background": "A renowned product leader and coach who works alongside Marty Cagan. He has directed product strategy for over 205 products and is a leading expert in product transformation, coaching, and introducing product discipline to developing markets like Africa.",
+    "background_zh": "享誉业界的知名产品领袖与教练，Marty Cagan 的亲密合作伙伴。他曾主导超过 205 款产品的战略规划，是企业产品化转型及教练辅导领域的权威专家，致力于将专业的产品管理体系引入非洲等新兴市场。"
   },
   "episodeSummary": "Christian Idiodi dismantles the common frustrations with product management, explaining why PMs are often disliked due to a lack of competence rather than the role itself. He details his 'Reference Customer' technique for guaranteeing product-market fit before launch and offers a masterclass on leadership coaching. The conversation covers how to build trust with executives, why promotions often lead to incompetence, and how to use 'practice arenas' to build skills.",
   "keyTakeaways": [
@@ -32,7 +33,20 @@
       "whenToUse": "When validating a new product idea or a major new feature set to ensure Product-Market Fit before scaling.",
       "commonMistakes": "Launching with only 1-2 happy customers (outlier risk), or accepting a polite 'yes' instead of a reputation-staking action (e.g., a public review).",
       "quote": "If I can't find 25 people that love steak, why in the world am I building a steakhouse? ... I have never had a product failure using this technique.",
-      "realWorldExample": "Christian built a staffing solution by physically driving to construction sites (McDonald's) and recruiting centers, manually finding workers for them, and iterating until the hiring managers at McDonald's and Starbucks were willing to refer him to others, generating $32M in sales in the first 90 days."
+      "realWorldExample": "Christian built a staffing solution by physically driving to construction sites (McDonald's) and recruiting centers, manually finding workers for them, and iterating until the hiring managers at McDonald's and Starbucks were willing to refer him to others, generating $32M in sales in the first 90 days.",
+      "summary_zh": "这是一套严谨的产品探索流程，通过与特定数量的早期采用者共创来打磨产品。只有当这些客户通过你的解决方案获得显著成功，并愿意以自身声誉为你背书时，才正式发布产品。",
+      "problemItSolves_zh": "避免开发出技术上功能完备，但因无人真正想要或喜爱，最终导致商业化失败的产品。",
+      "whenToUse_zh": "在规模化扩张前，验证新产品构想或重大功能集，以确保实现产品市场匹配。",
+      "commonMistakes_zh": "仅凭 1-2 个满意客户就贸然发布（存在孤例风险），或仅满足于客户礼貌性的口头认可，而非要求其做出押上信誉的实质行动（如公开背书）。",
+      "realWorldExample_zh": "Christian 打造了一款用工招聘解决方案。通过亲自跑遍建筑工地（如麦当劳）和招聘中心，他以人工方式为客户寻访工人，并持续迭代服务，直到麦当劳和星巴克的招聘经理愿意主动进行转介绍。这使他在首个 90 天内便实现了 3200 万美元的营收。",
+      "principles_zh": [
+        "招募足量用户：B2B 产品需锁定 6-8 家活跃合作伙伴，B2C 产品则需 15-25 位。",
+        "解决共性而非个性问题：所有标杆客户必须对**同一套**解决方案感到满意；切勿为单一客户进行定制化开发。",
+        "声誉测试：成功的定义是客户愿意毫不犹豫地公开为产品背书（如撰写评价、提供推荐证言）。",
+        "沉浸体验优于单纯访谈：别只提问；要与其并肩坐下，上手操作他们的工作，在真实场景中实地验证问题。",
+        "营销镜像原则：直接引用标杆客户描述产品的原话，将其作为你的营销文案。"
+      ],
+      "name_zh": "The Reference Customer Discovery Method（标杆客户探索法）"
     },
     {
       "name": "The 'Help Me, Teach Me' Trust Protocol",
@@ -48,7 +62,19 @@
       "whenToUse": "When joining a new company, taking over a new product area, or dealing with a stakeholder who is hostile toward Product Management.",
       "commonMistakes": "Trying to prove you are the expert immediately rather than first demonstrating deep curiosity and humility to learn the business.",
       "quote": "You're going to find the loudest, most influential person in your organization... and you're going to ask them to teach you. You're extending that person's trust to yourself.",
-      "realWorldExample": "Christian advises new PMs to approach a Head of Sales or Operations and ask to shadow them for a week, sitting quietly in meetings, which invariably leads the leader to introduce the PM to others, integrating them into the inner circle."
+      "realWorldExample": "Christian advises new PMs to approach a Head of Sales or Operations and ask to shadow them for a week, sitting quietly in meetings, which invariably leads the leader to introduce the PM to others, integrating them into the inner circle.",
+      "summary_zh": "这是一套通过撬动现有领导层影响力，从而快速积累社交资本的战术。它将 PM 试图强行树立威信的模式，转变为展现谦逊姿态与能力建设的过程。",
+      "problemItSolves_zh": "化解利益相关者及高管层对新任或资历尚浅产品经理普遍存在的质疑与不信任。",
+      "whenToUse_zh": "入职新公司、接手新产品线，或应对对产品管理持抵触态度的利益相关者时。",
+      "commonMistakes_zh": "急于自证专家身份，而非先展现出深入理解业务所需的强烈好奇心与谦逊态度。",
+      "realWorldExample_zh": "Christian 建议新 PM 主动联系销售或运营负责人，申请进行为期一周的跟岗，并在会议中保持安静旁听。这种做法往往能促使负责人主动将 PM 介绍给其他人，从而帮助其快速融入核心圈子。",
+      "principles_zh": [
+        "锁定权力核心：找出组织中话语权最重、影响力最大且备受信任的关键人物（通常是 VP 或销售负责人）。",
+        "提出“实习”请求：明确提出希望能以“实习生”身份跟岗（Shadow）学习业务，并充分表达对其专业权威的认可。",
+        "信任传递：通过频繁与这位核心领导同框出现，利用视觉效应将其积累的社会资本（Social Capital）转化为对你的背书。",
+        "责任共担：当你请教对方时，实际上是在构建一种隐性的责任绑定；为了证明自己是优秀的导师，他们自然会致力于助推你的成功。"
+      ],
+      "name_zh": "The 'Help Me, Teach Me' Trust Protocol（“求助与请教”信任协议）"
     },
     {
       "name": "The Pre-Promotion Practice Arena",
@@ -64,7 +90,19 @@
       "whenToUse": "When an IC (Individual Contributor) wants to move into management, or when a manager is grooming a successor.",
       "commonMistakes": "Promoting someone based on their IC performance (e.g., Engineer of the Year) without ever seeing them manage a human being or solve a people problem.",
       "quote": "The best place to learn how to be a VP is when you're not a VP... because when you're not in the job, you can make mistakes and nobody blames you.",
-      "realWorldExample": "Christian coached his kids' soccer team like a high-performance organization (video review, strategy) to practice coaching; he also advises PMs to volunteer at non-profits to practice collaborative problem solving."
+      "realWorldExample": "Christian coached his kids' soccer team like a high-performance organization (video review, strategy) to practice coaching; he also advises PMs to volunteer at non-profits to practice collaborative problem solving.",
+      "summary_zh": "这是一个将技能成长与职级头衔解耦的职业发展框架。它主张在正式晋升之前，先在低风险环境中演练领导力行为。",
+      "problemItSolves_zh": "旨在解决“彼得原理”困境：优秀的个人贡献者因在晋升管理岗前缺乏必要技能的实战演练，导致最终无法胜任。",
+      "whenToUse_zh": "当 IC（独立贡献者）寻求转型管理岗，或管理者正在培养继任者时。",
+      "commonMistakes_zh": "仅凭 IC 表现（如获得“年度最佳工程师”）就进行提拔，却从未验证过其带人管理或解决人员问题的能力。",
+      "realWorldExample_zh": "Christian 像管理高绩效组织一样执教他孩子的足球队（进行录像复盘、战术制定），以此磨练辅导技巧；他也建议 PM 去非营利组织做志愿者，在实战中锻炼协同解决问题的能力。",
+      "principles_zh": [
+        "**超前履职**：想要晋升总监或 VP，必须在现有岗位上提前履行“总监级职责”（制定战略、辅导团队、招募人才）。",
+        "**寻找低风险演练场**：利用志愿者活动、非营利组织或 Side Projects（例如执教儿童足球队）来磨练管理技能，避开核心业务营收的风险区。",
+        "**场边教练思维**：管理者必须定位为场边的教练——专注于观察实战并提供反馈，切忌亲自下场替员工“打比赛”。",
+        "**安全试错**：允许在晋升前的“演练期”犯错，此时错误的波及范围（Blast Radius）最小。"
+      ],
+      "name_zh": "The Pre-Promotion Practice Arena（晋升实战演练场）"
     }
   ],
   "notableQuotes": [
@@ -85,5 +123,6 @@
       "context": "Explaining why he prefers immersion and action over endless frameworks and theoretical discovery."
     }
   ],
-  "filename": "Christian Idiodi"
+  "filename": "Christian Idiodi",
+  "episodeSummary_zh": "Christian Idiodi 深度剖析了产品管理中的常见痛点，指出产品经理之所以常被诟病，往往源于个人能力不足，而非岗位本身的设置问题。他详细阐述了独创的“标杆客户（Reference Customer）”技法，旨在确保产品上线前即实现产品市场匹配，同时带来了一堂关于领导力辅导的大师级课程。此外，本次对谈还探讨了如何与高管层建立信任、为何晋升往往导致胜任力危机，以及如何利用“实战演练场”来打磨核心技能。"
 }

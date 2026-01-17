@@ -3,7 +3,8 @@
     "name": "Claire Butler",
     "title": "Senior Director of Marketing",
     "company": "Figma",
-    "background": "Claire was the 10th employee and first marketing hire at Figma, joining before the product launched. She has led Figma's bottom-up growth motion, community strategy, and go-to-market execution for over eight years, helping scale the company from stealth to a multi-billion dollar valuation."
+    "background": "Claire was the 10th employee and first marketing hire at Figma, joining before the product launched. She has led Figma's bottom-up growth motion, community strategy, and go-to-market execution for over eight years, helping scale the company from stealth to a multi-billion dollar valuation.",
+    "background_zh": "Claire 是 Figma 第 10 号员工及首位市场负责人，在产品正式上线前便已加入。过去八年间，她主导了 Figma 自下而上的增长体系、社区战略及 GTM 落地执行，助力公司完成了从隐身阶段到百亿级美金估值的跨越。"
   },
   "episodeSummary": "Claire Butler dissects Figma's legendary bottom-up go-to-market strategy, revealing how they ignored traditional marketing to build a product cult. She details the specific two-part framework of getting individual contributors to love the tool and then equipping them to spread it, while sharing tactical stories about manual user onboarding, the role of 'Designer Advocates' in sales, and how to execute community-led growth.",
   "keyTakeaways": [
@@ -31,7 +32,19 @@
       "whenToUse": "Best used by PLG (Product-Led Growth) companies targeting technical users (developers, designers, data scientists) who have high standards for tooling.",
       "commonMistakes": "Introducing sales gates too early or trying to market 'collaboration' benefits before the core single-player tool is best-in-class.",
       "quote": "Get ICs at a company to love you and then enable them to spread the product within the organization.",
-      "realWorldExample": "Figma realized their 'Starter Team' limit on collaborators was hurting viral growth, so they switched the limit to 'projects' instead, allowing unlimited people to collaborate for free, which fueled the spread within companies like Microsoft."
+      "realWorldExample": "Figma realized their 'Starter Team' limit on collaborators was hurting viral growth, so they switched the limit to 'projects' instead, allowing unlimited people to collaborate for free, which fueled the spread within companies like Microsoft.",
+      "summary_zh": "一种双阶段战略：首先专注于通过极致的匠心打磨与产品质量，让一线执行者（IC）真正爱上产品；随后赋能这些 IC 成为内部布道者，推动工具在组织内部实现病毒式扩散。",
+      "problemItSolves_zh": "解决在自上而下的销售策略失效或时机未到时，新产品渗透大型企业的难题。",
+      "whenToUse_zh": "最适用于面向技术型用户（开发者、设计师、数据科学家）的 PLG 公司，这类用户通常对工具品质有着极高的标准。",
+      "commonMistakes_zh": "过早设立销售门槛，或者在核心单人工具体验尚未达到极致之前，就试图以此营销“协作”价值。",
+      "realWorldExample_zh": "Figma 意识到其 'Starter Team' 对协作者人数的限制抑制了病毒式增长，因此将限制指标调整为“项目数”，允许无限用户免费协作。这一调整极大地推动了产品在 Microsoft 等企业内部的广泛传播。",
+      "principles_zh": [
+        "阶段 1（热爱）：建立技术公信力。产出尊重用户专业技艺的内容（拒绝堆砌热词），且这些内容通常应由核心开发者亲自撰写。",
+        "阶段 2（热爱）：深入用户已有的聚集地（如 Twitter, Reddit）收集反馈，切勿在初期就试图从零冷启动自己的私域社区。",
+        "阶段 3（传播）：消除使用阻力。开放无限量的免费查看/协作权限，确保产品在触达付费墙之前能实现病毒式扩散。",
+        "阶段 4（传播）：识别组织层面的具体卡点（如设计系统），围绕其构建高级功能，以此撬动客户从专业版（Pro）向企业版（Enterprise）升级。"
+      ],
+      "name_zh": "The 'Love-Then-Spread' GTM Motion（“先热爱，后扩散” GTM 模式）"
     },
     {
       "name": "The 'Tom Factor' Advocacy Model",
@@ -47,7 +60,19 @@
       "whenToUse": "When selling complex, technical B2B SaaS products where the buyer is a practitioner with a high 'bullshit detector.'",
       "commonMistakes": "Turning these advocates into quota-carrying sales reps, which destroys their neutrality and credibility.",
       "quote": "They called him the Tom Factor because he was so powerful, and their deals were so much more likely to close if he joined the calls.",
-      "realWorldExample": "Tom Lowry, an early Designer Advocate, would join sales calls not to sell, but to consult on workflows. Sales reps realized deals closed significantly faster when Tom was present, leading to the scaling of the entire Advocate team."
+      "realWorldExample": "Tom Lowry, an early Designer Advocate, would join sales calls not to sell, but to consult on workflows. Sales reps realized deals closed significantly faster when Tom was present, leading to the scaling of the entire Advocate team.",
+      "summary_zh": "一种招聘策略与组织架构模式：聘用深度用户或一线从业者担任“产品倡导者”（Advocates）。这些人员归属于市场部门，但深度介入销售沟通环节。他们的核心价值在于提供技术验证而非商业推销，同时构建起客户与产品团队之间的双向反馈闭环。",
+      "problemItSolves_zh": "弥合销售沟通中的信任鸿沟，解决传统客户经理因技术深度不足而无法说服专家级从业者的问题。",
+      "whenToUse_zh": "适用于销售高技术复杂度的 B2B SaaS 产品，特别是面对那些具备极高专业鉴别力、对营销话术“免疫”的一线实操型买家。",
+      "commonMistakes_zh": "将拥护者转化为背负销售指标的销售代表，这将破坏他们的中立性与公信力。",
+      "realWorldExample_zh": "Tom Lowry 是早期的设计布道师，他参与售前会议并非为了推销，而是提供工作流咨询。销售代表发现，只要有 Tom 在场，成单周期便显著缩短，这一洞察直接推动了整个布道师团队的规模化扩张。",
+      "principles_zh": [
+        "招聘应重热情与专业造诣，而非销售经验（如：招募设计师去对接设计师群体）。",
+        "安排产品倡导者以“中立”技术专家的身份介入销售沟通，负责化解顾虑并深度讲解工作流。",
+        "利用产品倡导者筛选并提炼来自一线的产品反馈，向工程团队回传，充当“高保真信号过滤器”。",
+        "以社区信任度及对签单的助攻效果与周转速度来衡量产出，而非个人的销售背标。"
+      ],
+      "name_zh": "The 'Tom Factor' Advocacy Model（“Tom 因子”拥护度模型）"
     },
     {
       "name": "The 'Little Big Updates' Framework",
@@ -63,7 +88,19 @@
       "whenToUse": "When a product has reached a level of maturity where 'paper cuts' (minor UX issues) are starting to erode user sentiment, or during gaps between major feature releases.",
       "commonMistakes": "Treating bug fixes as silent maintenance work rather than a marketing opportunity to demonstrate customer obsession.",
       "quote": "We realized there's a problem... we'd fix it. And telling people 'Oh, we fixed this' made them feel more ownership of the tool too.",
-      "realWorldExample": "Figma aggregates small quality-of-life improvements (like saving one click in a workflow) into an annual 'Little Big Updates' launch, which often receives more praise than their major feature releases."
+      "realWorldExample": "Figma aggregates small quality-of-life improvements (like saving one click in a workflow) into an annual 'Little Big Updates' launch, which often receives more praise than their major feature releases.",
+      "summary_zh": "一种周期性发布策略：团队设立专项“质量周”，集中修复数十个细微的体验槽点、Bug 及工作流摩擦，随后将这些改进打包，策划成一次具有仪式感的营销发布大事件。",
+      "problemItSolves_zh": "旨在调和“为了驱动增长而发布亮眼新功能”与“防止技术债及用户反感累积”之间的张力。",
+      "whenToUse_zh": "当产品达到一定成熟度，细微的体验瑕疵开始侵蚀用户好感，或者处于重大功能发布之间的空窗期。",
+      "commonMistakes_zh": "将 Bug 修复仅视作默默无闻的维护工作，而非将其转化为展现“客户痴迷”精神的营销契机。",
+      "realWorldExample_zh": "Figma 将各类细微的体验优化（例如在工作流中减少一次点击）打包整合成年度的 \"Little Big Updates\" 统一发布，这种做法往往比重大功能迭代赢得了更好的用户口碑。",
+      "principles_zh": [
+        "划定专门的研发周期（Quality Weeks），全职投入非功能性工作。",
+        "直接从社交媒体的用户吐槽和客服工单中挖掘待修复项。",
+        "将 30-50 个微小修补打包成一次正式的版本宣发，切忌零散地静默上线。",
+        "在更新日志中公开致谢反馈 Bug 的具体用户，以此构建社区亲密感。"
+      ],
+      "name_zh": "The 'Little Big Updates' Framework（“小更新，大影响”框架）"
     },
     {
       "name": "The Social Graph Scraper Method",
@@ -80,7 +117,20 @@
       "whenToUse": "During the Stealth or Beta phase when you need high-quality feedback and early evangelists but lack a marketing budget.",
       "commonMistakes": "Using the identified leads for cold sales pitches instead of genuine product feedback requests.",
       "quote": "Dylan built this tool... where he identified a couple influencers... and figured out who followed them... and made this massive node graph of these pockets of different topics of design.",
-      "realWorldExample": "Dylan Field (CEO) wrote a script to scrape Twitter connections of design leaders to map out clusters (e.g., iconographers, PMs). They then targeted specific influencers in those clusters for feedback, which kickstarted their community."
+      "realWorldExample": "Dylan Field (CEO) wrote a script to scrape Twitter connections of design leaders to map out clusters (e.g., iconographers, PMs). They then targeted specific influencers in those clusters for feedback, which kickstarted their community.",
+      "summary_zh": "一种产品上线前的低成本战术，通过梳理目标行业的社交图谱来识别影响力集群，进而对这些关键节点进行精准触达以获取反馈（而非推销）。",
+      "problemItSolves_zh": "帮助早期初创公司在零品牌认知度阶段，精准锁定获取反馈与建立影响力的目标人群。",
+      "whenToUse_zh": "处于隐身开发或 Beta 测试阶段，亟需获取高质量反馈和早期布道者，但缺乏营销预算。",
+      "commonMistakes_zh": "将筛选出的线索用于直接冷推销，而非真诚地寻求产品反馈。",
+      "realWorldExample_zh": "Dylan Field (CEO) 编写脚本爬取了设计领袖的 Twitter 社交关系，以此绘制出细分圈层图谱（例如图标设计师、PM）。随后，团队精准触达这些圈层中的关键影响力人物邀约反馈，成功实现了社区的冷启动。",
+      "principles_zh": [
+        "绘制生态图谱：识别你所在赛道中最顶尖的 5-10 位意见领袖。",
+        "抓取并分析关系链：构建关注关系的可视化图谱，以识别不同的“用户圈层”（例如：图标设计师与 UI 设计师的区分）。",
+        "锚定关键节点：私信特定圈层中具有影响力的连接者，诚恳地征求产品反馈。",
+        "撬动社交图谱：利用反馈闭环构建网络效应，促使有影响力的用户向其粉丝背书你的工具。",
+        "可视化扩张路径：利用内部工具追踪产品使用行为如何在企业内部从单一用户节点向其他节点渗透。"
+      ],
+      "name_zh": "The Social Graph Scraper Method（社交图谱抓取方法论）"
     }
   ],
   "notableQuotes": [
@@ -101,5 +151,6 @@
       "context": "When their very first user (Coda) couldn't open a file, the CEO drove an engineer to the user's office to debug a laptop issue personally."
     }
   ],
-  "filename": "Claire Butler"
+  "filename": "Claire Butler",
+  "episodeSummary_zh": "Claire Butler 深度拆解了 Figma 充满传奇色彩的“自下而上” GTM 策略，揭示了他们如何摒弃传统营销路径，从而建立起近乎信仰的产品崇拜。她详细阐述了一套具体的“两步走”框架：首先让 IC（个人贡献者）成为产品的狂热粉丝，进而赋能他们进行自发传播。此外，她还分享了关于“人肉”引导用户 Onboarding、“设计师布道师”如何介入销售环节，以及如何落地社区驱动增长的实战战术。"
 }

@@ -3,7 +3,8 @@
     "name": "Bob Baxley",
     "title": "Designer, Executive, Advisor",
     "company": "Formerly Apple, Pinterest, Yahoo, ThoughtSpot",
-    "background": "Design leader who played a pivotal role in the Apple Online Store, App Store, Pinterest, and Yahoo Answers. Known for applying 'Silicon Valley' design thinking to enterprise software and advocating for design as a moral obligation."
+    "background": "Design leader who played a pivotal role in the Apple Online Store, App Store, Pinterest, and Yahoo Answers. Known for applying 'Silicon Valley' design thinking to enterprise software and advocating for design as a moral obligation.",
+    "background_zh": "资深设计领袖，曾在苹果在线商店、App Store、Pinterest 和雅虎问答（Yahoo Answers）的核心产品工作中发挥关键作用。他以将“硅谷式”设计思维引入企业级软件领域，并倡导“设计即道德责任”的理念而著称。"
   },
   "episodeSummary": "Bob Baxley discusses the evolution of design, arguing that software is a powerful medium akin to film or music that carries a moral obligation to respect user emotion. He challenges standard startup wisdom by advocating for design to report to engineering, delaying high-fidelity prototyping to avoid the 'Primal Mark' bias, and replacing generic design principles with opinionated 'Tenets' that drive hard decision-making.",
   "methodologies": [
@@ -31,7 +32,19 @@
           "Codify as Tenet: Write it as a rule (e.g., 'Opt-in to Complexity') to stop future debate.",
           "Choreograph Execution: Use the Tenet as a constraint for all future design/eng decisions."
         ]
-      }
+      },
+      "summary_zh": "这套框架主张用观点鲜明、强制取舍的“信条”，去替代那些四平八稳、毫无争议的通用“原则”（如“简单”或“快”）。该方法能将组织内部反复出现的争论，转化为既定的二元决策，从而显著提升未来的执行效率。",
+      "problemItSolves_zh": "消除因那些“正确的废话”所导致的循环争论和模糊地带。这些原则虽无人反对，却无法为决策提供实质性指导。",
+      "whenToUse_zh": "当团队在相同的权衡取舍（例如：灵活性 vs. 简洁性）上陷入反复拉锯，或者产品缺乏鲜明的主张时。",
+      "commonMistakes_zh": "制定的是永远正确的“原则”（如“简单易用”），而非具有鲜明立场的“信条”（如“依赖文档即失败”）。",
+      "realWorldExample_zh": "ThoughtSpot 的原则：\n1. 需查阅文档即代表失败\n2. 极简起步，由用户主动选择复杂功能\n3. 视觉与体验浑然一体，宛如出自一人之手",
+      "principles_zh": [
+        "识别团队反复纠结、导致停滞的争议点",
+        "做出果断且鲜明的取舍（A 优于 B）",
+        "将决策固化为原则，杜绝反复拉锯",
+        "确保原则易于记忆（控制在 3-4 条以内）"
+      ],
+      "name_zh": "The Decision-Driving Tenets Framework（决策驱动信条框架）"
     },
     {
       "name": "The 'Primal Mark' Protocol",
@@ -64,7 +77,19 @@
             "description": "High-Fidelity UI/Code. Rapid execution of the agreed concept. The 'Primal Mark' is finally made."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一套旨在尽可能推迟高保真视觉呈现的协议。其核心基于一种艺术理念：画布上的第一笔（即“原始印记”）往往会锚定随后的所有决策。通过在“低保真”状态（如文字或色块）停留更长时间，团队可以在被具体的视觉实现方案“锁定”之前，充分探索更多元化的创意方向。",
+      "problemItSolves_zh": "防止团队过早锚定首个视觉方案（这在 GenAI 原型设计中尤为危险），并避免将高保真的视觉打磨误判为问题已实质解决。",
+      "whenToUse_zh": "处于功能开发或新产品创新的早期阶段，核心概念尚显脆弱之时。",
+      "commonMistakes_zh": "直接上手 Figma 或 AI 原型工具去“看效果”，从而扼杀了概念层面的发散性思维。",
+      "realWorldExample_zh": "在 ThoughtSpot，团队利用“方块脑图”耗时数周进行逻辑对齐。一旦方案锁定，外部代理商仅用一天便输出了高保真 UI。",
+      "principles_zh": [
+        "尽可能推迟高保真原型的绘制",
+        "优先通过文字（脚本）界定问题",
+        "在 UI 设计前，先使用“功能区块图”（概念布局）",
+        "计算机无法容忍歧义；务必在编码前消除逻辑模糊"
+      ],
+      "name_zh": "The 'Primal Mark' Protocol（“原初印记”协议）"
     },
     {
       "name": "The 'Software as a Medium' Model",
@@ -89,8 +114,21 @@
           "The Utility (Bottom): Functional Capabilities (Code & Features)"
         ],
         "label": "Hierarchy of Software Value"
-      }
+      },
+      "summary_zh": "这是一种将软件重新定义为能够引发情感共鸣的“媒介形式”（类似于电影或音乐），而非单纯实用工具的心智模型。该模型主张，产品构建者肩负着一种道德责任，即妥善管理用户在与产品交互过程中所消耗的情感能量。",
+      "problemItSolves_zh": "通过将创作者的思维模式从“工具属性”转向“情感连接”，将机械、令人受挫的产品重塑为具有情感共鸣的体验。",
+      "whenToUse_zh": "在制定产品愿景时，或当团队陷入“唯指标论”而忽视了真实用户体验时。",
+      "commonMistakes_zh": "将软件仅仅视为一种工具（如锤子），而非一种能创造情绪状态的媒介（如电影）。",
+      "realWorldExample_zh": "阿波罗计划（登月）与常规航空的对比；以“惊叹与奇迹”的视角审视软件，而非局限于“任务执行”。",
+      "principles_zh": [
+        "软件是连接创作者与用户的匿名媒介",
+        "每次交互都会消耗或积蓄情感能量",
+        "创作者必须有意识地设计特定的情绪反应",
+        "聚焦于那位正在使用你工具的“俄亥俄州老奶奶”"
+      ],
+      "name_zh": "The 'Software as a Medium' Model（“软件即媒介”模型）"
     }
   ],
-  "filename": "Bob Baxley"
+  "filename": "Bob Baxley",
+  "episodeSummary_zh": "Bob Baxley 探讨了设计的演进，他主张软件是如同电影或音乐般强大的媒介，肩负着尊重用户情感的道德责任。他对初创圈的主流认知提出挑战，主张设计团队应向工程团队汇报，提倡延后高保真原型的制作以规避“初始印记（Primal Mark）”偏差，并建议用立场鲜明的“信条”取代泛泛而谈的设计原则，以此驱动关键决策。"
 }

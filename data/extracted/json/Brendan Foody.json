@@ -3,7 +3,8 @@
     "name": "Brendan Foody",
     "title": "CEO and Co-founder",
     "company": "Mercor",
-    "background": "Youngest unicorn founder, scaled Mercor from $1M to $400M ARR in 16 months, pioneered AI-driven hiring for AI labs."
+    "background": "Youngest unicorn founder, scaled Mercor from $1M to $400M ARR in 16 months, pioneered AI-driven hiring for AI labs.",
+    "background_zh": "最年轻的独角兽创始人，16 个月内带领 Mercor 实现 ARR 从 100 万美元至 4 亿美元的增长，开创了面向 AI 实验室的 AI 驱动招聘模式。"
   },
   "episodeSummary": "Brendan Foody discusses the explosive growth of Mercor and the transition of the AI industry into the 'Era of Evals.' He explains how labor markets are shifting from crowdsourced low-skill tasks to high-skill expert reinforcement learning, outlines the 'elasticity' of future careers, and shares the aggressive execution principles that allowed Mercor to become the fastest-growing company in history.",
   "methodologies": [
@@ -31,7 +32,19 @@
           "Reinforcement Learning (Update Model)",
           "Iterate/Raise Bar"
         ]
-      }
+      },
+      "summary_zh": "一套构建 AI 产品的循环框架，其核心在于将评估指标（Eval）作为产品需求文档（PRD）。区别于传统的功能交付模式，该产品闭环专注于定义成功标准，并利用强化学习不断提升指标表现。",
+      "problemItSolves_zh": "解决了当依赖人工直觉判断过于缓慢或难以规模化时，无法有效评估与提升模型能力的瓶颈。",
+      "whenToUse_zh": "适用于构建 AI 原生产品或集成 LLM 能力，且需要对输出质量进行持续、系统性调优的场景。",
+      "commonMistakes_zh": "单纯依赖“体感”，而非严谨、可量化的评估集。",
+      "realWorldExample_zh": "某 AI 实验室针对法律合同制定了“完美修订（Redline）”的评估准则，并持续开展实验，直到模型能够稳定达到该准则的评分要求。",
+      "principles_zh": [
+        "模型即产品，Eval 即 PRD。",
+        "成功的衡量标准在于自动化验证，而非仅凭“体感”。",
+        "强化学习（RL）驱动评测指标的攀升。",
+        "数据重心从预训练的规模转向后训练的质量。"
+      ],
+      "name_zh": "The Eval-Driven Product Cycle（评估驱动的产品周期）"
     },
     {
       "name": "The Market Shear Discovery Process",
@@ -56,7 +69,19 @@
           "Secure Flagship Validation (Sell the Vision)",
           "Execute with Intensity (Scale into the Gap)"
         ]
-      }
+      },
+      "summary_zh": "这套流程旨在通过寻找“市场剪切点”（Market Shears）来发掘爆发式增长机会——即因技术演进速度远超既有巨头适应能力而产生的市场缺口。其核心在于识别领先指标、定位市场真空，并以极致的执行力快速落地。",
+      "problemItSolves_zh": "帮助创始人避开拥挤的存量市场，识别能带来历史性增长的“Why Now”机会。",
+      "whenToUse_zh": "处于产品构思阶段，或初创公司寻求转型（Pivot）以发掘巨大的、未被满足的市场空白时。",
+      "commonMistakes_zh": "试图在存量市场通过微小改良进行竞争，而非挖掘全新的市场空白。",
+      "realWorldExample_zh": "Mercor 洞察到 AI 实验室在 RLHF 环节急需高端专家（如律师、程序员），而既有的市场玩家却仍停留在售卖低端众包人力的阶段。",
+      "principles_zh": [
+        "忽略停滞不前的既有玩家，寻找市场空白。",
+        "在快速变化的市场中识别先行指标。",
+        "利用标杆客户（预算最充足或需求最迫切）进行验证。",
+        "凭借极致的意志与速度，强力达成产品市场匹配。"
+      ],
+      "name_zh": "The Market Shear Discovery Process（市场剪切探索流程）"
     },
     {
       "name": "The Elasticity Career Matrix",
@@ -95,8 +120,21 @@
             "description": "Low Leverage / Low Elasticity. Hard to automate, but low growth."
           }
         ]
-      }
+      },
+      "summary_zh": "这是一套基于工作产出的需求弹性，用于预测 AI 时代职业存续与繁荣潜力的决策框架。核心观点在于：若生产力提升能带动消费需求增长（即具备弹性），该职业处于安全区；反之，需求总量固定的职业则面临风险。",
+      "problemItSolves_zh": "帮助个人决策技能学习方向与行业赛道选择，避免被 AI 自动化替代。",
+      "whenToUse_zh": "当进行职业转型、选择大学专业，或是决策技能进阶方向时。",
+      "commonMistakes_zh": "假设所有知识型工作都会被同等程度取代，而非区分“有限需求”与“无限需求”领域的差异。",
+      "realWorldExample_zh": "会计（缺乏弹性/风险）：世界只需要一定数量的纳税申报单。\n软件工程（高弹性/安全）：如果编码成本降低 10 倍，我们将构建 100 倍规模的软件。",
+      "principles_zh": [
+        "生产力 × 弹性 = 职业成长。",
+        "规避需求固定的领域（无弹性）。",
+        "拥抱那些成本降低能激发无限需求的领域（高弹性）。",
+        "利用 AI 作为杠杆，提升个人产出效能。"
+      ],
+      "name_zh": "The Elasticity Career Matrix（弹性职业矩阵）"
     }
   ],
-  "filename": "Brendan Foody"
+  "filename": "Brendan Foody",
+  "episodeSummary_zh": "Brendan Foody 复盘了 Mercor 的爆发式增长，并指出 AI 行业正迈入“评测时代”（Era of Evals）。他深入阐述了劳动力市场正从低技能众包任务向高技能专家强化学习迁移的趋势，描绘了未来职业发展的“弹性”，并分享了助力 Mercor 缔造史上最快增长纪录的激进执行法则。"
 }

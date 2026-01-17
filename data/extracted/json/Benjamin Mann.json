@@ -3,7 +3,8 @@
     "name": "Benjamin Mann",
     "title": "Co-founder",
     "company": "Anthropic",
-    "background": "Former architect of GPT-3 at OpenAI; currently serves as tech lead for product engineering at Anthropic, focusing on aligning AI to be helpful, harmless, and honest."
+    "background": "Former architect of GPT-3 at OpenAI; currently serves as tech lead for product engineering at Anthropic, focusing on aligning AI to be helpful, harmless, and honest.",
+    "background_zh": "曾任 OpenAI GPT-3 架构师；现任 Anthropic 产品工程技术负责人，专注于 AI 对齐（Alignment），致力于打造有益、无害且诚实的人工智能。"
   },
   "episodeSummary": "Benjamin Mann discusses the trajectory of AI development, predicting a 50% chance of superintelligence by 2028. He details Anthropic's departure from OpenAI due to safety concerns, the mechanics of Constitutional AI (RLAIF), and how to build products for exponential technologies. He also introduces the 'Economic Turing Test' as a metric for AGI and offers advice on future-proofing careers.",
   "methodologies": [
@@ -30,7 +31,19 @@
           "Forecast 6-12 Month Trajectory",
           "Build UX for '100% Success' State"
         ]
-      }
+      },
+      "summary_zh": "这是一种面向极速演进领域的产品研发战略框架。团队不应局限于基于当前的模型能力构建产品，而应通过研判指数级演进规律，锚定未来 6-12 个月的能力边界，并基于该未来状态进行产品架构——即便当前的技术成功率尚不理想。",
+      "problemItSolves_zh": "避免团队开发出上线即过时的产品，或未能撬动即将到来的智能飞跃。",
+      "whenToUse_zh": "当基于能力频繁翻倍且飞速迭代的底层技术（如 LLM）构建软件时。",
+      "commonMistakes_zh": "以旧思维使用新工具（例如：将具备自主能力的编程 Agent 仅视作代码补全工具）；Prompt 尝试失败一次即放弃。",
+      "realWorldExample_zh": "Anthropic 在打造 'Claude Code' 时基于这一核心假设：用户将从 IDE 迁移至终端，即便当时模型的能力尚未达到完美状态。",
+      "principles_zh": [
+        "内化指数思维；在到达曲线拐点之前，进展往往看似平缓。",
+        "不要受限于当前的模型局限性来构建产品。",
+        "识别当前成功率仅 20% 的能力；预设其很快将达到 100% 的可用性。",
+        "基于未来的能力形态来设计产品体验。"
+      ],
+      "name_zh": "The Exponential Puck Framework（指数型冰球框架）"
     },
     {
       "name": "Constitutional Product Alignment",
@@ -57,7 +70,20 @@
           "Self-Critique & Rewrite",
           "Final Aligned Output"
         ]
-      }
+      },
+      "summary_zh": "这是一种利用 RLAIF（基于 AI 反馈的强化学习）而非人工反馈来实现 AI 行为对齐的方法论。其核心机制是将一套价值“宪法”（例如《联合国人权宣言》）植入模型底层，赋予模型自我审查与重写回复的能力，从而确保输出的安全性与人设一致性。",
+      "problemItSolves_zh": "解决 RLHF（人类反馈强化学习）的规模化瓶颈，确保模型兼具“有用、无害、诚实”的特性，并规避“讨好倾向”（即避免单纯迎合用户想听的内容）。",
+      "whenToUse_zh": "当大模型训练面临人工标注效率低下或一致性不足的挑战，或需定义特定的 Agent 人设与价值观时。",
+      "commonMistakes_zh": "单纯依赖用户参与度指标（一味迎合），而非基于原则的对齐。",
+      "realWorldExample_zh": "Claude 基于底层价值观拒绝协助制造生物武器，同时保持礼貌并阐释原因。",
+      "principles_zh": [
+        "定义自然语言原则（即“宪法”）。",
+        "将人工移出即时反馈闭环（实现规模化）。",
+        "模型生成初始回复。",
+        "模型依据原则对回复进行自我批判。",
+        "模型视情况重写回复。"
+      ],
+      "name_zh": "Constitutional Product Alignment（宪章级产品对齐）"
     },
     {
       "name": "The Economic Turing Test",
@@ -82,8 +108,21 @@
           "Employer decides to 'hire' based on merit",
           "Verify: Agent was a machine (Pass/Fail)"
         ]
-      }
+      },
+      "summary_zh": "这是一种识别变革性 AI（或 AGI）的务实定义。它不纠结于哲学层面的“感知力”，而是考察 AI 智能体能否在特定的经济角色中，长期且具竞争力地替代人类。",
+      "problemItSolves_zh": "为 AGI 确立了具体且可量化的基准，使其不再局限于对“通用智能”的模糊定义，而是聚焦于实质性的经济影响。",
+      "whenToUse_zh": "用于评估 AI Agent 在劳动力部署方面的成熟度，或预测宏观经济趋势时。",
+      "commonMistakes_zh": "仅基于短期、孤立的任务评估 AI，而非考察其在长周期内的持续岗位表现。",
+      "realWorldExample_zh": "聘请远程外包人员进行数据录入或代码开发，交付质量极其出色，结果发现对方竟是一个自主智能体。",
+      "principles_zh": [
+        "签约智能体（Agent）承担特定周期的工作任务（1-3 个月）。",
+        "依据人类标准对其工作表现进行盲测评估。",
+        "若雇主做出录用决策，且事后才察觉对方是机器，即视为通过测试。",
+        "将此模式扩展至“一篮子”典型职位类别，以衡量宏观层面的经济变革。"
+      ],
+      "name_zh": "The Economic Turing Test（经济图灵测试）"
     }
   ],
-  "filename": "Benjamin Mann"
+  "filename": "Benjamin Mann",
+  "episodeSummary_zh": "Benjamin Mann 深入探讨了 AI 技术的发展轨迹，并预测到 2028 年实现超级智能的概率为 50%。他详细复盘了 Anthropic 因安全理念分歧从 OpenAI 独立的过程，解析了 Constitutional AI (RLAIF) 的底层机制，并分享了针对指数级增长技术打造产品的方法论。此外，他还引入了“经济图灵测试”作为评估 AGI 的关键指标，并就如何制定面向未来的职业战略提供了建议。"
 }

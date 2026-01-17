@@ -3,7 +3,8 @@
     "name": "Camille Hearst",
     "title": "Head of Fan Monetization",
     "company": "Spotify",
-    "background": "A veteran product leader with deep expertise in the creator economy and media. She previously served as Head of Product for Creators at Patreon, Product Marketing Manager at YouTube and iTunes (Apple), and founded the startup Kit (acquired by Patreon)."
+    "background": "A veteran product leader with deep expertise in the creator economy and media. She previously served as Head of Product for Creators at Patreon, Product Marketing Manager at YouTube and iTunes (Apple), and founded the startup Kit (acquired by Patreon).",
+    "background_zh": "资深产品专家，深耕创作者经济与媒体领域。曾任 Patreon 创作者产品负责人，YouTube 及 iTunes (Apple) 产品营销经理，并创立了初创公司 Kit（后被 Patreon 收购）。"
   },
   "episodeSummary": "Camille Hearst breaks down the evolution of the creator economy, drawing from her experiences at Spotify, Patreon, and Apple. She contrasts the 'Apple Way' of narrative-led product development with traditional product management and offers deep insights into building two-sided marketplaces. The conversation covers actionable strategies for solving supply-side marketplace challenges, preparing startups for acquisition, and frameworks for de-risking high-stakes product innovation.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When launching a new marketplace vertical or when seeing high bounce rates on a platform due to lack of inventory/service availability.",
       "commonMistakes": "Spending marketing budget to drive demand before the supply side has reached critical mass or liquidity.",
       "quote": "I actually just think they're two-sided and you start with the supply... It doesn't matter how nice the user experience is... if when someone opens that app, there are no cars available.",
-      "realWorldExample": "Camille's experience at Hailo (Uber competitor), where they realized a beautiful app was useless without the operational groundwork to ensure taxi drivers were active and available in the US market."
+      "realWorldExample": "Camille's experience at Hailo (Uber competitor), where they realized a beautiful app was useless without the operational groundwork to ensure taxi drivers were active and available in the US market.",
+      "summary_zh": "该策略不再单纯将供给端视为一个用户分层，而是将其确立为业务的运营基石。其核心主张在于：若不通过卓越运营和痛点解决优先保障供给流动性（可用性），任何需求侧的获客都将是徒劳。",
+      "problemItSolves_zh": "解决双边市场中经典的“鸡蛋难题”：产品团队往往过度聚焦于用户体验（需求侧），却忽视了支撑业务跑通所必需的库存（供给侧）积累。",
+      "whenToUse_zh": "启动新的平台垂类业务时，或当平台因库存/服务供给不足导致高跳出率时。",
+      "commonMistakes_zh": "在供给端尚未达到临界规模或具备流动性之前，便投入营销预算拉动需求。",
+      "realWorldExample_zh": "Camille 在 Hailo（Uber 竞对）的经验表明：若缺乏扎实的运营基建来保障美国市场的司机活跃度与运力供给，再精美的 App 也毫无价值。",
+      "principles_zh": [
+        "供给先行原则：在打磨 C 端界面之前，优先确保供给端的零摩擦交付（如车辆运力、曲库资源），保证供给的充裕度。",
+        "解决运营痛点：通过开发税务、支付、保险等经营管理工具赋能供给端，实现平台对商家的深度绑定。",
+        "防范流失风险：必须明确，相比需求端的操作摩擦，供给端的履约失败（如无车可用）对品牌信任度的损害更为致命。",
+        "打造垂类工具：构建垂直领域的专用工具降低供给端的生产成本，以此撬动更高的产出频次。"
+      ],
+      "name_zh": "The Supply-Anchored Marketplace Strategy（供给锚定平台战略）"
     },
     {
       "name": "The Narrative-Led Development Model",
@@ -46,7 +59,19 @@
       "whenToUse": "When building consumer-facing products where brand perception, launch hype, and emotional resonance are critical to adoption.",
       "commonMistakes": "Letting engineering constraints dictate the narrative, rather than having the narrative force engineering breakthroughs.",
       "quote": "We would think months ahead of time, like what's the anchor story... That was what framed what features you wanted to build and what problems you would put on the table to be solved.",
-      "realWorldExample": "At Apple, Camille managed the 'press room' setups where the iTunes library was manually curated to match Steve Jobs' personal taste for demos, ensuring the product narrative (magic, simplicity) was perfectly executed during the presentation."
+      "realWorldExample": "At Apple, Camille managed the 'press room' setups where the iTunes library was manually curated to match Steve Jobs' personal taste for demos, ensuring the product narrative (magic, simplicity) was perfectly executed during the presentation.",
+      "summary_zh": "源于“苹果之道”，该方法论不再依赖传统的指标导向型 PM，而是确立了产品营销（叙事）、设计（体验）与工程（执行）的协作关系。产品路线图的制定，完全由发布时的核心传播故事倒推而来。",
+      "problemItSolves_zh": "通过将研发全流程对齐至单一且极具感召力的用户故事，规避功能蔓延与产品发布体验的割裂。",
+      "whenToUse_zh": "适用于构建 ToC 产品，特别是当品牌感知、首发声量和情感共鸣是决定用户采纳的关键因素时。",
+      "commonMistakes_zh": "让工程限制主导叙事，而非利用叙事倒逼技术突破。",
+      "realWorldExample_zh": "在苹果任职期间，Camille 负责管理“媒体室”的配置工作。她需要针对演示环节，人工精选 iTunes 资料库内容以契合乔布斯的个人品味，从而确保产品叙事（魔力与极简）在发布会期间得到完美呈现。",
+      "principles_zh": [
+        "**确立锚点故事（Anchor Story）**：在产品开发启动数月前，先行撰写核心营销卖点与新闻通稿。",
+        "**演示即文档（The Demo is the Spec）**：聚焦开发资源，极致打磨面向公众或利益相关者展示的“高光演示流程”（参考乔布斯的演示素材库）。",
+        "**产研主导匠心**：剔除“中间商”式的战略空谈者，让一线创作者决定如何最佳地将产品叙事落地。",
+        "**人工精选内容**：针对内容型产品，通过人工筛选初始内容库，确保用户的第一印象与顶层叙事完美契合。"
+      ],
+      "name_zh": "The Narrative-Led Development Model（叙事驱动开发模型）"
     },
     {
       "name": "The Risk-First Discovery Protocol",
@@ -62,7 +87,19 @@
       "whenToUse": "When a team is stuck in incrementalism or when leadership is demanding innovation but the team is afraid of failure.",
       "commonMistakes": "Using the discovery track only for small usability tweaks rather than testing fundamental value propositions.",
       "quote": "Taking the things in the top, the biggest swing, and actually prioritizing those first in terms of product discovery... if you constantly put those off... how are you ever going to truly innovate?",
-      "realWorldExample": "Camille applied this at Hailo and subsequent roles to move beyond safe feature iterations and test major new business lines without disrupting the core engineering roadmap."
+      "realWorldExample": "Camille applied this at Hailo and subsequent roles to move beyond safe feature iterations and test major new business lines without disrupting the core engineering roadmap.",
+      "summary_zh": "双轨敏捷（Dual Track Agile）的改良版，专门瞄准探索轨中的“关键重注”（Big Swings）。它不追求项目组合的均衡，而是将探索轨完全用于在第一时间对那些最具野心、且失败率极高的构想进行去风险化。",
+      "problemItSolves_zh": "规避产品团队倾向于优先摘取“低垂的果实”，却将关乎产品生死的风险延后处理，直至为时已晚。",
+      "whenToUse_zh": "当团队陷入渐进式优化的瓶颈，或面对管理层要求创新、但团队因畏惧失败而不敢突破时。",
+      "commonMistakes_zh": "仅将探索流程用于细微的易用性调整，而非验证核心价值主张。",
+      "realWorldExample_zh": "Camille 在 Hailo 及后续工作中应用了该方法，从而跳出了保守的功能迭代模式，在不干扰核心研发路线图的前提下，对重大新业务线展开验证。",
+      "principles_zh": [
+        "**双轨并行机制**：将产品探索（明确做什么）与产品交付（实现怎么做）视为同步进行且持续迭代的双循环过程。",
+        "**基于风险量级定优先级**：利用「影响力-风险」矩阵筛选创意，果断锁定「高风险/高影响力」的项目，优先启动探索验证。",
+        "**前置去风险化**：在编写生产代码之前，优先验证那些可能导致商业模式崩溃的致命假设。",
+        "**建立试错许可**：明确将探索环节定义为“安全试错区”，只要能规避后续研发资源的浪费，探索阶段的“失败”即被视为一种成功的产出。"
+      ],
+      "name_zh": "The Risk-First Discovery Protocol（风险优先发现协议）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Sharing the lore regarding Steve Jobs' elevator test, illustrating the high-stakes culture of excellence at Apple."
     }
   ],
-  "filename": "Camille Hearst"
+  "filename": "Camille Hearst",
+  "episodeSummary_zh": "Camille Hearst 结合她在 Spotify、Patreon 和 Apple 的实战经验，深度剖析了创作者经济的演变历程。她对比了叙事驱动的“苹果模式”与传统产品管理方法的异同，并分享了构建双边市场的深刻见解。本期内容涵盖了解决市场供给侧难题的实操策略、初创企业如何为并购做准备，以及针对高风险产品创新的去风险化框架。"
 }

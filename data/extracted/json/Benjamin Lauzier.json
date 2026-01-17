@@ -3,7 +3,8 @@
     "name": "Benjamin Mann",
     "title": "Co-founder",
     "company": "Anthropic",
-    "background": "Former architect of GPT-3 at OpenAI, now leads product engineering and safety alignment at Anthropic."
+    "background": "Former architect of GPT-3 at OpenAI, now leads product engineering and safety alignment at Anthropic.",
+    "background_zh": "曾任 OpenAI GPT-3 架构师，现于 Anthropic 负责产品工程与安全对齐。"
   },
   "episodeSummary": "Benjamin Mann discusses the trajectory of AI development towards superintelligence by 2027-2028, the critical importance of AI safety, and Anthropic's unique approach to alignment. He details the implementation of Constitutional AI, the Responsible Scaling Policy (ASL levels), and the 'Resting in Motion' mindset for navigating high-stakes work.",
   "methodologies": [
@@ -31,7 +32,19 @@
           "Model Rewrites Response",
           "Fine-Tune on Revised Data"
         ]
-      }
+      },
+      "summary_zh": "一种 AI 模型对齐方法，通过 AI 反馈（RLAIF）训练模型遵循一套自然语言原则（即“宪法”），而非单纯依赖人工标注。",
+      "problemItSolves_zh": "摆脱对海量人工的依赖，实现安全对齐的规模化；规避 AI 因曲解人类意图而产生的“猴爪”陷阱。",
+      "whenToUse_zh": "在训练大语言模型 (LLM) 时，确保其遵循复杂的人类价值观与安全准则。",
+      "commonMistakes_zh": "过度依赖简单的用户反馈（RLHF）会导致模型产生讨好倾向；未能定义明确的价值准则。",
+      "realWorldExample_zh": "Anthropic 采用该方法训练 Claude，其中融合了《联合国人权宣言》及其他来源的原则。",
+      "principles_zh": [
+        "定义原则：确立一套基于价值观的“宪法”（涵盖有用性、无害性、诚实性及人权准则）。",
+        "生成与批判：模型先生成回复，随后依据“宪法”进行自我批判。",
+        "递归修订：若回复内容违反原则，模型将对其进行重写修正。",
+        "监督学习：基于这些经过修正的合规输出数据，对模型进行微调。"
+      ],
+      "name_zh": "Constitutional AI（宪法 AI）"
     },
     {
       "name": "Responsible Scaling Policy (ASL Framework)",
@@ -59,7 +72,19 @@
           "ASL-4: Catastrophic Potential",
           "ASL-5: Existential Threat"
         ]
-      }
+      },
+      "summary_zh": "这是一个对标生物安全等级（BSL）的框架，依据模型能力与潜在风险划分具体的 AI 安全等级（ASL）。随着模型智能水平的提升，该框架强制要求实施更为严格的管控措施。",
+      "problemItSolves_zh": "防止高危 AI 能力的发布或滥用；为“何时必须将安全性置于部署优先级之上”提供清晰的路线图。",
+      "whenToUse_zh": "在研发能力持续增强且可能构成社会风险的前沿 AI 模型时。",
+      "commonMistakes_zh": "忽视模型能力差异，对所有模型统一套用安全协议；未能预判未来模型能力的演进。",
+      "realWorldExample_zh": "Anthropic 目前处于 ASL-3 级别，并已制定严格协议，为向 ASL-4 能力过渡做好了准备。",
+      "principles_zh": [
+        "定义分级标准：确立各阶段的能力阈值（ASL-1 至 ASL-5）。",
+        "评估模型能力：在实验室环境中针对危险能力（如生物武器制造）进行模型测试。",
+        "落实防护机制：实施与等级相匹配的安全措施及部署限制。",
+        "必要时触发熔断：若未满足对应等级的安全标准，即刻中止训练或部署流程。"
+      ],
+      "name_zh": "Responsible Scaling Policy (ASL Framework)（负责任扩展政策（ASL 框架））"
     },
     {
       "name": "The Economic Turing Test",
@@ -86,7 +111,19 @@
           "Economic Value"
         ],
         "threshold": "Passes for 50% of Money-Weighted Jobs"
-      }
+      },
+      "summary_zh": "一种用于定义变革性 AI 或 AGI 的衡量标准，基于智能体自主执行具有经济价值工作的能力，且其表现与人类无异。",
+      "problemItSolves_zh": "基于经济影响而非抽象智能，为 AGI 提供了一个具体且可衡量的定义。",
+      "whenToUse_zh": "预测 AGI 的到来，或评估 AI 智能体的实际能力。",
+      "commonMistakes_zh": "过度关注抽象基准（如 IQ 测试），而非实际经济效用。",
+      "realWorldExample_zh": "评估 AI 能否在为期 3 个月的合同周期内，完全替代远程软件工程师或客服专员。",
+      "principles_zh": [
+        "定义职位组合：筛选出一组具有代表性且按经济价值加权的岗位。",
+        "签约智能体：在固定周期内（如 1-3 个月）聘用该 AI 智能体。",
+        "绩效评估：判定该智能体的履职表现是否达到人类员工的同等水平。",
+        "阈值验证：若该智能体在职位组合中的通过率超过 50%，即视为实现了“变革型 AI”。"
+      ],
+      "name_zh": "The Economic Turing Test（经济图灵测试）"
     },
     {
       "name": "Resting in Motion",
@@ -132,8 +169,21 @@
             ]
           }
         ]
-      }
+      },
+      "summary_zh": "这是一种追求可持续高绩效的心智框架。它基于一个核心认知：人类的“默认状态”是行动而非闲逸。该方法论旨在帮助个体在持续的高压环境中，依然保持从容的定力与卓越的效能。",
+      "problemItSolves_zh": "因高风险工作（如 AI 安全）的压倒性规模而产生的职业倦怠与焦虑。",
+      "whenToUse_zh": "当面临关乎生死存亡、高压且边界无限的难题时。",
+      "commonMistakes_zh": "试图等到“问题清零”才肯安心；持续冲刺直至力竭。",
+      "realWorldExample_zh": "Ben 运用此法来管理压力，在致力于防范 AI 生存风险的同时，打造一家高速增长的公司。",
+      "principles_zh": [
+        "拒绝被动默认：坦然接受“待解决问题”才是常态。",
+        "保持可持续节奏：视工作为一场马拉松，而非一次短跑冲刺。",
+        "寻求社群支持：置身于愿景一致的伙伴圈层中。",
+        "摒弃内疚感：聚焦于主观能动性与执行力，而非为未完成的任务焦虑。"
+      ],
+      "name_zh": "Resting in Motion（动态休憩）"
     }
   ],
-  "filename": "Benjamin Lauzier"
+  "filename": "Benjamin Lauzier",
+  "episodeSummary_zh": "Benjamin Mann 深度探讨了 AI 在 2027-2028 年迈向超级智能的演进路径、AI 安全的核心地位，以及 Anthropic 在对齐（Alignment）上的差异化方案。他详细拆解了宪法级 AI（Constitutional AI）的落地实施、负责任扩展政策（RSP 及其 ASL 分级体系），以及在应对高风险工作时所需的“动中取静”（Resting in Motion）心智模式。"
 }

@@ -3,7 +3,8 @@
     "name": "Chandra Janakiraman",
     "title": "Chief Product Officer & EVP",
     "company": "VRChat",
-    "background": "A seasoned product executive with leadership roles at Meta, Headspace, Zynga, and Amazon. He is known for demystifying product strategy into a repeatable, operator-centric process that bridges high-level vision with tactical execution."
+    "background": "A seasoned product executive with leadership roles at Meta, Headspace, Zynga, and Amazon. He is known for demystifying product strategy into a repeatable, operator-centric process that bridges high-level vision with tactical execution.",
+    "background_zh": "曾在 Meta、Headspace、Zynga 和 Amazon 担任核心领导职务的资深产品高管。他擅长将抽象的产品战略拆解为一套可复用、以执行为导向的流程，有效打通了顶层愿景与战术落地。"
   },
   "episodeSummary": "Chandra Janakiraman dismantles the myth that strategic ability is an innate 'gene' and presents a rigorous, battle-tested playbook for creating product strategy. He distinguishes between 'Small S' strategy (solving problems over a 2-year horizon) and 'Big S' strategy (aspirational vision over 5-10 years), offering a step-by-step guide involving cross-functional working groups, design sprints, and rigorous problem framing.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a team needs a concrete plan for the next 1-2 years to solve clear user frictions or growth stalls.",
       "commonMistakes": "Skipping the leadership interviews (the 'Fruit Story' error) or turning the Design Sprint into a roadmap/feature factory instead of concept exploration.",
       "quote": "Strategy forces choice to deploy scarce resources to generate maximum impact.",
-      "realWorldExample": "At Headspace, this process led to the transition from a 'meditation app' to a comprehensive 'health and wellness service' by identifying the need for non-meditation content."
+      "realWorldExample": "At Headspace, this process led to the transition from a 'meditation app' to a comprehensive 'health and wellness service' by identifying the need for non-meditation content.",
+      "summary_zh": "一套为期 8-12 周的结构化“现状推演”（Present Forward）流程，旨在从现有问题中推导战略。该流程依托跨职能工作组整合数据，将问题聚类转化为机会点，并具象化未来的业务蓝图。",
+      "problemItSolves_zh": "消除对“我们为什么要做这个”的模糊认知，打破因缺乏清晰流程而陷入的战略制定僵局。",
+      "whenToUse_zh": "当团队需要制定未来 1-2 年的落地规划，以解决明确的用户体验阻力或增长瓶颈时。",
+      "commonMistakes_zh": "跳过高层访谈（即“水果故事”错误），或是将设计冲刺（Design Sprint）沦为产出路线图的“功能工厂”，而非用于概念探索。",
+      "realWorldExample_zh": "在 Headspace，该流程通过发掘非冥想类内容的需求，推动了产品从单一“冥想 App”向综合性“身心健康服务”的转型。",
+      "principles_zh": [
+        "**阶段一：筹备期（4 周）：** 组建“战略工作组”（涵盖产研、设计、数据职能），产出“综合预研报告”，内容需包含用户行为洞察、用户调研（UXR）元分析、竞品分析图谱以及高层访谈纪要。",
+        "**阶段二：战略冲刺（1 周）：** 从“痛点聚类”（现有问题）转向“机会框架”（正向重构）。基于影响力、确定性、撬动点和独特性四个维度，收敛出三大战略支柱，并为每个支柱拆解出 HMW（How Might We）问题。",
+        "**阶段三：设计冲刺（1 周）：** 此时不做具体功能设计，而是产出“具象化概念”——通过视觉物料将战略支柱具象化，让干系人能直观地“看见”战略蓝图。",
+        "**阶段四：撰写与宣讲：** 由 PM 独立撰写战略叙事（耗时 1-2 周），将各类输入信息有机串联。通过小规模“路演”（8-10 人/场）进行宣讲，以确保信息传递的高保真度。"
+      ],
+      "name_zh": "The 'Small S' Strategy Playbook（“小 S” 战略实战手册）"
     },
     {
       "name": "The 'Big S' Future-Backward Framework",
@@ -46,7 +59,19 @@
       "whenToUse": "When a company needs to find its next S-curve or when the team is burnt out on incrementalism and needs an aspirational 'North Star'.",
       "commonMistakes": "Assigning this to execution-heavy PMs instead of creative/blue-sky thinkers (often better led by Design), or expecting immediate ROI from the prototypes.",
       "quote": "Life's got to be about more than just solving problems. There needs to be an aspirational and cool component to strategy.",
-      "realWorldExample": "At VRChat, the team runs 'Big S' (led by Design) and 'Small S' (led by PM) in parallel to bridge current friction fixes with a radical future vision."
+      "realWorldExample": "At VRChat, the team runs 'Big S' (led by Design) and 'Small S' (led by PM) in parallel to bridge current friction fixes with a radical future vision.",
+      "summary_zh": "这是一个为期 6 个月、由设计主导的“逆向推演”流程，旨在展望未来 5-10 年的格局。该框架聚焦于构想差异化且发散的未来图景，并通过打造“概念车”式的产品原型，来激发组织灵感并洞察长期趋势。",
+      "problemItSolves_zh": "解决产品团队因疲于修补眼前问题，而缺乏灵感与长期愿景的困境。",
+      "whenToUse_zh": "当企业需要寻找下一条 S 曲线，或是团队对渐进式迭代感到倦怠，亟需一个富有感召力的“北极星”时。",
+      "commonMistakes_zh": "将任务分配给侧重执行的 PM，而非富有创造力或具备前瞻视野的思考者（这类工作通常由设计侧主导更佳），或者期望原型能带来立竿见影的 ROI。",
+      "realWorldExample_zh": "在 VRChat，团队并行推进由设计主导的“大 S”和由 PM 主导的“小 S”，旨在将解决当下的体验摩擦与实现未来的激进愿景有效衔接。",
+      "principles_zh": [
+        "**推演差异化未来图景：** 基于行业趋势和高层访谈，构建 3 个逻辑连贯且差异显著的未来场景叙事（以旅游业为例：自动驾驶 vs. 极速出行 vs. 虚拟体验）。",
+        "**打造“概念车”式原型：** 构建旨在获取洞察和激发灵感的原型，而非追求立即商业化。这些“概念车”旨在展示可能性的边界。",
+        "**线上实盘验证：** 提取原型中的优胜要素，将其置入现有线上产品中进行测试，以验证其商业可行性。",
+        "**双流汇聚机制：** 将“Big S”（愿景驱动）和“Small S”（问题解决）视为两条最终汇入同一 Roadmap 的支流。允许二者并行推进，但须在最终规划中实现合流。"
+      ],
+      "name_zh": "The 'Big S' Future-Backward Framework（\"大 S\" 未来倒推框架）"
     },
     {
       "name": "The 'Fruit Interview' Stakeholder Technique",
@@ -62,7 +87,19 @@
       "whenToUse": "At the very beginning of any strategy cycle or complex project kickoff.",
       "commonMistakes": "Assuming you know what the leader wants based on past interactions, or fearing that asking questions makes you look weak (it actually shows strength/humility).",
       "quote": "Imagine if you just asked the reviewer, 'Do you even like fruits?' How much better the experience would've been for both parties.",
-      "realWorldExample": "Chandra uses this in every strategy cycle (Headspace, Meta, VRChat) to ensure the 'Strategic Pillars' selected in the sprint already have implicit leadership buy-in."
+      "realWorldExample": "Chandra uses this in every strategy cycle (Headspace, Meta, VRChat) to ensure the 'Strategic Pillars' selected in the sprint already have implicit leadership buy-in.",
+      "summary_zh": "一种应用于战略规划筹备期的前置访谈技巧，旨在挖掘高层领导的隐性偏好及其个人的“执念”。",
+      "problemItSolves_zh": "避免战略方案因严重偏离领导层未言明的隐性诉求，导致一经汇报即遭否决的挫败局面。",
+      "whenToUse_zh": "处于任何战略周期的初期，或复杂项目启动之时。",
+      "commonMistakes_zh": "仅凭过往经验便主观臆断领导的需求，或是因担心“露怯”而不敢提问（实际上，敢于提问恰恰体现了你的实力与谦逊）。",
+      "realWorldExample_zh": "Chandra 在每个战略周期（Headspace、Meta、VRChat）都会运用此法，以确保 Sprint 阶段选定的“战略支柱”已预先获得领导层的隐性认可。",
+      "principles_zh": [
+        "**先问后做：** 别把芒果（战略方案）硬塞给不爱吃水果的领导。动手前，先搞清楚他们的口味。",
+        "**明确成败定义：** 直接询问领导：在这个产品领域，具体的“成功图景”是什么？“失败表现”又是什么？",
+        "**挖掘“私藏点子”：** 很多领导为了避免被贴上“微操”的标签，会故意隐藏对具体功能的想法。不妨直接问：“您心里是不是已经有具体的方案了？”借此打破沟通隔阂。",
+        "**预先“通气”：** 在最终汇报前，先与关键把关人进行 1:1 沟通对齐核心框架。要确保最终的演示只是“确认共识”，而非“现场辩论”。"
+      ],
+      "name_zh": "The 'Fruit Interview' Stakeholder Technique（“水果访谈”利益相关者技巧）"
     }
   ],
   "notableQuotes": [
@@ -79,5 +116,6 @@
       "context": "Discussing the Meta example where Portal and Quest had similar strategies but vastly different outcomes due to market resonance."
     }
   ],
-  "filename": "Chandra Janakiraman"
+  "filename": "Chandra Janakiraman",
+  "episodeSummary_zh": "Chandra Janakiraman 打破了战略能力是一种与生俱来的“天赋”这一迷思，并为制定产品战略提供了一套严谨且经实战验证的打法手册。他对“小 S”战略（解决 2 年周期内的问题）与“大 S”战略（描绘 5-10 年的宏大愿景）进行了明确界定，并提供了一套涵盖跨职能小组协作、设计冲刺及严谨问题定界的全流程实操指南。"
 }

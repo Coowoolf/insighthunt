@@ -3,7 +3,8 @@
     "name": "Brian Tolkin",
     "title": "Head of Product and Design",
     "company": "Opendoor",
-    "background": "Brian is the Head of Product and Design at Opendoor. Previously, he was Employee #100 at Uber, where he led the global launch of uberPOOL and established the original Product Operations function."
+    "background": "Brian is the Head of Product and Design at Opendoor. Previously, he was Employee #100 at Uber, where he led the global launch of uberPOOL and established the original Product Operations function.",
+    "background_zh": "Brian 现任 Opendoor 产品与设计负责人。此前作为 Uber 第 100 号员工，他主导了 uberPOOL 的全球上线，并搭建了最初的产品运营体系。"
   },
   "episodeSummary": "Brian Tolkin shares deep insights on building products that bridge the physical and digital worlds, drawing from his experiences scaling Uber and Opendoor. He discusses the evolution of operational processes into scalable software, how to run non-threatening product reviews, applying Jobs-to-be-Done for low-frequency use cases, and how to rigorously experiment when you lack high transaction volume.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "When launching new verticals, entering new markets, or building features that require heavy operational fulfillment.",
       "commonMistakes": "Building expensive technology automation before the operational process has been proven manually or before the volume necessitates it.",
       "quote": "Computers are deterministic, but humans aren't... building products that have a little bit more flex or a little bit more fail safes in case those things happen becomes a little bit more of a paramount.",
-      "realWorldExample": "Uber's driver onboarding evolution: It started with 1:1 in-person meetings, moved to small classrooms, then video sessions, and finally automated OCR technology for document verification once volume exploded."
+      "realWorldExample": "Uber's driver onboarding evolution: It started with 1:1 in-person meetings, moved to small classrooms, then video sessions, and finally automated OCR technology for document verification once volume exploded.",
+      "summary_zh": "一种针对复杂线下业务流程规模化的分阶段演进策略。该策略主张不急于开发软件，而是先通过人工方式验证流程闭环，利用批处理实现初步扩张，仅在人力扩张模式无法支撑时，才引入技术手段进行自动化构建。",
+      "problemItSolves_zh": "决策何时通过人工运营解决问题，以及何时投入研发资源实现自动化。",
+      "whenToUse_zh": "启动新业务垂类、进入新市场，或构建涉及重度运营履约的功能时。",
+      "commonMistakes_zh": "在人工流程尚未验证跑通，或业务规模未达必要量级时，过早投入高昂成本建设自动化系统。",
+      "realWorldExample_zh": "Uber 司机入职流程的演进：早期采用 1 对 1 线下协助，随后转为小班培训，接着迭代为视频教学，最终在业务量爆发时，利用自动化 OCR 技术进行资质审核。",
+      "principles_zh": [
+        "第一阶段：强人工干预（做即使无法规模化的事）。采用一对一的方式解决问题（例如：投入 90 分钟单独培训一名入驻司机）。",
+        "第二阶段：流程批量化。在不引入新技术的前提下提升人效（例如：转变为 10-20 名司机的线下集中培训）。",
+        "第三阶段：内容规模化。利用标准化内容物料来复用指导流程（例如：播放视频教程替代真人宣讲）。",
+        "第四阶段：技术辅助验证。仅在人工流程达到瓶颈难以为继时，才开发软件介入（例如：当周处理量突破 1,000 单时，引入 OCR 技术自动扫描驾照）。",
+        "第五阶段：运营人力释放。流程实现自动化后，将运营团队重新调配到下一个「试验田」式的新问题中去探索。"
+      ],
+      "name_zh": "The Manual-to-Scale Automation Ladder（从人工到规模化的自动化阶梯）"
     },
     {
       "name": "The Low-Volume Conviction Framework",
@@ -48,7 +62,20 @@
       "whenToUse": "In B2B contexts, high-ticket consumer products (real estate, cars), or early-stage startups with low traffic.",
       "commonMistakes": "Running an A/B test for a month, getting insignificant results, and then pretending the data provides an answer (false precision).",
       "quote": "The only mistake here is thinking you'll get an answer in a month when you won't, and then pretending you do.",
-      "realWorldExample": "Opendoor running 6-month long experiments or using 'Sister City' comparisons because people only sell homes once every 7 years, making standard daily A/B testing difficult."
+      "realWorldExample": "Opendoor running 6-month long experiments or using 'Sister City' comparisons because people only sell homes once every 7 years, making standard daily A/B testing difficult.",
+      "summary_zh": "一套专为低频高客单价业务（如房地产）设计的验证方法分层体系。它强调客观真实的统计分析优于伪精确的数据，并提供了标准 A/B 测试之外的替代方案。",
+      "problemItSolves_zh": "如何在流量（样本量）不足以支撑传统快速 A/B 测试时，进行数据驱动决策。",
+      "whenToUse_zh": "B2B 业务场景、高客单价消费品（如房产、汽车），或流量尚未起量的早期初创公司。",
+      "commonMistakes_zh": "跑了一个月的 A/B 测试，结果并不显著，却强行认为数据给出了答案（伪精确）。",
+      "realWorldExample_zh": "Opendoor 开展长达 6 个月的实验或采用“姐妹城市”对照法，因为用户平均每 7 年才卖一次房，导致常规的日级别 A/B 测试难以实施。",
+      "principles_zh": [
+        "步骤 1：如实进行功效分析 (Power Analysis)。预先测算“最小检测效应 (MDE)”和试验所需时长。如果测算结果显示需要跑 6 个月，请直面这一现实。",
+        "步骤 2：调整置信区间。在试错成本可控的前提下，不妨接受较低的置信度（例如 80%），而非死守 95% 的标准线。",
+        "步骤 3：采用宏观对照法。当无法进行用户层级的分流测试时，可使用“双子城 (Sister City)”分析（即对标相似市场）或双重差分法 (Diff-in-Diff) 进行评估。",
+        "步骤 4：设立长期对照组 (Long-Term Holdouts)。预留一部分用户作为对照组长期观察，重点衡量长周期的累积效应，而非短期的即时转化。",
+        "步骤 5：构建代理反馈回路。若必须依赖直觉做决策，请设定一个辅助指标（如客服工单量）作为监测预警，以便及时发现决策失误。"
+      ],
+      "name_zh": "The Low-Volume Conviction Framework（小样本信念框架）"
     },
     {
       "name": "The 'Safe Space' Product Review Protocol",
@@ -65,7 +92,20 @@
       "whenToUse": "Scaling organizations where leadership is becoming disconnected from ground-level details, or when cultural surveys indicate fear of leadership.",
       "commonMistakes": "Inviting too many spectators, making the meeting a status update rather than a working session, or leaders delivering feedback as absolute mandates.",
       "quote": "Product reviews hopefully are not feeling like firing squads. That's a scary environment to be in and not necessarily one that's conducive to how do we make the product better.",
-      "realWorldExample": "Opendoor's implementation of sign-up based review slots where PMs bring a standardized template covering 'Context, Problem, Solution, Risks, and Measurement'."
+      "realWorldExample": "Opendoor's implementation of sign-up based review slots where PMs bring a standardized template covering 'Context, Problem, Solution, Risks, and Measurement'.",
+      "summary_zh": "一套专门设计的会议机制，旨在平衡管理层问责与真诚的协作解题，确保会议聚焦于打磨产品本身，而非单纯对 PM 进行审视。",
+      "problemItSolves_zh": "如同“行刑队”般的产品评审，导致团队陷入防御模式，进而抑制了创新。",
+      "whenToUse_zh": "处于规模化阶段且管理层逐渐与一线细节脱节的组织，或组织氛围调研显示存在畏惧管理层倾向的场景。",
+      "commonMistakes_zh": "邀请过多无关旁听人员，将会议沦为进度汇报而非工作研讨，以及领导者将反馈意见作为绝对指令下达。",
+      "realWorldExample_zh": "Opendoor 采用报名制的评审机制，PM 需使用涵盖“背景、问题、解决方案、风险及衡量指标”的标准化模板。",
+      "principles_zh": [
+        "原则 1：明确双重目标。开场即强调：评审既是为了「信息同步与对齐」，更是为了协助团队「厘清解题思路」。",
+        "原则 2：拉动式节奏。摒弃强制性周会，改用「按需预约」机制（如每周开放 2 个时段），由团队在需要获取反馈时主动发起。",
+        "原则 3：控制参会规模。将核心参会者控制在 10 人以内，避免会议沦为「表演秀」或流于形式。",
+        "原则 4：沉淀决策资产。将评审文档和会议录屏作为新人入职的培训材料，帮助其追溯和理解历史决策逻辑。",
+        "原则 5：领导者即引导者。管理者应通过提问（如“是否考虑过 X？”）而非指令来参与，尊重团队与管理者之间存在巨大的「上下文信息差」（40 小时/周 vs 3 小时/周）。"
+      ],
+      "name_zh": "The 'Safe Space' Product Review Protocol（“安全空间”产品评审机制）"
     }
   ],
   "notableQuotes": [
@@ -86,5 +126,6 @@
       "context": "The mantra Brian uses to maintain perspective during the extreme highs and lows of hyper-growth startups."
     }
   ],
-  "filename": "Brian Tolkin"
+  "filename": "Brian Tolkin",
+  "episodeSummary_zh": "结合在 Uber 和 Opendoor 推动业务规模化的实战经验，Brian Tolkin 深度解析了如何打造打通物理世界与数字世界的产品。他探讨了如何将运营流程转化为可规模化的软件系统，如何开展具有建设性且氛围轻松的产品评审，针对低频场景如何应用 JTBD 理论，以及在缺乏高交易量数据的情况下，如何进行严谨的实验验证。"
 }

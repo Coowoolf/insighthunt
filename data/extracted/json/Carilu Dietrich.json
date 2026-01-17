@@ -3,7 +3,8 @@
     "name": "Carilu Dietrich",
     "title": "Hypergrowth Advisor & Former Head of Marketing",
     "company": "Atlassian (Former), Advisor to Miro, 1Password, Segment",
-    "background": "Carilu Dietrich is a veteran marketing executive best known for leading marketing at Atlassian through their IPO. She now advises CEOs and CMOs of hypergrowth B2B companies like Miro, Bill.com, and 1Password on scaling from $30M to $500M+ ARR."
+    "background": "Carilu Dietrich is a veteran marketing executive best known for leading marketing at Atlassian through their IPO. She now advises CEOs and CMOs of hypergrowth B2B companies like Miro, Bill.com, and 1Password on scaling from $30M to $500M+ ARR.",
+    "background_zh": "Carilu Dietrich 是一位资深市场营销高管，因带领 Atlassian 市场团队成功完成 IPO 而闻名业内。她目前担任 Miro、Bill.com 和 1Password 等超高速增长 B2B 企业的 CEO 及 CMO 顾问，指导企业实现 ARR 从 3000 万美元到 5 亿美元以上的规模化扩张。"
   },
   "episodeSummary": "Carilu Dietrich dissects the mechanics of hypergrowth, drawing on her experience taking Atlassian to IPO without a traditional sales team. She outlines frameworks for career acceleration to the C-suite, the specific metrics used to identify winning companies, and the nuances of layering sales onto a Product-Led Growth (PLG) motion. The episode also covers the friction points between Product and Marketing and how to resolve them using the 'Amazon Press Release' method.",
   "keyTakeaways": [
@@ -32,7 +33,21 @@
       "whenToUse": "When deciding between job offers or evaluating advisory/investment opportunities.",
       "commonMistakes": "Focusing only on the brand name or salary without checking the underlying financial health metrics like NDR or burn rate.",
       "quote": "If you pick the right company with the right momentum, you have a better chance of getting higher level experiences and accelerated career growth.",
-      "realWorldExample": "Carilu referenced how picking Atlassian (high momentum) versus Oracle (low momentum) radically changed the trajectory of career growth for her teams."
+      "realWorldExample": "Carilu referenced how picking Atlassian (high momentum) versus Oracle (low momentum) radically changed the trajectory of career growth for her teams.",
+      "summary_zh": "Carilu 用于评估咨询客户的 10 项核查清单，对于任何正在寻找下一家雇主的人而言，这也是一套严格的尽职调查框架。",
+      "problemItSolves_zh": "帮助求职者与投资人甄别具备真实增长势能，且拥有高概率成功退出或 IPO 潜力的公司。",
+      "whenToUse_zh": "在权衡工作 Offer 或评估顾问及投资机会时。",
+      "commonMistakes_zh": "仅盯着公司品牌或薪资，却忽视了 NDR 或 Burn Rate 等底层财务健康指标。",
+      "realWorldExample_zh": "Carilu 举例指出，选择 Atlassian（高势能）而非 Oracle（低势能），彻底改变了她团队的职业发展轨迹。",
+      "principles_zh": [
+        "验证 \"Rule of 40\"：增长率与利润率之和应达到或超过 40%。",
+        "分析净收入留存率 (NDR)：目标值应大于 120%；参考 Snowflake 曾高达约 160%（这意味着产品在存量用户中具有极强的自驱增购能力）。",
+        "评估投资方资质：是否为一线顶级 VC？是否在最新一轮融资中继续跟投（这代表了持续的信心背书）？",
+        "评估市场地位：是否在 Forrester 或 Gartner 报告中位居榜首，或已成为无可争议的品类（Category）领导者？",
+        "审查“烧钱率”与现金储备：现金流跑道（Runway）是否充足，足以在不采取极端手段的情况下挺过市场下行周期？",
+        "查阅 Glassdoor 评分：低下的员工满意度通常与较低的企业长期存活率呈正相关。"
+      ],
+      "name_zh": "The 'Hypergrowth Post-It' Selection Matrix（“爆发式增长便利贴”筛选矩阵）"
     },
     {
       "name": "The 'R&D-First' Capital Allocation Model",
@@ -49,7 +64,20 @@
       "whenToUse": "Early-to-mid stage SaaS companies deciding on their first sales hires or budget allocation for the upcoming fiscal year.",
       "commonMistakes": "Hiring a VP of Sales too early who immediately hires a team of outbound SDRs, blowing the budget on CAC before the product has sufficient viral loops.",
       "quote": "You can't pay enough to grow at those rates and have a viable company... The biggest thing is an amazing product that people love to use.",
-      "realWorldExample": "Atlassian spent massive amounts on R&D relative to Sales/Marketing compared to industry benchmarks, allowing the product to drive the flywheel while Sales only managed renewals and large accounts."
+      "realWorldExample": "Atlassian spent massive amounts on R&D relative to Sales/Marketing compared to industry benchmarks, allowing the product to drive the flywheel while Sales only managed renewals and large accounts.",
+      "summary_zh": "基于 Atlassian 模式，该框架主张彻底反转传统的 SaaS 预算配比：通过将销售与营销支出降至最低，并将资金直接再投资于研发（R&D），从而打造出一款能够充当核心销售引擎的产品。",
+      "problemItSolves_zh": "决定如何在研发与销售之间分配预算，以支撑长期的产品驱动增长 (PLG)。",
+      "whenToUse_zh": "正面临首批销售人员招聘决策，或制定下一财年预算分配方案的早中期 SaaS 企业。",
+      "commonMistakes_zh": "过早引入销售 VP 并随即组建外呼 SDR 团队，在产品尚未建立足够的病毒式传播闭环之前，就将预算在 CAC 上消耗殆尽。",
+      "realWorldExample_zh": "相较于行业基准，Atlassian 的研发投入远高于销售和市场费用，这种策略实现了以产品驱动增长飞轮，而销售团队仅需负责续约和大客户管理。",
+      "principles_zh": [
+        "投入 2-3 倍于竞争对手的研发预算，打造卓越的自助式产品。",
+        "收敛销售重心：销售团队初期应仅专注于客户续约或解决复杂的企业采购流程，而非进行陌生拜访获客。",
+        "定价公开透明：直接公示价格，消除交易摩擦，避免冗余的销售议价环节。",
+        "转向“销售工程师”模式：与其招聘 SDR 进行电话推销，不如招募技术专家协助那些已经在深度试用产品的用户。",
+        "等待“市场拉力”：仅在 Inbound 线索量巨大或面临企业级复杂需求时才引入销售团队，拒绝人为地强行拉动增长。"
+      ],
+      "name_zh": "The 'R&D-First' Capital Allocation Model（“研发优先”资本配置模型）"
     },
     {
       "name": "The 'Bag of Doorknobs' Test",
@@ -65,7 +93,19 @@
       "whenToUse": "During the product ideation and roadmap planning phase, specifically before PRDs are finalized.",
       "commonMistakes": "Building the product in isolation and then handing it to PMM/Marketing two weeks before launch saying 'make this go viral'.",
       "quote": "One of my mentors had this comment: 'It's a bag of doorknobs.' What do I do with this bag of doorknobs? Who wants to buy a bag of doorknobs? They want to buy the door.",
-      "realWorldExample": "Carilu mentions using this at Classy to prevent the marketing team from being handed a collection of features that didn't have a unifying theme."
+      "realWorldExample": "Carilu mentions using this at Classy to prevent the marketing team from being handed a collection of features that didn't have a unifying theme.",
+      "summary_zh": "一种开发前的对齐机制，要求产品与市场团队在编码启动前就核心“卖点”达成共识，以确保最终产出不是一堆零散功能的机械堆砌（即“一袋门把手”），而是一个内聚的整体解决方案（即“那扇门”）。",
+      "problemItSolves_zh": "防止产品与市场脱节，避免产品团队开发出一堆市场团队无法有效定位或售卖的功能集合。",
+      "whenToUse_zh": "处于产品构思与路线图规划阶段，尤其是在 PRD 定稿之前。",
+      "commonMistakes_zh": "闭门造车开发产品，直到上线前两周才把产品甩给 PMM 或市场团队，并要求他们实现“病毒式传播”。",
+      "realWorldExample_zh": "Carilu 提到她在 Classy 曾运用此方法，旨在避免交付给市场团队的只是一堆缺乏统一主线的零散功能。",
+      "principles_zh": [
+        "**先写新闻通稿**：采用亚马逊的逆向工作法，在开发启动前就草拟好产品发布公告。",
+        "**打磨叙事逻辑**：如果通稿缺乏吸引力或兴奋点，产品和市场部门必须 *立刻* 对产品范围（Scope）进行迭代，绝不可拖延。",
+        "**定义“门”的整体性**：确保各项功能汇聚成一个明确的主题性价值主张，而非仅仅是一堆功能优化的罗列。",
+        "**验证市场吸引力**：自问“真的会有人在意这个宣传头条吗？”如果答案是否定的，就必须调整（Pivot）产品战略。"
+      ],
+      "name_zh": "The 'Bag of Doorknobs' Test（“一袋门把手”测试）"
     },
     {
       "name": "The 'C-Suite Translator' Framework",
@@ -82,7 +122,20 @@
       "whenToUse": "When preparing for a promotion to VP/C-level or when you feel 'stuck' in a functional director role.",
       "commonMistakes": "Doubling down on being the 'best' marketer or coder rather than becoming a generalist business leader who understands finance and strategy.",
       "quote": "If you want to be in the C-suite, it's a job about how the system works.",
-      "realWorldExample": "Carilu volunteered to run the product beta and release engineering when the Head of Product left, which gave her insight into product that made her a better CMO."
+      "realWorldExample": "Carilu volunteered to run the product beta and release engineering when the Head of Product left, which gave her insight into product that made her a better CMO.",
+      "summary_zh": "从职能负责人晋升为 C-level 高管必经的 5 步思维跃迁，核心在于突破单一专业领域的局限，拓展全局业务视野。",
+      "problemItSolves_zh": "帮助产品、市场、技术等职能负责人突破职业天花板，进阶为真正的核心高管。",
+      "whenToUse_zh": "当你正在筹备晋升 VP/C-level，或感到在职能型总监岗位上遭遇职业瓶颈时。",
+      "commonMistakes_zh": "过度执着于成为“最强”的营销专家或程序员，而未能转型为兼具财务与战略视野的综合型商业领袖。",
+      "realWorldExample_zh": "产品负责人离职后，Carilu 主动接手了产品的 Beta 测试和发布工程。这一经历让她获得了深刻的产品洞察，从而成为了一位更出色的 CMO。",
+      "principles_zh": [
+        "**对齐营收目标**：将你部门的业务指标与公司整体营收直接挂钩。",
+        "**掌握“董事会语言”**：补齐财务知识。少谈“销售线索”或“研发速率”，多谈 CAC、LTV 和资金消耗率。",
+        "**“工厂巡视”法**：深入一线，理解跨部门的日常痛点（效仿特斯拉员工追踪零件全流程的方式）。",
+        "**代理管理**：主动为其他部门“补位”（例如由市场部主导产品 Beta 测试），以此证明跨职能驾驭能力。",
+        "**系统性思维**：将公司视为一台精密运转的整体机器，而非割裂的部门孤岛。"
+      ],
+      "name_zh": "The 'C-Suite Translator' Framework（“高管翻译器”框架）"
     }
   ],
   "notableQuotes": [
@@ -99,5 +152,6 @@
       "context": "Her favorite interview question to gauge the maturity and humanity of a leadership candidate."
     }
   ],
-  "filename": "Carilu Dietrich"
+  "filename": "Carilu Dietrich",
+  "episodeSummary_zh": "Carilu Dietrich 结合她助力 Atlassian 在零传统销售团队配置下成功 IPO 的实战经验，深度拆解了超高速增长的底层逻辑。她梳理了晋升 C-Level 高管的职业加速框架，指出了识别“赢家企业”的关键指标，并详细阐述了在产品驱动增长（PLG）模式上叠加销售体系的实操细节。此外，本期节目还探讨了产品与市场团队间的协作痛点，以及如何利用“亚马逊新闻稿（Amazon Press Release）”工作法来化解冲突。"
 }

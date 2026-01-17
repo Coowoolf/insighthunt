@@ -3,7 +3,8 @@
     "name": "Bret Taylor",
     "title": "Co-founder & CEO, Sierra",
     "company": "Sierra",
-    "background": "A legendary builder and executive who co-created Google Maps, was CTO of Facebook (presiding over the IPO era), co-CEO of Salesforce, and Chairman of the Board at OpenAI. He currently leads Sierra, an enterprise AI agent company."
+    "background": "A legendary builder and executive who co-created Google Maps, was CTO of Facebook (presiding over the IPO era), co-CEO of Salesforce, and Chairman of the Board at OpenAI. He currently leads Sierra, an enterprise AI agent company.",
+    "background_zh": "一位传奇的产品缔造者与高管，Google Maps 联合创始人，曾任 Facebook CTO（主导 IPO 时期）、Salesforce 联席 CEO 及 OpenAI 董事会主席。目前，他掌舵着企业级 AI Agent 公司 Sierra。"
   },
   "episodeSummary": "Bret Taylor shares deep insights drawn from a career spanning the most pivotal moments in modern tech history. He discusses the inevitable shift from SaaS to 'Service-as-a-Software' via AI agents, the necessity of outcomes-based pricing, and the leadership frameworks that allowed him to succeed across engineering, product, and CEO roles.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When launching a V2 of a failed product or entering a market dominated by legacy incumbents.",
       "commonMistakes": "Assuming that putting a physical format (like a form or ledger) onto a screen constitutes innovation.",
       "quote": "Disassembling the Lego set and reassembling into something new rather than just digitizing what was there before.",
-      "realWorldExample": "Taylor's team failed with 'Google Local' (a Yellow Pages clone) but succeeded wildly by reassembling the components into Google Maps."
+      "realWorldExample": "Taylor's team failed with 'Google Local' (a Yellow Pages clone) but succeeded wildly by reassembling the components into Google Maps.",
+      "summary_zh": "与其将现有方案生硬地移植到 Web 或移动端（即“黄页数字化”），不如将问题拆解为基础组件（“乐高积木”），并借助技术力量将其重组，构建出一种唯有技术才能实现的全新层级结构。",
+      "problemItSolves_zh": "避免团队开发出仅仅是将现有传统方案数字化、却未创造新价值的同质化产品。",
+      "whenToUse_zh": "发布失败产品的 V2 版本，或切入被传统巨头主导的市场。",
+      "commonMistakes_zh": "误以为将物理形式（如表单或账本）直接搬到屏幕上就是创新。",
+      "realWorldExample_zh": "Taylor 团队在 Google Local（一款黄页翻版产品）项目上遭遇失败，但通过将原有组件重新组装打造出 Google Maps，最终大获全胜。",
+      "principles_zh": [
+        "锁定现有的主流解决方案（例如黄页或 MapQuest 式的传统地图）。",
+        "将解决方案拆解为核心功能模块（本地搜索、路线导航、卫星图像、商户名录）。",
+        "反转层级关系：将次级功能升级为核心交互界面（例如，将地图作为主画布，而非仅作为侧边栏的配图）。",
+        "寻找“爆点”：植入一个能带来病毒式传播和用户惊喜的功能，即便它并非核心工具属性（例如 Google Maps 中的卫星图像）。"
+      ],
+      "name_zh": "The Lego Deconstruction Strategy（乐高拆解策略）"
     },
     {
       "name": "The Identity-Agnostic Impact Audit",
@@ -46,7 +59,19 @@
       "whenToUse": "When transitioning into a general management role or when a startup is stalling despite 'good' product work.",
       "commonMistakes": "Incorrect storytelling (e.g., telling yourself a deal was lost due to price when it was actually product differentiation) to avoid doing the hard work outside your comfort zone.",
       "quote": "I realized this subconscious limiter... I was trying to conform the job to the things I thought I liked to do.",
-      "realWorldExample": "At Facebook, Taylor realized he was focusing on product/tech he enjoyed, rather than the partnerships and management required to make the platform team successful."
+      "realWorldExample": "At Facebook, Taylor realized he was focusing on product/tech he enjoyed, rather than the partnerships and management required to make the platform team successful.",
+      "summary_zh": "一项将职业身份与具体行动解绑的每日复盘仪式，确保你聚焦于公司真正的需求，而非沉溺于个人舒适区。",
+      "problemItSolves_zh": "克服领导者仅凭自身核心技能解决一切问题的思维定势（例如：工程师试图靠写代码来解决销售难题）。",
+      "whenToUse_zh": "转型综合管理岗位时，或当初创公司产品工作看似不错，但业务却陷入瓶颈时。",
+      "commonMistakes_zh": "构建错误的归因叙事（例如：将丢单归咎于价格因素，而非产品差异化不足），以此逃避在舒适区之外的攻坚工作。",
+      "realWorldExample_zh": "在 Facebook 任职期间，Taylor 意识到自己过于聚焦在个人热衷的产品与技术层面，而忽略了驱动平台团队成功所必需的合作伙伴关系及管理工作。",
+      "principles_zh": [
+        "每天醒来先问自己：“抛开职位头衔，今天我能做的最具影响力的事情是什么？”",
+        "识别“单一视角”偏见：警惕自己是否受限于过往背景，下意识地默认采用工程、设计或销售的单一手段来解决问题。",
+        "重定义岗位职责：如果你是工程经理，但眼下最大的“着火点”是招聘，那你此刻的角色就是“首席招聘官”。",
+        "主动寻求“外部视角”的审视：邀请董事会成员或顾问，帮你识别那些被现有能力圈所掩盖的认知盲区。"
+      ],
+      "name_zh": "The Identity-Agnostic Impact Audit（去身份化影响力盘点）"
     },
     {
       "name": "The GTM-Buyer Fit Matrix",
@@ -62,7 +87,19 @@
       "whenToUse": "When defining the go-to-market strategy for a new B2B product.",
       "commonMistakes": "Applying PLG tactics to enterprise products where the end-user has no purchasing authority.",
       "quote": "If PLG means that you aren't actually engaging with the buyer of your software, you're not going to grow.",
-      "realWorldExample": "Sierra uses a direct sales motion because they sell outcome-based agents to large enterprises where the buyer is a C-level executive, not the support agent."
+      "realWorldExample": "Sierra uses a direct sales motion because they sell outcome-based agents to large enterprises where the buyer is a C-level executive, not the support agent.",
+      "summary_zh": "一套依据“谁掌管预算（信用卡）”和“谁实际操作（键盘）”这两个维度，来决定采用开发者主导、产品驱动增长 (PLG) 还是直接销售模式的决策框架。",
+      "problemItSolves_zh": "帮助创始人与 PM 基于用户与买家的关系，选择正确的销售模式。",
+      "whenToUse_zh": "制定新 B2B 产品的 GTM 策略时。",
+      "commonMistakes_zh": "在终端用户无采购决策权的企业级产品上应用 PLG 策略。",
+      "realWorldExample_zh": "Sierra 采用直销模式，因为他们面向大型企业销售结果导向型智能体；其采购决策者是 C-level 高管，而非一线客服人员。",
+      "principles_zh": [
+        "开发者驱动（如 Stripe）：适用于产品形态为平台或 API，且一线工程师拥有技术选型自主权的场景。",
+        "产品驱动增长（如 Shopify）：适用于使用者即购买决策者（如小微企业主），且支持全流程自助服务的场景。",
+        "直销模式（如 Salesforce/Sierra）：适用于使用者（如客服专员）与购买决策者（如财务 VP）分离的场景。此时 PLG 往往失效，因为使用者缺乏预算审批权。",
+        "回归传统：切勿排斥“老派”的直销模式；在大型企业 AI 转型过程中，这往往是唯一可行的路径。"
+      ],
+      "name_zh": "The GTM-Buyer Fit Matrix（GTM-买方匹配矩阵）"
     },
     {
       "name": "Outcomes-Based Pricing",
@@ -78,7 +115,19 @@
       "whenToUse": "When selling AI agents or automation software where the value proposition is replacing labor costs.",
       "commonMistakes": "Charging for 'usage' (tokens) when high usage might actually indicate the AI is failing to solve the problem efficiently.",
       "quote": "I think the whole market is going to go towards outcomes-based pricing. It's just so obviously the correct way to build and sell software.",
-      "realWorldExample": "Sierra charges customers when the AI agent successfully resolves a customer inquiry without human intervention."
+      "realWorldExample": "Sierra charges customers when the AI agent successfully resolves a customer inquiry without human intervention.",
+      "summary_zh": "一种面向自主智能体的定价策略，依据成功解决的任务或既定结果进行收费，而非按席位或 Token 计费。",
+      "problemItSolves_zh": "解决“生产力”软件因 ROI 难以自证而面临的销售困境。",
+      "whenToUse_zh": "销售 AI Agent 或自动化软件，且核心价值主张在于替代人力成本时。",
+      "commonMistakes_zh": "按“用量”（Token）计费，因为高消耗实际上可能意味着 AI 未能高效解决问题。",
+      "realWorldExample_zh": "Sierra 仅在 AI Agent 成功解决客户咨询且无需人工介入时，才向客户收费。",
+      "principles_zh": [
+        "**自主性**：软件必须具备独立完成任务的能力（例如：自动解决客服工单）。",
+        "**可衡量性**：产出结果必须是二元且可验证的（例如：工单已关闭 vs. 工单已升级）。",
+        "**利益对齐**：确保定价模型将服务商的利益与客户的成功深度绑定（即：仅在问题真正解决时才收费）。",
+        "**分流与拦截**：以节省的成本（例如：呼叫分流）而非使用量指标来衡量价值。"
+      ],
+      "name_zh": "Outcomes-Based Pricing（基于成果的定价）"
     }
   ],
   "notableQuotes": [
@@ -103,5 +152,6 @@
       "context": "Reflecting on the failure of Google Local, which had massive distribution but poor product-market fit."
     }
   ],
-  "filename": "Bret Taylor"
+  "filename": "Bret Taylor",
+  "episodeSummary_zh": "Bret Taylor 基于其横跨现代科技史关键转折点的职业生涯，分享了深刻的行业洞察。他探讨了 AI Agent 推动 SaaS 向 \"Service-as-a-Software\" 演进的必然趋势、采用结果导向定价模式的必要性，以及助力他在工程、产品及 CEO 等不同角色中取得成功的领导力框架。"
 }

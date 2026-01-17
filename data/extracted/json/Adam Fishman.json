@@ -3,7 +3,8 @@
     "name": "Adam Fishman",
     "title": "EIR & Program Partner",
     "company": "Reforge",
-    "background": "Former CPO at Imperfect Foods, VP of Product/Growth at Patreon, VP of Growth at Lyft. Expert in growth leadership and hiring."
+    "background": "Former CPO at Imperfect Foods, VP of Product/Growth at Patreon, VP of Growth at Lyft. Expert in growth leadership and hiring.",
+    "background_zh": "曾任 Imperfect Foods CPO、Patreon 产品/增长 VP、Lyft 增长 VP。增长领导力与招聘领域专家。"
   },
   "episodeSummary": "Adam Fishman discusses his comprehensive Growth Competency Model for hiring and evaluating talent, explains why onboarding is a critical retention lever rather than just conversion, and shares his 'PMF' framework for evaluating potential employers.",
   "methodologies": [
@@ -58,7 +59,18 @@
             ]
           }
         ]
-      }
+      },
+      "summary_zh": "一套基于四大核心维度评估增长人才的综合框架，旨在构建能力均衡的团队，而非苦寻现实中并不存在的“独角兽”式全才。",
+      "problemItSolves_zh": "创始人招聘了错误画像的增长人才（例如试图寻找“银弹”），且行业缺乏增长职业发展的规范标准。",
+      "whenToUse_zh": "用于招聘阶段明确岗位要求，或在绩效评估时识别能力短板。",
+      "commonMistakes_zh": "在需要落地执行时招聘了高级战略型人才（反之亦然）；未能考察基础执行力。",
+      "realWorldExample_zh": "Lyft 招聘 Ben Lauzier（强执行力/用户洞察）vs. Patreon 的 Sean（内部转岗，具备深厚用户背景）",
+      "principles_zh": [
+        "不要试图寻找方方面面都完美的“全才”。",
+        "平衡团队技能配置，通过互补覆盖能力短板。",
+        "利用该模型提供具象化反馈（例如：建议“提升增长飞轮建模能力”，而非笼统的“要更有战略眼光”）。"
+      ],
+      "name_zh": "The Growth Competency Model（增长能力模型）"
     },
     {
       "name": "Opinionated Defaults",
@@ -87,7 +99,18 @@
           "Don't: Treat all configuration options as equally valid.",
           "Don't: Force users to 'guess' the right settings without guidance."
         ]
-      }
+      },
+      "summary_zh": "一种产品设计原则，指平台利用数据为用户预设最优选项，从而让用户“难以犯错”且“轻松做对”。",
+      "problemItSolves_zh": "用户在引导流程中陷入决策瘫痪，或因做出次优配置选择而导致后续使用受阻。",
+      "whenToUse_zh": "设计复杂的配置流程（如创作者主页或托管设置），特别是当用户缺乏做出正确决策所需的专业知识时。",
+      "commonMistakes_zh": "提供“白板”式或中立的初始设置；误以为选项越多意味着用户体验越好。",
+      "realWorldExample_zh": "Patreon 默认引导创作者采用（经验证有效的）三档定价模型，而非单一档位或 40 个档位；Airbnb 默认让房东开启“即时预订”功能。",
+      "principles_zh": [
+        "基于数据识别高倾向行为。",
+        "将此类行为设定为默认状态。",
+        "若更改默认设置会导致成功率下降，则为该操作增加摩擦成本。"
+      ],
+      "name_zh": "Opinionated Defaults（有主见的默认设置）"
     },
     {
       "name": "PMF for Candidates",
@@ -124,8 +147,20 @@
           }
         ],
         "scoringSystem": "Pass/Fail (Must have all 3)"
-      }
+      },
+      "summary_zh": "一套供求职者评估潜在雇主的决策框架，建立在三大不可妥协的支柱之上：团队 (People)、使命 (Mission) 与财务 (Financials)。",
+      "problemItSolves_zh": "加入一家表面光鲜，实则文化有毒、现金流枯竭，或让你对公司使命毫无认同感的公司。",
+      "whenToUse_zh": "当评估 Offer 或在多家公司之间进行决策时。",
+      "commonMistakes_zh": "在筛选标准上抄近道；被品牌光环蒙蔽，却忽视了团队质量或财务健康度。",
+      "realWorldExample_zh": "Adam 在 Imperfect Foods 的误判（使命与财务状况极佳，但因 C-level 高管内斗，导致“人”的维度崩盘）。",
+      "principles_zh": [
+        "时间是你最稀缺的资源，要像 VC 投资资金一样去投入。",
+        "不要满足于“三者得其二”的妥协。",
+        "做好“尽职调查”，包括通过非官方渠道（Backchannel）对未来老板进行背景核实。"
+      ],
+      "name_zh": "PMF for Candidates（候选人 PMF）"
     }
   ],
-  "filename": "Adam Fishman"
+  "filename": "Adam Fishman",
+  "episodeSummary_zh": "Adam Fishman 深度解析了他用于招聘和考核人才的综合增长能力模型，阐述了为何用户引导（Onboarding）是提升留存的关键撬动点而非单纯的转化环节，并分享了他用于评估潜在雇主的 'PMF' 框架。"
 }

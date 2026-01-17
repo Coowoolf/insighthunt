@@ -3,7 +3,8 @@
     "name": "Camille Fournier",
     "title": "Author & Tech Executive",
     "company": "Various (formerly Two Sigma, Rent the Runway, Goldman Sachs)",
-    "background": "Camille is one of the most respected technology executives in the industry and the author of 'The Manager's Path', the definitive guide for engineering management. She is a former CTO of Rent The Runway and has held senior leadership roles at Two Sigma, JP Morgan Chase, and Goldman Sachs."
+    "background": "Camille is one of the most respected technology executives in the industry and the author of 'The Manager's Path', the definitive guide for engineering management. She is a former CTO of Rent The Runway and has held senior leadership roles at Two Sigma, JP Morgan Chase, and Goldman Sachs.",
+    "background_zh": "Camille 是业内极具声望的技术领袖，其著作《The Manager's Path》被视为工程管理领域的权威指南。她曾任 Rent The Runway 的 CTO，并曾在 Two Sigma、摩根大通（JP Morgan Chase）及高盛（Goldman Sachs）担任核心管理职务。"
   },
   "episodeSummary": "Camille Fournier dissects the friction points between Product Managers and Engineers, offering tactical advice on how to build trust, avoid 'hoarding' credit, and prevent over-engineering. She also provides a contrarian perspective on software rewrites, arguing they are often traps due to underestimated migration costs, and lays out a blueprint for modern Platform Engineering teams treating internal infrastructure as a product.",
   "keyTakeaways": [
@@ -31,7 +32,19 @@
       "whenToUse": "When taking over a new team, when engineering estimates seem inflated due to complexity, or when morale is low.",
       "commonMistakes": "Thinking you need to know all the answers to be valuable, or fearing that letting engineers speak to stakeholders will derail the roadmap.",
       "quote": "When you take the people that are part of the project team out of the creative loop entirely, they're going to find that creative outlet somewhere else and it's actually kind of bad for the product.",
-      "realWorldExample": "Camille highlights that when PMs hoard ideas, engineers start obsessing over frameworks and rewrites to regain a sense of creative control."
+      "realWorldExample": "Camille highlights that when PMs hoard ideas, engineers start obsessing over frameworks and rewrites to regain a sense of creative control.",
+      "summary_zh": "这是一套旨在帮助 PM 通过下放所有权和消除沟通瓶颈来与工程团队建立信任的行为框架。该理论主张：当工程师在产品战略上的声音被充分重视时，他们在进行技术决策时就更不容易陷入过度复杂化的误区。",
+      "problemItSolves_zh": "减少 PM 与工程师之间的对立情绪，规避“过度设计”的怪圈——防止工程师为了寻求创造性满足感，而刻意将技术栈复杂化。",
+      "whenToUse_zh": "接手新团队、因复杂度导致开发排期虚高、或团队士气低落时。",
+      "commonMistakes_zh": "误以为必须掌握所有答案才能证明自身价值，或是担心让工程师直接对接利益相关者会打乱产品路线图。",
+      "realWorldExample_zh": "Camille 指出，当 PM 独揽创意时，工程师就会转而沉迷于各类技术框架和代码重构，以此来找回创造性的掌控感。",
+      "principles_zh": [
+        "**共享高光时刻**：在项目演示或汇报时，请主动后撤，把舞台留给负责构建的工程师，让他们亲自展示成果，切忌个人独揽所有功劳。",
+        "**让工程师参与构思**：邀请工程师共同探讨产品解决方案。如果你扼杀了他们对产品的创造力，他们就会转而在代码架构上寻找宣泄口（进而导致技术上的“过度设计”）。",
+        "**拒绝充当“传声筒”**：遇到答不上来的技术问题，不要强行转述。直接拉通业务方与工程师对接，避免信息在传递过程中失真。",
+        "**敬畏“细节”**：绝不要将技术限制轻描淡写为“细枝末节”。要深刻认知到，卓越的工程质量完全建立在对细节的极致把控之上。"
+      ],
+      "name_zh": "The Anti-Friction Engineering Partnership（零摩擦工程伙伴关系）"
     },
     {
       "name": "The Rewrite Viability Audit",
@@ -47,7 +60,19 @@
       "whenToUse": "When an engineering team proposes a 'ground-up' rewrite of a legacy system to move faster or use modern tech.",
       "commonMistakes": "Assuming the new system will automatically be faster, or forgetting that you must support the old system simultaneously during the multi-year build.",
       "quote": "Engineers notoriously, notoriously, notoriously, massively underestimate the migration time for old system to new system.",
-      "realWorldExample": "Camille discusses how teams often convince themselves that a new framework will solve support woes, only to realize the migration halts all feature work for 6-24 months."
+      "realWorldExample": "Camille discusses how teams often convince themselves that a new framework will solve support woes, only to realize the migration halts all feature work for 6-24 months.",
+      "summary_zh": "一套用于评估是否有必要进行系统重写的决策法则。它将关注重心从“构建新系统的难度”转移到了“迁移旧系统的难度”。",
+      "problemItSolves_zh": "避免团队陷入“重构陷阱”，即耗费数年重写系统导致负 ROI，同时造成功能开发停滞。",
+      "whenToUse_zh": "当研发团队提议将遗留系统“推倒重来”，以提升开发效率或采用现代化技术栈时。",
+      "commonMistakes_zh": "想当然地认为新系统性能会自动提升，或忽视了在长达数年的重构周期中必须并行维护旧系统的成本。",
+      "realWorldExample_zh": "Camille 指出，团队常自我催眠，确信引入新框架能解决维护痛点，最终却发现迁移过程会导致新功能开发陷入长达 6 至 24 个月的停滞。",
+      "principles_zh": [
+        "**迁移倍率效应**：务必认知到，从旧系统迁移用户和数据的耗时，往往呈倍数级高于构建新系统本身。",
+        "**“零干预”测试**：自问：“如果未来一年完全不碰这个系统，会损害业务吗？”如果答案是否定的，哪怕代码写得再丑陋，也绝不要重构。",
+        "**隐性逻辑评估**：必须承认，遗留系统中潜藏着大量未被记录的业务规则和数据处理逻辑，这些逻辑极易在重写过程中丢失或损坏。",
+        "**演进优于革命**：不要搞“推倒重来”式的全量重写，而应识别出独立的组件（如推荐 API），对其进行隔离式的升级与重构。"
+      ],
+      "name_zh": "The Rewrite Viability Audit（重写可行性评估）"
     },
     {
       "name": "The Platform-as-Product Operating Model",
@@ -63,7 +88,19 @@
       "whenToUse": "When your organization exceeds 50 engineers, or when interacting with an internal tools team that is unresponsive to business needs.",
       "commonMistakes": "Treating platform engineering as just 'DevOps V2' without a product focus, or building bespoke tools when buying or adopting open source would suffice.",
       "quote": "Platforms are products, ultimately. You should be thinking about how do I create coherent offerings that make this company more productive?",
-      "realWorldExample": "Camille advises a product manager whose platform team is unresponsive to 'find the parts of the team that are working' and actively product manage them by defining problems clearly, effectively filling the void of the missing Platform PM."
+      "realWorldExample": "Camille advises a product manager whose platform team is unresponsive to 'find the parts of the team that are working' and actively product manage them by defining problems clearly, effectively filling the void of the missing Platform PM.",
+      "summary_zh": "一套用于构建内部平台团队及其协作模式的框架。该框架将内部基础设施视为产品，强调必须进行客户探索、设定采纳指标并做好干系人管理。",
+      "problemItSolves_zh": "解决内部平台团队开发无人问津的工具、预算无度且无 ROI，或以僵化标准阻碍产品团队的问题。",
+      "whenToUse_zh": "当工程团队规模超过 50 人，或内部工具团队无法响应业务需求时。",
+      "commonMistakes_zh": "仅仅将平台工程视为 \"DevOps V2\" 而缺乏产品思维，或在直接采购/采用开源方案足以满足需求时，仍执着于自研定制工具。",
+      "realWorldExample_zh": "Camille 建议，面对响应迟缓的平台团队，产品经理应当“寻找团队中运作良好的部分”，并通过清晰定义问题来主动对其实施产品管理，从而有效补位，填补平台 PM 缺位留下的职能空白。",
+      "principles_zh": [
+        "**配备研发人才，拒绝纯运维模式**：平台团队必须引入软件工程师来构建可扩展的工具，而不能仅由 SRE 或系统管理员组成。",
+        "**产品管理是标配**：内部平台需要 PM 来定义产品的价值主张与方向（What & Why）。如果平台团队缺乏 PM，使用方团队必须介入并对其进行“产品化管理”。",
+        "**提炼优于创造**：最优秀的平台功能往往源自业务应用团队已构建的解决方案。平台团队应着眼于“提炼”这些经过验证的方案并将其规模化，而非从零开始凭空造车。",
+        "**具备服务级同理心**：平台团队必须妥善管理内部客户在面临强制迁移（如云基础设施升级）时的“阵痛”。"
+      ],
+      "name_zh": "The Platform-as-Product Operating Model（“平台即产品”运营模式）"
     }
   ],
   "notableQuotes": [
@@ -84,5 +121,6 @@
       "context": "Dispelling the myth that becoming a manager gives you more freedom and authority."
     }
   ],
-  "filename": "Camille Fournier"
+  "filename": "Camille Fournier",
+  "episodeSummary_zh": "Camille Fournier 深度剖析了产品经理与工程师之间的协作摩擦，并就如何建立信任、避免“独占功劳”以及防止过度设计提供了战术性建议。她对软件重写（Rewrite）提出了独特的逆向视角，指出由于迁移成本常被低估，重写往往是陷阱。此外，她还为现代平台工程团队描绘了蓝图，主张以产品思维将内部基础设施打造为真正的产品。"
 }
