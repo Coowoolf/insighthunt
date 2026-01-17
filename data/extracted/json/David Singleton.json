@@ -3,7 +3,8 @@
     "name": "David Singleton",
     "title": "Chief Technology Officer",
     "company": "Stripe",
-    "background": "Responsible for guiding Stripe's engineering and design teams for over five years. Previously spent over a decade at Google as VP of Engineering. Known for operationalizing high-craft engineering cultures at scale."
+    "background": "Responsible for guiding Stripe's engineering and design teams for over five years. Previously spent over a decade at Google as VP of Engineering. Known for operationalizing high-craft engineering cultures at scale.",
+    "background_zh": "负责领导 Stripe 工程与设计团队逾五年。此前曾在 Google 任职十余年，担任工程副总裁。因擅长在规模化组织中落地“极致匠心”的工程文化而著称。"
   },
   "episodeSummary": "David Singleton dissects Stripe's unique engineering culture, explaining how they maintained a product-minded engineering team that delayed the need for Product Managers for years. He details specific internal rituals like 'Friction Logging' and 'Engineerications' that operationalize their core value of being meticulous, while sharing how they balance 99.999% reliability with deploying changes 16 times a day.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "On a recurring cadence (e.g., monthly) for existing products, or during the pre-launch phase of new features.",
       "commonMistakes": "Treating it as QA/Bug bashing rather than an empathetic review of the user's flow and feelings.",
       "quote": "You need to put yourself in a particular user's shoes. It's actually important to have a very clear idea of who is the person I am kind of modeling the friction for right now.",
-      "realWorldExample": "David onboards as a new Stripe user once a month, writing logs that led to error messages being rewritten to include direct links to the relevant documentation."
+      "realWorldExample": "David onboards as a new Stripe user once a month, writing logs that led to error messages being rewritten to include direct links to the relevant documentation.",
+      "summary_zh": "一种规范化的实践流程，由团队成员（通常是 PM 或负责人）代入特定用户角色完成核心任务，并完整记录过程中每一个迟疑、困惑或惊喜的瞬间。",
+      "problemItSolves_zh": "避免随着产品规模化扩张，决策层因脱离真实使用体验而对用户痛点产生“盲区”。",
+      "whenToUse_zh": "针对现有产品周期性开展（如按月），或在新功能上线前的阶段进行。",
+      "commonMistakes_zh": "将其视为 QA 测试或“找 Bug”，而非带着同理心去走查用户流程与情感体验。",
+      "realWorldExample_zh": "David 每月都会以新用户身份跑通一次 Stripe 的接入流程并记录日志，这些反馈推动了报错文案的优化，增加了指向相关文档的直达链接。",
+      "principles_zh": [
+        "设定具体用户画像：拒绝机械式“测试”。代入特定心智模型（例如：“我是一名 Atlassian 的开发者，正尝试集成计费功能”）。",
+        "意识流记录：实时记录所思所想。重点标注流程阻塞点、响应迟缓处以及令人费解的环节。",
+        "全链路走查：绝不止步于 UI 层面。深入查阅文档、调用 API，并亲手编写代码以跑通完整闭环。",
+        "肯定亮点：明确指出体验中的“惊喜时刻”（Delight Moments），对工程团队进行正向激励。",
+        "即时修复：优先解决走查中发现的“细微痛点”（Paper Cuts），其优先级应高于 Roadmap 上的常规事项，以维持极致的产品工艺标准。"
+      ],
+      "name_zh": "The Friction Logging Protocol（摩擦日志协议）"
     },
     {
       "name": "The Co-Creation Alpha Loop",
@@ -48,7 +62,20 @@
       "whenToUse": "When launching a new, complex product line (like Stripe Billing) that requires deep integration into a user's business logic.",
       "commonMistakes": "Expanding the group too early before the core set is truly satisfied, or using the group only for validation rather than active co-creation.",
       "quote": "We decided to co-create the product with them... And only when that original kind of Alpha group was super, super happy with the product did we then think it might be ready to go to a broader audience.",
-      "realWorldExample": "Stripe Billing was co-created with Figma and Slack, who were already using Stripe Payments but had complex subscription needs."
+      "realWorldExample": "Stripe Billing was co-created with Figma and Slack, who were already using Stripe Payments but had complex subscription needs.",
+      "summary_zh": "拒绝闭门造车，而是锁定一小群正在拓展问题边界的用户，通过高频深度的互动，与他们共创产品。",
+      "problemItSolves_zh": "降低在构建复杂基础设施产品时，偏离高阶用户需求的风险。",
+      "whenToUse_zh": "推出像 Stripe Billing 这类需要深度集成到用户业务逻辑中的复杂新产品线时。",
+      "commonMistakes_zh": "在核心用户群真正满意之前过早扩大规模，或者仅将用户群用于验证而非积极共创。",
+      "realWorldExample_zh": "Stripe Billing 是与 Figma 和 Slack 联合共创的产品。这两家公司当时已在使用 Stripe Payments，但面临着复杂的订阅业务需求。",
+      "principles_zh": [
+        "**识别“边界突破者”**：寻找那些正在通过“魔改”现有产品，来实现非原设计功能的用户。",
+        "**建立共享协作基建**：在内部产研团队与客户团队之间，搭建互通的 Slack 频道或协作群组。",
+        "**持续过程同步**：定期展示开发中的半成品甚至代码，绝不等到里程碑节点才揭晓。",
+        "**设立“满意度”门槛**：在核心 Alpha 用户群达到“极度满意”之前，严禁盲目扩大 Beta 测试范围或面向全量用户开放。",
+        "**促进团队渗透**：工程师须直接与用户对话以深度理解业务场景，杜绝需求传递过程中的“传声筒效应”。"
+      ],
+      "name_zh": "The Co-Creation Alpha Loop（共创 Alpha 飞轮）"
     },
     {
       "name": "The Engineercation Loop",
@@ -65,7 +92,20 @@
       "whenToUse": "Once a year for senior leaders, or within the first 6 months for new Engineering Managers.",
       "commonMistakes": "Doing 'toy' projects that don't touch production, or allowing meetings to creep back into the schedule.",
       "quote": "I'll clear several days... join a team, pick up a small task, hopefully a small feature that we can get all the way from start to finish in production and do that going through the exact experience the team has.",
-      "realWorldExample": "David Singleton learning Ruby (which he didn't know) to ship a feature to production, aided by a buddy named Ajhja."
+      "realWorldExample": "David Singleton learning Ruby (which he didn't know) to ship a feature to production, aided by a buddy named Ajhja.",
+      "summary_zh": "一种管理机制，指管理者在特定周期内清空日程，回归独立贡献者（IC）身份，亲自编写代码并发布至生产环境。",
+      "problemItSolves_zh": "防止研发经理和 CTO 与自身开发工具及部署流程的现状脱节。",
+      "whenToUse_zh": "针对资深管理者每年一次，或在新任工程经理上任后的前 6 个月内。",
+      "commonMistakes_zh": "做不涉及生产环境的“玩具”项目，或任由会议重新侵蚀日程。",
+      "realWorldExample_zh": "David Singleton 在伙伴 Ajhja 的协助下，现学 Ruby（此前从未接触过）以将功能发布到生产环境。",
+      "principles_zh": [
+        "**清空日程**：彻底锁定 3-4 天的时间。将其视为暂时“从管理事务中休假”——推掉所有会议。",
+        "**寻找结对伙伴**：与团队内的一位工程师结对，由对方指导你完成环境搭建，并客观地评审你的 PR。",
+        "**交付真实价值**：选择一个虽小但完整的任务（功能开发或 Bug 修复），并确保其最终发布到生产环境。",
+        "**拒绝特殊待遇**：严格遵循标准的代码评审、CI/CD 流水线及文档流程，切身体验研发过程中真实的痛点与摩擦。",
+        "**记录与分享**：详细记录开发环境中的“痛点日志”，并在团队内分享报告，以此推动开发工具链的优化。"
+      ],
+      "name_zh": "The Engineercation Loop（工程化飞轮）"
     }
   ],
   "notableQuotes": [
@@ -82,5 +122,6 @@
       "context": "Discussing the ROI of being 'meticulous in the craft' regarding checkout flow optimizations."
     }
   ],
-  "filename": "David Singleton"
+  "filename": "David Singleton",
+  "episodeSummary_zh": "David Singleton 深度剖析了 Stripe 独特的工程文化，阐释了他们如何打造一支具备“产品思维”的工程团队，从而在多年间无需设立专职产品经理。他详细拆解了诸如“摩擦日志 (Friction Logging)”和“工程特刊 (Engineerications)”等具体的内部仪式，展示了如何将“极致严谨”的核心价值观落地；同时分享了如何在保持日均 16 次高频部署的同时，依然维持 99.999% 的系统可靠性。"
 }
