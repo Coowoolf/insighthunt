@@ -3,7 +3,8 @@
     "name": "Deb Liu",
     "title": "CEO of Ancestry",
     "company": "Ancestry",
-    "background": "Deb Liu is the CEO of Ancestry and a former VP of Product at Facebook, where she built Facebook Marketplace to over 1 billion users and led the development of Facebook's mobile ad products. She also held leadership roles at PayPal and eBay and serves on the board of Intuit."
+    "background": "Deb Liu is the CEO of Ancestry and a former VP of Product at Facebook, where she built Facebook Marketplace to over 1 billion users and led the development of Facebook's mobile ad products. She also held leadership roles at PayPal and eBay and serves on the board of Intuit.",
+    "background_zh": "Deb Liu 现任 Ancestry CEO，曾任 Facebook 产品副总裁。在 Facebook 任职期间，她一手打造了 Facebook Marketplace 并将其用户规模拓展至超 10 亿，同时主导了移动广告产品的开发。此外，她曾在 PayPal 和 eBay 担任核心管理职务，目前兼任 Intuit 董事会成员。"
   },
   "episodeSummary": "Deb Liu shares a masterclass on navigating a product career, balancing the creation of zero-to-one billion-dollar businesses within large corporations, and overcoming the challenges of introversion in leadership. She provides tactical frameworks for treating your career with the same rigor as a product roadmap and offers specific strategies for onboarding successfully into executive roles.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When considering a job change, feeling stagnant in a current role, or conducting annual personal reviews.",
       "commonMistakes": "Relying on hindsight bias to justify accidental career moves rather than creating forward-looking intentionality.",
       "quote": "If I said you had to write a spec for your career, what does success look like? How are you going to get there? You have metrics for your product, and yet you don't have metrics for your career.",
-      "realWorldExample": "Deb contrasts her own 'accidental' path with a mentee who specifically identified a goal to join a Fortune 100 board and reverse-engineered the exact steps and introductions required to get there over 10 years."
+      "realWorldExample": "Deb contrasts her own 'accidental' path with a mentee who specifically identified a goal to join a Fortune 100 board and reverse-engineered the exact steps and introductions required to get there over 10 years.",
+      "summary_zh": "这是一套将产品管理的严谨逻辑应用于职业规划的战略框架。拒绝被动应对零散的工作邀约，而是主动为职业生涯定义一份 \"Spec\"，以此作为基于长期目标评估发展机遇的基准。",
+      "problemItSolves_zh": "避免高潜 PM 在职业发展中陷入“随波逐流”的状态，缺乏主动规划和清晰的进阶路径。",
+      "whenToUse_zh": "考虑职业变动、当前岗位陷入瓶颈，或进行个人年度复盘时。",
+      "commonMistakes_zh": "依赖后视偏差合理化偶然的职业变动，而非建立前瞻性的主动规划。",
+      "realWorldExample_zh": "Deb 将自己“随遇而安”的职业路径与一位学员的经历进行了对比：该学员明确锁定了“进入财富 100 强董事会”的目标，并对未来 10 年达成该目标所需的具体步骤和人脉引荐进行了精准的反向拆解。",
+      "principles_zh": [
+        "定义 5 年愿景：设定具体的成果（如“成为财富 100 强企业董事会成员”），而非模糊的职级头衔。",
+        "撰写规格书：将实现愿景所需的具体技能、经历（即“产品特性”）及关键里程碑文档化。",
+        "审计发展轨迹：评估潜在职位时，不应只看薪资或大厂光环，而要判断它能否让你更接近规格书设定的终点。",
+        "基于失败迭代：不要将职业挫折视为失败，而应将其视为调整职业战略的数据点，就像进行产品迭代一样。"
+      ],
+      "name_zh": "The Career Product Specification（职业产品说明书）"
     },
     {
       "name": "The Stealth Innovation Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "When launching a new vertical or experimental product inside a mature company (e.g., Facebook Marketplace, Mobile Ads).",
       "commonMistakes": " announcing a launch too early internally, which invites 'love to death'—over-scrutiny and resource-heavy processes that slow down iteration.",
       "quote": "The thing that I think a lot of large companies don't realize is that you can love something to death. I'd rather do it out of the limelight, do it with the minimal resources and have the freedom to fail.",
-      "realWorldExample": "When building Facebook's mobile ad product, Deb's team iterated on 5-6 versions out of the spotlight. The product was on the verge of death multiple times, and she even took a second job running payments to sustain the team before the ads product finally clicked."
+      "realWorldExample": "When building Facebook's mobile ad product, Deb's team iterated on 5-6 versions out of the spotlight. The product was on the verge of death multiple times, and she even took a second job running payments to sustain the team before the ads product finally clicked.",
+      "summary_zh": "一种针对大厂内部的新产品孵化策略，旨在通过最小化关注度和资源投入，来最大化迭代速度。该策略强调保持耐心，并致力于为团队屏蔽来自高管层的“关爱”，以免这种过早介入扼杀尚处于脆弱萌芽期的产品。",
+      "problemItSolves_zh": "应对大型组织严苛审视环境下，从0到1打造产品的高失败率难题。",
+      "whenToUse_zh": "在成熟企业内部启动新垂类业务或实验性产品时（例如 Facebook Marketplace、移动广告业务）。",
+      "commonMistakes_zh": "过早在内部公开项目，会招致“关爱致死”——引来过度的审视和繁重的流程负担，从而拖慢迭代节奏。",
+      "realWorldExample_zh": "在打造 Facebook 移动广告产品时，Deb 的团队在远离聚光灯的状态下低调迭代了 5-6 个版本。该产品曾数次濒临夭折，为了保住团队，她甚至不得不兼管支付业务，直到广告产品最终跑通。",
+      "principles_zh": [
+        "避开聚光灯：刻意保持项目低调，规避每周向高层汇报进度的压力。",
+        "视资源受限为特性：以最小化资源运作来倒逼聚焦，便于在没有巨大沉没成本包袱的情况下悄然转型。",
+        "投资组合思维：接受 50% 的失败率；将具体产品视为投资组合中的押注，而非关乎生死的必胜之战。",
+        "果断裁剪与转型：若功能或产品缺乏增长动能，需果断砍掉；将其视为实验种子，而非核心基建。"
+      ],
+      "name_zh": "The Stealth Innovation Protocol（潜行创新法则）"
     },
     {
       "name": "The Listen-Align-Execute Onboarding Cycle",
@@ -62,7 +87,19 @@
       "whenToUse": "The first 90 days of any new role, whether as an individual contributor or a C-level executive.",
       "commonMistakes": "Skipping the listening phase to 'get a quick win' and accidentally violating cultural norms or solving the wrong problem.",
       "quote": "You're part of a dance that's going around... if you actually make a mistake, you could trip other people up. Finding your place in the dance is really important.",
-      "realWorldExample": "When joining Ancestry as CEO, Deb interviewed 60 people in 30 days. She noted a wishlist item from one employee and, two years later, circled back to tell him they had finally completed his list, solidifying deep trust."
+      "realWorldExample": "When joining Ancestry as CEO, Deb interviewed 60 people in 30 days. She noted a wishlist item from one employee and, two years later, circled back to tell him they had finally completed his list, solidifying deep trust.",
+      "summary_zh": "这是一个结构化的 30-60-90 天框架，强调在全面转向执行模式前，优先进行深度倾听与建立信任。该框架旨在帮助新人规避因不了解团队文化而“踩雷”的风险。",
+      "problemItSolves_zh": "帮助管理者和 PM 在新岗位成功“软着陆”，避免引发团队对立或做出仓促、缺乏依据的决策。",
+      "whenToUse_zh": "任何新岗位的入职前 90 天，无论是独立贡献者还是 C-level 高管。",
+      "commonMistakes_zh": "为追求“速胜”而跳过倾听阶段，导致无意中触犯团队文化禁忌，或是解决了错误的问题。",
+      "realWorldExample_zh": "Deb 出任 Ancestry CEO 时，在 30 天内与 60 人进行了访谈。当时她特意记下了一位员工提及的「心愿单」需求，并在两年后专门向其反馈清单已全部落地，这一举动极大地夯实了深层信任。",
+      "principles_zh": [
+        "第 0-30 天（倾听之旅）：深度访谈 50-60 位关键干系人。询问“当前面临的挑战”及“你的期望清单是什么”。切记：此时主要任务是倾听，暂不输出解决方案。",
+        "互惠触发机制：向每个产研团队询问“本周我能为你做的一件具体的事是什么？”，以此快速建立信任资本。",
+        "第 31-60 天（对齐）：将倾听之旅获取的信息提炼为一份“全局现状综述”并进行回放。与组织确认：“这是我所接收到的信息，我们聚焦的问题域是否准确？”",
+        "第 61-90 天（执行）：唯有在完成对齐之后，才开始基于达成的共识愿景推进执行落地。"
+      ],
+      "name_zh": "The Listen-Align-Execute Onboarding Cycle（“倾听-对齐-执行”入职循环）"
     },
     {
       "name": "The Introvert's Visibility Loop",
@@ -78,7 +115,19 @@
       "whenToUse": "For introverted PMs struggling to get promoted, or leaders trying to unlock the potential of introverted team members.",
       "commonMistakes": "Assuming 'good work speaks for itself'—it rarely does without a narrative wrapper (product marketing for your career).",
       "quote": "You make a light bulb, but you're selling light... She was making amazing number of light bulbs... but she was not marketing the light.",
-      "realWorldExample": "Deb's manager (Bos) forced her to sign a 'contract' to write and publish one piece of content every month. This external accountability helped her overcome her fear of sharing her wisdom publicly."
+      "realWorldExample": "Deb's manager (Bos) forced her to sign a 'contract' to write and publish one piece of content every month. This external accountability helped her overcome her fear of sharing her wisdom publicly.",
+      "summary_zh": "一套战术性行为转变与结构性调整方案，旨在确保内向者在不改变核心人格的前提下，使其工作价值获得认可并能有效影响决策。",
+      "problemItSolves_zh": "助力内向型产品从业者在偏好外向特质与即兴表达的职场环境中脱颖而出。",
+      "whenToUse_zh": "适用于面临晋升困境的内向型产品经理，或试图挖掘内向型成员潜力的团队管理者。",
+      "commonMistakes_zh": "误以为“酒香不怕巷子深”——若缺乏叙事包装（即针对个人职业生涯的产品营销），优秀的业绩很难“自我发声”。",
+      "realWorldExample_zh": "Deb 的主管 (Bos) 强制她签下了一份“契约”，规定每月必须撰写并发布一篇内容。这种外部约束机制帮助她克服了对外分享专业见解的心理障碍。",
+      "principles_zh": [
+        "**重构自我营销认知**：摒弃“炫耀”心理，将分享工作成果视为对业务方的“价值同步”，旨在通过展示团队产出来争取必要资源。",
+        "**建立“以写促言”契约**：承诺固定的写作排期（如每月一篇博客或内部文档），通过输出倒逼思维外化。",
+        "**会前预处理机制**：提前准备观点与反馈，消除思维“处理时差”，避免因现场思考而错失发言窗口期。",
+        "**构建结构化公平**：在口头讨论前，推行“默读”或文档内异步投票（如在协作表格中为每位参会者分配独立行进行评论），从机制上保障话语权平等。"
+      ],
+      "name_zh": "The Introvert's Visibility Loop（内向者能见度飞轮）"
     }
   ],
   "notableQuotes": [
@@ -99,5 +148,6 @@
       "context": "Advice she gives to university students about the impact of a partner on career longevity and balance."
     }
   ],
-  "filename": "Deb Liu"
+  "filename": "Deb Liu",
+  "episodeSummary_zh": "Deb Liu 带来了一场关于驾驭产品职业生涯的大师课，分享了如何在大型企业内部从 0 到 1 孵化十亿美金级业务，以及内向者如何突破领导力瓶颈。她提供了一套实战框架，教你用规划产品路线图的严谨度来经营职业生涯，并给出了成功履新高管职位的具体策略。"
 }

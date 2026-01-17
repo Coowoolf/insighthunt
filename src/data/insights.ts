@@ -53,6 +53,15 @@ function transformData() {
                 // Dynamic visualization
                 visualizationType: m.visualizationType,
                 visualizationData: m.visualizationData,
+                // Chinese translations
+                name_zh: m.name_zh,
+                summary_zh: m.summary_zh,
+                principles_zh: m.principles_zh,
+                quote_zh: m.quote_zh,
+                problemItSolves_zh: m.problemItSolves_zh,
+                whenToUse_zh: m.whenToUse_zh,
+                commonMistakes_zh: m.commonMistakes_zh,
+                realWorldExample_zh: m.realWorldExample_zh,
             };
             methodologies.push(methodology);
             guest.methodologies.push(methodology);
