@@ -3,7 +3,8 @@
     "name": "Adam Grenier",
     "title": "Advisor & Investor",
     "company": "Reforge / A16Z (Scout) / Self-Employed",
-    "background": "Former Head of Growth Marketing & Innovation at Uber, VP of Product & Marketing at Lambda School, and VP of Marketing at Masterclass. Currently advises startups and invests."
+    "background": "Former Head of Growth Marketing & Innovation at Uber, VP of Product & Marketing at Lambda School, and VP of Marketing at Masterclass. Currently advises startups and invests.",
+    "background_zh": "曾任 Uber 增长营销与创新负责人、Lambda School 产品与营销副总裁及 Masterclass 营销副总裁。现担任初创企业顾问及投资人。"
   },
   "episodeSummary": "Adam Grenier joins Lenny to discuss the evolution of growth marketing, offering a framework for evaluating emerging acquisition channels like TikTok or influencers. He defines the 'Growth CMO' role, contrasting it with traditional marketing leadership, and emphasizes the integration of product and marketing. The conversation also covers mental health, distinguishing between burnout and depression in high-pressure tech environments.",
   "methodologies": [
@@ -28,7 +29,18 @@
           "2. Analyze Channel DNA (Trajectory, Volatility, Monetization Model)",
           "3. Evaluate Company DNA (Risk Appetite, Team Bandwidth, Current Channel Mix)"
         ]
-      }
+      },
+      "summary_zh": "一套包含三个步骤的框架，用于判断公司是否应向全新或未经验证的获客渠道投入资源，核心考量维度为战略契合度、渠道成熟度及内部就绪度。",
+      "problemItSolves_zh": "避免团队在与自身商业模式或发展阶段不匹配的“热门”新渠道（如 Clubhouse 或 VR）上浪费资源。",
+      "whenToUse_zh": "当决策是否在新平台（如 TikTok、KOL、OTT）开展实验时。",
+      "commonMistakes_zh": "仅仅因为渠道热门就盲目跟进，却未验证其是否契合目标用户需求；指望在不成熟的平台上立即获得规模化的增长结果。",
+      "realWorldExample_zh": "Spotify 与 Clubhouse（重合度高：音频优先，存在内容发现需求）；Hotel Tonight 与 Facebook 移动广告（变现模式契合）。",
+      "principles_zh": [
+        "战略契合度：确保渠道优势与用户需求及公司目标高度对齐。",
+        "渠道基因：评估该渠道的发展轨迹、变动风险及变现模式。",
+        "公司基因：评估内部风险承受力、资源带宽及现有渠道的稳定性。"
+      ],
+      "name_zh": "Emerging Channel Evaluation Framework（新兴渠道评估框架）"
     },
     {
       "name": "The Growth CMO Model",
@@ -56,8 +68,21 @@
           "Brand as 'Action' → Brand as Investment Loop",
           "Learning-focused → Performance & Data-driven"
         ]
-      }
+      },
+      "summary_zh": "一套领导力模型，旨在将市场营销从孤岛式、活动导向的职能，转型为与产品研发深度融合、数据驱动且持续迭代的体系。",
+      "problemItSolves_zh": "化解传统 CMO 与现代产品驱动型组织之间的冲突，解决传统打法无法适应快速变化环境的难题。",
+      "whenToUse_zh": "为技术/产品驱动型企业招聘市场负责人，或进行市场职能重组时。",
+      "commonMistakes_zh": "为早期产品型公司聘请传统品牌型 CMO；将品牌建设视为一次性的“营销战役”，而非持续迭代的长期投入。",
+      "realWorldExample_zh": "可口可乐早期的优惠券策略（这是将市场机制与增长思维应用于产品分发的早期典型案例）。",
+      "principles_zh": [
+        "深度融合：市场与产品需紧密绑定，彻底打破部门孤岛。",
+        "快速迭代：摒弃僵化的长期规划，转向敏捷冲刺与快速反馈闭环。",
+        "全漏斗实验：将严谨的测试机制应用于品牌、留存及创意环节，绝不仅限于获客。",
+        "数据导向：以数据驱动品牌投入及用户生命周期全流程的决策。"
+      ],
+      "name_zh": "The Growth CMO Model（增长型 CMO 模型）"
     }
   ],
-  "filename": "Adam Grenier"
+  "filename": "Adam Grenier",
+  "episodeSummary_zh": "Adam Grenier 做客 Lenny 的节目，探讨增长营销的演进，并分享了一套用于评估 TikTok、KOL 等新兴获客渠道的框架。他定义了“增长型 CMO”这一角色，剖析其与传统营销管理层的区别，并强调了产品与营销融合的重要性。此外，双方还探讨了高压科技职场中的心理健康话题，重点厘清了职业倦怠与抑郁症的界限。"
 }
