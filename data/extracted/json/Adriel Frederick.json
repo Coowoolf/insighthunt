@@ -4,7 +4,7 @@
     "title": "VP of Product",
     "company": "Reddit",
     "background": "Former Director of Product at Lyft (Marketplace/Pricing), Early PM at Facebook (Growth/User Acquisition), Strategy Consultant at McKinsey. Originally from Trinidad and Tobago.",
-    "background_zh": "前 Lyft 产品总监（交易平台/定价），Facebook 早期产品经理（增长/获客），麦肯锡战略顾问。原籍特立尼达和多巴哥。"
+    "background_zh": "前 Lyft 产品总监（交易市场/定价），Facebook 早期产品经理（增长/获客），曾任麦肯锡战略咨询顾问。来自特立尼达和多巴哥。"
   },
   "episodeSummary": "Adriel Frederick discusses the intersection of human intuition and algorithmic scale, sharing lessons from Facebook's early growth team and Lyft's marketplace challenges. He advocates for 'Human-in-the-Loop' design where algorithms amplify human intent rather than replacing judgment. He also details the 'Marginal User' framework for debugging growth and the importance of a balanced portfolio of 'Cannonballs' (big bets) and 'Lead Bullets' (optimizations).",
   "methodologies": [
@@ -33,7 +33,20 @@
           "Step 4: Filter for Marginal Relevance (Which fixes help the next-best user?)",
           "Step 5: Execute Fixes (Remove barriers for the many by solving for the few)"
         ]
-      }
+      },
+      "summary_zh": "这是一种通过聚焦处于转化“临界点”或“极端场景”的用户，来识别高撬动效应产品改进机会的方法。致力于解决阻力最大的用户（如：低端设备、弱网环境、语言障碍）所面临的问题，往往能为整体用户群消除深层的隐性障碍。",
+      "problemItSolves_zh": "突破转化瓶颈，解决汇总数据无法揭示影响增长的具体摩擦点的问题。",
+      "whenToUse_zh": "当面临高流量、低转化的情况，或正在拓展新的国际市场/目标人群时。",
+      "commonMistakes_zh": "完全依赖数据分析而忽视定性观察；误以为“平均”用户代表了增长瓶颈。",
+      "realWorldExample_zh": "在 Facebook，Adriel 曾深入分析过一位在 Edge 网络环境下使用功能机的用户。他发现核心痛点在于语言障碍和网络延迟。针对这种“极端场景”进行的延迟优化，最终提升了全量用户的访问速度。",
+      "principles_zh": [
+        "锁定“极端条件”下的用户（如：使用功能机、边缘网络环境）。",
+        "切勿仅依赖数据漏斗，必须通过人工方式进行定性用户观察。",
+        "穷举该类用户遭遇的所有体验摩擦点。",
+        "甄别哪些障碍同时也阻挡了“边缘用户”（即下一波最有望转化的群体）。",
+        "攻克这些底层障碍，从而解锁全局增长潜力。"
+      ],
+      "name_zh": "The Marginal User Framework（边际用户框架）"
     },
     {
       "name": "Human-in-the-Loop Algorithmic Design",
@@ -64,7 +77,19 @@
           "Feed all data without objectives",
           "Remove human operational control entirely"
         ]
-      }
+      },
+      "summary_zh": "这是一种将算法视为放大人类意图的工具，而非自主决策者的设计理念。该方法论强调：虽然机器在优化和规模化方面表现卓越，但人类必须针对不可预见的场景，提供必要的约束条件、战略方向及关键判断。",
+      "problemItSolves_zh": "规避“技术乌托邦”式的陷阱，防止算法针对错误目标进行优化（例如：通过煽动愤怒情绪来最大化用户参与度，或为抢占市场份额而不顾利润地恶意降价）。",
+      "whenToUse_zh": "构建算法密集型产品（如定价、信息流、撮合），此类业务场景对运营管控力和战略精细度有较高要求。",
+      "commonMistakes_zh": "盲目向算法投喂全量数据并期望其自动“做正确的事”；未能搭建用于人工干预的运营工具。",
+      "realWorldExample_zh": "Lyft 定价算法：为了抢占市场份额，算法可能会极端地将价格降至 0 元。因此，必须由人工设定约束条件（如利润底线）和战略方向（如主攻市场），让算法得以规模化地执行这些商业意图。",
+      "principles_zh": [
+        "算法擅长针对特定目标进行优化，但缺乏对长期影响的全局视野。",
+        "人类必须设定战略边界（例如：“价格不得降至零”）。",
+        "设计让“人工判断”引导“机器执行”的交互机制。",
+        "将机器学习视为延伸人类能力的工具（如同螺丝起子），而非不可解释的黑盒。"
+      ],
+      "name_zh": "Human-in-the-Loop Algorithmic Design（人在回路算法设计）"
     },
     {
       "name": "The Cannonballs and Lead Bullets Portfolio",
@@ -108,17 +133,20 @@
           }
         ]
       },
-      "commonMistakes_zh": "误以为在缺乏核心产品价值主张（“炮弹”）的情况下，仅靠“增长黑客”战术（“铅弹”）就能取得成功；因进行过多琐碎实验而产生隐性成本。",
-      "realWorldExample_zh": "Facebook：“铅弹”指的是文案微调或按钮调整；“炮弹”则是指面向发展中国家支持短信注册，或是重构整个好友推荐引擎。",
+      "commonMistakes_zh": "试图在缺乏核心产品价值主张（炮弹）的情况下，仅靠“增长黑客”（铅弹）获得成功；以及因开展过多琐碎实验而产生的隐性成本。",
+      "realWorldExample_zh": "Facebook：“铅弹”指微小的文案迭代或按钮微调；“炮弹”则是指为发展中国家上线短信注册功能，或重构整个好友推荐引擎。",
       "principles_zh": [
-        "组合平衡：80% 的资源投入“炮弹”类项目，20% 投入“铅弹”类项目（比例随产品成熟度调整）。",
-        "铅弹：侧重于优化迭代，包括小的增长手段、文案调整和 UI 微调。",
-        "炮弹：涉及底层重构、上线全新的核心功能，以及工程量巨大的重研发项目。",
-        "早期产品需要“炮弹”来寻求突破；成熟期产品则更多依赖“铅弹”进行持续优化。"
+        "组合平衡：80% 的精力投入“炮弹”类事项，20% 投入“铅弹”类事项（比例随产品成熟度调整）。",
+        "“铅弹”：指常规优化、小修小改、文案调整及 UI 微调。",
+        "“炮弹”：指底层重构、全新核心功能及重度研发投入。",
+        "早期产品需要“炮弹”破局；成熟产品更多依赖“铅弹”迭代。"
       ],
-      "name_zh": "The Cannonballs and Lead Bullets Portfolio（炮弹与铅弹组合）"
+      "name_zh": "The Cannonballs and Lead Bullets Portfolio（炮弹与铅弹的策略组合）",
+      "summary_zh": "一套针对产品开发的资源配置框架。“铅弹”是指能够持续积累价值的小型渐进式优化（实验）；“炮弹”则是指需要高投入、但能带来变革性影响的根本性变革。",
+      "problemItSolves_zh": "防止陷入“渐进主义”，避免团队只通过上线小型实验来微幅拉动指标，从而错失跨越式创新的机会。",
+      "whenToUse_zh": "规划产品路线图与资源配置，确保团队不仅仅是在“优化局部最大值”。"
     }
   ],
   "filename": "Adriel Frederick",
-  "episodeSummary_zh": "Adriel Frederick 探讨了人类直觉与算法规模化的结合，并分享了他在 Facebook 早期增长团队以及应对 Lyft 双边市场挑战时的实战经验。他主张采用“人在回路”（Human-in-the-Loop）的设计理念，即利用算法来放大人类的意图，而非完全替代人类的判断力。此外，他还深入拆解了用于诊断增长瓶颈的“边际用户”（Marginal User）框架，并强调了构建平衡产品组合的重要性——即在“炮弹”（Cannonballs，即战略性大赌注）与“铅弹”（Lead Bullets，即战术性优化）之间找到最佳平衡点。"
+  "episodeSummary_zh": "Adriel Frederick 探讨了人类直觉与算法规模效应的结合，并分享了他在 Facebook 早期增长团队及解决 Lyft 双边市场挑战时的实战经验。他提倡“人在回路（Human-in-the-Loop）”的设计理念，主张利用算法增强人类意图，而非取代人的判断力。此外，他还详解了用于诊断增长问题的“边际用户（Marginal User）”框架，并强调了构建均衡组合的重要性——即兼顾“炮弹”（Cannonballs，战略级大赌注）与“铅弹”（Lead Bullets，战术级细节优化）。"
 }
