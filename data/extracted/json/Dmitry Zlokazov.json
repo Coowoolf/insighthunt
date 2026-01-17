@@ -3,7 +3,8 @@
     "name": "Dmitry Zlokazov",
     "title": "Global Head of Product",
     "company": "Revolut",
-    "background": "Leads product strategy and execution for the $60B+ financial super app serving 50M+ customers globally. He oversees a unique product culture known for producing high-performing alumni comparable to Palantir and Intercom."
+    "background": "Leads product strategy and execution for the $60B+ financial super app serving 50M+ customers globally. He oversees a unique product culture known for producing high-performing alumni comparable to Palantir and Intercom.",
+    "background_zh": "负责估值超 600 亿美元金融超级应用的产品战略与执行，服务全球 5000 万+ 用户。他掌舵着一种独特的产品文化，以输送众多可比肩 Palantir 和 Intercom 的高绩效“校友”人才而享誉业界。"
   },
   "episodeSummary": "Dmitry Zlokazov deconstructs Revolut's high-velocity product culture, explaining how they operate with 'Product Owners' who function as true local CEOs rather than facilitators. He details their contrarian hiring practices that favor raw intellect over experience, their rigorous 'deep dive' management style where leaders audit code-level details, and why they refuse to ship 'scrappy' MVPs in favor of highly polished, 'wow' experiences.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "Best for scale-ups or high-growth startups where speed of execution is critical and 'consensus culture' is slowing down delivery.",
       "commonMistakes": "Treating the title change as cosmetic without actually giving the PM hiring/firing or resource allocation authority.",
       "quote": "Product owners are central to the company... They are end-to-end responsible for the product, for this part of the business, and for their customers to be happy.",
-      "realWorldExample": "Revolut's credit team creates loans and credit cards for 50 different countries with just ~300 people, whereas incumbent banks require 2,000+ people for a single country, due to this autonomous structure."
+      "realWorldExample": "Revolut's credit team creates loans and credit cards for 50 different countries with just ~300 people, whereas incumbent banks require 2,000+ people for a single country, due to this autonomous structure.",
+      "summary_zh": "Revolut 重构了 PM 的角色定义，将其从单纯的“协调员”转变为“产品负责人（Product Owner）”，使其成为跨职能团队（涵盖研发与设计）的实质管理者。这种模式建立了垂直维度的责任归属，对 PM 的考核聚焦于最终的业务结果，而非仅仅是功能交付。",
+      "problemItSolves_zh": "破解了“无授权影响力”的僵局，解决了 PM 因受制于非直接管控的资源而无法快速推进的问题。",
+      "whenToUse_zh": "最适用于快速扩张期企业或高增长初创公司，特别是当执行速度至关重要，而“共识文化”正在拖累交付效率时。",
+      "commonMistakes_zh": "仅在头衔上做表面文章，却未赋予 PM 实质性的招聘/解雇权或资源分配权。",
+      "realWorldExample_zh": "得益于这种自治架构，Revolut 信贷团队仅需约 300 人就能支撑 50 个国家的贷款与信用卡业务；相比之下，传统银行仅在单一国家市场就需要投入 2000 多人。",
+      "principles_zh": [
+        "全权掌控资源：产品负责人作为敏捷小组的实线管理者，拥有调配研发和设计资源的实质性权力。",
+        "基于指标的自主决策：团队背负顶层业务指标，只要执行逻辑经得起推敲，便拥有决定“如何落地”的完全自主权。",
+        "三种 PM 画像：根据具体的问题域配置特定类型的 PM——体验型（面向 C 端）、技术型（负责平台/基建）或数据型（负责算法/风控）。",
+        "全链路责任制：PM 需要承担无死角的最终责任，覆盖从代码质量、监管合规到市场推广落地的全过程。"
+      ],
+      "name_zh": "The 'Local CEO' Operating Model（“局部 CEO” 运作模式）"
     },
     {
       "name": "The 'Code-Level' Deep Dive Audit",
@@ -46,7 +59,19 @@
       "whenToUse": "When managing large portfolios of products where quality is slipping, or when establishing a high-performance culture in a rapidly scaling team.",
       "commonMistakes": "Getting stuck in the details for *every* project (bottlenecking) rather than using deep dives as a sampling and cultural enforcement mechanism.",
       "quote": "We take maybe 7 or 10 projects which are most impactful... and we go super deep into them, really, really deep sitting with engineers like reading code level.",
-      "realWorldExample": "Dmitry personally audits specific country branch launches, reviewing the regulatory logic and engineering implementation to ensure the automated platform approach is working, rather than just reading a 'green' status report."
+      "realWorldExample": "Dmitry personally audits specific country branch launches, reviewing the regulatory logic and engineering implementation to ensure the automated platform approach is working, rather than just reading a 'green' status report.",
+      "summary_zh": "与其试图对 100 多个项目进行浅尝辄止的微观管理，管理层更应精选出少数（7-10 个）高影响力项目进行极高强度的深度审查——这种审查甚至要下钻至查阅代码层面，并直接与工程师并肩工作。此举旨在向整个组织确立并传递明确的质量标杆。",
+      "problemItSolves_zh": "防止管理层沦为与业务脱节的“仪表盘管理者”，同时确保对数百个并行项目的质量把控。",
+      "whenToUse_zh": "当管理庞大的产品矩阵且质量出现滑坡，或需在团队快速扩张期打造高绩效文化时。",
+      "commonMistakes_zh": "陷入*每个*项目的细节泥潭（导致自身成为瓶颈），而非将“深挖”作为一种抽样检查和贯彻文化的机制。",
+      "realWorldExample_zh": "Dmitry 亲自审计特定国家分部的业务启动，深入核查合规逻辑与工程实现，确保平台自动化机制真正跑通，而非仅仅看一份显示“一路绿灯”的状态报告。",
+      "principles_zh": [
+        "**选择性深挖**：切忌面面俱到。只针对 7-10 个对用户影响最大或风险最高的关键项目进行审查。",
+        "**极致颗粒度**：不要止步于 Roadmap。要深入阅读代码，查阅具体的合规文档，并亲自测试边界情况（Edge Cases）。",
+        "**信号机制**：将深度审计作为传递文化导向的信号。顺利通过的团队将获得更多自主权，反之则会在下一周期面临更严厉的审查。",
+        "**创始人级验收**：确保由最高产品负责人进行最终签发（Sign-off），哪怕需要逐屏过审，也要严守质量准线（Bar）。"
+      ],
+      "name_zh": "The 'Code-Level' Deep Dive Audit（“代码级”深度剖析）"
     },
     {
       "name": "The 'Polished MVP' Protocol",
@@ -62,7 +87,19 @@
       "whenToUse": "When launching new verticals in competitive markets (like FinTech) where trust is paramount and competitors already offer 'good enough' solutions.",
       "commonMistakes": "Confusing 'polished' with 'feature-complete'. You should still build a small product, just not a broken or ugly one.",
       "quote": "It's not getting traction. Is it because the underlying idea is wrong? Or maybe your product just sucks? By forcing everyone to build a product that people will love, we kind of cut out this part of uncertainty.",
-      "realWorldExample": "When launching the 'Joint Accounts' feature, Revolut ensured it wasn't just a shared pot, but a fully integrated, high-polish experience. It quickly scaled to over 1 million active users because the V1 was lovable, not just functional."
+      "realWorldExample": "When launching the 'Joint Accounts' feature, Revolut ensured it wasn't just a shared pot, but a fully integrated, high-polish experience. It quickly scaled to over 1 million active users because the V1 was lovable, not just functional.",
+      "summary_zh": "Revolut 摒弃了那种“粗糙版”MVP 的理念。他们将功能范围极度收敛至绝对核心的集合，但在向用户开放前，务必确保这极少数功能的质量、UX 和视觉美感都达到了令人惊艳（Wow）的极致水准。",
+      "problemItSolves_zh": "规避“假阴性”风险：避免因 MVP 存在过多 Bug 或设计过于简陋导致无法获得市场势能，而非创意本身不可行所致的失败。",
+      "whenToUse_zh": "在竞争激烈的市场（如 FinTech）切入新垂类时，该领域信任至关重要，且竞品已提供了“足够好”的解决方案。",
+      "commonMistakes_zh": "误将“精致”等同于“功能完备”。你依然需要构建一个小体量的产品，只是绝不能交付一个残缺或粗糙的次品。",
+      "realWorldExample_zh": "Revolut 在推出“联名账户”功能时，确保它不只是一个简单的资金共享池，而是一套深度集成且极致打磨的产品体验。该功能迅速实现了超 100 万活跃用户的规模增长，因为其 V1 版本不仅做到了“功能可用”，更做到了“令人喜爱”。",
+      "principles_zh": [
+        "收敛范围，极致打磨：将功能砍至极简（仅保留 10%），但务必确保这 10% 具备 100% 的交付质量与设计保真度。",
+        "排除“体验差”的干扰变量：通过强制高质量交付，排除因“执行拉胯”导致的失败。若验证失败，即可确定是*伪需求*或方向错误。",
+        "打造“惊喜层”：在满足基础必备要素（如利率）之外，MVP 的 V1 版本必须包含能带来“惊喜感”的功能（如自定义壁纸、即时提现）。",
+        "封闭内测验证：在小规模用户群中针对打磨后的版本进行迭代，待留存数据验证达标后，再向海量用户全量推广。"
+      ],
+      "name_zh": "The 'Polished MVP' Protocol（\"精致 MVP\" 法则）"
     }
   ],
   "notableQuotes": [
@@ -79,5 +116,6 @@
       "context": "His favorite motto (quoting Eisenhower), emphasizing that while agility is key, the deep thinking required to create a plan is non-negotiable."
     }
   ],
-  "filename": "Dmitry Zlokazov"
+  "filename": "Dmitry Zlokazov",
+  "episodeSummary_zh": "Dmitry Zlokazov 深度拆解了 Revolut 极速运转的产品文化，阐述了其独特的“产品负责人（PO）”运作机制——在 Revolut，PO 并非单纯的流程协调员，而是像真正的业务 CEO 一样掌控全局。\n\n他详细介绍了 Revolut 反常规的招聘策略（重天赋智力、轻过往资历），以及其严苛的“Deep Dive”管理风格（管理者甚至会下钻至代码层面进行审查）；同时揭示了为何他们拒绝发布粗糙简陋的 MVP，转而坚持交付经过高度打磨、能带来“Wow”时刻的极致体验。"
 }
