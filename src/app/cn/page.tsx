@@ -250,7 +250,7 @@ function ChineseMethodologyCard({ methodology }: { methodology: MethodologyWithZ
                 <div className="flex items-start justify-between gap-4 mb-3">
                     <div>
                         <Link
-                            href={`/cn/methodologies/${methodology.id}`}
+                            href={`/methodologies/${methodology.id}`}
                             className="text-xl font-semibold text-gray-900 mb-1 hover:text-brand-mid transition-colors block"
                         >
                             {displayName}
@@ -307,7 +307,7 @@ function ChineseMethodologyCard({ methodology }: { methodology: MethodologyWithZ
                         ))}
                     </div>
                     <Link
-                        href={`/cn/methodologies/${methodology.id}`}
+                        href={`/methodologies/${methodology.id}`}
                         className="flex-shrink-0 px-4 py-2 text-sm font-medium text-brand-mid hover:text-white hover:bg-gradient-to-r hover:from-brand-start hover:to-brand-mid rounded-lg border border-brand-mid/30 hover:border-transparent transition-all"
                     >
                         深入了解 →
