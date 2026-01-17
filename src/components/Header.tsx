@@ -1,18 +1,24 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import LanguageSwitcher from './LanguageSwitcher';
-import { useLanguage } from '@/context/LanguageContext';
 
 export function Header() {
-    const { t } = useLanguage();
+    const pathname = usePathname();
+    const isChineseRoute = pathname.startsWith('/cn');
+
+    // Route-based translation - EN route always shows English, /cn shows Chinese
+    const t = (en: string, zh: string) => isChineseRoute ? zh : en;
+    const homeLink = isChineseRoute ? '/cn' : '/';
+    const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
 
     return (
         <header className="glass-header sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-6 py-4">
                 <div className="flex items-center justify-between">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-3">
+                    <Link href={homeLink} className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-xl bg-gradient-brand flex items-center justify-center text-white text-xl">
                             💡
                         </div>
@@ -24,11 +30,11 @@ export function Header() {
 
                     {/* Navigation */}
                     <nav className="hidden md:flex items-center gap-6">
-                        <Link href="/" className="text-gray-600 hover:text-brand-start transition-colors font-medium">
-                            {t('nav.methodologies')}
+                        <Link href={homeLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
+                            {t('Methodologies', '方法论')}
                         </Link>
-                        <Link href="/guests" className="text-gray-600 hover:text-brand-start transition-colors font-medium">
-                            {t('nav.guests')}
+                        <Link href={guestsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
+                            {t('Guests', '嘉宾')}
                         </Link>
                     </nav>
 
@@ -51,4 +57,5 @@ export function Header() {
         </header>
     );
 }
+
 

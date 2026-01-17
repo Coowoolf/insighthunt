@@ -3,7 +3,8 @@
     "name": "Dhanji R. Prasanna",
     "title": "Chief Technology Officer",
     "company": "Block (formerly Square)",
-    "background": "CTO overseeing a 3,500+ person engineering organization across Square, Cash App, and Afterpay. A former Google engineer who worked on Google Wave and Google+, he is a key driver behind Block's transformation into an AI-native company through the development of their internal agent, 'Goose'."
+    "background": "CTO overseeing a 3,500+ person engineering organization across Square, Cash App, and Afterpay. A former Google engineer who worked on Google Wave and Google+, he is a key driver behind Block's transformation into an AI-native company through the development of their internal agent, 'Goose'.",
+    "background_zh": "现任 CTO，统管 Square、Cash App 和 Afterpay 规模超 3500 人的工程团队。作为前 Google 工程师，曾参与 Google Wave 和 Google+ 的研发。他通过主导开发内部 AI Agent “Goose”，成为了推动 Block 向 AI 原生企业转型的核心人物。"
   },
   "episodeSummary": "Dhanji Prasanna details Block's radical transformation from a federated financial services company into a functional, AI-native technology organization. He explains how their internal open-source agent, Goose, saves employees 8-10 hours a week by utilizing the Model Context Protocol (MCP) to give AI 'arms and legs.' The conversation covers the necessity of organizational restructuring to support AI, the fallacy of code quality equating to product success, and the future of autonomous engineering.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When deploying AI across a large organization to move beyond simple code completion and into true workflow automation.",
       "commonMistakes": "Treating the AI agent as a search engine rather than an employee that can execute tasks; failing to give the agent write-access to necessary tools.",
       "quote": "Goose gives these brains arms and legs to go out and act in our digital world... It’s orchestrating across all these systems.",
-      "realWorldExample": "An engineer at Block has 'Goose' watch his screen and listen to voice; if he discusses a feature on Slack, Goose autonomously opens a PR with a draft of that feature before the meeting ends."
+      "realWorldExample": "An engineer at Block has 'Goose' watch his screen and listen to voice; if he discusses a feature on Slack, Goose autonomously opens a PR with a draft of that feature before the meeting ends.",
+      "summary_zh": "该策略旨在通过 Model Context Protocol (MCP) 封装内部工具，从而突破 LLM 传统的被动交互模式。它赋予了 AI 自主对接各类系统（如数据库、日历、IDE）的能力，使其能够在无需人工干预的情况下，独立闭环处理复杂的多步骤工作流。",
+      "problemItSolves_zh": "突破了“对话式”AI 编程的局限，解决了人类为获取结果必须与模型进行频繁“拉锯式”多轮交互的痛点。",
+      "whenToUse_zh": "当大型组织进行 AI 规模化部署，旨在超越基础的代码补全，实现真正的工作流自动化时。",
+      "commonMistakes_zh": "将 AI Agent 仅视为搜索引擎，而非具备执行能力的员工；未能授予其对必要工具的写入权限。",
+      "realWorldExample_zh": "Block 的一位工程师利用 'Goose' 实时监测屏幕与语音；一旦他在 Slack 上讨论某个功能，Goose 就会自动生成代码草稿，并在会议结束前提交 PR。",
+      "principles_zh": [
+        "**工具封装而非单纯堆砌上下文**：为内部系统（如 Snowflake、Slack、Git）构建标准化的 API 封装（MCPs），赋予 Agent 自主拉取数据的能力。",
+        "**转向异步自主模式**：不再在线等待简短回复，而是指派 Agent 执行长达 8 小时的过夜任务（例如“重构此模块”或“修复这些漏洞”）。",
+        "**拥抱 “rm -rf” 思维**：利用 Agent 的极速开发能力，直接从零重写整个应用，而非在遗留代码上进行低效的增量重构。",
+        "**工具构建民主化**：赋能非技术团队（如风控、市场部门）利用 Agent 自建 CRUD 应用与工作流，无需受限于内部研发资源的排期瓶颈。"
+      ],
+      "name_zh": "The Agentic MCP Framework（智能体 MCP 框架）"
     },
     {
       "name": "The Functional Tech-First Reset",
@@ -46,7 +59,19 @@
       "whenToUse": "When a multi-product company feels sluggish, fragmented, or unable to deploy new core technologies (like AI) across all business lines efficiently.",
       "commonMistakes": "Maintaining the GM structure while trying to enforce centralized technical mandates—this creates conflict and rarely works.",
       "quote": "I think that moving to a functional structure completely changes that... we no longer see engineers as a commodity to just add 100 people to go and build the next product.",
-      "realWorldExample": "Block moved from independent GM-run companies (Square, Cash App) to a functional structure, allowing them to deploy Goose and AI standards across 3,500 people simultaneously."
+      "realWorldExample": "Block moved from independent GM-run companies (Square, Cash App) to a functional structure, allowing them to deploy Goose and AI standards across 3,500 people simultaneously.",
+      "summary_zh": "这是一种组织重组方法论，主张从“总经理（GM）主导的业务单元制”向“职能型汇报条线”转型。这一变革能够统一工程标准，避免研发人员的“工具化”，并推动新技术（如 AI）在全公司范围内的快速落地。",
+      "problemItSolves_zh": "解决“身份迷失”问题：即科技公司因业务孤岛效应，导致运作模式逐渐沦为低效的服务提供商。",
+      "whenToUse_zh": "当一家多产品线公司感到运转迟缓、组织割裂，或无法将 AI 等核心新技术高效地跨业务线落地应用时。",
+      "commonMistakes_zh": "在保留 GM 架构的同时，试图强制推行中心化的技术指令——这种做法会制造冲突，且鲜有成效。",
+      "realWorldExample_zh": "Block 从由 GM 管理的独立业务模式（如 Square 和 Cash App）转型为职能型架构，从而得以在 3500 人的组织规模下，统一部署 Goose 和 AI 标准。",
+      "principles_zh": [
+        "统一汇报关系：所有工程师统一向技术总负责人汇报，而非向各业务线（BU）总经理汇报，确保在短期业务 KPI 之上优先保障技术深度。",
+        "统一技术职级体系：确保“高级工程师”这一头衔在不同产品线（如 Cash App, Square, Tidal）具备同等含金量，从而实现内部人才的无缝流转。",
+        "拒绝单纯“堆人头”：摒弃“人月神话”式的招聘思维（即靠堆人来加速交付），转而通过共享中台和高杠杆工具来提升效能。",
+        "利用康威定律：主动重组组织架构，以此倒逼软件架构向更加集成化、平台化的方向演进。"
+      ],
+      "name_zh": "The Functional Tech-First Reset（技术优先的职能重塑）"
     },
     {
       "name": "The 'Mad Scientist' Prototyping Loop",
@@ -62,7 +87,19 @@
       "whenToUse": "During Hack Weeks or early-stage product definition to avoid over-engineering solutions for problems that aren't yet understood.",
       "commonMistakes": "Scaling the team size (70-80 engineers) before the product has been validated by real user utility.",
       "quote": "If you want to make an apple pie from scratch, you have to first invent the universe... narrow your scope to the thing that's in front of you.",
-      "realWorldExample": "Block's Bitcoin integration started as a 3-person Hack Week project (Dhanji, Jack Dorsey, and one engineer) before becoming a major business line."
+      "realWorldExample": "Block's Bitcoin integration started as a 3-person Hack Week project (Dhanji, Jack Dorsey, and one engineer) before becoming a major business line.",
+      "summary_zh": "一种严谨的创新方法论，坚持先由微型团队解决极度具体的个人痛点，而后再规模化扩展为平台或产品。",
+      "problemItSolves_zh": "避免“贪大求全”——防止在验证核心效用之前，就向类似 Google Wave 这样最终折戟的宏大构想投入海量资源。",
+      "whenToUse_zh": "适用于 Hack Week 或产品定义初期，避免针对尚未厘清的问题进行过度设计。",
+      "commonMistakes_zh": "在产品尚未验证真实用户价值之前，就将团队规模扩张至 70-80 名工程师。",
+      "realWorldExample_zh": "Block 的比特币集成始于一个 3 人的 Hack Week 项目（成员包括 Dhanji、Jack Dorsey 和一位工程师），最终演变成了一条主要的业务线。",
+      "principles_zh": [
+        "“一杯茶”法则：切忌贪大求全（别为了泡杯茶去煮沸大海）。在扩大产品边界前，先彻底解决眼下那个具体的痛点，实现单点闭环。",
+        "“自身痛点”测试：创始人或开发者必须在个人工作流中真实使用产品（例如用来整理自家发票），以此挖掘真正的边界情况 (Edge Cases)。",
+        "挑战底层假设：在着手开发工具去优化流程前，先反问“这个流程本身是否有必要存在？”（例如：与其优化测试运行器，不如直接删除无效的测试用例）。",
+        "“受控的混乱”：只要底层基座稳固安全，就应给予工程师充分的自由去“钻牛角尖”，进行那些看似“无用”的实验探索。"
+      ],
+      "name_zh": "The 'Mad Scientist' Prototyping Loop（“疯狂科学家”原型循环）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Referencing Conway's Law as the primary driver for why Block had to restructure to become AI-native."
     }
   ],
-  "filename": "Dhanji R. Prasanna"
+  "filename": "Dhanji R. Prasanna",
+  "episodeSummary_zh": "Dhanji Prasanna 深度复盘了 Block 的激进转型之路：从一家联邦制的金融服务公司蜕变为职能导向的 AI 原生科技组织。他详细阐述了其内部开源 Agent —— Goose，如何通过利用模型上下文协议（MCP）为 AI 装上“手脚”，从而每周为员工节省 8-10 小时。此外，对话还探讨了为适配 AI 战略进行组织架构重组的必要性、打破“代码质量等同于产品成功”的认知误区，以及工程自治化的未来展望。"
 }
