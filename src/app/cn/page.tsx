@@ -21,7 +21,7 @@ export default function ChineseHome() {
 
     // Only show methodologies with Chinese translations
     const translatedMethodologies = useMemo(() => {
-        return allMethodologies.filter(m => m.summary_zh && m.name_zh);
+        return allMethodologies.filter(m => m.summary_zh);
     }, [allMethodologies]);
 
     const filteredMethodologies = useMemo(() => {
