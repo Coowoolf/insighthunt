@@ -13,6 +13,7 @@ export function Header() {
     const homeLink = isChineseRoute ? '/cn' : '/';
     const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
     const episodesLink = isChineseRoute ? '/cn/episodes' : '/episodes';
+    const categoriesLink = isChineseRoute ? '/cn/categories' : '/categories';
     const statsLink = isChineseRoute ? '/cn/stats' : '/stats';
 
     return (
@@ -40,6 +41,9 @@ export function Header() {
                         </Link>
                         <Link href={guestsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Guests', '嘉宾')}
+                        </Link>
+                        <Link href={categoriesLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
+                            {t('Categories', '分类')}
                         </Link>
                         <Link href={statsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Stats', '数据')}
