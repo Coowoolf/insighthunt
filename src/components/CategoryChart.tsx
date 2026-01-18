@@ -3,7 +3,7 @@
 import { useMemo } from 'react';
 import {
     PieChart, Pie, Cell, ResponsiveContainer,
-    BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
+    BarChart, Bar, XAxis, YAxis, Tooltip,
 } from 'recharts';
 import { CATEGORY_INFO, Category } from '@/types';
 import { getStats } from '@/data/insights';
@@ -96,59 +96,57 @@ export function CategoryChart({
         );
     }
 
-    // Pie chart (default)
+    // Pie chart (default) - Vertical layout: pie on top, legend below
     return (
-        <div className={`w-full ${className}`}>
-            <div className="flex flex-col md:flex-row items-center gap-8">
-                {/* Pie Chart */}
-                <div className="w-64 h-64">
-                    <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
-                            <Pie
-                                data={chartData}
-                                cx="50%"
-                                cy="50%"
-                                innerRadius={50}
-                                outerRadius={80}
-                                paddingAngle={3}
-                                dataKey="value"
-                            >
-                                {chartData.map((entry, index) => (
-                                    <Cell
-                                        key={`cell-${index}`}
-                                        fill={entry.color}
-                                        stroke="white"
-                                        strokeWidth={2}
-                                    />
-                                ))}
-                            </Pie>
-                            <Tooltip content={<CustomTooltip />} />
-                        </PieChart>
-                    </ResponsiveContainer>
-                </div>
-
-                {/* Legend */}
-                {showLegend && (
-                    <div className="grid grid-cols-2 gap-3">
-                        {chartData.map((item, index) => (
-                            <div
-                                key={item.category}
-                                className="flex items-center gap-2 px-3 py-2 bg-white/60 rounded-xl"
-                            >
-                                <div
-                                    className="w-3 h-3 rounded-full"
-                                    style={{ backgroundColor: item.color }}
+        <div className={`w-full h-full flex flex-col ${className}`}>
+            {/* Larger Pie Chart */}
+            <div className="flex-1 min-h-[200px]">
+                <ResponsiveContainer width="100%" height="100%">
+                    <PieChart>
+                        <Pie
+                            data={chartData}
+                            cx="50%"
+                            cy="50%"
+                            innerRadius="40%"
+                            outerRadius="75%"
+                            paddingAngle={3}
+                            dataKey="value"
+                        >
+                            {chartData.map((entry, index) => (
+                                <Cell
+                                    key={`cell-${index}`}
+                                    fill={entry.color}
+                                    stroke="white"
+                                    strokeWidth={2}
                                 />
-                                <span className="text-sm">{item.emoji}</span>
-                                <span className="text-sm text-gray-700">{item.name}</span>
-                                <span className="text-sm font-semibold text-gray-900 ml-auto">
-                                    {item.value}
-                                </span>
-                            </div>
-                        ))}
-                    </div>
-                )}
+                            ))}
+                        </Pie>
+                        <Tooltip content={<CustomTooltip />} />
+                    </PieChart>
+                </ResponsiveContainer>
             </div>
+
+            {/* Legend - Below pie chart in 3 columns */}
+            {showLegend && (
+                <div className="grid grid-cols-3 gap-2 mt-4">
+                    {chartData.map((item) => (
+                        <div
+                            key={item.category}
+                            className="flex items-center gap-2 px-2 py-1.5 bg-white/60 rounded-lg"
+                        >
+                            <div
+                                className="w-2.5 h-2.5 rounded-full flex-shrink-0"
+                                style={{ backgroundColor: item.color }}
+                            />
+                            <span className="text-xs">{item.emoji}</span>
+                            <span className="text-xs text-gray-700 truncate">{item.name}</span>
+                            <span className="text-xs font-bold text-gray-900 ml-auto">
+                                {item.value}
+                            </span>
+                        </div>
+                    ))}
+                </div>
+            )}
 
             {/* Total */}
             <div className="text-center mt-4 text-sm text-gray-600">
