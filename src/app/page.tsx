@@ -4,6 +4,8 @@ import { useMemo } from 'react';
 import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { MethodologyCard } from '@/components/MethodologyCard';
+import { DataFunnel } from '@/components/DataFunnel';
+import { CategoryChart } from '@/components/CategoryChart';
 import { getAllMethodologies, getAllGuests, getStats } from '@/data/insights';
 import { CATEGORY_INFO, Category } from '@/types';
 import { useLanguage } from '@/context/LanguageContext';
@@ -41,14 +43,14 @@ export default function Home() {
 
       <main className="max-w-7xl mx-auto px-6 py-8">
         {/* Hero Section */}
-        <section className="text-center mb-16">
+        <section className="text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">{t('Hunt the Insights', '洞见狩猎')}</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             {t(
-              'Your gateway to 689+ product methodologies extracted from Lenny\'s Podcast. Learn from the world\'s best PMs.',
-              '从 Lenny Podcast 提炼的 689+ 产品方法论。向世界顶级产品经理学习。'
+              'Your gateway to 689+ product methodologies and 74 actionable skills extracted from Lenny\'s Podcast.',
+              '从 Lenny Podcast 提炼的 689+ 产品方法论和 74 个可操作技能。'
             )}
           </p>
 
@@ -61,20 +63,23 @@ export default function Home() {
           </Link>
         </section>
 
-        {/* Stats Banner */}
-        <section className="grid grid-cols-3 gap-4 mb-16">
-          <Link href="/episodes" className="clay-card text-center hover:shadow-clay-hover transition-all">
-            <div className="text-4xl font-bold gradient-text">{stats.totalEpisodes}</div>
-            <div className="text-sm text-gray-600 mt-1">{t('Episodes', '期节目')}</div>
-          </Link>
-          <Link href="/methodologies" className="clay-card text-center hover:shadow-clay-hover transition-all">
-            <div className="text-4xl font-bold gradient-text">{stats.totalMethodologies}</div>
-            <div className="text-sm text-gray-600 mt-1">{t('Methodologies', '个方法论')}</div>
-          </Link>
-          <Link href="/guests" className="clay-card text-center hover:shadow-clay-hover transition-all">
-            <div className="text-4xl font-bold gradient-text">{stats.totalGuests}</div>
-            <div className="text-sm text-gray-600 mt-1">{t('Guests', '位嘉宾')}</div>
-          </Link>
+        {/* Data Visualization Section */}
+        <section className="grid md:grid-cols-2 gap-6 mb-16">
+          {/* Data Funnel */}
+          <DataFunnel
+            episodes={stats.totalEpisodes}
+            methodologies={stats.totalMethodologies}
+            skills={74}
+          />
+
+          {/* Category Distribution */}
+          <div className="clay-card">
+            <h2 className="text-2xl font-bold flex items-center gap-2 mb-6 text-center justify-center">
+              <span>📊</span>
+              <span className="gradient-text">{t('Category Distribution', '分类分布')}</span>
+            </h2>
+            <CategoryChart type="pie" showLegend={true} />
+          </div>
         </section>
 
         {/* Latest Episodes */}
@@ -154,23 +159,38 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Coming Soon: Skills */}
+        {/* Skills Section */}
         <section className="mb-16">
-          <div className="clay-card bg-gradient-to-r from-brand-start/5 via-brand-mid/5 to-brand-end/5 text-center py-12">
-            <div className="text-4xl mb-4">🎓</div>
-            <h3 className="text-2xl font-bold mb-2 gradient-text">
-              {t('Coming Soon: Downloadable Skills', '即将推出：可下载的技能包')}
+          <div className="clay-card bg-gradient-to-r from-emerald-500/5 via-teal-500/5 to-cyan-500/5 text-center py-12">
+            <div className="text-5xl mb-4">🎓</div>
+            <h3 className="text-3xl font-bold mb-4">
+              <span className="bg-gradient-to-r from-emerald-500 to-teal-500 bg-clip-text text-transparent">
+                74 {t('Actionable Skills', '个可操作技能')}
+              </span>
             </h3>
-            <p className="text-gray-600 max-w-xl mx-auto mb-6">
+            <p className="text-gray-600 max-w-xl mx-auto mb-8">
               {t(
-                'Transform methodologies into actionable skill packs. Practice frameworks with templates and exercises.',
-                '将方法论转化为可操作的技能包。通过模板和练习实践框架。'
+                'Methodologies transformed into downloadable skill packs with templates, exercises, and real-world examples.',
+                '方法论转化为可下载的技能包，包含模板、练习和真实案例。'
               )}
             </p>
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/60 rounded-full text-gray-600">
-              <span>🚀</span>
-              <span>{t('Stay tuned for updates', '敬请期待')}</span>
+            <div className="flex flex-wrap justify-center gap-3 mb-8">
+              {['Product Growth (16)', 'Team Leadership (17)', 'Decision Thinking (10)', 'Strategy Planning (10)'].map((category) => (
+                <span key={category} className="px-3 py-1 bg-white/60 rounded-full text-sm text-gray-600">
+                  {category}
+                </span>
+              ))}
             </div>
+            <a
+              href="https://github.com/Coowoolf/insighthunt-skills"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold rounded-xl hover:shadow-lg transition-all"
+            >
+              <span>📦</span>
+              <span>{t('Browse Skills on GitHub', '在 GitHub 浏览技能包')}</span>
+              <span>→</span>
+            </a>
           </div>
         </section>
       </main>

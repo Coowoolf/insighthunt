@@ -11,8 +11,9 @@ export function Header() {
     // Route-based translation - EN route always shows English, /cn shows Chinese
     const t = (en: string, zh: string) => isChineseRoute ? zh : en;
     const homeLink = isChineseRoute ? '/cn' : '/';
-    const methodologiesLink = isChineseRoute ? '/cn/methodologies' : '/methodologies';
     const episodesLink = isChineseRoute ? '/cn/episodes' : '/episodes';
+    const methodologiesLink = isChineseRoute ? '/cn/methodologies' : '/methodologies';
+    const skillsLink = '/skills'; // Skills links to GitHub, same for both languages
     const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
 
     return (
@@ -30,8 +31,8 @@ export function Header() {
                         </div>
                     </Link>
 
-                    {/* Navigation - 4 Tabs */}
-                    <nav className="hidden md:flex items-center gap-6">
+                    {/* Navigation - 5 Tabs */}
+                    <nav className="hidden md:flex items-center gap-5">
                         <Link href={homeLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Home', '首页')}
                         </Link>
@@ -40,6 +41,10 @@ export function Header() {
                         </Link>
                         <Link href={methodologiesLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Methodologies', '方法论')}
+                        </Link>
+                        <Link href={skillsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium flex items-center gap-1">
+                            {t('Skills', '技能')}
+                            <span className="text-xs bg-emerald-100 text-emerald-600 px-1.5 py-0.5 rounded-full">74</span>
                         </Link>
                         <Link href={guestsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Guests', '嘉宾')}
