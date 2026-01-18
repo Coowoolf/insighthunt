@@ -31,8 +31,8 @@ export function Header() {
                         </div>
                     </Link>
 
-                    {/* Navigation - 5 Tabs */}
-                    <nav className="hidden md:flex items-center gap-5">
+                    {/* Navigation - 4 Tabs */}
+                    <nav className="hidden md:flex items-center gap-6">
                         <Link href={homeLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Home', '首页')}
                         </Link>
@@ -45,9 +45,6 @@ export function Header() {
                         <Link href={skillsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium flex items-center gap-1">
                             {t('Skills', '技能')}
                             <span className="text-xs bg-emerald-100 text-emerald-600 px-1.5 py-0.5 rounded-full">74</span>
-                        </Link>
-                        <Link href={guestsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
-                            {t('Guests', '嘉宾')}
                         </Link>
                     </nav>
 
