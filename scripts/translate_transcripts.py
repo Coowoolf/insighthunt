@@ -69,10 +69,10 @@ def translate_transcript(filepath: Path) -> Dict:
     # Get guest name from filename
     guest_name = filepath.stem
     
-    # Split into chunks of ~3000 characters for translation
-    # This ensures we stay within token limits while maintaining context
-    chunk_size = 3000
-    overlap = 200  # Overlap for context continuity
+    # Split into chunks of ~10000 characters for faster translation
+    # Larger chunks = fewer API calls = faster processing
+    chunk_size = 10000
+    overlap = 100  # Small overlap for context continuity
     
     chunks = []
     start = 0
