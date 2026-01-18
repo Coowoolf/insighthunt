@@ -1,52 +1,35 @@
 'use client';
 
-import { usePathname, useRouter } from 'next/navigation';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function LanguageSwitcher() {
-    const pathname = usePathname();
-    const router = useRouter();
-
-    // Determine if currently on Chinese route
-    const isChineseRoute = pathname.startsWith('/cn');
-
-    const switchToEnglish = () => {
-        if (isChineseRoute) {
-            // Map /cn/... to /...
-            const newPath = pathname.replace(/^\/cn/, '') || '/';
-            router.push(newPath);
-        }
-    };
-
-    const switchToChinese = () => {
-        if (!isChineseRoute) {
-            // Map /... to /cn/...
-            const newPath = pathname === '/' ? '/cn' : `/cn${pathname}`;
-            router.push(newPath);
-        }
-    };
+    const { language, setLanguage, isTransitioning } = useLanguage();
 
     return (
-        <div className="flex items-center gap-1 bg-white/80 backdrop-blur-sm rounded-full px-2 py-1 border border-gray-200 shadow-sm">
+        <div className={`flex items-center gap-0.5 bg-white/90 backdrop-blur-md rounded-full p-1 border border-gray-200/50 shadow-lg transition-all duration-200 ${isTransitioning ? 'scale-95 opacity-80' : 'scale-100 opacity-100'}`}>
             <button
-                onClick={switchToEnglish}
-                className={`px-2 py-0.5 rounded-full text-sm font-medium transition-all ${!isChineseRoute
-                        ? 'bg-gradient-to-r from-purple-500 to-blue-500 text-white'
-                        : 'text-gray-600 hover:text-gray-900'
+                onClick={() => setLanguage('en')}
+                disabled={isTransitioning}
+                aria-label="Switch to English"
+                className={`relative px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 ${language === 'en'
+                        ? 'bg-gradient-to-r from-brand-start to-brand-mid text-white shadow-md'
+                        : 'text-gray-500 hover:text-gray-900 hover:bg-gray-100/80'
                     }`}
             >
                 EN
             </button>
-            <span className="text-gray-300">|</span>
+
             <button
-                onClick={switchToChinese}
-                className={`px-2 py-0.5 rounded-full text-sm font-medium transition-all ${isChineseRoute
-                        ? 'bg-gradient-to-r from-purple-500 to-blue-500 text-white'
-                        : 'text-gray-600 hover:text-gray-900'
+                onClick={() => setLanguage('zh')}
+                disabled={isTransitioning}
+                aria-label="切换到中文"
+                className={`relative px-3 py-1.5 rounded-full text-sm font-semibold transition-all duration-200 ${language === 'zh'
+                        ? 'bg-gradient-to-r from-brand-start to-brand-mid text-white shadow-md'
+                        : 'text-gray-500 hover:text-gray-900 hover:bg-gray-100/80'
                     }`}
             >
-                中
+                中文
             </button>
         </div>
     );
 }
-
