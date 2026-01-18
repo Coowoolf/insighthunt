@@ -57,7 +57,7 @@ export function Header() {
                             </div>
                             <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r from-primary-orange/10 to-primary-gold/10">
                                 <span className="text-primary-orange">💡</span>
-                                <span className="font-semibold text-gray-700">300+ {t('Insights', '洞见')}</span>
+                                <span className="font-semibold text-gray-700">{t('689 Methodologies', '689 个方法论')}</span>
                             </div>
                         </div>
                         <LanguageSwitcher />

@@ -41,7 +41,7 @@ function MethodologiesContent() {
                     <span className="gradient-text">全部方法论</span>
                 </h1>
                 <p className="text-gray-600 max-w-2xl mx-auto">
-                    浏览和搜索 689+ 来自世界级 PM 的产品框架。
+                    浏览和搜索 689 个来自世界级 PM 的产品框架。
                 </p>
             </section>
 

@@ -45,8 +45,8 @@ function MethodologiesContent() {
                 </h1>
                 <p className="text-gray-600 max-w-2xl mx-auto">
                     {t(
-                        'Browse and search through 689+ product frameworks from world-class PMs.',
-                        '浏览和搜索 689+ 来自世界级 PM 的产品框架。'
+                        'Browse and search through 689 product frameworks from world-class PMs.',
+                        '浏览和搜索 689 个来自世界级 PM 的产品框架。'
                     )}
                 </p>
             </section>

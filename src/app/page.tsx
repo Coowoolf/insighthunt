@@ -49,8 +49,8 @@ export default function Home() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             {t(
-              'Your gateway to 689+ product methodologies and 74 actionable skills extracted from Lenny\'s Podcast.',
-              '从 Lenny Podcast 提炼的 689+ 产品方法论和 74 个可操作技能。'
+              'Your gateway to 689 product methodologies and 74 actionable skills extracted from Lenny\'s Podcast.',
+              '从 Lenny Podcast 提炼的 689 个产品方法论和 74 个可操作技能。'
             )}
           </p>
 

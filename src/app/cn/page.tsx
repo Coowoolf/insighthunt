@@ -46,7 +46,7 @@ export default function ChineseHome() {
                         <span className="gradient-text">洞见狩猎</span>
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                        从 Lenny Podcast 提炼的 689+ 产品方法论和 74 个可操作技能。
+                        从 Lenny Podcast 提炼的 689 个产品方法论和 74 个可操作技能。
                     </p>
 
                     {/* Search Bar */}

@@ -115,7 +115,7 @@ export default function SkillsPage() {
                 {/* Back to Methodologies CTA */}
                 <section className="mt-12 text-center">
                     <p className="text-gray-600 mb-4">
-                        {t('Skills are extracted from our 689+ methodologies', '技能来自我们 689+ 方法论的提取')}
+                        {t('Skills are extracted from our 689 methodologies', '技能来自我们 689 个方法论的提取')}
                     </p>
                     <Link
                         href="/methodologies"
