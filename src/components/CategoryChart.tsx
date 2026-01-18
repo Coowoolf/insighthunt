@@ -7,6 +7,7 @@ import {
 } from 'recharts';
 import { CATEGORY_INFO, Category } from '@/types';
 import { getStats } from '@/data/insights';
+import { useLanguage } from '@/context/LanguageContext';
 
 interface CategoryChartProps {
     type?: 'pie' | 'bar';
@@ -30,6 +31,7 @@ export function CategoryChart({
     showLegend = true
 }: CategoryChartProps) {
     const stats = getStats();
+    const { t } = useLanguage();
 
     const chartData = useMemo(() => {
         const entries = Object.entries(stats.categories) as [Category, number][];
@@ -55,7 +57,7 @@ export function CategoryChart({
                         <span>{data.name}</span>
                     </p>
                     <p className="text-sm text-gray-600">
-                        {data.value} 个方法论 ({percentage}%)
+                        {data.value} {t('methodologies', '个方法论')} ({percentage}%)
                     </p>
                 </div>
             );
@@ -150,7 +152,7 @@ export function CategoryChart({
 
             {/* Total */}
             <div className="text-center mt-4 text-sm text-gray-600">
-                共 <span className="font-bold gradient-text">{total}</span> 个方法论
+                {t('Total', '共')} <span className="font-bold gradient-text">{total}</span> {t('methodologies', '个方法论')}
             </div>
         </div>
     );
