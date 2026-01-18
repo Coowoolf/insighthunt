@@ -1,0 +1,116 @@
+'use client';
+
+import { useState, useMemo, Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Header } from '@/components/Header';
+import { MethodologyCard } from '@/components/MethodologyCard';
+import { CategoryFilter } from '@/components/CategoryFilter';
+import { getAllMethodologies } from '@/data/insights';
+import { Category } from '@/types';
+import { useLanguage } from '@/context/LanguageContext';
+
+function MethodologiesContent() {
+    const { t } = useLanguage();
+    const searchParams = useSearchParams();
+    const initialCategory = searchParams.get('category') as Category | null;
+
+    const [searchQuery, setSearchQuery] = useState('');
+    const [selectedCategory, setSelectedCategory] = useState<Category | null>(initialCategory);
+
+    const allMethodologies = getAllMethodologies();
+
+    const filteredMethodologies = useMemo(() => {
+        return allMethodologies.filter(m => {
+            const matchesSearch = searchQuery === '' ||
+                m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                m.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                m.guestName.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                m.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+
+            const matchesCategory = selectedCategory === null || m.category === selectedCategory;
+
+            return matchesSearch && matchesCategory;
+        });
+    }, [allMethodologies, searchQuery, selectedCategory]);
+
+    const sortedMethodologies = useMemo(() => {
+        return [...filteredMethodologies].sort((a, b) => b.upvotes - a.upvotes);
+    }, [filteredMethodologies]);
+
+    return (
+        <>
+            <section className="text-center mb-8">
+                <h1 className="text-4xl font-bold mb-4">
+                    <span className="gradient-text">{t('All Methodologies', '全部方法论')}</span>
+                </h1>
+                <p className="text-gray-600 max-w-2xl mx-auto">
+                    {t(
+                        'Browse and search through 689+ product frameworks from world-class PMs.',
+                        '浏览和搜索 689+ 来自世界级 PM 的产品框架。'
+                    )}
+                </p>
+            </section>
+
+            <section className="mb-8">
+                <div className="relative max-w-xl mx-auto">
+                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl">🔍</span>
+                    <input
+                        type="text"
+                        placeholder={t('Search methodologies, guests, or topics...', '搜索方法论、嘉宾或话题...')}
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="search-input"
+                    />
+                </div>
+            </section>
+
+            <section className="mb-8">
+                <CategoryFilter
+                    selectedCategory={selectedCategory}
+                    onCategoryChange={setSelectedCategory}
+                />
+            </section>
+
+            <div className="mb-6 flex items-center justify-between">
+                <p className="text-gray-600">
+                    {t('Showing', '显示')} <span className="font-semibold text-brand-start">{sortedMethodologies.length}</span> {t('methodologies', '个方法论')}
+                </p>
+                <div className="text-sm text-gray-500">
+                    {t('Sorted by popularity', '按热度排序')}
+                </div>
+            </div>
+
+            <section className="space-y-6">
+                {sortedMethodologies.map(methodology => (
+                    <MethodologyCard key={methodology.id} methodology={methodology} />
+                ))}
+
+                {sortedMethodologies.length === 0 && (
+                    <div className="clay-card text-center py-12">
+                        <p className="text-2xl mb-2">🔍</p>
+                        <p className="text-gray-600">
+                            {t('No methodologies found. Try a different search or category.', '未找到方法论。请尝试其他搜索词或分类。')}
+                        </p>
+                    </div>
+                )}
+            </section>
+        </>
+    );
+}
+
+export default function MethodologiesPage() {
+    return (
+        <div className="min-h-screen">
+            <div className="ambient-sphere ambient-sphere-1" />
+            <div className="ambient-sphere ambient-sphere-2" />
+
+            <Header />
+
+            <main className="max-w-7xl mx-auto px-6 py-8">
+                <Suspense fallback={<div className="text-center py-12">Loading...</div>}>
+                    <MethodologiesContent />
+                </Suspense>
+            </main>
+        </div>
+    );
+}

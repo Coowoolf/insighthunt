@@ -1,40 +1,38 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
+import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { MethodologyCard } from '@/components/MethodologyCard';
-import { CategoryFilter } from '@/components/CategoryFilter';
-import { StatsBanner } from '@/components/StatsBanner';
-import { getAllMethodologies } from '@/data/insights';
-import { Category } from '@/types';
+import { getAllMethodologies, getAllGuests, getStats } from '@/data/insights';
+import { CATEGORY_INFO, Category } from '@/types';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Home() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
-
+  const { t } = useLanguage();
+  const stats = getStats();
   const allMethodologies = getAllMethodologies();
+  const allGuests = getAllGuests();
 
-  const filteredMethodologies = useMemo(() => {
-    return allMethodologies.filter(m => {
-      const matchesSearch = searchQuery === '' ||
-        m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        m.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        m.guestName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        m.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+  // Latest 3 episodes (by episode number, descending)
+  const latestEpisodes = useMemo(() => {
+    return [...allGuests]
+      .sort((a, b) => (b.episodeNumber || 0) - (a.episodeNumber || 0))
+      .slice(0, 3);
+  }, [allGuests]);
 
-      const matchesCategory = selectedCategory === null || m.category === selectedCategory;
+  // Featured 6 methodologies (by upvotes)
+  const featuredMethodologies = useMemo(() => {
+    return [...allMethodologies]
+      .sort((a, b) => b.upvotes - a.upvotes)
+      .slice(0, 6);
+  }, [allMethodologies]);
 
-      return matchesSearch && matchesCategory;
-    });
-  }, [allMethodologies, searchQuery, selectedCategory]);
-
-  const sortedMethodologies = useMemo(() => {
-    return [...filteredMethodologies].sort((a, b) => b.upvotes - a.upvotes);
-  }, [filteredMethodologies]);
+  // Category data
+  const categories = Object.entries(CATEGORY_INFO) as [Category, typeof CATEGORY_INFO[Category]][];
 
   return (
     <div className="min-h-screen">
-      {/* Ambient Decorations */}
       <div className="ambient-sphere ambient-sphere-1" />
       <div className="ambient-sphere ambient-sphere-2" />
       <div className="ambient-sphere ambient-sphere-3" />
@@ -43,91 +41,151 @@ export default function Home() {
 
       <main className="max-w-7xl mx-auto px-6 py-8">
         {/* Hero Section */}
-        <section className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-4">
-            <span className="gradient-text">Hunt the Insights</span>
+        <section className="text-center mb-16">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            <span className="gradient-text">{t('Hunt the Insights', '洞见狩猎')}</span>
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            300+ product methodologies from the world&apos;s best PMs, extracted from Lenny&apos;s Podcast.
-            Discover frameworks from Marty Cagan, Shreyas Doshi, Julie Zhuo, and more.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+            {t(
+              'Your gateway to 689+ product methodologies extracted from Lenny\'s Podcast. Learn from the world\'s best PMs.',
+              '从 Lenny Podcast 提炼的 689+ 产品方法论。向世界顶级产品经理学习。'
+            )}
           </p>
 
           {/* Search Bar */}
-          <div className="relative max-w-xl mx-auto">
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl">🔍</span>
-            <input
-              type="text"
-              placeholder="Search methodologies, guests, or topics..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="search-input"
-            />
-          </div>
-        </section>
-
-        {/* Category Filter */}
-        <section className="mb-8">
-          <StatsBanner className="mb-6" />
-          <CategoryFilter
-            selectedCategory={selectedCategory}
-            onCategoryChange={setSelectedCategory}
-          />
-        </section>
-
-        {/* Results Count */}
-        <div className="mb-6 flex items-center justify-between">
-          <p className="text-gray-600">
-            Showing <span className="font-semibold text-brand-start">{sortedMethodologies.length}</span> methodologies
-            {selectedCategory && <span> in {selectedCategory.replace('-', ' ')}</span>}
-            {searchQuery && <span> matching &ldquo;{searchQuery}&rdquo;</span>}
-          </p>
-          <div className="text-sm text-gray-500">
-            Sorted by popularity
-          </div>
-        </div>
-
-        {/* Methodology Grid */}
-        <section className="space-y-6">
-          {sortedMethodologies.map(methodology => (
-            <MethodologyCard key={methodology.id} methodology={methodology} />
-          ))}
-
-          {sortedMethodologies.length === 0 && (
-            <div className="clay-card text-center py-12">
-              <p className="text-2xl mb-2">🔍</p>
-              <p className="text-gray-600">No methodologies found. Try a different search or category.</p>
+          <Link href="/methodologies" className="relative max-w-xl mx-auto block group">
+            <div className="search-input cursor-pointer flex items-center gap-3 text-gray-400 group-hover:shadow-clay transition-all">
+              <span className="text-xl">🔍</span>
+              <span>{t('Search methodologies, guests, or topics...', '搜索方法论、嘉宾或话题...')}</span>
             </div>
-          )}
+          </Link>
         </section>
 
-        {/* Footer CTA */}
-        <section className="mt-16 text-center">
-          <div className="clay-card bg-gradient-to-r from-brand-start/5 via-brand-mid/5 to-brand-end/5">
-            <h3 className="text-2xl font-bold mb-2 gradient-text">Coming Soon: 300+ More Insights</h3>
-            <p className="text-gray-600 mb-4">
-              We&apos;re extracting methodologies from all 297 episodes of Lenny&apos;s Podcast.
-              Follow for updates!
+        {/* Stats Banner */}
+        <section className="grid grid-cols-3 gap-4 mb-16">
+          <Link href="/episodes" className="clay-card text-center hover:shadow-clay-hover transition-all">
+            <div className="text-4xl font-bold gradient-text">{stats.totalEpisodes}</div>
+            <div className="text-sm text-gray-600 mt-1">{t('Episodes', '期节目')}</div>
+          </Link>
+          <Link href="/methodologies" className="clay-card text-center hover:shadow-clay-hover transition-all">
+            <div className="text-4xl font-bold gradient-text">{stats.totalMethodologies}</div>
+            <div className="text-sm text-gray-600 mt-1">{t('Methodologies', '个方法论')}</div>
+          </Link>
+          <Link href="/guests" className="clay-card text-center hover:shadow-clay-hover transition-all">
+            <div className="text-4xl font-bold gradient-text">{stats.totalGuests}</div>
+            <div className="text-sm text-gray-600 mt-1">{t('Guests', '位嘉宾')}</div>
+          </Link>
+        </section>
+
+        {/* Latest Episodes */}
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold flex items-center gap-2">
+              <span>🎙️</span>
+              <span className="gradient-text">{t('Latest Episodes', '最新播客')}</span>
+            </h2>
+            <Link href="/episodes" className="text-brand-start hover:underline text-sm font-medium">
+              {t('View all →', '查看全部 →')}
+            </Link>
+          </div>
+          <div className="grid md:grid-cols-3 gap-4">
+            {latestEpisodes.map((guest) => (
+              <Link
+                key={guest.id}
+                href={`/episodes/${guest.slug}`}
+                className="clay-card hover:shadow-clay-hover transition-all group"
+              >
+                <div className="text-sm text-brand-start mb-2">
+                  {t('Episode', '第')} #{guest.episodeNumber || '—'}
+                </div>
+                <h3 className="font-bold text-lg mb-1 group-hover:text-brand-start transition-colors">
+                  {guest.name}
+                </h3>
+                <p className="text-sm text-gray-600">{guest.title}</p>
+                <p className="text-xs text-gray-400 mt-2">{guest.company}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Featured Methodologies */}
+        <section className="mb-16">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold flex items-center gap-2">
+              <span>⭐</span>
+              <span className="gradient-text">{t('Featured Methodologies', '精选方法论')}</span>
+            </h2>
+            <Link href="/methodologies" className="text-brand-start hover:underline text-sm font-medium">
+              {t('View all →', '查看全部 →')}
+            </Link>
+          </div>
+          <div className="space-y-4">
+            {featuredMethodologies.map((methodology) => (
+              <MethodologyCard key={methodology.id} methodology={methodology} />
+            ))}
+          </div>
+        </section>
+
+        {/* Browse by Category */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold flex items-center gap-2 mb-6">
+            <span>📂</span>
+            <span className="gradient-text">{t('Browse by Category', '按分类浏览')}</span>
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {categories.map(([key, info]) => (
+              <Link
+                key={key}
+                href={`/methodologies?category=${key}`}
+                className="clay-card hover:shadow-clay-hover transition-all group flex items-center gap-4"
+              >
+                <span className="text-3xl">{info.emoji}</span>
+                <div className="flex-1">
+                  <h3 className="font-bold group-hover:text-brand-start transition-colors">
+                    {info.label}
+                  </h3>
+                  <p className="text-sm text-gray-500">
+                    {stats.categories[key] || 0} {t('methodologies', '个方法论')}
+                  </p>
+                </div>
+                <span className="text-gray-400 group-hover:text-brand-start">→</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Coming Soon: Skills */}
+        <section className="mb-16">
+          <div className="clay-card bg-gradient-to-r from-brand-start/5 via-brand-mid/5 to-brand-end/5 text-center py-12">
+            <div className="text-4xl mb-4">🎓</div>
+            <h3 className="text-2xl font-bold mb-2 gradient-text">
+              {t('Coming Soon: Downloadable Skills', '即将推出：可下载的技能包')}
+            </h3>
+            <p className="text-gray-600 max-w-xl mx-auto mb-6">
+              {t(
+                'Transform methodologies into actionable skill packs. Practice frameworks with templates and exercises.',
+                '将方法论转化为可操作的技能包。通过模板和练习实践框架。'
+              )}
             </p>
-            <a
-              href="https://twitter.com/lennysan"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-6 py-3 bg-gradient-brand text-white font-semibold rounded-xl hover:shadow-clay transition-all"
-            >
-              Follow @lennysan
-            </a>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-white/60 rounded-full text-gray-600">
+              <span>🚀</span>
+              <span>{t('Stay tuned for updates', '敬请期待')}</span>
+            </div>
           </div>
         </section>
       </main>
 
       {/* Footer */}
-      <footer className="mt-16 py-8 border-t border-gray-200">
+      <footer className="py-8 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-6 text-center text-gray-500 text-sm">
           <p className="mb-2">
-            <span className="gradient-text font-semibold">InsightHunt</span> — Part of the Hunt Series
+            <span className="gradient-text font-semibold">InsightHunt</span> — {t('Part of the Hunt Series', 'Hunt 系列产品')}
           </p>
           <p>
-            Made with 💜 for the PM community. Based on <a href="https://www.lennyspodcast.com/" className="text-brand-start hover:underline">Lenny&apos;s Podcast</a>.
+            {t('Made with', '用')} 💜 {t('for the PM community. Based on', '为 PM 社区打造。基于')}{' '}
+            <a href="https://www.lennyspodcast.com/" className="text-brand-start hover:underline">
+              Lenny&apos;s Podcast
+            </a>
           </p>
         </div>
       </footer>

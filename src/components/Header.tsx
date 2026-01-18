@@ -11,10 +11,9 @@ export function Header() {
     // Route-based translation - EN route always shows English, /cn shows Chinese
     const t = (en: string, zh: string) => isChineseRoute ? zh : en;
     const homeLink = isChineseRoute ? '/cn' : '/';
-    const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
+    const methodologiesLink = isChineseRoute ? '/cn/methodologies' : '/methodologies';
     const episodesLink = isChineseRoute ? '/cn/episodes' : '/episodes';
-    const categoriesLink = isChineseRoute ? '/cn/categories' : '/categories';
-    const statsLink = isChineseRoute ? '/cn/stats' : '/stats';
+    const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
 
     return (
         <header className="glass-header sticky top-0 z-50">
@@ -31,22 +30,19 @@ export function Header() {
                         </div>
                     </Link>
 
-                    {/* Navigation */}
+                    {/* Navigation - 4 Tabs */}
                     <nav className="hidden md:flex items-center gap-6">
                         <Link href={homeLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
-                            {t('Methodologies', '方法论')}
+                            {t('Home', '首页')}
                         </Link>
                         <Link href={episodesLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Episodes', '播客')}
                         </Link>
+                        <Link href={methodologiesLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
+                            {t('Methodologies', '方法论')}
+                        </Link>
                         <Link href={guestsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Guests', '嘉宾')}
-                        </Link>
-                        <Link href={categoriesLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
-                            {t('Categories', '分类')}
-                        </Link>
-                        <Link href={statsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
-                            {t('Stats', '数据')}
                         </Link>
                     </nav>
 
