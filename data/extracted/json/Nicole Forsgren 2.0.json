@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Nicole Forsgren",
+    "title": "Senior Director of Developer Intelligence (Google) & Partner at Microsoft Research (Former)",
+    "company": "Google",
+    "background": "Nicole is a leading expert in DevOps and developer productivity, known for authoring the influential book 'Accelerate' and creating the DORA and SPACE frameworks. She is currently focused on developer intelligence at Google and is publishing a new book titled 'Frictionless'.",
+    "background_zh": "Nicole 是 DevOps 和开发者生产力领域的顶尖专家，著有行业圣经《Accelerate》并创立了 DORA 和 SPACE 评估框架。她目前在 Google 负责开发者智能业务，即将出版新书《Frictionless》。"
+  },
+  "episodeSummary": "Nicole Forsgren discusses the evolution of developer productivity in the AI era, arguing that traditional metrics like lines of code are obsolete. She introduces the 'Frictionless' framework for improving Developer Experience (DevEx) and explains how to balance AI tools with the human need for flow state and low cognitive load.",
+  "episodeSummary_zh": "Nicole Forsgren 探讨了 AI 时代开发者生产力的演变，指出“代码行数”等传统指标已过时。她介绍了用于提升开发者体验 (DevEx) 的“无摩擦 (Frictionless)” 框架，并解释了如何平衡 AI 工具的使用与开发者对心流状态及低认知负荷的需求。",
+  "filename": "Nicole Forsgren 2.0"
+}

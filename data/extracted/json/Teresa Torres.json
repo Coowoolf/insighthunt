@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Teresa Torres",
+    "title": "Author, Product Coach, & Founder of Product Talk",
+    "company": "Product Talk",
+    "background": "Teresa is a celebrated product discovery coach who has taught over 11,000 product managers. She is the author of 'Continuous Discovery Habits', the definitive guide on connecting product discovery with delivery.",
+    "background_zh": "Teresa Torres 是一位享誉业界的产品探索教练，曾指导超过 11,000 名产品经理。她是畅销书《持续探索习惯》(Continuous Discovery Habits) 的作者，该书被视为连接产品探索与交付的权威指南。"
+  },
+  "episodeSummary": "Teresa Torres deconstructs the 'Opportunity Solution Tree' framework, explaining how product teams can visualize their strategy to align everyday work with business outcomes. She details the system of 'Continuous Discovery,' advocating for automated weekly customer interviews and rapid assumption testing over lengthy project-based research. The conversation provides actionable tactics for asking non-biased interview questions and empowering product trios to make collaborative decisions.",
+  "episodeSummary_zh": "Teresa Torres 深度拆解了“机会解决方案树（OST）”框架，解释了产品团队如何通过可视化策略将日常工作与业务结果对齐。她详细阐述了“持续探索”体系，主张通过自动化的每周用户访谈和快速假设测试来取代冗长的项目制调研。本期对话还提供了避免偏见的访谈实战技巧，以及如何赋能“产品铁三角”进行协作决策的具体方法。",
+  "filename": "Teresa Torres"
+}

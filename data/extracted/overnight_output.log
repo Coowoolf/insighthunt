@@ -1,0 +1,997 @@
+🌙 InsightHunt Overnight Batch Processing
+Started: Sun Jan 18 01:54:21 CST 2026
+==========================================
+
+📦 Processing batch starting at offset 0...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 101/297 processed
+   Remaining: 196 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[102/297] Processing...
+  📝 Bilingual Extracting: Garrett Lord
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[103/297] Processing...
+  📝 Bilingual Extracting: Gaurav Misra
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[104/297] Processing...
+  📝 Bilingual Extracting: Geoff Charles
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[105/297] Processing...
+  📝 Bilingual Extracting: Geoffrey Moore
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[106/297] Processing...
+  📝 Bilingual Extracting: Gergely
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[107/297] Processing...
+  📝 Bilingual Extracting: Gia Laudi
+     ✅ Extracted 2 methodologies 🌐 EN+ZH
+
+[108/297] Processing...
+  📝 Bilingual Extracting: Gibson Biddle
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[109/297] Processing...
+  📝 Bilingual Extracting: Gina Gotthilf
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[110/297] Processing...
+  📝 Bilingual Extracting: Gokul Rajaram
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[111/297] Processing...
+  📝 Bilingual Extracting: Graham Weaver
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[112/297] Processing...
+  📝 Bilingual Extracting: Grant Lee
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[113/297] Processing...
+  📝 Bilingual Extracting: Guillermo Rauch
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[114/297] Processing...
+  📝 Bilingual Extracting: Gustaf Alstromer
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[115/297] Processing...
+  📝 Bilingual Extracting: Gustav Söderström
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[116/297] Processing...
+  📝 Bilingual Extracting: Hamel Husain & Shreya Shankar
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[117/297] Processing...
+  📝 Bilingual Extracting: Hamilton Helmer
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[118/297] Processing...
+  📝 Bilingual Extracting: Hari Srinivasan
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[119/297] Processing...
+  📝 Bilingual Extracting: Heidi Helfand
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[120/297] Processing...
+  📝 Bilingual Extracting: Hila Qu
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[121/297] Processing...
+  📝 Bilingual Extracting: Hilary Gridley
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+============================================================
+✅ Batch Complete: 20/20 succeeded
+❌ Errors: 0
+📊 Total in sample_data.json: 121 episodes, 360 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 176 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 20...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 121/297 processed
+   Remaining: 176 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[122/297] Processing...
+  📝 Bilingual Extracting: Howie Liu
+     ❌ Error: Could not parse JSON from response
+
+[123/297] Processing...
+  📝 Bilingual Extracting: Ian McAllister
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[124/297] Processing...
+  📝 Bilingual Extracting: Inbal S
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[125/297] Processing...
+  📝 Bilingual Extracting: Interview Q Compilation
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[126/297] Processing...
+  📝 Bilingual Extracting: Itamar Gilad
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[127/297] Processing...
+  📝 Bilingual Extracting: Ivan Zhao
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[128/297] Processing...
+  📝 Bilingual Extracting: Jackie Bavaro
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[129/297] Processing...
+  📝 Bilingual Extracting: Jackson Shuttleworth
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[130/297] Processing...
+  📝 Bilingual Extracting: Jag Duggal
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[131/297] Processing...
+  📝 Bilingual Extracting: Jake Knapp + John Zeratsky 2.0
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[132/297] Processing...
+  📝 Bilingual Extracting: Jake Knapp + John Zeratsky
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[133/297] Processing...
+  📝 Bilingual Extracting: Janna Bastow
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[134/297] Processing...
+  📝 Bilingual Extracting: Jason Droege
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[135/297] Processing...
+  📝 Bilingual Extracting: Jason Feifer
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[136/297] Processing...
+  📝 Bilingual Extracting: Jason Fried
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[137/297] Processing...
+  📝 Bilingual Extracting: Jason M Lemkin
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[138/297] Processing...
+  📝 Bilingual Extracting: Jason Shah
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[139/297] Processing...
+  📝 Bilingual Extracting: Jeanne Grosser
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[140/297] Processing...
+  📝 Bilingual Extracting: Jeff Weinstein
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[141/297] Processing...
+  📝 Bilingual Extracting: Jeffrey Pfeffer
+     ❌ Error: Could not parse JSON from response
+
+============================================================
+✅ Batch Complete: 18/20 succeeded
+❌ Errors: 2
+📊 Total in sample_data.json: 139 episodes, 384 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 156 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 40...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 139/297 processed
+   Remaining: 158 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[140/297] Processing...
+  📝 Bilingual Extracting: Howie Liu
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[141/297] Processing...
+  📝 Bilingual Extracting: Jeffrey Pfeffer
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[142/297] Processing...
+  📝 Bilingual Extracting: Jen Abel 2.0
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[143/297] Processing...
+  📝 Bilingual Extracting: Jen Abel
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[144/297] Processing...
+  📝 Bilingual Extracting: Jeremy Henrickson
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[145/297] Processing...
+  📝 Bilingual Extracting: Jerry Colonna
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[146/297] Processing...
+  📝 Bilingual Extracting: Jess Lachs
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[147/297] Processing...
+  📝 Bilingual Extracting: Jessica Hische
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[148/297] Processing...
+  📝 Bilingual Extracting: Jessica Livingston
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[149/297] Processing...
+  📝 Bilingual Extracting: Jiaona Zhang
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[150/297] Processing...
+  📝 Bilingual Extracting: Joe Hudson
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[151/297] Processing...
+  📝 Bilingual Extracting: John Cutler
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[152/297] Processing...
+  📝 Bilingual Extracting: John Mark Nickels
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[153/297] Processing...
+  📝 Bilingual Extracting: Jonathan Becker
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[154/297] Processing...
+  📝 Bilingual Extracting: Jonathan Lowenhar
+     ❌ Error: Could not parse JSON from response
+
+[155/297] Processing...
+  📝 Bilingual Extracting: Jonny Miller
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[156/297] Processing...
+  📝 Bilingual Extracting: Josh Miller
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[157/297] Processing...
+  📝 Bilingual Extracting: Judd Antin
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[158/297] Processing...
+  📝 Bilingual Extracting: Jules Walter
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[159/297] Processing...
+  📝 Bilingual Extracting: Julia Schottenstein
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+============================================================
+✅ Batch Complete: 19/20 succeeded
+❌ Errors: 1
+📊 Total in sample_data.json: 158 episodes, 423 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 138 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 60...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 158/297 processed
+   Remaining: 139 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[159/297] Processing...
+  📝 Bilingual Extracting: Jonathan Lowenhar
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[160/297] Processing...
+  📝 Bilingual Extracting: Julian Shapiro
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[161/297] Processing...
+  📝 Bilingual Extracting: Julie Zhuo 2.0
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[162/297] Processing...
+  📝 Bilingual Extracting: Julie Zhuo
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[163/297] Processing...
+  📝 Bilingual Extracting: Karina Nguyen
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[164/297] Processing...
+  📝 Bilingual Extracting: Karri Saarinen
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[165/297] Processing...
+  📝 Bilingual Extracting: Katie Dill
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[166/297] Processing...
+  📝 Bilingual Extracting: Kayvon Beykpour
+     ❌ Error: Could not parse JSON from response
+
+[167/297] Processing...
+  📝 Bilingual Extracting: Keith Coleman & Jay Baxter
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[168/297] Processing...
+  📝 Bilingual Extracting: Keith Yandell
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[169/297] Processing...
+  📝 Bilingual Extracting: Ken Norton
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[170/297] Processing...
+  📝 Bilingual Extracting: Kenneth Berger
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[171/297] Processing...
+  📝 Bilingual Extracting: Kevin Aluwi
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[172/297] Processing...
+  📝 Bilingual Extracting: Kevin Weil
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[173/297] Processing...
+  📝 Bilingual Extracting: Kevin Yien
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[174/297] Processing...
+  📝 Bilingual Extracting: Kim Scott
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[175/297] Processing...
+  📝 Bilingual Extracting: Kristen Berman
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[176/297] Processing...
+  📝 Bilingual Extracting: Krithika Shankarraman
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[177/297] Processing...
+  📝 Bilingual Extracting: Kunal Shah
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[178/297] Processing...
+  📝 Bilingual Extracting: Lane Shackleton
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+============================================================
+✅ Batch Complete: 19/20 succeeded
+❌ Errors: 1
+📊 Total in sample_data.json: 177 episodes, 467 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 119 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 80...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 177/297 processed
+   Remaining: 120 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[178/297] Processing...
+  📝 Bilingual Extracting: Kayvon Beykpour
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[179/297] Processing...
+  📝 Bilingual Extracting: Laura Modi
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[180/297] Processing...
+  📝 Bilingual Extracting: Laura Schaffer
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[181/297] Processing...
+  📝 Bilingual Extracting: Lauren Ipsen
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[182/297] Processing...
+  📝 Bilingual Extracting: Lauryn Isford
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[183/297] Processing...
+  📝 Bilingual Extracting: Logan Kilpatrick
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[184/297] Processing...
+  📝 Bilingual Extracting: Luc Levesque
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[185/297] Processing...
+  📝 Bilingual Extracting: Lulu Cheng Meservey
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[186/297] Processing...
+  📝 Bilingual Extracting: Madhavan Ramanujam 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[187/297] Processing...
+  📝 Bilingual Extracting: Madhavan Ramanujam
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[188/297] Processing...
+  📝 Bilingual Extracting: Maggie Crowley
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[189/297] Processing...
+  📝 Bilingual Extracting: Manik Gupta
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[190/297] Processing...
+  📝 Bilingual Extracting: Marc Benioff
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[191/297] Processing...
+  📝 Bilingual Extracting: Marily Nika
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[192/297] Processing...
+  📝 Bilingual Extracting: Marty Cagan 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[193/297] Processing...
+  📝 Bilingual Extracting: Marty Cagan
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[194/297] Processing...
+  📝 Bilingual Extracting: Matt Abrahams
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[195/297] Processing...
+  📝 Bilingual Extracting: Matt Dixon
+     ✅ Extracted 2 methodologies 🌐 EN+ZH
+
+[196/297] Processing...
+  📝 Bilingual Extracting: Matt LeMay
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[197/297] Processing...
+  📝 Bilingual Extracting: Matt MacInnis
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+============================================================
+✅ Batch Complete: 20/20 succeeded
+❌ Errors: 0
+📊 Total in sample_data.json: 197 episodes, 505 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 100 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 100...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 197/297 processed
+   Remaining: 100 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[198/297] Processing...
+  📝 Bilingual Extracting: Matt Mochary
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[199/297] Processing...
+  📝 Bilingual Extracting: Matt Mullenweg
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[200/297] Processing...
+  📝 Bilingual Extracting: Matthew Dicks
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[201/297] Processing...
+  📝 Bilingual Extracting: Maya Prohovnik
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[202/297] Processing...
+  📝 Bilingual Extracting: Mayur Kamat
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[203/297] Processing...
+  📝 Bilingual Extracting: Megan Cook
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[204/297] Processing...
+  📝 Bilingual Extracting: Melanie Perkins
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[205/297] Processing...
+  📝 Bilingual Extracting: Melissa Perri + Denise Tilles
+     ✅ Extracted 2 methodologies 🌐 EN+ZH
+
+[206/297] Processing...
+  📝 Bilingual Extracting: Melissa Perri
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[207/297] Processing...
+  📝 Bilingual Extracting: Melissa Tan
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[208/297] Processing...
+  📝 Bilingual Extracting: Melissa
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[209/297] Processing...
+  📝 Bilingual Extracting: Meltem Kuran
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[210/297] Processing...
+  📝 Bilingual Extracting: Merci Grace
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[211/297] Processing...
+  📝 Bilingual Extracting: Michael Truell
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[212/297] Processing...
+  📝 Bilingual Extracting: Mihika Kapoor
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[213/297] Processing...
+  📝 Bilingual Extracting: Mike Krieger
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[214/297] Processing...
+  📝 Bilingual Extracting: Mike Maples Jr
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[215/297] Processing...
+  📝 Bilingual Extracting: Molly Graham
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[216/297] Processing...
+  📝 Bilingual Extracting: Nabeel S. Qureshi
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[217/297] Processing...
+  📝 Bilingual Extracting: Nan Yu
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+============================================================
+✅ Batch Complete: 20/20 succeeded
+❌ Errors: 0
+📊 Total in sample_data.json: 217 episodes, 548 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 80 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 120...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 217/297 processed
+   Remaining: 80 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[218/297] Processing...
+  📝 Bilingual Extracting: Nancy Duarte
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[219/297] Processing...
+  📝 Bilingual Extracting: Naomi Gleit
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[220/297] Processing...
+  📝 Bilingual Extracting: Naomi Ionita
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[221/297] Processing...
+  📝 Bilingual Extracting: Nick Turley
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[222/297] Processing...
+  📝 Bilingual Extracting: Nickey Skarstad
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[223/297] Processing...
+  📝 Bilingual Extracting: Nicole Forsgren 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[224/297] Processing...
+  📝 Bilingual Extracting: Nicole Forsgren
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[225/297] Processing...
+  📝 Bilingual Extracting: Nikhyl Singhal
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[226/297] Processing...
+  📝 Bilingual Extracting: Nikita Bier
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[227/297] Processing...
+  📝 Bilingual Extracting: Nikita Miller
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[228/297] Processing...
+  📝 Bilingual Extracting: Nilan Peiris
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[229/297] Processing...
+  📝 Bilingual Extracting: Nir Eyal
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[230/297] Processing...
+  📝 Bilingual Extracting: Noah Weiss
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[231/297] Processing...
+  📝 Bilingual Extracting: Noam Lovinsky
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[232/297] Processing...
+  📝 Bilingual Extracting: Oji Udezue
+     ❌ Error: Could not parse JSON from response
+
+[233/297] Processing...
+  📝 Bilingual Extracting: Paige Costello
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[234/297] Processing...
+  📝 Bilingual Extracting: Patrick Campbell
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[235/297] Processing...
+  📝 Bilingual Extracting: Paul Adams
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[236/297] Processing...
+  📝 Bilingual Extracting: Paul Millerd
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[237/297] Processing...
+  📝 Bilingual Extracting: Pete Kazanjy
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+============================================================
+✅ Batch Complete: 19/20 succeeded
+❌ Errors: 1
+📊 Total in sample_data.json: 236 episodes, 584 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 60 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 140...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 236/297 processed
+   Remaining: 61 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[237/297] Processing...
+  📝 Bilingual Extracting: Oji Udezue
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[238/297] Processing...
+  📝 Bilingual Extracting: Peter Deng
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[239/297] Processing...
+  📝 Bilingual Extracting: Petra Wille
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[240/297] Processing...
+  📝 Bilingual Extracting: Phyl Terry
+     ✅ Extracted 2 methodologies 🌐 EN+ZH
+
+[241/297] Processing...
+  📝 Bilingual Extracting: Raaz Herzberg
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[242/297] Processing...
+  📝 Bilingual Extracting: Rachel Lockett
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[243/297] Processing...
+  📝 Bilingual Extracting: Rahul Vohra
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[244/297] Processing...
+  📝 Bilingual Extracting: Ramesh Johari
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[245/297] Processing...
+  📝 Bilingual Extracting: Ravi Mehta
+     ❌ Error: Could not parse JSON from response
+
+[246/297] Processing...
+  📝 Bilingual Extracting: Ray Cao
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[247/297] Processing...
+  📝 Bilingual Extracting: Richard Rumelt
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[248/297] Processing...
+  📝 Bilingual Extracting: Robby Stein
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[249/297] Processing...
+  📝 Bilingual Extracting: Roger Martin
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[250/297] Processing...
+  📝 Bilingual Extracting: Ronny Kohavi
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[251/297] Processing...
+  📝 Bilingual Extracting: Ryan Hoover
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[252/297] Processing...
+  📝 Bilingual Extracting: Ryan J. Salva
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[253/297] Processing...
+  📝 Bilingual Extracting: Ryan Singer
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[254/297] Processing...
+  📝 Bilingual Extracting: Sachin Monga
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[255/297] Processing...
+  📝 Bilingual Extracting: Sahil Mansuri
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[256/297] Processing...
+  📝 Bilingual Extracting: Sam Schillace
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+============================================================
+✅ Batch Complete: 19/20 succeeded
+❌ Errors: 1
+📊 Total in sample_data.json: 255 episodes, 617 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 41 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 160...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 255/297 processed
+   Remaining: 42 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[256/297] Processing...
+  📝 Bilingual Extracting: Ravi Mehta
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[257/297] Processing...
+  📝 Bilingual Extracting: Sanchan Saxena
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[258/297] Processing...
+  📝 Bilingual Extracting: Sander Schulhoff 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[259/297] Processing...
+  📝 Bilingual Extracting: Sander Schulhoff
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[260/297] Processing...
+  📝 Bilingual Extracting: Sarah Tavel
+     ✅ Extracted 2 methodologies 🌐 EN+ZH
+
+[261/297] Processing...
+  📝 Bilingual Extracting: Scott Belsky
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[262/297] Processing...
+  📝 Bilingual Extracting: Scott Wu
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[263/297] Processing...
+  📝 Bilingual Extracting: Sean Ellis
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[264/297] Processing...
+  📝 Bilingual Extracting: Seth Godin
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[265/297] Processing...
+  📝 Bilingual Extracting: Shaun Clowes
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[266/297] Processing...
+  📝 Bilingual Extracting: Shishir Mehrotra
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[267/297] Processing...
+  📝 Bilingual Extracting: Shreyas Doshi Live
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[268/297] Processing...
+  📝 Bilingual Extracting: Shreyas Doshi
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[269/297] Processing...
+  📝 Bilingual Extracting: Shweta Shriva
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[270/297] Processing...
+  📝 Bilingual Extracting: Sri Batchu
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[271/297] Processing...
+  📝 Bilingual Extracting: Sriram and Aarthi
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[272/297] Processing...
+  📝 Bilingual Extracting: Stewart Butterfield
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[273/297] Processing...
+  📝 Bilingual Extracting: Tamar Yehoshua
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[274/297] Processing...
+  📝 Bilingual Extracting: Tanguy Crusson
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[275/297] Processing...
+  📝 Bilingual Extracting: Teaser_2021
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+============================================================
+✅ Batch Complete: 20/20 succeeded
+❌ Errors: 0
+📊 Total in sample_data.json: 275 episodes, 648 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 22 transcripts
+⏳ Batch complete, sleeping 5s...
+
+📦 Processing batch starting at offset 180...
+🌐 InsightHunt Bilingual Pipeline (EN + ZH)
+============================================================
+
+📊 Status: 275/297 processed
+   Remaining: 22 transcripts
+
+🎯 Processing batch: 20 files
+
+
+[276/297] Processing...
+  📝 Bilingual Extracting: Teresa Torres
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[277/297] Processing...
+  📝 Bilingual Extracting: Tim Holley
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[278/297] Processing...
+  📝 Bilingual Extracting: Timothy Davis
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[279/297] Processing...
+  📝 Bilingual Extracting: Tobi Lutke
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[280/297] Processing...
+  📝 Bilingual Extracting: Todd Jackson
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[281/297] Processing...
+  📝 Bilingual Extracting: Tom Conrad
+     ❌ Error: Could not parse JSON from response
+
+[282/297] Processing...
+  📝 Bilingual Extracting: Tomer Cohen 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[283/297] Processing...
+  📝 Bilingual Extracting: Tomer Cohen
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[284/297] Processing...
+  📝 Bilingual Extracting: Tristan de Montebello
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[285/297] Processing...
+  📝 Bilingual Extracting: Upasna Gautam
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[286/297] Processing...
+  📝 Bilingual Extracting: Uri Levine 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[287/297] Processing...
+  📝 Bilingual Extracting: Uri Levine
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[288/297] Processing...
+  📝 Bilingual Extracting: Varun Mohan
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[289/297] Processing...
+  📝 Bilingual Extracting: Varun Parmar
+     ✅ Extracted 4 methodologies 🌐 EN+ZH
+
+[290/297] Processing...
+  📝 Bilingual Extracting: Vijay
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[291/297] Processing...
+  📝 Bilingual Extracting: Vikrama Dhiman
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[292/297] Processing...
+  📝 Bilingual Extracting: Wes Kao 2.0
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[293/297] Processing...
+  📝 Bilingual Extracting: Wes Kao
+     ✅ Extracted 0 methodologies ⚠️ No methodologies
+
+[294/297] Processing...
+  📝 Bilingual Extracting: Will Larson
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+[295/297] Processing...
+  📝 Bilingual Extracting: Yuhki Yamashata
+     ✅ Extracted 3 methodologies 🌐 EN+ZH
+
+============================================================
+✅ Batch Complete: 19/20 succeeded
+❌ Errors: 1
+📊 Total in sample_data.json: 294 episodes, 680 methodologies
+
+📌 Next batch: python3 scripts/bilingual_pipeline.py --count 20
+   Remaining: 2 transcripts
+⏳ Batch complete, sleeping 5s...
+
+==========================================
+🎉 ALL PROCESSING COMPLETE!
+Finished: Sun Jan 18 04:47:16 CST 2026

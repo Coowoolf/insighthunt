@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "J.M. Nickels",
+    "title": "VP of Product, Mobility",
+    "company": "Uber",
+    "background": "J.M. Nickels is a seasoned product leader who has held senior roles at Waymo (Head of Product for Commercialization), DoorDash (Head of Product for Platform), and Uber (Senior Director of Product). He specializes in logistics, marketplace dynamics, and autonomous mobility.",
+    "background_zh": "J.M. Nickels 是一位资深产品领袖，目前担任 Uber 出行部门的产品副总裁。他曾在 Waymo 负责自动驾驶商业化产品，在 DoorDash 负责平台产品，并是 Uber 早期负责拼车（Pool）、定价和匹配算法的核心领导者。他擅长物流、双边市场动态以及自动驾驶出行领域。"
+  },
+  "episodeSummary": "J.M. Nickels bridges the gap between hard product skills (marketplace dynamics, strategy) and 'conscious leadership' (emotional intelligence, mindfulness). He shares frameworks for envisioning 10-year strategies, compares the product cultures of Uber, DoorDash, and Waymo, and explains how PMs can use emotional signals as data to make better decisions.",
+  "episodeSummary_zh": "J.M. Nickels 在本期节目中连接了硬核产品技能（市场动态、战略）与“有意识的领导力”（情商、正念）。他分享了构建十年战略的思维框架，深度对比了 Uber、DoorDash 和 Waymo 的产品文化差异，并阐述了产品经理如何将情绪信号转化为数据以辅助更优决策。",
+  "filename": "John Mark Nickels"
+}

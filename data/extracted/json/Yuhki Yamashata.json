@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Yuhki Yamashita",
+    "title": "Chief Product Officer",
+    "company": "Figma",
+    "background": "Yuhki is the CPO at Figma, previously serving as a VP at Uber and holding product roles at Google and Microsoft. He has a unique background bridging engineering, design, and product management, having also taught introductory computer science at Harvard.",
+    "background_zh": "Yuhki 现任 Figma 首席产品官 (CPO)，此前曾任 Uber 副总裁，并在 Google 和 Microsoft 担任产品职务。他拥有工程、设计和产品管理的跨界背景，并曾在哈佛大学教授计算机科学入门课程。"
+  },
+  "episodeSummary": "In this conversation, Yuhki Yamashita breaks down Figma's unique product culture, emphasizing the importance of 'memifying' insights through storytelling and the PM's responsibility to own the 'Why.' He shares candid experiences about the failures and evolution of OKRs at Figma, strategies for product-led growth, and how extreme dogfooding drives quality.",
+  "episodeSummary_zh": "在本期对谈中，Yuhki Yamashita 深度剖析了 Figma 独特的产品文化，强调了通过讲故事将洞察“模因化”的重要性，以及 PM 必须拥有对“Why”的解释权。他坦诚分享了 Figma 内部 OKR 的失败经历与演变、产品驱动增长（PLG）的策略，以及极端的内部试用（Dogfooding）文化如何推动产品质量。",
+  "keyTakeaways": [
+    "Product Managers must own the 'Why' of a problem, while empowering designers and engineers to own the 'What' and 'How'.",
+    "Great storytelling involves synthesis and 'memification'—turning complex insights into sticky phrases that leadership repeats.",
+    "Use the 'Five Whys' technique not just for engineering outages, but to dig deeper into user feature requests.",
+    "Dogfooding should be extreme: Use your own product for tasks it wasn't originally designed for (e.g., PM decks in Figma) to uncover friction.",
+    "Effective goals (OKRs) must satisfy three criteria: Legibility, Actionability, and Authenticity.",
+    "In Product-Led Growth, the sales team's role is to empower internal champions to evangelize the product, rather than just selling software."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Memification' Storytelling Framework",
+      "name_zh": "洞察“模因化”叙事框架",
+      "category": "career-leadership",
+      "problemItSolves": "PMs often struggle to get stakeholders to remember key user insights or take action in a distracted environment.",
+      "problemItSolves_zh": "PM 经常面临利益相关者注意力分散的问题，难以让关键用户洞察被记住或转化为实际行动。",
+      "summary": "A storytelling approach that focuses on synthesizing complex information into simple, repeatable narratives (memes) that stick with leadership and drive decision-making.",
+      "summary_zh": "一种讲故事的方法，专注于将复杂的信息合成为简单、可重复的叙述（模因），使其在领导层中深入人心并推动决策。",
+      "principles": [
+        "Synthesis: Distill conflicting opinions and data into a cohesive thesis, not just meeting notes.",
+        "Memification: Create sticky phrases or stories for data insights so leaders cite them spontaneously in meetings.",
+        "The Context Reset: Explain the problem assuming the audience has zero context, removing the 'curse of knowledge'.",
+        "Target Audience Empathy: Adapt the story for a user who is distracted and only gives you 30 seconds of attention."
+      ],
+      "principles_zh": [
+        "信息合成 (Synthesis)：将冲突的观点和数据提炼为连贯的论点，而不仅仅是会议记录。",
+        "模因化 (Memification)：为数据洞察创造朗朗上口的短语或故事，让领导者在会议中能自发引用。",
+        "语境重置 (The Context Reset)：假设听众零背景知识来解释问题，以此消除“知识诅咒”。",
+        "受众同理心：假设听众处于分心状态且只有30秒注意力，以此调整叙事方式。"
+      ],
+      "whenToUse": "When presenting product vision, research findings, or convincing leadership to change direction.",
+      "whenToUse_zh": "在展示产品愿景、用户调研结果或试图说服领导层改变方向时使用。",
+      "commonMistakes": "Confusing 'taking notes' with 'synthesis', or assuming stakeholders have the same context as the product team.",
+      "commonMistakes_zh": "混淆了“做笔记”和“信息合成”，或者假设利益相关者拥有与产品团队相同的背景信息。",
+      "quote": "A story is only as good as the action that it's capable of driving.",
+      "realWorldExample": "At Uber, specific data insights were 'memified' so effectively that the CEO (Travis or Dara) would cite them verbatim in unrelated meetings to make points.",
+      "realWorldExample_zh": "在 Uber，特定的数据洞察被有效地“模因化”，以至于 CEO（Travis 或 Dara）会在不相关的会议中逐字引用这些洞察来表达观点。"
+    },
+    {
+      "name": "The 'Product Five Whys' Technique",
+      "name_zh": "产品需求“五问法”",
+      "category": "product-strategy",
+      "problemItSolves": "Building exactly what customers ask for often leads to feature bloat without solving the underlying user problem.",
+      "problemItSolves_zh": "完全照搬客户要求的功能往往导致产品臃肿，却未能解决用户深层次的根本问题。",
+      "summary": "Adapting the engineering 'Five Whys' root cause analysis to product management. Instead of stopping at the feature request, the PM asks 'why' repeatedly to find the core structural opportunity.",
+      "summary_zh": "将工程领域的“五问法”根本原因分析引入产品管理。不应止步于功能请求，PM 需要反复追问“为什么”，以发现核心的结构性机会。",
+      "principles": [
+        "Question the Request: When a user asks for X, ask why they need X.",
+        "Question the Problem: Once the problem is identified, ask why that problem exists in the first place.",
+        "Seek Structural Solutions: Look for opportunities to fix the underlying condition that created the problem, rather than patching the symptom.",
+        "Own the Why: PMs strictly own the 'Why', leaving the 'What' and 'How' to designers and engineers."
+      ],
+      "principles_zh": [
+        "质疑请求：当用户要求功能 X 时，询问他们为什么需要 X。",
+        "质疑问题：确定问题后，追问为什么这个问题最开始会存在。",
+        "寻求结构性解法：寻找机会修复导致问题产生的底层条件，而不是仅仅修补表面症状。",
+        "掌握 Why 的解释权：PM 必须严格掌握“为什么做”，将“做什么”和“怎么做”留给设计师和工程师。"
+      ],
+      "whenToUse": "During user research, roadmap planning, and when receiving feature requests from vocal customers.",
+      "whenToUse_zh": "在用户调研、路线图规划以及收到强烈的客户功能请求时使用。",
+      "commonMistakes": "Stopping at the first layer of 'why' (the functional need) rather than reaching the behavioral or structural root cause.",
+      "commonMistakes_zh": "停留在第一层“为什么”（功能需求），而没有触及行为或结构性的根本原因。",
+      "quote": "A customer is asking for a feature... why do they have that problem in the first place? Maybe there's an opportunity to fix that underlying condition.",
+      "realWorldExample": "At YouTube, Yuhki learned that because he couldn't specify every detail in a spec, he had to clearly define the 'Why' so engineers could make autonomous, high-quality decisions on error handling.",
+      "realWorldExample_zh": "在 YouTube 工作期间，Yuhki 意识到他无法在文档中规定每一个细节，因此必须清晰定义“Why”，以便工程师在处理错误页面等细节时能自主做出高质量决策。"
+    },
+    {
+      "name": "Authentic Goal Setting (The L.A.A. Framework)",
+      "name_zh": "L.A.A. 目标设定原则",
+      "category": "execution",
+      "problemItSolves": "Teams often create OKRs that are either measurable but unimportant, or important but unmeasurable, leading to 'performative' goal setting.",
+      "problemItSolves_zh": "团队设定的 OKR 往往陷入两难：要么“可衡量但不重要”，要么“重要但不可衡量”，导致目标设定流于形式主义。",
+      "summary": "A refined approach to goal setting that moves away from rigid metric obsession toward honest commitments about what the team is actually trying to achieve.",
+      "summary_zh": "一种改良的目标设定方法，摆脱对僵化指标的痴迷，转向对团队真正试图实现的成就做出诚实的承诺。",
+      "principles": [
+        "Legibility: Can anyone outside the team look at the goal and understand exactly what it means?",
+        "Actionability: Does looking at the goal inspire the team to do something differently today?",
+        "Authenticity: Does this goal honestly depict what the team is working on, or is it a post-rationalization?",
+        "Commitment over Metric: It is better to have a clear qualitative 'headline' goal than a specific metric that is secondary or disconnected from value."
+      ],
+      "principles_zh": [
+        "可读性 (Legibility)：团队以外的任何人是否都能看懂这个目标并理解其确切含义？",
+        "可执行性 (Actionability)：看到这个目标是否能激励团队在今天采取不同的行动？",
+        "真实性 (Authenticity)：这个目标是否诚实地描述了团队正在做的工作，还是事后的合理化解释？",
+        "承诺重于指标：拥有一个清晰的定性“头条”目标，胜过拥有一个次要或与价值脱节的具体指标。"
+      ],
+      "whenToUse": "When quarterly planning feels bureaucratic or when teams struggle to connect daily work to high-level company metrics.",
+      "whenToUse_zh": "当季度规划感觉官僚主义严重，或团队难以将日常工作与公司高层指标联系起来时。",
+      "commonMistakes": "Picking a secondary metric just because it's easy to measure, or creating goals that are just a 'to-do list' in disguise.",
+      "commonMistakes_zh": "仅仅因为容易衡量而选择次要指标，或者制定伪装成目标的“待办事项清单”。",
+      "quote": "If you stop an engineer in the hallway... and they can't say [the OKR], then what's the point of publishing this OKR?",
+      "realWorldExample": "Figma deprecated OKRs for a period, switching to 'Headlines' to force teams to articulate their philosophical intent, before re-introducing data with more rigor later.",
+      "realWorldExample_zh": "Figma 曾一度废除 OKR，转而使用“头条新闻”模式，强迫团队阐明其哲学意图，之后才重新引入更严谨的数据指标。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Love drives growth, not the other way around.",
+      "context": "Discussing the core philosophy behind product-led growth and community evangelism."
+    },
+    {
+      "text": "The 'what' and 'how' are things that are shared within the company... but I do think the 'why' is something that I really always hold the PM uniquely responsible for.",
+      "context": "Defining the distinct responsibility of a Product Manager versus designers and engineers."
+    },
+    {
+      "text": "A story is only as good as the action that it's capable of driving.",
+      "context": "Explaining why storytelling is a functional skill for PMs, not just a soft skill."
+    },
+    {
+      "text": "If this is the future of design, I'm quitting.",
+      "context": "Quoting early user feedback to illustrate that controversial reactions can be a signal of a revolutionary product vision."
+    }
+  ],
+  "filename": "Yuhki Yamashata"
+}

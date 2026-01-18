@@ -1,0 +1,113 @@
+{
+  "guest": {
+    "name": "Maya Prohovnik",
+    "title": "Head of Product, Podcasting",
+    "company": "Spotify (formerly Anchor)",
+    "background": "Maya was employee #1 at Anchor, which was acquired by Spotify and now powers over 75% of all new podcasts globally. She currently oversees product, design, and engineering for Spotify's podcasting tools.",
+    "background_zh": "Maya 是 Anchor 的第一号员工，该公司后被 Spotify 收购，目前支撑着全球超过 75% 的新播客创作。她目前统筹 Spotify 播客工具的产品、设计和工程团队。"
+  },
+  "episodeSummary": "Maya Prohovnik discusses the journey of scaling Anchor from a small startup to the core of Spotify's podcasting dominance. She reveals how they used manual \"Wizard of Oz\" tactics to solve distribution friction, why aggressive dogfooding is non-negotiable for creator tools, and how to balance data with product intuition when making existential pivots.",
+  "episodeSummary_zh": "Maya Prohovnik 讲述了 Anchor 从初创公司扩展为 Spotify 播客业务核心的历程。她揭示了团队如何利用人工手段解决分发摩擦的“绿野仙踪”式策略，通过激进的“吃狗粮”文化打磨创作者工具，以及在面临生死攸关的转型时，如何在数据指标与产品直觉之间取得平衡。",
+  "keyTakeaways": [
+    "Dogfooding is not just testing; it's about experiencing the emotional anxiety of the user.",
+    "Sometimes you must pivot away from a product with good retention if the Total Addressable Market (TAM) is too small.",
+    "Do things that don't scale: Use manual labor (interns) to create 'magical' automated experiences for users early on.",
+    "Treat your 'gut feeling' as a valid data point derived from synthesized experience.",
+    "In a post-acquisition scenario, your job is to stay excited and 'sell' your value to the new parent company constantly."
+  ],
+  "methodologies": [
+    {
+      "name": "The Immersive Dogfooding Playbook",
+      "name_zh": "沉浸式“吃狗粮”实战手册",
+      "category": "user-research",
+      "problemItSolves": "Product teams often view features as functional checklists, missing the emotional barriers and anxieties (friction, fear of publishing) that actual creators face.",
+      "problemItSolves_zh": "产品团队常将功能视为待办清单，忽略了真实创作者面临的情感障碍和焦虑（如操作摩擦、发布恐惧）。",
+      "summary": "Maya mandates that her product team creates their own podcasts, not to test for bugs (QA), but to cultivate empathy for the creator's journey. This framework shifts focus from 'does it work' to 'how does it feel'.",
+      "summary_zh": "Maya 要求她的产品团队必须制作自己的播客，目的不是为了测试 Bug（那是 QA 的工作），而是为了培养对创作者心路历程的同理心。该框架将关注点从“功能是否可用”转移到“体验感受如何”。",
+      "principles": [
+        "Experience the 'Cold Start': Don't use test accounts; start from zero to feel the friction of onboarding and community building.",
+        "Embrace the Anxiety: Don't script everything. Experience the vulnerability of putting your voice out there to understand user hesitation.",
+        "Commit to Consistency: Don't do a one-off 30-second test. Maintain a show to understand the long-term pain points of production and retention."
+      ],
+      "principles_zh": [
+        "体验“冷启动”：不要使用测试账号；从零开始，切身体会用户引导（Onboarding）和社区建立的摩擦感。",
+        "拥抱焦虑感：不要照本宣科。去体验公开发声的脆弱感，从而理解用户为何会在发布按钮前犹豫不决。",
+        "坚持长期投入：不要只做一个30秒的一次性测试。维护一档长期节目，以理解内容生产和留存的长期痛点。"
+      ],
+      "whenToUse": "Essential when building creative tools or platforms where user psychology and vulnerability play a major role in adoption.",
+      "whenToUse_zh": "在构建创意工具或平台时至关重要，特别是当用户心理和脆弱感对产品采用率起决定性作用时。",
+      "commonMistakes": "Treating dogfooding as QA (finding bugs) rather than empathy building; using internal builds that bypass real-world friction.",
+      "commonMistakes_zh": "将“吃狗粮”等同于 QA（找 Bug）而非同理心建设；使用绕过真实世界摩擦成本的内部测试版本。",
+      "quote": "I'm constantly yelling at my product team who do not have podcasts... I really don't think that you can build the right things if you don't deeply feel those problems.",
+      "realWorldExample": "Maya maintains four different podcasts (including a 'terrible' Big Brother fan show recorded entirely on mobile) to ensure she understands the specific constraints of mobile-first creators versus high-production desktop users.",
+      "realWorldExample_zh": "Maya 维护着四档不同的播客（包括一个完全用手机录制的“糟糕”真人秀粉丝节目），以确保她能分别理解“移动端优先”创作者与高精良制作桌面端用户的不同局限性。"
+    },
+    {
+      "name": "The 'Magical' Concierge MVP",
+      "name_zh": "“魔法式”人工 MVP 策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Technical barriers (like RSS feeds and Apple ID requirements) create massive drop-off points for non-technical users, but automating them fully is expensive and complex.",
+      "problemItSolves_zh": "技术门槛（如 RSS Feed 和 Apple ID 要求）会导致非技术用户大量流失，但完全自动化的开发成本高昂且复杂。",
+      "summary": "Instead of building complex integrations immediately, build a UI that promises a magical result ('One Click Distribution'), and use manual labor behind the scenes to fulfill that promise until scale allows for automation.",
+      "summary_zh": "不要立即构建复杂的集成，而是构建一个承诺神奇结果的 UI（如“一键分发”），并在后台通过人工操作来实现这一承诺，直到规模扩大后再进行自动化。",
+      "principles": [
+        "Hide the Sausage: The user interface should be simple and magical (one button), completely abstracting the complexity.",
+        "Manual Backend Execution: Hire interns or ops teams to manually perform the complex tasks (e.g., submitting feeds, creating accounts) that the user thinks are automated.",
+        "Build for Unscalability: Deliberately choose methods that don't scale initially to capture market share quickly through superior UX."
+      ],
+      "principles_zh": [
+        "隐藏复杂性：用户界面应极其简单且具有“魔法感”（单按钮），完全屏蔽底层的复杂逻辑。",
+        "后台人工执行：雇佣实习生或运营团队手动完成那些用户误以为是自动化的复杂任务（如提交 Feed、创建账户）。",
+        "为“不可扩展”而构建：初期刻意选择不可扩展的方法，通过卓越的用户体验（UX）快速抢占市场份额。"
+      ],
+      "whenToUse": "When entering a commoditized market where reducing friction is the only competitive advantage, and full automation is technically blocked or too slow to build.",
+      "whenToUse_zh": "当你进入一个同质化市场，且“降低摩擦”是唯一的竞争优势，而全自动化在技术上受阻或开发过慢时。",
+      "commonMistakes": "Wait until the backend is fully automated before launching; exposing technical complexity (like RSS settings) to the user.",
+      "commonMistakes_zh": "等到后台完全自动化才上线；向用户暴露技术复杂性（如 RSS 设置选项）。",
+      "quote": "To them it's going to feel magical and it happened automatically... but we just had college students making Apple podcast accounts and then submitting hundreds of thousands of podcasts manually.",
+      "realWorldExample": "In the early days of Anchor, they hired interns to manually create Apple IDs and submit RSS feeds for users. Users saw a 'Distribute' button, and 24 hours later were on Apple Podcasts, bypassing the technical headache entirely.",
+      "realWorldExample_zh": "在 Anchor 早期，他们雇佣实习生手动为用户创建 Apple ID 并提交 RSS Feed。用户只需点击“分发”按钮，24小时后节目就上线 Apple Podcast，完全绕过了技术头疼问题。"
+    },
+    {
+      "name": "The 'Gut as Data' Decision Matrix",
+      "name_zh": "“直觉即数据”决策矩阵",
+      "category": "product-strategy",
+      "problemItSolves": "Data often optimizes for the 'local maximum'—users may love the current product (high retention), but the product might be stuck in a niche that prevents massive scale.",
+      "problemItSolves_zh": "数据往往只能优化“局部最优”——用户可能非常喜欢当前产品（高留存），但该产品可能陷入小众市场，无法实现大规模扩展。",
+      "summary": "This framework validates pivoting even when metrics are good. It treats 'gut feeling' not as magic, but as synthesized pattern recognition. If the current product can't achieve the mission/TAM, you pivot despite user protests.",
+      "summary_zh": "该框架用于验证即使在指标良好的情况下是否需要转型。它将“直觉”视为一种综合的模式识别能力，而非魔法。如果当前产品无法实现公司使命或触达足够大的市场（TAM），即使遭到用户反对也要转型。",
+      "principles": [
+        "Mission Over Metrics: Use the company's ultimate mission (e.g., 'Democratize Audio') to evaluate success, not just current retention graphs.",
+        "The 80/20 Vocal Trap: Ignore the vocal 20% of power users if their needs contradict the path to unlocking the 80% mass market.",
+        "Kill Your Darlings: Be willing to abandon a feature set that has product-market fit in a small niche to chase a larger opportunity."
+      ],
+      "principles_zh": [
+        "使命高于指标：用公司的终极使命（如“让音频民主化”）来评估成功，而不仅仅看当前的留存曲线。",
+        "80/20 喧哗陷阱：如果那 20% 喧哗的重度用户的需求阻碍了你解锁 80% 的大众市场，请忽略他们。",
+        "杀死你的挚爱：要有勇气放弃在小众领域已达成 PMF（产品市场匹配）的功能集，去追逐更大的机会。"
+      ],
+      "whenToUse": "When you have a loyal but small user base and realize the current product mechanics won't scale to a venture-scale outcome.",
+      "whenToUse_zh": "当你拥有忠诚但规模较小的用户群，并意识到当前的产品机制无法扩展到风投预期的规模时。",
+      "commonMistakes": "Listening to current users so closely that you optimize yourself into a corner; requiring definitive data proof before making a strategic leap.",
+      "commonMistakes_zh": "过分听取现有用户的意见，导致将自己优化进死胡同；在进行战略飞跃前要求有确凿的数据证明。",
+      "quote": "The users were all telling us, there's no problem... but we had this feeling that it just wasn't ever going to be big enough.",
+      "realWorldExample": "Anchor 1.0 was a social audio app (like Clubhouse) with great retention. However, Maya and the founders realized it wouldn't democratize audio for the masses. They pivoted to Anchor 2.0 (creation tools), angering early users but unlocking massive growth.",
+      "realWorldExample_zh": "Anchor 1.0 是一个社交音频应用（类似 Clubhouse），留存率很高。然而，Maya 和创始人意识到这无法实现大众音频民主化。他们转型为 Anchor 2.0（创作工具），虽然激怒了早期用户，却解锁了巨大的增长。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Only a fool wishes time away.",
+      "context": "Her life motto, regarding enjoying the process even during boring or stressful work moments."
+    },
+    {
+      "text": "If you could make a podcast about anything, what would it be?",
+      "context": "Her favorite interview question to test for passion in candidates."
+    },
+    {
+      "text": "Build things that don't scale.",
+      "context": "One of Anchor's founding principles that led to their manual distribution hack."
+    }
+  ],
+  "filename": "Maya Prohovnik"
+}

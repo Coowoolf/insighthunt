@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Jen Abel",
+    "title": "Co-founder at JJELLYFISH / GM of Enterprise at State Affairs",
+    "company": "JJELLYFISH / State Affairs",
+    "background": "Jen Abel is a B2B sales expert specializing in helping early-stage startups transition from founder-led sales to scalable enterprise sales models. She focuses on the critical $1M to $10M ARR journey.",
+    "background_zh": "Jen Abel 是 B2B 销售领域的专家，专注于帮助早期初创企业从“创始人销售”向可扩展的“企业级销售”模式转型。她特别擅长指导企业跨越从 100 万到 1000 万美元 ARR（年度经常性收入）的关键增长阶段。"
+  },
+  "episodeSummary": "Jen Abel discusses the critical transition from founder-led sales to building an enterprise sales engine ($1M-$10M ARR). She challenges conventional wisdom by arguing that the \"mid-market\" doesn't exist, advocates for selling \"vision\" over \"problems\" to Tier 1 logos, and details how to leverage services to secure six-figure contracts early.",
+  "episodeSummary_zh": "Jen Abel 探讨了初创企业从创始人销售向企业级销售引擎转型的关键期（1M-10M ARR）。她挑战了传统观念，提出“中端市场不存在”的论点，主张向头部客户销售“愿景”而非单纯解决“问题”，并详细介绍了如何利用服务（Services）作为切入点来尽早拿下六位数的高额合同。",
+  "keyTakeaways": [
+    "The mid-market is a trap; choose between SMB (marketing-led) or Enterprise (sales-led).",
+    "Stop selling to problems; sell to the 'Gap' and 'Alpha' (competitive advantage).",
+    "Anchor pricing at $75k-$150k immediately to be taken seriously by enterprises.",
+    "Start with Tier 1 logos (e.g., Walmart) as they are often the true early adopters seeking innovation.",
+    "Use services and manual work as a 'Trojan Horse' to enter enterprise accounts before full software adoption.",
+    "Hire salespeople who can 'cosplay the founder' rather than traditional VP of Sales types."
+  ],
+  "methodologies": [
+    {
+      "name": "Vision Casting & Gap Selling",
+      "name_zh": "愿景锚定与差距销售法",
+      "category": "product-strategy",
+      "problemItSolves": "Founders often fail to close large enterprise deals because they focus on technical features or small problems rather than strategic value.",
+      "problemItSolves_zh": "创始人往往因过于关注技术特性或细枝末节的问题，而无法向企业高管传达战略价值，导致大单丢失。",
+      "summary": "Instead of selling a solution to a specific pain point (problem selling), founders must sell the 'Alpha'—the competitive advantage or future state the client will achieve (vision casting). This involves highlighting the gap between their current state and their potential 'superhero' status.",
+      "summary_zh": "不要仅仅针对具体痛点销售解决方案（问题销售），创始人必须销售“Alpha收益”——即客户将获得的竞争优势或未来状态（愿景锚定）。核心在于强调客户现状与成为行业领袖（Superhero status）之间的差距。",
+      "principles": [
+        "Sell the Opportunity, Not the Problem: Frame the product as a way to gain 'Alpha' or a competitive edge, not just fix a bug.",
+        "Target Tier 1 Logos: Large industry leaders are often more willing to take risks to maintain their #1 spot than smaller, conservative companies.",
+        "Use Visual Framing: Like the 'Mario vs. Fire Mario' concept—sell the superpower the user gets, not the mushroom (tool) itself."
+      ],
+      "principles_zh": [
+        "销售机会而非问题：将产品定义为获取“Alpha收益”或竞争优势的途径，而不仅仅是修补漏洞。",
+        "锁定头部客户（Tier 1）：行业领袖为了保住第一的位置，往往比保守的小公司更愿意承担创新风险。",
+        "可视化框架：如同“马里奥与其火焰形态”的概念——销售用户获得的超能力（火焰马里奥），而不是蘑菇（工具）本身。"
+      ],
+      "whenToUse": "When selling to C-level executives or attempting to close contracts valued at $100k+.",
+      "whenToUse_zh": "向 C-level 高管推销或试图达成 10 万美元以上的高额合同时。",
+      "commonMistakes": "Getting bogged down in technical qualification questions too early or letting the prospect compare you to commodity tools.",
+      "commonMistakes_zh": "过早陷入技术细节的资格审查，或让潜在客户将你与普通工具类比。",
+      "quote": "You need to vision cast, you need to sell to a gap, don't sell to a problem.",
+      "realWorldExample": "Instead of selling a faster coding tool (problem), sell the ability to attract and retain 10x engineers who refuse to work without modern tooling (vision/opportunity).",
+      "realWorldExample_zh": "与其销售一个更快的代码工具（解决问题），不如销售“吸引和留住那些非现代工具不用的 10倍效能工程师的能力”（销售愿景/机会）。"
+    },
+    {
+      "name": "The Enterprise Price Anchoring",
+      "name_zh": "企业级价格锚定策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Startups often underprice ($10k-$20k) thinking it reduces friction, but it actually hurts credibility and makes expansion difficult.",
+      "problemItSolves_zh": "初创公司常以为低价（1-2万美元）能降低门槛，但这反而会损害可信度，并导致后续追加销售（Upsell）极度困难。",
+      "summary": "Enterprises have specific buying motions. Pricing too low ($10k) signals low value and risks getting stuck in 'procurement purgatory' for a non-critical tool. Startups should aim for a land deal between $75k-$150k to justify executive involvement and ensure commitment.",
+      "summary_zh": "企业有特定的采购行为模式。定价过低（1万美元）意味着低价值，且容易因工具非关键性而陷入“采购炼狱”。初创公司应将首单锚定在 7.5万 至 15万美元之间，以匹配高管的决策层级并确保客户的投入度。",
+      "principles": [
+        "Avoid the 'Dead Zone': Don't get stuck in the $10k-$20k range; move immediately to $75k+.",
+        "Land High to Expand: It is extremely difficult to upsell a customer from $10k to $100k (10x jump); it's easier to expand from $75k.",
+        "Services as Value Add: If the software isn't ready for a high price tag, bundle manual services/consulting to justify the $100k contract value."
+      ],
+      "principles_zh": [
+        "避开“死亡区间”：不要停留在 1-2 万美元的定价区间，迅速提升至 7.5 万美元以上。",
+        "高举高打以便扩展：将客户从 1 万美元提升到 10 万美元（10倍跳跃）极难；从 7.5 万美元扩展则容易得多。",
+        "服务增值：如果软件本身尚不足以支撑高价，通过打包人工服务或咨询来支撑 10 万美元的合同价值。"
+      ],
+      "whenToUse": "When designing the initial pricing strategy for B2B enterprise products.",
+      "whenToUse_zh": "制定 B2B 企业级产品的初始定价策略时。",
+      "commonMistakes": "Discounting heavily to 'get the deal done,' which signals a lack of confidence and product-market fit.",
+      "commonMistakes_zh": "为了“搞定订单”而大幅打折，这反而向客户传递了缺乏信心和未达到 PMF（产品市场匹配）的信号。",
+      "quote": "If they're sitting there nickel-and-diming you, they're not fully bought in on what you're selling them.",
+      "realWorldExample": "If a large company wants a pilot, don't charge SMB pricing ($5k). Charge $75k+ and include 'white-glove' onboarding and custom development to justify the cost.",
+      "realWorldExample_zh": "如果一家大公司想要试用，不要按 SMB 定价（5千美元）收费。收取 7.5万美元以上，并包含“白手套”式的贴身服务和定制开发来证明费用的合理性。"
+    },
+    {
+      "name": "The Service-First 'Trojan Horse'",
+      "name_zh": "服务先行“特洛伊木马”策略",
+      "category": "execution",
+      "problemItSolves": "Breaking into enterprises with immature software is hard due to integration risks and IT security blocks.",
+      "problemItSolves_zh": "由于集成风险和 IT 安全限制，不成熟的软件产品很难直接打入企业内部。",
+      "summary": "Sell the outcome as a service first. Enterprises are accustomed to buying consulting/services. Use your software internally to deliver the service manually (Wizard of Oz technique), building trust and data loops before transitioning them to a software license.",
+      "summary_zh": "首先销售“结果”即服务。企业习惯于购买咨询或服务。在内部使用你的软件人工交付结果（“绿野仙踪”式操作），在建立信任和数据闭环后，再过渡到软件许可模式。",
+      "principles": [
+        "Do Things That Don't Scale: Manually execute the work for the client initially to guarantee success.",
+        "Bypass IT Friction: Selling a service often bypasses strict software security reviews required for direct integration.",
+        "Co-author the Transition: Explicitly frame the engagement as 'Service now, Software later' to set expectations for future margin improvement."
+      ],
+      "principles_zh": [
+        "做无法规模化的事：初期人工为客户执行工作，以确保绝对的成功交付。",
+        "绕过 IT 摩擦：销售服务通常能绕过直接集成所需的严格软件安全审查。",
+        "共同规划转型：明确将合作定义为“现阶段服务，未来软件化”，为未来的利润率提升设定预期。"
+      ],
+      "whenToUse": "Early-stage startups (Seed/Series A) trying to win Fortune 500 logos with an incomplete product.",
+      "whenToUse_zh": "早期初创公司（种子轮/A轮）试图凭借尚不完善的产品赢得财富 500 强客户时。",
+      "commonMistakes": "Thinking you are a 'SaaS company' so you refuse to do services. This is a missed opportunity for paid learning.",
+      "commonMistakes_zh": "因为自认为是“SaaS公司”而拒绝提供服务。这实际上错失了付费学习（Paid Learning）的良机。",
+      "quote": "Enterprise is the number one thing they buy services... selling them a service even though the technology is powering it on the backend is the fastest way to get your foot in the door.",
+      "realWorldExample": "Palantir's 'Forward Deployed Engineers' who sit onsite and solve problems, eventually embedding the software deeply into the org.",
+      "realWorldExample_zh": "Palantir 的“前以此部署工程师”，他们驻场解决问题，最终将软件深度嵌入到客户组织中。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The market doesn't want to be sold to, they want to buy.",
+      "context": "On the psychology of enterprise buyers and why aggressive sales scripts fail."
+    },
+    {
+      "text": "Mid-market doesn't exist. It's either low end enterprise or upper end SMB.",
+      "context": "Jen challenging the common startup advice to target the mid-market."
+    },
+    {
+      "text": "As soon as you become a comparison, as soon as you become one of three that they're testing out, you've already sort of lost.",
+      "context": "On the importance of differentiation and owning the frame."
+    }
+  ],
+  "filename": "Jen Abel 2.0"
+}

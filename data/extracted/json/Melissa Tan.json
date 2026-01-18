@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Melissa Tan",
+    "title": "Former Head of Growth at Webflow & Dropbox",
+    "company": "Webflow / Dropbox / Advisor",
+    "background": "A seasoned growth leader who built Dropbox's B2B self-serve business and led growth at Webflow. She is a sought-after advisor for unicorns like Canva, Grammarly, and Miro, specializing in scaling growth teams and go-to-market strategies.",
+    "background_zh": "资深增长专家，曾从0到1搭建Dropbox B2B自助服务业务，并领导Webflow的增长团队。作为Canva、Grammarly和Miro等独角兽企业的顾问，她擅长扩展增长团队及制定Go-to-Market（GTM）策略。"
+  },
+  "episodeSummary": "Melissa Tan shares her deep expertise on building high-performance growth teams, drawing from her experiences at Dropbox and Webflow. She discusses the transition from PLG to sales, unique hiring frameworks like 'First Principles Thinking,' and specific operating models for aligning cross-functional teams.",
+  "episodeSummary_zh": "Melissa Tan 基于她在 Dropbox 和 Webflow 的实战经验，深度解析了如何打造高绩效增长团队。她探讨了从 PLG（产品驱动增长）向销售驱动转型的策略、基于“第一性原理”的独特招聘框架，以及如何通过特定的运营模型实现跨职能团队的高效协同。",
+  "keyTakeaways": [
+    "Hire for 'First Principles Thinking' rather than just experience to drive innovation.",
+    "Use a 'Flying Formation' (DACI + Operating Rhythms) to align Growth with Product and Marketing.",
+    "Test candidates' coachability by giving them feedback *before* their final interview presentation.",
+    "Start investing in Sales when customers demand enterprise features like SSO and security, even in PLG models.",
+    "High-performing teams require clear goals, a results-oriented culture, and an ownership mentality.",
+    "Don't copy growth experiments from other companies blindly; execute based on your specific user data.",
+    "The first growth hire should often be a 'portfolio manager' who can test multiple channels, not just a specialist."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Flying Formation' Operating Model",
+      "name_zh": "“飞行编队”协作模型",
+      "category": "team-culture",
+      "problemItSolves": "Prevents the Growth team from stepping on toes or functioning as a disjointed layer on top of Product/Marketing.",
+      "problemItSolves_zh": "解决增长团队（Growth）与产品（Product）或营销（Marketing）部门职责不清、协作脱节的问题。",
+      "summary": "A structured approach to cross-functional alignment that combines clear role definitions (DACI), specific metric ownership splits, and rigorous operating rhythms to ensure teams move in unison.",
+      "summary_zh": "一种跨职能对齐的结构化方法，结合DACI模型明确角色分工，细分指标所有权（如按漏斗阶段拆分），并通过严格的运营节奏确保各团队步调一致。",
+      "principles": [
+        "Define the DACI: Clearly identify the Driver, Accountable, Contributor, and Informed roles for every initiative.",
+        "Split Metric Ownership: Example - Growth Marketing owns Signups/CAC; Product Growth owns activation and downstream revenue.",
+        "Establish Operating Rhythms: Implement weekly metric reviews and quarterly planning sessions where teams sync on shared initiatives."
+      ],
+      "principles_zh": [
+        "定义DACI角色：针对每个项目明确执行者（Driver）、批准者（Accountable）、贡献者（Contributor）和知情者（Informed）。",
+        "拆分指标所有权：例如，增长营销负责注册数和CAC（获客成本）；产品增长负责激活率及下游营收指标。",
+        "建立运营节奏：实施周度数据复盘会和季度规划会，确保各团队在共享目标上保持同步。"
+      ],
+      "whenToUse": "When a growth team is formed and friction arises regarding who owns which part of the user funnel.",
+      "whenToUse_zh": "当建立增长团队后，由于用户漏斗（Funnel）归属权模糊导致部门间产生摩擦时使用。",
+      "commonMistakes": "Assuming 'everyone owns growth' without assigning specific accountability for decision-making.",
+      "commonMistakes_zh": "只有“人人都要做增长”的口号，却缺乏具体的决策问责机制。",
+      "quote": "Growth shouldn't feel like a layer on top of product. The best way to execute is to have growth infused into how you think about product development.",
+      "realWorldExample": "At Webflow, Melissa created a document defining that Growth Marketing owned signups, while Product Growth owned everything downstream. They held weekly meetings to review metrics together.",
+      "realWorldExample_zh": "在Webflow，Melissa制定了一份文档，明确增长营销团队负责注册指标，而产品增长团队负责注册后的所有下游指标，并通过周会共同复盘数据。"
+    },
+    {
+      "name": "The Collaborative Feedback Interview",
+      "name_zh": "协作反馈式面试法",
+      "category": "career-leadership",
+      "problemItSolves": "Standard interviews assess prepared skills but fail to reveal how a candidate collaborates or accepts critical feedback.",
+      "problemItSolves_zh": "传统面试只能考察候选人的既有技能，无法真实反映其协作能力及面对批评反馈时的表现。",
+      "summary": "A unique interview step where the hiring manager holds a 'prep call' with the candidate a week before their final presentation to give feedback and context, testing if they incorporate it.",
+      "summary_zh": "在最终汇报前一周，招聘经理与候选人进行一次“预备沟通”，提供背景信息并给予修改建议，以此考察候选人内化反馈的能力。",
+      "principles": [
+        "Live Problem Solving: Assign a prompt related to a current, real company problem (e.g., 'How would you price this product?').",
+        "The Prep Call: Schedule a coaching session before the final panel to review their draft and give direct feedback.",
+        "Assess Incorporations: The hire decision is heavily based on whether they adjusted their final presentation based on the prep call feedback."
+      ],
+      "principles_zh": [
+        "实战问题演练：布置一个与公司当前业务紧密相关的考题（例如：“你会如何设计这款产品的定价策略？”）。",
+        "预备辅导沟通：在最终面板面试前安排一次辅导，审查候选人草稿并给出直接反馈。",
+        "考察反馈内化：录用决策很大程度上取决于候选人是否根据辅导建议调整了最终方案。"
+      ],
+      "whenToUse": "Hiring for senior PM or Growth roles where strategic thinking and coachability are critical.",
+      "whenToUse_zh": "招聘高级产品经理或增长负责人时，这需要极强的战略思维和可教导性（Coachability）。",
+      "commonMistakes": "Letting candidates present on past work, which focuses on context dumping rather than real-time problem solving.",
+      "commonMistakes_zh": "让候选人演示过去的项目作品，这往往导致面试变成背景介绍，而非实时的解决问题能力的考察。",
+      "quote": "I actually will give feedback on the presentation [before the interview]... Sometimes it's the biggest signal to what it's going to be like to work with this person.",
+      "realWorldExample": "When hiring for pricing at Webflow, Melissa would ask candidates to open the pricing page, critique it live, and then coach them on a presentation regarding pricing strategy changes.",
+      "realWorldExample_zh": "在为Webflow招聘定价岗位时，Melissa会要求候选人打开定价页面进行实时点评，并就定价策略调整的汇报方案进行辅导。"
+    },
+    {
+      "name": "First Principles Hiring Framework",
+      "name_zh": "第一性原理招聘框架",
+      "category": "execution",
+      "problemItSolves": "Avoids hiring 'playbook' followers who can't adapt to a specific company's unique context or data.",
+      "problemItSolves_zh": "避免招聘只会照搬“剧本”的人，这类人往往无法适应公司独特的业务场景或数据情况。",
+      "summary": "Focuses on hiring individuals who build their own mental models by asking 'Why?' and 'How?' rather than relying on past experience or industry best practices.",
+      "summary_zh": "专注于招聘那些能够通过不断追问“为什么”和“怎么做”来构建自己思维模型的人，而不是依赖过往经验或行业最佳实践的人。",
+      "principles": [
+        "Ignore Standard Experience: Be willing to hire smart people who haven't done the specific role before (e.g., sales) if they are innovators.",
+        "Live Deconstruction: Ask candidates to pull up your product/website and deconstruct it on the spot.",
+        "The 'I Don't Know' Advantage: Value candidates who admit ignorance but demonstrate a logical path to finding the answer."
+      ],
+      "principles_zh": [
+        "弱化标准经验：如果有创新能力，即便没有相关经验（如销售经验），也应大胆录用聪明人。",
+        "实时解构：要求候选人当场打开产品或网站，进行逻辑解构和分析。",
+        "“空杯”优势：看重那些敢于承认“我不知道”，但能展示出清晰的探索路径和逻辑的候选人。"
+      ],
+      "whenToUse": "Early-stage companies or when building a function that requires innovation rather than optimization.",
+      "whenToUse_zh": "处于早期阶段的公司，或正在组建需要创新而非单纯优化的职能部门时。",
+      "commonMistakes": "Hiring experts with deep domain knowledge who try to force-fit frameworks that worked at their previous company.",
+      "commonMistakes_zh": "招聘那些试图生搬硬套前司成功框架的资深领域专家。",
+      "quote": "If you take people that are just super smart, they've never done it before... they can innovate because I think they come in with, 'I don't know anything. Let me just figure this out.'",
+      "realWorldExample": "At Dropbox, they hired people with no sales background to do sales. These people innovated the go-to-market motion because they had deep user empathy and no preconceived notions.",
+      "realWorldExample_zh": "Dropbox曾聘请毫无销售背景的人从事销售工作。这些人反而创新了GTM（市场推广）策略，因为他们拥有深厚的用户同理心，且不受既有观念的束缚。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The devil is in the details and the devil is in how you execute.",
+      "context": "On why growth experiments often fail not because the idea is bad, but because the execution lacked hypothesis-driven rigor."
+    },
+    {
+      "text": "Be direct but deeply care.",
+      "context": "Referencing Kim Scott's Radical Candor framework as her management philosophy for driving high performance."
+    },
+    {
+      "text": "The more fun you can have, the better everything is.",
+      "context": "Melissa emphasizing that high-pressure growth environments necessitate a culture of fun to sustain performance."
+    }
+  ],
+  "filename": "Melissa Tan"
+}

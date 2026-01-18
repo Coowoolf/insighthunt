@@ -1,0 +1,92 @@
+{
+  "guest": {
+    "name": "Phyl Terry",
+    "title": "Founder & Author of Never Search Alone",
+    "company": "Collaborative Gain / Never Search Alone",
+    "background": "Phyl Terry is the author of 'Never Search Alone' and was on the founding team of the first company Amazon acquired. He previously served as CEO of Creative Good for over 15 years, advising companies like Apple and Facebook on customer experience.",
+    "background_zh": "Phyl Terry 是畅销书《Never Search Alone》的作者，也是亚马逊早期收购的第一家公司的创始团队成员。他曾担任 Creative Good 的 CEO 超过15年，为 Apple 和 Facebook 等公司提供客户体验咨询服务。"
+  },
+  "episodeSummary": "Phyl Terry applies product management principles to the job search process, arguing that job seekers must treat themselves as a product. He introduces frameworks like Candidate-Market Fit and Job Search Councils to combat the isolation and inefficiency of traditional 'spray and pray' methods, offering tactical advice on interviewing and negotiation using OKRs.",
+  "episodeSummary_zh": "Phyl Terry 将产品管理的原则应用于求职过程，提出求职者应将自己视为一个产品。他介绍了“候选人市场契合度（CMF）”和“求职互助会”等框架，以解决传统“海投”策略带来的孤立感和低效问题，并提供了利用 OKR 进行面试和薪资谈判的战术建议。",
+  "keyTakeaways": [
+    "Treat your job search like a product launch: find your niche (Candidate-Market Fit) rather than trying to appeal to everyone.",
+    "Never search alone: Join a Job Search Council to manage emotional psychology and accountability.",
+    "Use the 'Listening Tour' to validate your market fit before officially applying.",
+    "Replace standard job descriptions with a 'Job Mission and OKRs' document to take control of the interview.",
+    "Negotiate for resources (e.g., tech debt budget, training) before negotiating salary to prove strategic value.",
+    "Asking for help is a sign of confidence, not weakness, if done with specific intent."
+  ],
+  "methodologies": [
+    {
+      "name": "Candidate-Market Fit (CMF)",
+      "name_zh": "候选人市场契合度 (CMF)",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the 'spray and pray' problem where candidates apply too broadly, get rejected, and lose confidence because they don't understand where they fit in the current economy.",
+      "problemItSolves_zh": "解决求职者因“海投”策略导致的低效问题。许多人因缺乏对自身在当前经济环境下定位的理解而盲目申请，导致屡遭拒绝并丧失信心。",
+      "summary": "Just as products need Product-Market Fit, candidates need CMF. This framework requires narrowing your focus to a specific niche (stage, industry, role) where your skills are currently valued, rather than casting a wide net.",
+      "summary_zh": "就像产品需要 PMF 一样，求职者也需要 CMF。该框架要求你将关注点收窄到特定的利基市场（特定阶段、行业、角色），寻找当下市场重视你技能的领域，而不是漫无目的地撒网。",
+      "principles": [
+        "Step 1: The Mnookin Two-Pager - Draft a document listing what you want, what you don't want, and your hypotheses.",
+        "Step 2: The Listening Tour - Conduct market research (user interviews) with your network using the 'Golden Question': 'If you were in my shoes, how would you approach this?'",
+        "Step 3: Spear not a Net - Refine your positioning to be hyper-specific (e.g., 'Director of Product at Series B HealthTech in SF'). A narrow focus triggers specific referrals.",
+        "Step 4: Iterate - Adjust your fit based on market feedback (e.g., pivoting from VP to IC if the market demands it)."
+      ],
+      "principles_zh": [
+        "第一步：Mnookin 两页纸 - 起草一份文档，列出你想要的、不想要的以及你的职业假设。",
+        "第二步：聆听之旅（市场探底）- 利用你的关系网进行用户调研，提出黄金问题：“如果你处于我的位置，你会如何处理？”",
+        "第三步：做长矛不做渔网 - 将定位极度精细化（例如：“旧金山 B 轮医疗科技公司的产品总监”）。狭窄的定位反而能触发更精准的推荐。",
+        "第四步：快速迭代 - 根据市场反馈调整你的定位（例如：如果市场环境变化，可能需要从 VP 调整为独立贡献者 IC 角色）。"
+      ],
+      "whenToUse": "At the very beginning of a job search or when a search has stalled.",
+      "whenToUse_zh": "在求职初期或求职陷入停滞时使用。",
+      "commonMistakes": "Being too expansive ('I can do anything') which makes you forgettable, or refusing to accept market reality (e.g., sticking to a title the market won't give you).",
+      "commonMistakes_zh": "定位过于宽泛（“我什么都能做”），这会让你缺乏记忆点；或者拒绝接受市场现实（例如：在市场不再需要时仍执着于某个高管头衔）。",
+      "quote": "When you're looking for a job, you need a spear and not a net.",
+      "realWorldExample": "A traditional media EVP wanted to move to streaming (Netflix/Apple). His listening tour revealed he wasn't fit for a leadership role there yet. He accepted an Individual Contributor (IC) role to get close to the 'technology frontier,' effectively rebooting his career.",
+      "realWorldExample_zh": "一位传统媒体的执行副总裁（EVP）想转型流媒体（Netflix/Apple）。他的“聆听之旅”显示他尚不具备在那担任领导职位的资格。他最终接受了一个独立贡献者（IC）的职位，以便接近“技术前沿”，成功重启了职业生涯。"
+    },
+    {
+      "name": "Job Mission with OKRs",
+      "name_zh": "岗位使命与 OKR 提案",
+      "category": "execution",
+      "problemItSolves": "Addresses vague job descriptions and passive interviewing. It differentiates high-performers from 'good talkers' and sets the stage for successful negotiation.",
+      "problemItSolves_zh": "解决岗位描述（JD）模糊和面试处于被动的问题。它能区分“高绩效者”和单纯的“空谈者”，并为成功的薪资谈判奠定基础。",
+      "summary": "Instead of accepting the company's generic job description, the candidate creates their own document outlining the mission and Objectives and Key Results (OKRs) they plan to achieve. This is shared with the hiring manager *before* the offer to align expectations.",
+      "summary_zh": "求职者不应被动接受公司通用的岗位描述，而应主动创建一份文档，概述自己计划实现的使命和 OKR（目标与关键结果）。在获得 Offer *之前*与招聘经理分享此文档，以对齐期望。",
+      "principles": [
+        "Step 1: Draft Privately - Create your version of what success looks like in this role using OKRs.",
+        "Step 2: Validate - Review this draft with the hiring manager during the interview process ('I want to make sure I understand what success looks like').",
+        "Step 3: Negotiate Success Resources - Use the agreed OKRs to ask for necessary resources (e.g., 'To hit this OKR, we need to clear $10M in tech debt').",
+        "Step 4: Negotiate Compensation - Once value is proven and resources are agreed, pivot to salary negotiation."
+      ],
+      "principles_zh": [
+        "第一步：私下起草 - 使用 OKR 框架描绘该职位的成功图景。",
+        "第二步：验证对齐 - 在面试过程中与招聘经理审查此草案（“我想确认我对该职位成功的定义是否准确”）。",
+        "第三步：谈判成功所需的资源 - 利用已达成共识的 OKR 索要必要资源（例如：“为了实现这个 OKR，我们需要清除 1000 万美元的技术债”）。",
+        "第四步：薪资谈判 - 一旦证明了价值并商定了资源，再转向薪资谈判。"
+      ],
+      "whenToUse": "During the interview process, specifically in later rounds with the hiring manager, and immediately prior to salary negotiation.",
+      "whenToUse_zh": "在面试过程中，特别是在与招聘经理的后期几轮面试中，以及在薪资谈判之前。",
+      "commonMistakes": "Springing demands on the employer without context, or waiting until the first day on the job to discover misaligned expectations.",
+      "commonMistakes_zh": "在没有背景铺垫的情况下突然提出要求，或者等到入职第一天才发现期望错位。",
+      "quote": "If someone did this, it would blow my mind. I would hire them on the spot.",
+      "realWorldExample": "A CPO candidate identified $20M in tech debt. By presenting an OKR to fix it and asking for the budget during the interview, he secured the resources upfront and was promoted to GM within a year. Another candidate who was too shy to ask struggled for 18 months.",
+      "realWorldExample_zh": "一位首席产品官（CPO）候选人发现了 2000 万美元的技术债。通过提出解决该问题的 OKR 并在面试中申请预算，他提前锁定了资源，并在一年内晋升为总经理。而另一位不敢提问的候选人则挣扎了18个月。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "While it's hard to figure out your candidate market fit, it's also a relief to know it's not about you. It's the marketplace.",
+      "context": "Phyl Terry explaining that rejection usually stems from market dynamics (supply/demand) rather than personal worth."
+    },
+    {
+      "text": "There's no I in team. Well, there is an I in village, and the I in village is that when you start to interview and negotiate, you've got to be in charge.",
+      "context": "Discussing the need for individual agency and accountability within a support system."
+    },
+    {
+      "text": "Books are machines to think with.",
+      "context": "Phyl Terry emphasizing the importance of reading for product leaders."
+    }
+  ],
+  "filename": "Phyl Terry"
+}

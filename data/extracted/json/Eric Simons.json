@@ -3,7 +3,8 @@
     "name": "Eric Simons",
     "title": "Co-founder & CEO",
     "company": "StackBlitz / Bolt",
-    "background": "A veteran entrepreneur who famously squatted at AOL's headquarters to bootstrap his first startup. He co-founded StackBlitz, spending 7 years building WebContainer technology (an OS in the browser) which recently powered Bolt to hit $20M ARR in under two months."
+    "background": "A veteran entrepreneur who famously squatted at AOL's headquarters to bootstrap his first startup. He co-founded StackBlitz, spending 7 years building WebContainer technology (an OS in the browser) which recently powered Bolt to hit $20M ARR in under two months.",
+    "background_zh": "一位资深创业者，早年曾因在 AOL 总部“蹭住”以白手起家启动首个创业项目的传奇经历而闻名。作为 StackBlitz 的联合创始人，他潜心 7 年研发了 WebContainer 技术（一种浏览器端操作系统），正是这项底层技术，近期助力 Bolt 在不到两个月的时间内实现了 2000 万美元的 ARR。"
   },
   "episodeSummary": "Eric Simons details the unprecedented rise of Bolt, an AI coding tool that grew from $0 to nearly $40M ARR in roughly five months. The conversation explores how a seven-year deep-tech R&D bet on browser-based computing perfectly converged with the rise of LLMs like Claude Sonnet. Eric explains how AI is shifting the role of Product Managers from spec-writers to actual builders, the counter-intuitive management style required for hypergrowth, and why software is the perfect vertical for AI determinism.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When prototyping new features, building internal tools, or launching MVPs where speed is critical and the codebase isn't massively legacy-entangled.",
       "commonMistakes": "Treating the AI like a search engine rather than a coworker; failing to provide the context/specs one would give a human engineer.",
       "quote": "Talk to this thing like you do a Linear ticket... Just think of this as your coworker, your developer coworker.",
-      "realWorldExample": "An entrepreneur named Paul built a fully functional CRM with Stripe billing and AI integration in three weeks for $300 using Bolt, a project an agency quoted $30k and six months to build."
+      "realWorldExample": "An entrepreneur named Paul built a fully functional CRM with Stripe billing and AI integration in three weeks for $300 using Bolt, a project an agency quoted $30k and six months to build.",
+      "summary_zh": "一种允许产品经理和非技术背景创始人将 AI 作为“初级工程师”来构建生产级软件的工作流。它将人类的角色重心从编写代码，转移到了定义需求规格与调试顶层逻辑上。",
+      "problemItSolves_zh": "弥合产品创意与功能应用之间的鸿沟，无需深厚的代码功底或漫长的研发周期。",
+      "whenToUse_zh": "适用于新功能原型验证、内部工具搭建或发布 MVP，尤其是在对速度要求极高且代码库没有严重历史包袱的场景中。",
+      "commonMistakes_zh": "将 AI 仅视为搜索引擎而非协作伙伴；未能像对接人类工程师那样，提供充足的背景信息与需求规格。",
+      "realWorldExample_zh": "一位名为 Paul 的创业者借助 Bolt，仅耗时 3 周、花费 300 美元，就搭建出了一套集成 Stripe 支付和 AI 能力的全功能 CRM 系统；而同样的开发需求，外包团队报价高达 3 万美元，且工期长达 6 个月。",
+      "principles_zh": [
+        "像写 JIRA Ticket 一样写 Prompt：明确界定约束条件、业务逻辑和预期产出。不要只说“做一个 App”，要提供详细的需求规格。",
+        "将“业务逻辑”与“视觉体验”解耦：功能层面下达严谨指令，而 UI/UX 层面则给予 AI 充分的创作自由（例如“让界面更美观”），这正是它的强项。",
+        "人类作为“关键疏通者”：人的核心技术职能转变为识别 AI 的卡点，并针对边界情况提供具体的破局指引。",
+        "迭代式实时部署：摒弃静态原型，直接将生成代码部署到线上环境，通过实时 URL 进行交互体验和反馈验证。"
+      ],
+      "name_zh": "The Prompt-Driven Development Cycle（提示驱动开发周期）"
     },
     {
       "name": "The Zero-Loss Communication Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "During product launches, unexpected viral growth phases, or 'wartime' survival modes where the cost of miscommunication is higher than the cost of meeting time.",
       "commonMistakes": "Maintaining this structure too long after stability is reached, or having people present who do not have the agency to fix problems.",
       "quote": "There's 0% fidelity loss in that. Everything, every day, is being audited front to back... When you're in these times of just extreme growth, you want as close to 0% loss on communications.",
-      "realWorldExample": "During the launch of Bolt, the 15-20 person team met every single day to handle server meltdowns, support tickets, and feature requests, allowing them to scale from $0 to $20M ARR without a traditional support team."
+      "realWorldExample": "During the launch of Bolt, the 15-20 person team met every single day to handle server meltdowns, support tickets, and feature requests, allowing them to scale from $0 to $20M ARR without a traditional support team.",
+      "summary_zh": "一种反直觉的管理模式：通过全员每日同步会，确保团队高度对齐与即时执行，摒弃了“流程规模化”或依赖异步工具的主流建议。",
+      "problemItSolves_zh": "防止在极速扩张或危机管理期间出现信息孤岛，避免决策滞后。",
+      "whenToUse_zh": "适用于产品发布期、突发性病毒式增长阶段，或“战时”生存模式——在这些场景中，沟通失误的代价远高于会议同步的时间成本。",
+      "commonMistakes_zh": "在局势趋稳后仍长期沿用该机制，或参会人员缺乏解决问题的决策权。",
+      "realWorldExample_zh": "在 Bolt 上线初期，这支 15-20 人的团队坚持每日同步，集中处理服务器宕机、用户工单及功能需求。这种机制使他们在没有任何传统客服团队配置的情况下，实现了从 0 到 2000 万美元 ARR 的规模化增长。",
+      "principles_zh": [
+        "每日全员对齐：全员每天（如太平洋时间早 8 点）召开至少一小时的同步会议。",
+        "信息零损耗：通过全员在场，杜绝了经由管理层转述或书面汇报导致的信息衰减，确保所有人都能直接获取一手信息。",
+        "全局语境：无论职能角色如何，每位员工都能充分理解当前的紧急事故、客户问题及服务器负载情况。",
+        "即时修复：一旦发现问题，工程师即刻在线解决，甚至常在会议进行中直接完成变更部署。"
+      ],
+      "name_zh": "The Zero-Loss Communication Protocol（无损沟通协议）"
     },
     {
       "name": "The Deep Tech Option Strategy",
@@ -62,7 +87,19 @@
       "whenToUse": "When building foundational infrastructure or platform-shifting technology that requires years of R&D before a consumer use case becomes viable.",
       "commonMistakes": "Scaling headcount/burn before the market catalyst arrives; assuming the tech itself is the product rather than the enabler.",
       "quote": "It was kind of like, Bolt's this overnight success, seven years in the making.",
-      "realWorldExample": "StackBlitz spent 7 years building WebContainer technology (Node.js in the browser). They almost went under, but when Anthropic's Sonnet model launched, they realized their tech was the perfect host for AI coding, leading to Bolt."
+      "realWorldExample": "StackBlitz spent 7 years building WebContainer technology (Node.js in the browser). They almost went under, but when Anthropic's Sonnet model launched, they realized their tech was the perfect host for AI coding, leading to Bolt.",
+      "summary_zh": "一种在维持极低资金消耗率的同时，专注于构建高壁垒、专有的基础设施（硬科技）的战略，其本质是持有一份针对未来市场拐点的“看涨期权”。",
+      "problemItSolves_zh": "如何在市场成熟前构建高壁垒技术，同时避免破产。",
+      "whenToUse_zh": "当构建底层基础设施或平台级变革技术，且在消费级场景落地前需经历数年研发周期时。",
+      "commonMistakes_zh": "在市场催化剂出现前过早扩招或烧钱；误将技术本身视为产品，而非赋能手段。",
+      "realWorldExample_zh": "StackBlitz 深耕 7 年打造了 WebContainer 技术（即在浏览器端运行 Node.js）。虽然公司一度濒临倒闭，但随着 Anthropic 发布 Sonnet 模型，团队敏锐地洞察到自身技术恰好是 AI 编程的完美载体，最终成功孵化出了 Bolt。",
+      "principles_zh": [
+        "**攻坚“不可能”**：深耕那些被外界视为畏途甚至无法实现的技术（例如：在浏览器端直接运行操作系统）。",
+        "**“蟑螂”模式**：维持极低的资金消耗率（Burn Rate）。拒绝那些迫使团队过早扩张的巨额融资，不惜一切代价确保存活。",
+        "**静候技术聚变**：持续投入 R&D，耐心等待外部催化剂（如 LLM 能力爆发）的出现，以此彻底激活底层基础设施的价值。",
+        "**“卡扣式”瞬时落地**：一旦催化剂出现，立即调整方向将技术产品化（例如：结合 WebContainers + Claude Sonnet 迅速发布 Bolt）。"
+      ],
+      "name_zh": "The Deep Tech Option Strategy（硬科技期权战略）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Eric predicting the future of organizational charts in tech companies."
     }
   ],
-  "filename": "Eric Simons"
+  "filename": "Eric Simons",
+  "episodeSummary_zh": "Eric Simons 深度复盘了 AI 编程工具 Bolt 的爆发式增长历程——在短短五个月内，该产品实现了 ARR 从 0 到近 4000 万美元的惊人突破。本期对话剖析了一项跨度七年的战略押注：其在基于浏览器的计算技术上的深科技研发沉淀，如何与 Claude Sonnet 等大语言模型（LLM）的崛起形成完美共振。Eric 阐述了 AI 如何重塑产品经理的职能边界——从传统的“文档写手”转变为真正的“产品构建者”（Builders）；分享了驾驭超高速增长所需的反直觉管理哲学；并论证了为何软件行业是验证 AI 确定性的最佳垂直赛道。"
 }

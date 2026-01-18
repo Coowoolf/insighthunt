@@ -1,0 +1,142 @@
+{
+  "guest": {
+    "name": "Matt Mochary",
+    "title": "CEO Coach & Author",
+    "company": "Mochary Method",
+    "background": "Matt Mochary is a highly sought-after executive coach who advises top CEOs at companies like OpenAI, Coinbase, Notion, and Reddit. He is the author of 'The Great CEO Within' and formerly founded Totality.",
+    "background_zh": "Matt Mochary 是硅谷顶级的CEO教练，曾指导过 OpenAI、Coinbase、Notion 和 Reddit 等公司的创始人。他是《The Great CEO Within》一书的作者，此前曾创立 Totality 公司。"
+  },
+  "episodeSummary": "In this masterclass on leadership, Matt Mochary shares his codified playbook for handling the hardest parts of being a CEO, from firing and layoffs to emotional regulation. He breaks down actionable frameworks for increasing talent density, conducting energy audits to find your 'Zone of Genius,' and structuring internal innovation to move with startup speed.",
+  "episodeSummary_zh": "在这期关于领导力的大师课中，Matt Mochary 分享了他处理 CEO 最棘手问题的系统化战术手册，涵盖裁员、解雇员工以及情绪管理。他拆解了多个实操框架，包括如何提高人才密度、通过能量审计找到你的“天才象限”，以及如何构建内部创新机制以保持创业公司的敏捷速度。",
+  "keyTakeaways": [
+    "Fear and anger act as inaccurate predictors; betting against your fear often leads to the correct leadership decision.",
+    "The most critical factor in a layoff is ensuring news is delivered 1-on-1 by a direct manager, not via email or group settings.",
+    "To effectively fire someone, adopt an 'Agent Mindset': separate the business decision from the implementation, then actively help them find their next role.",
+    "Innovation in large companies requires separating the new venture into a distinct legal entity (C-Corp) with a 'founder mentality' leader.",
+    "Conduct an 'Energy Audit' on your calendar to migrate from your Zone of Excellence (competent but draining) to your Zone of Genius.",
+    "Making someone 'feel heard' requires reflecting back not just their words, but the emotions and unspoken thoughts behind them."
+  ],
+  "methodologies": [
+    {
+      "name": "The Fear & Anger Decision Filter",
+      "name_zh": "“恐惧与愤怒”决策过滤器",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents leaders from making poor decisions driven by ego protection or emotional reactivity, particularly regarding transparency with investors or difficult conversations.",
+      "problemItSolves_zh": "防止领导者因自我保护或情绪化反应做出糟糕决策，特别是在对投资者透明度或进行艰难对话时。",
+      "summary": "Matt posits that fear creates exaggerated negative predictions. The framework involves identifying when you are 'in fear,' creating a specific bet that the opposite outcome will occur if you act against the fear, and then taking that action.",
+      "summary_zh": "Matt 认为恐惧会制造夸大的负面预测。该框架要求识别你何时处于“恐惧中”，打赌如果你违背恐惧行事会发生相反（积极）的结果，然后付诸行动。",
+      "principles": [
+        "Identification: Recognize when you are gripped by fear or anger (ask a neutral peer if unsure).",
+        "The Bet: Make a prediction that doing the 'scary' thing (e.g., telling the board bad news) will actually build trust, not destroy it.",
+        "Action: Do the opposite of what your fear dictates to prove the prediction wrong."
+      ],
+      "principles_zh": [
+        "识别情绪：识别自己何时被恐惧或愤怒控制（如果不确定，询问中立的同行）。",
+        "建立对赌：预测做“可怕”的事情（例如告诉董事会坏消息）实际上会建立信任，而不是破坏信任。",
+        "逆向行动：做与恐惧指令相反的事情，以证明恐惧的预测是错误的。"
+      ],
+      "whenToUse": "When facing a high-stakes decision where the logical path feels emotionally dangerous, such as sharing bad metrics with a board or giving tough feedback.",
+      "whenToUse_zh": "当面临高风险决策且逻辑上正确的路径让人感到情绪上的危险时使用，例如向董事会分享糟糕的数据或提供严厉的反馈。",
+      "commonMistakes": "Confusing physical danger with ego danger; this framework applies to psychological safety, not walking into traffic.",
+      "commonMistakes_zh": "混淆物理危险与自我尊严的危险；此框架适用于心理安全场景，而非人身安全场景。",
+      "quote": "Fear gives bad advice... I think you're predicting that if you do this A will happen. Well, I'm predicting that if you do that, the exact opposite will happen.",
+      "realWorldExample": "A CEO afraid to tell investors about a major business problem; upon using this framework, they disclosed it and the board praised their honesty, increasing trust.",
+      "realWorldExample_zh": "一位CEO因为恐惧不敢告诉投资者重大的业务问题；使用此框架后，他披露了问题，董事会反而称赞了他的诚实，增加了信任。"
+    },
+    {
+      "name": "The Agent Mindset Termination Protocol",
+      "name_zh": "“经纪人思维”裁员协议",
+      "category": "team-culture",
+      "problemItSolves": "Solves the emotional burden of firing for the manager and mitigates the trauma/reputational damage for the employee and company.",
+      "problemItSolves_zh": "解决管理者解雇员工时的心理负担，并减轻员工和公司的创伤或声誉损害。",
+      "summary": "This framework separates the business decision (customer needs) from the humane implementation. The manager acts as a talent agent (like CAA) for the departing employee, actively using their network to land the employee a new job.",
+      "summary_zh": "此框架将业务决策（客户需求）与人性化的执行分离开来。管理者充当离职员工的人才经纪人（类似CAA经纪公司），主动利用自己的人脉帮助员工找到新工作。",
+      "principles": [
+        "Direct Notification: News must be delivered 1-on-1 by the immediate manager, never via email or group settings.",
+        "Emotion Release: Allow the employee to vent anger/sadness and simply listen/validate ('I imagine you are feeling angry').",
+        "Active Agency: Dedicate 1-2 hours to personally calling your network to recommend the employee for their specific strengths."
+      ],
+      "principles_zh": [
+        "直接通知：消息必须由直属经理一对一传达，绝不能通过电子邮件或群组设置。",
+        "情绪释放：允许员工宣泄愤怒或悲伤，并单纯地倾听/确认（“我想你现在一定很生气”）。",
+        "主动代理：投入1-2小时亲自致电你的人脉网络，针对员工的特定优势进行推荐。"
+      ],
+      "whenToUse": "During both individual performance-based firings and large-scale layoffs.",
+      "whenToUse_zh": "适用于个人绩效解雇和大规模裁员场景。",
+      "commonMistakes": "Offering passive help ('let me know if you need a reference') instead of active help ('I am calling X for you right now').",
+      "commonMistakes_zh": "提供被动的帮助（“如果需要推荐信告诉我”）而不是主动的帮助（“我现在就为你给某某打电话”）。",
+      "quote": "If you let them go kindly and humanely, the key is... you become their agent, like Michael Ovitz... You help them find their next job actively.",
+      "realWorldExample": "Matt firing a high-performing employee simply because there wasn't enough work, then helping him realize he wanted to be a founder and supporting that transition.",
+      "realWorldExample_zh": "Matt 解雇了一位高绩效员工，仅仅是因为没有足够的工作给他做，然后帮助他意识到自己想成为创始人，并支持这一转型。"
+    },
+    {
+      "name": "The Energy Audit & Zone of Genius",
+      "name_zh": "能量审计与天才象限",
+      "category": "career-leadership",
+      "problemItSolves": "Helps leaders burnout and low productivity by identifying tasks that drain energy versus those that generate high value and flow.",
+      "problemItSolves_zh": "通过识别消耗能量的任务与产生高价值及心流的任务，帮助领导者避免职业倦怠并解决低效问题。",
+      "summary": "A tactical exercise to review your calendar, color-code activities by energy impact (Green/Red), and systematically delegate or redesign draining tasks to maximize time in your 'Zone of Genius'.",
+      "summary_zh": "一项战术演练：回顾你的日历，根据能量影响对活动进行颜色编码（绿色/红色），并系统性地委派或重新设计消耗能量的任务，以最大化你在“天才象限”中的时间。",
+      "principles": [
+        "The Audit: Review 2 weeks of calendar. Mark energy-giving tasks Green and energy-draining tasks Red.",
+        "Categorize: Identify Zone of Excellence (good at it, but drains energy) vs. Zone of Genius (unique talent, gives energy).",
+        "Action Plan: For Red tasks - 1. Eliminate, 2. Delegate, or 3. Make Exquisite (redesign the format to suit your style).",
+        "Iteration: Repeat until calendar is 80% Green."
+      ],
+      "principles_zh": [
+        "审计：回顾两周的日历。将给予能量的任务标记为绿色，消耗能量的任务标记为红色。",
+        "分类：识别“卓越象限”（擅长但消耗能量）与“天才象限”（独特天赋且给予能量）。",
+        "行动计划：针对红色任务 - 1. 消除，2. 委派，或 3. 极致优化（重新设计形式以适应你的风格）。",
+        "迭代：重复此过程直到日历中80%为绿色。"
+      ],
+      "whenToUse": "When feeling burned out, procrastinating on important tasks, or when calendar density is high but output feels low.",
+      "whenToUse_zh": "当感到倦怠、拖延重要任务，或日程安排紧凑但产出感低时使用。",
+      "commonMistakes": "Sticking in the 'Zone of Excellence' because it pays well and others praise you for it, leading to a slow burnout.",
+      "commonMistakes_zh": "停留在“卓越象限”，因为报酬高且受他人称赞，导致缓慢的职业倦怠。",
+      "quote": "It turns out that what we're really good at is what we love... The key is to go and look at your day... eliminate [what it isn't] and naturally, you'll be drawn toward what it is that you love.",
+      "realWorldExample": "Brex founders Henrique and Pedro used this to realize they had different meeting preferences (internal vs. external), split roles accordingly, and revolutionized their efficiency.",
+      "realWorldExample_zh": "Brex 的创始人 Henrique 和 Pedro 利用此方法发现他们有不同的会议偏好（对内 vs 对外），据此重新分工，彻底提升了效率。"
+    },
+    {
+      "name": "The Corporate Innovation C-Corp Model",
+      "name_zh": "企业内部创新独立实体模式",
+      "category": "product-strategy",
+      "problemItSolves": "Overcomes the bureaucracy, slow approval processes, and brand risk that stifle innovation within large, scaled companies.",
+      "problemItSolves_zh": "克服大型成熟企业中扼杀创新的官僚主义、缓慢的审批流程以及品牌风险。",
+      "summary": "To replicate startup speed, large companies should launch new products as separate legal entities (C-Corps) with distinct brands, reporting directly to the CEO, bypassing standard Engineering/Product/Design chains of command.",
+      "summary_zh": "为了复制初创公司的速度，大公司应将新产品作为独立的法律实体（C-Corp）推出，拥有独立的品牌，直接向 CEO 汇报，绕过标准的产研设计（EPD）汇报链条。",
+      "principles": [
+        "Structural Separation: Create a new C-Corp and brand name to decouple from core code and brand reputation risks.",
+        "Reporting Line: Report directly to the CEO, avoiding the slow 'No' of the VP of Product/Eng.",
+        "Talent Profile: Hire a 'founder mentality' leader (often a failed founder) willing to break glass, not a typical corporate PM."
+      ],
+      "principles_zh": [
+        "结构分离：创建新的 C-Corp 和品牌名称，以通过物理隔离核心代码库和品牌声誉风险。",
+        "汇报线：直接向 CEO 汇报，避开产品/工程副总裁那层缓慢的“否决权”。",
+        "人才画像：聘请具有“创始人思维”的领导者（通常是创业失败的创始人），他们愿意打破常规，而不是典型的企业型产品经理。"
+      ],
+      "whenToUse": "When a large company needs to test radical new ideas without risking the core business's uptime or security.",
+      "whenToUse_zh": "当大公司需要测试激进的新想法，又不想冒核心业务宕机或安全风险时。",
+      "commonMistakes": "Forcing the innovation team to use the core infrastructure/codebase or go through standard review cycles.",
+      "commonMistakes_zh": "强迫创新团队使用核心基础设施/代码库，或通过标准的审查周期。",
+      "quote": "It captures the startup vibe because it actually is a startup... separate entity, separate brand... creating its own C corp.",
+      "realWorldExample": "Wei Deng at Clipboard Health created five separate C-Corps in two months to test distinct product ideas with parallel teams.",
+      "realWorldExample_zh": "Clipboard Health 的 Wei Deng 在两个月内创建了五个独立的 C-Corps，用并行团队测试不同的产品构想。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The biggest marker that I've seen between a botched layoff and a successful layoff is at the moment someone hears that they no longer have a job, did they hear it from their manager in a one-on-one?",
+      "context": "Matt explaining the critical importance of personalized delivery during layoffs."
+    },
+    {
+      "text": "Anger is not a base emotion. Anger is actually a cover. It's a cover for when we feel pain.",
+      "context": "Discussing emotional regulation and the root causes of leadership outbursts."
+    },
+    {
+      "text": "With fewer people in the organization, things work better. That's the big realization that most people never discover.",
+      "context": "Discussing the counter-intuitive increase in productivity and feature velocity after layoffs."
+    }
+  ],
+  "filename": "Matt Mochary"
+}

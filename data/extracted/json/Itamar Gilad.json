@@ -1,0 +1,119 @@
+{
+  "guest": {
+    "name": "Itamar Gilad",
+    "title": "Product Coach, Speaker, and Author",
+    "company": "Evidence Guided (Book/Consulting)",
+    "background": "Itamar is a veteran product coach and former Product Manager at Google (Gmail, YouTube, Identity). He is the author of the book 'Evidence-Guided: Creating High-Impact Products in the Face of Uncertainty' and created the GIST framework.",
+    "background_zh": "Itamar 是一位资深产品教练，曾任 Google 产品经理（负责 Gmail、YouTube 和 Identity 业务）。他是《Evidence-Guided: Creating High-Impact Products in the Face of Uncertainty》一书的作者，并创立了 GIST 产品框架。"
+  },
+  "episodeSummary": "Itamar Gilad challenges the traditional \"opinion-based\" product development model, advocating for an \"evidence-guided\" approach. Drawing from his experiences with the failure of Google+ and the success of Gmail's tabbed inbox, he introduces practical frameworks like GIST, the Confidence Meter, and Metrics Trees to help teams validate ideas cheaply and align on outcomes.",
+  "episodeSummary_zh": "Itamar Gilad 对传统的“基于观点（Opinion-based）”的产品开发模式提出挑战，倡导“证据驱动（Evidence-guided）”的方法。结合 Google+ 的失败教训和 Gmail 分类收件箱的成功经验，他介绍了 GIST、置信度仪表盘（Confidence Meter）和指标树（Metrics Trees）等实用框架，帮助团队以低成本验证创意并以此达成结果对齐。",
+  "keyTakeaways": [
+    "Replace opinion-based roadmaps with evidence-guided validation loops.",
+    "Use the GIST framework (Goals, Ideas, Steps, Tasks) to connect strategy to execution.",
+    "Stop trusting high-confidence gut feelings; use a 'Confidence Meter' to objectively score evidence.",
+    "Distinguish between Value Created (North Star Metric) and Value Captured (Revenue/KPIs).",
+    "Validate ideas cheaply using 'Steps' like fake door tests or Wizard of Oz tests before writing code."
+  ],
+  "methodologies": [
+    {
+      "name": "The GIST Framework",
+      "name_zh": "GIST 框架",
+      "category": "product-strategy",
+      "problemItSolves": "Bridges the gap between high-level strategy and daily agile execution, preventing 'build traps' and output-focused roadmaps.",
+      "problemItSolves_zh": "解决高层战略与日常敏捷执行脱节的问题，防止团队陷入“构建陷阱”或仅关注产出而非结果。",
+      "summary": "A meta-framework that breaks planning into four layers: Goals (outcomes), Ideas (hypothetical solutions), Steps (validation experiments), and Tasks (delivery work). It shifts focus from delivering features to achieving goals through validated learning.",
+      "summary_zh": "一个将规划分为四层的元框架：目标（Goals，关注结果）、创意（Ideas，假设性方案）、步骤（Steps，验证实验）和任务（Tasks，交付工作）。它将重心从单纯的功能交付转移到通过验证性学习来实现目标。",
+      "principles": [
+        "Goals: Define outcomes (e.g., Value Exchange Loop), not feature lists.",
+        "Ideas: Collect hypotheses and prioritize them using ICE (Impact, Confidence, Ease).",
+        "Steps: Break ideas into small learning milestones (experiments) rather than giant project phases.",
+        "Tasks: The actual engineering/design work required to execute the steps."
+      ],
+      "principles_zh": [
+        "目标 (Goals)：定义结果（如价值交换循环），而非功能列表。",
+        "创意 (Ideas)：收集假设并使用 ICE 模型（影响力、置信度、简易度）进行优先级排序。",
+        "步骤 (Steps)：将创意拆解为小的学习里程碑（实验），而非庞大的项目阶段。",
+        "任务 (Tasks)：执行这些步骤所需的具体工程或设计工作。"
+      ],
+      "whenToUse": "When transitioning an organization from waterfall/roadmap-driven to outcome-driven product management.",
+      "whenToUse_zh": "当组织试图从瀑布流/路线图驱动向结果导向（Outcome-driven）的产品管理转型时。",
+      "commonMistakes": "Treating 'Steps' as implementation phases (design, code, test) instead of validation phases (fake door, prototype, beta).",
+      "commonMistakes_zh": "错误地将“步骤”视为实施阶段（设计、编码、测试），而非验证阶段（假门测试、原型验证、Beta测试）。",
+      "quote": "It's not about getting the bits to production, it's about getting the right bits to production.",
+      "realWorldExample": "Gmail Tabbed Inbox used GIST principles: The Goal was de-cluttering; Ideas included tabs; Steps included a 'Wizard of Oz' test where humans manually sorted emails before code was written.",
+      "realWorldExample_zh": "Gmail 分类收件箱使用了 GIST 原则：目标是减少收件箱混乱；创意是使用标签页；步骤包括一个“绿野仙踪”测试——在编写代码前，由人工手动在后台为用户分类邮件以验证需求。"
+    },
+    {
+      "name": "The Confidence Meter",
+      "name_zh": "置信度仪表盘",
+      "category": "decision-making",
+      "problemItSolves": "Prevents the 'HiPPO' effect (Highest Paid Person's Opinion) and subjective scoring in prioritization frameworks like ICE.",
+      "problemItSolves_zh": "防止“HiPPO效应”（高薪人士的意见主导）以及 ICE 等优先级框架中的主观打分问题。",
+      "summary": "A visual tool measuring how much evidence supports an idea on a scale of 0-10. It moves from Opinions (low confidence) to Data/Estimates (medium) to Tests/Experiments (high confidence), forcing teams to admit when they are just guessing.",
+      "summary_zh": "一个将创意支持证据量化为 0-10 分的可视化工具。它从观点（低置信度）过渡到数据/估算（中置信度），最后是测试/实验（高置信度），迫使团队承认他们何时只是在凭空猜测。",
+      "principles": [
+        "Low Confidence (0-1): Opinions, themes, slide decks, and strategy documents.",
+        "Medium Confidence (2-5): Anecdotal evidence, competitive analysis, data analysis, user interviews.",
+        "High Confidence (6-10): Fake door tests, smoke tests, high-fidelity prototypes, A/B tests (Gold standard).",
+        "Action: Only invest heavy engineering resources in ideas that have moved to the red (high confidence) zone."
+      ],
+      "principles_zh": [
+        "低置信度 (0-1)：个人观点、主观主题、PPT 演示文稿和战略文档。",
+        "中置信度 (2-5)：轶事证据、竞品分析、数据分析、用户访谈。",
+        "高置信度 (6-10)：假门测试、冒烟测试、高保真原型、A/B 测试（黄金标准）。",
+        "行动准则：仅对已进入红色区域（高置信度）的创意投入重度工程资源。"
+      ],
+      "whenToUse": "During prioritization meetings to objectively challenge enthusiastic founders or stakeholders.",
+      "whenToUse_zh": "在优先级会议中，用于客观地挑战充满热情但缺乏依据的创始人或利益相关者。",
+      "commonMistakes": "Giving a high confidence score because a competitor has the feature (this is a fallacy; competitors also guess).",
+      "commonMistakes_zh": "仅仅因为竞品有这个功能就给出高置信度评分（这是一个谬误，竞品往往也是在瞎猜）。",
+      "quote": "Behind every terrible idea that was ever built, someone thought it was great.",
+      "realWorldExample": "Google+ had huge strategic backing (Low Confidence evidence treated as high), leading to failure. Gmail Tabs started small with low confidence and built evidence up.",
+      "realWorldExample_zh": "Google+ 拥有巨大的战略支持（将低置信度证据视为高置信度），导致了失败。Gmail 分类收件箱从小处着手，逐步建立证据链。"
+    },
+    {
+      "name": "Metrics Trees & Value Exchange",
+      "name_zh": "指标树与价值交换循环",
+      "category": "growth-metrics",
+      "problemItSolves": "Misalignment caused by conflicting departmental goals and focusing solely on revenue (lagging indicators).",
+      "problemItSolves_zh": "解决因部门目标冲突导致的对齐困难，以及仅关注营收（滞后指标）的问题。",
+      "summary": "A model that balances 'Value Delivered' (North Star Metric) with 'Value Captured' (Business KPIs). These top metrics are broken down into a tree of leading indicators (inputs) that teams can directly influence.",
+      "summary_zh": "一个平衡“交付价值”（北极星指标）与“捕获价值”（商业 KPI）的模型。这些顶层指标被拆解为团队可以直接影响的先导指标（输入项）树状图。",
+      "principles": [
+        "Value Exchange: Companies must deliver value (North Star) to capture value (Revenue). Measure both.",
+        "North Star Metric: Measures core user value (e.g., WhatsApp: 'Messages Sent', not just daily active users).",
+        "Decomposition: Break metrics down mathematically (e.g., Revenue = Traffic x Conversion x AOV).",
+        "Assignment: Assign sub-branches of the tree to specific teams to create ownership."
+      ],
+      "principles_zh": [
+        "价值交换：公司必须通过交付价值（北极星指标）来捕获价值（营收）。两者都需衡量。",
+        "北极星指标：衡量核心用户价值（例如 WhatsApp 是“发送的消息数”，而不仅仅是日活）。",
+        "拆解：以数学方式拆解指标（例如：营收 = 流量 x 转化率 x 客单价）。",
+        "分配：将指标树的分支分配给特定团队，以建立所有权。"
+      ],
+      "whenToUse": "When setting OKRs or defining team topology/responsibilities.",
+      "whenToUse_zh": "制定 OKR 或定义团队拓扑结构/职责划分时。",
+      "commonMistakes": "Confusing the North Star Metric (User Value) with the Top Business Goal (Revenue/Profit).",
+      "commonMistakes_zh": "混淆北极星指标（用户价值）与核心商业目标（营收/利润）。",
+      "quote": "If in year one we have a billion messages sent, in year two two billion, probably we doubled the amount of value.",
+      "realWorldExample": "WhatsApp focused on 'messages sent' (value delivered) rather than just ad revenue, which drove their massive growth before monetization.",
+      "realWorldExample_zh": "WhatsApp 专注于“发送的消息数”（交付的价值）而非仅仅是广告收入，这在变现之前推动了他们的巨大增长。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Strive not to be a success, but to be of value.",
+      "context": "Itamar quoting Einstein as his life motto."
+    },
+    {
+      "text": "We didn't have that much confidence in our opinions... It turned out people actually didn't need another social network.",
+      "context": "Reflecting on the difference between the failure of Google+ and the success of Gmail Tabs."
+    },
+    {
+      "text": "You fake it, you do a fake door test, you do a smoke test, Wizard of Oz tests... It wasn't really Gmail, it was just a facade.",
+      "context": "Describing how they validated the Gmail Tabbed Inbox without writing complex code."
+    }
+  ],
+  "filename": "Itamar Gilad"
+}

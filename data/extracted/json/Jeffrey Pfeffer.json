@@ -1,0 +1,135 @@
+{
+  "guest": {
+    "name": "Jeffrey Pfeffer",
+    "title": "Professor of Organizational Behavior",
+    "company": "Stanford Graduate School of Business",
+    "background": "Jeffrey Pfeffer is a renowned professor at Stanford GSB, famous for his course 'Paths to Power.' He is the author of multiple books on organizational power, including 'The 7 Rules of Power,' and focuses on the realistic mechanics of career advancement and influence.",
+    "background_zh": "Jeffrey Pfeffer 是斯坦福商学院的著名教授，因其开设的“权力之路（Paths to Power）”课程而闻名。他是《权力的7条法则》等多部组织权力学著作的作者，专注于研究职业晋升和影响力的现实机制。"
+  },
+  "episodeSummary": "In this candid conversation, Jeffrey Pfeffer breaks down the uncomfortable realities of organizational hierarchies, arguing that power is a skill to be mastered rather than a trait to be feared. He outlines his 'Seven Rules of Power,' debunking the myth that hard work alone leads to success. The discussion provides actionable frameworks for building personal brands, networking strategically, and overcoming the 'likability trap' to achieve career autonomy and impact.",
+  "episodeSummary_zh": "在这场坦诚的对话中，Jeffrey Pfeffer 剖析了组织层级中令人不适的现实，提出权力是一项需要掌握的技能，而非令人恐惧的特质。他详细阐述了“权力的7条法则”，打破了“仅靠努力工作就能成功”的迷思。本次讨论为打造个人品牌、战略性建立人脉以及克服“讨好型人格陷阱”提供了可落地的框架，帮助职场人获得职业自主权和更大的影响力。",
+  "keyTakeaways": [
+    "Power is a neutral tool; to change the world for good, good people must be willing to acquire and use power.",
+    "Competence is not enough; you must build a personal brand because no one will promote you if they don't know who you are.",
+    "Stop apologizing and get out of your own way; overcome imposter syndrome and the need to be universally liked.",
+    "Network relentlessly by acting as a broker who connects unconnected groups, focusing on generosity rather than transaction.",
+    "Break the rules to stand out; following established rules often only benefits those who created them.",
+    "Appearance matters: Body language, speaking time, and energy levels significantly impact how powerful you are perceived to be.",
+    "The world is not fair or homeostatic; success often excuses the methods used to achieve it, so focus on results."
+  ],
+  "methodologies": [
+    {
+      "name": "The 7 Rules of Power",
+      "name_zh": "权力的7条法则框架",
+      "category": "career-leadership",
+      "problemItSolves": "Helps individuals navigate organizational politics and advance their careers effectively, especially when feeling stuck or invisible.",
+      "problemItSolves_zh": "帮助个人在组织政治中游刃有余，有效推动职业发展，特别是解决职场透明人或晋升瓶颈问题。",
+      "summary": "A comprehensive framework for acquiring and maintaining power in any hierarchy. It emphasizes practical, sometimes uncomfortable actions over idealistic views of how the world 'should' work.",
+      "summary_zh": "一个在任何层级组织中获取并维持权力的综合框架。它强调务实且有时令人不适的行动，而非基于世界“本该如何”的理想主义观点。",
+      "principles": [
+        "Get out of your own way: Stop self-sabotage, imposter syndrome, and the obsession with being liked.",
+        "Break the rules: Differentiate yourself by disrupting conventions to gain attention and leverage.",
+        "Appear powerful: Master the skills of acting with authority (body language, voice, eye contact).",
+        "Build a powerful brand: Define your narrative and ensure you are known for specific value.",
+        "Network relentlessly: Focus on weak ties and becoming a central node (broker) in information flow.",
+        "Use your power: Power is a 'use it or lose it' resource; exercising it builds more of it.",
+        "Success excuses everything: Understand that once you win, the methods used are often forgotten."
+      ],
+      "principles_zh": [
+        "摆脱自我设限：停止自我破坏、克服冒充者综合症以及对他人的过分讨好。",
+        "打破常规：通过颠覆惯例来实现差异化，从而获得关注和杠杆。",
+        "展现强者姿态：掌握表现权威的技能（如肢体语言、声音控制、眼神接触）。",
+        "打造个人品牌：定义你的叙事逻辑，确保你的独特价值为人所知。",
+        "持续建立人脉：关注弱关系，致力于成为信息流中的关键节点（超级链接者）。",
+        "运用权力：权力遵循“用进废退”原则，行使权力能带来更多资源。",
+        "成功掩盖一切：要明白一旦你赢了，你所用的手段往往会被遗忘或原谅。"
+      ],
+      "whenToUse": "When aiming for a promotion, entering a new organization, or trying to push a major initiative through resistance.",
+      "whenToUse_zh": "当谋求晋升、进入新组织或试图在阻力中推动重大项目时。",
+      "commonMistakes": "Believing that 'doing a good job' is sufficient for advancement or thinking that seeking power is inherently unethical.",
+      "commonMistakes_zh": "误以为只要“把工作做好”就足以获得晋升，或者认为追求权力本身是不道德的。",
+      "quote": "If you want power to be used for good, more good people need to have power.",
+      "realWorldExample": "Laura Esserman, a breast cancer surgeon, used these principles to overcome resistance from established medical boards and revolutionize screening practices.",
+      "realWorldExample_zh": "乳腺癌外科医生 Laura Esserman 运用这些原则克服了来自传统医疗委员会的阻力，彻底革新了癌症筛查流程。"
+    },
+    {
+      "name": "Strategic Networking & Brokerage",
+      "name_zh": "战略性人脉构建与资源链接",
+      "category": "career-leadership",
+      "problemItSolves": "Overcomes the isolation and lack of resources that prevent execution, and addresses the 'cringe' factor of traditional networking.",
+      "problemItSolves_zh": "解决因孤立和资源匮乏导致的执行力不足问题，并克服传统社交带来的尴尬感。",
+      "summary": "A systematic approach to building social capital by focusing on generosity and connecting unconnected groups (brokerage). It prioritizes 'weak ties' over close friends to access non-redundant information.",
+      "summary_zh": "一种通过利他主义和连接未关联群体（成为中间人）来建立社会资本的系统方法。它优先考虑“弱关系”而非亲密朋友，以获取非冗余信息。",
+      "principles": [
+        "List 10 key people: Identify individuals crucial to your goals and strategize how to meet them.",
+        "Be a Broker: Connect people who don't know each other but would benefit from the connection.",
+        "Pursue Weak Ties: Interact with people outside your immediate circle to gain new insights and opportunities.",
+        "Lead with Generosity: Approach networking by asking 'What can I do for you?' rather than asking for favors immediately."
+      ],
+      "principles_zh": [
+        "列出10位关键人物：识别对达成目标至关重要的人，并制定接触策略。",
+        "成为超级链接者（Broker）：连接那些互不相识但能从彼此联系中受益的人。",
+        "拓展弱关系：与核心圈子以外的人互动，以获取新的见解和机会。",
+        "保持利他心态：社交时首先思考“我能为你做什么”，而不是立即索取帮助。"
+      ],
+      "whenToUse": "When you need to expand your influence, find a new job, or gather diverse resources for a project.",
+      "whenToUse_zh": "当你需要扩大影响力、寻找新工作或为项目集结多样化资源时。",
+      "commonMistakes": "Only networking with people you already know (redundant info) or viewing networking as purely transactional/selfish.",
+      "commonMistakes_zh": "只与熟人社交（信息冗余），或将社交视为纯粹的交易和利己行为。",
+      "quote": "The more people you know, the more things you know. If leadership is getting things done through others, the more others you know, the more you'll get done.",
+      "realWorldExample": "Omid Kordestani networked internally at Netscape instead of just doing his tasks, which eventually led to him being referred as the top business hire for Google (employee #11).",
+      "realWorldExample_zh": "Omid Kordestani 在 Netscape 工作时没有埋头苦干，而是专注于内部社交，这最终使他被推荐为 Google 的首位商业高管（第11号员工）。"
+    },
+    {
+      "name": "Acting with Power Protocol",
+      "name_zh": "权力形象塑造协议",
+      "category": "career-leadership",
+      "problemItSolves": "Addresses the lack of executive presence that prevents competent individuals from commanding respect and attention.",
+      "problemItSolves_zh": "解决因缺乏高管气场（Executive Presence）而导致有能力的人无法获得应有尊重和关注的问题。",
+      "summary": "A set of behavioral adjustments based on the premise that humans respond to visual and auditory cues of dominance before content. These are learnable skills, not innate personality traits.",
+      "summary_zh": "一套基于行为调整的方法论，前提是人类对支配地位的视觉和听觉信号的反应优先于内容本身。这些是可习得的技能，而非与生俱来的性格特质。",
+      "principles": [
+        "Physical Occupancy: Use open postures, invade personal space gently (e.g., hand on shoulder), and don't shrink away.",
+        "Commanding Communication: Speak loudly, interrupt if necessary, use humor to disarm, and avoid 'pre-emptory apologies'.",
+        "Eye Contact & No Notes: Maintain long gazing time and never read from notes to signal mastery and confidence.",
+        "Strategic Anger: Use anger occasionally to signal power and break norms (breaking the rules)."
+      ],
+      "principles_zh": [
+        "占据物理空间：使用开放的姿势，适度侵入私人空间（如拍肩），不要畏缩。",
+        "掌控沟通节奏：大声说话，必要时打断，用幽默消除防备，避免“预先道歉”。",
+        "眼神接触与脱稿：保持长时间注视，绝不照本宣科，以传递掌控感和自信。",
+        "策略性愤怒：偶尔使用愤怒来传递权力信号并打破常规（即打破规则）。"
+      ],
+      "whenToUse": "During presentations, negotiations, or when entering a room where you need to establish authority immediately.",
+      "whenToUse_zh": "在演讲、谈判或进入需要立即建立权威的场合时。",
+      "commonMistakes": "Confusing competence with presence; thinking that having the right data is enough without the delivery mechanism.",
+      "commonMistakes_zh": "混淆能力与气场；误以为只要数据正确，无需表达技巧就已足够。",
+      "quote": "You cannot choose what is not in your head. No one is going to promote you if they don't know who the hell you are.",
+      "realWorldExample": "Jack Valenti (MPAA head) was short in stature but commanded rooms by never using notes and projecting absolute mastery of his material.",
+      "realWorldExample_zh": "美国电影协会主席 Jack Valenti 虽然身材矮小，但他通过从不使用讲稿并展现对内容的绝对掌控，成功掌控了全场气场。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You can have power or you can have autonomy, but you cannot have both.",
+      "context": "Explaining the trade-off of high-level leadership positions where your schedule is no longer your own."
+    },
+    {
+      "text": "If you want power to be used for good, more good people need to have power.",
+      "context": "The central moral argument for why decent people should study power dynamics instead of shying away from them."
+    },
+    {
+      "text": "Success excuses everything. Once you've acquired power, what you did to get there will be forgiven, forgotten, or both.",
+      "context": "Discussing the harsh reality that winners write history and past transgressions are often overlooked for successful leaders."
+    },
+    {
+      "text": "If you want to be liked, get a dog.",
+      "context": "Quoting Gary Loveman to illustrate that leadership is about effectiveness and results, not about being everyone's friend."
+    },
+    {
+      "text": "I see people with hammers hitting other people on the head. That does not mean that a hammer is not a useful tool.",
+      "context": "Metaphor explaining that power is a neutral tool that can be used for good or evil, depending on the user."
+    }
+  ],
+  "filename": "Jeffrey Pfeffer"
+}

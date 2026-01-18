@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Matt LeMay",
+    "title": "Partner at Sudden Compass / Author",
+    "company": "Sudden Compass",
+    "background": "Matt LeMay is a product leader and consultant who has worked with companies ranging from early-stage startups to Fortune 500 enterprises. He is the author of 'Product Management in Practice' and the newly released 'Impact-First Product Teams', known for his practical, human-centric approach to product management.",
+    "background_zh": "Matt LeMay 是一位资深产品领袖和顾问，曾服务于从早期创业公司到财富500强的各类企业。他是《Product Management in Practice》及新书《Impact-First Product Teams》的作者，以其实用且以人为本的产品管理理念而闻名。"
+  },
+  "episodeSummary": "Matt LeMay discusses the critical need for product teams to shift from output-focused 'best practices' to genuine business impact to survive the current layoff climate. He outlines the 'Low Impact Death Spiral' and provides a three-step framework for aligning team goals directly with company success, regardless of organizational dysfunction.",
+  "episodeSummary_zh": "Matt LeMay 探讨了产品团队为何必须从关注产出的“最佳实践”转向真正的商业影响力，以便在当前的裁员潮中生存。他详细阐述了“低影响力死亡螺旋”现象，并提供了一个三步框架，帮助团队无论在何种组织弊病下，都能将团队目标与公司成功直接对齐。",
+  "keyTakeaways": [
+    "Product teams are increasingly being laid off for doing 'work around the work' rather than driving business critical outcomes.",
+    "The 'Low Impact Death Spiral' occurs when teams prioritize cosmetic features over core value, creating complexity that makes future high-impact work impossible.",
+    "Team goals should be no more than one mathematical step away from company-level goals.",
+    "PMs are not just 'mini-CEOs' responsible for decisions; they are responsible for helping the whole team think like a CEO.",
+    "Following agile best practices or having perfect OKRs does not protect you if the company fails commercially.",
+    "Constraints (regulations, B2B models, revenue targets) are not blockers; they are the guideposts for product strategy."
+  ],
+  "methodologies": [
+    {
+      "name": "The Low Impact PM Death Spiral",
+      "name_zh": "低影响力产品死亡螺旋",
+      "category": "product-strategy",
+      "problemItSolves": "Explains why busy product teams still get laid off and why products become bloated and unmanageable over time.",
+      "problemItSolves_zh": "解释了为什么忙碌的产品团队仍面临裁员风险，以及产品为何会随着时间推移变得臃肿且难以管理。",
+      "summary": "A dynamic where teams choose low-risk, cosmetic improvements ('rhinestones on a car') over risky core work. This adds technical and product debt ('weight to the hood'), making future high-impact work harder, forcing the team further into trivial work until they are viewed as non-essential.",
+      "summary_zh": "一种团队选择低风险、表面修饰工作（给车贴水钻）而非核心风险工作的动态。这增加了技术和产品负债（引擎盖变重），导致未来从事高影响力工作变得更难，迫使团队进一步陷入琐碎工作，最终被视为非必要团队。",
+      "principles": [
+        "Avoid 'work around the work': Don't mistake process for value.",
+        "Resist the cosmetic trap: Adding small features is easier than fixing the engine, but fatal long-term.",
+        "Recognize the bloat: As you add low-impact features, dependency management stifles agility."
+      ],
+      "principles_zh": [
+        "避免“围绕工作的伪工作”：不要将流程误认为价值。",
+        "抵制表面陷阱：增加小功能比修复核心引擎容易，但长期来看是致命的。",
+        "识别臃肿：随着低影响力功能的增加，依赖管理会扼杀敏捷性。"
+      ],
+      "whenToUse": "Use this as a diagnostic tool when the team feels busy but leadership questions the team's value.",
+      "whenToUse_zh": "当团队感觉很忙但管理层质疑团队价值时，用此作为诊断工具。",
+      "commonMistakes": "Assuming that because a feature is 'cool' or requested by a stakeholder, it protects the team from layoffs.",
+      "commonMistakes_zh": "误以为只要功能很“酷”或者是干系人要求的，就能保护团队免受裁员。",
+      "quote": "It starts with adding little features here and there, making little cosmetic improvements until the next round of layoffs.",
+      "realWorldExample": "Teams adding small cosmetic features to a car (product) instead of fixing the engine. Eventually, the car looks flashy but the hood is too heavy to lift to fix the engine when it breaks.",
+      "realWorldExample_zh": "团队给汽车（产品）增加小的装饰性功能，而不是修复引擎。最终，汽车看起来很花哨，但当引擎坏了时，引擎盖太重而无法掀开进行维修。"
+    },
+    {
+      "name": "The Impact-First Goal Framework",
+      "name_zh": "“影响力优先”目标设定框架",
+      "category": "execution",
+      "problemItSolves": "Prevents the 'cascading into oblivion' where team OKRs become disconnected from actual business reality and revenue.",
+      "problemItSolves_zh": "防止目标“层层拆解直至虚无”，即团队OKR与实际商业现实和营收脱节。",
+      "summary": "A three-step process to ensure product work is defensible. It involves setting goals mathematically close to company goals, maintaining that focus through the process, and strictly prioritizing based on that specific unit of measure.",
+      "summary_zh": "一个确保产品工作具有可辩护性的三步流程。它包括设定在数学上紧贴公司目标的目标，在流程中保持这一焦点，并严格基于该特定度量单位进行优先级排序。",
+      "principles": [
+        "One Step Away: Team goals must have a direct mathematical relationship to company goals (e.g., specific conversion impacting revenue).",
+        "Impact at Every Step: Don't let the goal get lost in strategy decks or Jira tickets.",
+        "Unit-Consistent Prioritization: Estimate impact using the same metric as the goal (e.g., number of users), not abstract scores (High/Medium/Low)."
+      ],
+      "principles_zh": [
+        "一步之遥原则：团队目标必须与公司目标有直接的数学关联（例如：影响营收的具体转化率）。",
+        "全流程影响力：不要让目标迷失在战略文档或Jira工单中。",
+        "单位一致的优先级排序：使用与目标相同的指标（如用户数）来预估影响力，而不是抽象的评分（高/中/低）。"
+      ],
+      "whenToUse": "During quarterly planning, OKR setting, or when defending the team's roadmap to executives.",
+      "whenToUse_zh": "在季度规划、OKR设定或向高管捍卫团队路线图时使用。",
+      "commonMistakes": "Creating goals that are 4-5 layers removed from revenue, or using arbitrary scoring systems (ICE/RICE) without tying 'Impact' to the specific goal metric.",
+      "commonMistakes_zh": "制定与营收相隔4-5层的目标，或在使用任意评分系统（ICE/RICE）时，未将“影响力”与具体目标指标挂钩。",
+      "quote": "Don't let it get cascaded into oblivion.",
+      "realWorldExample": "A Mailchimp team shifting from 'build platform features' to 'convert single-product users to multi-product users,' which directly multiplied customer LTV and revenue.",
+      "realWorldExample_zh": "Mailchimp的一个团队从“构建平台功能”转向“将单产品用户转化为多产品用户”，这直接成倍提升了客户生命周期价值（LTV）和营收。"
+    },
+    {
+      "name": "The CEO Funding Heuristic",
+      "name_zh": "CEO 投资视角测试",
+      "category": "team-culture",
+      "problemItSolves": "Helps PMs and teams assess their own job security and strategic alignment before it's too late.",
+      "problemItSolves_zh": "帮助产品经理和团队在为时已晚之前评估自身的工作安全性和战略一致性。",
+      "summary": "A mindset shift where the product manager asks the team to evaluate themselves as an investment asset of the business, encouraging radical acceptance of commercial realities.",
+      "summary_zh": "一种思维方式的转变，产品经理要求团队将自己作为企业的投资资产进行评估，鼓励对商业现实的彻底接纳。",
+      "principles": [
+        "The Investment Question: 'If you were the CEO, would you fully fund this team?'",
+        "Radical Acceptance: Acknowledge that you are accountable for things outside your control (market, user behavior).",
+        "Recommendation over Options: Don't just present options; provide a strong recommendation based on business constraints."
+      ],
+      "principles_zh": [
+        "投资拷问：“如果你是CEO，你会全额资助这个团队吗？”",
+        "彻底接纳：承认你需要对无法完全控制的事情（市场、用户行为）负责。",
+        "推荐优于选项：不要只提供选项；要基于商业约束提供强有力的推荐建议。"
+      ],
+      "whenToUse": "Use proactively when the team feels comfortable/complacent, or when preparing for annual budget reviews.",
+      "whenToUse_zh": "当团队感到舒适/自满，或准备年度预算审查时主动使用。",
+      "commonMistakes": "Thinking the team is entitled to exist simply because they are 'following the process' or 'working hard'.",
+      "commonMistakes_zh": "认为只要“遵循流程”或“努力工作”，团队就有存在的权利。",
+      "quote": "If you were the CEO of this company, would you fully fund your own team? Frankly, most of the people I ask that question to don't know the answer right away.",
+      "realWorldExample": "An ad-tech team realizing their vague '20% profit increase' goal was insufficient when they discovered the CEO actually expected a 500% increase (20m to 100m) based on investor promises.",
+      "realWorldExample_zh": "一个广告技术团队意识到他们模糊的“20%利润增长”目标远远不够，因为他们发现CEO基于对投资者的承诺，实际上期望的是500%的增长（从2000万增至1亿）。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You can follow all the best practices, but if your company goes out of business, they're not going to keep writing your paycheck for two years because all of your OKRs were a 0.6 or a 0.7.",
+      "context": "On the futility of process perfection without business survival."
+    },
+    {
+      "text": "The product manager is responsible for the whole team thinking like a CEO.",
+      "context": "Reframing the 'PM is the mini-CEO' concept."
+    },
+    {
+      "text": "If you are 51% sure that a different approach is going to get us 1% closer, I expect you to advocate for that approach.",
+      "context": "A leader empowering their growth team to abandon the plan in favor of the goal."
+    }
+  ],
+  "filename": "Matt LeMay"
+}

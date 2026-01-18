@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Nabeel S. Qureshi",
+    "title": "Founder (Stealth); Former Forward Deployed Engineer",
+    "company": "Ex-Palantir",
+    "background": "Former Forward Deployed Engineer at Palantir for 8 years, working on projects with Airbus, the NHS, and the US Government. Also a visiting scholar at the Mercatus Center and former VP at GoCardless.",
+    "background_zh": "前 Palantir 资深前线派驻工程师（Forward Deployed Engineer），在职8年期间曾主导空客（Airbus）、英国NHS及美国政府的关键项目。曾任 Mercatus Center 访问学者及独角兽企业 GoCardless 的副总裁。"
+  },
+  "episodeSummary": "Nabeel Qureshi reveals the inner workings of Palantir, focusing on their unique 'Forward Deployed Engineer' model that embeds technical talent directly with customers to solve high-stakes problems. He explains how Palantir successfully transitioned from a consulting-heavy service model to a high-margin software platform by abstracting customer-specific solutions into generalizable products like Foundry.",
+  "episodeSummary_zh": "Nabeel Qureshi 深度揭秘了 Palantir 的内部运作机制，重点拆解了其独特的“前线派驻工程师”模式——即通过将技术人才直接嵌入客户现场来解决高风险的关键问题。他解释了 Palantir 如何通过将客户定制化解决方案抽象为通用产品（如 Foundry），成功从重咨询的服务模式转型为高利润的软件平台模式。",
+  "keyTakeaways": [
+    "Palantir’s 'Forward Deployed' model serves as a forge for founders, with 30% of alumni PMs starting their own companies.",
+    "Real product innovation often comes from solving 'unsexy' data plumbing problems (access, cleaning, integration) rather than just analytics.",
+    "The 'Ontology' layer is the secret sauce: mapping cryptic database tables to human-readable business concepts (e.g., 'Aircraft' instead of 'Table_F4').",
+    "Hiring should filter for 'spikiness' and mission alignment (the extra 20% effort) rather than just generic competence.",
+    "High-touch, in-person engagement with customers builds trust and feedback loops that remote work cannot replicate."
+  ],
+  "methodologies": [
+    {
+      "name": "Forward Deployed Product Incubation",
+      "name_zh": "前线派驻式产品孵化（FDE模式）",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming the disconnect between product teams and real-world customer problems, and funding product R&D through service contracts.",
+      "problemItSolves_zh": "解决产品团队与真实客户痛点脱节的问题，并利用服务合同为产品研发提供资金支持。",
+      "summary": "Instead of building software in a vacuum, deploy engineers to the client site to work side-by-side with users. Solve the specific, messy problem manually or with custom scripts first, then abstract successful patterns into a scalable software platform.",
+      "summary_zh": "拒绝在真空环境造车，而是将工程师直接派驻到客户现场与用户并肩工作。首先通过人工或定制脚本解决具体且棘手的业务问题，随后将成功的解决方案模式抽象为可扩展的软件平台。",
+      "principles": [
+        "Embed engineers on-site (Monday-Thursday) to gain visceral empathy and context.",
+        "Charge for the outcome (value-based pricing), not just the software seats.",
+        "Rapid Iteration Cycles: Build on Monday, get feedback Tuesday, iterate Tuesday night.",
+        "Generalize later: Prove value with one customer before turning it into a platform feature."
+      ],
+      "principles_zh": [
+        "现场嵌入：工程师需周一至周四驻场，建立深度的同理心并获取业务上下文。",
+        "按结果定价：基于交付的业务价值（Value-based Pricing）收费，而非单纯卖软件席位。",
+        "极速迭代：周一构建，周二获取反馈，周二晚迭代优化。",
+        "后置通用化：先在单个客户处验证价值，再将其转化为平台级功能。"
+      ],
+      "whenToUse": "When building for complex enterprises with messy operational data, or when you need high-fidelity feedback to find Product-Market Fit.",
+      "whenToUse_zh": "适用于为数据环境复杂的的大型企业构建产品，或在寻找 PMF 阶段需要高保真用户反馈时。",
+      "commonMistakes": "Treating the role purely as 'Sales Engineering' without empowering the engineer to write code or change the product roadmap.",
+      "commonMistakes_zh": "将该角色仅仅视为“售前工程师/实施”，而未赋予其编写代码或通过反馈影响产品路线图的权力。",
+      "quote": "You learn to live and breathe the customer's problems... you would have to create new software such that it could actually solve the novel problem that was in front of you.",
+      "realWorldExample": "At Airbus, Nabeel lived in France and visited factories to build a tool that tracked A350 production. The custom solution for tracking plane parts across stations eventually informed the core 'Ontology' feature in Palantir Foundry.",
+      "realWorldExample_zh": "在空客（Airbus）项目中，Nabeel 常驻法国工厂，开发了一款追踪 A350 生产进度的工具。这个用于跨站点追踪飞机零部件的定制化解决方案，最终演变成了 Palantir Foundry 核心的“本体层（Ontology）”功能。"
+    },
+    {
+      "name": "The 'Ontology-First' Data Strategy",
+      "name_zh": "“本体论优先”的数据集成策略",
+      "category": "execution",
+      "problemItSolves": "The friction of using raw data in large organizations where table names are cryptic (e.g., SAP codes) and access is siloed.",
+      "problemItSolves_zh": "解决大型组织中原始数据难以使用的问题（如晦涩的 SAP 表名代码）以及数据孤岛带来的访问阻力。",
+      "summary": "Recognizing that 90% of data work is ingestion and cleaning, this framework focuses on creating a semantic layer between the raw database and the user. It maps technical data to 'real world objects' (e.g., a Plane, a Hospital Bed) so non-technical users can interact with it.",
+      "summary_zh": "鉴于90%的数据工作在于接入和清洗，该框架主张在原始数据库与用户之间构建一个“语义层”。它将技术数据映射为“现实世界对象”（如“飞机”、“病床”），使非技术用户也能直接利用数据。",
+      "principles": [
+        "Ingest Everything: Use universal adapters to pull data from any source (S3, ERPs).",
+        "Map to Human Concepts: Translate cryptic table names (e.g., 'T_79_Z') into business objects (e.g., 'Work Order').",
+        "Enable Object-Based Traversal: Allow users to click from 'Plane' to 'Parts' without writing SQL joins.",
+        "Democratize Access: Break political gatekeeping by making data self-serve for business operators."
+      ],
+      "principles_zh": [
+        "全量接入：使用通用适配器从任何源（S3, ERP等）拉取数据。",
+        "映射人类概念：将晦涩的表名（如 'T_79_Z'）转化为业务对象（如 '工单'）。",
+        "对象级关联：允许用户直接从“飞机”点击跳转至“零件”，无需编写 SQL Join 语句。",
+        "数据民主化：通过让业务人员自助使用数据，打破IT部门的“守门人”垄断。"
+      ],
+      "whenToUse": "When building data platforms for non-technical stakeholders or when legacy systems (SAP, Oracle) make data illegible.",
+      "whenToUse_zh": "适用于为非技术干系人构建数据平台，或当遗留系统（SAP, Oracle）导致数据难以理解时。",
+      "commonMistakes": "Assuming the user wants to write SQL or focusing only on the visualization layer (dashboards) without fixing the underlying data model.",
+      "commonMistakes_zh": "假设用户愿意写 SQL，或只关注可视化层（仪表盘），而忽略了底层数据模型的修复。",
+      "quote": "If you can pull in these tables... and map them to human concepts... then a user can just log in and say, 'Okay. Aircraft 79, where is that?'",
+      "realWorldExample": "Helping Airbus ramp up A350 production by mapping SAP data to a 'digital twin' of the factory floor, allowing workers to see exactly which parts were missing at specific stations.",
+      "realWorldExample_zh": "通过将 SAP 数据映射为工厂车间的“数字孪生”，帮助空客提升 A350 产量，让工人能确切看到特定工位缺失哪些零件。"
+    },
+    {
+      "name": "The Murder Board Planning Process",
+      "name_zh": "“谋杀委员会”项目验证法",
+      "category": "team-culture",
+      "problemItSolves": "Prevents weak ideas from consuming resources and ensures operational plans are robust before execution starts.",
+      "problemItSolves_zh": "防止平庸的想法消耗资源，并确保执行计划在启动前具备足够的鲁棒性。",
+      "summary": "A rigorous pre-mortem process where a project lead presents a plan to a group of smart, disinterested parties whose sole job is to tear the plan apart to find flaws in logic, strategy, or principles.",
+      "summary_zh": "一种严苛的“预验尸”（Pre-mortem）流程。项目负责人向一群聪明且无利益相关的红队成员展示计划，后者的唯一任务就是撕碎计划，找出逻辑、策略或原则上的漏洞。",
+      "principles": [
+        "Write a 2-Page Memo: Vision, goals, and tactics must be written down clearly.",
+        "Define Controversial Principles: Principles must be actionable and debatable (not generic like 'move fast').",
+        "Invite Disinterested Critics: Include smart people who don't know the project to avoid confirmation bias.",
+        "Tear It Apart: The goal of the meeting is rigorous critique, not validation or politeness."
+      ],
+      "principles_zh": [
+        "撰写2页备忘录：清晰书写愿景、目标和战术。",
+        "定义有争议的原则：原则必须可执行且具可辩驳性（拒绝如“快速行动”之类的废话原则）。",
+        "邀请无利益相关的批评者：引入不了解项目的聪明人，避免确认偏误。",
+        "彻底解构：会议的目标是严厉的批判，而非寻求验证或客套。",
+        "Create friction: If it passes the murder board, it's worth doing."
+      ],
+      "whenToUse": "Before launching a major new initiative, product line, or high-stakes customer engagement.",
+      "whenToUse_zh": "在启动重大新项目、新产品线或高风险客户合作之前。",
+      "commonMistakes": "Creating principles everyone agrees with (e.g., 'be inclusive') instead of principles that force trade-offs.",
+      "commonMistakes_zh": "制定所有人都会同意的“正确的废话”原则（如“保持包容”），而非能迫使团队做出权衡取舍的原则。",
+      "quote": "You invite three or four smart folks who don't know anything about the project and their job is just to tear apart your plan.",
+      "realWorldExample": "Nabeel used this for new deployments at Palantir, ensuring that principles like 'Optimize for speed over stability' were explicitly debated before entering a client site.",
+      "realWorldExample_zh": "Nabeel 在 Palantir 启动新部署时使用此方法，确保像“优先追求速度而非稳定性”这样的原则在进入客户现场前经过充分辩论。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "30% of PMs that leave Palantir start a company.",
+      "context": "Lenny sharing statistics on why Palantir is the top 'founder factory' in the world."
+    },
+    {
+      "text": "Palantir's biggest competitor is a company rolling its own solution.",
+      "context": "Nabeel explaining that the real battle isn't other SaaS vendors, but the internal IT department's desire to build custom infrastructure."
+    },
+    {
+      "text": "The only people who did have titles were the CEO and then there were six directors and that was it.",
+      "context": "Discussing Palantir's flat hierarchy designed to prevent political gaming."
+    },
+    {
+      "text": "You basically could not become a PM any other way... only making people PMs who had first proven themselves out as forward deployed engineers.",
+      "context": "On why Palantir PMs are so effective—they earn their role through field execution first."
+    }
+  ],
+  "filename": "Nabeel S. Qureshi"
+}

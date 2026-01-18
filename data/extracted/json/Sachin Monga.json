@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Sachin Monga",
+    "title": "Head of Product",
+    "company": "Substack",
+    "background": "Sachin is the Head of Product at Substack, having joined through the acquisition of his startup, Cocoon. Previously, he spent seven years at Facebook working on video, camera products, developer platforms, and leading the ads growth team.",
+    "background_zh": "Sachin 目前担任 Substack 的产品负责人，他之前创立的公司 Cocoon 被 Substack 收购。在此之前，他在 Facebook 工作了七年，负责视频、相机产品、开发者平台建设，并领导过广告增长团队。"
+  },
+  "episodeSummary": "Sachin Monga discusses Substack's evolution from a simple tool for writers into a powerful subscription network, highlighting the legendary 'Recommendations' feature that drives 70% of growth. He contrasts product management at hyper-growth startups versus established giants like Facebook, emphasizing the importance of user agency over algorithmic feeds. The conversation covers how to build trust with founders, the 'Build with Writers' product philosophy, and the future of the creator economy.",
+  "episodeSummary_zh": "Sachin Monga 探讨了 Substack 如何从单一写作工具进化为强大的订阅网络，重点解析了贡献了 70% 增长的传奇功能——“推荐机制”。他对照了 Facebook 等大厂与高速增长初创企业在产品管理上的差异，强调了“用户主权”优于算法推荐的产品哲学。对话还涵盖了如何与创始人建立信任、“与创作者共建”的产品开发模式，以及创作者经济的未来图景。",
+  "keyTakeaways": [
+    "Prioritize user agency over algorithmic engagement to build long-term trust.",
+    "In hyper-growth startups, any process you build will be obsolete in 6 months; focus on improvement velocity rather than perfect structure.",
+    "Network effects can be engineered through human curation (Recommendations) rather than just black-box algorithms.",
+    "Product leaders in founder-led startups should act as facilitators first to bridge the vision gap between founders and new teams.",
+    "Facilitate growth by solving the 'cold start' problem for creators through peer-to-peer recommendations.",
+    "Don't worry about audience perception; launch early and iterate, as subscribers are often more forgiving than creators expect."
+  ],
+  "methodologies": [
+    {
+      "name": "The Trust-Based Discovery Network",
+      "name_zh": "基于信任的去中心化发现模型",
+      "category": "growth-metrics",
+      "problemItSolves": "Solving the 'cold start' discovery problem for creators without relying on attention-hijacking algorithms or ads.",
+      "problemItSolves_zh": "在不依赖劫持注意力的算法或广告投放的情况下，解决创作者的“冷启动”流量获取难题。",
+      "summary": "Instead of a centralized 'People You May Know' algorithm, Substack enables writers to explicitly recommend other newsletters. This leverages the trust readers have in a specific writer to drive high-intent subscriptions to others, creating a viral loop based on human curation rather than machine optimization.",
+      "summary_zh": "Substack 摒弃了中心化的“猜你喜欢”算法，转而让创作者主动推荐其他优质 Newsletter。该机制利用读者对创作者的信任链，带来高意向的订阅转化，构建了一个基于人工筛选而非机器优化的增长飞轮。",
+      "principles": [
+        "Human Curation: Writers manually select who they endorse, ensuring quality signal.",
+        "Contextual Relevance: Recommendations appear immediately after a user subscribes, capitalizing on high-intent moments.",
+        "Reciprocal Growth: Driving subscriptions for others creates a goodwill loop where they reciprocate.",
+        "User Agency: Writers and readers maintain control over what is shown/seen, not the platform."
+      ],
+      "principles_zh": [
+        "人工策展：由创作者手动选择背书对象，确保内容质量信号。",
+        "场景化关联：在用户完成订阅的高意向时刻即时展示推荐列表。",
+        "互惠增长：为他人导流建立的善意会形成互推的良性循环。",
+        "用户主权：由创作者和读者掌控展示内容，而非平台算法强加。"
+      ],
+      "whenToUse": "When building marketplaces or content platforms where trust and quality are more important than cheap clicks or time spent.",
+      "whenToUse_zh": "适用于构建内容平台或双边市场，且平台更看重信任感与内容质量，而非廉价点击量或单纯的用户时长时。",
+      "commonMistakes": "Assuming algorithms are the only way to scale discovery; failing to give suppliers (writers) control over the inventory causing them to feel their audience is being hijacked.",
+      "commonMistakes_zh": "误以为算法是扩展发现机制的唯一途径；或者未能给予供给端（创作者）足够的控制权，导致他们感觉自己的私域流量被平台劫持。",
+      "quote": "What if we just asked writers, who do you recommend? What if we just put that in the subscribe flow and just made it as simple as possible?",
+      "realWorldExample": "Lenny's Newsletter now gets 70% of its new subscriber growth purely from the Recommendations feature, with over 500 other newsletters recommending him.",
+      "realWorldExample_zh": "Lenny 的 Newsletter 目前 70% 的新增订阅均来自“推荐”功能，有超过 500 个其他 Newsletter 正在推荐他。"
+    },
+    {
+      "name": "The 'Build With' Pilot Framework",
+      "name_zh": "“与用户共建”灰度测试框架",
+      "category": "user-research",
+      "problemItSolves": "Rolling out complex, community-impacting features without alienating the core user base or breaking established norms.",
+      "problemItSolves_zh": "在推出影响社区生态的复杂功能时，避免疏远核心用户群或破坏既有的社区规范。",
+      "summary": "Before a general rollout, Substack engages a 'Product Lab'—a curated group of roughly 100 engaged writers. They involve these users at the mockup stage, not just the beta stage, to shape the feature's direction and ensure it aligns with user needs before engineering resources are fully committed.",
+      "summary_zh": "在全面发布前，Substack 会启动“产品实验室”（Product Lab），这是一个由约 100 位活跃创作者组成的精选小组。团队在原型设计阶段（而非仅在 Beta 测试阶段）就引入这些用户，在投入大量开发资源前，确保功能方向与核心需求高度对齐。",
+      "principles": [
+        "Early Inclusion: Involve power users when the idea is just a mockup.",
+        "Representative Cohort: Create a formal 'Product Lab' of distinct user archetypes.",
+        "Qualitative over Quantitative: Focus on sentiment and 'does this feel right' over pure metrics initially.",
+        "Iterate before Code: Change the product direction based on feedback before writing production code."
+      ],
+      "principles_zh": [
+        "早期介入：在想法仅停留在原型图阶段时就引入核心用户。",
+        "代表性样本：建立正式的“产品实验室”，囊括典型用户画像。",
+        "定性优先：在初期更关注用户感受和“直觉反馈”，而非单纯的数据指标。",
+        "开发前迭代：在编写正式代码前，根据反馈调整产品方向。"
+      ],
+      "whenToUse": "When introducing features that change the fundamental economics or interaction models of your platform (e.g., adding a social network to a newsletter tool).",
+      "whenToUse_zh": "当引入可能改变平台基本经济模型或交互模式的功能时（例如：在 Newsletter 工具中加入社交网络功能）。",
+      "commonMistakes": "Building the full feature first and treating the pilot only as a bug-bash; ignoring negative sentiment because metrics look okay.",
+      "commonMistakes_zh": "先开发完完整功能，仅把试点测试当作找 Bug 的过程；或者因为数据指标尚可而忽视用户的负面情绪。",
+      "quote": "It's almost like a sub principle of the put readers in charge, put writers in charge. How do you build product responsibly if you care deeply about that?",
+      "realWorldExample": "Substack used this process for Recommendations. Initially, the CEO was skeptical, but by mocking it up and testing with writers first, they validated the concept and refined the incentives before global launch.",
+      "realWorldExample_zh": "Substack 在开发推荐功能时采用了此流程。最初 CEO 对此持怀疑态度，但通过制作原型并先与创作者测试，他们验证了概念并优化了激励机制，随后才向全网发布。"
+    },
+    {
+      "name": "The Process Obsolescence Mindset",
+      "name_zh": "“流程即过时”动态管理模型",
+      "category": "team-culture",
+      "problemItSolves": "Product leaders getting stuck trying to design the 'perfect' organizational structure or planning process in a high-volatility environment.",
+      "problemItSolves_zh": "产品负责人在高波动环境下，陷入设计“完美”组织架构或规划流程的陷阱，导致管理僵化。",
+      "summary": "In hyper-growth startups, the definition of a 'good job' changes constantly. Leaders must accept that any process implemented today will likely break in 3-6 months. The goal is not a stable process, but continuous adaptation of the process to match the company's current scale.",
+      "summary_zh": "在高速增长的初创公司，“做得好”的定义是不断变化的。管理者必须接受一个事实：今天实施的任何流程很可能在 3-6 个月后失效。目标不是建立稳定的流程，而是让流程持续适应公司当前的规模。",
+      "principles": [
+        "Anticipate Obsolescence: Assume your new process has a shelf life of months, not years.",
+        "Facilitation over Decision: The Head of Product connects the Founder's vision to new hires rather than just making isolated decisions.",
+        "Time as the Variable: Unlike Big Tech (where trade-offs are absolute), Startups prioritize sequencing (now vs. later).",
+        "Trust through Reps: Build alignment by repeatedly solving small problems with the founder."
+      ],
+      "principles_zh": [
+        "预判过时：默认新流程的保质期只有几个月，而非几年。",
+        "促进优于决策：产品负责人的首要任务是连接创始人愿景与新员工，而非孤立地做决策。",
+        "以时间为变量：不同于大厂（关注绝对的利弊权衡），初创公司更关注次序（现在做还是以后做）。",
+        "以频次建信任：通过与创始人反复解决小问题来建立长期的目标对齐。"
+      ],
+      "whenToUse": "During the transition from early-stage startup (no PMs) to growth stage (building the first product teams).",
+      "whenToUse_zh": "处于从早期初创阶段（无专职 PM）向成长期（组建首个产品团队）过渡的阶段。",
+      "commonMistakes": "Trying to import heavy processes from previous Big Tech jobs (like Facebook/Google) that stifle speed; getting frustrated when a process breaks.",
+      "commonMistakes_zh": "试图照搬前东家（如 FB/Google）的重型流程，从而扼杀速度；或者当流程失效时感到沮丧而非主动调整。",
+      "quote": "Whatever our process is, we're never going to have a perfect one. And even if we did, it would soon be obsolete because we did a really good job and now we've grown 2X.",
+      "realWorldExample": "When joining Substack, Sachin focused his first few months purely on facilitating communication between the CEO and new teams, rather than establishing rigid roadmaps immediately.",
+      "realWorldExample_zh": "刚加入 Substack 时，Sachin 将前几个月的重心完全放在促进 CEO 与新团队的沟通上，而不是立即建立僵化的路线图。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The economic model for supporting great writing on the internet has been generally pretty terrible for the entirety of the internet's history.",
+      "context": "On why Substack exists and the opportunity for writers."
+    },
+    {
+      "text": "If someone is subscribed to you, they're granting you write access to their brain.",
+      "context": "Describing the high-trust nature of email subscriptions compared to social media follows."
+    },
+    {
+      "text": "We're just starting into this golden era of what it might mean to be a writer on the internet.",
+      "context": "Discussing the future potential of the creator economy."
+    }
+  ],
+  "filename": "Sachin Monga"
+}

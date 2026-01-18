@@ -1,0 +1,121 @@
+{
+  "guest": {
+    "name": "Jen Abel",
+    "title": "Co-founder",
+    "company": "Jellyfish",
+    "background": "Jen Abel is the co-founder of Jellyfish, a firm dedicated to helping early-stage B2B founders navigate the zero-to-one sales journey. Formerly an enterprise sales director at The Muse and General Assembly, she specializes in founder-led sales, customer discovery, and setting up repeatable go-to-market motions.",
+    "background_zh": "Jen Abel 是 Jellyfish 的联合创始人，专注于帮助早期 B2B 创始人跨越从 0 到 1 的销售阶段。她曾任 The Muse 和 General Assembly 的企业销售总监，擅长创始人主导的销售（Founder-Led Sales）、客户探索以及建立可复制的市场进入（GTM）机制。"
+  },
+  "episodeSummary": "This episode provides a tactical masterclass on founder-led sales, arguing that founders must personally drive early revenue to validate product-market fit before hiring sales teams. Jen Abel breaks down the entire lifecycle, from crafting high-converting cold emails using counterintuitive insights to navigating complex enterprise procurement processes. She emphasizes vulnerability in discovery calls and the strategic use of services to wedge into accounts.",
+  "episodeSummary_zh": "本期节目是一堂关于创始人主导销售（Founder-Led Sales）的实战大师课，核心观点在于创始人在招聘销售团队前，必须亲力亲为以验证 PMF。Jen Abel 拆解了全链路销售流程，包括如何利用“反直觉”洞察撰写高转化冷启动邮件，以及如何搞定复杂的企业级采购流程。她强调了在探索性访谈中保持“示弱”的重要性，并提出了利用服务（Services）作为切入点撬动大客户的策略。",
+  "keyTakeaways": [
+    "Founders should not hire salespeople until reaching ~$1M ARR; the founder is the product and the only one who can pivot based on market signals.",
+    "Effective cold outreach focuses on relevancy and counterintuitive insights, not personalization or claiming to be 'better'.",
+    "The goal of early sales is learning, not just revenue; be vulnerable about your early stage to get honest feedback.",
+    "Never do a product demo on the first call; focus on understanding the customer's mental model of the problem.",
+    "Selling services (consulting/scoping) first is often necessary (40-50% of cases) to educate the market and build intent before selling software.",
+    "Buying software is harder than selling it; founders must project manage the procurement process for the buyer.",
+    "Avoid the 'feature trap'; if a prospect isn't measuring or managing the problem today, they likely won't buy a solution."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Counterintuitive' Outreach Framework",
+      "name_zh": "“反直觉”冷启动触达框架",
+      "category": "growth-metrics",
+      "problemItSolves": "Getting prospects to respond to cold emails/DMs in a saturated market where everyone ignores generic pitches.",
+      "problemItSolves_zh": "在信息过载的市场中，解决潜在客户忽略通用推销邮件、冷启动回复率低的问题。",
+      "summary": "A structured approach to outbound messaging that prioritizes novel insights over generic personalization. The goal is to create a 'shock value' that disrupts the reader's pattern and compels them to engage because the problem is framed in a new light.",
+      "summary_zh": "一种结构化的对外联络（Outbound）方法，优先强调新颖的洞察而非泛泛的个性化。核心目标是创造“冲击力（Shock Value）”，打破读者的思维惯性，通过全新的问题重构视角迫使对方参与互动。",
+      "principles": [
+        "Relevancy > Personalization: Focus on why this matters to their specific role right now, not just that you know their name.",
+        "Counterintuitive Insight: State something shocking or different (e.g., 'Sales talent doesn't exist'). Avoid saying you are 'better'.",
+        "Mobile-First Brevity: 3-4 sentences max. If they have to scroll on a phone, it's too long.",
+        "Problem-Centric: Discuss the problem deeply; do not pitch the solution or product features."
+      ],
+      "principles_zh": [
+        "相关性 > 个性化：聚焦于为什么这件事对他们当下的角色至关重要，而不仅仅是提到他们的名字。",
+        "反直觉洞察：提出令人震惊或与众不同的观点（例如：“销售人才根本不存在”），避免声称自己“更好”。",
+        "移动端零滚动原则：最多3-4句话。如果用户在手机上需要滑动屏幕才能看完，那就太长了。",
+        "聚焦问题：深度探讨痛点和问题，绝不直接推销解决方案或产品功能。"
+      ],
+      "whenToUse": "When crafting cold emails or LinkedIn messages to potential early adopters or design partners.",
+      "whenToUse_zh": "在向早期采用者或设计合作伙伴发送冷启动邮件或 LinkedIn 私信时使用。",
+      "commonMistakes": "Using 'we are better than X' (which triggers skepticism), writing long essays, or relying on fake personalization.",
+      "commonMistakes_zh": "使用“我们比某竞品更好”（这会引发怀疑），写长篇大论，或依赖虚假的套路化“个性化”客套。",
+      "quote": "I really try and stay away from 'better,' because that's really hard to define... Focus the messaging in a way that speaks to something that is a bit of shock value or is counterintuitive.",
+      "realWorldExample": "Jen used the subject/hook: 'Zero to one sales talent doesn't exist. That's why I want to have a conversation with you.' This challenged the recipient's worldview and sparked curiosity.",
+      "realWorldExample_zh": "Jen 使用过的一个钩子是：“从0到1的销售人才根本不存在。这就是我想和你聊聊的原因。” 这句话挑战了接收者的世界观并激发了强烈的好奇心。"
+    },
+    {
+      "name": "The 'Manual 30' Validation Sprint",
+      "name_zh": "“手动30人”验证冲刺",
+      "category": "user-research",
+      "problemItSolves": "Spending time and money on sales automation tools before validating if the target persona or message actually resonates.",
+      "problemItSolves_zh": "在验证目标画像或信息是否产生共鸣之前，过早投入时间金钱购买自动化销售工具。",
+      "summary": "Before scaling, founders must manually identify and message a small batch of high-quality leads. This creates a feedback loop to test discoverability (can I find them?) and resonance (do they care?) before automating bad processes.",
+      "summary_zh": "在扩张之前，创始人必须手动筛选并联系一小批高质量潜客。这建立了一个反馈闭环，用于在自动化错误的流程之前，测试“可发现性”（能找到这些人吗？）和“共鸣度”（他们在乎吗？）。",
+      "principles": [
+        "Select 30 Specific People: Manually find 30 individuals you are genuinely excited to learn from.",
+        "High-Effort Customization: Spend 15-20 minutes writing a specific note for each person.",
+        "Analyze Discoverability: If you can't easily find 30 people, you have a market definition or discoverability issue.",
+        "Iterate on Zeros: If you get 0 responses, change the message or the persona before scaling."
+      ],
+      "principles_zh": [
+        "精选30人：手动寻找30个你真心渴望从他们身上学习的特定对象。",
+        "高投入定制：为每个人投入15-20分钟撰写专属信息。",
+        "分析可发现性：如果你很难找到这30个人，说明你的市场定义或获客渠道存在问题。",
+        "零回复即迭代：如果回复率为0，必须在扩大规模前修改信息内容或目标画像。"
+      ],
+      "whenToUse": "At the very beginning of the sales process or when pivoting to a new customer segment.",
+      "whenToUse_zh": "在销售流程的最早期，或转向新的客户细分市场时使用。",
+      "commonMistakes": "Buying expensive enrichment/automation tools (like Clay or Apollo) immediately and blasting 1,000 people with bad messaging.",
+      "commonMistakes_zh": "立即购买昂贵的数据填充或自动化工具（如 Clay 或 Apollo），并向1000人狂发无效信息。",
+      "quote": "Before you buy any tool... can you manually find 30 people that you want to spend 15 to 20 minutes writing a rock solid note to?",
+      "realWorldExample": "A founder realizes they can't find 'High Net Worth Individuals' easily online, proving a discoverability flaw in their GTM strategy before writing a line of code.",
+      "realWorldExample_zh": "一位创始人意识到他们无法在网上轻松找到“高净值个人”，这在写任何代码之前就证明了其 GTM 策略中的获客缺陷。"
+    },
+    {
+      "name": "The Services-First Wedge",
+      "name_zh": "服务先行切入策略",
+      "category": "product-strategy",
+      "problemItSolves": "Trying to sell a technology product to a market that is not mature enough to adopt it, or lacks the internal processes to use it.",
+      "problemItSolves_zh": "试图向一个尚未成熟到可以采用该技术，或缺乏内部流程来使用该技术的市场销售纯软件产品。",
+      "summary": "For complex or novel solutions (like AI), buyers often lack the strategy to buy. Founders should sell a time-boxed service (consulting, scoping, education) to help the buyer prepare. This secures the logo, builds trust, and creates the internal conditions for the software sale.",
+      "summary_zh": "对于复杂或新颖的解决方案（如 AI），买方往往缺乏采购策略。创始人应销售有时限的服务（咨询、定责、教育）来帮助买方做好准备。这能锁定 Logo、建立信任，并为后续软件销售创造内部条件。",
+      "principles": [
+        "Sell the Strategy, Not Just the Tool: If they don't have a process, sell them the consulting to build the process.",
+        "Co-Author the Scope: Turn the prospect into a partner by writing the SOW (Scope of Work) together.",
+        "Time-Box to 90 Days: Limit services to ~3 months to avoid becoming a dev shop; the goal is to bridge to the software license.",
+        "Get Paid for Education: Charging for this phase proves intent and validates budget availability."
+      ],
+      "principles_zh": [
+        "卖策略而非仅仅卖工具：如果客户没有流程，就卖给他们建立流程的咨询服务。",
+        "共创工作范围：通过共同编写工作说明书（SOW），将潜在客户转化为合作伙伴。",
+        "限定90天周期：将服务限制在约3个月内，避免沦为外包开发公司；目标是过渡到软件许可销售。",
+        "为教育付费：为此阶段收费能证明客户意向并验证预算可用性。"
+      ],
+      "whenToUse": "When selling into enterprise environments or traditional industries that are slow to adopt new tech paradigms.",
+      "whenToUse_zh": "向企业级环境或对新技术范式采用缓慢的传统行业销售时使用。",
+      "commonMistakes": "Refusing to do services because 'VCs hate it', resulting in lost deals and zero learning.",
+      "commonMistakes_zh": "因为“VC不喜欢服务收入”而拒绝提供服务，导致丢单并失去学习机会。",
+      "quote": "If they do not have an existing process or strategy to solve X problem, they can't buy a technology yet... You need to sell them some form of a service.",
+      "realWorldExample": "A startup selling to a traditional industry was told 'We haven't changed vendors in 5 years.' The startup sold a consulting engagement to map out *how* the integration would work first, then won the tech contract.",
+      "realWorldExample_zh": "一家向传统行业销售的初创公司被告知“我们5年没换过供应商了”。该公司随后卖出了一份咨询合同，先梳理清楚集成将*如何*进行，随后赢得了技术合同。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Founder led sales is not about revenue on day one. It is about learning as fast as humanly possible to get to that pulse, so that you can earn the right to sell.",
+      "context": "Jen defining the true north star of the early sales process."
+    },
+    {
+      "text": "Zero to one sales talent doesn't exist.",
+      "context": "Jen explaining why founders cannot outsource the initial sales discovery process."
+    },
+    {
+      "text": "Buying is just as hard, if not harder, than selling right now.",
+      "context": "Highlighting the friction inside enterprise organizations that founders need to empathize with and solve for."
+    }
+  ],
+  "filename": "Jen Abel"
+}

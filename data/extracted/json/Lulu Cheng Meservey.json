@@ -1,0 +1,113 @@
+{
+  "guest": {
+    "name": "Lulu Cheng Meservey",
+    "title": "EVP of Corporate Affairs & CCO at Activision Blizzard",
+    "company": "Activision Blizzard (formerly Substack)",
+    "background": "A communications expert known for her bold, risk-taking approach to PR and storytelling. She previously led comms at Substack and writes the popular newsletter 'Flack'.",
+    "background_zh": "资深公关传播专家，以大胆、反传统的公关策略和叙事能力闻名。她曾任 Substack 传播负责人，现任动视暴雪（Activision Blizzard）企业事务执行副总裁兼首席传播官，并撰写热门通讯专栏《Flack》。"
+  },
+  "episodeSummary": "Lulu Cheng Meservey shares her contrarian approach to communications, emphasizing the need for startups to take risks and 'go direct' rather than relying on traditional media. She breaks down tactical frameworks for making ideas spread, including finding 'cultural erogenous zones' and using physics-based models to maximize messaging impact.",
+  "episodeSummary_zh": "Lulu Cheng Meservey 分享了她反传统的公关传播方法论，强调初创公司应勇于承担风险并建立“直达用户（Go Direct）”的渠道，而非单纯依赖传统媒体。她详细拆解了让观点广泛传播的战术框架，包括寻找受众的“文化敏感带”，以及利用物理学模型最大化信息传播的压强。",
+  "keyTakeaways": [
+    "Startups must take risks of commission rather than omission; playing it safe lets the status quo win.",
+    "Do not try to change your audience's worldview; find what they already care about and bridge your message to it.",
+    "Use the Concentric Circles strategy: secure buy-in from employees and power users before pitching the general public.",
+    "Apply the Pressure Equation (P = F/A): To increase impact (Pressure) with limited resources (Force), you must decrease your target audience size (Area).",
+    "Founders should 'go direct' and build their own distribution channels on platforms where they are naturally talented (text, video, or audio)."
+  ],
+  "methodologies": [
+    {
+      "name": "Cultural Erogenous Zones",
+      "name_zh": "文化敏感带（共鸣点）法则",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming audience apathy when they don't naturally care about your product or message.",
+      "problemItSolves_zh": "解决当受众对你的产品或信息天然不感兴趣时的冷启动难题。",
+      "summary": "Instead of trying to force people to care about your specific product (a heavy lift), identify what they are already passionate about (their cultural erogenous zones). Your job is to build an API or bridge connecting their existing passion to your offering.",
+      "summary_zh": "不要试图强迫用户关心你的具体产品（这很难），而是要识别他们原本就充满热情的领域（即“文化敏感带”）。你的任务是搭建一座桥梁（API），将他们的既有热情连接到你的产品上。",
+      "principles": [
+        "Identify the Passion: Find what your audience already deeply cares about (e.g., free speech, national security).",
+        "Build the Bridge: Create a narrative connection between their passion (X) and your product (Y).",
+        "Accept Reality: Don't waste energy trying to change someone's fundamental worldview."
+      ],
+      "principles_zh": [
+        "识别热情：找到受众已经深切关注的议题（如言论自由、国家安全）。",
+        "搭建桥梁：在受众的热情（X）和你的产品（Y）之间建立叙事连接。",
+        "接受现实：顺势而为，不要浪费精力试图改变用户根深蒂固的世界观。"
+      ],
+      "whenToUse": "When crafting a narrative for a niche product or defending a company during a crisis.",
+      "whenToUse_zh": "为小众产品构建叙事，或在危机公关中需要通过更高维度的价值观进行防御时。",
+      "commonMistakes": "Thinking \"build it and they will come\" applies to messaging, or using adjectives instead of stories.",
+      "commonMistakes_zh": "误以为“酒香不怕巷子深”适用于传播，或堆砌形容词而非讲述具体故事。",
+      "quote": "It's a huge lift to try to change someone's worldview... It's a light lift to take the thing you want to talk about and just shape it into fitting into their worldview.",
+      "realWorldExample": "Kamala Harris connecting the boring topic of '3rd-grade literacy' to the passionate topic of 'National Defense' (you can't read the army manual if you can't read).",
+      "realWorldExample_zh": "卡玛拉·哈里斯将枯燥的“三年级识字率”议题与公众关注的“国防安全”联系起来（如果你不识字，就读不懂军队操作手册，从而影响国防）。"
+    },
+    {
+      "name": "Concentric Circles Distribution",
+      "name_zh": "同心圆传播模型",
+      "category": "execution",
+      "problemItSolves": "Ensuring message consistency and maximizing credibility when launching news or products.",
+      "problemItSolves_zh": "在发布新闻或产品时，确保信息的统一性并最大化信任背书。",
+      "summary": "Visualize distribution as concentric circles starting from your desk. You must win over the inner circles (employees, investors) before moving outward. The outer circles look to the inner circles for social proof and validation.",
+      "summary_zh": "将传播视为从你的办公桌开始向外扩散的同心圆。你必须先搞定内圈（员工、投资人），然后再向外扩展。外圈受众会观察内圈的反应来寻找社会认同和信任背书。",
+      "principles": [
+        "Sequence Matters: Go in order—Self/Founders -> Employees -> Investors/Power Users -> Influencers -> Public.",
+        "Employee Buy-in: If employees aren't excited, the public won't believe the hype.",
+        "Control the Narrative: Each layer acts as a filter; misalignment in the center causes chaos at the edge."
+      ],
+      "principles_zh": [
+        "顺序至关重要：严格按顺序推进——创始人 -> 员工 -> 投资人/核心用户 -> 意见领袖 -> 公众。",
+        "员工认同：如果内部员工都不兴奋，公众绝不会买账。",
+        "叙事控制：每一层圈层都是过滤器；核心层的任何信息偏差在扩散到边缘时都会被放大。"
+      ],
+      "whenToUse": "Launching a new feature, announcing a pivot, or managing crisis communications.",
+      "whenToUse_zh": "发布新功能、宣布公司转型或处理危机公关时。",
+      "commonMistakes": "Skipping circles (e.g., going straight to the NYT before telling your team), leading to disgruntled insiders leaking negative sentiments.",
+      "commonMistakes_zh": "跳过圈层（例如在告知团队之前先找《纽约时报》），导致内部人员不满并泄露负面情绪。",
+      "quote": "If employees are not saying that [it's great], then people are going to look at employees and say, 'Well, they would know... so if they're not excited then why would we be excited?'",
+      "realWorldExample": "Substack updates propagate from the team, to top writers (like Lenny), to the broader writer community, creating organic advocacy.",
+      "realWorldExample_zh": "Substack 的产品更新传播路径：先团队内部，再核心作者（如 Lenny），最后是广泛的创作者社区，从而创造有机的口碑传播。"
+    },
+    {
+      "name": "The Comms Pressure Equation",
+      "name_zh": "传播压强公式 (P=F/A)",
+      "category": "growth-metrics",
+      "problemItSolves": "Achieving high impact marketing/comms with limited startup budget and resources.",
+      "problemItSolves_zh": "如何在初创公司预算和资源有限的情况下实现高影响力的营销传播。",
+      "summary": "Based on physics: Pressure = Force / Area. To increase pressure (impact), you can either increase Force (money/effort) or decrease Area (audience size). Startups should drastically decrease surface area to apply maximum pressure on a niche.",
+      "summary_zh": "基于物理公式：压强 = 力 / 受力面积。要增加压强（影响力），你可以增加力（资金/努力）或减小受力面积（受众规模）。初创公司应大幅缩小接触面，在细分领域施加最大压强。",
+      "principles": [
+        "Decrease Surface Area: Don't target 'everyone.' Target a specific group of diehards.",
+        "Apply Force: Focus all resources (content, ads, time) on that narrow target.",
+        "Create Diehards: It is better to be someone's life partner than everyone's casual acquaintance."
+      ],
+      "principles_zh": [
+        "缩小接触面：不要试图讨好“所有人”，瞄准特定的死忠群体。",
+        "集中发力：将所有资源（内容、广告、时间）聚焦于该细分目标。",
+        "打造死忠粉：与其做所有人的泛泛之交，不如做一部分人的“灵魂伴侣”。"
+      ],
+      "whenToUse": "Early-stage go-to-market strategy or when resources are constrained.",
+      "whenToUse_zh": "早期进入市场（GTM）阶段或资源受限时。",
+      "commonMistakes": "Diluting the message to appeal to a broad audience (being 'food coloring in the ocean' instead of 'in a cup').",
+      "commonMistakes_zh": "为了取悦大众而稀释信息浓度（就像把食用色素滴进大海，而不是滴进杯子里）。",
+      "quote": "If you decrease the surface area then with the same amount of force you can apply more pressure.",
+      "realWorldExample": "Balaji's book launch avoiding mainstream media to focus purely on his tech-native audience; NYX Cosmetics focusing entirely on influencers.",
+      "realWorldExample_zh": "Balaji 发布新书时避开主流媒体，只专注于科技原生受众；NYX 化妆品完全专注于网红营销（Influencers）。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you're a startup your enemy is the status quo. And when you minimize risk by doing nothing... you're letting the status quo win.",
+      "context": "On why comms teams need to take risks rather than play it safe."
+    },
+    {
+      "text": "The amount of pressure is the force divided by the surface area... if you decrease the surface area and don't try to appeal to everybody... you're able to make more of an impact.",
+      "context": "Explaining the physics of communication for underdogs."
+    },
+    {
+      "text": "People don't trust institutions... People care about people and trust and like people.",
+      "context": "On why founders must 'go direct' and use a human voice instead of corporate speak."
+    }
+  ],
+  "filename": "Lulu Cheng Meservey"
+}

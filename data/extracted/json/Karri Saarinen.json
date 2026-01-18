@@ -1,0 +1,145 @@
+{
+  "guest": {
+    "name": "Karri Saarinen",
+    "title": "Co-founder & CEO",
+    "company": "Linear",
+    "background": "Karri Saarinen is the co-founder and CEO of Linear, the cult-favorite issue tracking tool. Previously, he was the founding designer at Coinbase and a principal designer at Airbnb. He is known for his philosophy on 'opinionated software' and design craft.",
+    "background_zh": "Karri Saarinen 是 Linear 的联合创始人兼 CEO，Linear 是一款广受开发者推崇的项目管理工具。在此之前，他是 Coinbase 的创始设计师和 Airbnb 的首席设计师。他以主张“有观点及态度的软件（Opinionated Software）”和极致的产品工艺而闻名。"
+  },
+  "episodeSummary": "Karri Saarinen discusses how Linear defies conventional startup wisdom by operating with almost no product managers, ignoring A/B testing, and avoiding metrics-based goals. He details the 'Linear Method' of building opinionated software, their unique 'work trial' hiring process, and how they utilized a year-long private beta with cohort-based onboarding to achieve product-market fit.",
+  "episodeSummary_zh": "Karri Saarinen 分享了 Linear 如何通过反传统的经营方式获得成功：极少聘用产品经理、不做 A/B 测试、不设定基于指标的功能目标。他详细阐述了构建“有观点”软件的“Linear 方法论”，其独特的“带薪试岗”招聘流程，以及如何利用长达一年的分批次内测策略来实现 PMF（产品市场匹配）。",
+  "keyTakeaways": [
+    "Design matters disproportionately more in mature, crowded markets as a differentiator.",
+    "Avoid 'flexible' software; build 'opinionated' tools that define the workflow for the user.",
+    "Replace A/B testing with 'Magic & Science': deep user empathy (science) plus product intuition (magic).",
+    "Hire engineers with strong product sensibility to reduce the need for dedicated PMs.",
+    "Use 'Paid Work Trials' instead of standard interviews to test actual fit and output.",
+    "Stay in private beta longer to fix issues via small user cohorts before scaling.",
+    "Focus on the 'Main Quest' (core value) and ruthlessly cut 'Side Quests' (distractions)."
+  ],
+  "methodologies": [
+    {
+      "name": "The Opinionated Product Framework",
+      "name_zh": "“有观点”的产品设计框架",
+      "category": "product-strategy",
+      "problemItSolves": "Users wasting time configuring flexible tools instead of doing actual work.",
+      "problemItSolves_zh": "解决用户因工具过于灵活而陷入配置陷阱，无法专注于核心工作的问题。",
+      "summary": "Instead of building flexible software that tries to please everyone, build software with strong opinions on how work should be done. Good defaults and specific workflows reduce friction and cognitive load for users.",
+      "summary_zh": "不要试图构建取悦所有人的灵活软件，而应构建对“工作该如何完成”有独到见解的产品。通过提供优秀的默认设置（Defaults）和特定的工作流，减少用户的摩擦成本和认知负担。",
+      "principles": [
+        "Design for someone, not everyone: Target a specific user profile deeply rather than generalizing.",
+        "Productivity equals focus: Remove configuration options to let users focus on the output.",
+        "Bake best practices into the tool: The software should teach the user the most effective way to work."
+      ],
+      "principles_zh": [
+        "为特定人群设计，而非取悦全员：针对典型用户画像深耕，拒绝平庸的通用化设计。",
+        "生产力源于聚焦：移除多余的配置选项，让用户专注于产出而非工具本身。",
+        "将最佳实践固化于工具中：通过软件本身引导用户采用最高效的工作方式。"
+      ],
+      "whenToUse": "When entering a crowded market (like project management or email) where existing tools are powerful but clunky/complex.",
+      "whenToUse_zh": "当你进入一个拥挤的市场（如项目管理或邮件客户端），且现有竞品功能强大但臃肿复杂时。",
+      "commonMistakes": "Adding features just because a large potential customer asks for them, diluting the product's opinion.",
+      "commonMistakes_zh": "仅仅因为大客户提出需求就盲目堆砌功能，导致产品丧失核心立场和简洁性。",
+      "quote": "My belief is that productivity software should be opinionated... flexible software creates friction because people spend time figuring it out.",
+      "realWorldExample": "Linear forces users to work in specific 'Cycles' rather than giving them 10 different ways to view tasks, contrasting with tools like JIRA that allow infinite customization.",
+      "realWorldExample_zh": "Linear 强制用户按特定的“周期（Cycles）”工作，而不是提供 10 种不同的任务视图，这与 JIRA 等允许无限自定义的工具形成鲜明对比。"
+    },
+    {
+      "name": "Magic & Science Decision Model",
+      "name_zh": "“魔法与科学”决策模型",
+      "category": "execution",
+      "problemItSolves": "Analysis paralysis caused by over-reliance on data and A/B testing for every feature decision.",
+      "problemItSolves_zh": "解决因过度依赖数据和 A/B 测试而导致的产品决策瘫痪和缺乏灵魂的设计。",
+      "summary": "Reject the notion that data must validate every decision. 'Science' is the rigorous gathering of qualitative user insights and understanding the problem. 'Magic' is the leap of intuition taken to solve it without waiting for metric validation.",
+      "summary_zh": "拒绝“数据必须验证一切”的教条。“科学”是指对用户洞察和问题的严谨定性研究；“魔法”是指在不等待指标验证的情况下，依靠直觉飞跃性地给出解决方案。",
+      "principles": [
+        "Science is empathy: Everyone in the company (founders included) talks to customers to understand the 'state of things'.",
+        "Magic is intuition: Use the built-up context to make gut calls on design and functionality.",
+        "No metrics-based feature goals: Measure success by customer sentiment and problem resolution, not engagement numbers."
+      ],
+      "principles_zh": [
+        "科学即共情：全员（包括创始人）必须直接与客户对话，深入理解现状。",
+        "魔法即直觉：利用积累的语境和认知，对设计和功能做出直觉判断。",
+        "不设基于指标的功能目标：通过客户满意度和问题解决程度来衡量成功，而非仅仅看日活或点击率。"
+      ],
+      "whenToUse": "When building 0-to-1 products or when brand/quality is your primary competitive moat.",
+      "whenToUse_zh": "在进行从0到1的产品构建，或将品牌调性和质量作为核心护城河时。",
+      "commonMistakes": "Using data as a crutch to avoid making hard product decisions or taking risks.",
+      "commonMistakes_zh": "把数据当作拐杖，以此逃避制定艰难的产品决策或承担风险。",
+      "quote": "Sometimes people use data... because they're afraid... 'will I make the wrong choice?' and using data to make the choice for them.",
+      "realWorldExample": "Linear built their 'Project Updates' feature based on the intuition that status reporting is broken, without running tests to see if it increased 'daily active usage'.",
+      "realWorldExample_zh": "Linear 开发“项目更新”功能是基于“现有汇报流程体验极差”的直觉，而非为了提升“日活跃用户数”去做 A/B 测试。"
+    },
+    {
+      "name": "The Cohort-Based Beta Launch",
+      "name_zh": "分批次内测发布策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Launching a buggy product to everyone at once, ruining the brand reputation and flooding the team with duplicate feedback.",
+      "problemItSolves_zh": "解决因一次性向所有用户发布而不成熟的产品，导致品牌受损且团队被重复反馈淹没的问题。",
+      "summary": "Instead of a massive public launch, run a private beta for a significant period (Linear took 1 year). Onboard users in small batches (cohorts) based on profile fit. Fix issues found by cohort A before inviting cohort B.",
+      "summary_zh": "不急于大规模公测，而是进行长周期的内测（Linear 用了整整一年）。基于用户画像匹配度，分批次（Cohorts）邀请用户。在邀请下一批用户前，先解决上一批发现的问题。",
+      "principles": [
+        "Qualify the waitlist: Use surveys to understand user tech stack and team size.",
+        "Iterative fixing: If Cohort A finds a bug, fix it so Cohort B never sees it.",
+        "Start small: Begin with friendly startups/networks before expanding to cold leads."
+      ],
+      "principles_zh": [
+        "筛选候补名单：通过问卷调查了解用户的技术栈和团队规模，精准筛选。",
+        "迭代式修复：如果 A 批次发现了 Bug，立刻修复，确保 B 批次用户不会遇到同样问题。",
+        "由近及远：先从友好的创业公司/人脉圈开始，再逐步扩展到陌生客户。"
+      ],
+      "whenToUse": "When launching a complex B2B SaaS product where reliability and trust are critical.",
+      "whenToUse_zh": "发布复杂的 B2B SaaS 产品时，尤其是当可靠性和信任度至关重要时。",
+      "commonMistakes": "Opening the floodgates too early to get vanity metrics (signups) while the product retention bucket is leaky.",
+      "commonMistakes_zh": "为了虚荣指标（注册量）过早开放注册，而此时产品的留存漏斗还是“漏水”的。",
+      "quote": "If you invite everyone at once... they will all send us feedback like, hey, there's this problem... it was a wasted effort.",
+      "realWorldExample": "Linear managed a 4,000+ person waitlist by manually inviting ~10 people a week initially, ensuring they matched the 'startup' profile before expanding.",
+      "realWorldExample_zh": "Linear 管理着 4000 多人的候补名单，最初每周仅人工邀请约 10 人，确保他们符合“初创公司”的用户画像后才扩大范围。"
+    },
+    {
+      "name": "The Paid Work Trial Hiring",
+      "name_zh": "付费实战试岗招聘法",
+      "category": "team-culture",
+      "problemItSolves": "The disconnect between interview performance and actual on-the-job capability, especially in startups requiring high autonomy.",
+      "problemItSolves_zh": "解决面试表现与实际工作能力脱节的问题，特别是在需要高度自治的初创公司环境中。",
+      "summary": "Replace standard technical interviews with a paid contract (1-3 days or weekend). Candidates are given a vague problem statement, access to the codebase, and must scope, build, and present a solution.",
+      "summary_zh": "用付费合同（1-3天或周末）取代标准的技术面试。候选人会拿到一个模糊的问题陈述，获得代码库权限，并需要独立完成需求界定、构建和方案演示。",
+      "principles": [
+        "Real work context: Give access to the actual Slack, Notion, and codebase.",
+        "Test for scoping: See if they can take a vague prompt and cut it down to a shippable chunk.",
+        "Two-way diligence: Allows the candidate to assess the company's code quality and culture."
+      ],
+      "principles_zh": [
+        "真实工作语境：开放真实的 Slack、Notion 和代码库权限。",
+        "测试定界能力：观察候选人能否将模糊的需求拆解为可交付的最小单元。",
+        "双向尽职调查：允许候选人评估公司的代码质量和文化氛围。"
+      ],
+      "whenToUse": "Hiring for high-leverage roles in small teams (early-stage startups) where cultural fit and autonomy are non-negotiable.",
+      "whenToUse_zh": "在小团队（早期创业公司）招聘高杠杆角色时，特别是当文化契合度和自治能力不可妥协时。",
+      "commonMistakes": "Asking for free labor (must be paid) or giving a task that is too well-defined (doesn't test product thinking).",
+      "commonMistakes_zh": "要求免费劳动（必须付费）或给出的任务定义过于清晰（无法测试产品思维）。",
+      "quote": "Interviews are fake; work is real.",
+      "realWorldExample": "Candidates at Linear join the Slack channel, interact with the team, and ship a feature prototype, proving they can navigate the 'Main Quest' without hand-holding.",
+      "realWorldExample_zh": "Linear 的候选人会加入 Slack 频道，与团队互动并交付功能原型，证明他们能在无人手把手指导的情况下推进“主线任务”。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The more it matters, the more the design matters.",
+      "context": "On why design is a differentiator in mature industries like email or project management."
+    },
+    {
+      "text": "Go slow to go fast.",
+      "context": "On the importance of craft and avoiding the technical debt of rushing."
+    },
+    {
+      "text": "Avoid the side quests.",
+      "context": "On maintaining focus and saying no to features or opportunities that don't advance the company's main mission."
+    },
+    {
+      "text": "Interviews are fake; work is real.",
+      "context": "On why they prefer paid work trials over standard interview loops."
+    }
+  ],
+  "filename": "Karri Saarinen"
+}

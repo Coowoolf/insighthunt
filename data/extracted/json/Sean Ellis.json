@@ -1,0 +1,121 @@
+{
+  "guest": {
+    "name": "Sean Ellis",
+    "title": "Author of 'Hacking Growth', Founder of GrowthHackers",
+    "company": "Former Growth Lead at Dropbox, Eventbrite, LogMeIn",
+    "background": "Sean is the originator of the term 'Growth Hacking' and the creator of the ICE prioritization framework. He led early growth at Dropbox and Eventbrite and is the author of the best-selling book 'Hacking Growth'.",
+    "background_zh": "Sean Ellis 是“增长黑客（Growth Hacking）”一词的提出者，也是ICE优先级排序框架的创始人。他曾负责Dropbox和Eventbrite的早期增长工作，并著有畅销书《Hacking Growth（增长黑客）》。"
+  },
+  "episodeSummary": "Sean Ellis deconstructs the science of Product-Market Fit (PMF) using his famous 'Sean Ellis Test' and outlines a systematic approach to sustainable growth. He explains why startups should focus on activation and onboarding before acquisition, and how to combine qualitative insights with data to drive high-velocity experimentation.",
+  "episodeSummary_zh": "Sean Ellis 通过他著名的“Sean Ellis 测试”深度解析了产品市场匹配（PMF）的科学量化方法，并描绘了可持续增长的系统性路径。他解释了为什么初创公司应在扩大获客前优先解决激活和用户引导问题，以及如何结合定性洞察与数据驱动来实现高频实验迭代。",
+  "keyTakeaways": [
+    "The 40% 'Very Disappointed' threshold is the leading indicator of Product-Market Fit.",
+    "Do not scale customer acquisition until you have fixed your activation and retention leaky buckets.",
+    "Ignore 'somewhat disappointed' users initially; focusing on them dilutes value for your 'must-have' users.",
+    "North Star Metrics should measure value delivered to the customer, not revenue.",
+    "Qualitative research (asking 'why') is often the key to unlocking quantitative roadblocks.",
+    "Growth Hacking is not about 'hacks'; it's about a disciplined process of high-velocity testing.",
+    "Focus first on the users who love your product and understand deeply why they consider it a 'must-have'."
+  ],
+  "methodologies": [
+    {
+      "name": "The Sean Ellis Test (PMF Survey)",
+      "name_zh": "Sean Ellis 测试 (PMF量化模型)",
+      "category": "product-strategy",
+      "problemItSolves": "Startups often rely on gut feeling to determine if they have Product-Market Fit, leading to premature scaling.",
+      "problemItSolves_zh": "初创公司常凭直觉判断是否达到PMF，导致在产品未准备好时过早扩张。",
+      "summary": "A survey-based framework to quantify PMF by asking users how they would feel if they could no longer use the product. The magic threshold is 40% answering 'Very Disappointed'.",
+      "summary_zh": "一套基于问卷的PMF量化框架，核心在于询问用户“如果无法继续使用该产品，你会感觉如何”。当40%的用户回答“非常失望”时，即标志着达到了PMF。",
+      "principles": [
+        "Ask the Magic Question: 'How would you feel if you could no longer use this product?' (Very/Somewhat/Not disappointed).",
+        "Target the Right Segment: Survey active users who have experienced the core value (e.g., used twice in the last two weeks).",
+        "Focus on the 40%: Deeply analyze the 'Very Disappointed' cohort to understand the specific value they derive.",
+        "Ignore the Middle: Don't optimize for 'Somewhat Disappointed' users initially as it dilutes the product's core value proposition."
+      ],
+      "principles_zh": [
+        "核心提问：询问用户“如果无法继续使用本产品，你会感觉如何？”（选项：非常失望/有些失望/不失望）。",
+        "锁定样本：仅调研近期体验过核心价值的活跃用户（如过去两周使用过两次）。",
+        "聚焦40%死忠粉：深挖回答“非常失望”的用户群体，理解他们眼中的核心价值。",
+        "战略放弃中间派：初期忽略“有些失望”的用户反馈，避免为了取悦所有人而稀释产品的核心价值主张。"
+      ],
+      "whenToUse": "Before spending significant budget on marketing or scaling acquisition channels.",
+      "whenToUse_zh": "在大规模投入市场营销预算或扩张获客渠道之前。",
+      "commonMistakes": "Surveying cold leads or people who just signed up but haven't used the product; trying to please the 'somewhat disappointed' users.",
+      "commonMistakes_zh": "调研未激活的新用户或沉睡用户；试图根据“有些失望”的用户反馈来修改产品，导致产品变得平庸。",
+      "quote": "The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well.",
+      "realWorldExample": "At Lookout (mobile security), initially only 7% were 'very disappointed'. Sean found this group valued 'antivirus' specifically. He repositioned the messaging and streamlined onboarding to focus on antivirus. The score jumped to 40% in two weeks.",
+      "realWorldExample_zh": "在移动安全应用 Lookout 的案例中，最初只有7%的用户感到“非常失望”。Sean发现这部分死忠粉最看重“杀毒”功能。通过重塑产品定位并简化引导流程直达杀毒功能，该指标在两周内跃升至40%。"
+    },
+    {
+      "name": "The Sustainable Growth Sequencing",
+      "name_zh": "可持续增长落地顺序",
+      "category": "growth-metrics",
+      "problemItSolves": "Companies often obsess over top-of-funnel acquisition (Ads/SEO) while their product has poor retention, wasting resources.",
+      "problemItSolves_zh": "公司往往过度痴迷于漏斗顶部的获客（广告/SEO），却忽视了产品本身的低留存率，导致资源浪费。",
+      "summary": "A strict hierarchy of growth priorities. You must fix the 'leaky bucket' (Activation/Retention) before pouring water in (Acquisition).",
+      "summary_zh": "一套严格的增长优先级体系。在“注水”（扩大获客）之前，必须先修补“漏水的水桶”（激活与留存）。",
+      "principles": [
+        "Activation First: Optimize the 'Time to Value'. Ensure users experience the 'Aha Moment' immediately.",
+        "Engagement & Retention: Build loops that bring users back naturally based on the product's usage frequency.",
+        "Monetization: Ensure the business model works and unit economics are sound.",
+        "Acquisition Last: Only turn on the acquisition firehose once the previous three steps are optimized."
+      ],
+      "principles_zh": [
+        "激活优先（Activation First）：优化“价值触达时间（Time to Value）”，确保用户第一时间体验到“Aha Moment”。",
+        "留存与参与度：基于产品的使用频率构建自然的用户召回闭环。",
+        "变现模式：在扩大规模前确保商业模式跑得通，单位经济模型健康。",
+        "最后才是获客：只有当前三步都优化完毕后，才开启大规模获客渠道。"
+      ],
+      "whenToUse": "When planning the roadmap for a growth team or diagnosing why growth has stalled despite marketing spend.",
+      "whenToUse_zh": "制定增长团队路线图，或诊断为何营销投入巨大但增长停滞时。",
+      "commonMistakes": "Launching expensive ad campaigns or referral programs when user activation rates are low.",
+      "commonMistakes_zh": "在用户激活率极低的情况下，盲目启动昂贵的广告投放或推荐计划。",
+      "quote": "If you're not really efficient at converting and retaining and monetizing people, you're going to really struggle on the customer acquisition side.",
+      "realWorldExample": "At LogMeIn, 95% of signups never used the product. They froze all product dev and marketing to focus solely on activation (onboarding). They improved signup-to-usage by 1000%, which allowed existing channels to scale from $10k to $1M/month.",
+      "realWorldExample_zh": "在 LogMeIn，95%的注册用户从未真正使用过产品。团队冻结了所有产品开发和市场投放，全员聚焦于优化激活（用户引导）。最终将注册到使用的转化率提升了1000%，使得原有渠道的投放上限从每月1万美金扩展到100万美金。"
+    },
+    {
+      "name": "Value-Based North Star Metric",
+      "name_zh": "基于价值的北极星指标",
+      "category": "execution",
+      "problemItSolves": "Teams often focus on vanity metrics or revenue, which can lead to short-term optimization that hurts user experience.",
+      "problemItSolves_zh": "团队常聚焦于虚荣指标或单纯的营收，导致牺牲用户体验的短期优化行为。",
+      "summary": "Choosing a single metric that captures the core value delivered to the customer. It aligns the entire company around long-term sustainable growth.",
+      "summary_zh": "选择一个单一指标来衡量交付给用户的核心价值。它能将全公司对齐到长期的可持续增长目标上。",
+      "principles": [
+        "Reflect Value Delivery: The metric must represent the user getting value (e.g., 'Nights Booked' not 'Booking Revenue').",
+        "Up and to the Right: It should be an absolute number (cumulative or rate) that can grow indefinitely, not a ratio/percentage.",
+        "Time-Bounded: Include a frequency component (e.g., Weekly, Daily) to drive engagement habits.",
+        "Leading Indicator: It should correlate strongly with future revenue, but not be revenue itself."
+      ],
+      "principles_zh": [
+        "反映价值交付：指标必须代表用户获得了价值（例如：Airbnb是“预订间夜数”而非“预订营收”）。",
+        "绝对增长趋势：应为可持续增长的绝对数值（总量或速率），而非比率或百分比。",
+        "包含时间维度：设定频率（如周、日）以驱动用户习惯养成。",
+        "前置性指标：应与未来营收强相关，但本身不是营收指标。"
+      ],
+      "whenToUse": "When aligning cross-functional teams (Product, Marketing, Engineering) towards a unified goal.",
+      "whenToUse_zh": "在需要对齐跨职能团队（产品、市场、工程）的统一目标时。",
+      "commonMistakes": "Choosing revenue as the North Star (lagging indicator) or a vanity metric like 'Registered Users' (doesn't prove value).",
+      "commonMistakes_zh": "选择营收作为北极星指标（滞后指标），或选择“注册用户数”这类虚荣指标（无法证明价值交付）。",
+      "quote": "Revenue should be a product of doing things right. It shouldn't guide your day-to-day actions.",
+      "realWorldExample": "Facebook shifting from Monthly Active Users (MAU) to Daily Active Users (DAU) fundamentally changed how the team built the product, focusing on habit formation rather than just acquisition.",
+      "realWorldExample_zh": "Facebook 将指标从月活（MAU）调整为日活（DAU），这一转变从根本上改变了团队构建产品的方式，使重心从单纯获客转移到了用户习惯的养成上。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "A problem well stated is a problem half solved.",
+      "context": "Sean quoting Charles Kettering regarding the importance of understanding why users drop off."
+    },
+    {
+      "text": "If you start paying attention to what your somewhat disappointed users are telling you... maybe you're going to dilute it for your must have users.",
+      "context": "On why you should ignore lukewarm feedback in the early stages."
+    },
+    {
+      "text": "I don't care what they say, I care what they do. And he's like, 'No, you got to talk to them.'",
+      "context": "Sean recounting advice from a VC that shifted him from purely quantitative to mixing in qualitative research."
+    }
+  ],
+  "filename": "Sean Ellis"
+}

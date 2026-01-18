@@ -1,0 +1,117 @@
+{
+  "guest": {
+    "name": "Howie Liu",
+    "title": "Co-founder & CEO",
+    "company": "Airtable",
+    "background": "Howie Liu is the co-founder and CEO of Airtable, a low-code platform for building collaborative apps. Previously, he founded Etacts (acquired by Salesforce) and is known for his deep focus on product design and flexible software architecture.",
+    "background_zh": "Howie Liu 是低代码应用构建平台 Airtable 的联合创始人兼 CEO。在此之前，他创立了 Etacts（被 Salesforce 收购）。他以对产品设计和灵活软件架构的深刻见解而闻名。"
+  },
+  "episodeSummary": "Howie Liu discusses the necessity of 'refounding' a decade-old SaaS company in the AI era, emphasizing the shift of CEOs back to 'Individual Contributor' (IC) roles. He details Airtable's organizational split into 'Fast Thinking' (AI innovation) and 'Slow Thinking' (infrastructure) groups, and explains why product leaders must prioritize 'vibes' and hands-on usage over rigid evaluations in the early stages of AI development.",
+  "episodeSummary_zh": "Howie Liu 探讨了在 AI 时代对一家十年 SaaS 公司进行“二次创业”的必要性，强调 CEO 需回归“独立贡献者”（IC）角色的趋势。他详细介绍了 Airtable 如何将组织拆分为“快思考”（AI 创新）和“慢思考”（基础设施）两个团队，并解释了为何在 AI 开发早期，产品负责人必须优先考虑“体感”和亲手实践，而非依赖僵化的评估指标。",
+  "keyTakeaways": [
+    "Software companies must be 'refounded' for the AI era; if legacy assets don't provide leverage, consider selling.",
+    "CEOs should return to being 'IC CEOs' (Individual Contributors), acting as Chief Tastemakers by using AI tools hourly.",
+    "Split product teams into 'Fast Thinking' (experimental, shipping weekly) and 'Slow Thinking' (scalable infrastructure) groups.",
+    "In early AI product development, prioritize 'vibes' and open-ended exploration over rigid 'evals' (evaluations).",
+    "The roles of PM, Designer, and Engineer are collapsing; everyone must become a hybrid builder with proficiency in all three areas."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Fast vs. Slow Thinking' Org Structure",
+      "name_zh": "“快思考与慢思考”双轨组织架构",
+      "category": "team-culture",
+      "problemItSolves": "Balancing the need for rapid AI experimentation with the requirement for enterprise-grade stability and reliability.",
+      "problemItSolves_zh": "解决 AI 快速实验需求与企业级稳定性、可靠性要求之间的矛盾。",
+      "summary": "Inspired by Daniel Kahneman's concept, Airtable split its Engineering/Product/Design (EPD) organization into two distinct groups. The 'Fast Thinking' group operates like a startup to ship AI features weekly, while the 'Slow Thinking' group focuses on deliberate, long-term infrastructure and scalability.",
+      "summary_zh": "受丹尼尔·卡尼曼理论启发，Airtable 将其产研设计（EPD）部门拆分为两个独立小组。“快思考”小组像初创公司一样运作，每周发布 AI 新功能；而“慢思考”小组则专注于深思熟虑的长期基础设施建设和扩展性。",
+      "principles": [
+        "Fast Group (AI Platform): Operates with high autonomy, ships weekly, focuses on 'wow' factor and top-of-funnel excitement.",
+        "Slow Group (Core/Infra): Focuses on deliberate planning, scalability (e.g., handling 100M+ records), and reliability.",
+        "Complementary Growth: Fast thinking attracts new users (top of funnel); Slow thinking retains them and enables enterprise expansion."
+      ],
+      "principles_zh": [
+        "快思考组（AI 平台）：高度自治，按周发布，专注于打造“惊叹时刻”和吸引漏斗顶部的流量。",
+        "慢思考组（核心/基建）：专注于缜密规划、扩展性（如处理上亿行数据）和系统可靠性。",
+        "互补增长：快思考吸引新用户（获客），慢思考留住用户并支持企业级扩展（留存）。"
+      ],
+      "whenToUse": "When a mature company needs to innovate aggressively with AI without destabilizing its core revenue-generating product.",
+      "whenToUse_zh": "当成熟公司需要在 AI 领域激进创新，同时又不能破坏核心创收产品的稳定性时。",
+      "commonMistakes": "Trying to apply 'slow' rigorous planning processes to AI features, or applying 'fast' hacky execution to critical infrastructure.",
+      "commonMistakes_zh": "试图用“慢速”的严谨规划流程去管 AI 特性开发，或者用“快速”的草率执行去搞关键基础设施。",
+      "quote": "We have the fast thinking group... we want to just ship a bunch of new capabilities on a near weekly basis. And each of them should be truly awesome value.",
+      "realWorldExample": "Airtable's 'Fast' team built the 'Cobuilder' (app generation via chat) rapidly, while the 'Slow' team worked on 'HyperDB' to support massive datasets.",
+      "realWorldExample_zh": "Airtable 的“快思考”团队快速构建了 Cobuilder（通过聊天生成应用），而“慢思考”团队则致力于 HyperDB 的开发以支持海量数据集。"
+    },
+    {
+      "name": "The AI Refounding Test",
+      "name_zh": "AI 时代的“二次创业”测试",
+      "category": "product-strategy",
+      "problemItSolves": "Determining whether a legacy software company can survive the AI paradigm shift or if it should exit.",
+      "problemItSolves_zh": "判断一家传统软件公司能否在 AI 范式转移中生存，还是应该选择退出。",
+      "summary": "A strategic framework for founders to decide how to pivot. It asks leaders to imagine starting from scratch today with AI-native approaches and evaluate if their current assets (codebase, brand, customers) act as leverage or liability.",
+      "summary_zh": "这是一个供创始人决定转型方向的战略框架。它要求领导者设想如果今天从零开始用 AI 原生方式创业会怎么做，并评估现有资产（代码库、品牌、客户）究竟是杠杆还是负债。",
+      "principles": [
+        "Clean Slate Imagination: If you founded the company today with the same mission, how would you execute using a fully AI-native approach?",
+        "Asset Valuation: Do your existing building blocks (e.g., no-code primitives) give the AI leverage, or are they legacy debt?",
+        "The 'Sell' Criterion: If you cannot execute better with your current assets than a new startup could, you should find a buyer and start over.",
+        "The 'IC CEO' Mandate: The CEO must personally use AI tools hourly to understand the 'ingredients' needed for this refounding."
+      ],
+      "principles_zh": [
+        "白板构想：如果今天带着同样的使命重新创业，你会如何利用全 AI 原生的方式来执行？",
+        "资产评估：现有的积木（如低代码组件）是能赋予 AI 杠杆效应，还是成为了历史包袱？",
+        "出售标准：如果你利用现有资产无法比新创公司做得更好，你应该卖掉公司重新开始。",
+        "IC CEO 指令：CEO 必须每小时亲自使用 AI 工具，以理解“二次创业”所需的“食材”。"
+      ],
+      "whenToUse": "During strategic planning sessions when facing existential threats from AI-native competitors (e.g., Cursor vs. VS Code).",
+      "whenToUse_zh": "在面临 AI 原生竞争对手（如 Cursor 对标 VS Code）的生存威胁进行战略规划时。",
+      "commonMistakes": "Adding superficial 'AI features' to a legacy product without rethinking the core value proposition from first principles.",
+      "commonMistakes_zh": "仅在传统产品上叠加肤浅的“AI 功能”，而没有从第一性原理重新思考核心价值主张。",
+      "quote": "If you can't... then you should find a buyer and then if you really care about this mission, go and start the next carnation of it.",
+      "realWorldExample": "Howie realized Airtable's structured data primitives were better 'lego blocks' for AI agents than raw code generation, validating their pivot rather than a sale.",
+      "realWorldExample_zh": "Howie 意识到 Airtable 的结构化数据组件相比原始代码生成，是 AI Agent 更好的“乐高积木”，从而验证了转型而非出售的决策。"
+    },
+    {
+      "name": "Vibes-First Discovery Process",
+      "name_zh": "“体感优先”的探索流程",
+      "category": "user-research",
+      "problemItSolves": "Avoids premature optimization and constraining innovation when building with non-deterministic AI models.",
+      "problemItSolves_zh": "避免在基于不确定性的 AI 模型开发中过早优化，从而限制了创新。",
+      "summary": "Instead of starting with rigorous evaluations (evals) or metrics, teams should start with open-ended 'play' to develop an intuition for what the model can do. Formal metrics should only be introduced after the product form factor and use cases have stabilized.",
+      "summary_zh": "团队不应从严苛的评估指标（Evals）开始，而应从开放式的“玩耍”入手，建立对模型能力的直觉。正式的指标应在产品形态和用例稳定之后再引入。",
+      "principles": [
+        "Mandatory Play: Encourage teams to block out days or weeks just to 'play' with new AI models without a specific deliverable.",
+        "Vibes Over Evals: In the 0-to-1 phase, rely on human intuition and 'vibes' to judge quality, as AI capabilities are often unknown until tested.",
+        "Convergent Metrics: Only implement rigorous 'evals' once you have identified the cluster of useful use cases (diverge first, then converge).",
+        "Prototype over Decks: Don't write PRDs; build interactive prototypes to test feasibility immediately."
+      ],
+      "principles_zh": [
+        "强制玩耍：鼓励团队空出几天甚至几周时间，纯粹地“玩”新的 AI 模型，不设立具体的交付目标。",
+        "体感优于指标：在 0 到 1 阶段，依赖人类直觉和“体感”来判断质量，因为 AI 的能力往往在测试前是未知的。",
+        "收敛性指标：只有在确定了有效的用例集群后，才实施严格的“评估指标”（先发散，后收敛）。",
+        "原型优于文档：不要写 PRD，直接构建交互式原型来验证可行性。"
+      ],
+      "whenToUse": "When exploring novel AI capabilities (e.g., long-running research agents) where the 'correct' output is subjective or unknown.",
+      "whenToUse_zh": "当探索新颖的 AI 能力（如长运行周期的研究 Agent）且“正确”输出具有主观性或未知性时。",
+      "commonMistakes": "Setting up strict success metrics too early, which limits the scope of what the AI is allowed to do and kills serendipitous discovery.",
+      "commonMistakes_zh": "过早设定严格的成功指标，限制了 AI 的能力范围，扼杀了意外发现的可能性。",
+      "quote": "For a completely novel product experience or form factor, you should actually not start with evals and you should start with vibes.",
+      "realWorldExample": "When building an AI crawler, Howie tested it on random queries like 'Find every Marvel movie' to see what happened, rather than defining a success rate metric upfront.",
+      "realWorldExample_zh": "在构建 AI 爬虫时，Howie 测试了像“找出所有漫威电影”这样的随机查询来观察结果，而不是预先定义成功率指标。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you were literally founding a new company from scratch with the same mission, how would you execute on that mission using a fully AI native approach?",
+      "context": "Howie explaining the core question founders must ask themselves to survive the AI transition."
+    },
+    {
+      "text": "It's actually now also hard to taste the soup without participating in at least some part of creating the soup.",
+      "context": "On why CEOs and leaders must be hands-on with AI tools to understand product possibilities."
+    },
+    {
+      "text": "There's so many watermelons on the ground, just go out and start finding the biggest ones and attacking those.",
+      "context": "Describing the abundance of low-hanging fruit and opportunities available to product teams using AI right now."
+    }
+  ],
+  "filename": "Howie Liu"
+}

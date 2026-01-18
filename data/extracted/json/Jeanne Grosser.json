@@ -1,0 +1,125 @@
+{
+  "guest": {
+    "name": "Jeanne DeWitt Grosser",
+    "title": "COO at Vercel (former Head of Americas Revenue & Growth at Stripe)",
+    "company": "Vercel",
+    "background": "Jeanne is currently the COO at Vercel, overseeing marketing, sales, customer success, and revenue ops. Previously, she spent nearly 9 years at Stripe, where she built their early sales team from the ground up and later served as Head of Americas Revenue and Growth. She is an expert in scaling GTM organizations for developer-focused and enterprise products.",
+    "background_zh": "Jeanne 现任 Vercel 首席运营官，统管市场、销售、客户成功及营收运营。此前她在 Stripe 任职近 9 年，从零搭建了早期销售团队，并曾担任美洲区营收与增长负责人。她是开发者工具及企业级产品 GTM（市场进入）战略扩展领域的顶尖专家。"
+  },
+  "episodeSummary": "In this deep dive, Jeanne DeWitt Grosser deconstructs modern Go-To-Market strategies, arguing that GTM should be treated as a product rather than just a sales function. She details the emergence of the \"GTM Engineer\" role, how Vercel uses AI agents to replace rote SDR work, and provides a masterclass on advanced customer segmentation. The conversation also covers how to align sales with product teams and why enterprise buyers prioritize risk reduction over upside.",
+  "episodeSummary_zh": "在本期深度访谈中，Jeanne DeWitt Grosser 解构了现代 GTM（市场进入）战略，主张应像打磨产品一样对待 GTM 流程，而非仅仅视其为销售职能。她详细介绍了“GTM 工程师”这一新兴角色的崛起，分享了 Vercel 如何利用 AI Agent 取代重复性的 SDR 工作，并讲授了高阶客户分层（Segmentation）的大师级课程。对话还涵盖了如何实现销售与产品团队的深度对齐，以及为何企业级买家更看重风险规避而非单纯的收益增长。",
+  "keyTakeaways": [
+    "Treat Go-To-Market as a product: Map the user journey and deliver value at every touchpoint, even for non-buyers.",
+    "The rise of the GTM Engineer: Use technical talent to build internal tools and AI agents that automate workflows.",
+    "AI in Sales: Replace rote SDR tasks with AI agents (human-in-the-loop) to allow humans to focus on high-value interactions.",
+    "80% of enterprise buying decisions are made to reduce risk or avoid pain, not to capture upside.",
+    "Advanced Segmentation: Move beyond 'Small/Medium/Large' to include axes like 'Growth Potential', 'Business Model', and technical metrics.",
+    "Sales is R&D: A great sales team should act as an extension of Product Management, gathering high-fidelity signal from the market.",
+    "Pricing is a product feature: Align pricing models (e.g., consumption-based) strictly with where the customer derives value."
+  ],
+  "methodologies": [
+    {
+      "name": "The GTM Engineering & AI Agent Workflow",
+      "name_zh": "GTM 工程化与 AI Agent 工作流",
+      "category": "execution",
+      "problemItSolves": "Scales sales operations efficiently without linearly increasing headcount, while removing repetitive rote work from humans.",
+      "problemItSolves_zh": "在不线性增加人力成本的前提下高效扩展销售运营，同时将人类员工从重复性机械劳动中解放出来。",
+      "summary": "Instead of hiring masses of SDRs for prospecting, hire GTM Engineers to build internal AI agents. These agents automate research and communication workflows, enabling a significantly smaller team to handle higher volumes with greater precision.",
+      "summary_zh": "与其通过大量招聘 SDR（销售开发代表）来获客，不如聘请 GTM 工程师构建内部 AI Agent。这些智能体能够自动化调研和沟通工作流，使极精简的团队也能以更高的精度处理海量线索。",
+      "principles": [
+        "Shadow the Expert: Have a GTM Engineer shadow the highest-performing human to understand their manual workflow (tabs open, data sources, logic).",
+        "Codify & Build Agent: Turn that workflow into code/agents using tools (like Vercel's AI SDK) to perform research and draft messages.",
+        "Human-in-the-Loop QA: Initially, humans must review/approve every Agent action to train the system and ensure quality.",
+        "Shift Talent Upstream: Move humans away from rote tasks (inbound filtering) to high-value tasks (outbound/closing)."
+      ],
+      "principles_zh": [
+        "专家跟随（Shadowing）：让 GTM 工程师跟随表现最好的销售人员，记录其手动工作流（打开的页面、数据源、判断逻辑）。",
+        "逻辑代码化与 Agent 构建：将上述工作流转化为代码或智能体，自动执行背景调研和信息起草。",
+        "人机协同质检（Human-in-the-Loop）：初期要求人类员工审查并批准 Agent 的每一个动作，以训练系统并确保质量。",
+        "人才价值上移：将人类员工从机械任务（如入站线索清洗）转移到高价值任务（如出站拓客和成单）。"
+      ],
+      "whenToUse": "When you have a repeatable sales process (product-market fit) and need to scale lead qualification or outbound prospecting.",
+      "whenToUse_zh": "当你已经拥有可复制的销售流程（具备 PMF）并需要规模化处理线索验证或主动拓客时。",
+      "commonMistakes": "Trying to automate before you have a documented, working manual process; removing the human from the loop too early.",
+      "commonMistakes_zh": "在没有形成文档化、行之有效的手动流程之前就尝试自动化；或者过早地取消“人机协同”中的人工审核环节。",
+      "quote": "We had 10 SDRs doing this inbound workflow and now we just have one that is effectively QA-ing the agent.",
+      "realWorldExample": "Vercel reduced their inbound SDR team from 10 people to 1 person by building a 'Lead Agent' that researches and drafts responses, with the human acting as a QA reviewer. The other 9 SDRs were redeployed to outbound sales.",
+      "realWorldExample_zh": "Vercel 将处理入站线索的 SDR 团队从 10 人缩减至 1 人。他们构建了一个“线索 Agent”来负责调研和起草回复，人类员工仅作为 QA 进行审核。其余 9 名 SDR 被重新部署到出站销售岗位。"
+    },
+    {
+      "name": "GTM as a Product Framework",
+      "name_zh": "产品化 GTM 策略",
+      "category": "product-strategy",
+      "problemItSolves": "Differentiates a company in a crowded market where technical features are commoditized, increasing conversion and retention.",
+      "problemItSolves_zh": "在技术功能趋于同质化的红海市场中建立差异化优势，从而提升转化率和客户留存率。",
+      "summary": "Treat the buying experience itself as a product feature. Design the customer journey to deliver value at every interaction (even if they don't buy) and create unique, consultative experiences rather than transactional interrogations.",
+      "summary_zh": "将购买体验本身视为产品功能的一部分。精心设计客户旅程，确保在每一次互动中（即使对方最终未购买）都能交付价值，并创造独特的顾问式体验，而非单纯的交易式问询。",
+      "principles": [
+        "Value at Every Touchpoint: Provide insights (e.g., benchmarks, architecture advice) in the first meeting, regardless of the sale outcome.",
+        "Consultative Discovery: Replace '20 questions' with collaborative exercises (e.g., whiteboarding architecture) that help the customer clarify their own thinking.",
+        "Experience Differentiation: If products are similar, the experience of being sold to becomes the deciding factor.",
+        "Listen More, Talk Less: Excellent salespeople speak less than 50% of the time, guiding customers to conclusions via deep questioning."
+      ],
+      "principles_zh": [
+        "触点即价值：无论最终是否成交，都要在首次会议中提供深刻见解（如行业基准、架构建议）。",
+        "顾问式探索：用协作式练习（如白板绘制架构图）取代“查户口式”提问，帮助客户理清自身思路。",
+        "体验差异化：当产品功能趋同，销售过程中的体验将成为决策的胜负手。",
+        "少说多听：优秀的销售人员发言时间应少于 50%，通过深度提问引导客户自行得出结论。"
+      ],
+      "whenToUse": "In competitive markets (Red Ocean) or complex B2B sales where trust and expertise are major decision drivers.",
+      "whenToUse_zh": "适用于竞争激烈的红海市场，或信任与专业度是主要决策驱动因素的复杂 B2B 销售场景。",
+      "commonMistakes": "Focusing too much on 'the art of the possible' (upside) rather than addressing the customer's immediate pain or risk (downside).",
+      "commonMistakes_zh": "过多地谈论“未来的可能性”（收益），而忽视了解决客户当下的痛点或规避风险（止损）。",
+      "quote": "The experience that you have of being sold to will increasingly actually differentiate a company... you really want to create a customer buying journey that feels like very unique experiences.",
+      "realWorldExample": "At Stripe, instead of a standard Q&A discovery call, they ran whiteboarding sessions to map the customer's payment architecture. Customers left with a valuable diagram and new mental models, regardless of whether they bought Stripe.",
+      "realWorldExample_zh": "在 Stripe，他们用白板会议取代了标准的问答式需求挖掘，帮助客户梳理支付架构。客户即使最终不买 Stripe，也带走了一张有价值的架构图和新的思维模型。"
+    },
+    {
+      "name": "Multi-Dimensional Segmentation Matrix",
+      "name_zh": "多维客户分层矩阵",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents wasted sales effort on low-value prospects and aligns product/sales teams on who the 'ideal customer' actually is.",
+      "problemItSolves_zh": "避免将销售资源浪费在低价值潜客上，并让产品与销售团队在“谁是理想客户”这一问题上达成高度对齐。",
+      "summary": "Moving beyond simple 'Small/Medium/Large' segmentation by introducing axes that correlate with revenue potential and complexity. This often involves an X/Y axis of Size vs. Growth Potential, layered with business model or technical attributes.",
+      "summary_zh": "超越简单的“大/中/小”企业分类，引入与营收潜力和交付复杂性高度相关的维度。通常采用“规模 vs 增长潜力”的 X/Y 轴矩阵，并叠加商业模式或技术属性进行细分。",
+      "principles": [
+        "The Growth Axis: Segment not just by current size, but by growth rate (e.g., 200% YoY vs 8% YoY), as this dictates future value (LTV).",
+        "Business Model nuance: Distinguish customers by their model (e.g., B2B vs. Marketplace) to tailor the product pitch (e.g., Invoicing vs. Connect).",
+        "Technical Signals: Use external data (like web traffic/Crux score) or internal usage patterns to predict complexity and willingness to pay.",
+        "Company-Wide Alignment: Segmentation is not just for sales; it dictates what Product builds (KYC - Know Your Customer)."
+      ],
+      "principles_zh": [
+        "增长轴：不仅按当前规模分层，更要按增长率（如年增长 200% vs 8%）分层，因为这决定了未来价值（LTV）。",
+        "商业模式差异化：根据客户模式（如 B2B vs 平台型）区分客户，以定制产品话术（如推销发票功能 vs Connect 分润功能）。",
+        "技术信号：利用外部数据（如网站流量/Crux 评分）或内部使用模式来预测交付复杂度和付费意愿。",
+        "全公司对齐：分层不仅是为了销售，它指导产品团队构建什么功能（KYC - 了解你的客户）。"
+      ],
+      "whenToUse": "When optimizing a sales funnel, designing pricing tiers, or defining the Ideal Customer Profile (ICP) for a growing product.",
+      "whenToUse_zh": "优化销售漏斗、设计定价分层或为成长期产品定义理想客户画像（ICP）时。",
+      "commonMistakes": "Stopping at company size (employee count) and missing high-value small teams (like OpenAI in its early days) or low-value large enterprises.",
+      "commonMistakes_zh": "仅停留于公司规模（员工数）层面，从而错失了高价值的小团队（如早期的 OpenAI）或误判了低价值的大企业。",
+      "quote": "If you look at segmentation as a graph... X-Axis was size, Y-Axis was growth potential... We wanted to spend more time going after the 200% growers.",
+      "realWorldExample": "Stripe segmented by growth potential (high growth startups vs stable SMEs) and business model (Marketplaces needed 'Connect', SaaS needed 'Billing'). Vercel uses web traffic (Crux scores) to identify enterprise opportunities even within small headcount companies.",
+      "realWorldExample_zh": "Stripe 根据增长潜力（高增长初创 vs 稳定中小企业）和商业模式（平台型需用 'Connect'，SaaS 需用 'Billing'）进行分层。Vercel 则利用网络流量（Crux 评分）来识别即便是人员规模很小但极具潜力的企业级商机。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "80% of customers buy to avoid pain or reduce risk as opposed to increased upside... You're avoiding the risk of not making your revenue target next quarter.",
+      "context": "On why founders often fail to sell to enterprises by focusing too much on 'vision' rather than 'risk mitigation'."
+    },
+    {
+      "text": "The litmus test I have always given my sales team is if I put you in front of 10 engineers, it should take them 10 minutes to figure out you aren't a product manager.",
+      "context": "On the level of product depth and technical fluency required for a modern sales organization."
+    },
+    {
+      "text": "Yeses are great, nos are great, maybes will kill you.",
+      "context": "A classic sales motto emphasizing the importance of getting to a decision quickly to avoid wasting time."
+    },
+    {
+      "text": "Company strategy is basically product strategy meets go-to-market strategy.",
+      "context": "On the necessary symbiosis between product building and commercialization engines."
+    }
+  ],
+  "filename": "Jeanne Grosser"
+}

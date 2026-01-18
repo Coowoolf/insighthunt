@@ -1,0 +1,122 @@
+{
+  "guest": {
+    "name": "Ravi Mehta",
+    "title": "Co-founder & CEO, Outpace",
+    "company": "Outpace (formerly Tinder, Facebook, Tripadvisor)",
+    "background": "Ravi Mehta is the co-founder and CEO of Outpace and formerly the CPO at Tinder, Product Director at Facebook, and VP of Product at Tripadvisor. He is a renowned product thought leader who helped create the Reforge Product Leadership and Strategy programs.",
+    "background_zh": "Ravi Mehta 是 Outpace 的联合创始人兼 CEO，曾任 Tinder 首席产品官 (CPO)、Facebook 产品总监以及 Tripadvisor 产品副总裁。作为 Reforge 产品领导力和产品策略课程的核心设计者，他是业内公认的产品思想领袖。"
+  },
+  "episodeSummary": "Ravi Mehta deconstructs the ambiguities of product management into rigorous frameworks, covering strategy, goal setting, and career competencies. He challenges common norms like 'outcomes over outputs' and explains why 'selective micromanagement' is necessary for effective leadership.",
+  "episodeSummary_zh": "Ravi Mehta 将模糊的产品管理概念拆解为严谨的执行框架，涵盖了产品策略、目标设定及职业胜任力模型。他挑战了“结果重于产出”等行业惯例，并解释了为什么“选择性微观管理”对高效领导力至关重要。",
+  "keyTakeaways": [
+    "Strategy must precede goals; goals measure progress against a strategy, not the other way around.",
+    "Startups excel at latency (decision speed), while big companies excel at velocity (volume of work).",
+    "Include wireframes in strategy documents to prevent misalignment caused by ambiguous text.",
+    "Do not set outcome-based goals (OKRs) if you haven't crossed the 'Frontier of Understanding' regarding what moves the metric.",
+    "Effective leadership requires toggling between scalable autonomy and selective micromanagement when direction is off.",
+    "Product competencies generally fall into four buckets: Execution, Customer Insight, Strategy, and Influencing People."
+  ],
+  "methodologies": [
+    {
+      "name": "The Product Strategy Stack",
+      "name_zh": "产品策略栈 (The Product Strategy Stack)",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the inability to prioritize features (e.g., Feature A vs. B) due to a lack of strategic context and the conflation of roadmap, goals, and strategy.",
+      "problemItSolves_zh": "解决因缺乏战略上下文以及混淆路线图、目标和策略而导致无法进行功能优先级排序（如纠结于做功能A还是功能B）的问题。",
+      "summary": "A hierarchical framework that forces alignment from the top down. It separates mission (aspirational) from strategy (logical plan) and ensures the roadmap and goals are derivatives of the strategy, not the drivers.",
+      "summary_zh": "这是一个自上而下的层级框架，强制实现战略对齐。它将使命（愿景层面）与策略（逻辑计划）区分开来，确路线图 (Roadmap) 和目标 (Goals) 是策略的产物，而非驱动因素。",
+      "principles": [
+        "Mission: The change you want to bring to the world (Aspirational).",
+        "Company Strategy: The logical plan to achieve the mission.",
+        "Product Strategy: The connective tissue between company objectives and product delivery.",
+        "Product Roadmap: The sequence of features/outcomes to execute the strategy.",
+        "Product Goals: Metrics that measure progress against the roadmap."
+      ],
+      "principles_zh": [
+        "公司使命：企业希望为世界带来的改变（愿景层面）。",
+        "公司策略：实现使命的逻辑路径和计划。",
+        "产品策略：连接公司层级目标与具体产品交付的纽带。",
+        "产品路线图：执行策略所需的功能或结果序列。",
+        "产品目标：衡量路线图推进进度的量化指标。"
+      ],
+      "whenToUse": "When teams are confused about prioritization or when 'goals' are being used as a substitute for actual strategy.",
+      "whenToUse_zh": "当团队对优先级感到困惑，或者发现管理层用“目标数字”代替了真正的“打法策略”时。",
+      "commonMistakes": "Starting with goals (e.g., 'increase retention by 5%') and trying to build a roadmap backward without defining the 'how'.",
+      "commonMistakes_zh": "本末倒置，从目标出发（例如“将留存率提高5%”），然后试图反推路线图，却忽略了实现目标的具体策略路径。",
+      "quote": "If you're going to take a road trip, you first decide where you want to drive to... our destination is Vegas, and we'll know whether or not we reach there if we've driven 250 miles.",
+      "realWorldExample": "Tinder vs. Hinge: Both are dating apps. Tinder's mission is 'Make single life fun' (Product Strategy: fast swiping, serendipity). Hinge's mission is 'Designed to be deleted' (Product Strategy: anti-swipe, rich profiles). Their features differ because their Strategy Stacks differ.",
+      "realWorldExample_zh": "Tinder 对比 Hinge：两者都是约会应用。Tinder 的使命是“让单身生活更有趣”（产品策略：快速滑屏、制造偶遇）；Hinge 的使命是“旨在让你卸载”（产品策略：反滑屏机制、丰富且深度的个人档案）。由于策略栈不同，两者的功能设计截然不同。"
+    },
+    {
+      "name": "The Frontier of Understanding (NCTs)",
+      "name_zh": "认知边界与目标设定 (Frontier of Understanding)",
+      "category": "execution",
+      "problemItSolves": "Prevents teams from committing to outcome-based goals (e.g., OKRs) when they don't yet understand the levers required to move those metrics.",
+      "problemItSolves_zh": "防止团队在尚未理解业务驱动因素（Levers）的情况下，盲目承诺结果型指标（如激进的 OKR），导致动作变形。",
+      "summary": "Instead of blindly focusing on outcomes, teams should identify their 'Frontier of Understanding.' If the levers are unknown, the goal should be 'Understanding Risk' (learning); if known, the goal can be 'Execution Risk' (doing) or 'Strategic Risk' (outcomes).",
+      "summary_zh": "团队不应盲目追求结果，而应识别自身的“认知边界”。如果不知道驱动业务的杠杆是什么，目标应设为“降低认知风险”（去学习）；如果已知，目标可以是“降低执行风险”（去行动）或“降低策略风险”（拿结果）。",
+      "principles": [
+        "Understanding Risk: We don't know the levers. Goal = Insight/Learning.",
+        "Dependency Risk: We know the levers but lack tools/resources.",
+        "Execution Risk: We have the tools. Goal = High velocity/Quality experiments.",
+        "Strategic Risk: We are executing well. Goal = Verify if the hypothesis moves the metric."
+      ],
+      "principles_zh": [
+        "认知风险：不知道业务杠杆在哪里。目标 = 获取洞察/学习。",
+        "依赖风险：知道杠杆，但缺乏工具或资源。",
+        "执行风险：资源具备。目标 = 高质量、高速度地进行实验。",
+        "策略风险：执行力已到位。目标 = 验证假设是否真正驱动了指标增长。"
+      ],
+      "whenToUse": "During quarterly planning when leadership demands a metric increase but the team has no clear hypothesis on how to achieve it.",
+      "whenToUse_zh": "在季度规划时，当管理层要求提升某项指标，但团队对于“如何达成”尚无清晰假设时使用。",
+      "commonMistakes": "Setting an outcome goal (e.g., Revenue) when you are actually in the 'Understanding Risk' phase, leading to 'throwing spaghetti at the wall'.",
+      "commonMistakes_zh": "明明处于“认知探索期”，却设定了“结果产出型”目标（如营收额），导致团队像“无头苍蝇乱撞”一样盲目尝试。",
+      "quote": "If you don't understand how to move a particular metric, then the right goal is to set a goal to increase your understanding not to move that metric.",
+      "realWorldExample": "At Tinder, data showed high spending from a small group. Instead of blindly trying to grow revenue, they set a goal to understand WHY. They found these weren't rich people, but frequent travelers/salespeople. This insight led to 'Tinder Platinum'.",
+      "realWorldExample_zh": "在 Tinder，数据显示一小部分用户消费极高。团队没有盲目设定营收目标，而是先设定了“理解原因”的目标。调研发现这些人并非富豪，而是高频出差的销售人员。这一洞察最终催生了 'Tinder Platinum' 产品线。"
+    },
+    {
+      "name": "Selective Micromanagement Matrix",
+      "name_zh": "选择性微观管理矩阵 (Selective Micromanagement)",
+      "category": "career-leadership",
+      "problemItSolves": "Resolves the dilemma of new leaders who swing between harmful micromanagement and negligent 'hands-off' leadership.",
+      "problemItSolves_zh": "解决了新晋管理者在“有害的微观管理”和“甩手掌柜式管理”两极之间摇摆的困境。",
+      "summary": "Leadership is a dynamic range. When confidence in the team's direction is low, the correct move is not autonomy, but temporary, tactical micromanagement to realign frameworks, then pulling back to scalable leadership.",
+      "summary_zh": "领导力是一个动态区间。当对团队前进方向缺乏信心时，正确的做法不是继续放权（Autonomy），而是进行暂时的、战术性的微观管理，修正框架与方向，然后再回归到可扩展的领导模式。",
+      "principles": [
+        "Scalable Leadership: High Alignment + High Confidence -> Team has autonomy.",
+        "Selective Micromanagement: Low Alignment/Confidence -> Leader dives into details temporarily.",
+        "Micro-mismanagement: Staying in the details permanently without teaching the framework.",
+        "Contextual Guidance: Use micromanagement to teach the 'why' and the framework, not just to dictate the 'what'."
+      ],
+      "principles_zh": [
+        "可扩展领导力：高对齐 + 高信心 -> 赋予团队充分自主权。",
+        "选择性微观管理：低对齐/低信心 -> 管理者暂时介入细节。",
+        "微观管理失当：长期沉迷于细节，而不去教授决策框架。",
+        "情境化指导：利用微观管理的过程来传授“为什么”和决策逻辑，而不仅仅是下达指令。"
+      ],
+      "whenToUse": "When a team is drifting off strategy or when a high-stakes release is at risk.",
+      "whenToUse_zh": "当团队偏离战略轨道，或者关键的高风险发布面临危机时。",
+      "commonMistakes": "Thinking that being a leader means never looking at the details (pixels, copy, bugs).",
+      "commonMistakes_zh": "错误地认为“当领导”就意味着永远不该过问细节（如像素级设计、文案或具体 Bug）。",
+      "quote": "The right answer is to micromanage, but do it in a very tactical and a very temporary way so that you can help them understand what is the right direction moving forward so that you can then pull back.",
+      "realWorldExample": "Steve Jobs and Mark Zuckerberg are cited as effective leaders who knew when to dive into extreme detail (micromanage) to ensure product quality aligned with vision.",
+      "realWorldExample_zh": "乔布斯和扎克伯格被认为是高效的领导者，他们知道何时需要深入极致的细节（微观管理），以确保产品质量与愿景高度对齐。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Startups have a really tight turning radius and bigger companies have a really high rate of velocity.",
+      "context": "On the difference between speed (latency) in startups vs. velocity in big tech."
+    },
+    {
+      "text": "Strategy is the logical plan that your company's going to use to bring that mission into being.",
+      "context": "Defining strategy simply within the Strategy Stack."
+    },
+    {
+      "text": "The goal is to lead in a scalable way, which means you feel really confident about the direction of your team and your team has the autonomy to move in that direction.",
+      "context": "Defining the ideal state of product leadership."
+    }
+  ],
+  "filename": "Ravi Mehta"
+}

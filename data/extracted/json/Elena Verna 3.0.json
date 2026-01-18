@@ -3,7 +3,8 @@
     "name": "Elena Verna",
     "title": "Growth Advisor & Interim Executive",
     "company": "Solopreneur (Ex-Miro, Amplitude, Dropbox, SurveyMonkey)",
-    "background": "Elena is widely considered the smartest person in B2B growth. She has led growth organizations at massive scale (Miro, Dropbox) and specializes in Product-Led Growth (PLG) and B2B distribution strategies."
+    "background": "Elena is widely considered the smartest person in B2B growth. She has led growth organizations at massive scale (Miro, Dropbox) and specializes in Product-Led Growth (PLG) and B2B distribution strategies.",
+    "background_zh": "Elena 是 B2B 增长领域公认的顶尖专家。她曾在 Miro 和 Dropbox 领导过大规模的增长团队，专注于 PLG 和 B2B 分发策略。"
   },
   "episodeSummary": "Elena Verna dismantles common growth myths by listing 10 tactics that consistently fail, ranging from premature hiring to futile redesigns. She shifts the conversation from \"growth hacking\" to sustainable growth strategy, emphasizing the importance of founder-led growth in early stages, the necessity of owned channels over rented algorithms, and the critical need to layer new growth loops every 18 months.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a startup reaches ~$1M ARR or when a mature company sees a revenue plateau.",
       "commonMistakes": "Hiring a Head of Growth to find Product Market Fit, or hiring one when the core business is declining.",
       "quote": "To figure out your product market fit and how to distribute it, it's not something that you can outsource to somebody.",
-      "realWorldExample": "Elena notes that many successful companies don't hire formal growth teams until $100M-$200M ARR because the culture is already growth-oriented."
+      "realWorldExample": "Elena notes that many successful companies don't hire formal growth teams until $100M-$200M ARR because the culture is already growth-oriented.",
+      "summary_zh": "一份评估清单，用于判断公司是否真正具备组建专职增长团队的条件，亦或是应由创始人继续主导分发工作。",
+      "problemItSolves_zh": "避免初创企业在基础尚未夯实的情况下，就在注定失败的增长招聘上无谓烧钱。",
+      "whenToUse_zh": "当初创公司 ARR 达到约 100 万美元，或成熟企业面临营收瓶颈时。",
+      "commonMistakes_zh": "招聘增长负责人来寻找产品市场匹配，或在核心业务下滑时引入该角色。",
+      "realWorldExample_zh": "Elena 指出，许多成功企业直到 ARR 达到 1 亿至 2 亿美元规模时，才会组建正式的增长团队，因为其企业文化本身就是增长导向的。",
+      "principles_zh": [
+        "步骤 1：通过强劲的留存率和高“Sean Ellis 测试”失望指数，验证 PMF（产品市场匹配）。",
+        "步骤 2：确保数据成熟度；若缺乏足够支撑分析的数据体量，搭建增长团队便无从谈起。",
+        "步骤 3：确认招聘并非为了“修复”业务下滑；增长团队旨在加速扩张，而非挽救沉船。",
+        "步骤 4：若是销售主导（Sales-Led）的 B2B 业务，优先招聘销售；若是自助服务或 PLG（产品驱动增长）模式，则应在销售之前先组建增长团队。"
+      ],
+      "name_zh": "The Growth Readiness Assessment（增长准备度评估）"
     },
     {
       "name": "The Earned Channel Pivot",
@@ -46,7 +59,19 @@
       "whenToUse": "When customer acquisition costs (CAC) are rising or when a platform change threatens your primary traffic source.",
       "commonMistakes": "Treating this as a 'free' channel; it requires significant product and engineering investment, just not ad spend.",
       "quote": "If you don't have [earned channels] on your growth roadmap, you are going to be in some really big trouble... because your cost of acquisition is only going to go up.",
-      "realWorldExample": "Dropbox derives over 50% of its acquisition through file-sharing loops (sending a file to a non-user), which is a channel no competitor can buy their way into."
+      "realWorldExample": "Dropbox derives over 50% of its acquisition through file-sharing loops (sending a file to a non-user), which is a channel no competitor can buy their way into.",
+      "summary_zh": "一种战略转型：从侧重“租借型”分发渠道（广告、SEO），转向“自有型”分发渠道（病毒传播、UGC、社区），从而将命运掌握在自己手中。",
+      "problemItSolves_zh": "降低因平台依赖（如 Google SEO 算法更新或广告成本飙升）导致获客策略崩盘的风险。",
+      "whenToUse_zh": "当获客成本 (CAC) 持续攀升，或平台变动危及核心流量来源时。",
+      "commonMistakes_zh": "将其误视为“免费”渠道；实际上，虽然不需要广告预算，但需要巨大的产研投入。",
+      "realWorldExample_zh": "Dropbox 超过 50% 的获客源自文件分享闭环（即向非用户发送文件），这是任何竞争对手都无法通过付费手段买到的渠道。",
+      "principles_zh": [
+        "步骤 1：盘点现有获客体系，明确对第三方算法（如 Google、Meta）的依赖程度。",
+        "步骤 2：挖掘适合产品的“赢取型”增长机制（如 UGC、病毒式传播或推荐裂变）。",
+        "步骤 3：将研发资源投入到构建这些增长飞轮中（如搭建公开模板库、设计易于分享的产品交付物），而非单纯增加营销投放。",
+        "步骤 4：接受更长的回报周期；尽管“赢取型”渠道建设耗时，但能带来具备竞争壁垒的复利增长。"
+      ],
+      "name_zh": "The Earned Channel Pivot（赢取渠道转型）"
     },
     {
       "name": "The 18-Month Horizon Layering Strategy",
@@ -63,7 +88,20 @@
       "whenToUse": "During periods of high growth to prepare for the future, or when current channels show early signs of saturation.",
       "commonMistakes": "waiting until growth slows down to start building the next layer, as these layers take too long to ramp up.",
       "quote": "If you have a growth model that works for you... good for you... but you're going to need to evolve it, and that evolution needs to come through overlaying other growth models on top of it.",
-      "realWorldExample": "Miro's 'Miroverse' (UGC library) took 18 months of investment before they started putting hard metrics on it, but it eventually became a massive acquisition engine."
+      "realWorldExample": "Miro's 'Miroverse' (UGC library) took 18 months of investment before they started putting hard metrics on it, but it eventually became a massive acquisition engine.",
+      "summary_zh": "一种组合式增长策略，即在现有模式衰退前，系统性地引入新模式。",
+      "problemItSolves_zh": "规避因“点击率递减法则”和渠道饱和而引发的必然增长停滞。",
+      "whenToUse_zh": "处于高速增长期需为未来布局，或现有渠道初显饱和迹象时。",
+      "commonMistakes_zh": "等到增长放缓才开始构建下一层级，因为这些层级的爬坡期往往过长。",
+      "realWorldExample_zh": "Miro 的 \"Miroverse\"（UGC 内容库）经历了 18 个月的持续投入才开始考核硬性指标，但它最终成长为一个巨大的获客引擎。",
+      "principles_zh": [
+        "步骤 1：明确每个增长飞轮（SEO、广告投放、病毒传播）都有 5-7 年的生命周期，之后效能将不可避免地衰退。",
+        "步骤 2：每 18 个月引入一种底层的全新增长模式（例如：在 PLG 基础上叠加销售驱动，或构建新的社区增长飞轮）。",
+        "步骤 3：投入增长团队每年 20-25% 的精力，用于押注这些探索性的“下一阶段”增长点。",
+        "步骤 4：不要用短期效率指标来评估这些新业务层；应给予 6-18 个月的孵化期让其跑通。",
+        "步骤 5：构建多元化模型：组合产品驱动、市场驱动和销售驱动等多种打法。"
+      ],
+      "name_zh": "The 18-Month Horizon Layering Strategy（18个月分层战略）"
     },
     {
       "name": "The High-Velocity Testing Heuristic",
@@ -80,7 +118,20 @@
       "whenToUse": "Day-to-day execution for growth teams, particularly in B2B or lower-traffic environments.",
       "commonMistakes": "Spending engineering time building tests for low-traffic pages that will never reach statistical significance.",
       "quote": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem... It's almost like a paralyzing disease.",
-      "realWorldExample": "Elena advises against testing third-party sign-up buttons (e.g., Google Auth) for lift; just implement them as a best practice for user experience."
+      "realWorldExample": "Elena advises against testing third-party sign-up buttons (e.g., Google Auth) for lift; just implement them as a best practice for user experience.",
+      "summary_zh": "一套基于流量和风险的决策框架，用于判断何时进行科学的 A/B 测试，何时“直接上线”。",
+      "problemItSolves_zh": "消除“实验瘫痪”，解决团队因试图对所有事项进行 A/B 测试而导致推进缓慢的问题。",
+      "whenToUse_zh": "增长团队的日常执行，尤其是 B2B 或低流量场景。",
+      "commonMistakes_zh": "在永远无法达到统计显著性的低流量页面上投入研发资源搭建测试。",
+      "realWorldExample_zh": "Elena 建议不要为了验证数据提升而去测试第三方注册按钮（如 Google Auth）；这属于用户体验的最佳实践，直接上线即可。",
+      "principles_zh": [
+        "步骤 1：评估样本量级。如果无法在 1 个月内达到统计显著性，请勿进行 A/B 测试。",
+        "步骤 2：针对低样本量场景，采用“上线前后对比分析法”（Pre vs. Post），并预留 7 天的回滚窗口期。",
+        "步骤 3：拒绝测试“哪种蓝色更好看”或微小的文案调整；将宝贵的测试资源聚焦于重大的结构性变革。",
+        "步骤 4：绝不对“一次性邮件”或“单次运营活动”进行测试——只测试针对用户生命周期流程的系统性优化。",
+        "步骤 5：方案设计依赖产品直觉，最终成效依靠数据验证。"
+      ],
+      "name_zh": "The High-Velocity Testing Heuristic（高速测试启发法）"
     }
   ],
   "notableQuotes": [
@@ -101,5 +152,6 @@
       "context": "Elena's contrarian take on career management and the value of optionality."
     }
   ],
-  "filename": "Elena Verna 3.0"
+  "filename": "Elena Verna 3.0",
+  "episodeSummary_zh": "Elena Verna 逐一拆解了常见的增长误区，列举了从过早扩充团队到无效改版等 10 种注定失效的战术。她将探讨重心从“增长黑客”转移至可持续的增长战略，着重强调了早期由创始人主导增长的重要性、深耕自有渠道而非依赖平台算法的必要性，以及每 18 个月叠加新增长飞轮的关键机制。"
 }

@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Hamel Husain & Shreya Shankar",
+    "title": "Co-Founders of the 'Build Your Own Evals' Course",
+    "company": "Consulting / UC Berkeley",
+    "background": "Hamel is a machine learning engineer with experience at GitHub and Airbnb, now a leading AI consultant. Shreya is a computer scientist and researcher at UC Berkeley, specializing in ML operationalization. Together, they run the top-rated course on Maven about building AI evaluations.",
+    "background_zh": "Hamel 是一位机器学习工程师，曾效力于 GitHub 和 Airbnb，现为顶级 AI 顾问。Shreya 是加州大学伯克利分校的计算机科学家和研究员，专攻机器学习运营化（MLOps）。他们共同在 Maven 上开设了关于构建 AI 评估（Evals）的顶级课程。"
+  },
+  "episodeSummary": "This episode demystifies 'Evals' (evaluations) for AI products, arguing they are the highest ROI activity for AI teams. Hamel and Shreya demonstrate a practical workflow starting from manual error analysis ('open coding') to building automated 'LLM-as-a-Judge' systems. They challenge the misconception that evals are just unit tests, framing them instead as a continuous data analysis process that replaces traditional PRDs for AI agents.",
+  "episodeSummary_zh": "本期节目揭开了 AI 产品评估（Evals）的神秘面纱，提出建立评估体系是 AI 团队最高 ROI 的投入。Hamel 和 Shreya 展示了一套从人工错误分析（开放式编码）到构建自动化“LLM 裁判”系统的实战工作流。他们打破了“评估只是单元测试”的误解，将其重新定义为一个持续的数据分析过程，并在 AI Agent 开发中逐渐取代传统 PRD 的作用。",
+  "keyTakeaways": [
+    "Evals are not just tests; they are systematic data analytics for your AI application.",
+    "Start with manual 'Open Coding': read 50-100 traces to identify real failure modes before writing code.",
+    "Avoid 1-5 rating scales for LLM judges; use binary (Pass/Fail) criteria to force decision-making.",
+    "Assign a 'Benevolent Dictator' (usually the PM) to define quality standards, rather than relying on design by committee.",
+    "Validate your automated judges by calculating the agreement rate with human labels on a sample set.",
+    "Evals function as dynamic Product Requirements Documents (PRDs), defining exactly how the AI should behave.",
+    "Use AI to help categorize errors (Axial Coding), but keep a human in the loop for the final taxonomy."
+  ],
+  "methodologies": [
+    {
+      "name": "The Open-to-Axial Analysis Loop",
+      "name_zh": "“开放-轴心”错误分析法",
+      "category": "user-research",
+      "problemItSolves": "Overcoming the 'cold start' problem where teams don't know what to test or fix in their AI product because raw logs are overwhelming.",
+      "problemItSolves_zh": "解决 AI 产品优化的“冷启动”问题——面对海量且杂乱的原始日志（Logs），团队往往无从下手，不知道该测试什么或修复什么。",
+      "summary": "A qualitative research method adapted for AI logs. Instead of guessing failure modes, builders manually review production traces ('Open Coding') to tag issues freely, then cluster these tags into broader categories ('Axial Coding') to identify high-leverage areas for improvement.",
+      "summary_zh": "一种改编自社会科学定性研究的方法。构建者不应凭空猜测故障模式，而应人工审查生产环境的调用链路（Open Coding）并自由标记问题，然后将这些标记聚类成更广泛的类别（Axial Coding），从而识别出具有高杠杆效应的改进点。",
+      "principles": [
+        "Read traces manually until 'Theoretical Saturation' (when you stop finding new types of errors).",
+        "Write 'Open Codes' (free-form notes) on the first upstream error you see per trace.",
+        "Use an LLM to synthesize Open Codes into 'Axial Codes' (categories) to find the top failure modes."
+      ],
+      "principles_zh": [
+        "人工阅读链路日志，直到达到“理论饱和点”（即不再发现新类型的错误）。",
+        "进行“开放式编码”：针对每条日志中发现的第一个上游错误，记录自由格式的笔记。",
+        "利用 LLM 将开放式编码归纳为“轴心编码”（类别），以量化并锁定最主要的故障模式。"
+      ],
+      "whenToUse": "At the beginning of product development or whenever user feedback indicates quality issues but metrics are silent.",
+      "whenToUse_zh": "适用于产品开发初期，或当用户反馈表明存在质量问题但现有指标无法反映时。",
+      "commonMistakes": "Skipping manual review to automate immediately, or using vague tags like 'janky' without specific context.",
+      "commonMistakes_zh": "跳过人工审查直接尝试自动化，或者使用像“太烂了”这样模糊的标签而没有具体上下文。",
+      "quote": "To build great AI products, you need to be really good at building evals. It's the highest ROI activity you can engage in.",
+      "realWorldExample": "Analyzing a real estate agent bot (Nurture Boss) and discovering it was hallucinating 'virtual tours' and failing to hand off to humans during sensitive requests.",
+      "realWorldExample_zh": "分析房地产 AI 助手（Nurture Boss）的日志，发现它编造了不存在的“虚拟看房”服务，并且在遇到敏感请求时未能及时转接给人工客服。"
+    },
+    {
+      "name": "Binary LLM Judge Framework",
+      "name_zh": "二元 LLM 裁判构建框架",
+      "category": "execution",
+      "problemItSolves": "Ambiguity in measuring AI quality. Numeric scales (1-5 stars) are often subjective and inconsistent, making it hard to track progress.",
+      "problemItSolves_zh": "解决 AI 质量衡量的模糊性问题。数字评分（如1-5星）往往主观且不一致，导致难以追踪产品的实际改进。",
+      "summary": "A strict method for building automated evaluators. Instead of asking an LLM to 'rate this response,' you define a specific failure mode and ask a binary (True/False) question. You then validate this judge against human decisions.",
+      "summary_zh": "一种构建自动化评估器的严谨方法。不要让 LLM 泛泛地“给回复打分”，而是定义具体的故障模式，并提出二元（真/假）问题。随后，必须用人工决策来验证该裁判的准确性。",
+      "principles": [
+        "Binary Scoring: Force a decision (True/False) instead of a Likert scale (1-5) to remove ambiguity.",
+        "Specific Scope: Judge one specific failure mode (e.g., 'Did it fail to handoff?') per prompt, not overall quality.",
+        "Alignment Check: Measure the agreement matrix between the LLM Judge and a Human expert before deploying."
+      ],
+      "principles_zh": [
+        "二元评分原则：强制做出决策（真/假），放弃 Likert 量表（1-5分），以消除模糊地带。",
+        "特定范围原则：每个 Prompt 只评判一种具体的故障模式（例如“是否未能转接人工？”），而非整体质量。",
+        "对齐检查原则：在部署前，计算 LLM 裁判与人类专家决策的一致性矩阵。"
+      ],
+      "whenToUse": "When you have identified a recurring, complex failure mode (via Error Analysis) that cannot be caught by simple code assertions.",
+      "whenToUse_zh": "当你通过错误分析发现了一个重复出现的、复杂的、且无法通过简单代码断言（Assertions）捕捉的故障模式时。",
+      "commonMistakes": "Trusting the LLM judge immediately without checking if it agrees with human logic, or using generic 'helpfulness' prompts.",
+      "commonMistakes_zh": "盲目信任 LLM 裁判而未检查其是否与人类逻辑一致，或使用通用的“有用性”提示词。",
+      "quote": "If the judge says it's wrong, don't just accept it as the gospel... When people lose trust in your evals, they lose trust in you.",
+      "realWorldExample": "Creating a 'Human Handoff Judge' for the leasing bot that specifically checks strictly defined scenarios (e.g., maintenance requests) and outputs a simple True/False.",
+      "realWorldExample_zh": "为租赁机器人创建一个“人工转接裁判”，专门检查严格定义的场景（如维修请求），并只输出 True 或 False。"
+    },
+    {
+      "name": "The Benevolent Dictator Protocol",
+      "name_zh": "“仁慈独裁者”决策机制",
+      "category": "team-culture",
+      "problemItSolves": "Analysis paralysis where teams debate what counts as a 'good' response, slowing down the iteration cycle.",
+      "problemItSolves_zh": "解决因团队争论什么是“好的回答”而导致的分析瘫痪，这种争论会严重拖慢迭代周期。",
+      "summary": "Instead of design-by-committee, appoint one domain expert (often the Product Manager) to define the 'ground truth' for evaluations. Their taste becomes the standard to align the model against initially.",
+      "summary_zh": "与其采用委员会式的设计，不如指定一位领域专家（通常是产品经理）来定义评估的“基准真值”（Ground Truth）。在初期，他们的品味和判断将成为模型对齐的唯一标准。",
+      "principles": [
+        "Single Source of Truth: One person's judgment defines the 'Gold Label' for the initial dataset.",
+        "Domain Expertise: The dictator must understand the user's goal deeply (e.g., a leasing expert for a real estate bot).",
+        "Speed over Consensus: Prioritize getting a signal to iterate over getting everyone to agree on the nuance of language."
+      ],
+      "principles_zh": [
+        "单一真理来源：由一个人的判断来定义初始数据集的“金标准”。",
+        "领域专业性：独裁者必须深刻理解用户目标（例如房地产机器人需要租赁专家）。",
+        "速度优于共识：优先获取迭代信号，而不是在语言的细微差别上寻求全员一致。"
+      ],
+      "whenToUse": "Early stage development or when establishing a new class of evaluations for subjective tasks.",
+      "whenToUse_zh": "适用于开发早期阶段，或为主要观任务建立新一类评估标准时。",
+      "commonMistakes": "Letting engineers define product quality without domain context, or trying to average opinions from a group.",
+      "commonMistakes_zh": "让没有领域背景的工程师定义产品质量，或者试图对一群人的意见取平均值。",
+      "quote": "You don't want to make this process so expensive that you can't do it. You can appoint one person whose taste that you trust.",
+      "realWorldExample": "Deciding that a recruiting email starting with 'Given your background...' is bad/generic, based solely on the PM's taste, and optimizing against that.",
+      "realWorldExample_zh": "仅基于 PM 的个人品味，判定以“鉴于您的背景……”开头的招聘邮件是糟糕且通用的，并据此进行优化。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The goal is not to do evals perfectly, it's to actionably improve your product.",
+      "context": "Shreya on why teams shouldn't get paralyzed by the complexity of evaluations."
+    },
+    {
+      "text": "Everyone that does this immediately gets addicted to it... When you're building an AI application, you just learn a lot.",
+      "context": "Hamel on the experience of manually reading production logs (traces)."
+    },
+    {
+      "text": "Evals are becoming the most important new skill for product builders... Evals are the new PRDs.",
+      "context": "Lenny summarizing the shift in product management for AI."
+    }
+  ],
+  "filename": "Hamel Husain & Shreya Shankar"
+}

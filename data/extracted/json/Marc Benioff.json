@@ -1,0 +1,125 @@
+{
+  "guest": {
+    "name": "Marc Benioff",
+    "title": "Co-founder, Chair & CEO",
+    "company": "Salesforce",
+    "background": "Marc Benioff is the visionary co-founder of Salesforce, widely credited with pioneering the SaaS (Software as a Service) model and cloud computing. Under his leadership for over 25 years, Salesforce has grown into the world's second-largest B2B software company and the leading CRM platform.",
+    "background_zh": "Marc Benioff 是 Salesforce 的联合创始人兼 CEO，被广泛认为是 SaaS（软件即服务）模式和云计算的先驱。在他的带领下，Salesforce 历经 25 年发展，已成为全球第二大 B2B 软件公司及 CRM 领域的绝对领导者。"
+  },
+  "episodeSummary": "Marc Benioff discusses the pivotal shift from traditional SaaS to the new era of autonomous AI agents ('Agentforce'). He shares deep insights on maintaining a 'Beginner's Mind' to drive innovation, the art of turning experimental marketing tactics into long-term strategy, and why founders must evolve from product builders to company conductors. The episode also covers legendary stories about his relationship with Steve Jobs and the origin of the App Store.",
+  "episodeSummary_zh": "Marc Benioff 探讨了从传统 SaaS 向自主 AI Agent（'Agentforce'）时代的这一关键转型。他深刻分享了如何保持“初心（Beginner's Mind）”以推动创新，如何将实验性营销战术转化为长期战略的艺术，以及为何创始人必须从单纯的产品构建者进化为公司的“交响乐指挥家”。本期节目还回顾了他与乔布斯的传奇往事及 App Store 的起源故事。",
+  "keyTakeaways": [
+    "AI is shifting from passive 'copilots' to active 'agents' (digital labor) that can execute tasks autonomously.",
+    "Do not define strategy in a vacuum; experiment with many tactics first, identify what sticks, and operationalize the winner into a strategy.",
+    "Cultivate 'Shoshin' (Beginner's Mind) to strip away expert bias and see new market possibilities.",
+    "Founders must act as orchestra conductors, harmonizing sales, marketing, and product, rather than just playing one instrument.",
+    "There is no linear success; resilience during downturns (like layoffs) is as critical as growth during boom times.",
+    "Get to the future first and welcome your customers there.",
+    "Generosity and networking (e.g., with Steve Jobs) can yield unexpected strategic insights, like the concept of an application economy."
+  ],
+  "methodologies": [
+    {
+      "name": "The Tactic-to-Strategy Funnel",
+      "name_zh": "战术转化战略漏斗",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming analysis paralysis when launching a new product in a noisy market where the optimal go-to-market channel is unknown.",
+      "problemItSolves_zh": "解决在嘈杂市场中发布新产品时，因未知最佳 GTM（上市）渠道而导致的分析瘫痪问题。",
+      "summary": "Instead of setting a rigid strategy upfront, execute a high volume of diverse experimental tactics simultaneously. Treat the market feedback as a filter: identify the specific tactic that gains organic traction, and then scale that tactic into your core corporate strategy.",
+      "summary_zh": "与其预先设定僵化的战略，不如同时执行大量多样化的实验性战术。将市场反馈作为过滤器：识别出获得自然增长动力的特定战术，然后将该战术规模化，确立为公司的核心战略。",
+      "principles": [
+        "Throw everything against the wall: Test diverse mediums (ads, direct sales, evangelism) simultaneously.",
+        "Listen for the stickiness: Identify which specific tactic generates viral response or conversion.",
+        "Convert tactic to strategy: Pivot resources to scale the winning experiment into the primary roadmap.",
+        "Abandon the rest: Ruthlessly cut the tactics that didn't resonate."
+      ],
+      "principles_zh": [
+        "全面撒网：同时测试多种媒介（广告、直销、布道等）。",
+        "倾听回响：识别哪种特定战术产生了病毒式传播或高转化。",
+        "战术升维：将资源倾斜，把胜出的实验转化为主要路线图。",
+        "果断舍弃：无情地砍掉那些未能引起市场共鸣的战术。"
+      ],
+      "whenToUse": "When launching a paradigm-shifting product (like AI Agents) where historical data or existing playbooks may no longer apply.",
+      "whenToUse_zh": "当发布范式转移类产品（如 AI Agents）且历史数据或现有打法不再适用时。",
+      "commonMistakes": "Falling in love with a strategy purely based on theory or 'expert' intuition without testing it tactically first.",
+      "commonMistakes_zh": "仅凭理论或“专家”直觉爱上某个战略，而未先进行战术测试。",
+      "quote": "I'm throwing everything against the wall. I'm looking at what's going to stick. I am looking to try to find the winning tactic and turn it into a winning strategy.",
+      "realWorldExample": "For the launch of 'Agentforce', Benioff is simultaneously testing celebrity ads (Matthew McConaughey), direct sales hiring sprees, anti-Microsoft positioning, and customer zero implementations to see what drives adoption.",
+      "realWorldExample_zh": "在 'Agentforce' 的发布中，Benioff 同时测试了名人广告（马修·麦康纳）、大规模招聘直销人员、针对微软的竞争定位以及内部客户（Customer Zero）实施，以观察哪种方式能真正推动采用。"
+    },
+    {
+      "name": "The Symphony Conductor Model",
+      "name_zh": "交响乐指挥家模型",
+      "category": "execution",
+      "problemItSolves": "Product-obsessed founders failing to scale because they neglect the broader business ecosystem (sales, marketing, stakeholders).",
+      "problemItSolves_zh": "解决产品痴迷型创始人因忽视更广泛的商业生态系统（销售、市场、利益相关者）而导致无法规模化的问题。",
+      "summary": "A leadership framework where the CEO/Founder shifts focus from playing a single instrument (building the product) to leading the entire orchestra. This requires ensuring timing, volume, and harmony across sales, marketing, engineering, and investor relations.",
+      "summary_zh": "一种领导力框架，要求 CEO/创始人将注意力从演奏单一乐器（构建产品）转移到指挥整个乐队。这需要确保销售、市场、工程和投资者关系之间的时机、声量和和谐度。",
+      "principles": [
+        "Stop playing the clarinet: Don't get stuck doing individual contributor work in one domain.",
+        "See the whole orchestra: Acknowledge all stakeholders (employees, customers, investors, partners).",
+        "Synchronize the tempo: Ensure product readiness matches marketing hype and sales capacity.",
+        "Drive the energy: The leader's job is to inspire motivation across all sections."
+      ],
+      "principles_zh": [
+        "放下单簧管：不要陷入单一领域的个人贡献者（IC）工作。",
+        "纵观全场：确认所有利益相关者（员工、客户、投资者、合作伙伴）。",
+        "统一步调：确保产品就绪状态与市场宣传热度及销售能力相匹配。",
+        "注入能量：领导者的核心工作是在所有部门间激发动力。"
+      ],
+      "whenToUse": "When a startup is transitioning from the build phase to the scale phase, or pivoting to a new major product line.",
+      "whenToUse_zh": "当创业公司从构建阶段向规模化阶段过渡，或转型开发新的主要产品线时。",
+      "commonMistakes": "Remaining 'product-led' to the exclusion of sales motions, resulting in great technology that nobody buys.",
+      "commonMistakes_zh": "过度坚持“产品驱动”而排斥销售动作，导致做出了没人买的“好技术”。",
+      "quote": "You better be ready to be an orchestra leader. You can't just be playing the clarinet.",
+      "realWorldExample": "Benioff realized that for Agentforce to succeed, he couldn't just ship the code; he had to pivot the entire Dreamforce conference, hire 2,000 new AEs, and personally drive the narrative, orchestrating all departments at once.",
+      "realWorldExample_zh": "Benioff 意识到，为了让 Agentforce 取得成功，他不能只发布代码；他必须调整整个 Dreamforce 大会的主题，新招募 2000 名客户经理（AE），并亲自推动叙事，同时协调所有部门。"
+    },
+    {
+      "name": "Shoshin (Beginner's Mind) Reset",
+      "name_zh": "初心（Shoshin）重置法",
+      "category": "career-leadership",
+      "problemItSolves": "The 'Expert's Trap,' where years of experience create cognitive blind spots that prevent leaders from recognizing disruptive innovation.",
+      "problemItSolves_zh": "解决“专家陷阱”问题，即多年的经验造成认知盲点，阻碍领导者识别颠覆性创新。",
+      "summary": "A deliberate practice of clearing one's mind of past successes, assumptions, and 'expert' knowledge to approach problems with the openness of a novice. This involves intentional environment changes (meditation, travel) to create space for new insights.",
+      "summary_zh": "一种刻意练习，通过清空过去的成功、假设和“专家”知识，以新手的开放心态去处理问题。这包括有意识的环境改变（冥想、旅行）以为新洞察创造空间。",
+      "principles": [
+        "Clear the vessel: Remove the assumption that you know the answer.",
+        "Change the geography: Physically move to a location (e.g., Kyoto) that encourages contemplation.",
+        "Ask 'What could be?': Replace 'This won't work' with open-ended exploration.",
+        "Embrace the next thing: View disruption not as a threat to your expertise, but as a new beginning."
+      ],
+      "principles_zh": [
+        "清空容器：摒弃“我知道答案”的预设。",
+        "改变物理场：前往一个能鼓励沉思的地方（如京都）。",
+        "追问“可能是什么”：用开放式探索取代“这行不通”的判断。",
+        "拥抱下一浪：不要将颠覆视为对你专业能力的威胁，而是新的开始。"
+      ],
+      "whenToUse": "Before major strategic planning cycles or when the industry is undergoing a tectonic shift (e.g., the rise of GenAI).",
+      "whenToUse_zh": "在主要战略规划周期之前，或当行业正在经历剧烈变革（如生成式 AI 的兴起）时。",
+      "commonMistakes": "Confusing experience with wisdom; assuming past playbooks will work on future problems.",
+      "commonMistakes_zh": "混淆经验与智慧；假设过去的剧本能解决未来的问题。",
+      "quote": "In the beginner's mind, there are many possibilities, but in the expert's, there are few.",
+      "realWorldExample": "Despite 45 years in software, Benioff regularly visits Zen temples in Kyoto to reset his mind, allowing him to pivot Salesforce from Cloud to Mobile, and now to Agents, without clinging to the past.",
+      "realWorldExample_zh": "尽管在软件行业从业 45 年，Benioff 定期造访京都的禅寺以重置心态，这使他能够带领 Salesforce 从云计算转型到移动端，再到现在拥抱 Agent，而不被过去所束缚。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "I actually never look at the stock. I find the stock to be very distracting. The stock isn't the goal... The journey is the reward.",
+      "context": "Marc responding to Lenny regarding Salesforce's stock hitting an all-time high."
+    },
+    {
+      "text": "There is no linear success... If you think it's only going to be about up and to the right, you're in the wrong business.",
+      "context": "Discussing the reality of navigating layoffs and crises after 20+ years of growth."
+    },
+    {
+      "text": "I want to get to the future first and welcome our customers there.",
+      "context": "Defining his core philosophy on innovation and market leadership."
+    },
+    {
+      "text": "Better, better, better. Never best.",
+      "context": "Quoting Toyota's philosophy of Kaizen (continuous improvement) as applied to product development."
+    }
+  ],
+  "filename": "Marc Benioff"
+}

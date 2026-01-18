@@ -1,0 +1,144 @@
+{
+  "guest": {
+    "name": "Kevin Yien",
+    "title": "Head of Product, Merchant Experiences",
+    "company": "Stripe",
+    "background": "Kevin leads product for merchant experiences at Stripe. Previously, he built the restaurant business and ecosystem teams at Square and served as Head of Product and Design at Mutiny.",
+    "background_zh": "Kevin 目前担任 Stripe 商家体验部门的产品负责人。此前，他曾在 Square 负责餐厅业务和生态系统团队的搭建，并曾担任 Mutiny 的产品与设计负责人。"
+  },
+  "episodeSummary": "Kevin Yien shares counter-intuitive insights on product management, arguing that great PMs convert team potential into kinetic energy. He discusses tactical frameworks for improving product sense through decision logging, hiring via 'unsell' emails, and automating user research loops.",
+  "episodeSummary_zh": "Kevin Yien 分享了关于产品管理的非直觉性洞察，提出优秀的产品经理应致力于将团队的“势能”转化为“动能”。他详细介绍了通过决策日志提升产品感、利用“劝退邮件”筛选候选人，以及构建自动化用户调研闭环等实战框架。",
+  "keyTakeaways": [
+    "PMs should start as engineers, designers, or salespeople to understand the 'potential energy' of a team before managing it.",
+    "Writing is clarity at scale; if you can't sell or support your product through writing, you shouldn't build it.",
+    "Use 'Decision Logs' to build product sense by documenting rationale and reviewing outcomes later.",
+    "Send an 'Unsell Email' at the offer stage to be radically transparent about the job's downsides.",
+    "Automate user research by triggering workflows from sales call transcripts (Gong) to schedule interviews.",
+    "PMs define the constraints (perimeter), allowing engineers and designers to be creative within the box."
+  ],
+  "methodologies": [
+    {
+      "name": "The Perimeter Strategy",
+      "name_zh": "“划定边界”策略",
+      "category": "execution",
+      "problemItSolves": "Clarifies the murky division of labor between PM, Engineering, and Design, preventing micromanagement while ensuring focus.",
+      "problemItSolves_zh": "理清产品、研发和设计之间模糊的分工界限，在防止微观管理的同时确保团队聚焦。",
+      "summary": "The PM's role is to draw the perimeter of the problem space by applying strict constraints (target user, platforms, trade-offs). Once the box is defined, engineers and designers have full autonomy to fill that box creatively with the best solution.",
+      "summary_zh": "产品经理的职责是通过设定严格的约束条件（目标用户、平台、取舍权衡）来划定问题空间的边界。一旦“盒子”被定义好，研发和设计人员便拥有完全的自主权，在边界内发挥创造力以填充最佳解决方案。",
+      "principles": [
+        "Define strict constraints (e.g., target user segment, availability, speed vs. consistency).",
+        "Let the team 'fill the box' with creative solutions within those constraints.",
+        "Obsess over the final deliverable quality, even down to interaction details."
+      ],
+      "principles_zh": [
+        "定义严格的约束条件（如目标用户细分、可用性要求、速度与一致性的取舍）。",
+        "让团队在这些约束条件下，用创造性的方案“填满盒子”。",
+        "对最终交付物的质量保持偏执，细致到交互细节。"
+      ],
+      "whenToUse": "When writing PRDs or kicking off new features to align the team without stifling creativity.",
+      "whenToUse_zh": "在撰写 PRD 或启动新功能开发时，用于在不扼杀创造力的前提下对齐团队认知。",
+      "commonMistakes": "Drawing the box too loosely (lack of direction) or trying to design the solution inside the box (micromanagement).",
+      "commonMistakes_zh": "边界划定过于宽松（缺乏方向）或试图设计盒子内部的具体方案（微观管理）。",
+      "quote": "PMs should be doing everything in their power to draw the perimeter of the problem space. And it's within that, eng, design... can go as crazy as they want.",
+      "realWorldExample": "At Square, Kevin defined the constraints for the Restaurant POS, but spent a week with a designer fine-tuning a specific menu animation to match bartender muscle memory.",
+      "realWorldExample_zh": "在 Square 时，Kevin 定义了餐厅 POS 系统的约束条件，但随后与设计师花了一整周时间微调菜单动画，以匹配调酒师的肌肉记忆。"
+    },
+    {
+      "name": "The Decision Log",
+      "name_zh": "决策日志",
+      "category": "product-strategy",
+      "problemItSolves": "Product sense is often seen as mystical; this framework turns it into a trainable skill by creating a feedback loop for judgment.",
+      "problemItSolves_zh": "“产品感”常被视为玄学；该框架通过建立判断力的反馈回路，将其转化为可训练的技能。",
+      "summary": "Product sense is the ability to make good decisions with insufficient data. To improve this, PMs must log their decisions (or predictions of others' decisions), document the rationale, and review them after a set period to validate their intuition.",
+      "summary_zh": "产品感是在数据不足时做出正确决策的能力。为了提升这一点，产品经理必须记录自己的决策（或对他人决策的预测），写下背后的逻辑，并在一段时间后复盘以验证直觉。",
+      "principles": [
+        "Identify a decision point (internal or external market event).",
+        "Write down the decision and the specific rationale (the 'why').",
+        "Set a calendar reminder (e.g., 6 months) to review the outcome against the rationale."
+      ],
+      "principles_zh": [
+        "识别决策点（内部决策或外部市场事件）。",
+        "写下决策内容及其具体理由（即“为什么”）。",
+        "设置日历提醒（如6个月后），对比结果与当初的逻辑。"
+      ],
+      "whenToUse": "Continuously, both for your own roadmap decisions and when observing competitors' moves.",
+      "whenToUse_zh": "持续使用，既适用于自己的路线图决策，也用于观察竞争对手的动作时。",
+      "commonMistakes": "Only logging decisions but never reviewing them, or relying on hindsight bias instead of written proof.",
+      "commonMistakes_zh": "只记录决策却从不复盘，或依赖后见之明而非书面证据。",
+      "quote": "PMs need as many reps as possible in making decisions, documenting the rationale behind those decisions, and then crucially seeing the outcome of them.",
+      "realWorldExample": "When Shopify launched the 'Shop' app, Kevin logged his prediction that they were hijacking the fulfillment loop to compete with Amazon. He later confirmed this with the team.",
+      "realWorldExample_zh": "当 Shopify 推出 “Shop” 应用时，Kevin 记录了他的预测：Shopify 试图通过履约环节切入，与亚马逊竞争。后来他与该团队确认了这一推断。"
+    },
+    {
+      "name": "The Unsell Email",
+      "name_zh": "“劝退”邮件",
+      "category": "team-culture",
+      "problemItSolves": "Prevents hiring mismatches where candidates join with false expectations and leave (or underperform) shortly after.",
+      "problemItSolves_zh": "防止因候选人抱有错误期望入职，导致短期内离职或表现不佳的招聘错配。",
+      "summary": "At the offer stage, send a candid email listing the 'terrible' things about the role and company (e.g., poor work-life balance, chaos). If the candidate is still excited, they are a high-retention A+ hire.",
+      "summary_zh": "在发 Offer 阶段，发送一封坦诚的邮件，列出该职位和公司“糟糕”的一面（如糟糕的工作生活平衡、混乱等）。如果候选人依然兴奋，他们就是高留存率的 A+ 级人才。",
+      "principles": [
+        "Wait until the offer stage (you need to know their specific fears first).",
+        "List ~8 bullet points of genuine downsides or harsh realities.",
+        "Be available to discuss these points immediately if the candidate hesitates."
+      ],
+      "principles_zh": [
+        "等到发 Offer 阶段再发送（你需要先了解他们具体的担忧）。",
+        "列出约 8 个要点，陈述真实的负面情况或严酷现实。",
+        "如果候选人犹豫，要随时准备立即讨论这些点。"
+      ],
+      "whenToUse": "Final stage of hiring, specifically before the candidate signs the offer.",
+      "whenToUse_zh": "招聘的最后阶段，具体在候选人签署 Offer 之前。",
+      "commonMistakes": "Sending it too early before establishing value, or sugarcoating the negatives.",
+      "commonMistakes_zh": "发得太早（尚未建立价值认同），或对负面情况轻描淡写。",
+      "quote": "If you can tell them that upfront and they can read that whole email and still be equally excited to join you, find yourself a A+ hire.",
+      "realWorldExample": "Kevin used this at a Series A startup to warn a parent about the expectation of being online at 10 PM, filtering out those who couldn't commit.",
+      "realWorldExample_zh": "Kevin 在一家 A 轮初创公司使用此方法，预警一位身为家长的候选人可能需要在晚上 10 点在线，从而筛选掉了无法接受的人选。"
+    },
+    {
+      "name": "The Automated Research Loop",
+      "name_zh": "自动化用户调研闭环",
+      "category": "user-research",
+      "problemItSolves": "Overcomes the 'I don't have time' excuse for not talking to customers by removing the operational friction of sourcing and scheduling.",
+      "problemItSolves_zh": "通过消除寻找用户和安排时间的运营摩擦，解决产品经理以“没时间”为借口不与用户交流的问题。",
+      "summary": "Treat your sales and support teams as a research engine. Use automation tools to listen for triggers in customer conversations and automatically invite those customers to research sessions without manual intervention.",
+      "summary_zh": "将销售和支持团队视为调研引擎。利用自动化工具监听客户对话中的触发点，并自动邀请这些客户参与调研，无需人工干预。",
+      "principles": [
+        "Identify keywords relevant to your product (e.g., competitor names, feature issues).",
+        "Set up alerts (e.g., Gong to Slack) when these keywords are mentioned in calls.",
+        "Automate outreach (e.g., Zapier to Email) to send a Calendly link immediately."
+      ],
+      "principles_zh": [
+        "确定与产品相关的关键词（如竞争对手名称、功能问题）。",
+        "设置警报（如 Gong 到 Slack），当通话中提到这些词时触发。",
+        "自动化外呼（如 Zapier 到邮件），立即发送 Calendly 预约链接。"
+      ],
+      "whenToUse": "When you need a continuous stream of specific user feedback (B2B context) but lack dedicated research ops.",
+      "whenToUse_zh": "当你需要针对性的持续用户反馈流（B2B 场景），但缺乏专门的调研运营支持时。",
+      "commonMistakes": "Stopping user interviews because you feel you 'know' the customer already.",
+      "commonMistakes_zh": "因为觉得自己已经“了解”客户而停止用户访谈。",
+      "quote": "There is a world of difference between reading a report about a line cook and then standing with a line cook.",
+      "realWorldExample": "Using Gong to detect when a customer mentions 'POS issues', creating a Slack alert, which triggers a Zapier workflow to email that customer a research invite.",
+      "realWorldExample_zh": "利用 Gong 检测客户何时提到“POS 问题”，生成 Slack 警报，进而触发 Zapier 工作流向该客户发送调研邀请邮件。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The PM job can become a little too internal... But if you can't sell or support your own product, I don't trust you to build the product.",
+      "context": "On why writing and external communication are critical skills for PMs."
+    },
+    {
+      "text": "Product sense... to me, it's just a fancy way of saying you can make good decisions with insufficient data.",
+      "context": "Demystifying the concept of product sense."
+    },
+    {
+      "text": "We are not even beneath the dust on the surface when it comes to what's going to change.",
+      "context": "On the future impact of AI, referencing his daughter seeing AI image generation as simply 'drawing'."
+    },
+    {
+      "text": "Where's my other 3%? Who said a hundred is the most you can get?",
+      "context": "A lesson from his father about redefining expectations and not settling for the defined maximum."
+    }
+  ],
+  "filename": "Kevin Yien"
+}

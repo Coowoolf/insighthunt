@@ -1,0 +1,123 @@
+{
+  "guest": {
+    "name": "Nir Eyal",
+    "title": "Author & Consultant",
+    "company": "NirAndFar.com",
+    "background": "Nir Eyal is a bestselling author known for 'Hooked: How to Build Habit-Forming Products' and 'Indistractable'. He writes, consults, and teaches at the intersection of psychology, technology, and business, focusing on how products influence behavior and how individuals can master their attention.",
+    "background_zh": "Nir Eyal 是畅销书《上瘾》（Hooked）和《不可分心》（Indistractable）的作者。他在心理学、技术和商业的交叉领域从事写作、咨询和教学工作，专注于研究产品如何影响用户行为，以及个人如何掌控自己的注意力。"
+  },
+  "episodeSummary": "Nir Eyal dismantles the myth that technology is the sole cause of distraction, arguing instead that distraction is an emotion regulation problem. He introduces a four-step framework to become 'Indistractable': mastering internal triggers, making time for traction, hacking back external triggers, and using pacts. The conversation covers tactical tools like time-boxing, the 10-minute rule, and schedule syncing to regain control over professional and personal life.",
+  "episodeSummary_zh": "Nir Eyal打破了“技术是分心唯一根源”的迷思，提出分心本质上是情绪调节问题。他介绍了一个包含四个步骤的“不可分心”框架：掌控内部触发器、为“牵引力”预留时间、反制外部触发器以及使用契约防止分心。本期对话涵盖了时间盒管理（Time-boxing）、10分钟法则和日程对齐等战术性工具，帮助职场人在工作和生活中重获掌控权。",
+  "keyTakeaways": [
+    "Distraction is not a lack of focus; it is any action that pulls you away from your intent. Its opposite is Traction.",
+    "90% of distractions stem from internal triggers (boredom, anxiety, uncertainty), not external notifications.",
+    "To-do lists often harm productivity because they lack constraints; Time-boxing (calendaring) is superior for measuring input (time/attention).",
+    "The '10-Minute Rule' helps surf the urge of distraction by delaying the gratification rather than denying it.",
+    "Manage your manager by 'Schedule Syncing'—showing them your calendar to force prioritization trade-offs rather than just saying no."
+  ],
+  "methodologies": [
+    {
+      "name": "The Indistractable Framework",
+      "name_zh": "不可分心（Indistractable）模型",
+      "category": "execution",
+      "problemItSolves": "Overcoming chronic distraction and the inability to follow through on intentions, often blamed incorrectly on technology.",
+      "problemItSolves_zh": "解决长期分心和无法落实既定计划的问题，纠正将分心完全归咎于技术的错误认知。",
+      "summary": "A comprehensive strategy composed of four key steps to control attention. It reframes distraction as an action taken to escape discomfort (internal triggers) rather than just a reaction to notifications (external triggers).",
+      "summary_zh": "一个包含四个关键步骤的注意力管理策略。该模型重新定义了分心：分心不仅是对通知（外部触发器）的反应，更是为了逃避不适感（内部触发器）而采取的行动。",
+      "principles": [
+        "Master Internal Triggers: Identify the emotional discomfort (boredom, anxiety) driving the distraction.",
+        "Make Time for Traction: Turn values into time by scheduling specifically what you want to do (Traction).",
+        "Hack Back External Triggers: Limit interruptions from technology, colleagues, and environment.",
+        "Prevent Distraction with Pacts: Use pre-commitments (Price, Identity, or Effort pacts) as a firewall."
+      ],
+      "principles_zh": [
+        "掌控内部触发器：识别驱动分心行为的情绪不适（如无聊、焦虑）。",
+        "为“牵引力”预留时间：将价值观转化为时间安排，明确规划你想做的“牵引力”行为。",
+        "反制外部触发器：设法减少来自技术产品、同事和环境的打扰。",
+        "用契约防止分心：使用预先承诺（如金钱契约、身份契约或努力契约）作为最后的防火墙。"
+      ],
+      "whenToUse": "When you find yourself procrastinating or constantly switching context despite knowing what you 'should' be doing.",
+      "whenToUse_zh": "当你明明知道该做什么，却发现自己不断拖延或频繁切换上下文时。",
+      "commonMistakes": "Skipping the first step (internal triggers) and trying to rely solely on blocking apps or willpower.",
+      "commonMistakes_zh": "跳过第一步（内部触发器），仅仅依赖屏蔽软件或意志力来对抗分心。",
+      "quote": "The problem is not our technology. The problem is our inability to deal with discomfort.",
+      "realWorldExample": "Nir realized even with a 'dumb phone' and no internet, he still got distracted by cleaning his desk because he was avoiding the discomfort of writing.",
+      "realWorldExample_zh": "Nir发现即使换用没有互联网的“功能机”，他仍然会被整理书桌等琐事分心，因为他实际上是在逃避写作带来的心理不适。"
+    },
+    {
+      "name": "Time-Boxing & Schedule Syncing",
+      "name_zh": "时间盒管理与日程对齐",
+      "category": "execution",
+      "problemItSolves": "The 'endless to-do list' fallacy where tasks accumulate without time constraints, leading to overwhelm and poor prioritization.",
+      "problemItSolves_zh": "解决“无尽待办清单”谬误——任务在没有时间约束的情况下堆积，导致压倒性的压力和优先级混乱。",
+      "summary": "Replacing open-ended to-do lists with a zero-based calendar approach. You plan every slot of your day (including rest). This creates a physical artifact to negotiate priorities with stakeholders (Schedule Syncing).",
+      "summary_zh": "用零基日历法（Zero-based calendar）取代开放式的待办清单。你需要规划一天中的每个时段（包括休息）。这不仅能提高效率，还能生成一个可视化的工件，用于与利益相关者协商优先级（即日程对齐）。",
+      "principles": [
+        "Turn Values into Time: Schedule time for You, Relationships, and Work (Reflective vs. Reactive).",
+        "Measure Input, Not Output: Success is doing what you planned for the planned duration, not just finishing tasks.",
+        "Schedule Syncing: Show your time-boxed calendar to your manager/partner to negotiate trade-offs instead of saying 'no'.",
+        "Weekly Review: Spend 15 minutes on Sunday planning the week ahead."
+      ],
+      "principles_zh": [
+        "将价值观转化为时间：为自己、人际关系和工作（区分反思性工作与反应性工作）安排时间。",
+        "衡量投入而非产出：成功的标准是在预定时间内做了计划要做的事，而不仅仅是完成任务。",
+        "日程对齐：向管理者或伴侣展示你的时间盒日历，通过协商权衡取舍，而不是直接说“不”。",
+        "每周复盘：周日花15分钟规划接下来的一周。"
+      ],
+      "whenToUse": "Daily planning and during 1:1s with managers to align on capacity and priorities.",
+      "whenToUse_zh": "适用于每日规划，以及在与管理者的1:1会议中对齐产能和优先级。",
+      "commonMistakes": "Measuring productivity by boxes checked off a list; failing to schedule 'fun' or 'rest', leading to burnout.",
+      "commonMistakes_zh": "通过勾选清单上的方框来衡量生产力；未能将娱乐或休息排入日程，导致职业倦怠。",
+      "quote": "You cannot call something a distraction unless you know what it distracted you from.",
+      "realWorldExample": "Nir uses Schedule Syncing with his wife to avoid arguments about household chores and childcare pick-ups.",
+      "realWorldExample_zh": "Nir与妻子使用“日程对齐”法，有效避免了关于家务琐事和接送孩子引发的争执。"
+    },
+    {
+      "name": "The 10-Minute Rule & Surfing the Urge",
+      "name_zh": "10分钟法则与冲动冲浪",
+      "category": "execution",
+      "problemItSolves": "Impulsive behaviors and the immediate gratification of internal triggers (e.g., checking email to avoid hard thinking).",
+      "problemItSolves_zh": "解决冲动行为和内部触发器带来的即时满足感（例如：为了逃避深度思考而查看邮件）。",
+      "summary": "A technique to manage discomfort without giving in immediately. It leverages the fact that emotions are transient waves, not permanent states.",
+      "summary_zh": "一种在不立即妥协的情况下管理不适感的技术。它利用了情绪如波浪般短暂而非永久存在的特性。",
+      "principles": [
+        "Not 'No', but 'Not Yet': Tell yourself you can give in to the distraction, but only after 10 minutes.",
+        "Surf the Urge: During the wait, observe the feeling/craving without acting on it.",
+        "Identity Mantra: Repeat a phrase like 'This is what it feels like to get better' to reframe the discomfort.",
+        "Return to Task: Often, the urge subsides before the timer ends."
+      ],
+      "principles_zh": [
+        "不说“不”，只说“等一下”：告诉自己你可以分心，但必须在10分钟之后。",
+        "冲动冲浪：在等待期间，观察这种感觉或渴望，但不要采取行动。",
+        "身份咒语：重复如“这就是变强必须经历的感觉”这样的短语，重构对不适感的认知。",
+        "回归任务：通常在计时结束前，冲动就会消退。"
+      ],
+      "whenToUse": "In the moment of feeling bored, stuck, or anxious while doing deep work.",
+      "whenToUse_zh": "在进行深度工作感到无聊、卡顿或焦虑的当下。",
+      "commonMistakes": "Trying to suppress the thought completely (white bear effect), which makes it stronger.",
+      "commonMistakes_zh": "试图完全压抑这种念头（白熊效应），这反而会强化冲动。",
+      "quote": "The time you plan to waste is not wasted time.",
+      "realWorldExample": "When writing becomes difficult, Nir sets a timer for 10 minutes before allowing himself to check Google or email.",
+      "realWorldExample_zh": "当写作变得困难时，Nir会在允许自己去查谷歌或看邮件之前，先设一个10分钟的计时器。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The opposite of distraction is not focus. The opposite of distraction is traction.",
+      "context": "Defining the core terminology of the Indistractable philosophy."
+    },
+    {
+      "text": "The carrot is the stick. Even wanting to feel good... is itself psychologically destabilizing.",
+      "context": "Explaining that all human motivation is driven by the desire to escape discomfort, not just pursuing pleasure."
+    },
+    {
+      "text": "A mistake repeated more than once is a decision.",
+      "context": "Quoting Paulo Coelho to emphasize personal agency in fixing distraction habits."
+    },
+    {
+      "text": "Distraction is a symptom of dysfunction.",
+      "context": "Discussing how workplace distraction often points to deeper cultural issues like lack of psychological safety."
+    }
+  ],
+  "filename": "Nir Eyal"
+}

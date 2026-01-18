@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Robby Stein",
+    "title": "VP of Product, Google Search",
+    "company": "Google",
+    "background": "Robby Stein is the VP of Product for Google Search, overseeing AI Overviews, AI Mode, and Lens. Previously, he was a Product VP at Instagram, where he led the launch of Stories, Reels, and Close Friends, helping scale the app to 500M DAU. He also co-founded Artifact (acquired by Yahoo) and Stamped (acquired by Yahoo).",
+    "background_zh": "Robby Stein 现任 Google 搜索产品副总裁，负责 AI Overviews、AI Mode 和 Lens 等核心产品。此前他在 Instagram 担任产品副总裁，主导了 Stories、Reels 和 Close Friends（密友可见）的发布，助力该应用日活突破 5 亿。他还曾联合创办 Artifact（被 Yahoo 收购）和 Stamped（被 Yahoo 收购）。"
+  },
+  "episodeSummary": "Robby Stein discusses Google's resurgence in AI consumer products, detailing the strategy behind Gemini and AI Mode. He shares deep product lessons from his time at Instagram (launching Stories and Close Friends), argues against the 'lean startup' mentality for major breakthroughs, and outlines his three-chapter framework for building enduring consumer products.",
+  "episodeSummary_zh": "Robby Stein 探讨了 Google 在 AI 消费级产品领域的复兴，详细解读了 Gemini 和 AI Mode 的背后的战略。他分享了在 Instagram 时期（发布 Stories 和 Close Friends）积累的深刻产品经验，反驳了针对重大突破性产品应采用“精益创业”心态的观点，并概述了他构建长青消费级产品的“三章”框架。",
+  "filename": "Robby Stein"
+}

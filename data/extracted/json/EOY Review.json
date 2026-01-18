@@ -3,7 +3,8 @@
     "name": "Lenny Rachitsky (Host) & All-Star Guests",
     "title": "Host of Lenny's Podcast / Various Industry Leaders",
     "company": "Lenny's Podcast / Various",
-    "background": "Lenny Rachitsky curates insights from the world's top product minds. This special episode features a compilation of experts including April Dunford (Positioning), Shishir Mehrotra (Coda), Shreyas Doshi (Stripe), Marty Cagan (SVPG), and others, representing the most impactful product thinking of 2022."
+    "background": "Lenny Rachitsky curates insights from the world's top product minds. This special episode features a compilation of experts including April Dunford (Positioning), Shishir Mehrotra (Coda), Shreyas Doshi (Stripe), Marty Cagan (SVPG), and others, representing the most impactful product thinking of 2022.",
+    "background_zh": "Lenny Rachitsky 甄选了来自全球顶尖产品专家的深度洞察。本期特别节目集结了包括 April Dunford (Positioning)、Shishir Mehrotra (Coda)、Shreyas Doshi (Stripe)、Marty Cagan (SVPG) 等在内的多位专家，代表了 2022 年度最具影响力的产品思维。"
   },
   "episodeSummary": "In this retrospective of the year's top 10 episodes, Lenny compiles the most high-impact frameworks and insights from product legends. The conversation spans critical domains including product positioning, behavioral science, career scaling (PSHE and LNO frameworks), and the core competencies of empowered product teams. It serves as a masterclass in actionable product strategy, moving beyond theory into specific mental models for execution and leadership.",
   "keyTakeaways": [
@@ -32,7 +33,20 @@
       "whenToUse": "When launching a new product, repositioning a struggling product, or when sales teams are losing to 'no decision'.",
       "commonMistakes": "Starting with Step 5 (Market Category) and trying to work backward, or ignoring 'Status Quo' as a competitor.",
       "quote": "In B2B we lose about 40% of our deals to 'No decision,' which actually means we lost to the spreadsheet.",
-      "realWorldExample": "April Dunford explains that losing to 'interns' or 'spreadsheets' is a positioning failure against the status quo, not just direct competitors."
+      "realWorldExample": "April Dunford explains that losing to 'interns' or 'spreadsheets' is a positioning failure against the status quo, not just direct competitors.",
+      "summary_zh": "由 April Dunford 提炼的五步流程，主张首先认清“如果你的产品不存在，客户会采用什么替代方案”，从而将产品定位锚定于现实市场。",
+      "problemItSolves_zh": "解决产品定位模糊的问题，即团队往往从市场品类切入，却难以做出差异化。",
+      "whenToUse_zh": "- 启动新产品发布时\n- 对陷入困境的产品进行重新定位时\n- 销售团队输给“不做决策”时",
+      "commonMistakes_zh": "直接从第 5 步（市场品类）开始倒推，或是忽略了“维持现状”也是一种竞争对手。",
+      "realWorldExample_zh": "April Dunford 指出，输给“实习生”或“电子表格”，本质上是针对“现状”的定位失败，而非仅仅是败给了直接竞品。",
+      "principles_zh": [
+        "第一步：明确竞争替代方案。列出为赢单必须击败的对手，这不仅包括直接竞对的“核心名单”，还包括“维持现状”的选项（如使用 Excel、依赖实习生人工操作或纸笔记录）。",
+        "第二步：提炼独有能力。梳理出那些你具备、但替代方案所缺失的功能特性或能力。",
+        "第三步：转化为客户价值。将每一项独有能力映射为客户利益点（即回答“那又怎样？”的问题），从而归纳出核心价值维度。",
+        "第四步：定义最佳匹配客户。精准识别出对上述核心价值维度高度敏感的企业或用户的具体特征。",
+        "第五步：选择市场品类。界定一个市场语境，让你的产品价值在最佳匹配客户眼中变得显而易见。"
+      ],
+      "name_zh": "The Competitive Alternatives Positioning Cycle（竞争性替代方案定位循环）"
     },
     {
       "name": "The LNO Time-Leverage Framework",
@@ -48,7 +62,19 @@
       "whenToUse": "Daily prioritization, weekly planning, and when feeling overwhelmed by a growing backlog of tasks.",
       "commonMistakes": "Applying 'L' level effort and perfectionism to 'O' tasks (e.g., spending hours formatting an internal expense report).",
       "quote": "For the L tasks, let your inner perfectionist shine... but it cannot come from working more hours. It comes from spending less time on N tasks and O tasks.",
-      "realWorldExample": "Shreyas used to perfect his expense reports (O-task); later he realized bug reports could be L-tasks (detailed analysis for critical issues) or O-tasks (quick screenshot for minor issues)."
+      "realWorldExample": "Shreyas used to perfect his expense reports (O-task); later he realized bug reports could be L-tasks (detailed analysis for critical issues) or O-tasks (quick screenshot for minor issues).",
+      "summary_zh": "Shreyas Doshi 提出的一套任务管理框架，主张依据投入产出比（即影响力与投入精力的关系）对工作进行分类，旨在避免因过度打磨低价值任务而陷入职业倦怠。",
+      "problemItSolves_zh": "帮助高绩效人士与完美主义者驾驭不堪重负的待办清单，精准识别哪些任务真正值得追求高质量交付。",
+      "whenToUse_zh": "日常优先级梳理、每周工作规划，以及面对任务持续积压感到分身乏术时。",
+      "commonMistakes_zh": "在 \"O\" 类任务上投入 \"L\" 级别的精力和完美主义（例如：花费数小时去调整内部报销单的格式）。",
+      "realWorldExample_zh": "Shreyas 曾经力求将费用报销单做得尽善尽美（O-task）；后来他意识到，Bug 报告既可以是 L-task（针对核心问题进行详尽分析），也可以是 O-task（针对细微瑕疵仅做快速截图）。",
+      "principles_zh": [
+        "L 类（撬动型）：投入一份精力能撬动 10 到 100 倍回报的高杠杆任务。此类工作需追求极致，务必安排在精力最充沛的黄金时段处理。",
+        "N 类（常态型）：投入产出比约为 1:1 的任务。此类工作做到“达标”即可，必须严格限制时间投入（Time-box）。",
+        "O 类（事务型）：投入产出比小于 1 的低效任务。仅需以最低限度的精力完成交付（例如：提交报销流程）。",
+        "场景决定性质：同一项任务（例如 Bug 处理）可能属于“L 类”（如核心服务宕机），也可能属于“O 类”（如细微 UI 瑕疵），具体取决于所处场景。"
+      ],
+      "name_zh": "The LNO Time-Leverage Framework（LNO 时间杠杆框架）"
     },
     {
       "name": "The PSHE Career Growth Curve",
@@ -65,7 +91,20 @@
       "whenToUse": "During performance reviews, career laddering discussions, and self-assessment of PM seniority.",
       "commonMistakes": "Thinking that doing 'more' execution (volume) will get you promoted to senior levels, rather than shifting to Problem definition.",
       "quote": "At some point you're senior enough that you tell us the problems... 'I know you told me to go work on activation, but actually I think our issue is brand.'",
-      "realWorldExample": "Salespeople are often judged on PSHE—the best ones don't just hit quota (Execution), they identify new territories and problems to solve (Problem/Solution)."
+      "realWorldExample": "Salespeople are often judged on PSHE—the best ones don't just hit quota (Execution), they identify new territories and problems to solve (Problem/Solution).",
+      "summary_zh": "Shishir Mehrotra 的模型指出，资深程度取决于你对“解决问题全链路”的掌控范围，而非仅仅取决于团队管理的规模。",
+      "problemItSolves_zh": "厘清产研职业晋升的底层逻辑，不再局限于“管辖范围”，而是转向“自主权”与“定义问题的能力”。",
+      "whenToUse_zh": "用于绩效考核、职级晋升沟通，以及产品经理职级自评。",
+      "commonMistakes_zh": "误以为单纯通过增加执行的“量”就能晋升到资深职级，而非将重心转向“定义问题”。",
+      "realWorldExample_zh": "销售人员的评估往往也基于 PSHE 框架——顶尖销售不仅仅是完成业绩指标（Execution），他们还能开拓新的市场领域并识别待解决的问题（Problem/Solution）。",
+      "principles_zh": [
+        "阶段 E（执行）：上级直接下发问题、解决方案及具体路径（How），你仅需负责执行落地。",
+        "阶段 H（路径）：你接收问题和初步方案，由你来规划具体路径（How），包括制定里程碑和组织协调资源。",
+        "阶段 S（方案）：你仅接收到一个问题，需要产出完整的解决方案（Solution）及执行路径。",
+        "阶段 P（问题）：你需要向管理层定义真正的问题是什么（例如：“表面看是激活（Activation）问题，本质其实是品牌问题”）。",
+        "幻灭低谷期：这是职业生涯中期的迷茫阶段，对你的考核标准不再基于业务范围或工作量，而是转变为对 PSHE 层级能力的评估。"
+      ],
+      "name_zh": "The PSHE Career Growth Curve（PSHE 职业成长曲线）"
     },
     {
       "name": "The 3 Bs of Behavioral Change",
@@ -80,7 +119,18 @@
       "whenToUse": "When designing onboarding flows, trying to increase feature adoption, or debugging why users drop off.",
       "commonMistakes": "Defining the behavior as 'Log in' (which is a step, not the value) or focusing on long-term benefits (health) instead of immediate ones (checking a box).",
       "quote": "If you don't define that behavior... you can't actually define the psychologies that affect someone's decision making when doing that behavior.",
-      "realWorldExample": "Peloton: The goal isn't 'exercise', it is 'within 7 days of starting, do 2 ten-minute workouts with two different instructors.'"
+      "realWorldExample": "Peloton: The goal isn't 'exercise', it is 'within 7 days of starting, do 2 ten-minute workouts with two different instructors.'",
+      "summary_zh": "Kristen Berman 将行为经济学应用于产品设计的框架，主张聚焦具体的行动，而非模糊的结果。",
+      "problemItSolves_zh": "弥合了“期望用户采取行动”与“通过产品设计切实促成该行动”之间的鸿沟。",
+      "whenToUse_zh": "设计用户引导流程、提升功能渗透率，或排查用户流失原因时。",
+      "commonMistakes_zh": "将行为定义为“登录”（这仅是操作步骤，而非价值所在），或是聚焦于长期收益（如健康）而非即时反馈（如完成打卡）。",
+      "realWorldExample_zh": "Peloton：目标不应是笼统的“锻炼”，而是“在开始后的 7 天内，跟随两位不同的教练完成 2 次 10 分钟的课程”。",
+      "principles_zh": [
+        "B1：行为 (Behavior)。对关键动作的定义必须极度具体。（例如：明确为“7 天内健身 2 次”，而非笼统的“去健身”）。",
+        "B2：障碍 (Barriers)。识别并消除“操作阻碍”（如点击跳转、表单填写）与“认知障碍”（如不确定性、现状偏见、乐观偏见）。",
+        "B3：收益 (Benefits)。放大*即时*收益。基于人性的“现时偏误”（Present-biased），用户重当下而轻未来。善用“完成欲”（如 Checkbox 勾选）或“社会认同”机制。"
+      ],
+      "name_zh": "The 3 Bs of Behavioral Change（行为改变 3B 模型）"
     }
   ],
   "notableQuotes": [
@@ -101,5 +151,6 @@
       "context": "Ad read context, but a notable insight regarding enterprise sales readiness mentioned during the sponsor break."
     }
   ],
-  "filename": "EOY Review"
+  "filename": "EOY Review",
+  "episodeSummary_zh": "在这期年度 Top 10 单集复盘中，Lenny 深度提炼了由产品界传奇人物分享的高影响力框架与核心洞察。讨论内容横跨产品定位、行为科学、职业跃迁（含 PSHE 和 LNO 框架）以及赋能型产品团队的核心能力等关键领域。这是一堂极具实操价值的产品战略大师课，它超越了纯理论层面，转化为可用于执行落地与领导力提升的具体思维模型。"
 }

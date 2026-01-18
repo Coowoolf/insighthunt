@@ -3,7 +3,8 @@
     "name": "Emily Kramer",
     "title": "Co-founder & General Partner",
     "company": "MKT1 / MKT1 Capital",
-    "background": "Emily led and built marketing teams from scratch at Asana, Carta, Ticketfly, and Astro. She is a highly regarded angel investor and writer who specializes in helping early-stage B2B startups build their marketing function and go-to-market strategy."
+    "background": "Emily led and built marketing teams from scratch at Asana, Carta, Ticketfly, and Astro. She is a highly regarded angel investor and writer who specializes in helping early-stage B2B startups build their marketing function and go-to-market strategy.",
+    "background_zh": "Emily 曾在 Asana、Carta、Ticketfly 和 Astro 从 0 到 1 组建并领导市场团队。作为业内备受推崇的天使投资人与专业作者，她专注于帮助早期 B2B 初创公司搭建市场体系及制定 GTM 策略。"
   },
   "episodeSummary": "Emily Kramer demystifies the often nebulous function of marketing for product leaders and founders. She introduces concrete mental models for diagnosing growth bottlenecks, hiring the right archetypes based on business model, and establishing high-trust collaboration between Product and Marketing. The conversation shifts marketing from 'splatergy' (random tactics) to a disciplined engineering-like discipline focused on fuel and engines.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When growth slows down, when hiring the first marketing lead, or when deciding between investing in ads vs. content.",
       "commonMistakes": "Building a massive Engine (outbound, ads) with low-quality Fuel (bad messaging), resulting in burning cash with no retention.",
       "quote": "Just think of marketing as you need a fuel and you need an engine... Fuel is all the things that you're creating... An engine is how you get it out to the right people.",
-      "realWorldExample": "A startup sending massive outbound emails (Engine) with no valuable content or clear value prop (Fuel), wondering why meetings aren't booking."
+      "realWorldExample": "A startup sending massive outbound emails (Engine) with no valuable content or clear value prop (Fuel), wondering why meetings aren't booking.",
+      "summary_zh": "与其陷入营销的细分职能（需求挖掘、品牌、内容）中，不如将营销视为一个由两大核心组件构成的系统：燃料（价值创造）和引擎（分发）。一旦二者失衡，增长便会停滞。",
+      "problemItSolves_zh": "帮助团队诊断增长策略的失效环节，并明确下一步真正需要招聘的市场人才类型。",
+      "whenToUse_zh": "- 当增长放缓时\n- 招聘首位市场负责人时\n- 需在广告投放与内容建设之间做决策时",
+      "commonMistakes_zh": "构建了庞大的引擎（外呼、广告），却注入了劣质燃料（糟糕的信息传达），最终导致烧钱却毫无留存。",
+      "realWorldExample_zh": "一家初创公司依靠海量 Outbound 邮件（Engine），却未能提供有价值的内容或清晰的价值主张（Fuel），还在困惑为何无法获得会议预约。",
+      "principles_zh": [
+        "第一步：诊断“燃料”——你是否拥有高转化文案、清晰的产品定位和高价值内容？如果用户到达落地页却未完成转化，说明你的“燃料”有问题。",
+        "第二步：诊断“引擎”——你是否具备相应的运营体系、自动化机制和分发渠道，能将内容精准触达目标人群？如果内容优质但缺乏流量，说明你的“引擎”有问题。",
+        "第三步：针对短板招聘——如果缺乏“燃料”，请招聘产品营销经理（PMM）或内容负责人；如果缺乏“引擎”，请招聘增长负责人或获客（Demand Gen）负责人。",
+        "第四步：评估“产品-市场”衔接——确保“引擎”引入的用户所获得的产品体验，能够完美承接并兑现营销端的叙事承诺。"
+      ],
+      "name_zh": "The Fuel & Engine Diagnostic（燃料与引擎诊断）"
     },
     {
       "name": "The GACCS Launch Brief",
@@ -47,7 +60,20 @@
       "whenToUse": "Before every product launch, major content campaign, or go-to-market initiative.",
       "commonMistakes": "Skipping the brief and going straight to drafting blog posts or designing ads, resulting in assets that don't fit the channel or audience.",
       "quote": "GACCS sounds more fun to say... but this is just a marketing brief that I recommend you do before you make anything big.",
-      "realWorldExample": "At Asana, using this framework to ensure that a product feature launch wasn't just a feature description, but a story distributed through the right channels to the right specific user segment."
+      "realWorldExample": "At Asana, using this framework to ensure that a product feature launch wasn't just a feature description, but a story distributed through the right channels to the right specific user segment.",
+      "summary_zh": "这是一套结构化的简报框架，用于市场与产品部门在启动任何创意制作或发布执行前进行双向对齐。它强制团队在着手具体方案（What）之前，优先厘清核心目的（Why）与目标受众（Who）。",
+      "problemItSolves_zh": "避免产品与市场团队在发布期间步调脱节，杜绝“乱枪打鸟”式的无序营销战术。",
+      "whenToUse_zh": "在每一次产品发布、大型内容战役或 GTM 计划启动之前。",
+      "commonMistakes_zh": "跳过 Brief 环节直接开始撰写文案或设计广告，导致产出的物料与渠道或受众不匹配。",
+      "realWorldExample_zh": "在 Asana，利用该框架确保功能发布不仅仅是简单的功能描述，而是转化为一个通过精准渠道触达特定细分用户群的产品故事。",
+      "principles_zh": [
+        "**目标**：定义具体的数据指标影响（如注册量、功能渗透率），而非仅仅是“功能上线”这一动作。",
+        "**受众**：精准定义目标用户群体。切记，“所有人”绝非有效的目标受众。",
+        "**创意**：明确核心吸引点（Hook）或独特的切入角度。相比竞品，我们的差异化优势在哪里？",
+        "**渠道**：确定具体的分发渠道（如 EDM、站内推送、社媒、付费投放）。",
+        "**干系人**：清晰列出 DRI（直接负责人）、协作者及审批人。"
+      ],
+      "name_zh": "The GACCS Launch Brief（GACCS 发布简报）"
     },
     {
       "name": "The Pie-Shaped Talent Model",
@@ -63,7 +89,19 @@
       "whenToUse": "Writing job descriptions and evaluating candidates for the first 1-3 marketing hires.",
       "commonMistakes": "Hiring a T-shaped person who is 'okay' at everything but excellent at nothing, or hiring a pure specialist who cannot function without a supporting team.",
       "quote": "You want to hire Pi-shaped marketers... like the Pi symbol has two vertical lines... an expert in one of those three areas... and proficient in another one.",
-      "realWorldExample": "Hiring a Product Marketer who is also deeply skilled at Content (writing/storytelling) to be the first hire, knowing they can hire an agency for Paid Ads (the gap)."
+      "realWorldExample": "Hiring a Product Marketer who is also deeply skilled at Content (writing/storytelling) to be the first hire, knowing they can hire an agency for Paid Ads (the gap).",
+      "summary_zh": "与其寻找 T 型市场人才（横向涉猎广，纵向仅单点深）或单一型专家，早期初创企业更应招聘 \"π 型\" 市场人才——这类人才在具备广博知识面的同时，拥有*两项*极具差异化的核心深度专长。",
+      "problemItSolves_zh": "解决了难以招募到一位无所不能的“独角兽”型首位市场员工的困境。",
+      "whenToUse_zh": "为首批 1-3 位市场人员撰写职位描述并评估候选人。",
+      "commonMistakes_zh": "招聘样样都懂却无一精通的 T 型人才，或是脱离团队支持便无法独立运作的纯专才。",
+      "realWorldExample_zh": "招聘一位精通内容（文案/叙事）的产品营销专家作为首位员工，通过聘请 Agency 来补齐付费投放这一能力短板。",
+      "principles_zh": [
+        "核心专长 1：通常是产品营销（对客户与市场的深度洞察）。",
+        "核心专长 2：内容（制造增长燃料）或增长（构建增长引擎）。",
+        "横向基准：代表具备全域策略规划能力，以及在非核心专长领域统筹外部资源（如外包）的能力。",
+        "避免录用：缺乏核心专长的“万金油”型通才，以及无法统筹其他职能的单点型专才（如仅懂 SEO）。"
+      ],
+      "name_zh": "The Pie-Shaped Talent Model（$\\pi$型人才模型）"
     }
   ],
   "notableQuotes": [
@@ -80,5 +118,6 @@
       "context": "A metaphor for how marketing is often misunderstood, nebulous, and hard for outsiders (like engineers/PMs) to see clearly."
     }
   ],
-  "filename": "Emily Kramer"
+  "filename": "Emily Kramer",
+  "episodeSummary_zh": "Emily Kramer 为产品负责人和创始人深度祛魅了往往显得模糊不清的市场职能。她提供了一套具象的实战思维模型，用于诊断增长瓶颈、基于商业模式匹配合适的人才画像，以及建立产品与市场团队间的高信赖协作。这场对话将市场工作从“乱枪打鸟”（随机的战术堆砌）重塑为一门严谨的、聚焦于“燃料与引擎”的工程化体系。"
 }

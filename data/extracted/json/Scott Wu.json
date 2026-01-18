@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Scott Wu",
+    "title": "Co-founder & CEO",
+    "company": "Cognition",
+    "background": "Scott Wu is the co-founder and CEO of Cognition, the company behind Devin, the first fully autonomous AI software engineer. A legendary competitive programmer and math prodigy, he previously founded Lunchclub and has led Cognition from a hackathon project to a leading AI lab in under 18 months.",
+    "background_zh": "Scott Wu 是 Cognition 的联合创始人兼 CEO，该公司开发了全球首个全自主 AI 软件工程师 Devin。Scott 是传奇的竞技程序员和数学天才，曾创立 Lunchclub。他在不到18个月的时间里，将 Cognition 从一个黑客马拉松项目打造成了领先的 AI 实验室。"
+  },
+  "episodeSummary": "Scott Wu discusses the creation and evolution of Devin, explaining how autonomous agents are shifting software engineering from synchronous coding to asynchronous architectural oversight. He details how his 15-person engineering team uses fleets of AI agents to handle 25% of their own code merges, and shares his philosophy on building high-velocity startups by focusing intensely on the basics.",
+  "episodeSummary_zh": "Scott Wu 深入探讨了 Devin 的诞生与演进，解释了自主智能体（Autonomous Agents）如何将软件工程从同步编码转变为异步的架构监管模式。他详细介绍了其 15 人的工程团队如何利用 AI 智能体集群完成 25% 的代码合并工作，并分享了通过极致专注于基本功来构建高速增长创业公司的哲学。",
+  "filename": "Scott Wu"
+}

@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Shweta Shrivastava",
+    "title": "Senior Director of Product Management",
+    "company": "Waymo",
+    "background": "Shweta is currently leading product management at Waymo, focusing on autonomous driving behavior, simulation tools, and ride-hailing commercialization. Previously, she was CPO at Nauto and held leadership roles at AWS and Cisco.",
+    "background_zh": "Shweta 目前担任 Waymo 的高级产品总监，负责自动驾驶行为、仿真工具及网约车商业化落地。在此之前，她曾任 Nauto 的首席产品官（CPO），并在 AWS 和 Cisco 担任过领导职务。"
+  },
+  "episodeSummary": "Shweta discusses the unique challenges of product management for autonomous vehicles, contrasting 'move fast and break things' with safety-critical systems. She details how Waymo builds trust through 'natural' driving behaviors and shares leadership lessons on communication efficiency and career growth from her time at Amazon and Waymo.",
+  "episodeSummary_zh": "Shweta 探讨了自动驾驶领域产品管理的独特挑战，对比了传统的“快速迭代试错”模式与生命攸关的安全系统之间的差异。她详细介绍了 Waymo 如何通过“拟人化”的驾驶行为建立用户信任，并分享了她在 Amazon 和 Waymo 积累的高效沟通与职业成长方面的领导力经验。",
+  "keyTakeaways": [
+    "In safety-critical deep tech, the MVP bar is significantly higher; you cannot 'cut corners' on safety to iterate faster.",
+    "Building trust in AI requires designing 'body language' and predictability into the system, not just following traffic rules.",
+    "Autonomous vehicles must learn 'social norms' (unspoken rules) of driving, not just legal regulations, to feel natural.",
+    "Use the 'Rule of Seven' to stop endless email threads and force synchronous resolution.",
+    "To get promoted, focus obsessively on business impact rather than maneuvering for the title.",
+    "Large companies must disrupt themselves before startups do (The Innovator's Dilemma)."
+  ],
+  "methodologies": [
+    {
+      "name": "Safety-Critical MVP Framework",
+      "name_zh": "安全导向型 MVP 框架",
+      "category": "product-strategy",
+      "problemItSolves": "How to apply Agile/MVP concepts to hardware or AI products where failure poses physical risks (unlike pure SaaS).",
+      "problemItSolves_zh": "如何在涉及物理安全风险的硬件或 AI 产品中应用敏捷/MVP 概念（区别于纯 SaaS 软件）。",
+      "summary": "Redefining the 'Minimum' in MVP for deep tech. Instead of launching with bugs to fix later, the product must meet a 'super-human' safety benchmark before public deployment, shifting the focus from speed-to-market to rigorous simulation and validation.",
+      "summary_zh": "重新定义硬科技领域的“最小化”。不同于传统软件“先上线后修Bug”的模式，该产品在公测前必须达到超越人类驾驶员的安全基准，将重心从上市速度转移到严格的仿真模拟与验证上。",
+      "principles": [
+        "Benchmark against human performance: Establish specific safety metrics (e.g., collisions per 100k miles) based on human data.",
+        "Zero compromise on safety: The 'Minimum' viable feature set must include full safety redundancy; no cutting corners.",
+        "Simulation before Real World: Extensive use of simulation tools to validate performance before physical deployment.",
+        "Operational Metrics focus: Track 'stops and strands' (stalling traffic) alongside safety to ensure commercial viability."
+      ],
+      "principles_zh": [
+        "对标人类表现：基于人类驾驶数据建立具体的安全指标（如每10万英里的碰撞率）。",
+        "安全零妥协：MVP 的功能集必须包含完整的安全冗余，绝不偷工减料。",
+        "仿真先行：在物理部署前，广泛使用仿真工具验证系统性能。",
+        "运营指标聚焦：除了安全性，还需追踪“停滞与受困”（阻碍交通）等指标，以确保商业可行性。"
+      ],
+      "whenToUse": "When building products in healthcare, autonomous systems, or heavy industry where errors have high liability or physical consequences.",
+      "whenToUse_zh": "适用于医疗健康、自动驾驶系统或重工业等容错率低、故障会导致高责任风险或物理伤害的产品开发。",
+      "commonMistakes": "Treating safety features as 'v2' items or assuming users will forgive critical failures as part of a 'beta' test.",
+      "commonMistakes_zh": "将安全功能视为 v2 版本的迭代项，或误以为用户会像对待软件 Beta 版一样宽容对待关键性故障。",
+      "quote": "The concept of MVP, which is so widely popular in the SaaS product management world... has a whole new meaning here at Waymo... can't really cut corners on safety.",
+      "realWorldExample": "Waymo does not rely on users to 'take over' in emergencies (L4 autonomy); the system is validated to handle all situations safely before launch, unlike L2 driver-assist systems.",
+      "realWorldExample_zh": "Waymo 不依赖用户在紧急情况下“接管”车辆（L4 级自动驾驶）；与 L2 级辅助驾驶系统不同，该系统在发布前已验证能安全处理所有情况。"
+    },
+    {
+      "name": "The 'Social Driving' Trust Model",
+      "name_zh": "“社会化驾驶”信任模型",
+      "category": "user-research",
+      "problemItSolves": "Overcoming user fear and the 'uncanny valley' effect when interacting with autonomous agents or robots.",
+      "problemItSolves_zh": "克服用户在与自动驾驶代理或机器人交互时的恐惧感及“恐怖谷”效应。",
+      "summary": "Building trust by programming AI to adhere to social norms, not just strict rules. This involves creating digital 'body language' to communicate intent and ensuring the ride feels natural (e.g., not overly robotic).",
+      "summary_zh": "通过让 AI 遵守“社会潜规则”而非仅是死板的法律条文来建立信任。这包括设计数字化的“肢体语言”来传达意图，并确保乘坐体验自然（避免过于机械化）。",
+      "principles": [
+        "Digital Body Language: Use subtle movements (inching forward) to signal intent to other drivers/pedestrians.",
+        "Social Norm Adherence: Understand context (e.g., stopping behavior in SF vs. Phoenix) beyond legal signage.",
+        "Naturalness over Strict Rule Following: Adjust behavior (like speed on hills) to match human expectations of physics/comfort.",
+        "Transparency: Visualize what the AI 'sees' on in-car screens to reassure passengers."
+      ],
+      "principles_zh": [
+        "数字肢体语言：利用细微的动作（如缓慢向前蠕动）向其他司机或行人发出意图信号。",
+        "遵守社会规范：理解法律标识之外的语境（例如旧金山与菲尼克斯不同的停车行为习惯）。",
+        "自然感优于死板守则：调整行为（如在下坡时的速度控制）以符合人类对物理感知和舒适度的预期。",
+        "透明化：在车内屏幕上可视化 AI “看到”的内容，以安抚乘客。"
+      ],
+      "whenToUse": "Designing HMI (Human-Machine Interfaces), robotics, or AI agents that interact physically or conversationally with humans.",
+      "whenToUse_zh": "设计 HMI（人机交互界面）、机器人技术或需要与人类进行物理/对话交互的 AI 代理时。",
+      "commonMistakes": "Designing a system that follows rules perfectly but behaves unpredictably or aggressively to humans (being 'technically right' but 'socially wrong').",
+      "commonMistakes_zh": "设计出一个完美遵守规则但在人类看来行为不可预测或具有侵略性的系统（即“技术上正确”但“社交上错误”）。",
+      "quote": "If there's cars coming in that lane... the car just kind of subtly was inching its way out, communicating through this interesting body language thing.",
+      "realWorldExample": "Waymo cars learned to slow down slightly when going downhill, even if below the speed limit, because humans naturally do this and it feels safer/more comfortable.",
+      "realWorldExample_zh": "Waymo 车辆学会了在下坡时稍微减速（即使本来就低于限速），因为人类通常会这样做，这会让乘客感觉更安全舒适。"
+    },
+    {
+      "name": "The Rule of Seven",
+      "name_zh": "“七封邮件”沟通原则",
+      "category": "team-culture",
+      "problemItSolves": "Inefficient decision-making and miscommunication in large cross-functional teams.",
+      "problemItSolves_zh": "大型跨职能团队中决策效率低下和沟通不畅的问题。",
+      "summary": "A tactical rule to prevent communication breakdown: if an email thread reaches seven replies (or ten in very large orgs) without resolution, you must switch communication channels immediately.",
+      "summary_zh": "防止沟通崩溃的战术原则：如果一封邮件往来超过七次（在超大型组织中可能是十次）仍未解决问题，必须立即切换沟通渠道。",
+      "principles": [
+        "Monitor Thread Depth: Actively count exchanges in a thread.",
+        "Automatic Trigger: Reach 7 replies -> Stop typing.",
+        "Synchronous Resolution: Call the person, walk to their desk, or schedule a huddle to resolve live.",
+        "Exclude Bystanders: Prevent 'reply-all' spirals that waste collective time."
+      ],
+      "principles_zh": [
+        "监控邮件深度：主动计算邮件往来的次数。",
+        "自动触发机制：达到7次回复 -> 停止打字。",
+        "同步解决：打电话、走到工位或安排快速会议现场解决。",
+        "排除旁观者：防止“全员回复”浪费集体时间。"
+      ],
+      "whenToUse": "In corporate environments where 'alignment' often stalls in long text-based debates.",
+      "whenToUse_zh": "适用于“对齐”工作经常停滞在冗长的文字辩论中的企业环境。",
+      "commonMistakes": "Continuing to add more people to the thread hoping strictly text-based arguments will clarify complexity.",
+      "commonMistakes_zh": "不断把更多人拉入邮件抄送，寄希望于通过纯文字辩论来厘清复杂问题。",
+      "quote": "If there have been seven emails in an email thread and you still haven't resolved the issue, just call the person or get in a room huddle.",
+      "realWorldExample": "Shweta implemented this at previous companies and adapted it to Waymo (limit ~10) to cut through bureaucratic noise.",
+      "realWorldExample_zh": "Shweta 在之前的公司实施了这一原则，并将其调整适应 Waymo 的环境（限制约为10次），以减少官僚噪音。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If there's no conflict, if there's no contention, then something is missing.",
+      "context": "On the importance of challenging assumptions and diverse perspectives in product leadership."
+    },
+    {
+      "text": "The way to get promoted is to not want it too badly... focus on the impact.",
+      "context": "Her advice on career growth and avoiding the trap of 'optimizing for the title'."
+    },
+    {
+      "text": "You need to disrupt yourself before somebody else does because it's going to happen. It's inevitable.",
+      "context": "On the Innovator's Dilemma and product strategy in large tech companies."
+    }
+  ],
+  "filename": "Shweta Shriva"
+}

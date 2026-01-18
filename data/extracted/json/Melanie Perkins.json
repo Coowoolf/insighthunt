@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Melanie Perkins",
+    "title": "CEO & Co-founder",
+    "company": "Canva",
+    "background": "Melanie Perkins is the CEO and co-founder of Canva, an online design and visual communication platform valued at over $40 billion. She led the company from a small yearbook business in Australia to a global tech giant with over 170 million monthly active users, consistently maintaining profitability.",
+    "background_zh": "Melanie Perkins 是 Canva 的联合创始人兼 CEO，该公司目前估值超过 400 亿美元，是全球领先的在线设计与视觉传播平台。她带领 Canva 从澳大利亚的一个小型年鉴制作业务发展成为拥有超过 1.7 亿月活用户的全球科技巨头，并长期保持盈利。"
+  },
+  "episodeSummary": "Melanie Perkins shares the unconventional strategies behind Canva's rise from 100 investor rejections to a $40B+ juggernaut. She details her unique \"Column B\" thinking for visionary planning, how Canva operationalizes \"Crazy Big Goals,\" and the internal \"Chaos to Clarity\" framework used to ship products. The conversation also covers her two-step plan for global impact and how she integrates AI and community feedback into product development.",
+  "episodeSummary_zh": "Melanie Perkins 分享了 Canva 从遭遇 100 位投资人拒绝到成长为 400 亿美元巨头的非常规策略。她详细阐述了用于愿景规划的“B列思维（Column B Thinking）”，Canva 如何将“宏大目标”落地执行，以及内部用于产品发布的“从混沌到清晰”框架。对话还涵盖了她关于全球影响力的“两步走计划”，以及如何将 AI 和社区反馈整合到产品开发中。",
+  "keyTakeaways": [
+    "Adopt 'Column B Thinking': Don't build based on what's currently possible (Column A); build backward from the ideal future you want to exist.",
+    "Turn rejection into product iteration: Melanie used 100+ investor rejections to continuously refine her pitch deck, adding slides to address specific objections until the vision was undeniable.",
+    "Operationalize 'Crazy Big Goals': Break down a massive vision into 'Mission Pillars,' then into yearly goals, and celebrate the completion of each 'rung on the ladder.'",
+    "From Chaos to Clarity: Every product starts as a mess. Use a structured process of writing, visualizing, and prototyping to add clarity at every step.",
+    "The Two-Step Plan: Step 1 is to build a valuable company; Step 2 is to do the most good. Integrate impact into the business model early (e.g., 1% pledge) rather than waiting for the end.",
+    "Close the Loop: Categorize user feedback (Canva processes 1M+ requests/year) and explicitly notify users when their specific requests are shipped."
+  ],
+  "methodologies": [
+    {
+      "name": "Column B Thinking",
+      "name_zh": "B列思维（终局思维框架）",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents incrementalism and getting stuck within current constraints when planning the future of a product or company.",
+      "problemItSolves_zh": "防止产品或公司规划中的渐进式改良主义，避免受限于当下的资源和技术约束。",
+      "summary": "Most planning looks at available bricks and asks 'how high can I build?' (Column A). Column B thinking starts with the ideal, perfect vision of the future—regardless of feasibility—and works backward to determine the necessary steps to bridge the gap between today and that reality.",
+      "summary_zh": "大多数规划是看着手头的砖块问“我能盖多高？”（A列）。而“B列思维”则是从未来最完美的愿景出发——无论当前是否可行——然后倒推实现这一愿景所需的步骤，从而填补现状与未来之间的鸿沟。",
+      "principles": [
+        "Envision the Ideal: Define exactly what the world should look like in 10-20 years (e.g., 'Design is collaborative and online').",
+        "Ignore Current Constraints: Do not let technical limitations or current skills dictate the vision.",
+        "Build the Ladder: Create a roadmap of 'rungs' (steps) that bridge the gap from today to that future.",
+        "Start Micro: Take the first tiny step immediately, even if it feels inadequate compared to the massive vision."
+      ],
+      "principles_zh": [
+        "构想终局：清晰定义 10-20 年后世界的理想状态（例如：“设计将是在线且协同的”）。",
+        "忽略现状约束：不要让当前的技术限制或团队能力限制了愿景的想象力。",
+        "搭建阶梯：创建一个包含多个“横档”（步骤）的路线图，连接现状与未来。",
+        "微步启动：立即迈出第一步，即使这一步相对于宏大的愿景显得微不足道。"
+      ],
+      "whenToUse": "When setting long-term company strategy, defining a new product category, or when the team feels limited by technical debt.",
+      "whenToUse_zh": "适用于制定公司长期战略、定义新产品品类，或当团队感到受限于技术债而不敢创新时。",
+      "commonMistakes": "Confusing 'Column B' with just having a dream but failing to build the 'ladder' of actionable steps to get there.",
+      "commonMistakes_zh": "混淆了“B列思维”与单纯的白日做梦，虽然有了愿景，但未能构建出通往愿景的可执行“阶梯”。",
+      "quote": "The thing that I love about a crazy big goal is that you feel completely inadequate before it. You want to work really hard to will it into existence.",
+      "realWorldExample": "Melanie envisioned a future where design was online and simple (Column B), even though she was a student with no technical skills. She started with a micro-niche (school yearbooks) as the first rung on the ladder to eventually building Canva.",
+      "realWorldExample_zh": "Melanie 构想了一个设计变得在线且简单的未来（B列），尽管当时她只是个没有技术背景的学生。她从一个极小的细分市场（学校年鉴）开始，作为通往构建 Canva 宏大愿景的第一级阶梯。"
+    },
+    {
+      "name": "Chaos to Clarity Framework",
+      "name_zh": "从混沌到清晰（C2C）流程",
+      "category": "execution",
+      "problemItSolves": "Helps teams manage the ambiguity of early-stage ideas without killing them prematurely or getting lost in lack of direction.",
+      "problemItSolves_zh": "帮助团队管理早期想法的模糊性，避免过早扼杀创意，同时也防止因缺乏方向而迷失。",
+      "summary": "A standardized workflow Canva uses for every project. It acknowledges that all great ideas start as 'chaos' (abstract, messy) and requires a deliberate process of adding clarity through visualization and documentation to move toward a shipped product.",
+      "summary_zh": "这是 Canva 每个项目都在使用的标准化工作流。它承认所有伟大的想法始于“混沌”（抽象、混乱），并要求通过可视化和文档化这一刻意的过程不断增加清晰度，最终走向产品发布。",
+      "principles": [
+        "Admit the Chaos: Accept that the early stage (Concept) is messy and embarrassing; don't judge it yet.",
+        "Add Clarity Iteratively: Move from Brainstorm -> Written Doc -> Pitch Deck -> Prototype -> Build.",
+        "Visual Communication: Use visuals (decks/designs) early because ideas in heads cannot be critiqued or built.",
+        "The Vision Deck: Create a 'Vision Deck' for every project to align the team on the end state before writing code."
+      ],
+      "principles_zh": [
+        "承认混沌：接受早期阶段（概念期）是混乱且尴尬的，不要急于评判。",
+        "迭代增加清晰度：遵循“头脑风暴 -> 书面文档 -> 演示文稿 (Pitch Deck) -> 原型 -> 开发”的路径。",
+        "视觉化沟通：尽早使用视觉元素（PPT/设计稿），因为存在于脑海中的想法无法被评审或构建。",
+        "愿景文档：在写代码之前，为每个项目创建一个“愿景演示文稿”，确保团队对终局状态达成共识。"
+      ],
+      "whenToUse": "During the zero-to-one phase of a new feature or product, or when a team is misaligned on what they are building.",
+      "whenToUse_zh": "适用于新功能或产品的从 0 到 1 阶段，或者当团队对正在构建的内容缺乏共识时。",
+      "commonMistakes": "Trying to jump straight to high-fidelity engineering without passing through the 'clarity adding' stages of writing and visual pitching.",
+      "commonMistakes_zh": "试图跳过写作和视觉演示这些“增加清晰度”的阶段，直接进入高保真开发环节。",
+      "quote": "How do you go from chaos to clarity? You add clarity.",
+      "realWorldExample": "Before building their new video or enterprise products, the team creates a deck visualizing the future state. This moves the idea from an abstract concept in a PM's head to a tangible plan the team can execute.",
+      "realWorldExample_zh": "在构建新的视频或企业级产品之前，Canva 团队会制作一个演示文稿来可视化未来状态。这使得想法从产品经理脑中抽象的概念，转变为团队可执行的具体计划。"
+    },
+    {
+      "name": "The Rejection-Iteration Loop",
+      "name_zh": "融资反馈闭环迭代法",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming repeated rejection (fundraising or sales) and using it to refine product-market fit positioning.",
+      "problemItSolves_zh": "克服反复被拒绝（融资或销售）的挫败感，并利用这些反馈来优化产品市场匹配（PMF）定位。",
+      "summary": "Instead of viewing 'no' as a dead end, view it as data. With every rejection, identify the specific gap in understanding or market validation, and immediately update the pitch deck or strategy to pre-answer that objection for the next meeting.",
+      "summary_zh": "不要将“拒绝”视为死胡同，而应将其视为数据。每次被拒绝后，识别理解偏差或市场验证中的具体缺口，并立即更新演示文稿或战略，以便在下一次会议中预先回答该异议。",
+      "principles": [
+        "Decouple Ego: Rejection is feedback on the pitch/product, not the person.",
+        "Isolate the Objection: Was it market size? Competition? Identify the specific 'why'.",
+        "Structural Iterate: Add a new slide or change the narrative flow to address that specific objection.",
+        "Persistence through Refinement: Don't just keep knocking; change the knock. Improve the materials after every interaction."
+      ],
+      "principles_zh": [
+        "剥离自我：拒绝是对演示或产品的反馈，而不是对人的否定。",
+        "隔离异议：是因为市场规模？还是竞争对手？找出具体的“为什么”。",
+        "结构化迭代：增加一张新幻灯片或改变叙事流程，专门解决那个具体的异议。",
+        "通过优化坚持：不要只是重复敲门，要改变敲门的方式。在每次互动后改进你的材料。"
+      ],
+      "whenToUse": "Fundraising, B2B sales cycles, or internal stakeholder buy-in processes where you face skepticism.",
+      "whenToUse_zh": "适用于融资、B2B 销售周期，或在面临怀疑的内部利益相关者争取支持的过程中。",
+      "commonMistakes": "Ignoring the feedback and blaming the investor/customer, or changing the core vision rather than the articulation of the vision.",
+      "commonMistakes_zh": "忽略反馈并责怪投资人/客户，或者因为反馈改变了核心愿景，而不是仅仅改变愿景的表达方式。",
+      "quote": "Investors would say, 'Your market's not big enough,' and I would say, 'It's going to be huge.' And I'd add a new page in my pitch deck that said how big the market I believe was.",
+      "realWorldExample": "Melanie pitched 100 investors. When one said 'You are the same as X company,' she didn't just argue; she added a slide mapping the landscape to visually prove the gap Canva filled. This evolved the deck into a winning narrative.",
+      "realWorldExample_zh": "Melanie 向 100 位投资人进行了推介。当有人说“你们和某公司是一样的”时，她没有争辩，而是增加了一张幻灯片绘制市场版图，直观地证明 Canva 填补的空白。这使她的融资 PPT 进化成了一个必胜的叙事。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The thing that I love about a crazy big goal is that you feel completely inadequate before it. You want to work really hard to will it into existence.",
+      "context": "On why Canva sets goals that seem impossible to achieve."
+    },
+    {
+      "text": "How do you go from chaos to clarity? You add clarity.",
+      "context": "Her simple yet profound explanation of the product development process."
+    },
+    {
+      "text": "Step one, build one of the world's most valuable companies. Step two, do the most good we can do.",
+      "context": "Melanie describing Canva's 'Two-Step Plan' master strategy."
+    },
+    {
+      "text": "Everything good was once imagined.",
+      "context": "Her philosophy on the importance of imagination and 'Column B' thinking in creating the future."
+    }
+  ],
+  "filename": "Melanie Perkins"
+}

@@ -1,0 +1,117 @@
+{
+  "guest": {
+    "name": "Ronny Kohavi",
+    "title": "Author, Instructor, Former VP at Airbnb/Microsoft/Amazon",
+    "company": "Independent / Maven Course Instructor",
+    "background": "Ronny Kohavi is widely considered the 'godfather' of A/B testing and online experimentation. He previously led experimentation teams at Airbnb (VP), Microsoft (Corporate VP of Analysis & Experimentation), and Amazon, and co-authored the definitive book 'Trustworthy Online Controlled Experiments'.",
+    "background_zh": "Ronny Kohavi 被广泛认为是 A/B 测试和在线实验领域的教父级人物。他曾担任 Airbnb 副总裁、微软企业副总裁（负责分析与实验平台）以及亚马逊数据挖掘总监，是权威著作《Trustworthy Online Controlled Experiments》的合著者。"
+  },
+  "episodeSummary": "Ronny Kohavi dives deep into the science and culture of A/B testing, explaining why 80-90% of experiments fail and how to build a trustworthy experimentation platform. He discusses critical concepts like the Overall Evaluation Criterion (OEC), Twyman's Law, and the statistical pitfalls that mislead product teams.",
+  "episodeSummary_zh": "Ronny Kohavi 深入探讨了 A/B 测试的科学与文化，解释了为什么 80-90% 的实验都会失败，以及如何构建可信的实验平台。他详细阐述了全局评估标准 (OEC)、泰曼定律 (Twyman's Law) 以及容易误导产品团队的统计学陷阱。",
+  "keyTakeaways": [
+    "Most experiments fail (60-90%), so you must optimize for experiment velocity and low marginal cost.",
+    "Do not optimize solely for revenue; use an OEC (Overall Evaluation Criterion) that balances long-term user value.",
+    "If a result looks too good to be true, it is likely a data error (Twyman's Law).",
+    "You need tens of thousands of users to detect large effects, but ~200k+ for robust continuous optimization.",
+    "Trust is the most important currency in an experimentation platform; use guardrail metrics like Sample Ratio Mismatch (SRM)."
+  ],
+  "methodologies": [
+    {
+      "name": "The OEC Framework (Overall Evaluation Criterion)",
+      "name_zh": "OEC 框架 (全局评估标准)",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents teams from optimizing for short-term vanity metrics (like revenue or clicks) that degrade the user experience and hurt long-term retention.",
+      "problemItSolves_zh": "防止团队过度优化短期虚荣指标（如收入或点击率），从而损害用户体验和长期留存。",
+      "summary": "The OEC is a quantitative measure of the experiment's objective. It is a single metric (or a function of metrics) that aligns with the company's strategic goals and is causally predictive of long-term customer lifetime value.",
+      "summary_zh": "OEC 是实验目标的量化标准。它是一个单一指标（或指标函数），与公司的战略目标保持一致，并能因果预测用户的长期终身价值 (LTV)。",
+      "principles": [
+        "Align with Lifetime Value (LTV): Identify short-term metrics that predict long-term success (e.g., successful sessions vs. just clicks).",
+        "Constraint Optimization: Maximize the goal (e.g., revenue) subject to constraints (e.g., max ad pixels per page).",
+        "Countervailing Metrics: Always pair a success metric with a 'drag' metric (e.g., email revenue vs. unsubscribe rate)."
+      ],
+      "principles_zh": [
+        "对齐终身价值 (LTV)：识别能预测长期成功的短期指标（例如：关注“成功会话数”而非单纯的“点击数”）。",
+        "约束优化：在满足约束条件的前提下最大化目标（例如：在限制每页广告像素占用量的前提下最大化收入）。",
+        "反向制衡指标：始终将成功指标与“阻力”指标配对（例如：邮件收入 vs 取消订阅率）。"
+      ],
+      "whenToUse": "When designing any experiment, especially those involving monetization or engagement where negative side effects are possible.",
+      "whenToUse_zh": "在设计任何实验时，特别是涉及商业化或用户参与度、且可能产生负面副作用的场景。",
+      "commonMistakes": "Choosing 'Revenue' as the sole OEC without constraints, leading to a spammy user experience.",
+      "commonMistakes_zh": "在没有约束条件的情况下将“收入”作为唯一的 OEC，导致用户体验恶化（如广告泛滥）。",
+      "quote": "It's very easy to increase revenue by doing theatrics... but it hurts the user experience. You have to define the OEC such that it is causally predictive of the lifetime value of the user.",
+      "realWorldExample": "At Bing, they didn't just optimize for ad clicks; they optimized for revenue per search constrained by the number of pixels ads took up, ensuring the organic results weren't pushed too far down.",
+      "realWorldExample_zh": "在 Bing，团队不仅优化广告点击率，还在限制广告占用像素数的前提下优化单次搜索收入，确保自然搜索结果不会被推得太靠下。"
+    },
+    {
+      "name": "Twyman's Law & Data Trust Validation",
+      "name_zh": "泰曼定律与数据可信度验证",
+      "category": "execution",
+      "problemItSolves": "Identifies invalid experiments that look successful due to instrumentation errors, preventing teams from celebrating false wins.",
+      "problemItSolves_zh": "识别因由于监测错误而看似成功的无效实验，防止团队为空欢喜一场的“假胜利”庆祝。",
+      "summary": "Twyman's Law states that 'Any figure that looks interesting or different is usually wrong.' This framework requires rigorous validation of outliers before accepting them as true results.",
+      "summary_zh": "泰曼定律指出：“任何看起来有趣或与众不同的数据通常都是错的。” 该框架要求在接受异常好的结果之前，必须进行严格的验证。",
+      "principles": [
+        "Sample Ratio Mismatch (SRM) Test: Check if the ratio of users in Control vs. Treatment matches the design (e.g., 50/50). If not, the experiment is invalid.",
+        "Hold the Celebration: If a result exceeds normal variance (e.g., +10% lift when +1% is normal), assume it's a bug first.",
+        "Segment Analysis: Break down the 'win' to see if it's driven by bots, specific browsers, or redirects.",
+        "Guardrail Metrics: Monitor technical metrics like latency or error rates to ensure the 'win' isn't just a failure to log negative events."
+      ],
+      "principles_zh": [
+        "样本比率偏差 (SRM) 检测：检查对照组与实验组的用户比例是否符合设计（如 50/50）。如果不符合，实验即为无效。",
+        "暂缓庆祝：如果结果超出了正常波动范围（例如正常提升 1% 但结果显示 10%），首先假设这是个 Bug。",
+        "分层分析：拆解“胜利”数据，查看是否由机器人 (Bots)、特定浏览器或重定向问题驱动。",
+        "护栏指标：监控延迟或错误率等技术指标，确保所谓的“胜利”不是因为未能记录负面事件造成的。"
+      ],
+      "whenToUse": "Whenever an experiment returns a statistically significant result, especially one that is surprisingly positive.",
+      "whenToUse_zh": "每当实验返回统计显著的结果时，特别是当结果出奇地好时。",
+      "commonMistakes": "Accepting a 'Sample Ratio Mismatch' result because the lift is high, ignoring that the population bias invalidates the math.",
+      "commonMistakes_zh": "因为提升幅度大而接受了存在“样本比率偏差”的结果，忽略了样本偏差已经让统计学推论失效。"
+    },
+    {
+      "name": "Institutional Memory & The 80/20 Innovation Rule",
+      "name_zh": "组织记忆与 80/20 创新法则",
+      "category": "team-culture",
+      "problemItSolves": "Prevents repeating failed experiments (sunk costs) and balances incremental optimization with high-risk innovation.",
+      "problemItSolves_zh": "防止重复失败的实验（沉没成本），并在渐进式优化与高风险创新之间取得平衡。",
+      "summary": "A cultural framework where teams accept a high failure rate (80%+) for bold ideas, document 'surprising' failures to learn, and allocate resources between optimization and moonshots.",
+      "summary_zh": "一种文化框架，团队接受大胆想法的高失败率（80%+），记录“令人惊讶”的失败以吸取教训，并在优化与突破性创新之间合理分配资源。",
+      "principles": [
+        "Accept High Failure Rates: In mature products, 80-90% of experiments will fail to move the metric. This is a feature, not a bug.",
+        "Document Surprises: Create a searchable library of experiments. Focus on 'surprising' results (where actual differs from predicted), not just wins.",
+        "Portfolio Allocation: Allocate ~70-80% of resources to incremental wins (low risk) and 20% to high-risk/high-reward bets.",
+        "Incremental Redesigns: Avoid massive 'big bang' redesigns. Break them into testable components (one factor at a time)."
+      ],
+      "principles_zh": [
+        "接受高失败率：在成熟产品中，80-90% 的实验无法提升指标。这是常态而非异常。",
+        "记录“惊喜”：建立可搜索的实验库。关注那些“令人惊讶”的结果（实际结果与预测大相径庭），而不仅仅是胜利。",
+        "投资组合分配：将约 70-80% 的资源用于渐进式胜利（低风险），20% 用于高风险/高回报的赌注。",
+        "渐进式重构：避免大规模的“大爆炸”式重构。将其拆解为可测试的组件（单因素变量测试）。"
+      ],
+      "whenToUse": "When planning product roadmaps and conducting quarterly reviews of team performance.",
+      "whenToUse_zh": "在制定产品路线图及进行团队季度绩效复盘时。",
+      "commonMistakes": "Punishing teams for failed experiments, which leads to them only testing 'safe' trivial changes.",
+      "commonMistakes_zh": "惩罚实验失败的团队，这会导致团队只敢测试“安全”且微不足道的变更。",
+      "realWorldExample": "Microsoft tried integrating social (Facebook/Twitter) into Bing search for 1.5 years. It failed completely. Documenting this prevents them from trying the exact same losing strategy again without new evidence.",
+      "realWorldExample_zh": "微软曾尝试将社交功能（Facebook/Twitter）整合到 Bing 搜索中，耗时一年半，最终完全失败。记录这一过程能防止团队在没有新证据的情况下重蹈覆辙。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you go for something big, try it out, but be ready to fail 80% of the time.",
+      "context": "On managing expectations for radical redesigns or new features."
+    },
+    {
+      "text": "Hold the celebratory dinner. Investigate.",
+      "context": "On Twyman's Law and reacting to results that look too good to be true."
+    },
+    {
+      "text": "Stop listening to the HIPPO (Highest Paid Person's Opinion) and listen to the users via experiments.",
+      "context": "Implicit theme throughout the episode regarding data-driven culture."
+    },
+    {
+      "text": "I don't think it's possible to experiment too much... even small bug fixes can sometimes have surprising, unexpected impact.",
+      "context": "On the philosophy of 'test everything'."
+    }
+  ],
+  "filename": "Ronny Kohavi"
+}

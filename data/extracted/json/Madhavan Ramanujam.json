@@ -1,0 +1,146 @@
+{
+  "guest": {
+    "name": "Madhavan Ramanujam",
+    "title": "Senior Partner at Simon-Kucher & Partners",
+    "company": "Simon-Kucher & Partners",
+    "background": "Author of the best-selling book 'Monetizing Innovation' and a leading expert on pricing strategy. He has advised over 250 companies, including unicorns like Uber, Asana, and LinkedIn, on how to design products around price.",
+    "background_zh": "畅销书《Monetizing Innovation》作者，全球顶尖定价策略专家。他曾指导超过250家公司（包括Uber、Asana和LinkedIn等独角兽企业）如何围绕价格设计产品，实现商业化成功。"
+  },
+  "episodeSummary": "Madhavan Ramanujam dismantles the traditional 'build first, price later' approach, arguing that 72% of innovations fail due to a lack of monetization strategy. He outlines a comprehensive framework for determining willingness to pay before product development begins. The conversation covers advanced segmentation, packaging strategies like 'Leaders, Fillers, and Killers,' and behavioral pricing tactics.",
+  "episodeSummary_zh": "Madhavan Ramanujam 拆解了传统的“先开发后定价”模式，指出72%的创新失败归因于缺乏商业化策略。他提出了一个在产品开发前确定支付意愿（WTP）的完整框架。对话涵盖了高级细分策略、“领头羊、填充物与杀手”的打包策略，以及行为经济学定价战术。",
+  "keyTakeaways": [
+    "Prioritize 'Price before Product': Determine willingness to pay before writing a single line of code.",
+    "Don't ask customers 'How much would you pay?'; use indirect methods like the Van Westendorp Price Sensitivity Meter.",
+    "Segmentation must be based on needs and value, not demographics or personas.",
+    "Use the 'Leaders, Fillers, and Killers' framework to optimize product packaging and bundling.",
+    "Behavioral pricing tactics (decoy effect, Panini effect) can significantly increase revenue without changing the product.",
+    "How you charge (pricing model) is often more important than how much you charge."
+  ],
+  "methodologies": [
+    {
+      "name": "The Willingness-to-Pay (WTP) Conversation",
+      "name_zh": "支付意愿（WTP）访谈框架",
+      "category": "user-research",
+      "problemItSolves": "Prevents building products that users like but won't pay for, avoiding the 'spray and pray' innovation failure.",
+      "problemItSolves_zh": "防止开发出用户虽然喜欢但不愿付费的产品，避免“广撒网碰运气”式的创新失败。",
+      "summary": "A structured approach to validating monetization potential early in the product lifecycle. Instead of asking direct pricing questions, it uses psychological thresholds and relative value comparisons to map demand curves.",
+      "summary_zh": "一种在产品生命周期早期验证商业化潜力的结构化方法。不直接询问价格，而是利用心理阈值和相对价值比较来绘制需求曲线。",
+      "principles": [
+        "Price Before Product: Test WTP before development begins to prioritize the roadmap.",
+        "Indirect Questioning: Ask for 'Acceptable', 'Expensive', and 'Prohibitively Expensive' price points rather than a single number.",
+        "Relative Value: Ask customers to rank value relative to established anchors (e.g., 'If Salesforce is 100, where are we?').",
+        "Force Trade-offs: Use 'Most and Least' questions to identify must-have features vs. nice-to-haves."
+      ],
+      "principles_zh": [
+        "先定价后产品：在开发开始前测试WTP，以此优先级排列产品路线图。",
+        "间接提问：询问“可接受”、“昂贵”和“极其昂贵”的价格点，而非单一数字。",
+        "相对价值：让客户参照已有锚点对价值进行排名（例如，“如果Salesforce是100分，我们在哪里？”）。",
+        "强制权衡：使用“最重要和最不重要”问题来识别核心功能与锦上添花的功能。"
+      ],
+      "whenToUse": "During the initial idea validation phase, before MVP development, and every 6-12 months thereafter.",
+      "whenToUse_zh": "在初始创意验证阶段、MVP开发之前，以及之后每6-12个月进行一次。",
+      "commonMistakes": "Asking 'Will you buy this?' (results in false positives) or asking directly 'What should I charge?' (customers will lowball).",
+      "commonMistakes_zh": "直接问“你会买吗？”（导致虚假积极反馈）或直接问“我该收多少钱？”（客户会刻意压价）。",
+      "quote": "The only thing in your control is when you will have the pricing conversation. You can have it early... or you can launch the product and hope to monetize.",
+      "realWorldExample": "Porsche Cayenne: Before building the SUV, Porsche validated the concept and features (like large cupholders) against WTP. It became their most profitable line.",
+      "realWorldExample_zh": "保时捷卡宴：在制造SUV之前，保时捷针对支付意愿验证了概念和功能（如大杯架）。这最终成为了他们利润最高的产品线。"
+    },
+    {
+      "name": "Leaders, Fillers, and Killers",
+      "name_zh": "领头羊、填充物与杀手（打包策略）",
+      "category": "product-strategy",
+      "problemItSolves": "Solves confusion on how to bundle features effectively without devaluing the product or overwhelming the customer.",
+      "problemItSolves_zh": "解决了如何有效打包功能的问题，避免因组合不当导致产品贬值或让客户感到困惑。",
+      "summary": "A classification system for features within a bundle to maximize conversion and revenue. It dictates what goes into the main package versus what should be sold as add-ons.",
+      "summary_zh": "一种用于优化打包策略的功能分类系统，旨在最大化转化率和收入。它决定了哪些功能应包含在主套餐中，哪些应作为附加项出售。",
+      "principles": [
+        "Leaders: The main driver of the purchase (must-have). Included in the core bundle.",
+        "Fillers: Nice-to-haves that add perceived value but don't drive the purchase (e.g., fries with a burger). Include to sweeten the deal.",
+        "Killers: Features that devalue the bundle for the majority (e.g., coffee with a burger). Sell these as separate add-ons only.",
+        "Rule of Thumb: If <20% of users want it, it's an add-on (or Killer). If >50% want it, it's a Leader."
+      ],
+      "principles_zh": [
+        "领头羊 (Leaders)：购买的主要驱动力（必选项），应包含在核心套餐中。",
+        "填充物 (Fillers)：增加感知价值但非购买主因的锦上添花项（如汉堡配薯条），包含在内以增加吸引力。",
+        "杀手 (Killers)：对大多数人来说降低套餐价值的功能（如汉堡配咖啡），应作为独立附加项出售。",
+        "经验法则：如果只有不到20%的用户需要，它是附加项（或杀手）；如果有超过50%的用户需要，它是领头羊。"
+      ],
+      "whenToUse": "When designing pricing tiers, packaging bundles, or deciding which features to include in a Standard vs. Pro plan.",
+      "whenToUse_zh": "在设计定价层级、打包套餐或决定标准版与专业版包含哪些功能时使用。",
+      "commonMistakes": "Including 'Killer' features in the main bundle, forcing customers to pay for things they actively dislike or don't need, reducing conversion.",
+      "commonMistakes_zh": "将“杀手”功能包含在主套餐中，迫使客户为他们不喜欢或不需要的东西付费，从而降低转化率。",
+      "quote": "If you bundle [a killer], it just depreciates the willingness to pay across the entire customer base.",
+      "realWorldExample": "McDonald's Happy Meal: Burger is the Leader; Fries/Coke are Fillers. Coffee would be a Killer in that bundle, so it is sold separately.",
+      "realWorldExample_zh": "麦当劳开心乐园餐：汉堡是领头羊；薯条/可乐是填充物。如果在这个套餐里加咖啡，那就是“杀手”，所以咖啡必须单独出售。"
+    },
+    {
+      "name": "Needs-Based Segmentation",
+      "name_zh": "基于需求的细分策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Moves beyond ineffective 'persona' or demographic segmentation that fails to capture willingness to pay.",
+      "problemItSolves_zh": "超越了无法捕捉支付意愿的无效“画像”或人口统计学细分。",
+      "summary": "Segmentation relies on grouping customers by what they value, need, and are willing to pay for, rather than who they are. Successful segmentation requires treating these groups differently via product packaging.",
+      "summary_zh": "细分应基于客户看重什么、需要什么以及愿付多少钱，而不是他们是谁。成功的细分要求通过产品打包差异化对待这些群体。",
+      "principles": [
+        "Needs over Demographics: Prince Charles and Ozzy Osbourne share demographics but have vastly different needs.",
+        "Productize to Segments: Don't just position differently; build different packages/products for different segments.",
+        "The 'Act Differently' Test: If you aren't changing your product, pricing, or sales motion for a segment, it's not a real segment."
+      ],
+      "principles_zh": [
+        "需求重于人口统计：查尔斯王子和奥兹·奥斯本人口统计特征相似，但需求天差地别。",
+        "针对细分产品化：不要仅仅改变定位；要为不同细分市场构建不同的套餐/产品。",
+        "“差异化行动”测试：如果你没有针对某个细分市场改变产品、定价或销售动作，那它就不是一个真正的细分。"
+      ],
+      "whenToUse": "When defining your go-to-market strategy or when a 'one-size-fits-all' product hits a growth plateau.",
+      "whenToUse_zh": "在定义进入市场（GTM）策略时，或当“一刀切”的产品遇到增长瓶颈时。",
+      "commonMistakes": "Creating segments but offering them the exact same product and price, or relying solely on marketing personas.",
+      "commonMistakes_zh": "划分了细分市场，却提供完全相同的产品和价格，或者仅仅依赖营销画像。",
+      "quote": "One size fits none.",
+      "realWorldExample": "Water: Free at a fountain, $2 in a bottle, $5 in a hotel minibar. The product is the same, but the need (convenience/location) changes the WTP.",
+      "realWorldExample_zh": "水：在饮水机免费，瓶装$2，酒店迷你吧$5。产品是一样的，但需求（便利性/地点）改变了支付意愿。"
+    },
+    {
+      "name": "Behavioral Pricing Tactics",
+      "name_zh": "行为经济学定价战术",
+      "category": "execution",
+      "problemItSolves": "Maximizes revenue by leveraging irrational consumer psychology without changing the core product.",
+      "problemItSolves_zh": "在不改变核心产品的情况下，利用非理性的消费者心理最大化收入。",
+      "summary": "Using psychological triggers to influence purchasing decisions. This involves framing prices and options to guide users toward specific choices (usually higher margin ones).",
+      "summary_zh": "利用心理触发因素影响购买决策。这包括通过构建价格和选项框架，引导用户做出特定选择（通常是利润更高的选择）。",
+      "principles": [
+        "The Decoy Effect: Introduce a high-priced option (decoy) to make the middle option look like a bargain.",
+        "Compromise Effect: People avoid extremes (cheapest/most expensive) and gravitate to the middle.",
+        "Panini Effect: Leverage the human compulsion for completion (gamification/puzzles) to drive cross-selling.",
+        "Reframing: Describe price as '$1 a day' instead of '$30 a month' to reduce friction."
+      ],
+      "principles_zh": [
+        "诱饵效应：引入一个高价选项（诱饵），使中间选项看起来非常划算。",
+        "折中效应：人们倾向于避免极端（最便宜/最贵），而选择中间项。",
+        "帕尼尼效应：利用人类追求圆满的强迫心理（游戏化/拼图），推动交叉销售。",
+        "重构框架：将价格描述为“每天$1”而不是“每月$30”，以减少支付阻力。"
+      ],
+      "whenToUse": "When optimizing pricing pages, upselling flows, or trying to increase Average Revenue Per User (ARPU).",
+      "whenToUse_zh": "在优化定价页面、追加销售流程或试图提高每用户平均收入（ARPU）时。",
+      "commonMistakes": "Using dark patterns that deceive users, rather than simply framing value clearly.",
+      "commonMistakes_zh": "使用欺骗用户的“黑暗模式”，而不是清晰地构建价值框架。",
+      "quote": "Indifferent never wins. People are predictably irrational.",
+      "realWorldExample": "A SaaS company added a $299 'decoy' plan to make their $99 plan look reasonable (up from $79). It drove massive adoption of the $99 plan.",
+      "realWorldExample_zh": "某SaaS公司增加了一个$299的“诱饵”计划，使得其$99的计划（原为$79）看起来很合理，从而推动了$99计划的大规模采用。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "How you charge is way more important than how much you charge.",
+      "context": "Discussing pricing models (subscription vs. usage) and the Michelin tires example."
+    },
+    {
+      "text": "Acceptable price is the price where people not only love the product, but they also love the price.",
+      "context": "Defining the output of the Van Westendorp pricing sensitivity analysis."
+    },
+    {
+      "text": "20% of what you build drives 80% of the willingness to pay.",
+      "context": "Highlighting the importance of prioritizing the product roadmap based on value, not just engineering effort."
+    }
+  ],
+  "filename": "Madhavan Ramanujam"
+}

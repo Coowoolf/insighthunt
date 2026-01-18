@@ -3,7 +3,8 @@
     "name": "Eoghan McCabe",
     "title": "Co-founder and CEO",
     "company": "Intercom",
-    "background": "Eoghan McCabe is the co-founder and CEO of Intercom, a customer service platform. He successfully navigated a high-stakes turnaround of the late-stage SaaS company by pivoting aggressively to an AI-first, agent-based model, reversing stagnation and achieving massive growth."
+    "background": "Eoghan McCabe is the co-founder and CEO of Intercom, a customer service platform. He successfully navigated a high-stakes turnaround of the late-stage SaaS company by pivoting aggressively to an AI-first, agent-based model, reversing stagnation and achieving massive growth.",
+    "background_zh": "Eoghan McCabe 是客户服务平台 Intercom 的联合创始人兼 CEO。通过大刀阔斧地向 AI First 和 Agent-based 模式转型，他成功带领这家成熟期 SaaS 公司完成了一场高风险的战略翻盘，不仅彻底扭转了业务停滞的颓势，更实现了爆发式增长。"
   },
   "episodeSummary": "Eoghan McCabe details the aggressive, high-risk transformation of Intercom from a plateauing legacy SaaS business to a hyper-growth AI agent company. He discusses the necessity of 'Founder Mode'—using top-down, authoritarian decision-making to force cultural resets, rewrite values, and execute bold pricing strategies. The conversation explores the existential threat AI poses to SaaS, the mechanics of outcome-based pricing for AI agents, and the psychological toll of radical corporate restructuring.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a company is facing stagnation, negative growth, or an existential technology shift that requires a completely different operating speed and risk tolerance.",
       "commonMistakes": "Trying to maintain the 'sharp knife' approach while simultaneously trying to please everyone or softening the blow to avoid bad PR.",
       "quote": "I rewrote the values designed to be a sharp knife to cut out the parts of the company that I just knew wouldn't be effective.",
-      "realWorldExample": "McCabe returned to Intercom, rewrote values to emphasize resilience and shareholder value, implemented a strict performance formula, and accepted a 40% staff turnover to build a team capable of shipping their AI agent, Fin."
+      "realWorldExample": "McCabe returned to Intercom, rewrote values to emphasize resilience and shareholder value, implemented a strict performance formula, and accepted a 40% staff turnover to build a team capable of shipping their AI agent, Fin.",
+      "summary_zh": "一套重塑企业价值观与绩效管理的框架，旨在激进筛选出具备“战时转型”特质的人才，而非追求泛化的文化包容性。",
+      "problemItSolves_zh": "解决组织臃肿、安于现状和目标不协同的问题，正是这些问题阻碍了公司执行关乎生死的快速战略转型（如向 AI 转型）。",
+      "whenToUse_zh": "当公司陷入业务停滞、负增长，或面临关乎存亡的技术变革，亟需彻底改变运转节奏与风险承受度时。",
+      "commonMistakes_zh": "一边试图贯彻“尖刀”策略，一边却想取悦所有人，或为了规避负面舆情而避重就轻。",
+      "realWorldExample_zh": "McCabe 回归 Intercom 后重塑了价值观，将重心转向韧性与股东价值；他推行了严苛的绩效评估公式，不惜接受 40% 的人员汰换，旨在打造一支能够成功交付 AI 智能体 Fin 的团队。",
+      "principles_zh": [
+        "重塑具有排他性的价值观：设计能明确界定“谁不适合团队”的价值观（例如，强调“韧性”和“股东价值”高于“个人舒适”）。",
+        "设定刚性绩效公式：推行一套严格的量化考评体系，最终得分由“目标达成”与“价值观践行”严格计算得出。",
+        "剥夺管理者的主观裁量权：由 CEO 或决策层制定规则，低绩效自动触发淘汰机制，消除中层管理者的人情顾虑与决策犹豫。",
+        "接受高人员流失率：做好心理准备并接受大规模的人员更替（Intercom 曾高达 40%），将其视为重塑运营节奏的必要代价。"
+      ],
+      "name_zh": "The 'Sharp Knife' Cultural Reset（“尖刀”文化重塑）"
     },
     {
       "name": "Resolution-Based Pricing Model",
@@ -46,7 +59,19 @@
       "whenToUse": "When launching AI agents or automation products where trust in quality is the primary barrier to adoption.",
       "commonMistakes": "Pricing based on current high inference costs (which will drop) or creating complex tiered systems that confuse the buyer about what they are paying for.",
       "quote": "We wanted our revenue to be 100% aligned with the value that they attained... If someone is not prepared to pay 99 cent for us to rapidly and elegantly solve their customer's problem, we need to wrap this up.",
-      "realWorldExample": "Intercom launched Fin with a flat fee of $0.99 per resolution. If the AI agent talks to a user but fails to resolve the issue, the customer pays $0."
+      "realWorldExample": "Intercom launched Fin with a flat fee of $0.99 per resolution. If the AI agent talks to a user but fails to resolve the issue, the customer pays $0.",
+      "summary_zh": "一种从按权限（席位）或按用量（消息数）付费，向严格按“成功结果”付费转型的定价策略，旨在降低买方的采用风险。",
+      "problemItSolves_zh": "解决向客户销售 AI Agent 时的阻力，特别是针对那些质疑为“数字劳动力”付费，或对 AI 效能能否比肩人工存疑的客户。",
+      "whenToUse_zh": "适用于推出 AI Agent 或自动化产品，特别是当用户对交付质量的信任度成为产品采纳的核心门槛时。",
+      "commonMistakes_zh": "基于当前高昂的推理成本（忽略其下降趋势）进行定价，或设计过于复杂的阶梯体系，导致客户对实际付费价值产生混淆。",
+      "realWorldExample_zh": "Intercom 推出了 Fin，采用每成功解决一个问题收费 0.99 美元的固定定价。如果 AI Agent 介入对话但未能解决问题，客户无需付费。",
+      "principles_zh": [
+        "**为结果而非权限定价**：仅在特定的工作单元成功完成时收费（例如：成功解决一个工单）。",
+        "**定义“生死阈值”**：测算业务跑通所需的单次结果最低定价（如 Intercom 设定为 $0.99/次解决）。若客户付费意愿低于该价格，则商业模式不成立。",
+        "**价格与成本解耦**：摒弃成本加成定价法。鉴于 AI 推理成本波动大且呈下降趋势，应锚定人工替代方案的价值进行定价（例如：AI 的 $0.99 对比人工成本的 $20）。",
+        "**利益对齐**：确保仅在客户获取实际价值时厂商才获得收益，从而建立高度的商业互信。"
+      ],
+      "name_zh": "Resolution-Based Pricing Model（基于解决结果的定价模型）"
     },
     {
       "name": "First-Principles Strategy Decomposition",
@@ -62,7 +87,19 @@
       "whenToUse": "When training product leaders to think strategically or when reviewing a roadmap that feels derivative or bloated.",
       "commonMistakes": "Applying the framework superficially without actually being willing to cancel a project if the first-principles analysis shows it has no solid foundation.",
       "quote": "We would create frameworks for everything... What is the ultimate goal of the event? What's the mechanism by which events work? What other mechanisms that can achieve that same goal?",
-      "realWorldExample": "Intercom uses this to train PMs to act like 'Mini-CEOs,' resulting in a high number of alumni founding successful companies (Intercom ranks #1 for producing future founders among similar peers)."
+      "realWorldExample": "Intercom uses this to train PMs to act like 'Mini-CEOs,' resulting in a high number of alumni founding successful companies (Intercom ranks #1 for producing future founders among similar peers).",
+      "summary_zh": "一套严谨的思维框架，用于在执行前将每项举措拆解还原至其最本质的真相，从而确保高度的战略一致性。",
+      "problemItSolves_zh": "杜绝“货物崇拜”式的产品管理，避免团队仅因“行业标配”就盲目堆砌功能或照搬形式，导致战略臃肿且无效。",
+      "whenToUse_zh": "用于培养产品负责人的战略思维，或在评审缺乏新意、功能臃肿的产品路线图时。",
+      "commonMistakes_zh": "流于形式地套用框架，当第一性原理分析表明项目缺乏底层逻辑支撑时，却不愿果断砍掉项目。",
+      "realWorldExample_zh": "Intercom 利用这套方法论训练 PM 像 \"Mini-CEO\" 一样行事，从而涌现出大量成功创业的“校友”（在同类公司中，Intercom 在孕育未来创始人方面排名第一）。",
+      "principles_zh": [
+        "明确终极目标：在讨论“做什么”（如举办活动）之前，先厘清“为什么做”（如提升品牌好感度 vs. 获取销售线索）。",
+        "分析作用机制：精准拆解方案*如何*达成目标（验证因果逻辑）。",
+        "解构价值定义：基于特定场景，从终端用户视角而非业务视角重新定义价值。",
+        "从零重构：摒弃竞品对标和行业最佳实践，基于问题的基本要素自下而上构建方案。"
+      ],
+      "name_zh": "First-Principles Strategy Decomposition（第一性原理战略拆解）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Describing the aggressive tactics used to transform Intercom from a sluggish late-stage company to a 'wartime' AI company."
     }
   ],
-  "filename": "Eoghan McCabe"
+  "filename": "Eoghan McCabe",
+  "episodeSummary_zh": "Eoghan McCabe 详细复盘了 Intercom 如何从一家陷入增长瓶颈的传统 SaaS 业务，激进且高风险地转型为一家超高速增长的 AI Agent 公司。他探讨了启动“创始人模式（Founder Mode）”的必要性——即通过自上而下的强力决策，强制重置企业文化、重塑价值观，并执行大胆的定价策略。对话还深入剖析了 AI 对 SaaS 行业构成的生存威胁、AI Agent 基于结果（Outcome-based）的定价机制，以及激进的企业重组所带来的巨大心理代价。"
 }

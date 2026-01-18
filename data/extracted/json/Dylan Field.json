@@ -3,7 +3,8 @@
     "name": "Dylan Field",
     "title": "CEO & Co-founder",
     "company": "Figma",
-    "background": "Dylan Field is the co-founder and CEO of Figma, the collaborative interface design tool that revolutionized how product teams work. A former Thiel Fellow who dropped out of Brown University, Dylan has led Figma from a browser-based experiment to a multi-billion dollar platform that is now the industry standard for UI/UX design."
+    "background": "Dylan Field is the co-founder and CEO of Figma, the collaborative interface design tool that revolutionized how product teams work. A former Thiel Fellow who dropped out of Brown University, Dylan has led Figma from a browser-based experiment to a multi-billion dollar platform that is now the industry standard for UI/UX design.",
+    "background_zh": "Dylan Field 是 Figma 的联合创始人兼 CEO，Figma 作为一款协作式界面设计工具，彻底颠覆了产品团队的协作模式。作为曾经的泰尔奖学金（Thiel Fellowship）得主及布朗大学辍学生，Dylan 带领 Figma 从一个基于浏览器的实验性项目，发展成为估值数十亿美元的平台，并确立了其作为 UI/UX 设计行业标准的地位。"
   },
   "episodeSummary": "Recorded live at Figma Config, this episode explores the intersection of intuition, design, and operational rigor. Dylan Field deconstructs how he operationalizes 'product taste' not as magic, but as a hypothesis generation engine, and discusses the relentless battle against product entropy. He also shares the specific early-stage growth tactics used to bootstrap Figma's network effects and offers a pragmatic framework for balancing quality, features, and deadlines.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "When making high-stakes product decisions where data is sparse, or when a leader's 'vision' conflicts with existing metrics.",
       "commonMistakes": "Treating intuition as the final decision rather than the starting hypothesis, or skipping the 'debate' phase because the intuition comes from a senior leader.",
       "quote": "I think intuition is like a hypothesis generator and you're constantly generating these hypotheses... you then take these hypotheses and you put them forward and you debate them.",
-      "realWorldExample": "Dylan uses this method when reviewing user feedback channels (like Twitter/X) to form hypotheses about what users *actually* want versus what they are literally asking for."
+      "realWorldExample": "Dylan uses this method when reviewing user feedback channels (like Twitter/X) to form hypotheses about what users *actually* want versus what they are literally asking for.",
+      "summary_zh": "Dylan 将“产品直觉”从一种神秘的天赋，重构为一套可复用的标准化流程。与其仅凭本能行事，直觉在此被视为科学方法论的“漏斗顶端”，用于产出高质量的假设，这些假设随后将经受数据验证与团队辩论的严苛考验。",
+      "problemItSolves_zh": "帮助产品负责人验证“直觉”与“产品感”，摆脱对权威或“玄学”的依赖，让主观决策经得起推敲。",
+      "whenToUse_zh": "在数据稀缺的情况下制定高风险产品决策，或当领导层愿景与现有指标相悖时。",
+      "commonMistakes_zh": "将直觉视为最终决策而非初始假设，或仅因直觉来自高层而直接跳过“论证”环节。",
+      "realWorldExample_zh": "Dylan 在分析用户反馈渠道（如 Twitter/X）时会利用此方法构建假设，旨在厘清用户的 *真实* 需求与字面诉求。",
+      "principles_zh": [
+        "第一步：假设生成 —— 运用你的直觉或产品感，针对用户需求或功能逻辑形成具体的假设构想。",
+        "第二步：同步与辩论 —— 向团队抛出假设，有意识地激发不同观点碰撞，从而识别思维盲区。",
+        "第三步：数据探查 —— 主动搜集定性或定量数据，旨在佐证或证伪该假设（警惕仅寻找支持性证据的确认偏误）。",
+        "第四步：收敛筛选 —— 基于团队探讨的结果，将选项收敛至唯一一个可执行的“核心假设”。",
+        "第五步：落地执行 —— 假设确立后即坚定推进，同时保持认知：该假设在后续过程中仍可能需要动态调整与迭代。"
+      ],
+      "name_zh": "The Intuition-to-Hypothesis Pipeline（直觉-假设转化通道）"
     },
     {
       "name": "The Complexity Entropy Defense",
@@ -48,7 +62,20 @@
       "whenToUse": "During design reviews for mature products, or when users start complaining about a steep learning curve.",
       "commonMistakes": "Assuming that because two features are useful individually, they will be useful when placed side-by-side without refactoring the UI.",
       "quote": "Keep the simple things simple. Make the complex things possible... One plus one does not equal three, it sometimes equals one and a half.",
-      "realWorldExample": "Dylan discusses the internal conflict regarding 'Pages' in Figma—while users demanded it, he remains skeptical of its implementation because it added complexity that wasn't elegant within the system's logic."
+      "realWorldExample": "Dylan discusses the internal conflict regarding 'Pages' in Figma—while users demanded it, he remains skeptical of its implementation because it added complexity that wasn't elegant within the system's logic.",
+      "summary_zh": "一套在业务增长过程中维持产品简洁性的**框架**。它基于一个核心认知：随着时间推移，产品复杂度的提升是必然规律（即“熵增”），必须通过自上而下的主动干预进行治理。该理论强调，由于“认知负荷”的存在，单纯的功能叠加往往导致整体价值小于各部分之和（即 1+1=1.5）。",
+      "problemItSolves_zh": "解决“软件臃肿”问题，应对产品在规模扩张和功能迭代过程中，变得日益复杂且难以使用的趋势。",
+      "whenToUse_zh": "在成熟产品的设计评审中，或当用户抱怨学习曲线过陡时。",
+      "commonMistakes_zh": "误以为两个独立有效的功能，在不重构 UI 的前提下直接并列展示，依然能发挥作用。",
+      "realWorldExample_zh": "Dylan 谈到了 Figma 内部关于 “Pages” 功能的争议——尽管用户需求强烈，但他对该功能的实现始终持保留意见，因为这引入了额外的复杂度，破坏了系统逻辑的优雅性。",
+      "principles_zh": [
+        "步骤 1：正视固有的复杂性 —— 清醒认识到每一个新功能的叠加，都会增加现有系统的摩擦阻力。",
+        "步骤 2：大道至简 —— 确保核心的高频工作流始终保持极致顺畅且直观。",
+        "步骤 3：兼容复杂场景 —— 将高阶功能下沉至次级层级，避免干扰核心用户路径。",
+        "步骤 4：系统级全局审计 —— 定期抽离视角复盘整体连贯性，警惕合理的局部功能决策叠加后导致整体体验崩坏。",
+        "步骤 5：领导层严格把关 —— 管理层必须主动挑战那些显得“过于臃肿”的设计方案，并坚持推动做减法的迭代优化。"
+      ],
+      "name_zh": "The Complexity Entropy Defense（复杂性熵防御）"
     },
     {
       "name": "The Central Node Network Strategy",
@@ -65,7 +92,20 @@
       "whenToUse": "Early-stage B2B or prosumer startups where community opinion drives adoption (e.g., developer tools, design tools, creator economy).",
       "commonMistakes": "Approaching influencers with a sales pitch instead of a genuine request for mentorship and product feedback.",
       "quote": "The ones that I was really inspired by... I reached out to and said, 'Hey, can I buy you a coffee?'... It started honestly more as me fanboying and me getting feedback.",
-      "realWorldExample": "Dylan identified designers like Tim Van Damme via Dribbble and Twitter, reached out to learn from them, and used their feedback to perfect Figma's vector networks, eventually hiring Tim."
+      "realWorldExample": "Dylan identified designers like Tim Van Damme via Dribbble and Twitter, reached out to learn from them, and used their feedback to perfect Figma's vector networks, eventually hiring Tim.",
+      "summary_zh": "一种聚焦于识别并转化社群网络中关键节点的 GTM 策略。区别于广撒网式的营销，该策略主张以精准且谦逊的姿态定向触达行业领袖，将其转化为产品的布道者。",
+      "problemItSolves_zh": "如何在红海市场发布产品，迅速建立信任背书并实现口碑增长。",
+      "whenToUse_zh": "依赖社区口碑驱动产品采用的早期 B2B 或 Prosumer（专业用户）初创企业（如开发者工具、设计工具及创作者经济赛道）。",
+      "commonMistakes_zh": "带着推销话术去接触影响力人物，而非真诚地寻求指导和产品反馈。",
+      "realWorldExample_zh": "Dylan 通过 Dribbble 和 Twitter 发掘了 Tim Van Damme 等设计师，主动触达并深入请教，利用他们的反馈打磨 Figma 的矢量网络功能，最终成功将 Tim 招致麾下。",
+      "principles_zh": [
+        "第一步：绘制网络图谱 —— 分析社区关系图谱，锁定“中心节点”，即那些拥有极高影响力或连接度的关键人物（Dylan 最初是通过抓取 Twitter 数据来实现的）。",
+        "第二步：“迷弟”策略 —— 主动触达这些节点人物，切忌推销，而是表达对他们工作的欣赏并诚恳请教。",
+        "第三步：谦逊的反馈闭环 —— 请对方喝杯咖啡（或线上方式），向其展示产品，并明确告知目的是寻求“批评指正”，而非用户转化。",
+        "第四步：借由批评打磨极致产品 —— 利用他们的高质量反馈来迭代打磨产品（并在此过程中建立信任）。",
+        "第五步：激活 —— 随着产品基于其反馈不断迭代，这些中心节点会自然转化为深度参与的布道者。"
+      ],
+      "name_zh": "The Central Node Network Strategy（中心节点网络战略）"
     },
     {
       "name": "The Launch Triangle Trade-off",
@@ -81,7 +121,19 @@
       "whenToUse": "When a team is stuck in 'just one more feature' mode or when facing an external deadline (like a conference).",
       "commonMistakes": "Trying to pick all three, or sacrificing Quality to meet a Deadline/Feature goal, which results in technical debt and user churn.",
       "quote": "You got quality, features, deadline, choose two... The beautiful thing about software is you can keep iterating on it.",
-      "realWorldExample": "Figma Slides (Flides) and FigJam were shipped quickly to get market feedback (optimizing for Deadline/Feedback), whereas Dev Mode was held back because it didn't meet the Quality/Value bar for the specific persona."
+      "realWorldExample": "Figma Slides (Flides) and FigJam were shipped quickly to get market feedback (optimizing for Deadline/Feedback), whereas Dev Mode was held back because it didn't meet the Quality/Value bar for the specific persona.",
+      "summary_zh": "一种用于制定产品发布（Go/No-Go）决策的约束管理框架。它迫使团队在三个相互制约的变量之间做出明确取舍，避免因试图同时最大化三者而导致失败。",
+      "problemItSolves_zh": "陷入关于产品何时达到发布标准的决策瘫痪，以及如何管理干系人对需求范围的预期。",
+      "whenToUse_zh": "当团队陷入“再做一个功能就好”的死循环，或面临硬性外部 Deadline（如行业大会）时。",
+      "commonMistakes_zh": "试图三者兼得，或是为了赶排期和功能目标而牺牲质量，进而导致技术债堆积与用户流失。",
+      "realWorldExample_zh": "Figma Slides (Flides) 和 FigJam 选择了快速上线以获取市场反馈（侧重于“截止日期/反馈”维度）；而 Dev Mode 则暂缓发布，因为它尚未达到针对特定用户画像的“质量/价值”门槛。",
+      "principles_zh": [
+        "第一步：定义核心变量 —— 质量（用户体验/Bug）、功能（范围/能力）、截止日期（上市时间）。",
+        "第二步：锁定两项 —— 明确决策哪两个变量是“锁死”的，哪一个是弹性的。（例如：锁死截止日期 + 锁死质量 = 缩减功能）。",
+        "第三步：迭代解法 —— 对于软件产品，倾向于锁死截止日期和质量，通过缩减功能来平衡，因为功能可以在上线后持续迭代完善。",
+        "第四步：最小惊艳门槛 —— 确保针对你最终交付的那部分有限功能，其“质量”变量绝不低于“惊艳”的水准。"
+      ],
+      "name_zh": "The Launch Triangle Trade-off（发布三角权衡）"
     }
   ],
   "notableQuotes": [
@@ -106,5 +158,6 @@
       "context": "Dylan's favorite piece of advice regarding how to filter the feedback you receive from mentors."
     }
   ],
-  "filename": "Dylan Field"
+  "filename": "Dylan Field",
+  "episodeSummary_zh": "本期节目录制于 Figma Config 现场，深度探讨了直觉、设计与执行严谨性的融合。Dylan Field 解构了他如何将“产品品味”落地：这并非玄学，而是一个产出“假设”的引擎；同时他也讨论了对抗“产品熵增”的持久战。此外，他还分享了 Figma 早期冷启动网络效应的具体增长战术，并提供了一套在质量、功能与排期之间进行权衡的务实框架。"
 }

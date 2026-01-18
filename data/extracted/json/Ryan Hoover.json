@@ -1,0 +1,121 @@
+{
+  "guest": {
+    "name": "Ryan Hoover",
+    "title": "Founder of Product Hunt & Managing Partner at Weekend Fund",
+    "company": "Weekend Fund / Product Hunt",
+    "background": "Ryan Hoover is the founder of Product Hunt, the go-to platform for product launches in the tech industry. A former product manager turned investor, he now runs Weekend Fund, an early-stage venture capital firm investing in the next generation of founders.",
+    "background_zh": "Ryan Hoover 是科技圈首选的产品发布平台 Product Hunt 的创始人。他从一名产品经理成功转型为投资人，目前管理着 Weekend Fund，这是一家专注于早期项目的风险投资基金。"
+  },
+  "episodeSummary": "In this episode, Ryan Hoover reflects on the journey of building Product Hunt, sharing critical lessons on launching, community building, and the mistakes he made along the way. He dives deep into the art of the product launch, offering tactical advice on copywriting and storytelling, while also discussing his framework for generating startup ideas through observation and problem journaling.",
+  "episodeSummary_zh": "在本期节目中，Ryan Hoover 回顾了创立 Product Hunt 的历程，分享了关于产品发布、社区建设以及他在创业过程中汲取的关键教训。他深入探讨了产品发布的艺术，在文案写作和故事讲述方面提供了战术性建议，并讨论了他通过“问题日志”和观察宏观趋势来挖掘创业点子的独特框架。",
+  "keyTakeaways": [
+    "Launches serve multiple purposes beyond user acquisition, including recruiting, fundraising, and boosting team morale.",
+    "Consumer apps require a unique insight or 'secret' to survive the attention economy, whereas B2B problems are often more obvious.",
+    "Avoid 'PR speak' in product copy; describe your product as you would to a friend at a bar.",
+    "Momentum is reflexive in startups; high energy and shipping velocity attract more success and talent.",
+    "Keep a 'Problem Journal' to document annoyances without immediately trying to solve them.",
+    "Horizontal expansion into new categories (e.g., games, books) is significantly harder than deepening vertical focus.",
+    "Delegation is a major hurdle for founders, but failing to let go stifles scale."
+  ],
+  "methodologies": [
+    {
+      "name": "The Multi-Dimensional Launch Framework",
+      "name_zh": "多维产品发布框架",
+      "category": "growth-metrics",
+      "problemItSolves": "Helps founders align expectations and strategy by identifying the true primary goal of a product launch, rather than just defaulting to 'user acquisition'.",
+      "problemItSolves_zh": "帮助创始人明确产品发布（Launch）的核心目标，避免盲目追求获客，从而制定更匹配的发布策略。",
+      "summary": "A strategic approach to launching that evaluates ROI across five distinct vectors. Ryan argues that while customer acquisition is the default goal, other outcomes like recruiting or morale can be equally valuable drivers for a launch event.",
+      "summary_zh": "这是一个从五个维度评估发布回报率（ROI）的策略框架。Ryan 指出，虽然获取用户通常是默认目标，但在产品发布活动中，招聘、融资或提升团队士气往往能带来同等甚至更高的价值。",
+      "principles": [
+        "Customer Acquisition: Getting new users (often the least guaranteed outcome).",
+        "Talent Recruitment: Using the hype to attract engineers and designers.",
+        "Fundraising Signal: Creating momentum to close a round or attract VCs.",
+        "Strategic Partnerships: Creating serendipity for B2B deals.",
+        "Team Morale: Creating a celebratory moment to energize the internal team."
+      ],
+      "principles_zh": [
+        "用户获取：获取新用户（往往是最难保证的结果）。",
+        "人才招聘：利用发布热度吸引优秀的工程师和设计师。",
+        "融资信号：通过制造势能来加速融资关闭或吸引VC关注。",
+        "战略合作：为B2B交易创造意外的合作机会（Serendipity）。",
+        "团队士气：创造一个庆祝时刻，重新激活内部团队的战斗力。"
+      ],
+      "whenToUse": "When planning a Go-to-Market strategy or deciding whether to allocate resources to a public launch event.",
+      "whenToUse_zh": "在制定 GTM（市场进入）策略或决定是否投入资源进行公开产品发布时。",
+      "commonMistakes": "Launching solely for vanity metrics (likes/upvotes) without a clear business objective, or failing to capture the internal morale boost.",
+      "commonMistakes_zh": "仅仅为了虚荣指标（点赞/投票）而发布，缺乏明确的商业目标，或者忽视了发布对内部士气的提振作用。",
+      "quote": "There is a powerful team morale and kinda building moment there where you can all celebrate what you've accomplished.",
+      "realWorldExample": "A startup might launch not because they need 1,000 new users immediately, but because they need to hire a lead engineer and want to show momentum to candidates.",
+      "realWorldExample_zh": "一家初创公司进行发布可能不是为了立即获得1000个新用户，而是因为他们急需招聘一名首席工程师，希望向候选人展示公司的势能。"
+    },
+    {
+      "name": "The 'Friend Test' Copywriting Method",
+      "name_zh": "“朋友视角”文案法则",
+      "category": "execution",
+      "problemItSolves": "Solves the problem of low conversion and engagement caused by generic, jargon-heavy 'PR speak' in product descriptions.",
+      "problemItSolves_zh": "解决因使用通过、堆砌术语的“公关腔”而导致的产品描述转化率低和用户互动差的问题。",
+      "summary": "A tactical guide for writing product messaging that resonates. Instead of trying to sound like a corporation, makers should use authentic, conversational language that mimics how a user would describe the product to a peer.",
+      "summary_zh": "一个用于撰写高共鸣产品文案的战术指南。创作者不应模仿大公司的官方口吻，而应采用真实、对话式的语言，模仿用户向朋友推荐产品时的表达方式。",
+      "principles": [
+        "The Bar Test: How would you describe this to a friend while having a drink? Use that exact language.",
+        "Visual Storytelling: Treat the image gallery like a slide deck that tells a narrative (Problem -> Solution -> Evolution).",
+        "Banish Buzzwords: Remove vague corporate jargon; be specific about the value proposition.",
+        "Concise Maker's Comment: Keep the introductory comment short; users scan, they don't read essays."
+      ],
+      "principles_zh": [
+        "酒吧测试：你在喝酒时如何向朋友介绍这个产品？就用那种语言写文案。",
+        "视觉化叙事：将图片展示区（Gallery）视为一套幻灯片，讲述一个完整的故事（问题 -> 解决方案 -> 演变）。",
+        "摒弃“黑话”：删除模糊的企业行话，清晰具体地阐述价值主张（Value Prop）。",
+        "简练的制作者留言：保持介绍性评论简短；用户是在快速浏览，而不是阅读论文。"
+      ],
+      "whenToUse": "When writing copy for Product Hunt launches, landing pages, or social media announcements.",
+      "whenToUse_zh": "在撰写 Product Hunt 发布文案、Landing Page（落地页）或社交媒体公告时。",
+      "commonMistakes": "Writing like a PR agency with sentences like 'We are the world's leading solution for X' instead of 'We help you do X'.",
+      "commonMistakes_zh": "像公关代理公司那样写作，使用诸如“我们是全球领先的X解决方案”之类的句子，而不是直接说“我们帮你搞定X”。",
+      "quote": "People are sick of the PR speech... How do your customers or your users describe your product to other people?",
+      "realWorldExample": "Instead of saying 'Leveraging AI for optimized scheduling efficiency,' say 'We use AI to organize your calendar so you never double-book again.'",
+      "realWorldExample_zh": "与其说“利用人工智能优化日程安排效率”，不如说“我们用AI帮你整理日历，让你再也不会撞期”。"
+    },
+    {
+      "name": "The Problem Journal & Insight Triad",
+      "name_zh": "问题日志与洞察三角",
+      "category": "product-strategy",
+      "problemItSolves": "Helps aspiring founders and PMs generate viable startup ideas that are based on real needs rather than 'solutions looking for a problem'.",
+      "problemItSolves_zh": "帮助潜在创业者和产品经理挖掘可行的创业点子，确保基于真实需求，而非“拿着锤子找钉子”。",
+      "summary": "A disciplined approach to ideation. It combines the habit of recording daily frictions with active immersion in communities and observation of macro-shifts to find the 'Why Now'.",
+      "summary_zh": "一种严谨的创意构思方法。它结合了记录日常摩擦痛点的习惯、对特定社群的深入沉浸，以及对宏观趋势变化的观察，从而找到“为什么是现在（Why Now）”的答案。",
+      "principles": [
+        "The Problem Journal: Write down annoyances daily, but intentionally DO NOT write the solution yet. Focus on the pain.",
+        "Community Immersion: Join niche subreddits or hobbyist groups to identify recurring complaints and patterns.",
+        "Macro Shift Analysis: Identify 'Why Now' triggers—either Consumer Behavior shifts (e.g., remote work) or Technology shifts (e.g., AI/Web3)."
+      ],
+      "principles_zh": [
+        "问题日志：每天记录令你烦恼的事情，但刻意不要立即写下解决方案。专注于痛点本身。",
+        "社群沉浸：加入垂直的 Subreddit 或发烧友小组，识别反复出现的抱怨和模式。",
+        "宏观趋势分析：确定“为什么是现在”的触发因素——关注消费行为变化（如远程办公）或技术变革（如AI/Web3）。"
+      ],
+      "whenToUse": "During the ideation phase of a startup or when looking for new features/product lines within an existing company.",
+      "whenToUse_zh": "在创业初期的构思阶段，或在现有公司内部探索新功能/新产品线时。",
+      "commonMistakes": "Skipping the 'Problem' phase and jumping straight to building a 'Cool Idea' without validating the underlying insight.",
+      "commonMistakes_zh": "跳过“问题定义”阶段，直接构建一个“很酷的想法”，却未验证其背后的洞察是否成立。",
+      "quote": "I wrote a problem journal... I didn't try to solve it. I didn't say, 'Here's the solution.' I was just like, 'This is annoying.'",
+      "realWorldExample": "Ryan noticing that many SF apartments don't have laundry (Problem Journal) -> realizing this is a dense urban logistics issue -> leading to on-demand laundry startups.",
+      "realWorldExample_zh": "Ryan 注意到许多旧金山的公寓没有洗衣机（问题日志） -> 意识到这是一个高密度的城市物流问题 -> 从而引申出按需洗衣服务的创业点子。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Momentum is reflexive... high momentum leads to more high momentum. Low momentum leads to more low momentum.",
+      "context": "Ryan explaining why maintaining shipping velocity and energy is the most critical factor in early-stage startups."
+    },
+    {
+      "text": "If you're building a consumer company, it is really hard to build it without some sort of unique insight, maybe impossible.",
+      "context": "Contrasting consumer startups with B2B, noting that consumer apps compete for attention against everything from Netflix to sleep."
+    },
+    {
+      "text": "Do you see a line of sight to work on this for a decade?",
+      "context": "The 'Litmus Test' Ryan uses to challenge founders before they raise venture capital."
+    }
+  ],
+  "filename": "Ryan Hoover"
+}

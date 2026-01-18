@@ -1,0 +1,149 @@
+{
+  "guest": {
+    "name": "Jiaona Zhang (JZ)",
+    "title": "SVP of Product",
+    "company": "Webflow",
+    "background": "Jiaona Zhang (JZ) is the Senior Vice President of Product at Webflow and a lecturer at Stanford University. She previously held senior product leadership roles at WeWork, Airbnb, and Dropbox, and is known for her expertise in product strategy and scaling teams.",
+    "background_zh": "Jiaona Zhang (JZ) 现任 Webflow 产品高级副总裁，同时也是斯坦福大学的讲师。她曾任职于 WeWork、Airbnb 和 Dropbox 担任高级产品领导职务，以在产品战略制定和团队规模化管理方面的专业能力而闻名。"
+  },
+  "episodeSummary": "In this episode, JZ shares insights on evolving from Minimal Viable Products (MVP) to Minimal Lovable Products (MLP) and dissects common PM mistakes like solution-first thinking. She details her unique frameworks for narrative-driven roadmapping, setting qualitative OKRs, and structuring the first 90 days of leadership. JZ also candidly discusses the failure of Airbnb Plus and how to leverage core product strengths.",
+  "episodeSummary_zh": "在本期节目中，JZ 分享了从最小可行产品（MVP）向最小喜爱产品（MLP）进阶的见解，并剖析了产品经理常见的“方案先行”等错误。她详细介绍了叙事驱动的路线图规划、设定定性 OKR 以及构建领导者入职前90天计划的独特框架。JZ 还坦诚探讨了 Airbnb Plus 项目的失败教训，以及如何利用核心产品优势制定战略。",
+  "keyTakeaways": [
+    "Stop jumping to solutions; fall in love with the problem first.",
+    "Move beyond MVP (Viable) to MLP (Lovable) by focusing on depth and polish.",
+    "Roadmaps must tell a story with themes, not just list features in a spreadsheet.",
+    "Career acceleration comes from developing a specific 'superpower' you are known for.",
+    "When entering a new role, treat trust as a bank account—deposit before you withdraw.",
+    "Product strategy should double down on your 'alpha' (core strength) rather than chasing competitors.",
+    "OKRs should capture the qualitative 'spirit' of success, not just input metrics."
+  ],
+  "methodologies": [
+    {
+      "name": "Minimal Lovable Product (MLP)",
+      "name_zh": "最小喜爱产品 (MLP)",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents releasing products that are technically functional but fail to gain traction because they lack quality or delight in a competitive market.",
+      "problemItSolves_zh": "解决产品虽然功能可用，但因缺乏质量感或愉悦感而在竞争激烈的市场中无法获得用户青睐的问题。",
+      "summary": "Instead of building a broad set of barely functional features (MVP), focus on a smaller scope executed with high quality and delight. In a world of abundant options, users expect 'lovable' experiences, not just viable ones.",
+      "summary_zh": "与其构建一系列功能广泛但体验仅及格的功能（MVP），不如专注于较小的范围，但以高质量和令人愉悦的体验来执行。在选择丰富的当今世界，用户期待的是“令人喜爱”的体验，而不仅仅是“可行”的体验。",
+      "principles": [
+        "Narrow the scope: Do 5 things perfectly rather than 15 things poorly.",
+        "Define 'Lovable': Understand the specific quality bar and polish required for your target persona.",
+        "Add 'Pixie Dust': Invest in small, delightful details (e.g., templates, shortcuts) that go beyond utility.",
+        "Assess the Market: If replacing a spreadsheet, MVP is fine; if competing with established tools, you need MLP."
+      ],
+      "principles_zh": [
+        "收窄范围：完美地做5件事，而不是糟糕地做15件事。",
+        "定义“喜爱”：理解目标用户群体所需的具体质量门槛和打磨程度。",
+        "添加“惊喜元素”：投入资源打磨那些超越基本实用性的微小细节（如模板、快捷键）。",
+        "评估市场：如果是替代电子表格，MVP即可；如果是与成熟工具竞争，则必须达到 MLP 标准。"
+      ],
+      "whenToUse": "When launching a new feature in a crowded market or when user expectations for design/UX are high.",
+      "whenToUse_zh": "在拥挤的市场中发布新功能，或用户对设计/用户体验有较高期望时使用。",
+      "commonMistakes": "Confusing 'lovable' with 'feature-complete'. Trying to polish everything instead of focusing on the core differentiators.",
+      "commonMistakes_zh": "混淆“令人喜爱”与“功能完备”。试图打磨所有细节，而不是专注于核心差异化体验。",
+      "quote": "Minimal lovable products is the new MVP... It's better to do five things instead of the 15 things in a really, really great way with a high degree of polish.",
+      "realWorldExample": "At Webflow, adding keyboard shortcuts for power users was a form of 'pixie dust' that created lovability. Conversely, Airbnb mobile revamp added templates as a lovable layer.",
+      "realWorldExample_zh": "在 Webflow，为高级用户添加快捷键就是一种创造喜爱感的“惊喜元素”。反之，Airbnb 移动端改版时增加的模版功能也是构建 MLP 的一环。"
+    },
+    {
+      "name": "Narrative-Driven Roadmapping",
+      "name_zh": "叙事驱动的路线图规划",
+      "category": "execution",
+      "problemItSolves": "Solves the issue where roadmaps become dry spreadsheets of features that lack strategic context, leading to team misalignment on the 'why'.",
+      "problemItSolves_zh": "解决路线图沦为枯燥的功能列表电子表格，缺乏战略背景，导致团队对“为什么做”缺乏共识的问题。",
+      "summary": "A roadmap should be a document that tells a story about strategic themes and the 'why', not just a spreadsheet of RICE scores. It serves as scaffolding for the team to define the 'how'.",
+      "summary_zh": "路线图应该是一份讲述战略主题和“为什么”的叙事文档，而不仅仅是包含 RICE 评分的电子表格。它应作为脚手架，指导团队去定义具体的“如何做”。",
+      "principles": [
+        "Story over Spreadsheet: Write a doc explaining the narrative arc of the product strategy.",
+        "Themes over Features: Group work into broad investment themes rather than specific feature lists.",
+        "Link to Reality: Keep the high-level story in a doc, but link to Jira/trackers for the granular, changing details.",
+        "Adaptability: Change the roadmap only when new inputs fundamentally shift the narrative/themes."
+      ],
+      "principles_zh": [
+        "重叙事轻表格：撰写文档来解释产品战略的叙事弧线。",
+        "重主题轻功能：将工作归类为广泛的投资主题，而非具体的功能清单。",
+        "链接现实：在文档中保留高层级故事，具体且多变的细节通过链接 Jira/任务追踪工具展示。",
+        "适应性：只有当新输入根本性地改变叙事或主题时，才调整路线图。"
+      ],
+      "whenToUse": "During quarterly or annual planning to align stakeholders and engineering teams on strategic intent.",
+      "whenToUse_zh": "在季度或年度规划期间，用于让利益相关者和工程团队在战略意图上达成一致。",
+      "commonMistakes": "Presenting a spreadsheet with effort/impact columns as the roadmap strategy. Getting bogged down in execution details too early.",
+      "commonMistakes_zh": "将包含工作量/影响力列的电子表格直接作为路线图战略展示。过早陷入执行细节。",
+      "quote": "What humans really crave is like, 'Why am I doing this body of work?'... You're telling a story.",
+      "realWorldExample": "Instead of listing features, JZ creates a document outlining big areas of investment (themes) and links out to Jira for the actual project status.",
+      "realWorldExample_zh": "JZ 不会简单罗列功能，而是创建一份文档概述重点投资领域（主题），并链接到 Jira 以展示实际项目状态。"
+    },
+    {
+      "name": "The 'Superpower' Career Framework",
+      "name_zh": "“核心超能力”职业加速框架",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs who feel stuck or commoditized stand out and gain more responsibility/promotions.",
+      "problemItSolves_zh": "帮助那些感到停滞不前或同质化的产品经理脱颖而出，获得更多职责或晋升机会。",
+      "summary": "Accelerate your career by becoming exceptionally good at and known for one specific thing (a superpower). This reputation attracts harder problems and more responsibility.",
+      "summary_zh": "通过在某一方面表现卓越并建立知名度（核心超能力）来加速职业发展。这种声誉会吸引更具挑战性的问题和更多的责任。",
+      "principles": [
+        "Identify a Niche: It could be complex launches, technical depth, regulatory navigation, or analytics.",
+        "Build Reputation: Consistently crush projects in that domain so people flock to you for those problems.",
+        "Expand Responsibility: Use success in your niche to gain trust for broader scope.",
+        "Evolve: As you become a manager, shift your superpower from execution to team building/strategy."
+      ],
+      "principles_zh": [
+        "确立细分领域：可以是复杂的发布流程、技术深度、合规处理或数据分析。",
+        "建立声誉：在该领域持续出色地完成项目，让人们遇到此类问题时自然想到你。",
+        "扩展职责：利用在细分领域的成功赢取信任，从而获得更广泛的职责。",
+        "持续进化：当你成为管理者时，将超能力从执行层面转向团队建设或战略层面。"
+      ],
+      "whenToUse": "Early to mid-career PMs looking to differentiate themselves or seeking promotion.",
+      "whenToUse_zh": "处于职业生涯早期至中期的产品经理，希望通过差异化竞争获得晋升时。",
+      "commonMistakes": "Trying to be good at everything (generalist) too early without having a spike/anchor skill.",
+      "commonMistakes_zh": "过早试图面面俱到（通才），而没有建立一个突出的核心技能锚点。",
+      "quote": "Find something that you can be really, really good at... People tend to flock and give responsibility to the people that are known for being excellent at something.",
+      "realWorldExample": "Early in her career, JZ was known for analytics and execution on complex launches. This reputation allowed her to lead a complex integration at Dropbox despite a small team.",
+      "realWorldExample_zh": "职业生涯早期，JZ 以数据分析和复杂发布的执行力著称。这种声誉使她在 Dropbox 能够带领一个小团队完成复杂的集成项目。"
+    },
+    {
+      "name": "Core Alpha Strategy",
+      "name_zh": "核心优势（Alpha）战略",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents strategic drift where companies build unsuccessful products by chasing competitors or straying from their core competency.",
+      "problemItSolves_zh": "防止战略漂移，避免公司因盲目追随竞争对手或偏离核心竞争力而构建失败的产品。",
+      "summary": "Product strategy should stem from understanding why users love your specific product (your Alpha) and investing deeply in that, rather than fixing weaknesses to match competitors.",
+      "summary_zh": "产品战略应源于理解用户为何喜爱你的特定产品（你的 Alpha），并在此基础上深度投入，而不是为了追赶竞争对手去补短板。",
+      "principles": [
+        "Identify the Core Love: What is the singular reason users choose you? (e.g., Airbnb = Unique Homes/Hosts).",
+        "Double Down: Invest in strengthening that core advantage.",
+        "Avoid Competitor Envy: Don't build features just because a competitor has them (e.g., Dropbox building chat vs. better file sync).",
+        "Check Unit Economics: Ensure the new direction fits your operational model."
+      ],
+      "principles_zh": [
+        "识别核心喜爱点：用户选择你的单一原因是什么？（例如 Airbnb = 独特的房源/房东）。",
+        "加倍投入：投资于增强这一核心优势。",
+        "避免竞争嫉妒：不要仅仅因为竞争对手有某个功能就去开发（例如 Dropbox 开发聊天功能 vs. 更好的文件同步）。",
+        "检查单位经济模型：确保新方向符合你的运营模式。"
+      ],
+      "whenToUse": "When deciding on new product lines or expansions in a mature company.",
+      "whenToUse_zh": "在成熟公司决定新产品线或业务扩展时使用。",
+      "commonMistakes": "Airbnb Plus failed because it tried to be a managed inventory business (like hotels) which ignored their core strength as a P2P platform.",
+      "commonMistakes_zh": "Airbnb Plus 的失败在于它试图通过人工检查库存（像酒店一样），这忽视了其作为 P2P 平台的核心优势。",
+      "quote": "Understand why people love you and not forgetting to invest deeply in that core concept and then building everything around that.",
+      "realWorldExample": "Dropbox focused on building Chat to compete with Slack instead of fixing core sync performance. Airbnb Plus tried to add inspections (operational heavy) instead of leveraging reviews/host data (platform strength).",
+      "realWorldExample_zh": "Dropbox 曾专注于开发聊天功能以对抗 Slack，而非修复核心同步性能。Airbnb Plus 试图增加人工检查（重运营），而非利用评论/房东数据（平台优势）。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You're not a CEO... You actually have very little true authority because you don't actually manage anyone. A lot of it is all through influence.",
+      "context": "On correcting the misconception that PMs get to 'call the shots'."
+    },
+    {
+      "text": "I would rather have all the OKRs be red or yellow and we missed everything and we learned around why we missed it than everything to be green.",
+      "context": "On the importance of setting ambitious goals over safe ones."
+    },
+    {
+      "text": "If you don't ask for help, there's so many times where you're just going to be sitting there with your problems. Whatever you have in your mind is just not the global best thing.",
+      "context": "Her best advice for leaders on overcoming the fear of looking incompetent."
+    }
+  ],
+  "filename": "Jiaona Zhang"
+}

@@ -3,7 +3,8 @@
     "name": "Evan LaPointe",
     "title": "Founder",
     "company": "CORE Sciences",
-    "background": "A four-time founder (including Satellite, acquired by Adobe) turned neuroscience educator. He runs CORE Sciences to teach companies how to bridge the gap between 'what science knows' and 'what business does' to improve decision-making and team dynamics."
+    "background": "A four-time founder (including Satellite, acquired by Adobe) turned neuroscience educator. He runs CORE Sciences to teach companies how to bridge the gap between 'what science knows' and 'what business does' to improve decision-making and team dynamics.",
+    "background_zh": "曾四度创业（其中包括被 Adobe 收购的 Satellite），现转型为神经科学教育者。他目前主理 CORE Sciences，致力于帮助企业弥合“科学认知”与“商业落地”之间的鸿沟，从而优化决策并提升团队效能。"
   },
   "episodeSummary": "Evan LaPointe bridges the gap between neuroscience and product management, arguing that most business dysfunction arises because we ignore how human brains actually operate. He breaks down the brain's safety, reward, and purpose systems, and introduces frameworks for navigating personality differences (specifically Openness vs. Conscientiousness) in strategy work. The episode offers deep dives into fixing broken professional relationships, structuring meetings to avoid waste, and choosing specific 'characters' to influence stakeholders effectively.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When you are struggling to get buy-in despite having the correct data, or when trying to understand why a high-performing team member is causing friction.",
       "commonMistakes": "Doubling down on proving you are 'right' (Ability) when the actual deficit is that you are unpleasant to work with (Appeal).",
       "quote": "It's critical to ask what kind of experience am I? Not how good am I at my job... but am I a miserable experience? If the answer is yes, don't worry too much about the other pieces yet. You got to fix that first.",
-      "realWorldExample": "Evan uses Shreyas Doshi as an example of someone with high scores in all three: High Utility (intellectually additive), High Trust (Level 3), and High Appeal (positive experience)."
+      "realWorldExample": "Evan uses Shreyas Doshi as an example of someone with high scores in all three: High Utility (intellectually additive), High Trust (Level 3), and High Appeal (positive experience).",
+      "summary_zh": "该框架将职场关系解构为三大核心要素。有悖于常规商业逻辑的是，在生物学层面，“能力”反而是权重最低的维度；而“吸引力”（即与你共事的体验），才是决定个体能否在社会协作网络中生存的关键。",
+      "problemItSolves_zh": "解释了为何业务能力极强的产品经理或工程师容易遭遇边缘化，而某些看似“低效”的人却能混得风生水起。本方法论提供了一套诊断工具，旨在修复破裂的利益相关者关系。",
+      "whenToUse_zh": "当你手握确凿数据却难以获得支持，或是试图理解为何高绩效成员反而在制造团队摩擦时。",
+      "commonMistakes_zh": "当真正的短板在于“难以共事”（Appeal）时，却还在死磕证明自己是“对的”（Ability）。",
+      "realWorldExample_zh": "Evan 以 Shreyas Doshi 为例，指出他在三个维度上均获高分：高实用性（具备认知增量）、高信任度（Level 3）以及高吸引力（提供正向体验）。",
+      "principles_zh": [
+        "要素 1：能力（实用价值）——你是否具备胜任力？这涵盖了知识储备、逻辑推理和想象力。这是必要条件，但非充分条件。",
+        "要素 2：信任（风险管控）——基于三个层级进行评估：1. 授权（简单任务交付）；2. 可扩展性（像我亲力亲为一样出色）；3. 卓越性（做得比我更好或方式更优）。",
+        "要素 3：吸引力（交互体验）——这是生物学层面的最高优先级。如果你触发了同事的“安全防御机制”（如恐惧感或威胁感），或者让人感到“体验极差”，你的实用价值将彻底失效，因为协作网络会主动孤立你。",
+        "行动指南：如果一段职场关系陷入僵局，优先修复“体验”层面的问题（如沟通语调、能量状态、心理安全感），而非急于自证能力。"
+      ],
+      "name_zh": "The 'Experience First' Relationship Triad（“体验优先”关系铁三角）"
     },
     {
       "name": "The Meeting Priming Protocol",
@@ -47,7 +60,20 @@
       "whenToUse": "For every strategic meeting, roadmap planning session, or complex cross-functional sync.",
       "commonMistakes": "Skipping priming to 'save time,' which results in debating tactics when the misalignment is actually about principles (e.g., one person solving for speed, another for accuracy).",
       "quote": "A lot of meetings skip the priming step altogether... It would be safe to skip the priming step if we began the meeting under the assumption that everybody here is on the same page... I think that's a ludicrous assumption.",
-      "realWorldExample": "Amazon's memo culture is cited as a robust (albeit arduous) execution of priming, ensuring context is consumed before discussion starts."
+      "realWorldExample": "Amazon's memo culture is cited as a robust (albeit arduous) execution of priming, ensuring context is consumed before discussion starts.",
+      "summary_zh": "将会议视为一款具有明确阶段划分的产品。它规定在进行任何决策之前，必须先经过「预设」阶段，从而在对话的「元层面」——即原则、思维模式和背景上下文——实现对齐。",
+      "problemItSolves_zh": "消除“菱形”会议失效模式，即避免团队在会议结束时陷入发散（而非在开始时进行探索），从而杜绝时间浪费和决策反复。",
+      "whenToUse_zh": "适用于每一场战略会议、Roadmap 规划会，或复杂的跨职能对齐会。",
+      "commonMistakes_zh": "为了“省时间”而跳过预对齐，导致会议陷入战术层面的争论，而实际的错位源于原则层面（例如：一方以速度为优化目标，另一方则以准确性为优先）。",
+      "realWorldExample_zh": "亚马逊的备忘录文化常被引为“会前预热”的硬核（尽管繁重）实践，确保在讨论开始前，所有背景信息已被充分消化。",
+      "principles_zh": [
+        "第一步：定义类型——本次会议旨在发散方案、创造性解决问题，还是追求执行效率？",
+        "第二步：确立原则——明确议事规则（例如：我们要固守成规还是破旧立新？是速度优先还是准确至上？）。",
+        "第三步：信息对齐——在展开讨论前，确保全员已拉齐信息背景（Context）。",
+        "第四步：制定决策——只有完成上述预备（Priming）工作后，才进入收敛决策阶段。",
+        "约束条件：拒绝任何缺乏预备背景信息（Priming Context）的日程邀请，杜绝无效会议。"
+      ],
+      "name_zh": "The Meeting Priming Protocol（会议预热协议）"
     },
     {
       "name": "The CORE Identity Strategy Alignment",
@@ -63,7 +89,19 @@
       "whenToUse": "During annual planning, vision sprints, or when a PM is pitching a 'moonshot' to engineering leads or conservative stakeholders.",
       "commonMistakes": "Allowing a high-conscientiousness person to kill an idea in its 'infancy' by demanding ROI or efficiency metrics before the idea has matured.",
       "quote": "If you are low in openness... as soon as things get abstract, not only are you like, 'I don't like this,' you have a much more visceral negative response... you are now going into your pain cave.",
-      "realWorldExample": "Lenny identifying himself as low openness/high conscientiousness and realizing why he struggles when designers propose massive, abstract re-designs."
+      "realWorldExample": "Lenny identifying himself as low openness/high conscientiousness and realizing why he struggles when designers propose massive, abstract re-designs.",
+      "summary_zh": "该方法旨在调和“开放性”特质（拥抱抽象与愿景）与“尽责性”特质（追求效率与秩序）之间的张力。它将这一矛盾界定为神经认知处理模式的冲突，而非单纯的观点对立。",
+      "problemItSolves_zh": "化解战略规划中“愿景型”与“执行型”人才之间的摩擦，防止高尽责性员工过早扼杀创新构想。",
+      "whenToUse_zh": "适用于年度规划、愿景冲刺（Vision Sprints），或当产品经理向技术负责人及保守的利益相关方发起“登月项目”（Moonshot）提案时。",
+      "commonMistakes_zh": "允许具有“高尽责性”特质的人在想法尚未成熟的萌芽期，就通过苛求 ROI 或效率指标，将创意扼杀在摇篮里。",
+      "realWorldExample_zh": "Lenny 明确了自己属于“低开放性、高尽责性”特质，从而理解了为何面对设计师提出的宏大且抽象的改版提案时，他会感到如此挣扎。",
+      "principles_zh": [
+        "**自我诊断：** 确认你是否属于“低开放性/高尽责性”人格。如果是，抽象的愿景规划工作往往会让你陷入“心理痛苦区”，感到效率极其低下。",
+        "**主动示弱：** 明确表达你的认知偏差。例如：“我的开放性较低，所以很难想象这个愿景。我需要协助将其转化为具体的逻辑。”",
+        "**转化思维：** 以“逆向工程”为桥梁。如果愿景听起来过于虚无缥缈，试着从结果**倒推**所需的输入变量。这种方式能满足高尽责性大脑对结构化的需求。",
+        "**情境感知：** 面对质疑时，扩大“N值”（样本量）。通常只需与 5 位以上客户进行深度互动，就能获得关键数据，让“难以想象”的愿景变得“真实可信”。"
+      ],
+      "name_zh": "The CORE Identity Strategy Alignment（CORE 身份战略对齐）"
     },
     {
       "name": "The 'Select Your Character' Influence Model",
@@ -81,7 +119,21 @@
       "whenToUse": "When managing up to executives or trying to persuade a stubborn cross-functional partner to change direction.",
       "commonMistakes": " defaulting to the 'Slow' method (waiting for them to realize they are wrong) when the business needs 'Fast' influence, or trying to use 'Fast' influence without a high-trust relationship.",
       "quote": "It's almost like you're playing Elden Ring... The starting point is to choose your character. 'Hey, I'm the devil's advocate approach' or 'I'm the break it and see if it still stands'... your personality kind of has a natural fit.",
-      "realWorldExample": "Using the 'Challenger Sale' technique (Moderate Speed) by teaching a colleague a new piece of data regarding user behavior, then letting them 'live with it' for 30 days until they can't unsee the problem."
+      "realWorldExample": "Using the 'Challenger Sale' technique (Moderate Speed) by teaching a colleague a new piece of data regarding user behavior, then letting them 'live with it' for 30 days until they can't unsee the problem.",
+      "summary_zh": "将影响力机制游戏化，要求你在发起影响力行动时，不再依赖默认的惯性行为，而是有意识地选择“角色”和“速度”。",
+      "problemItSolves_zh": "帮助 PM 摒弃“一刀切”的沟通模式，从而有效影响那些抗拒变革的利益相关者。",
+      "whenToUse_zh": "向上管理高层，或试图说服固执的跨职能合作伙伴调整方向时。",
+      "commonMistakes_zh": "在业务急需“快速”施加影响力时，惯性采用“慢速”策略（即坐等对方自行觉悟）；或在缺乏高信任基础的情况下，强行使用“快速”策略。",
+      "realWorldExample_zh": "运用“挑战者销售”技巧（中速策略）：向同事同步一项关于用户行为的新数据，留出 30 天时间让其自行消化，直到他们无法再对该问题视而不见。",
+      "principles_zh": [
+        "步骤 1：设定角色——你是“共情协作者”、“逻辑数据派”，还是“强力破局者”？",
+        "步骤 2：获取许可——明确征求扮演该角色的授权（例如：“我准备唱个反调，挑战一下这个方案的可行性，可以吗？”）。",
+        "步骤 3：掌控节奏——根据紧迫程度选择介入方式：",
+        "- 慢速：放手试错（允许对方通过“踩坑”获取经验）。",
+        "- 中速：“挑战者”模式（输入新信息，留出内化时间）。",
+        "- 快速：制造认知失调（直接冲击其认知与现实/行为之间的偏差）。"
+      ],
+      "name_zh": "The 'Select Your Character' Influence Model（“选择角色”影响力模型）"
     }
   ],
   "notableQuotes": [
@@ -102,5 +154,6 @@
       "context": "Evan's internal reaction to the common corporate phrase 'We can't talk about this for the rest of our lives,' used to shut down necessary debate."
     }
   ],
-  "filename": "Evan LaPointe"
+  "filename": "Evan LaPointe",
+  "episodeSummary_zh": "Evan LaPointe 将神经科学与产品管理深度融合，他主张：大多数业务层面的失能，根源在于我们忽视了人类大脑的真实运作机制。他详细拆解了大脑的安全、奖励及目标系统，并引入了一套全新的思维框架，用于在战略制定中驾驭人格特质的差异（特别是“开放性”与“尽责性”之间的张力）。本期节目还深度解析了如何修复受损的职场关系、如何通过结构化会议杜绝低效内耗，以及如何通过切换特定的“人设”来高效影响利益相关者。"
 }

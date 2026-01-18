@@ -1,0 +1,127 @@
+{
+  "guest": {
+    "name": "Jerry Colonna",
+    "title": "Co-founder & CEO",
+    "company": "Reboot",
+    "background": "Jerry Colonna is a renowned executive coach often referred to as the 'CEO Whisperer.' Formerly a prominent venture capitalist at Flatiron Partners, he now focuses on the intersection of leadership, psychological growth, and resiliency.",
+    "background_zh": "Jerry Colonna 是享誉全球的高管教练，被业内称为“CEO耳语者”。他曾是 Flatiron Partners 的知名风险投资人，目前专注于领导力、心理成长与企业韧性交叉领域的辅导工作。"
+  },
+  "episodeSummary": "Jerry Colonna discusses the critical importance of 'radical self-inquiry' for leaders to prevent burnout and build high-functioning teams. He breaks down the psychological patterns that cause founders to self-sabotage, introduces his signature framework for uncovering personal complicity in unwanted outcomes, and explains why practical skills alone are insufficient for modern leadership.",
+  "episodeSummary_zh": "Jerry Colonna 探讨了“深度内省（Radical Self-Inquiry）”对于预防领导者倦怠和打造高绩效团队的关键作用。他剖析了导致创始人自我毁灭的心理模式，介绍了他标志性的自省框架——用于揭示个人在不良后果中扮演的“同谋”角色，并解释了为何仅靠硬技能不足以支撑现代领导力。",
+  "keyTakeaways": [
+    "The 'Complicity Question' helps leaders regain agency by identifying how they contribute to problems they complain about.",
+    "True leadership resilience requires a combination of practical skills, self-inquiry, and shared experiences.",
+    "Busyness is often a trauma response or a way to quiet the inner imposter syndrome voice.",
+    "Team dysfunction is often a fractal of the leader's own unresolved psychological baggage.",
+    "Success and money do not solve internal feelings of insecurity; only decoupling self-worth from outcome does."
+  ],
+  "methodologies": [
+    {
+      "name": "The Complicity Inquiry Framework",
+      "name_zh": "“同谋者”自省框架",
+      "category": "career-leadership",
+      "problemItSolves": "Leaders feeling victimized by their circumstances, overwhelmed by busyness, or stuck in repetitive negative patterns without seeing a way out.",
+      "problemItSolves_zh": "解决领导者感到被环境受害者化、被忙碌淹没，或陷入重复性消极模式却找不到出路的困境。",
+      "summary": "A psychological tool to shift from blame to agency. By asking how one is complicit (like an accomplice, not necessarily responsible/guilty) in creating unwanted conditions, leaders uncover the hidden benefits or 'delusions' driving their behaviors.",
+      "summary_zh": "这是一个将思维从“责备”转向“掌控”的心理工具。通过询问自己在不想看到的局面中扮演了什么“同谋”（Accomplice）角色，领导者可以揭示驱动其行为的隐形收益或自我欺骗。",
+      "principles": [
+        "Ask the core question: 'How have I been complicit in creating the conditions I say I don't want?'",
+        "Distinguish 'Complicity' from 'Responsibility': You are the getaway driver, not necessarily the bank robber.",
+        "Identify the 'Hidden Benefit': What psychological need is being met by this bad situation? (e.g., being busy = feeling important/safe).",
+        "Reclaim Agency: Once the delusion is exposed, you can consciously choose a different path."
+      ],
+      "principles_zh": [
+        "核心发问：“在我声称不想要的局面中，我通过什么方式成为了‘同谋’？”",
+        "区分“同谋”与“责任”：你可能是开逃逸车的司机，而不一定是抢银行的主犯。",
+        "识别“隐形收益”：这个糟糕的局面满足了什么心理需求？（例如：忙得不可开交 = 感觉自己很重要/安全）。",
+        "重获掌控权（Agency）：一旦自我欺骗被揭穿，你就能有意识地选择另一条路径。"
+      ],
+      "whenToUse": "When you feel stuck, constantly complain about a situation (e.g., 'I'm too busy'), or feel powerless in your role.",
+      "whenToUse_zh": "当你感到停滞不前、持续抱怨某种状况（如“我太忙了”），或在职位上感到无力时使用。",
+      "commonMistakes": "Confusing complicity with self-blame/shame, or answering superficially without digging into the emotional payoff.",
+      "commonMistakes_zh": "混淆“同谋”与自我责备/羞耻感，或者只做表面回答而不深挖情感上的获益。",
+      "quote": "The purpose of this question is actually to evoke your own agency. A perfect example of that would be, I say I don't want to feel busy all the time, but the truth of the matter is I feel really unnerved... if my agenda isn't jam-packed.",
+      "realWorldExample": "A CEO complains that her team can't make decisions without her. Upon inquiry, she realizes she is 'complicit' because she gets furious when they make decisions she disagrees with, thus training them to be dependent.",
+      "realWorldExample_zh": "一位CEO抱怨团队离了她就无法做决策。通过自省，她意识到自己是“同谋”，因为当团队做出她不同意的决策时她会暴怒，从而实际上是在训练团队依赖她。"
+    },
+    {
+      "name": "The Reboot Leadership Equation",
+      "name_zh": "Reboot 领导力公式",
+      "category": "team-culture",
+      "problemItSolves": "Executives focusing solely on operational tactics (OKRs, KPIs) while suffering from burnout, depression, or toxic team dynamics.",
+      "problemItSolves_zh": "解决高管仅关注运营策略（如OKR、KPI），却遭受职业倦怠、抑郁或有毒团队氛围困扰的问题。",
+      "summary": "A holistic formula defining sustainable leadership. It argues that practical skills must be combined with internal psychological work and community support to achieve not just better performance, but personal resilience.",
+      "summary_zh": "一个定义可持续领导力的整体公式。它主张必须将实战技能与内在心理建设、社群支持相结合，才能实现绩效提升与个人韧性的双赢。",
+      "principles": [
+        "Variable 1: Practical Skills (The 'How' - Strategy, Product, Finance).",
+        "Variable 2: Radical Self-Inquiry (The 'Why' - Unpacking motivations, fears, and history).",
+        "Variable 3: Shared Experiences (The 'Who' - Vulnerable peer support/Circles to combat isolation).",
+        "Result: Enhanced Leadership + Greater Resiliency (The ultimate goal is not just success, but survival).",
+        "The 'Bootstrap' Fallacy: You cannot simply 'growth hack' your way out of psychological roadblocks."
+      ],
+      "principles_zh": [
+        "变量 1：实战技能（How - 战略、产品、财务技能）。",
+        "变量 2：深度内省（Why - 剖析动机、恐惧和过往经历）。",
+        "变量 3：共同经历（Who - 脆弱性互助/同行圈子以对抗孤独）。",
+        "结果：提升领导力 + 增强韧性（最终目标不仅是成功，而是生存）。",
+        "打破“自力更生”迷思：你无法单纯靠“增长黑客”手段绕过心理障碍。"
+      ],
+      "whenToUse": "When designing leadership development programs or when a leader is technically proficient but failing interpersonally or emotionally.",
+      "whenToUse_zh": "在设计领导力发展项目时，或当领导者技术能力过硬但在人际或情绪管理上失败时使用。",
+      "commonMistakes": "Ignoring the 'Resiliency' part of the equation and viewing Self-Inquiry as a distraction from 'real work'.",
+      "commonMistakes_zh": "忽视公式中的“韧性”部分，并将“深度内省”视为对“实际工作”的干扰。",
+      "quote": "I get you want to be a great CEO... but what I really care about is you not killing yourself in the process.",
+      "realWorldExample": "Jerry's bootcamps where CEOs stop talking about P&L and start answering questions like 'Who would you be without the story of who you are?' within a trusted peer group.",
+      "realWorldExample_zh": "Jerry举办的训练营中，CEO们在一个受信任的同行圈子里，停止讨论损益表（P&L），转而回答“如果没有现在的身份故事，你是谁？”等核心问题。"
+    },
+    {
+      "name": "The Communication Alignment Matrix",
+      "name_zh": "团队沟通四维诊断法",
+      "category": "team-culture",
+      "problemItSolves": "Teams that are 'nice' but dysfunctional, avoiding conflict, or misaligned on core issues despite frequent meetings.",
+      "problemItSolves_zh": "解决团队表面“一团和气”实则功能失调、回避冲突，或尽管会议频繁但在核心问题上仍未对齐的问题。",
+      "summary": "A set of four diagnostic questions designed to pierce through the 'bullshit' of corporate politeness and uncover the root causes of misalignment or resentment.",
+      "summary_zh": "一套由四个诊断性问题组成的工具，旨在刺破职场中的“虚假客套”，揭示错位或怨恨的根本原因。",
+      "principles": [
+        "Q1: What am I not saying that I need to say? (Identifying withheld truth/conflict avoidance).",
+        "Q2: What am I saying that's not being heard? (Identifying communication gaps/ineffectiveness).",
+        "Q3: What is being said that I'm not hearing? (Identifying listening filters/confirmation bias).",
+        "Q4: What is being said that I'm not saying? (Identifying echo chambers or lack of original thought).",
+        "Application: Use these in 1:1s or journaling to debug relationship friction."
+      ],
+      "principles_zh": [
+        "问题1：我没说什么是我本该说的？（识别被隐瞒的真相/冲突回避）。",
+        "问题2：我说了什么但没被听到？（识别沟通断层/无效表达）。",
+        "问题3：别人说了什么但我没听到？（识别倾听过滤/确认偏误）。",
+        "问题4：大家在说什么而我没说？（识别回声室效应或缺乏独立思考）。",
+        "应用：在1对1面谈或日记中使用，用于Debug人际摩擦。"
+      ],
+      "whenToUse": "Before a difficult conversation, during performance reviews, or when a relationship feels stalled.",
+      "whenToUse_zh": "在进行艰难对话前、绩效评估期间，或当一段关系陷入僵局时使用。",
+      "commonMistakes": "Asking these questions but not being prepared for the honest (and scary) answers.",
+      "commonMistakes_zh": "提出这些问题，却未准备好面对诚实（且令人恐惧）的答案。",
+      "quote": "You know you're in the radical self-inquiry zone when the questions take your breath away.",
+      "realWorldExample": "A coach uploading 10 years of journals to an AI model and asking it to analyze these specific questions to find blind spots in his self-perception.",
+      "realWorldExample_zh": "一位教练将自己10年的日记上传给AI模型，并要求AI根据这几个特定问题进行分析，从而发现自我认知中的盲点。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "How have I been complicit in creating the conditions I say I don't want?",
+      "context": "Jerry's signature question for triggering radical self-inquiry."
+    },
+    {
+      "text": "We're socialized to bullshit not only ourselves, but everybody else... All our companies are moving up into the right. Every product is working... and that's just a lie.",
+      "context": "On the culture of toxic positivity in the entrepreneurial community."
+    },
+    {
+      "text": "Until you make the unconscious conscious, it will direct your life and you will call it fate.",
+      "context": "Jerry quoting Carl Jung to explain why teams repeat dysfunction."
+    },
+    {
+      "text": "I get you want to be a great CEO, I get you want to be a great executive, but what I really care about is you not killing yourself in the process.",
+      "context": "The core mission behind the Reboot leadership equation."
+    }
+  ],
+  "filename": "Jerry Colonna"
+}

@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Hilary Gridley",
+    "title": "Head of Core Product",
+    "company": "Whoop",
+    "background": "Hilary Gridley is the Head of Core Product at Whoop, focusing on health and fitness technology. Previously, she served as Senior Director of Product at Big Health and Senior Product Marketing Manager at Dropbox, bringing deep expertise in behavioral psychology, mental health tech, and product leadership.",
+    "background_zh": "Hilary Gridley 现任 Whoop 核心产品负责人，专注于健康与健身科技领域。此前，她曾担任 Big Health 高级产品总监及 Dropbox 高级产品营销经理，在行为心理学、心理健康科技及产品领导力方面拥有深厚造诣。"
+  },
+  "episodeSummary": "Hilary Gridley joins Lenny to discuss the intersection of product leadership, behavioral psychology, and AI. She shares unique frameworks for resilience ('taking a punch'), aligning with difficult leadership decisions through mental modeling, and designing habit-forming products using emotional reward loops.",
+  "episodeSummary_zh": "Hilary Gridley 与 Lenny 探讨了产品领导力、行为心理学与 AI 的交叉领域。她分享了关于韧性建设（'抗压'）的独特框架，如何通过心智模型与高层决策保持同频，以及如何利用情感反馈闭环设计具有用户粘性的产品习惯。",
+  "keyTakeaways": [
+    "Product leaders must master emotional regulation to avoid spiraling after setbacks.",
+    "Counter-program negative narratives by taking small actions that prove the opposite of your fears.",
+    "Stop trying to be the 'protagonist' at work; focus on understanding your CEO's mental model.",
+    "Use 'Magic Questions' (statements followed by validation) to decode leadership feedback.",
+    "Habit formation requires rewards that are powerful, immediate, and emotional.",
+    "Use AI to simulate 'reps' for junior PMs to build judgment faster (e.g., simulated scenarios).",
+    "Active recovery and boundaries are essential for sustaining creative product work."
+  ],
+  "methodologies": [
+    {
+      "name": "Counter-Programming the Narrative (Taking a Punch)",
+      "name_zh": "叙事反编程框架（如何应对职场挫折）",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs stop spiraling or becoming defensive when they make a mistake, receive criticism, or feel their reputation is damaged.",
+      "problemItSolves_zh": "帮助产品经理在犯错、遭受批评或感到声誉受损时，停止精神内耗或防御性反应。",
+      "summary": "Instead of trying to 'litigate' the past or explain away a mistake, identify the negative narrative you fear others hold about you. Then, take one small, concrete action that demonstrates the exact opposite of that narrative to shift perception and regain agency.",
+      "summary_zh": "不要试图辩解过去或解释错误，而是识别你内心恐惧的“他人对你的负面看法”。然后，采取一个微小的、具体的行动，以此证明你并非如此，从而扭转看法并重获掌控感。",
+      "principles": [
+        "Don't litigate the past: Explaining why you weren't wrong usually sounds defensive.",
+        "Identify the Fear: Ask 'What specific narrative am I afraid this person now believes about me?'",
+        "Counter-Program: Execute one small, high-value action that proves that narrative is false."
+      ],
+      "principles_zh": [
+        "拒绝纠缠过去：过多解释自己为何没错，往往显得像是在防御。",
+        "识别恐惧核心：自问“我到底在害怕对方对我形成什么样的负面看法？”",
+        "反向编程：执行一个微小但在点子上的行动，用事实证明该负面看法是错误的。"
+      ],
+      "whenToUse": "When you've had an awkward interaction, a failed presentation, or received critical feedback that makes you feel insecure.",
+      "whenToUse_zh": "当你经历了尴尬的互动、演示失败或收到让你感到不安的批评反馈时。",
+      "commonMistakes": "Apologizing profusely or writing long emails explaining your intentions instead of demonstrating capability through new action.",
+      "commonMistakes_zh": "过度道歉或写长邮件解释意图，而不是通过新的行动来展示能力。",
+      "quote": "If they come to me and they're upset, I try to focus them less around how you litigate another person's impression of you and more on what is the action that you can take to counter program the narrative.",
+      "realWorldExample": "Hilary laughed at a 'ketamine tracking' idea from the CTO, appearing insensitive. Instead of apologizing, she researched emerging health trends (sports betting) and sent a thoughtful note connecting the two, proving she takes serious health issues seriously.",
+      "realWorldExample_zh": "Hilary 曾误以为 CTO 提出的“氯胺酮追踪”想法是玩笑而发笑，这让她显得不敏感。她没有单纯道歉，而是研究了相关的严峻健康趋势（如体育博彩成瘾），并发了一份深度笔记将两者联系起来，以此证明她对待严肃健康问题是非常认真的。"
+    },
+    {
+      "name": "Executive Mental Modeling",
+      "name_zh": "高管心智模型同频法",
+      "category": "execution",
+      "problemItSolves": "Reduces friction when getting approvals and prevents the frustration of feeling like leadership decisions make no sense.",
+      "problemItSolves_zh": "减少获得审批时的摩擦，并消除因“觉得高层决策毫无逻辑”而产生的挫败感。",
+      "summary": "Shift from being the 'protagonist' trying to convince others, to an observer trying to decode how leadership thinks. Use this understanding to translate their vision (even vague ones like 'make it feel like the future') into execution.",
+      "summary_zh": "从试图说服他人的“主角”视角，转变为试图解码领导层思维模式的观察者视角。利用这种理解，将他们的愿景（即使是像“让它看起来像未来”这样模糊的愿景）转化为具体的执行方案。",
+      "principles": [
+        "You are not the protagonist: The goal is not to win the argument, but to operationalize the company vision.",
+        "The 'What If' Exercise: Ask 'In what world does this decision make sense?' to find the hidden logic.",
+        "Magic Questions: Use statements + verification (e.g., 'It seems you're worried about X, is that right?') instead of open-ended questions."
+      ],
+      "principles_zh": [
+        "摒弃主角光环：目标不是赢得争论，而是将公司愿景落地。",
+        "“如果”练习：自问“在什么样的世界观下，这个决策是合理的？”以此寻找其内在逻辑。",
+        "魔法提问法：使用“陈述+验证”的句式（例如：“看起来您主要担心X，对吗？”），而非开放式提问。"
+      ],
+      "whenToUse": "When you disagree with a mandate, or when requirements seem vague/impossible (e.g., 'build something the internet hasn't seen').",
+      "whenToUse_zh": "当你不同意某项指令，或者需求看起来模糊/不可能实现时（例如：“做一个互联网从未见过的东西”）。",
+      "commonMistakes": "Assumed leadership is 'stupid' or irrational rather than operating on information or a mental model you don't yet understand.",
+      "commonMistakes_zh": "假定领导层“愚蠢”或非理性，而不是意识到他们可能基于你尚未掌握的信息或心智模型在做决策。",
+      "quote": "In the story of work, you are probably not the protagonist. You're not special.",
+      "realWorldExample": "Whoop's CEO wanted the app to 'feel like the future.' Instead of just increasing scope, Hilary interpreted his mental model as wanting to show off the AI's personalized data capabilities, leading to elegant, low-cost UI changes like conversational health explanations.",
+      "realWorldExample_zh": "Whoop 的 CEO 希望 App 能“感觉像未来”。Hilary 没有单纯扩大开发范围，而是解读出 CEO 的心智模型是希望展示 AI 的个性化数据能力，从而引导团队开发了优雅且低成本的 UI 变更，例如对话式的健康数据解读。"
+    },
+    {
+      "name": "The Emotional Habit Loop",
+      "name_zh": "情感化习惯回路设计",
+      "category": "product-strategy",
+      "problemItSolves": "Driving behavior change (for users or teams) where standard education or accountability fails.",
+      "problemItSolves_zh": "解决标准教育或问责机制无法奏效的（用户或团队）行为改变难题。",
+      "summary": "To build a habit, you need consistency, low friction, and most importantly, a reward loop. The reward must be powerful, immediate, and emotional to override existing behaviors.",
+      "summary_zh": "要建立习惯，你需要一致性、低摩擦力，最重要的是反馈闭环。奖励必须是强力的、即时的且具有情感冲击力的，这样才能覆盖现有的行为模式。",
+      "principles": [
+        "Consistency & Friction: Start small (1 min tasks) to establish the rhythm.",
+        "Immediacy: The feedback must happen the moment the action is taken.",
+        "Emotional Impact: The reward shouldn't just be data; it must evoke a feeling (pride, relief, or a 'sting')."
+      ],
+      "principles_zh": [
+        "一致性与摩擦力：从小处着手（1分钟任务）以建立节奏。",
+        "即时性：反馈必须在动作发生的那一刻立即出现。",
+        "情感冲击：奖励不仅仅是数据，必须能唤起某种感觉（自豪、宽慰或某种“刺痛感”）。"
+      ],
+      "whenToUse": "Designing retention features for products or trying to get your team to adopt new tools (like AI).",
+      "whenToUse_zh": "设计产品的留存功能，或试图让团队采用新工具（如 AI）时。",
+      "commonMistakes": "Focusing on 'educating' users/teams on why they should change, rather than designing the feeling they get when they do change.",
+      "commonMistakes_zh": "专注于“教育”用户/团队为什么要改变，而不是设计他们在改变时获得的即时感受。",
+      "quote": "The reward loop needs to be powerful, it needs to be immediate, and it needs to be emotional.",
+      "realWorldExample": "Whoop's 'Red Recovery' score after drinking alcohol creates an immediate, visceral 'anti-reward' that changes behavior faster than knowing the health science. For her team, she uses '30 days of GPT' with fun, low-stakes tasks to build the AI habit.",
+      "realWorldExample_zh": "Whoop 在用户饮酒后显示的“红色恢复分”，创造了一种即时的、发自内心的“反向奖励”，这比单纯了解健康科学更能促进行为改变。对于团队，她使用“30天 GPT挑战”，通过有趣、低风险的任务来培养使用 AI 的习惯。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Product leadership is the type of role where if you are not in control of the voices in your head, they will eat you alive.",
+      "context": "Opening discussion on the psychological toll of product management."
+    },
+    {
+      "text": "People think that the game is all about influencing the CEO... You come up thinking like you're the protagonist. But in the story of work, you are probably not the protagonist.",
+      "context": "Discussing how to align with leadership effectively."
+    },
+    {
+      "text": "I will act and then I will feel better.",
+      "context": "Explaining behavioral activation: action precedes motivation, not the other way around."
+    }
+  ],
+  "filename": "Hilary Gridley"
+}

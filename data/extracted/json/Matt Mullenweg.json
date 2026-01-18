@@ -1,0 +1,122 @@
+{
+  "guest": {
+    "name": "Matt Mullenweg",
+    "title": "CEO of Automattic & Co-creator of WordPress",
+    "company": "Automattic / WordPress",
+    "background": "Matt is the co-creator of WordPress, the open-source software that powers over 40% of the web. He is also the founder and CEO of Automattic, the parent company behind WordPress.com, WooCommerce, Tumblr, and Longreads.",
+    "background_zh": "Matt 是 WordPress 的联合创始人，该开源软件驱动了全球超过 40% 的网站。他同时也是 Automattic 的创始人兼 CEO，该公司旗下拥有 WordPress.com、WooCommerce、Tumblr 和 Longreads 等知名产品。"
+  },
+  "episodeSummary": "Matt Mullenweg addresses the explosive controversy between WordPress and WP Engine, explaining his stance on trademark infringement and the dangers of private equity in open source. He also discusses his philosophy on product governance, why products like Llama are 'fake open source,' and Automattic's strategy for acquisitions like Tumblr and WooCommerce.",
+  "episodeSummary_zh": "Matt Mullenweg 正面回应了 WordPress 与 WP Engine 之间爆发的激烈争议，阐述了他对商标侵权以及私募股权资本危害开源生态的立场。此外，他还探讨了产品治理哲学、为何 Llama 等模型属于“伪开源”，以及 Automattic 对 Tumblr 和 WooCommerce 等产品的并购策略。",
+  "keyTakeaways": [
+    "Open source licenses (GPL) provide the only true protection against platform risk and 'rug pulls' by proprietary companies.",
+    "Great software is rarely built by committee; it requires a 'benevolent dictator' to make unpopular but necessary long-term bets (like the Gutenberg editor).",
+    "Private Equity (PE) ownership often incentivizes value extraction over product innovation, which can hollow out open-source ecosystems.",
+    "Effective community building requires creating a movement with a philosophy (e.g., 'Code is Poetry'), not just a functional product.",
+    "AI models trained on open-source code represent a 'renaissance' for the utility of open code, even as proprietary software fades.",
+    "Automattic's M&A strategy distinguishes between 'Turnarounds' (Tumblr) and 'Accelerators' (WooCommerce/Day One), requiring different management approaches."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Benevolent Dictator' Governance Model",
+      "name_zh": "“仁慈独裁者”治理模型",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming stagnation caused by 'design by committee' and ensuring product relevance over decades of technological shifts.",
+      "problemItSolves_zh": "解决因“委员会设计”导致的停滞不前，并确保产品在数十年的技术变革中保持相关性。",
+      "summary": "While daily tasks are radically delegated to the community, the core product vision requires a single leader with voting control to push through controversial but necessary innovations. This structure allows the product to surf technological waves (e.g., mobile, blocks) that a consensus-driven board might reject due to short-term pain.",
+      "summary_zh": "虽然日常任务被彻底下放给社区，但核心产品愿景需要一位拥有投票控制权的领导者来推动具有争议但必要的创新。这种结构允许产品穿越技术周期（如移动化、区块化），避免因共识驱动的董事会关注短期痛苦而拒绝变革。",
+      "principles": [
+        "Radical Delegation: Empower hundreds of volunteers for daily commits and maintenance.",
+        "Visionary Control: Retain executive authority to enforce unpopular long-term bets (e.g., Gutenberg).",
+        "The Fork Safety Valve: Legitimacy comes from the user's freedom to 'fork' (exit) if the leader fails, creating a natural check and balance."
+      ],
+      "principles_zh": [
+        "激进式授权：赋予数百名志愿者进行日常代码提交和维护的权力。",
+        "愿景控制：保留行政权力以强制执行不受欢迎但长期的战略押注（如 Gutenberg 编辑器）。",
+        "分叉（Fork）作为安全阀：领导者的合法性来自于用户拥有“分叉”（退出）的自由，这构成了一种自然的制衡机制。"
+      ],
+      "whenToUse": "When managing open-source projects or platforms that need to survive generational technology shifts without being bogged down by bureaucracy.",
+      "whenToUse_zh": "适用于管理开源项目或平台，需要在代际技术更迭中生存，且不希望被官僚主义拖累时。",
+      "commonMistakes": "Assuming 'open source' means every decision must be a democratic vote, leading to feature bloat or lack of direction.",
+      "commonMistakes_zh": "误认为“开源”意味着每个决定都必须是民主投票，导致功能臃肿或缺乏方向。",
+      "quote": "Is great software ever created by committee or does it more often reflect a vision of a leader?",
+      "realWorldExample": "The introduction of the Gutenberg block editor in WordPress. It was hated by the community initially but was essential for WordPress to compete with Wix/Squarespace long-term.",
+      "realWorldExample_zh": "WordPress 引入 Gutenberg 区块编辑器。最初遭到社区痛恨，但对于 WordPress 长期与 Wix/Squarespace 竞争至关重要。"
+    },
+    {
+      "name": "The Open Source Platform Moat",
+      "name_zh": "开源平台护城河策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Building a defensible competitive advantage against well-funded proprietary competitors (like Shopify or Wix).",
+      "problemItSolves_zh": "建立防御性竞争优势，以对抗资金雄厚的专有软件竞争对手（如 Shopify 或 Wix）。",
+      "summary": "A true platform exists when the ecosystem makes more money than the core platform owner. By using an open license (GPL), you guarantee developers that you cannot 'rug pull' their APIs or business models later, encouraging a massive library of plugins/themes that proprietary competitors cannot replicate.",
+      "summary_zh": "真正的平台在于生态系统的收入超过平台拥有者本身。通过使用开源许可证（GPL），向开发者保证以后不会“撤梯子”（更改API或商业模式），从而鼓励海量插件/主题库的生成，这是专有竞争对手无法复制的。",
+      "principles": [
+        "Ecosystem Value > Core Value: Focus on enabling plugins/themes rather than building every feature in-core.",
+        "Guaranteed Freedom: Use licenses (GPL) that legally prevent the platform from restricting usage later.",
+        "Viral Licensing: Ensure improvements to the core must be shared back, creating a flywheel of innovation."
+      ],
+      "principles_zh": [
+        "生态价值 > 核心价值：专注于赋能插件/主题，而不是在核心产品中构建所有功能。",
+        "保障自由：使用许可证（GPL）从法律上防止平台后续限制使用。",
+        "病毒式许可：确保对核心的改进必须回馈给社区，创造创新的飞轮效应。"
+      ],
+      "whenToUse": "When building a developer platform or CMS where third-party extensions are critical to user retention.",
+      "whenToUse_zh": "适用于构建开发者平台或 CMS，且第三方扩展对用户留存至关重要的场景。",
+      "commonMistakes": "Trying to capture too much value at the platform layer, or changing API terms once the platform becomes successful (the 'bait and switch').",
+      "commonMistakes_zh": "试图在平台层攫取过多价值，或在平台成功后更改 API 条款（“诱饵转换”策略）。",
+      "quote": "If you build it on open source, you have that guarantee... even if I grew devil horns and became evil, WordPress would still belong just as much to you.",
+      "realWorldExample": "Shopify has a plugin ecosystem, but they can (and do) change terms. WordPress has 60,000+ plugins because developers know Automattic cannot legally revoke their access.",
+      "realWorldExample_zh": "Shopify 也有插件生态，但他们可以（且确实会）更改条款。WordPress 拥有 60,000+ 插件，因为开发者知道 Automattic 无法在法律上撤销他们的访问权限。"
+    },
+    {
+      "name": "Acquirer of First Resort Strategy",
+      "name_zh": "“首选收购方”并购策略",
+      "category": "execution",
+      "problemItSolves": "Scaling a holding company portfolio while maintaining founder loyalty and product integrity.",
+      "problemItSolves_zh": "在扩大控股公司投资组合的同时，保持创始人忠诚度和产品完整性。",
+      "summary": "Automattic positions itself as a steward for products, not just a financial exit. This encourages founders to sell to them even when higher bids exist (e.g., from porn companies or PE). They distinguish between 'Turnarounds' (heavy intervention) and 'Accelerators' (hands-off support).",
+      "summary_zh": "Automattic 将自己定位为产品的守护者，而不仅仅是财务退出通道。这鼓励创始人即使在有更高报价（如来自色情公司或私募股权）的情况下也选择卖给他们。他们区分“扭亏为盈型”（深度干预）和“加速型”（放手支持）两类收购。",
+      "principles": [
+        "Stewardship Reputation: Build a track record of not killing acquired products so founders trust you.",
+        "Categorization: Identify if a deal is a 'Turnaround' (needs new team/strategy, e.g., Tumblr) or 'Accelerator' (keep founder, inject resources, e.g., WooCommerce).",
+        "Patience: Be willing to subsidize losses (like Tumblr) using profits from cash cows (WooCommerce) for long-term strategic alignment."
+      ],
+      "principles_zh": [
+        "守护者声誉：建立不扼杀被收购产品的过往记录，从而获得创始人的信任。",
+        "分类管理：识别交易是“扭亏为盈型”（需要新团队/策略，如 Tumblr）还是“加速型”（保留创始人，注入资源，如 WooCommerce）。",
+        "耐心资本：愿意用现金牛业务（WooCommerce）的利润补贴亏损业务（如 Tumblr），以换取长期战略协同。"
+      ],
+      "whenToUse": "Corporate Development and Strategy for multi-product companies looking to grow via M&A.",
+      "whenToUse_zh": "适用于多产品公司的企业发展和战略部门，寻求通过并购实现增长时。",
+      "commonMistakes": "Treating every acquisition the same; applying a 'turnaround' playbook to a thriving company or vice versa.",
+      "commonMistakes_zh": "一视同仁地对待每次收购；对蒸蒸日上的公司使用“扭亏”剧本，反之亦然。",
+      "quote": "We are an acquirer of first resort... founders choose to join because they feel like we'll be good stewards.",
+      "realWorldExample": "Buying Tumblr for $3M (despite higher bids) to save it from irrelevance, vs. buying WooCommerce to accelerate an already winning product.",
+      "realWorldExample_zh": "尽管有更高报价，仍以 300 万美元收购 Tumblr 以挽救其免于被淘汰；对比收购 WooCommerce 则是为了加速一个已经成功的产品。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "A lie gets around the world seven times before the truth has time to get out of bed.",
+      "context": "Matt discussing the speed of misinformation regarding the WP Engine lawsuit on social media."
+    },
+    {
+      "text": "If you're really open and open source, sometimes you have to stand up to the bullies and you have to fight to protect your open source ideals.",
+      "context": "Defending his decision to take legal and technical action against WP Engine."
+    },
+    {
+      "text": "Life is maintenance.",
+      "context": "Reflecting on technical debt and the reality of owning software (or anything else). check out Stewart Brand's book on maintenance."
+    },
+    {
+      "text": "Don't just build a product, build a movement.",
+      "context": "Explaining the secret to WordPress's massive community scale."
+    },
+    {
+      "text": "If the founding fathers were around today, I think they would be open source advocates.",
+      "context": "Matt explaining how software freedom relates to personal liberty."
+    }
+  ],
+  "filename": "Matt Mullenweg"
+}

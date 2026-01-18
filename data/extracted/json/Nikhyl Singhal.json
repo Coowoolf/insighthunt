@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Nikhyl Singhal",
+    "title": "VP of Product",
+    "company": "Meta (Facebook App)",
+    "background": "Nikhyl leads product teams for the Facebook app, overseeing Groups, Stories, Messaging, and Feed. Previously, he was CPO at Credit Karma and held leadership roles at Google (Hangouts, Photos). He is also the creator of 'The Skip' podcast and newsletter.",
+    "background_zh": "Nikhyl 现任 Meta Facebook App 产品副总裁，统管群组、Stories、消息和 Feed 业务。此前曾任 Credit Karma 首席产品官及 Google 总监（负责 Hangouts 和 Photos）。他同时也是播客和通讯专栏“The Skip”的创办人。"
+  },
+  "episodeSummary": "Nikhyl Singhal deconstructs the product management career journey into distinct acts, offering contrarian advice on avoiding 'Ex-Growth' companies and navigating the transition from functional expert to executive leader. He introduces the 'Skip' methodology for long-term career planning and explores how a leader's greatest strengths often cast 'shadows' that derail their progress.",
+  "episodeSummary_zh": "Nikhyl Singhal 将产品经理的职业生涯解构为不同篇章，针对如何避开“后增长”（Ex-Growth）公司陷阱以及从职能专家向高管转型的过程提出了反直觉的建议。他介绍了用于长期职业规划的“跳级”（The Skip）思维，并深度剖析了领导者的核心优势如何演变为阻碍其发展的“阴影”。",
+  "keyTakeaways": [
+    "Treat your career like a product: plan backwards from the role after next (The Skip).",
+    "Avoid 'Ex-Growth' companies: high-valuation organizations that have lost product-market fit.",
+    "Promotions often stall not because of skill, but due to lack of advocacy or organizational readiness.",
+    "Every superpower has a shadow; your greatest strength (e.g., collaboration) may become your weakness (e.g., lack of decisiveness) at the executive level.",
+    "The IC (Individual Contributor) track is becoming a viable, respected career path as companies flatten management layers.",
+    "Prepare for 'Act 3' of your life early to avoid the emptiness of achieving goals without a subsequent purpose."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Skip' Career Framework",
+      "name_zh": "“跳级”职业规划思维",
+      "category": "career-leadership",
+      "problemItSolves": "Overcoming short-term career anxiety and making lateral moves that don't advance long-term goals.",
+      "problemItSolves_zh": "解决短期职业焦虑，避免为了逃避现状而做出无益于长期目标的平级跳槽。",
+      "summary": "Instead of focusing on the immediate next job or promotion, visualize the role *after* the next one (The Skip). Work backward to determine what skills, experiences, or stories you need to acquire in your next role to qualify for that ultimate target.",
+      "summary_zh": "不要只盯着下一个职位或晋升，而要设想“下下一份工作”（The Skip）。通过以终为始的方式，反推你在下一个角色中需要积累哪些技能、经验或履历故事，从而为最终目标服务。",
+      "principles": [
+        "Treat career as a product: Define the end state (Version 3.0) and view current moves as Version 1.0 or 2.0.",
+        "Diversity of experience: Seek different types of ambiguity (market, organizational, domain) rather than just collecting brand logos.",
+        "Build the narrative: Ensure your current role allows you to write the 'press release' required for the Skip job."
+      ],
+      "principles_zh": [
+        "将职业视为产品：定义终局状态（3.0版本），将当前的变动视为1.0或2.0版本的迭代。",
+        "经验多样性：主动寻求不同类型的模糊性挑战（市场、组织、领域），而不是单纯收集大厂光环。",
+        "构建叙事：确保你当前的角色能让你写出足以胜任“跳级”职位的履历故事（Press Release）。"
+      ],
+      "whenToUse": "When considering a job offer, debating a promotion, or feeling stuck in a current role.",
+      "whenToUse_zh": "在考虑工作机会、争取晋升或感到职业停滞时。",
+      "commonMistakes": "Optimizing for a title or salary bump in the immediate next role while neglecting the skill gaps required for the long-term goal.",
+      "commonMistakes_zh": "过度优化下一份工作的头衔或薪资，却忽视了填补长期目标所需的技能缺口。",
+      "quote": "Think about not the next job, but the one after it. Maybe think about not your boss's job but your boss's boss's job.",
+      "realWorldExample": "An IC wanting to be a founder (The Skip) might choose a chaotic startup role over a stable Big Tech promotion to learn how to handle ambiguity.",
+      "realWorldExample_zh": "一个想未来创业（跳级目标）的 IC，可能会放弃大厂稳定的晋升机会，转而选择一个混乱的初创公司职位，以学习如何应对模糊性。"
+    },
+    {
+      "name": "Identifying 'Ex-Growth' Companies",
+      "name_zh": "识别“后增长”陷阱",
+      "category": "product-strategy",
+      "problemItSolves": "Joining a company expecting hypergrowth equity returns only to find a stagnant, bureaucratic environment with no upside.",
+      "problemItSolves_zh": "避免加入那些预期有高增长回报，实则不仅停滞不前、官僚主义严重，且期权毫无升值空间的公司。",
+      "summary": "Ex-Growth companies are organizations that raised massive capital at high valuations during boom times but have since lost their growth velocity. They are effectively 'ocean liners' trying to find product-market fit, which is a dangerous mismatch of valuation and reality.",
+      "summary_zh": "“后增长”公司是指在繁荣时期以极高估值融资，但随后失去增长速度的企业。它们本质上是试图重新寻找 PMF（产品市场匹配）的“远洋巨轮”，这种估值与现实的错配对员工极具风险。",
+      "principles": [
+        "Check the Valuation vs. Stage: Is the company valued at hundreds of millions but still looking for basic product-market fit?",
+        "Look for the 'Sucking Sound': Is growth organic and pulling product out of the door, or is it heavily forced by marketing spend?",
+        "Resource Mismatch: Are they trying to pivot/innovate with a 300-person team (slow) instead of a lean startup team?"
+      ],
+      "principles_zh": [
+        "检查估值与阶段的匹配度：公司是否估值数亿，却仍在寻找基础的 PMF？",
+        "寻找“市场吸力”：增长是源于有机的用户需求拉动，还是完全依赖巨额营销支出的推动？",
+        "资源错配：他们是否试图用300人的庞大团队（效率低下）去完成本该由精益创业团队完成的转型或创新？",
+        "决策建议：如果你在这类公司，除了极高层的管理经验或忠诚度，通常建议尽快离开。"
+      ],
+      "whenToUse": "During job interviews or when evaluating whether to stay at a pre-IPO company.",
+      "whenToUse_zh": "在求职面试阶段，或评估是否留在一一家准上市（Pre-IPO）公司时。",
+      "commonMistakes": "Assuming that because a company raised a Series D or has a high valuation, it is stable or successful.",
+      "commonMistakes_zh": "误以为公司融到了 D 轮或估值很高，就代表其业务稳定或成功。",
+      "quote": "If the answer is 'We're still trying to find it [PMF],' and your valuation is hundreds of millions... you're an ex-growth company.",
+      "realWorldExample": "A company that hired massively in 2021, now has a flat stock price, no layoffs yet, but is frantically pivoting its core product without real user traction.",
+      "realWorldExample_zh": "一家在2021年疯狂扩招的公司，现在股价（内部估值）持平，虽然尚未裁员，但正在疯狂转型核心产品却缺乏真正的用户增长动力。"
+    },
+    {
+      "name": "The Shadows of Superpowers",
+      "name_zh": "能力的“阴暗面”分析法",
+      "category": "career-leadership",
+      "problemItSolves": "Breaking through career plateaus where previous strengths have become liabilities at the executive level.",
+      "problemItSolves_zh": "突破职业瓶颈，解决过去的优势在更高层级反而成为负债的问题。",
+      "summary": "Every superpower that makes a PM successful has a corresponding 'shadow' or weakness. Executives often hide behind their superpowers, refusing to acknowledge that the very traits that got them promoted (e.g., consensus building) are now holding them back (e.g., lack of decisive leadership).",
+      "summary_zh": "让产品经理成功的每一个“超能力”都有其对应的“阴影”或弱点。高管往往会躲在自己的优势背后，拒绝承认那些曾让他们晋升的特质（如善于达成共识），现在反而成了阻碍（如缺乏决断力）。",
+      "principles": [
+        "Identify the Shadow: If you are a great collaborator, your shadow might be lack of opinion/speed. If you are a visionary, your shadow might be lack of execution details.",
+        "Listen to 'Discarded' Feedback: Pay attention to feedback you usually ignore because 'that's not who I am' or 'that contradicts my strength'.",
+        "Rewire for the Level: Recognize that what got you here won't get you there; you may need to suppress your natural superpower to succeed in a new role."
+      ],
+      "principles_zh": [
+        "识别阴影：如果你是协作高手，你的阴影可能是缺乏主见或速度慢；如果你是愿景家，阴影可能是缺乏执行细节。",
+        "倾听被“过滤”的反馈：留意那些你通常会忽略的反馈——尤其是那些你认为“这不像我”或“这与我的优势相悖”的评价。",
+        "为新层级重构思维：认识到“以前的成功法则不适用于未来”，你可能需要刻意压制某些天赋优势，以适应新角色的需求。"
+      ],
+      "whenToUse": "When receiving confusing performance reviews or when hitting a ceiling in executive roles.",
+      "whenToUse_zh": "当收到令人困惑的绩效评估，或在高管职位上触及天花板时。",
+      "commonMistakes": "Defending against feedback by citing past successes ('But I've always been praised for X!').",
+      "commonMistakes_zh": "用过去的成功来反驳当前的反馈（“但我一直因为这一点受到表扬啊！”）。",
+      "quote": "It's the shadows of superpowers... You're collaborating as long as people agreed with your point of view. Now as a leader, we're asking you to be opinionated.",
+      "realWorldExample": "Nikhyl himself was a decisive entrepreneur (superpower), but as an executive, his 'shadow' was moving too fast without context, which peers perceived as poor collaboration.",
+      "realWorldExample_zh": "Nikhyl 本人曾是一位果断的创业者（超能力），但在担任高管时，他的“阴影”是在缺乏背景铺垫的情况下行动过快，导致同僚认为他不善协作。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You'll keep working because you know nothing else to do, but you'll be sadder or you'll find ways to create war when peace is needed.",
+      "context": "On the danger of not planning for 'Act 3' of life and simply chasing goals out of habit."
+    },
+    {
+      "text": "The military probably didn't make that mistake for very long... but boy, if you're a good coder, you are ready to manage.",
+      "context": "Critiquing the tech industry's lack of formal management training compared to other mature industries."
+    },
+    {
+      "text": "Make the story not suck.",
+      "context": "Advice on ensuring your current role provides a compelling narrative for your future career steps."
+    }
+  ],
+  "filename": "Nikhyl Singhal"
+}

@@ -1,0 +1,146 @@
+{
+  "guest": {
+    "name": "Jonny Miller",
+    "title": "Founder",
+    "company": "Nervous System Mastery",
+    "background": "Jonny Miller is a startup founder (Techstars alum) turned executive coach who specializes in helping high-performing tech professionals cultivate resilience. After experiencing burnout and a personal tragedy, he spent years researching breathwork and nervous system regulation to create evidence-based protocols for emotional mastery.",
+    "background_zh": "Jonny Miller 是一位从创业者（Techstars 校友）转型的企业高管教练，专注于帮助科技行业的精英人士培养心理韧性。在经历职业倦怠和个人悲剧后，他投入数年时间研究呼吸法和神经系统调节，开发了一套基于实证的情绪掌控方案。"
+  },
+  "episodeSummary": "In this episode, Jonny Miller deconstructs the physiological roots of anxiety and burnout, arguing that high performers must manage their nervous systems as rigorously as their products. He introduces somatic tools to shift mental states instantly and explains why emotional regulation is a competitive advantage in decision-making.",
+  "episodeSummary_zh": "在本期节目中，Jonny Miller 解构了焦虑和职业倦怠的生理根源，提出高绩效人士应像管理产品一样严谨地管理自己的神经系统。他介绍了一系列能瞬间转换心理状态的身心学（Somatic）工具，并解释了为何情绪调节能力是决策过程中的核心竞争优势。",
+  "keyTakeaways": [
+    "Anxiety is often a physiological state first, and a mental narrative second; change the state to change the story.",
+    "Burnout signals follow a progression: a feather (subtle), a brick (irritability), and a dump truck (crisis).",
+    "Interoception (sensing internal body states) correlates with better decision-making and higher income in trading environments.",
+    "Emotional debt accumulates like technical debt; you must complete stress cycles to avoid system failure.",
+    "The 4-4-8 breathing technique is a rapid 'bottom-up' intervention to switch off the fight-or-flight response.",
+    "High work ethic must be matched by an equally disciplined rest ethic (e.g., NSDR protocols)."
+  ],
+  "methodologies": [
+    {
+      "name": "The Feather, Brick, Dump Truck Model",
+      "name_zh": "“羽毛、砖块与卡车” 职业倦怠预警模型",
+      "category": "career-leadership",
+      "problemItSolves": "Helps individuals and leaders identify the early, subtle signs of burnout before they escalate into irreversible health or career crises.",
+      "problemItSolves_zh": "帮助个人和管理者在职业倦怠升级为不可挽回的健康或职业危机之前，识别出早期的微弱信号。",
+      "summary": "This framework visualizes the escalating feedback loops of the nervous system. The body signals distress in three stages: subtle whispers (feather), painful warnings (brick), and catastrophic failure (dump truck). The goal is to develop the sensitivity to pivot at the 'feather' stage.",
+      "summary_zh": "该框架将神经系统的反馈循环可视化为三个升级阶段：身体首先会发出微弱信号（羽毛），接着是痛苦的警告（砖块），最后是灾难性的崩溃（卡车）。核心目标是培养敏锐度，在“羽毛”阶段就进行调整和干预。",
+      "principles": [
+        "The Feather: Recognize subtle fatigue, slight disengagement, or waking up tired (the feedback is gentle).",
+        "The Brick: Acknowledge moderate consequences like snapping at a colleague, emotional volatility, or insomnia (the feedback hurts).",
+        "The Dump Truck: Avoid the final stage of total collapse, such as a major health crisis, getting fired, or severe depression (the damage is severe)."
+      ],
+      "principles_zh": [
+        "识别羽毛（Feather）：觉察微小的疲劳感、轻微的投入度下降或晨起时的疲惫（反馈是温和的）。",
+        "正视砖块（Brick）：承认中度的后果，如对同事发火、情绪波动大或失眠（反馈是痛苦的）。",
+        "避免卡车（Dump Truck）：防止最终的全面崩溃，如重大健康危机、被解雇或严重抑郁（伤害是严重的）。"
+      ],
+      "whenToUse": "During weekly self-reflections or 1:1s with team members to assess sustainability of workload.",
+      "whenToUse_zh": "适用于每周的自我复盘，或在与团队成员进行 1:1 面谈时评估工作量的可持续性。",
+      "commonMistakes": "Ignoring the 'feather' because you can still function, assuming resilience means tolerating the 'brick' stage indefinitely.",
+      "commonMistakes_zh": "因为还能勉强支撑工作而忽略“羽毛”信号，或者误以为韧性就是无限期地忍受“砖块”阶段的压力。",
+      "quote": "Ideally, you want to notice when it's the feather and then make adjustments... and not have to wait until you experience the full-blown pain of the dump truck.",
+      "realWorldExample": "Jonny describes ignoring early fatigue (feather) which turns into frustration/arguments (brick), potentially leading to Type 2 diabetes or burnout-induced firing (dump truck).",
+      "realWorldExample_zh": "Jonny 描述了如果忽视早期的疲劳（羽毛），会演变成挫败感或争吵（砖块），最终可能导致二型糖尿病或因倦怠被解雇（卡车）。"
+    },
+    {
+      "name": "State Over Story (Bottom-Up Regulation)",
+      "name_zh": "“状态优先于叙事” 调控法则",
+      "category": "execution",
+      "problemItSolves": "Prevents spiraling anxiety and imposter syndrome before high-stakes events (presentations, pitches) by addressing physiology rather than logic.",
+      "problemItSolves_zh": "通过解决生理状态而非逻辑问题，防止在高压事件（如演讲、路演）前陷入焦虑螺旋和冒名顶替综合症。",
+      "summary": "Most professionals try to fix anxiety 'top-down' using logic, but the brain's afferent neurons send more signals from body-to-brain than vice versa. This methodology prioritizes shifting the physiological state (breath/posture) first, knowing the mental narrative will naturally adjust to match the calmer body.",
+      "summary_zh": "大多数职场人试图用逻辑“自上而下”地解决焦虑，但大脑接收的身体信号远多于发出的指令。该方法论强调优先调整生理状态（呼吸/体态），因为一旦身体平静下来，大脑的叙事逻辑自然会随之调整。",
+      "principles": [
+        "Inhale > Exhale (Activation): Use 'Espresso Breath' (rapid exhales) to increase energy and alertness when lethargic.",
+        "Exhale > Inhale (Calming): Use the 4-4-8 technique (inhale 4, hold 4, exhale 8) to trigger the parasympathetic nervous system.",
+        "Physiological Sigh: Double inhale followed by a long sigh to offload CO2 and instantly reduce stress.",
+        "Confabulation Awareness: Recognize that your brain invents stories ('I'm not prepared') to explain physical jitteriness."
+      ],
+      "principles_zh": [
+        "吸气 > 呼气（激活）：使用“浓缩咖啡呼吸法”（快速呼气）在精神萎靡时提升能量和警觉性。",
+        "呼气 > 吸气（镇静）：使用 4-4-8 呼吸法（吸气4秒，屏息4秒，呼气8秒）激活副交感神经系统。",
+        "生理性叹气（Physiological Sigh）：两次吸气后接一次长呼气，通过排出二氧化碳瞬间减轻压力。",
+        "警惕虚构叙事：要意识到大脑会编造故事（如“我没准备好”）来解释身体的颤抖反应。"
+      ],
+      "whenToUse": "Immediately before public speaking, during high-conflict negotiations, or when feeling 'brain fog' in the afternoon.",
+      "whenToUse_zh": "适用于公开演讲前、高冲突谈判中，或下午感到“脑雾”时。",
+      "commonMistakes": "Trying to 'think' your way out of a panic attack; forgetting to practice these tools when you are calm (building the muscle).",
+      "commonMistakes_zh": "试图通过“思考”走出恐慌发作；忘记在平静时练习这些工具（导致关键时刻无法建立肌肉记忆）。",
+      "quote": "If you change your state first, then there's a cascading effect which changes your thoughts and your feelings.",
+      "realWorldExample": "Jonny used 15 minutes of breathing exercises before a terrifying TEDx talk to walk on stage 'cool as a cucumber,' bypassing the mental fear loop.",
+      "realWorldExample_zh": "Jonny 在一次令他恐惧的 TEDx 演讲前做了15分钟呼吸练习，从而绕过心理恐惧循环，最终极其镇定地走上舞台。"
+    },
+    {
+      "name": "The APE Framework for Interoception",
+      "name_zh": "APE 内感力觉察模型",
+      "category": "product-strategy",
+      "problemItSolves": "Enhances intuition and decision-making capabilities by reconnecting leaders with their 'sixth sense' (interoception), reducing reactive bad decisions.",
+      "problemItSolves_zh": "通过帮助领导者重新连接“第六感”（内感力），增强直觉和决策能力，减少由于反应性情绪导致的错误决策。",
+      "summary": "Interoception is the ability to sense internal signals. High interoception correlates with better financial trading and leadership. The APE acronym is a quick scan to ground oneself and extract data from the body's response to situations.",
+      "summary_zh": "内感力（Interoception）是感知身体内部信号的能力。高内感力与更好的金融交易表现和领导力正相关。APE 首字母缩写是一个快速扫描工具，用于让当下落地，并从身体对情境的反应中提取决策数据。",
+      "principles": [
+        "Awareness (A): Is your focus narrow (stressed/threatened) or wide (calm/safe)? Expand peripheral vision.",
+        "Posture (P): Check your physical stance. Are you slumping? Are you clenched? Adjusting posture signals safety to the brain.",
+        "Emotion (E): Label the specific somatic sensation (e.g., 'heat in belly', 'tightness in throat') rather than just the story.",
+        "Data Extraction: Use these physical cues as data points—e.g., a clenched stomach in a deal negotiation might be a red flag."
+      ],
+      "principles_zh": [
+        "觉察 (Awareness)：你的注意力是狭窄的（压力/威胁状态）还是宽广的（平静/安全状态）？尝试扩展周边视野。",
+        "体态 (Posture)：检查身体姿态。是否在为了保护自己而蜷缩？是否紧绷？调整体态能向大脑传递安全信号。",
+        "情绪 (Emotion)：标记具体的躯体感觉（如“腹部发热”、“喉咙发紧”），而不仅仅是关注情绪背后的故事。",
+        "数据提取：将这些身体线索视为数据点——例如，谈判中腹部紧绷可能是一个危险信号。"
+      ],
+      "whenToUse": "When you feel 'off' during a meeting, before sending a difficult email, or when making high-stakes strategic decisions.",
+      "whenToUse_zh": "在会议中感觉“不对劲”时、发送艰难邮件前，或进行高风险战略决策时。",
+      "commonMistakes": "Thinking of emotions as distractions rather than data; operating with 'email apnea' (holding breath while working).",
+      "commonMistakes_zh": "将情绪视为干扰而非数据；在工作时无意识地“邮件屏息”（Email Apnea，即看邮件时屏住呼吸）。",
+      "quote": "The best decision-making is emotional... If we don't listen to that [sensory data] when we are making decisions, then we're losing out on a lot of information.",
+      "realWorldExample": "Jonny realized after a podcast recording that he felt chest tension and exhaustion, using APE to realize he had overcommitted his schedule, leading him to push back future recordings.",
+      "realWorldExample_zh": "Jonny 在录制完播客后感到胸闷和疲惫，利用 APE 模型觉察后，意识到自己过度透支了日程安排，于是推迟了后续的录制计划。"
+    },
+    {
+      "name": "Emotional Debt & Technical Debt Analogy",
+      "name_zh": "情绪负债与技术负债类比管理",
+      "category": "team-culture",
+      "problemItSolves": "Addresses the long-term cost of high-performance cultures, specifically preventing accumulated stress from causing systemic organizational failure.",
+      "problemItSolves_zh": "解决高绩效文化带来的长期隐性成本，特别是防止累积的压力导致组织系统性的崩溃。",
+      "summary": "Just as startups incur technical debt to ship fast, leaders incur emotional debt by suppressing stress responses to keep functioning. While necessary in sprints, this debt must be 'paid down' through rest and somatic release, or it creates fragility in the system.",
+      "summary_zh": "就像初创公司为了快速发布产品而背负技术负债一样，领导者为了保持运转，往往通过压抑压力反应来背负“情绪负债”。虽然在冲刺期这是必要的，但这笔债务必须通过休息和身心释放来“偿还”，否则会导致系统变得脆弱。",
+      "principles": [
+        "Accumulation Phase: It is acceptable to buffer stress temporarily for execution (like MVP code), but acknowledge it is debt.",
+        "The Window of Tolerance: Chronic debt shrinks your window of tolerance, making you reactive to small triggers.",
+        "Repayment Protocol: Use NSDR (Non-Sleep Deep Rest) or somatic therapy to complete the 'mobilization cycles' stored in the body.",
+        "Rest Ethic: A high work ethic requires a matching rest ethic to remain sustainable."
+      ],
+      "principles_zh": [
+        "累积阶段：为了执行力暂时缓冲压力是可以接受的（就像 MVP 代码一样），但必须承认这是一种债务。",
+        "耐受窗口：长期的债务会缩小你的“耐受窗口”，使你对微小的触发因素产生过激反应。",
+        "偿还协议：利用 NSDR（非睡眠深度休息）或身心疗法来完成储存在身体里的“动员循环”。",
+        "休息伦理：高强度的职业道德（Work Ethic）需要匹配同等强度的休息伦理（Rest Ethic）才能维持可持续性。"
+      ],
+      "whenToUse": "After a product launch, a fundraising round, or a crisis management period.",
+      "whenToUse_zh": "在产品发布、融资轮次结束或危机管理期之后。",
+      "commonMistakes": "Treating numbness or 'powering through' as resilience; using alcohol/substances to force a downshift instead of natural regulation.",
+      "commonMistakes_zh": "将麻木或“硬撑”误认为是韧性；使用酒精/药物强制身体“降档”，而非进行自然的神经调节。",
+      "quote": "The nervous system of an organization is a reflection of the nervous system of the CEO.",
+      "realWorldExample": "Founders often buffer stress for 5-10 years, leading to a sudden 'dump truck' crash where they can no longer get off the couch due to unpaid emotional debt.",
+      "realWorldExample_zh": "创始人通常会缓冲压力长达5-10年，导致最终遭遇突然的“卡车级”崩溃，因为未偿还的情绪负债而彻底瘫倒在沙发上。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The nervous system of an organization is a reflection of the nervous system of the CEO.",
+      "context": "On why leadership burnout creates emotional contagion throughout the entire company."
+    },
+    {
+      "text": "If you have a great work ethic that needs to be matched with a great rest ethic.",
+      "context": "Quoting Kevin Kelly to explain that recovery is an active discipline, not just the absence of work."
+    },
+    {
+      "text": "We have a tendency to confabulate or make up stories that match the state that we are in.",
+      "context": "Explaining why we shouldn't trust our thoughts when we are in a high-anxiety physiological state."
+    }
+  ],
+  "filename": "Jonny Miller"
+}

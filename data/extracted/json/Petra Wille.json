@@ -1,0 +1,119 @@
+{
+  "guest": {
+    "name": "Petra Wille",
+    "title": "Independent Product Leadership Coach & Author",
+    "company": "Strong Product People",
+    "background": "Petra is an independent product leadership coach based in Hamburg, Germany, and the author of 'Strong Product People'. She focuses on helping product leaders (Heads of Product, CPOs) improve their capability to coach and develop their teams.",
+    "background_zh": "Petra Wille 是一位常驻德国汉堡的独立产品领导力教练，也是《Strong Product People》一书的作者。她专注于帮助产品负责人（如产品总监、CPO）提升教练辅导能力，从而更好地培养产品团队。"
+  },
+  "episodeSummary": "In this episode, Petra Wille discusses the critical role of product leaders in coaching their teams, outlining a 5-step framework for people development. She also delves into the art of storytelling for Product Managers, offering practical formats for different audiences, and explores the value of internal Communities of Practice for scaling learning.",
+  "episodeSummary_zh": "本期节目中，Petra Wille 探讨了产品领导者在团队辅导中的关键作用，并提出了一套包含五个步骤的人才培养框架。她还深入剖析了产品经理的叙事艺术，针对不同受众提供了实用的叙事模板，并讨论了内部实践社区（Communities of Practice）对于规模化学习的价值。",
+  "keyTakeaways": [
+    "Product leaders often lack a structured approach to coaching; consistency beats intensity in people development.",
+    "Defining what 'good' looks like is the first step to coaching; use a competency wheel tailored to your org.",
+    "Storytelling is a career accelerator; PMs should prepare 75-second, 6-minute, and 18-minute versions of their vision.",
+    "Internal Communities of Practice reduce the training burden on managers and increase retention.",
+    "Focus on the 'next bigger challenge' rather than just fixing weaknesses when developing PMs."
+  ],
+  "methodologies": [
+    {
+      "name": "The 5 Ingredients of Product Coaching",
+      "name_zh": "产品人才辅导五步法",
+      "category": "career-leadership",
+      "problemItSolves": "Product leaders often struggle to develop their direct reports effectively because they lack a structured framework or background in coaching.",
+      "problemItSolves_zh": "许多产品领导者因为缺乏结构化的框架或教练背景，难以有效地培养下属，导致团队成长停滞。",
+      "summary": "A comprehensive cycle for managing and developing product talent, moving from definition to execution and follow-up. It shifts the focus from sporadic performance reviews to continuous, actionable growth.",
+      "summary_zh": "这是一套管理和培养产品人才的完整闭环，涵盖了从定义标准到执行及跟进的全过程。它将重点从零散的绩效评估转移到了持续的、可落地的成长辅导上。",
+      "principles": [
+        "Define 'Good': Establish a clear competency model (like the PM Wheel) specific to your context.",
+        "Assess & Envision: Determine where the PM is now and identify their 'next bigger challenge' to stretch their skills.",
+        "Co-create the Plan: The PM owns the development plan, but the leader provides the vision and alignment.",
+        "Nudge & Follow-up: Use regular, small check-ins (consistency beats intensity) rather than just annual reviews."
+      ],
+      "principles_zh": [
+        "定义“优秀”：建立适合当下语境的清晰胜任力模型（如PM能力轮盘）。",
+        "评估与愿景：确定PM当前的水平，并识别他们的“进阶挑战”以拓展技能边界。",
+        "共创计划：个人发展计划（IDP）应由PM主导，但领导者需提供愿景和方向对齐。",
+        "轻推与跟进：利用定期的、小规模的检查（持续性胜过高强度），而非仅依赖年度评估。"
+      ],
+      "whenToUse": "When you are a manager of PMs looking to structure your 1:1s and meaningful career development discussions.",
+      "whenToUse_zh": "当你作为PM的管理者，希望结构化你的1:1会议并开展有意义的职业发展讨论时。",
+      "commonMistakes": "Skipping the definition of 'competence' or taking full ownership of the plan instead of letting the employee own it.",
+      "commonMistakes_zh": "跳过对“胜任力”的定义直接开始辅导，或者管理者大包大揽而没有让员工自己主导成长计划。",
+      "quote": "Consistency beats intensity.",
+      "realWorldExample": "Instead of a massive annual review, create a Google Doc with 3-5 themes for the next 6 months and color-code progress monthly.",
+      "realWorldExample_zh": "与其依赖宏大的年度评估，不如创建一个Google文档，列出未来6个月的3-5个成长主题，并每月用颜色标记进度。"
+    },
+    {
+      "name": "The PM Wheel Competency Model",
+      "name_zh": "PM能力轮盘模型",
+      "category": "career-leadership",
+      "problemItSolves": "PMs and their managers often lack a shared language to discuss skills, gaps, and growth areas objectively.",
+      "problemItSolves_zh": "产品经理及其管理者往往缺乏共同的语言来客观地讨论技能、差距和成长领域。",
+      "summary": "A visual assessment tool that breaks down the PM role into 8 specific buckets, ranging from understanding problems to agile execution and personal growth. It serves as a diagnostic tool for coaching conversations.",
+      "summary_zh": "一个可视化的评估工具，将PM的角色分解为8个具体领域，涵盖从理解问题到敏捷执行及个人成长。它是开启教练对话的诊断工具。",
+      "principles": [
+        "Understand the Problem & Find Solutions: Core product discovery skills.",
+        "Plan & Get it Done: Strategy, roadmapping, and execution capabilities.",
+        "Listen & Learn: Data literacy, user research, and iteration based on feedback.",
+        "Team & Growth: Soft skills, team motivation, and self-reflection/personal development."
+      ],
+      "principles_zh": [
+        "理解问题与寻找方案：核心的产品探索（Discovery）能力。",
+        "规划与落地：战略制定、路线图规划及执行能力。",
+        "倾听与学习：数据素养、用户调研及基于反馈的迭代能力。",
+        "团队与成长：软技能、团队激励以及自我反思/个人发展。"
+      ],
+      "whenToUse": "During onboarding, performance reviews, or when a PM feels stuck and needs to identify specific areas for improvement.",
+      "whenToUse_zh": "在入职培训、绩效评估期间，或当PM感到职业停滞并需要确定具体改进领域时。",
+      "commonMistakes": "Using a generic template without customizing it to your company's specific needs (e.g., technical vs. design-heavy roles).",
+      "commonMistakes_zh": "直接套用通用模板，而不根据公司具体需求（如技术导向 vs 设计导向的角色）进行定制。",
+      "quote": "T-shaped is so not enough for a product person... use the metaphor of the eight-legged creature.",
+      "realWorldExample": "A PM might rate themselves high on 'Execution' but low on 'User Research,' prompting a specific coaching plan to run 5 customer interviews next quarter.",
+      "realWorldExample_zh": "某PM可能在“执行力”上自评很高，但在“用户调研”上得分较低，这可以促成一个具体的辅导计划：下个季度进行5次客户访谈。"
+    },
+    {
+      "name": "The 3-Tier Storytelling Framework",
+      "name_zh": "三级产品叙事架构",
+      "category": "product-strategy",
+      "problemItSolves": "PMs struggle to communicate their strategy effectively across different contexts, leading to lack of buy-in or team misalignment.",
+      "problemItSolves_zh": "PM难以在不同场景下有效传达其战略，导致缺乏支持或团队目标不一致。",
+      "summary": "A preparation strategy ensuring the PM has their vision ready in three distinct durations/formats for different stakeholders and contexts, utilizing emotional hooks rather than just business lingo.",
+      "summary_zh": "一种准备策略，确保PM针对不同的利益相关者和场景，准备好三种不同时长/格式的愿景陈述，并利用情感钩子而非仅靠商业术语。",
+      "principles": [
+        "The 75-Second Pitch: An elevator pitch version for quick alignment.",
+        "The 6-Minute Version: A concise overview suitable for planning meetings.",
+        "The 18-Minute 'TED Talk': A full narrative for all-hands meetings, focusing on the 'Hero's Journey' (User or Team as hero).",
+        "Speak to Hearts & Minds: Remove corporate jargon; describe smells, feelings, and real-life impact to trigger hormonal responses in the brain."
+      ],
+      "principles_zh": [
+        "75秒电梯演讲：用于快速对齐的简短版本。",
+        "6分钟规划版：适用于规划会议的简明概述。",
+        "18分钟“TED演讲”版：用于全员大会的完整叙事，聚焦于“英雄之旅”（以用户或团队为英雄）。",
+        "直击人心与大脑：去除企业行话；描述感官、感受和真实生活的影响，以触发大脑的激素反应。"
+      ],
+      "whenToUse": "When preparing to launch a new strategy, rallying the team for a new quarter, or seeking stakeholder approval.",
+      "whenToUse_zh": "在准备发布新战略、为新季度动员团队或寻求利益相关者批准时。",
+      "commonMistakes": "Thinking storytelling comes naturally without work; relying too heavily on slides instead of narrative structure.",
+      "commonMistakes_zh": "认为讲故事是天赋而不需要刻意练习；过分依赖PPT页面而非叙事结构。",
+      "quote": "It is a career staller if you don't get to a decent level of storytelling.",
+      "realWorldExample": "Petra advised using the 'Hero's Journey' structure, placing the team as the hero fighting 'monsters' (technical debt, legacy systems) to reach a brighter future.",
+      "realWorldExample_zh": "Petra建议使用“英雄之旅”结构，将团队设定为英雄，通过战胜“怪兽”（如技术债务、遗留系统）来抵达更美好的未来。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "It's not a role, it's a career being in product.",
+      "context": "Discussing the complexity and long-term learning curve of product management."
+    },
+    {
+      "text": "Getting promoted is way harder if you're not good in telling stories and rallying the team behind the shared goal.",
+      "context": "Emphasizing the importance of soft skills and communication for career advancement."
+    },
+    {
+      "text": "T-shaped is so not enough for a product person.",
+      "context": "Explaining why PMs need a broad range of skills (the 'eight-legged creature') beyond just depth in one area."
+    }
+  ],
+  "filename": "Petra Wille"
+}

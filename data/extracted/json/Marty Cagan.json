@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Marty Cagan",
+    "title": "Partner",
+    "company": "Silicon Valley Product Group (SVPG)",
+    "background": "Marty Cagan is widely considered the 'godfather' of modern product management. He is the founder of SVPG and the author of the seminal books 'Inspired' and 'Empowered', having previously held executive product roles at Netscape and eBay.",
+    "background_zh": "Marty Cagan 被广泛认为是现代产品管理领域的教父级人物。他是 Silicon Valley Product Group (SVPG) 的创始人，也是行业圣经《启示录 (Inspired)》和《赋能 (Empowered)》的作者，此前曾在 Netscape 和 eBay 担任核心产品高管。"
+  },
+  "episodeSummary": "In this conversation, Marty Cagan dissects the critical differences between 'feature teams' that focus on output and 'empowered product teams' that focus on outcomes. He explains why companies lose their innovation edge as they scale, citing Steve Jobs' theory on the 'disease of process people.' Cagan also outlines the specific competencies required for product managers to transition from project management to true product leadership.",
+  "episodeSummary_zh": "本次对话中，Marty Cagan 深入剖析了关注产出（Output）的“功能团队”与关注结果（Outcome）的“赋能型产品团队”之间的本质区别。他引用 Steve Jobs 关于“流程崇拜（disease of the process people）”的理论，解释了为何许多公司在规模化后失去了创新能力。此外，Cagan 详细列出了产品经理从单纯的项目管理向真正的产品领导力转型所需的具体核心能力。",
+  "filename": "Marty Cagan"
+}

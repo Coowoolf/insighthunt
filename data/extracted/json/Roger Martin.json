@@ -1,0 +1,125 @@
+{
+  "guest": {
+    "name": "Roger Martin",
+    "title": "Strategy Advisor & Former Dean",
+    "company": "Rotman School of Management / Roger Martin Inc.",
+    "background": "Professor Emeritus at the Rotman School of Management and former Global Dean. He is the co-author of the seminal strategy book 'Playing to Win' and was named the world's #1 management thinker by Thinkers50 in 2017.",
+    "background_zh": "多伦多大学罗特曼管理学院荣誉教授及前院长，著名战略管理书籍《玩转赢家》（Playing to Win）的合著者。他在2017年被Thinkers50评为全球排名第一的管理思想家，是全球最受信赖的战略顾问之一。"
+  },
+  "episodeSummary": "Roger Martin demystifies strategy by breaking it down into a practical set of choices rather than a theoretical exercise. He introduces the 'Strategy Choice Cascade,' explains why most companies fail by 'playing to play' instead of 'playing to win,' and offers a tactical 'Betterment' approach for continuous strategic improvement.",
+  "episodeSummary_zh": "Roger Martin 将战略从理论练习拆解为一系列实用的决策选择，揭开了战略的神秘面纱。他介绍了“战略选择级联”框架，解释了为什么大多数公司因“为了参与而参与”而非“为了赢”而失败，并提出了一种战术性的“持续优化（Betterment）”方法，以实现战略的持续改进。",
+  "keyTakeaways": [
+    "Strategy is not about planning resources; it is an integrated set of choices that compels desired customer action.",
+    "You must choose to either be the low-cost leader or the differentiated player; anything else is 'playing to play' and leads to failure.",
+    "The 'Where to Play' and 'How to Win' choices must be tightly linked; you cannot win everywhere.",
+    "True competitive advantage (moats) comes from capabilities that competitors either 'can't' replicate or 'won't' replicate due to their existing business model.",
+    "Don't strive for perfection immediately; use the 'Betterment' approach to identify a gap between current and desired results and make choices to close it."
+  ],
+  "methodologies": [
+    {
+      "name": "The Strategy Choice Cascade",
+      "name_zh": "战略选择级联框架",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the problem of strategy being too abstract, disjointed, or focused merely on resource allocation rather than winning customers.",
+      "problemItSolves_zh": "解决战略过于抽象、脱节，或仅关注资源分配而忽略如何赢得客户的问题。",
+      "summary": "A framework consisting of five interrelated questions that must be answered to create a strategy. It forces leaders to make specific trade-offs and ensures that capabilities and management systems support the core way the company intends to win.",
+      "summary_zh": "由五个相互关联的问题组成的框架，制定战略必须回答这些问题。它迫使管理者做出具体的权衡，并确保公司的核心能力和管理体系能够支撑其致胜之道。",
+      "principles": [
+        "Winning Aspiration: What is the purpose of your enterprise and what does winning look like?",
+        "Where to Play: Which specific markets, segments, channels, and product categories will you target?",
+        "How to Win: Will you win through low cost or differentiation? (You must pick one).",
+        "Capabilities: What specific activities must you perform better than anyone else to win in your chosen field?",
+        "Management Systems: What systems (metrics, culture, reviews) enable these capabilities?"
+      ],
+      "principles_zh": [
+        "致胜愿景 (Winning Aspiration)：企业的宗旨是什么？“赢”的定义是什么？",
+        "主战场选择 (Where to Play)：你将专注于哪些具体的市场、细分客群、渠道和品类？",
+        "致胜之道 (How to Win)：通过低成本还是差异化来取胜？（必须二选一）。",
+        "核心能力 (Capabilities)：为了在选定的战场取胜，你需要拥有哪些别人无法比拟的能力？",
+        "管理体系 (Management Systems)：哪些系统（指标、文化、复盘机制）能支撑上述核心能力？"
+      ],
+      "whenToUse": "When defining a new product direction, entering a new market, or revitalizing a stagnant business unit.",
+      "whenToUse_zh": "适用于定义新产品方向、进入新市场或重振停滞不前的业务单元时。",
+      "commonMistakes": "Treating strategy as a long-term plan rather than a set of choices; failing to explicitly choose what *not* to do; trying to be both low cost and differentiated.",
+      "commonMistakes_zh": "将战略视为长期计划而非一系列选择；未能明确选择“不做什么”；试图同时兼顾低成本和差异化（导致平庸）。",
+      "quote": "Strategy is an integrated set of choices that compels desired customer action.",
+      "realWorldExample": "Four Seasons Hotels decided to play in the 'luxury' segment specifically for business travelers, winning by offering service that mimics the comfort of home/office (differentiation), supported by a capability of low staff turnover.",
+      "realWorldExample_zh": "四季酒店（Four Seasons）决定专攻商务旅客的“奢华”细分市场，通过提供一种“像家和办公室一样舒适”的服务（差异化）来取胜，其背后的支撑能力是极低的员工流失率。"
+    },
+    {
+      "name": "Can't vs. Won't Competitive Defense",
+      "name_zh": "“不能做”与“不愿做”防御壁垒",
+      "category": "product-strategy",
+      "problemItSolves": "Helps identify if your competitive advantage (moat) is durable or easily copyable by incumbents.",
+      "problemItSolves_zh": "帮助判断你的竞争优势（护城河）是持久的，还是容易被巨头复制的。",
+      "summary": "A way to evaluate moats. The strongest position is when a competitor *can* technically copy you, but *won't* because it would destroy their existing business model (counter-positioning).",
+      "summary_zh": "一种评估护城河的方法。最稳固的竞争地位是：竞争对手虽然在技术上*能*复制你，但*不愿*这么做，因为这会破坏他们现有的商业模式（反向定位）。",
+      "principles": [
+        "Analyze Competitor Incentives: Why haven't they copied you yet?",
+        "Identify the 'Won't': Look for strategies that require competitors to cannibalize their revenue or alienate their partners to match you.",
+        "Build Complex Activity Systems: Create a web of reinforcing capabilities (like Southwest) that are too painful/complex to copy piecemeal.",
+        "Water Flows Downhill: Acknowledge that if customers prefer a new model, incumbents can't hold back the tide forever (e.g., Google vs. AI Search)."
+      ],
+      "principles_zh": [
+        "分析对手动机：为什么他们还没抄袭你？",
+        "寻找“不愿做”的痛点：寻找那些需要竞争对手自我蚕食收入或疏远合作伙伴才能模仿的策略。",
+        "构建复杂的活动系统：建立像西南航空那样相互增强的能力网络，让对手难以逐个模仿。",
+        "顺势而为：承认如果用户倾向于新模式，巨头无法永远阻挡潮流（例如 Google 面临 AI 搜索的挑战）。"
+      ],
+      "whenToUse": "When designing a disruption strategy against a large incumbent or evaluating startup moats.",
+      "whenToUse_zh": "在设计针对巨头的颠覆性战略或评估初创公司护城河时使用。",
+      "commonMistakes": "Assuming a 'better product' is a moat; relying on features that any resource-rich competitor can simply build (e.g., Walmart vs. Amazon early days).",
+      "commonMistakes_zh": "误以为“更好的产品”就是护城河；依赖那些资源丰富的竞争对手可以轻松构建的功能（例如早期的沃尔玛对战亚马逊）。",
+      "quote": "The ultimate way to compete to win is to never actually be forced to compete.",
+      "realWorldExample": "Estée Lauder could have crushed Olay in the mass market with Clinique, but they 'wouldn't' do it because it would anger their department store partners (prestige channel).",
+      "realWorldExample_zh": "雅诗兰黛本可以用 Clinique（倩碧）在强生的大众市场压垮 Olay（玉兰油），但他们“不愿”这么做，因为这会激怒他们的百货公司合作伙伴（高端渠道）。"
+    },
+    {
+      "name": "The 'Betterment' Approach",
+      "name_zh": "“持续优化”迭代法",
+      "category": "execution",
+      "problemItSolves": "Overcomes analysis paralysis and the intimidation of creating a 'perfect' strategy from scratch.",
+      "problemItSolves_zh": "克服“分析瘫痪”，解决从零开始制定“完美”战略带来的畏难情绪。",
+      "summary": "Instead of trying to solve every problem, identify the single most painful gap between current outcomes and desired outcomes. Make choices to close that specific gap, then move to the next one.",
+      "summary_zh": "与其试图解决所有问题，不如找出当前结果与预期结果之间最痛苦的那个“差距”。做出选择去弥合这个特定的差距，然后转向下一个。",
+      "principles": [
+        "Identify the Gap: Find where outcomes < aspirations.",
+        "Hypothesize Choices: Use the Strategy Cascade to propose changes to close the gap.",
+        "Iterate Relentlessly: Treat strategy as problem-solving practice. Repetition builds strategic muscle.",
+        "Avoid Perfectionism: Don't wait for a master plan; just make the current state better."
+      ],
+      "principles_zh": [
+        "识别差距 (Identify the Gap)：找出结果低于预期的领域。",
+        "假设与选择 (Hypothesize Choices)：利用“战略级联”提出缩小差距的变革方案。",
+        "持续迭代 (Iterate Relentlessly)：把战略视为解决问题的练习。重复练习能锻炼战略肌肉。",
+        "避免完美主义 (Avoid Perfectionism)：不要等待完美的总体规划，先着手改善现状。"
+      ],
+      "whenToUse": "When a team feels stuck, overwhelmed by strategic planning, or when operations are misaligned with goals.",
+      "whenToUse_zh": "当团队陷入僵局、被战略规划压得喘不过气，或运营与目标脱节时。",
+      "commonMistakes": "Spending months on a slide deck strategy that never gets tested; thinking strategy is only for the CEO.",
+      "commonMistakes_zh": "花数月时间制作从未经测试的PPT战略；误以为战略只是CEO的工作。",
+      "quote": "I have never met this mythical beast called a great natural strategist. Great strategists have all one thing in common, they just practice.",
+      "realWorldExample": "A professor who consistently won 'Teacher of the Year' by simply cutting his worst-performing lecture (the biggest gap) every single year.",
+      "realWorldExample_zh": "一位教授通过每年删减效果最差的一堂课（即最大的差距），持续多年获得“年度最佳教师”奖。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Strategy is an integrated set of choices that compels desired customer action.",
+      "context": "Defining strategy simply, contrasting it with resource planning."
+    },
+    {
+      "text": "If you're not one of those two [low cost or differentiated], there's no way to protect yourself.",
+      "context": "Discussing the only two viable ways to win in a competitive market."
+    },
+    {
+      "text": "The ultimate way to compete to win is to never actually be forced to compete.",
+      "context": "Explaining that true differentiation leads to a monopoly-like state where competitors choose not to engage."
+    },
+    {
+      "text": "Water finds a way to flow... you can't hold back the tide.",
+      "context": "Discussing how customer needs (like AI search or streaming) eventually win over incumbent moats."
+    }
+  ],
+  "filename": "Roger Martin"
+}

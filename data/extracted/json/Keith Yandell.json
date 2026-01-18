@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Keith Yandell",
+    "title": "Chief Business Officer (formerly led Legal, HR, Marketing, Support, Sales)",
+    "company": "DoorDash",
+    "background": "A longtime leader at DoorDash who has managed a diverse range of functions including legal, HR, marketing, customer support, and currently BD and corporate development. Known for his generalist leadership style and ability to unify teams, he previously led litigation at Uber.",
+    "background_zh": "DoorDash 的长期核心高管，目前负责商务拓展（BD）和企业发展。他在 DoorDash 的七年间展现了极强的多面手能力，曾先后领导法务、人力资源、市场营销、客户支持等多个职能部门。加入 DoorDash 前，他曾是 Uber 的诉讼业务负责人。"
+  },
+  "episodeSummary": "Keith Yandell shares his unique journey leading multiple disparate functions at DoorDash, emphasizing the power of generalist leadership and 'no asshole' culture. He breaks down his tactical frameworks for scaling culture through written documentation, driving consensus in high-stakes meetings, and the critical collaboration between BD and Product teams.",
+  "episodeSummary_zh": "Keith Yandell 分享了他作为“通才”领导者在 DoorDash 掌管多个跨界部门的独特经历，强调了“反政治、反混蛋”的企业文化。他详细拆解了如何通过文档化来规模化文化建设、如何在关键会议中推动共识，以及商务拓展（BD）与产品团队（Product）高效协作的战术框架。",
+  "keyTakeaways": [
+    "Generalists can often outperform specialists in leadership roles by reinventing systems rather than following tradition.",
+    "To scale culture, create a 'User Manual' for yourself that outlines your flaws and commitments to the team.",
+    "Commit to helping direct reports find their next job, even if it's outside the company, to build trust and get honest feedback.",
+    "Use the 'Steel Man' argument technique to generate empathy and resolve conflicts between teams.",
+    "For BD/Product partnerships, 'Do things that don't scale' first (manual ops) before building scalable tech platforms.",
+    "Demand constructive feedback (T3 B3 method) to create a safe space for improvement.",
+    "Urgency and compound interest in shipping speed are critical for beating competitors."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'How to Work with Me' User Manual",
+      "name_zh": "管理者使用说明书 (User Manual)",
+      "category": "team-culture",
+      "problemItSolves": "Scaling culture and trust quickly when leading new or large organizations, reducing the learning curve for direct reports.",
+      "problemItSolves_zh": "解决在接手新团队或大规模组织时，如何快速建立信任、规模化文化价值观，并降低下属适应管理风格的成本。",
+      "summary": "A transparent document shared with the team that outlines the manager's operating principles, weaknesses, and commitments. It accelerates psychological safety and sets clear expectations.",
+      "summary_zh": "一份与团队共享的透明文档，详细列出管理者的工作原则、自身弱点以及对团队的承诺。这能加速心理安全感的建立并设定清晰的预期。",
+      "principles": [
+        "Be Vulnerable: Explicitly list areas you are trying to improve (e.g., 'I argue for sport') so the team isn't confused.",
+        "Define Expectations: Clearly articulate what traits successful people in the org possess.",
+        "The Exit Commitment: Commit to helping them find their next job (even external ones) to foster radical transparency."
+      ],
+      "principles_zh": [
+        "暴露弱点：明确列出自己正在改进的领域（例如“我喜欢为了辩论而辩论”），避免团队误解你的意图。",
+        "定义期望：清晰阐述在组织中获得成功的人具备哪些特质。",
+        "离职承诺：承诺帮助下属找到下一份工作（即使是去其他公司），以此换取彻底的坦诚和信任。"
+      ],
+      "whenToUse": "When onboarding new team members or taking over a new department to fast-track relationship building.",
+      "whenToUse_zh": "当入职新团队成员或接管新部门时，用于快速建立工作关系。",
+      "commonMistakes": "Listing only strengths or generic corporate values without revealing personal flaws or actionable commitments.",
+      "commonMistakes_zh": "只列出优点或通用的企业价值观，而没有暴露个人的真实缺点或具体的行动承诺。",
+      "quote": "I know you don't know how to do this stuff. That's why I'm putting you in the role.",
+      "realWorldExample": "Keith used this document to recruit Kofi (now CMO), who was impressed by Keith's transparency about his lack of marketing expertise and his commitment to autonomy.",
+      "realWorldExample_zh": "Keith 利用这份文档成功招募了 Kofi（现任 CMO）。Kofi 被 Keith 对自己缺乏营销专业知识的坦诚，以及给予充分自主权的承诺所打动。"
+    },
+    {
+      "name": "The 'Steel Man' Consensus Framework",
+      "name_zh": "“钢铁侠”共识决策框架",
+      "category": "execution",
+      "problemItSolves": "Resolving deadlocks when cross-functional leaders (e.g., Profitability vs. Growth) have strong, conflicting opinions.",
+      "problemItSolves_zh": "解决跨职能领导者（如盈利派 vs 增长派）持有强烈冲突观点时的决策僵局。",
+      "summary": "A negotiation technique that forces opposing sides to articulate the other's argument to build empathy, followed by clear decision-making protocols.",
+      "summary_zh": "一种谈判技巧，强制对立双方阐述对方的观点以建立同理心，随后遵循明确的决策流程进行拍板。",
+      "principles": [
+        "Steel Manning: Ask Side A to make Side B's best argument (e.g., 'Tell me the top 3 reasons we should focus on growth over profit').",
+        "Clarify the Tiebreaker: Establish upfront who makes the final call if consensus isn't reached (CEO, GM, or Head of Product).",
+        "Set a Time Horizon: Define a strict deadline for the debate to end and the decision to be executed."
+      ],
+      "principles_zh": [
+        "强化对方观点（Steel Manning）：要求 A 方陈述 B 方的最佳论据（例如：“请告诉我即使牺牲利润也要关注增长的三个理由”）。",
+        "明确拍板人：在讨论前确定如果无法达成共识，谁拥有最终决定权（CEO、GM 或产品负责人）。",
+        "设定时间这一：为辩论设定严格的截止时间，一旦到期必须做出决策并执行。"
+      ],
+      "whenToUse": "During high-stakes strategy meetings where smart people are arguing past each other.",
+      "whenToUse_zh": "在关键战略会议中，当聪明人互相说服不了对方，陷入无效争论时。",
+      "commonMistakes": "Allowing the debate to loop endlessly without identifying a specific decision-maker or timeline.",
+      "commonMistakes_zh": "允许辩论无限循环，而没有指定具体的决策者或设定明确的时间节点。",
+      "quote": "That generates instant empathy for the other side. And sometimes, they'll even persuade themselves as they're talking.",
+      "realWorldExample": "Used at DoorDash when deciding between a partnership that boosted profitability vs. one that drove new vertical growth.",
+      "realWorldExample_zh": "在 DoorDash 决定是优先考虑提升盈利能力的合作伙伴关系，还是推动新垂直领域增长的合作伙伴关系时，使用了此框架。"
+    },
+    {
+      "name": "The 'Ops First' Validation (Dream Big, Start Small)",
+      "name_zh": "“运营先行”验证法 (Ops First Validation)",
+      "category": "product-strategy",
+      "problemItSolves": "Wasting expensive engineering resources on partnerships or features that haven't been proven to have market demand.",
+      "problemItSolves_zh": "避免将昂贵的工程资源浪费在尚未验证市场需求的合作伙伴关系或功能开发上。",
+      "summary": "Instead of building bespoke tech integrations immediately, use manual operations to test the value proposition. Only build the scalable platform after the manual test proves successful.",
+      "summary_zh": "不要立即开发定制化的技术集成，而是先通过人工运营手段测试价值主张。只有在人工测试证明成功后，再构建可扩展的平台。",
+      "principles": [
+        "Do Things That Don't Scale: Manually simulate the experience (e.g., handing out coupons physically) before writing code.",
+        "Validate via Ops: Check if the operational reality (e.g., franchisee buy-in) supports the product vision.",
+        "Build Platforms, Not One-offs: Once validated, product should build a scalable solution for all partners, not a custom hack for one deal."
+      ],
+      "principles_zh": [
+        "做不可扩展的事：在写代码之前，先通过人工方式模拟体验（例如亲自去现场发优惠券）。",
+        "运营验证：检查实际运营环境（例如加盟商的配合度）是否支持产品愿景。",
+        "构建平台而非一次性方案：一旦验证成功，产品部门应构建适用于所有合作伙伴的可扩展解决方案，而不是为单笔交易做定制开发。"
+      ],
+      "whenToUse": "When Business Development (BD) brings in a 'huge opportunity' that requires significant product roadmap deviation.",
+      "whenToUse_zh": "当商务拓展（BD）团队带来一个需要大幅偏离产品路线图的“巨大机会”时。",
+      "commonMistakes": "Building a full integration based on corporate headquarters' promises without testing franchisee/end-user adoption.",
+      "commonMistakes_zh": "仅仅基于企业总部的承诺就开发全套集成，而没有测试加盟商或终端用户的实际采纳度。",
+      "quote": "We invested heavily in a partnership... and it was a total flop... I should have gone out and stood out front with a promo code.",
+      "realWorldExample": "DoorDash failed with a hotel room service integration because they built the tech before realizing franchisees wouldn't support it. They should have tested it manually first.",
+      "realWorldExample_zh": "DoorDash 曾在一个酒店客房服务集成项目上失败，因为他们在开发技术前没有意识到加盟商不会配合。他们本应先通过人工方式进行测试。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you're really a founder, you just have to find a way. You have to keep going. There's no question.",
+      "context": "On the resilience required during DoorDash's toughest fundraising moments."
+    },
+    {
+      "text": "People don't talk a lot about what you do when you hire those people... you want to slowly get out of the way.",
+      "context": "On managing people who are smarter/better than you."
+    },
+    {
+      "text": "Doing the right thing is never the wrong thing.",
+      "context": "Quoting Ted Lasso regarding Tony Xu's decision to cut commissions for restaurants during the pandemic despite IPO pressure."
+    }
+  ],
+  "filename": "Keith Yandell"
+}

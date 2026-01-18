@@ -3,7 +3,8 @@
     "name": "Elena Verna",
     "title": "Growth Advisor & Former Interim Head of Growth at Amplitude",
     "company": "Reforge / Amplitude / Miro / MongoDB",
-    "background": "Elena is widely considered one of the world's leading experts in B2B growth and Product-Led Growth (PLG). She has held executive leadership roles at SurveyMonkey, Miro, Netlify, and Amplitude, specializing in bridging the gap between product self-service and enterprise sales motions."
+    "background": "Elena is widely considered one of the world's leading experts in B2B growth and Product-Led Growth (PLG). She has held executive leadership roles at SurveyMonkey, Miro, Netlify, and Amplitude, specializing in bridging the gap between product self-service and enterprise sales motions.",
+    "background_zh": "Elena 是全球 B2B 增长与产品驱动增长（PLG）领域公认的顶尖专家。她曾在 SurveyMonkey、Miro、Netlify 和 Amplitude 担任核心高管，尤其擅长实现产品自助服务与企业级销售模式的有效衔接。"
   },
   "episodeSummary": "Elena Verna dissects the emerging discipline of Product-Led Sales (PLS), explaining how it acts as a critical bridge between Product-Led Growth (PLG) and Sales-Led Growth (SLG). She details the specific infrastructure, data signals, and organizational accountability required to transform individual user habits into enterprise-level contracts. The conversation moves beyond high-level theory into tactical execution, covering how to define Product Qualified Accounts (PQAs), why Product needs to own pipeline targets, and how to avoid the common trap of spamming users with irrelevant sales outreach.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When transitioning from pure self-serve PLG to adding a sales motion, or when valid leads are churning because they don't see the value of a 'Corporate' plan.",
       "commonMistakes": "Relying on the product to sell the Enterprise value proposition; products are usually bad at this. Sales must narrate the enterprise value.",
       "quote": "Product acquires and activates a customer and product creates pipeline for sales... Sales can tell that story. Sales can bridge that gap.",
-      "realWorldExample": "Amplitude: Individual wants data for their feature. Company wants a data-driven culture. Sales bridges this gap by showing how individual usage aggregates into organizational insight."
+      "realWorldExample": "Amplitude: Individual wants data for their feature. Company wants a data-driven culture. Sales bridges this gap by showing how individual usage aggregates into organizational insight.",
+      "summary_zh": "这是一个用于梳理从“单点用户效用”跃升至“高管层 ROI”的价值叙事框架。它明确指出，在 PLS 模式下，销售的核心职责并非讲解功能特性，而是将规模化的个人使用行为转化为组织级能力（例如，将“更好的设计”升维为“更快的上市速度”）。",
+      "problemItSolves_zh": "解决了这一价值断层：虽然产品功能解决了个人用户的痛点，但销售团队却难以阐明为何整个组织需要购买企业级合同。",
+      "whenToUse_zh": "当从纯自助 PLG 模式向引入销售机制过渡，或有效线索因感知不到“企业版”方案价值而流失时。",
+      "commonMistakes_zh": "试图单纯依靠产品来销售企业级价值主张，但这往往是产品的短板。必须由销售团队来阐述企业价值。",
+      "realWorldExample_zh": "Amplitude：个人用户关注特定功能的数据表现，企业追求数据驱动的文化。销售团队通过展示个人使用行为如何汇聚成组织级洞察，成功弥合了这一价值断层。",
+      "principles_zh": [
+        "明确个人待办任务（Job-to-be-Done）：单体用户具体解决了什么痛点？（例如 Miro：引导一场工作坊）。",
+        "明确团队网络效应：当团队接入后，产品价值如何实现倍增？（例如 Miro：实现异步协作）。",
+        "定义企业级价值主张：CXO 层级关注的业务成果是什么？（例如 Miro：提升组织创新力与人效）。",
+        "搭建销售桥梁：赋能销售团队利用产品使用数据佐证前两个阶段的价值落地，并以此为据，向预算决策人兜售第三阶段的价值（即企业级价值）。"
+      ],
+      "name_zh": "The Individual-to-Enterprise Value Escalator（个人至企业价值阶梯）"
     },
     {
       "name": "The PQA Signal Matrix",
@@ -46,7 +59,19 @@
       "whenToUse": "When setting up your first PLS motion or when your sales team is complaining that 'product leads are garbage.'",
       "commonMistakes": "Confusing PQA (the account is ready) with PQL (the specific user is the buyer). Often the PQA exists, but you need Marketing to find the Buyer (MQL) to attach to that usage.",
       "quote": "If you just stick your sales against that account, you're going to have a very terrible situation... 'Why is sales talking to me? I have no decision-making power.'",
-      "realWorldExample": "At Miro, a key behavioral signal was an 'Admin Switch' in the account. This indicated an evaluation or consolidation process was happening, signaling the perfect time for Sales to reach out."
+      "realWorldExample": "At Miro, a key behavioral signal was an 'Admin Switch' in the account. This indicated an evaluation or consolidation process was happening, signaling the perfect time for Sales to reach out.",
+      "summary_zh": "一种定义产品合格账户（PQA）的数据驱动方法。与侧重单点个人的 PQL 不同，PQA 聚焦于表现出特定行为特征的组织，这些行为与该客户开启企业级业务洽谈的成熟度高度相关。",
+      "problemItSolves_zh": "通过确保只向销售团队推送高转化概率的账户，而非所有新注册用户，防止其忽视产品线索。",
+      "whenToUse_zh": "当你搭建首个 PLS 机制，或当销售团队抱怨“产品线索全是垃圾”时。",
+      "commonMistakes_zh": "将 PQA（账户时机成熟）与 PQL（具体用户即买家）混淆。通常 PQA 信号已经存在，但你需要市场团队去定位真正的买单人（MQL），并将其与当前的产品使用行为挂钩。",
+      "realWorldExample_zh": "在 Miro，账户内发生的“管理员变更”是一个关键的行为信号。这表明客户正在进行评估或整合，正是销售团队介入的最佳时机。",
+      "principles_zh": [
+        "**用量阈值**：确立使用量的基准线（例如 Amplitude 的事件数，Miro 的看板数）。",
+        "**增速激增**：关注速率的突变（例如单日新增 15 名用户 vs 日均 1 名）。增速往往是判断最佳介入时机的关键触发点。",
+        "**功能广度/网络效应**：当用户数达到 7 人以上（或类似的“集群”指标）时，意味着产品已在组织内部产生病毒式传播和用户粘性。",
+        "**行为信号**：追踪“管理员”维度的动向，例如移交管理员权限、访问服务条款页面，或触碰 SSO 功能限制。"
+      ],
+      "name_zh": "The PQA Signal Matrix（PQA 信号矩阵）"
     },
     {
       "name": "The Monetization Awareness Audit",
@@ -62,7 +87,19 @@
       "whenToUse": "When your product team is tasked with a self-serve revenue target or improving free-to-paid conversion.",
       "commonMistakes": "Skipping onboarding profiling questions because of fear of drop-off. Elena argues drop-off here is fine as those users were low-intent anyway.",
       "quote": "If you have a freemium product, I guarantee you 75% of your customers in freemium product are not aware of what you're selling.",
-      "realWorldExample": "SurveyMonkey implemented a consistent 'Gold' color UI for all paid triggers. This visual consistency significantly improved users' understanding of what was behind the paywall."
+      "realWorldExample": "SurveyMonkey implemented a consistent 'Gold' color UI for all paid triggers. This visual consistency significantly improved users' understanding of what was behind the paywall.",
+      "summary_zh": "这是一套战术性审查流程，旨在确保免费用户能够充分感知到付费价值。其核心在于将关注点从单纯的“开发付费功能”，转变为在产品体验链路中有效地“营销付费功能”。",
+      "problemItSolves_zh": "解决因用户对高级功能缺乏感知而导致的免费转付费转化率低的问题。",
+      "whenToUse_zh": "当你的产品团队背负自助营收指标，或需要提升免费转付费转化率时。",
+      "commonMistakes_zh": "因担心流失率而跳过 Onboarding 阶段的用户画像采集。Elena 认为此处的流失可以接受，因为这些本就是低意向用户。",
+      "realWorldExample_zh": "SurveyMonkey 将所有付费触发点统一采用了“金色”UI 样式。这种视觉一致性显著提升了用户对付费墙后权益的感知。",
+      "principles_zh": [
+        "设计“锁定状态”：切勿仅针对付费用户设计功能，更要为免费用户精心打磨“权限受限”或“引导升级”的体验流程。",
+        "三点触达原则：确保用户至少三次接触到付费触发点或 Upsell（升单）提示，从而建立有效的用户记忆与付费感知。",
+        "视觉一致性：为付费功能建立独特的视觉语言（例如 SurveyMonkey 的“金色”标识），让用户能凭借直觉识别出高阶权益的价值。",
+        "构建用户画像：在 Onboarding（引导）环节设置 3-4 个关键问题（如职位、公司规模、使用场景），确保向匹配的用户画像精准推送 Upsell 策略。"
+      ],
+      "name_zh": "The Monetization Awareness Audit（商业化认知诊断）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Elena explaining the exact moment a PLG company should start building a sales team."
     }
   ],
-  "filename": "Elena Verna 2.0"
+  "filename": "Elena Verna 2.0",
+  "episodeSummary_zh": "Elena Verna 深度剖析了“产品驱动销售”（PLS）这一新兴领域，阐述了其如何成为连接“产品驱动增长”（PLG）与“销售驱动增长”（SLG）的关键桥梁。她详细拆解了将个人用户的使用习惯转化为企业级合约所需的底层基建、数据信号以及组织权责分配。此次对话不仅停留于宏观理论，更深入至战术落地层面，涵盖了如何定义产品合格账户（PQA）、为何产品团队需对 Pipeline 目标负责，以及如何避免“向用户发送无关销售骚扰”这一常见误区。"
 }

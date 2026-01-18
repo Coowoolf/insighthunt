@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Nikita Miller",
+    "title": "SVP & Head of Product",
+    "company": "The Knot Worldwide",
+    "background": "Nikita Miller is a seasoned product leader with extensive experience in growth and retention. Previously VP of Product at Dooly and Head of Growth & Retention at Trello (Atlassian), she specializes in building high-performing, distributed teams and scaling product organizations.",
+    "background_zh": "Nikita Miller 是一位资深产品高管，在增长和留存领域拥有丰富经验。她曾任 Dooly 产品副总裁及 Trello (Atlassian) 增长与留存负责人，擅长搭建高绩效的分布式团队以及推动产品组织的规模化扩张。"
+  },
+  "episodeSummary": "Nikita Miller shares her evolution from focusing purely on outcomes to recognizing the vital importance of output and velocity. She details actionable frameworks for defining cross-functional roles, embedding data scientists into product teams, and managing distributed workforces effectively.",
+  "episodeSummary_zh": "Nikita Miller 分享了她的管理理念演进：从单纯关注“结果（Outcome）”转变为重新重视“产出（Output）”和交付速度的重要性。她详细介绍了定义跨职能角色、将数据科学家嵌入产品团队以及有效管理分布式团队的实战框架。",
+  "keyTakeaways": [
+    "While outcomes are critical, output is a leading indicator; teams that don't ship frequently get fewer 'shots on goal'.",
+    "Define clear 'social contracts' for roles and responsibilities between Product, Design, Engineering, and Data to prevent friction.",
+    "Data scientists should be embedded in product teams (quads) rather than treated as a centralized service bureau.",
+    "For distributed teams, solve 'gnarly' strategic problems by meeting in-person for intense 48-hour summits.",
+    "The PM role is swinging back towards being more technical; understanding data and engineering constraints is increasingly required.",
+    "Use the question 'What are you optimizing for?' to force alignment on trade-offs across short, medium, and long-term horizons."
+  ],
+  "methodologies": [
+    {
+      "name": "The Cross-Functional Responsibility Contract",
+      "name_zh": "跨职能角色契约框架 (The R&R Contract)",
+      "category": "team-culture",
+      "problemItSolves": "Resolves ambiguity and friction regarding who owns what (e.g., project management tasks) in a cross-functional team.",
+      "problemItSolves_zh": "解决跨职能团队中关于“谁负责什么”（例如项目管理职责归属）的模糊性和摩擦。",
+      "summary": "A structured exercise where leads from Product, Design, Engineering, and Data explicitly write down their expectations for themselves and each other to create a shared agreement.",
+      "summary_zh": "一种结构化的团队共识练习：由产品、设计、研发和数据负责人在纸面上明确写下对自己及对方的角色期望，从而达成一份共享的协作契约。",
+      "principles": [
+        "The Quartet Structure: Move beyond the Triad (PM/Eng/Design) to include Data Science as a core partner.",
+        "Reciprocal Definition: Individuals write expectations for their own role AND what they expect from their counterparts.",
+        "Negotiated Agreement: Review the written expectations together to identify gaps (e.g., who handles ticket breakdown) and agree on a 'contract'.",
+        "Periodic Renewal: Revisit the contract every 3-6 months or when execution velocity drops."
+      ],
+      "principles_zh": [
+        "四角结构：超越传统的“铁三角”（PM/研发/设计），将数据科学纳入核心协作伙伴。",
+        "双向定义：每个角色不仅要写下自己的职责，还要写下对合作伙伴的期望。",
+        "协商共识：共同审查这些书面期望，识别认知缺口（例如：谁负责拆解 Ticket），并达成“契约”。",
+        "定期复盘：每3-6个月或当执行速度下降时，重新审视并更新该契约。"
+      ],
+      "whenToUse": "When forming a new team, when a team is missing deadlines, or when there is visible tension regarding task ownership.",
+      "whenToUse_zh": "适用于组建新团队、团队频繁错过截止日期、或成员间对任务归属权存在明显分歧时。",
+      "commonMistakes": "Assuming generic job descriptions are enough; failing to clarify 'invisible work' like sprint management or QA.",
+      "commonMistakes_zh": "误以为通用的岗位描述（JD）就足够了；忽略了如 Sprint 管理或 QA 等“隐形工作”的职责界定。",
+      "quote": "I have them sit down and write [expectations] for each other... and then we arrive at essentially a contract with one another about what we think that looks like.",
+      "realWorldExample": "At Atlassian/Trello, Miller found that 'Scrum Master' roles were disappearing, leaving a void in project management. She used this framework to clarify that Engineering Managers (EMs) needed to take ownership of sprint goals and delivery, rather than dumping it all on the PM.",
+      "realWorldExample_zh": "在 Atlassian/Trello 任职期间，Miller 发现随着 Scrum Master 角色的消失，项目管理出现了真空。她利用此框架明确了研发经理（EM）需要承担 Sprint 目标和交付的责任，而不是将所有杂务都推给 PM。"
+    },
+    {
+      "name": "Output as Outcome Indicator",
+      "name_zh": "产出即结果指标 (Output-Outcome Balance)",
+      "category": "execution",
+      "problemItSolves": "Corrects teams that over-index on 'strategy' and 'discovery' but fail to ship software fast enough to learn.",
+      "problemItSolves_zh": "纠正团队过分沉迷于“战略”和“探索（Discovery）”，却未能足够快地发布软件以获取反馈的问题。",
+      "summary": "A counter-narrative to 'outcomes over outputs.' While outcomes are the goal, output (velocity) is the necessary leading indicator that predicts the likelihood of achieving those outcomes.",
+      "summary_zh": "这是对“重结果轻产出”主流观点的一种修正。虽然结果（Outcome）是最终目标，但产出（Output/Velocity）是实现这些结果的必要前置指标，决定了成功的概率。",
+      "principles": [
+        "Velocity as Strategy: The more 'shots on goal' (experiments/features) you ship, the higher the probability of finding the winning outcome.",
+        "Cycle Time Audits: Routinely ask 'What did you deliver to production?' and 'How long was the cycle time?' to identify blockers.",
+        "Bias for Production: Ideation and briefs are necessary, but they are zero value until code hits production.",
+        "Urgency Maintenance: PMs must instill a sense of urgency, reminding the team that competitors are moving fast."
+      ],
+      "principles_zh": [
+        "速度即战略：发布的“射门次数”（实验/功能）越多，找到 PMF 或达成业务目标的概率就越高。",
+        "周期审计：例行询问“在这个 Sprint 中实际上线了什么？”以及“研发周期有多长？”，以识别流程阻塞点。",
+        "上线导向：创意和文档固然必要，但在代码真正上线之前，它们的价值为零。",
+        "保持紧迫感：PM 必须灌输紧迫感，提醒团队竞争对手也在快速迭代。"
+      ],
+      "whenToUse": "When a team is stuck in 'analysis paralysis', spending too much time on documentation/strategy without releasing features.",
+      "whenToUse_zh": "当团队陷入“分析瘫痪”，在文档和战略上花费过多时间，却迟迟没有发布实际功能时。",
+      "commonMistakes": "Confusing 'busy work' with shipping; measuring success by the number of documents written rather than features released.",
+      "commonMistakes_zh": "混淆了“忙碌”与“交付”；错误地以撰写的文档数量而非发布的功能数量来衡量成功。",
+      "quote": "If you have a team that's doing all of the ideation... but if you're also not shipping a lot of things to market quickly enough, then it just doesn't matter that much.",
+      "realWorldExample": "Miller monitors the 'experimentation backlog.' If the backlog is full of ideas but deployment is slow, she shifts the conversation from 'what are we building' to 'why is it taking so long to ship,' emphasizing that output drives the learning loop.",
+      "realWorldExample_zh": "Miller 会重点监控“实验 Backlog”。如果 Backlog 里塞满了想法但部署缓慢，她会将讨论重点从“我们要建什么”转移到“为什么上线这么慢”，强调产出才是驱动学习闭环的关键。"
+    },
+    {
+      "name": "The Optimization Heuristic",
+      "name_zh": "“核心优化目标”决策模型",
+      "category": "product-strategy",
+      "problemItSolves": "Clarifies ambiguous decision-making and aligns stakeholders on necessary trade-offs.",
+      "problemItSolves_zh": "澄清模糊的决策过程，并促使利益相关者在必要的取舍（Trade-offs）上达成一致。",
+      "summary": "A forcing function question—'What are you optimizing for?'—applied to every level of decision making, from quarterly planning to daily prioritization.",
+      "summary_zh": "一个强制性的决策拷问——“你现在的核心优化目标是什么？”——适用于从季度规划到日常优先级排序的各个决策层级。",
+      "principles": [
+        "Define the Time Horizon: Are we optimizing for this sprint, this quarter, or the 3-year vision?",
+        "Constraint Recognition: Acknowledge that you cannot optimize for speed, quality, and scope simultaneously.",
+        "Dynamic Re-evaluation: As new data arrives (e.g., Q1 results), the optimization goal for Q2 must be explicitly re-verified.",
+        "Personal Application: Apply this to work-life balance (optimizing for career growth vs. family time) to reduce guilt/stress."
+      ],
+      "principles_zh": [
+        "定义时间跨度：我们是在为当前 Sprint、本季度，还是为了3年后的愿景做优化？",
+        "确认约束条件：承认你无法同时优化速度、质量和范围（不可能三角）。",
+        "动态重估：当新数据（如 Q1 结果）出现时，必须显性地重新验证 Q2 的优化目标。",
+        "个人应用：将此应用于工作与生活的平衡（优化职业增长 vs 优化家庭时间），以减少内疚感和压力。"
+      ],
+      "whenToUse": "During roadmap planning, when stakeholders have conflicting requests, or when prioritizing a personal career move.",
+      "whenToUse_zh": "在路线图规划期间、当利益相关者提出冲突需求时，或在进行个人职业生涯抉择时。",
+      "commonMistakes": "Trying to optimize for everything at once; failing to communicate the trade-off implies by the optimization choice.",
+      "commonMistakes_zh": "试图同时优化所有指标；未能传达因选择该优化目标而必须做出的牺牲（Trade-offs）。",
+      "quote": "I ask myself and I ask everyone... 'What are you optimizing for?' ... If that isn't clear, then the trade-offs aren't going to be clear.",
+      "realWorldExample": "In quarterly planning, instead of just rolling over goals, Miller asks the team to look at new data and explicitly state if they are optimizing for user growth or revenue efficiency in the coming cycle, acknowledging they might be different strategies.",
+      "realWorldExample_zh": "在季度规划中，Miller 不会简单地延续既定目标，而是要求团队查看新数据，并明确指出下一个周期是优化用户增长还是营收效率，并承认这需要完全不同的策略。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Some folks, myself included at certain points, swung way too far on the outcomes train and forgot that output is an indicator of that.",
+      "context": "On the industry's over-correction towards 'outcomes' and neglecting the discipline of shipping."
+    },
+    {
+      "text": "I don't use the word balance, I use optimization. It's this question of what are you optimizing for right now?",
+      "context": "Her perspective on Work-Life Balance and managing a high-pressure career with family."
+    },
+    {
+      "text": "Solving a hard problem remotely with folks that you haven't spent in-person time with... is just really hard. In fact, it's much harder.",
+      "context": "Advocating for 48-hour in-person summits for critical strategic pivots."
+    }
+  ],
+  "filename": "Nikita Miller"
+}

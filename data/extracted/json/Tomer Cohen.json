@@ -1,0 +1,118 @@
+{
+  "guest": {
+    "name": "Tomer Cohen",
+    "title": "Chief Product Officer (CPO)",
+    "company": "LinkedIn",
+    "background": "Tomer Cohen is the Chief Product Officer at LinkedIn, overseeing all product teams, design, and business development. He is credited with leading LinkedIn's mobile transition, the successful revamp of the Feed (turning it from a promotional space to a knowledge marketplace), and shifting the company to an AI-first mindset long before the generative AI boom.",
+    "background_zh": "Tomer Cohen 现任 LinkedIn 首席产品官（CPO），负责统管所有产品团队、设计及业务拓展。他在任期内主导了 LinkedIn 的移动端转型，成功重塑了 Feed 流产品（将其从单纯的自我推广转变为知识交流平台），并早在生成式 AI 爆发前就推动公司向“AI First”思维转型。"
+  },
+  "episodeSummary": "In this episode, LinkedIn CPO Tomer Cohen reveals the strategy behind transforming LinkedIn's feed into a high-engagement knowledge marketplace. He discusses the unique challenges of \"minus one to one\" product turnarounds, shares his framework for AI-first product management, and explains his leadership mantra: \"We might be wrong, but we are not confused.\"",
+  "episodeSummary_zh": "在本期节目中，LinkedIn CPO Tomer Cohen 揭秘了将 LinkedIn Feed 流转型为高活跃度知识市场的背后策略。他深入探讨了“从-1到1”的产品重塑挑战，分享了“AI优先”的产品管理框架，并详细阐述了他的领导力核心原则：“我们可能会犯错，但我们绝不困惑”。",
+  "keyTakeaways": [
+    "Adopting the 'Wrong but not confused' mindset ensures team alignment and faster learning cycles.",
+    "Turnaround products ('Minus one to one') require isolating a test cohort (e.g., 2M users) to prove value without disrupting core business metrics.",
+    "In an AI-first world, PMs must shift from controlling the exact user flow to controlling the 'ingredients' (data, objectives, guardrails).",
+    "Product leaders must understand the 'engine' of AI: the objective function, features, and data collection strategy.",
+    "To integrate AI effectively, leaders should force a 'Diverge then Converge' process: wipe roadmaps clean, explore widely, then bet big on a few objectives.",
+    "A successful marketplace (like LinkedIn Feed) relies on 'Value Exchange' matching—ensuring the right content reaches the specific audience that values it professionally."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Wrong But Not Confused' Protocol",
+      "name_zh": "“宁可犯错，绝不困惑”决策法则",
+      "category": "team-culture",
+      "problemItSolves": "Solves organizational paralysis, hedging, and slow execution caused by a fear of being wrong or lack of alignment.",
+      "problemItSolves_zh": "解决因害怕犯错或缺乏对齐而导致的组织瘫痪、过度对冲（Hedging）及执行缓慢的问题。",
+      "summary": "A leadership philosophy that prioritizes clarity of thought and execution over the guarantee of correctness. By ensuring everyone is pulling in the exact same direction, the team can validate or invalidate hypotheses faster, whereas confusion (hedging) relies on luck for success.",
+      "summary_zh": "一种优先考虑思维和执行清晰度，而非过分追求“绝对正确”的领导哲学。通过确保全员朝同一方向发力，团队能更快地验证或推翻假设；相反，混乱和方向不一（对冲）只能靠运气来获得成功。",
+      "principles": [
+        "Clarity of Thought: Don't mask disagreement as misunderstanding. If you disagree, debate it; if you misunderstand, clarify it. Don't linger in between.",
+        "Clarity of Execution: Align resources strictly to priorities. If your top talent isn't working on your top priority, you are confused.",
+        "The Learning Requirement: You cannot learn from a mistake if the execution was confused. You must commit fully to a path to know why it failed."
+      ],
+      "principles_zh": [
+        "思维清晰（Clarity of Thought）：不要把“不同意”伪装成“不理解”。如果存在分歧就进行辩论；如果不理解就去澄清。不要在模糊地带徘徊。",
+        "执行清晰（Clarity of Execution）：资源必须与优先级严格对齐。如果你最优秀的人才没有在做优先级最高的事，说明组织处于困惑状态。",
+        "学习的必要条件：如果执行过程是混乱的，你甚至无法从失败中汲取教训。唯有全力以赴执行既定路径，才能确切知道失败的原因。"
+      ],
+      "whenToUse": "When a team is facing a high-stakes decision with ambiguous data, or when a startup/project is on the brink of failure and needs a unified direction.",
+      "whenToUse_zh": "当团队面临数据模糊的高风险决策时，或者当创业公司/项目处于成败边缘，急需统一方向时。",
+      "commonMistakes": "Confusing 'being wrong' with 'failure'. The mistake is hesitating/hedging, not taking a bold bet that might not work out.",
+      "commonMistakes_zh": "混淆“犯错”与“失败”。真正的错误是犹豫不决和过度对冲，而不是下了一个最终可能行不通的重注。",
+      "quote": "We might be wrong, but we are not confused.",
+      "realWorldExample": "Tomer uses this to align product jams. They spend significant time defining the exact problem and solution principles. Once decided, the whole org moves, even if the premise might eventually be proven wrong.",
+      "realWorldExample_zh": "Tomer 在产品评审（Product Jams）中使用此原则。他们花大量时间定义确切的问题和解决方案原则。一旦决定，整个组织就统一行动，即使前提最终可能被证明是错误的。"
+    },
+    {
+      "name": "The 'Minus One to One' Turnaround Strategy",
+      "name_zh": "“从-1到1”产品重塑策略",
+      "category": "product-strategy",
+      "problemItSolves": "How to transform a struggling or 'cringey' product (like the old LinkedIn feed) into a successful one without tanking current business metrics or facing internal resistance.",
+      "problemItSolves_zh": "如何在不破坏现有业务指标或遭遇内部阻力的情况下，将一个表现不佳或口碑较差的产品（如旧版 LinkedIn Feed）转型为成功产品。",
+      "summary": "A strategy for revitalizing products with negative momentum. It involves envisioning the ultimate potential ('The Mountain Peak') rather than iterating on the status quo, and using isolated cohorts to prove the new model works before scaling.",
+      "summary_zh": "一种用于复兴具有负面势能产品的策略。核心在于设想产品的终极潜力（“山顶”），而不是基于现状进行微调迭代，并通过隔离用户群来验证新模式，随后再扩大规模。",
+      "principles": [
+        "Start Backwards from the Peak: Don't look at current metrics. Ask 'What is the potential here?' (e.g., millions of professionals sharing knowledge).",
+        "The Cohort Carve-Out: Isolate a statistically significant group (e.g., 2 million users) to serve as a 'separate country'. Optimize their experience without worrying about the main org's metrics.",
+        "Value Exchange over Volume: Shift the metric from raw clicks/traffic to 'Matchmaking'. Does the creator get professional value? Does the consumer get knowledge?"
+      ],
+      "principles_zh": [
+        "以终为始（Start Backwards）：不要只看现有指标。问自己“这里的潜力是什么？”（例如：数百万专业人士分享知识）。",
+        "灰度隔离（The Cohort Carve-Out）：隔离出一个统计显著的用户群（如200万用户），将其视为“独立王国”。在该群体内优化体验，暂不考虑对主组织指标的短期影响。",
+        "重价值交换轻体量（Value Exchange over Volume）：将指标从单纯的点击/流量转变为“匹配度”。创作者是否获得了职业价值？消费者是否获得了知识？"
+      ],
+      "whenToUse": "When dealing with legacy products that have plateaued or have a bad reputation, but possess high latent potential.",
+      "whenToUse_zh": "适用于处理那些增长停滞或口碑不佳，但具备巨大潜在价值的老旧产品（Legacy Products）。",
+      "commonMistakes": "Trying to iterate incrementally on a broken foundation or letting short-term metrics (like ad revenue or session time) kill long-term value shifts.",
+      "commonMistakes_zh": "试图在崩坏的基础上进行增量迭代，或者让短期指标（如广告收入或会话时长）扼杀长期的价值转型。",
+      "quote": "This is not a springboard for other products... It's really about people that matter, talking about things that I care about professionally.",
+      "realWorldExample": "LinkedIn carved out 2 million users to test a 'knowledge-first' feed. They ignored the revenue drops/metric fluctuations for this group to prove that high-quality engagement would eventually lead to better retention.",
+      "realWorldExample_zh": "LinkedIn 隔离了200万用户来测试“知识优先”的 Feed 流。他们忽略了该群体短期的收入下降或指标波动，最终证明了高质量的互动能带来更好的长期留存。"
+    },
+    {
+      "name": "The AI-First 'Chef & Ingredients' Model",
+      "name_zh": "AI优先的“大厨与食材”模型",
+      "category": "product-strategy",
+      "problemItSolves": "Helping Product Managers adapt to the generative AI era where they lose deterministic control over user flows and interfaces.",
+      "problemItSolves_zh": "帮助产品经理适应生成式 AI 时代，解决PM失去对用户流程和界面确定性控制（Deterministic Control）后的适应问题。",
+      "summary": "A framework for building AI products where the PM shifts from designing rigid steps to curating the data and objectives. The PM provides the ingredients and guidelines, and the AI (the chef) cooks the dish (the experience) for the user.",
+      "summary_zh": "一种构建 AI 产品的框架。PM 的角色从设计僵化的步骤转变为策划数据和目标。PM 提供“食材”和“烹饪指南”，由 AI（大厨）为用户“烹饪”最终的体验（菜肴）。",
+      "principles": [
+        "Control Ingredients, Not the Dish: You don't define the exact flow. You define the data, the safety guardrails, and the objective function.",
+        "Diverge then Converge: When new tech arrives, wipe the roadmap. Allow teams a period of 'chaos' to explore creatively, then rigorously converge on top strategic bets.",
+        "PMs Must Own the Engine: PMs cannot treat AI as a black box. They must define the algorithm's objective function, feature sets, and data collection strategy."
+      ],
+      "principles_zh": [
+        "控制食材而非菜肴：你不再定义精确的流程。你需要定义数据、安全护栏和目标函数（Objective Function）。",
+        "先发散后收敛（Diverge then Converge）：当新技术出现时，清空 Roadmap。允许团队在一段“混乱期”内进行创造性探索，然后严格收敛到几个顶级战略赌注上。",
+        "PM 必须掌控引擎：PM 不能将 AI 视为黑盒。必须亲自定义算法的目标函数、特征集（Feature Sets）和数据收集策略。"
+      ],
+      "whenToUse": "When integrating LLMs or advanced machine learning into your product, requiring a shift from logic-based software to probabilistic AI systems.",
+      "whenToUse_zh": "当在产品中集成 LLM 或高级机器学习，需要从基于逻辑的传统软件转向概率性的 AI 系统时。",
+      "commonMistakes": "Treating AI as a feature to 'sprinkle' on top of existing flows, rather than rethinking the core problem and letting AI handle the solutioning.",
+      "commonMistakes_zh": "将 AI 视为一种点缀在现有流程上的“功能”，而不是重新思考核心问题并让 AI 接管解决方案。",
+      "quote": "You don't control the experience anymore, you control the ingredients.",
+      "realWorldExample": "LinkedIn's 'Coach' in job seeking. Instead of clicking buttons to filter jobs, the AI uses the 'ingredients' of user profile and job data to conduct a personalized conversation and career advice session.",
+      "realWorldExample_zh": "LinkedIn 的求职“教练”功能。AI 不再是让用户点击按钮筛选工作，而是利用用户画像和职位数据这些“食材”，与用户进行个性化的对话并提供职业建议。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "We might be wrong, but we are not confused.",
+      "context": "Tomer's signature mantra on the importance of organizational alignment and clarity over hedging."
+    },
+    {
+      "text": "Becoming is better than being.",
+      "context": "On growth mindset—the moment you think you have 'arrived' or mastered the craft is the moment you start to deteriorate."
+    },
+    {
+      "text": "I start backwards. It's like what is the potential here? ... I can imagine that mountain.",
+      "context": "On setting ambitious goals based on potential rather than current limitations."
+    },
+    {
+      "text": "AI is the ultimate matchmaker.",
+      "context": "Describing the core function of LinkedIn's feed algorithm—matching the right expertise to the right professional need."
+    }
+  ],
+  "filename": "Tomer Cohen"
+}

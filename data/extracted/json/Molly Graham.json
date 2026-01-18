@@ -1,0 +1,147 @@
+{
+  "guest": {
+    "name": "Molly Graham",
+    "title": "Founder, Glue Club",
+    "company": "Glue Club (Formerly Facebook, Google, Quip, Chan Zuckerberg Initiative)",
+    "background": "Molly Graham is a scaling expert who led early culture and mobile initiatives at Facebook, helped scale Google's comms team, and served as COO at Quip and the Chan Zuckerberg Initiative. She now runs Glue Club, a community for startup leaders navigating hyper-growth.",
+    "background_zh": "Molly Graham 是一位企业扩张专家，曾负责 Facebook 早期的文化建设和移动端业务，参与 Google 团队扩张，并曾担任 Quip 和 Chan Zuckerberg Initiative 的 COO。她目前运营着 Glue Club，这是一个专为处于超高速增长期的初创企业管理者打造的社区。"
+  },
+  "episodeSummary": "Molly Graham shares her battle-tested frameworks for navigating hyper-growth, drawn from her experiences at Facebook and Google. She discusses how leaders must scale themselves by 'giving away their Legos,' how to diagnose team issues using the 'Waterline Model,' and provides actionable rules for goal setting and career management.",
+  "episodeSummary_zh": "Molly Graham 分享了她在 Facebook 和 Google 积累的应对超高速增长的实战框架。她探讨了管理者如何通过“分发乐高积木”实现自我迭代，如何利用“水位线模型”诊断团队问题，并提供了关于目标制定和职业生涯管理的实操法则。",
+  "keyTakeaways": [
+    "To scale with a company, you must constantly hire yourself out of your current job ('Give away your Legos').",
+    "80% of team problems are structural (goals/roles), not personality-driven; fix structure before blaming people.",
+    "No company needs more than 3 goals; one goal must always be the tie-breaker in prioritization.",
+    "Strategy should hurt; if you aren't making painful trade-offs, you aren't prioritizing.",
+    "Don't grow headcount by more than 100% in a year; it creates chaos and inefficiency.",
+    "Treat escalation as a decision-making tool to unblock teams, not as 'tattling'.",
+    "Career growth is often a J-Curve (jumping off a cliff/struggling) rather than a linear set of stairs."
+  ],
+  "methodologies": [
+    {
+      "name": "Give Away Your Legos",
+      "name_zh": "分发你的乐高积木（Give Away Your Legos）",
+      "category": "career-leadership",
+      "problemItSolves": "Helps high-performers overcome the anxiety of role changes and scaling during hyper-growth.",
+      "problemItSolves_zh": "帮助高绩效人才克服在公司超高速增长期间角色变化和职责调整带来的焦虑感。",
+      "summary": "In scaling companies, jobs are like piles of Legos. Once you build a tower (master a role), you must give it to someone else and move on to a bigger, messier pile. Holding onto your old role buries you; giving it away allows you to tackle bigger challenges (building cities instead of houses).",
+      "summary_zh": "在快速扩张的公司里，工作就像一堆乐高积木。当你搭好一座塔（掌握某个角色）后，必须把它交给别人，自己去处理更大、更混乱的一堆积木。紧抓旧角色不放会让你停滞不前；学会放手才能让你有机会去应对更大的挑战（从造房子变成造城市）。",
+      "principles": [
+        "Scale yourself: You must grow as fast as the company or you become obsolete.",
+        "Embrace the new mess: Moving to a new, undefined problem is a promotion, not a demotion.",
+        "Manage 'Bob': Externalize your ego/fear (named 'Bob') and wait 2 weeks before acting on negative emotions regarding change."
+      ],
+      "principles_zh": [
+        "自我迭代：你的成长速度必须跟上公司的扩张速度，否则就会被淘汰。",
+        "拥抱新混乱：转向一个新的、未被定义的问题领域是晋升，而非降职。",
+        "管理心中的'Bob'：将你的自负和恐惧具象化（取名为'Bob'），在对变动产生负面情绪时，先冷静两周再采取行动。"
+      ],
+      "whenToUse": "When a company is doubling in size, or when a leader feels territorial about a new hire taking their responsibilities.",
+      "whenToUse_zh": "当公司规模翻倍，或者管理者对新入职员工接手自己职责感到领地被侵犯时。",
+      "commonMistakes": "Believing you are the only person who can do a specific task, or viewing the handover of work as a loss of status.",
+      "commonMistakes_zh": "认为只有自己能完成某项特定任务，或者将工作移交视为地位的丧失。",
+      "quote": "If you really want to take advantage, both learning to give away what you've gotten good at and move on to the next shiny pile of Legos.",
+      "realWorldExample": "At Facebook, Graham had to re-hire herself every 3 weeks, eventually moving from HR to Mobile—a role she was unqualified for but learned by diving into the mess.",
+      "realWorldExample_zh": "在 Facebook 时，Graham 每三周就要重新定位自己的角色，最终从 HR 转岗到移动业务——这是一个她当时完全不具备资格，但通过跳入混乱中摸索学会的角色。"
+    },
+    {
+      "name": "The Waterline Model",
+      "name_zh": "水位线模型（The Waterline Model）",
+      "category": "team-culture",
+      "problemItSolves": "Prevents leaders from incorrectly blaming interpersonal conflict when the root cause is actually organizational ambiguity.",
+      "problemItSolves_zh": "防止管理者在根源问题其实是组织模糊性时，错误地将其归咎于人际冲突。",
+      "summary": "Imagine a team as a boat. Problems below the waterline sink the boat. Leaders often dive deep (scuba) to fix 'people problems' first, but they should snorkel first. Start at the surface with structural issues (goals/roles) before addressing interpersonal dynamics.",
+      "summary_zh": "把团队想象成一艘船，水位线以下的问题会弄沉这艘船。管理者通常习惯先深潜（scuba）去解决“人的问题”，但实际上应该先浮潜（snorkel）。在处理人际关系之前，应优先排查表层的结构性问题（目标/角色）。",
+      "principles": [
+        "Snorkel before you scuba: Check structural alignment before analyzing personality conflicts.",
+        "Clarify Goals: Does the team know what the destination is?",
+        "Clarify Roles: Does everyone know who owns what part of the elephant?"
+      ],
+      "principles_zh": [
+        "先浮潜，再深潜：在分析性格冲突之前，先检查结构性对齐情况。",
+        "明确目标：团队是否清楚最终目的地是哪里？",
+        "明确角色：每个人是否清楚自己负责“大象”的哪一部分？"
+      ],
+      "whenToUse": "When there is friction, confusion, or underperformance within a team.",
+      "whenToUse_zh": "当团队内部出现摩擦、困惑或绩效不佳时。",
+      "commonMistakes": "Assuming a conflict is due to 'bad culture' or 'difficult people' when typically (80% of the time) it is due to unclear expectations.",
+      "commonMistakes_zh": "假定冲突是由于“糟糕的文化”或“难搞的人”引起的，而实际上（80%的情况）是由于期望不明确导致的。",
+      "quote": "Your only goal as a manager, if you do nothing else, is clear roles and clear expectations.",
+      "realWorldExample": "Graham often finds that when teams are fighting, simply asking 'What number were you hired to drive?' reveals that no one actually knows their specific accountability.",
+      "realWorldExample_zh": "Graham 经常发现，当团队发生争执时，只要问一句“你被招进来是为了提升哪个具体指标？”，往往会发现根本没人清楚自己具体的问责指标。"
+    },
+    {
+      "name": "Six Rules for High-Impact Goals",
+      "name_zh": "高效目标制定六法则",
+      "category": "growth-metrics",
+      "problemItSolves": "Fixes confusing, overly complex goal-setting processes (like 100-line spreadsheets) that fail to drive alignment.",
+      "problemItSolves_zh": "修正那些混乱、过度复杂且无法推动对齐的目标制定流程（比如100行的电子表格）。",
+      "summary": "Goals are communication tools, not just lists. Effective goals must be simple, painful to select, and rigorously owned to actually drive business outcomes.",
+      "summary_zh": "目标是沟通工具，而不仅仅是清单。有效的目标必须简单明了，制定过程伴随取舍的痛苦，并且有严格的责任归属，这样才能真正推动业务成果。",
+      "principles": [
+        "Max 3 Company Goals: Focus is essential (e.g., Growth, Engagement, Revenue).",
+        "One goal wins in a fight: Define the tie-breaker beforehand (e.g., Engagement > Growth).",
+        "One goal, one owner: Shared ownership means no ownership.",
+        "Strategy should hurt: If prioritizing isn't painful, you haven't cut enough."
+      ],
+      "principles_zh": [
+        "公司级目标最多3个：聚焦至关重要（例如：增长、留存、营收）。",
+        "确立“决胜”目标：预先定义优先级冲突时的唯一赢家（例如：留存 > 增长）。",
+        "一个目标，一个负责人：共同负责等于没人负责。",
+        "战略必须伴随痛感：如果优先级的确立过程不痛苦，说明你砍掉的还不够多。"
+      ],
+      "whenToUse": "During quarterly or annual planning cycles, or when a team feels pulled in too many directions.",
+      "whenToUse_zh": "在季度或年度规划周期中，或者当团队感觉被过多方向牵扯精力时。",
+      "commonMistakes": "Creating 'kitchen sink' goals (everything is a priority) or assigning a goal to a group instead of an individual.",
+      "commonMistakes_zh": "制定“大杂烩”式的目标（万事皆优先），或者将目标分配给一个小组而不是个人。",
+      "quote": "Strategy should hurt. If your goal setting process is not painful, then you're not prioritizing heavily enough.",
+      "realWorldExample": "Facebook ran on just three goals (Growth, Engagement, Revenue) for five years, with Engagement explicitly prioritized over Growth to prevent spammy user acquisition.",
+      "realWorldExample_zh": "Facebook 曾连续五年只关注三个目标（增长、留存、营收），并且明确规定留存优于增长，以防止通过垃圾手段获取无效用户。"
+    },
+    {
+      "name": "J-Curve vs. Stairs Career Framework",
+      "name_zh": "J型曲线 vs 阶梯式职业成长框架",
+      "category": "career-leadership",
+      "problemItSolves": "Helps professionals decide between safe, linear promotions and high-risk, high-reward opportunities.",
+      "problemItSolves_zh": "帮助职场人士在安全的线性晋升和高风险高回报的机会之间做出抉择。",
+      "summary": "Most people view careers as stairs (linear promotions). However, high-growth careers are J-Curves: you jump off a cliff (take a risk), fall/struggle for 6-9 months (the bottom of the J), and then shoot up exponentially higher than the stairs would have taken you.",
+      "summary_zh": "大多数人将职业生涯视为阶梯（线性晋升）。然而，高速成长的职业生涯是J型曲线：你跳下悬崖（承担风险），经历6-9个月的坠落/挣扎期（J的底部），然后以指数级速度冲上比阶梯更高的高度。",
+      "principles": [
+        "Embrace the fall: Feeling stupid or unqualified for 6 months is part of the process.",
+        "Optimize for learning: Choose roles that scare you and force you to learn new skills.",
+        "Financial safety: Calculate your 'burn rate' runway to know if you can afford the risk of the jump."
+      ],
+      "principles_zh": [
+        "拥抱坠落感：在6个月内感到自己愚蠢或不胜任是过程的一部分。",
+        "以学习为优：选择那些让你感到害怕并迫使你学习新技能的角色。",
+        "财务安全：计算你的“烧钱率”（burn rate）跑道，以确定你是否承担得起跳跃的风险。"
+      ],
+      "whenToUse": "When considering a pivot, a startup role, or a stretch assignment that feels terrifying.",
+      "whenToUse_zh": "在考虑转型、加入初创公司或接受一个令人生畏的挑战性任务时。",
+      "commonMistakes": "Interpreting the initial struggle/failure (the bottom of the J) as a sign to quit, rather than a necessary phase of learning.",
+      "commonMistakes_zh": "将初期的挣扎或失败（J的底部）误读为退出的信号，而不是将其视为学习的必要阶段。",
+      "quote": "The much more fun careers are like jumping off cliffs and you do fall, but then you climb out way beyond where the stairs could ever get you.",
+      "realWorldExample": "Graham moved from HR to a product role in Mobile at Facebook (pitched by Chamath). She felt incompetent for 6 months but eventually gained skills she never would have learned on the 'stairs.'",
+      "realWorldExample_zh": "Graham 在 Chamath 的建议下，从 HR 转岗到 Facebook 的移动产品部门。她在前6个月感到极度不胜任，但最终获得了在“阶梯”模式下永远无法习得的技能。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The cave you fear contains the treasure you seek.",
+      "context": "Lenny summarizing the philosophy of taking career risks and J-Curves."
+    },
+    {
+      "text": "80% of the culture of a company is literally defined by the personality of the founder.",
+      "context": "Molly explaining why values exercises often fail if they don't match the founder's behavior."
+    },
+    {
+      "text": "Promises [about stability] are like letter bombs that you mail yourself that are going to explode in your face in a year.",
+      "context": "Quoting Claire Hughes Johnson on why leaders shouldn't promise things they can't control during hiring."
+    },
+    {
+      "text": "Direct is kind.",
+      "context": "Regarding firing and difficult conversations; avoiding them causes more pain long-term."
+    }
+  ],
+  "filename": "Molly Graham"
+}

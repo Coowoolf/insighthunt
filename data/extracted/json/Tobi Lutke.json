@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Tobi Lütke",
+    "title": "Founder & CEO",
+    "company": "Shopify",
+    "background": "Tobi Lütke is the founder and CEO of Shopify, the global commerce platform powering millions of businesses. A programmer by trade, he built the first version of Shopify to sell snowboards, eventually scaling it into one of the most significant technology companies in the world known for its unique engineering culture.",
+    "background_zh": "Tobi Lütke 是 Shopify 的创始人兼 CEO，该全球电商平台如今支撑着数百万商家的业务。作为一名极客程序员，他最初为了在网上卖滑雪板编写了 Shopify 的初代代码，并最终将其扩展为世界上最重要的科技公司之一，以其独特的工程文化而闻名。"
+  },
+  "episodeSummary": "In this conversation, Tobi Lütke deconstructs his philosophy on building enduring products by rejecting industry norms like OKRs and embracing first principles thinking. He discusses the 'Tobi Tornado' method for rapid course correction, the distinction between tactical and positional games in business, and why optimizing for unquantifiable metrics like 'delight' often yields better long-term results.",
+  "episodeSummary_zh": "在本次对话中，Tobi Lütke 拆解了他打造长青产品的哲学：拒绝 OKR 等行业惯例，转而拥抱第一性原理思维。他深入探讨了用于极速纠偏的“托比风暴（Tobi Tornado）”机制，剖析了商业中“战术游戏”与“战略定位游戏”的区别，并解释了为何优化“愉悦感”等难以量化的指标往往能带来更卓越的长期回报。",
+  "keyTakeaways": [
+    "Most business practices (like RFPs or copying competitors) are results of path dependence, not optimal design.",
+    "Optimize for 'positional games' (trust, platform value) over 'tactical games' (conversion hacks) to ensure longevity.",
+    "Avoiding 'founder mode' intervention when a project is off-track is an abdication of responsibility; kill bad projects immediately.",
+    "Metrics often lead to 'overfitting' or Goodhart's Law; prioritize unquantifiable qualities like craft, fun, and delight.",
+    "Talent is often limited by context; reminding people of their maximum potential is a leader's high-leverage activity.",
+    "Treat your career as a 'talent stack'—combining 3-4 distinct interests (e.g., coding + retail + poker) creates a unique competitive advantage."
+  ],
+  "methodologies": [
+    {
+      "name": "Dynamic First Principles Re-derivation",
+      "name_zh": "动态第一性原理重演法",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from building 'better versions of broken things' or falling into path dependence due to outdated assumptions.",
+      "problemItSolves_zh": "防止团队陷入路径依赖，避免在过时的假设基础上仅仅去制造“改良版”的产品，而非真正的创新。",
+      "summary": "Instead of benchmarking against competitors, treat the product building process like a 'thermostat' that constantly re-runs a logic function. You must strip away historical context (path dependence), look at the atomic building blocks available today (tech/resources), and re-calculate the optimal solution from scratch.",
+      "summary_zh": "不要对标竞品，而是将产品构建过程视为一个不断重新运行逻辑函数的“恒温器”。你必须剥离历史背景（路径依赖），审视当下可用的原子能力（最新技术/资源），并从零开始重新推导最优解。",
+      "principles": [
+        "Identify Path Dependence: Ask if a feature exists only because 'that's how it was done 10 years ago'.",
+        "Check the Boolean Flags: Have fundamental constraints changed? (e.g., 'Is everyone remote now?' 'Is AI viable now?').",
+        "Re-run the Function: If you were building this today with zero sunk costs, would you build it this way?",
+        "Ignore the 'Status Quo' Aesthetic: Don't copy the look/feel of serious business software just to look professional."
+      ],
+      "principles_zh": [
+        "识别路径依赖：质问该功能的存在是否仅仅因为“十年前就是这样做的”。",
+        "检查底层布尔值（Boolean Flags）：核心约束条件是否已改变？（例如：“现在是否全员远程？”“AI现在是否可用？”）。",
+        "重运决策函数：如果今天从零开始且没有沉没成本，你还会这样构建产品吗？",
+        "摒弃“现状”审美：不要仅仅为了看起来专业就模仿传统商业软件的交互或外观。"
+      ],
+      "whenToUse": "When kicking off a new major feature or when a long-running project feels 'stuck' or incremental.",
+      "whenToUse_zh": "在启动重大新功能时，或者当一个长期项目感觉陷入停滞、只能做渐进式修补时使用。",
+      "commonMistakes": "Analyzing competitors first (benchmarking) rather than analyzing the problem and available technology first.",
+      "commonMistakes_zh": "首先进行竞品分析（对标），而不是首先分析问题本质和当前可用的技术能力。",
+      "quote": "If most people are doing it a certain way, I by default don't want to do it that way.",
+      "realWorldExample": "Shopify deciding to go 'Digital by Design' (remote). They realized the boolean flag 'Must we be in Ottawa?' flipped to False, so they re-derived their entire workforce strategy rather than creating a hybrid compromise.",
+      "realWorldExample_zh": "Shopify 决定全面转向“Digital by Design”（远程办公）。他们意识到“必须在渥太华办公”这个底层布尔值变成了 False，因此他们基于现状重新推导了整个人才战略，而不是采取折中的混合办公模式。"
+    },
+    {
+      "name": "The Positional vs. Tactical Game Framework",
+      "name_zh": "战略位势与战术博弈框架",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents companies from extracting too much value too quickly and losing their long-term competitive advantage.",
+      "problemItSolves_zh": "防止公司为了短期利益过快榨取用户价值，从而丧失长期的竞争优势。",
+      "summary": "Business is like chess: there is a 'Positional Game' (developing pieces, gaining territory/trust) and a 'Tactical Game' (hacks, A/B tests, pricing changes). Most companies over-focus on tactics to hit quarterly numbers, which degrades their position. The goal is to build a massive position so tactics become easy.",
+      "summary_zh": "商业如同下棋：分为“位势博弈”（发展棋子、获取地盘/信任）和“战术博弈”（增长黑客、A/B测试、调价）。大多数公司过度关注战术以达成季度指标，却损害了战略位势。核心目标应是建立强大的战略位势，让战术执行变得轻而易举。",
+      "principles": [
+        "Positional > Tactical: Trust and ecosystem health are more important than a 1% conversion lift.",
+        "Positive-Sum Games: Play the 'Iterated Prisoner's Dilemma' by always coordinating/cooperating with partners/users.",
+        "The Marshmallow Test: Add monetization levers (capabilities) but delay pulling them to maximize long-term trust.",
+        "Don't Die: Use tactics only enough to avoid 'margin calls' (going bust), but reinvest everything else into position."
+      ],
+      "principles_zh": [
+        "位势优于战术：用户信任和生态系统的健康度远比 1% 的转化率提升重要。",
+        "正和博弈：在“重复囚徒困境”中始终选择与合作伙伴/用户协作，而非背叛。",
+        "棉花糖测试：增加变现杠杆（能力），但延迟拉动这些杠杆，以最大化长期信任。",
+        "生存底线：仅在避免“追加保证金”（破产）时使用战术手段，其余精力全部投入到巩固战略位势上。"
+      ],
+      "whenToUse": "When deciding on monetization features, aggressive growth hacks, or roadmap prioritization.",
+      "whenToUse_zh": "在决策变现功能、激进的增长手段或产品路线图优先级时使用。",
+      "commonMistakes": "Optimizing for short-term metrics (tactics) that extract value from users, turning the relationship into a zero-sum game.",
+      "commonMistakes_zh": "过度优化短期指标（战术），从用户身上榨取价值，导致与用户的关系变成零和博弈。",
+      "quote": "On a long enough timeline, playing positive-sum games with your customers is the ultimate growth hack.",
+      "realWorldExample": "Shopify intentionally keeps their take-rate low and doesn't squeeze merchants for every dollar, viewing themselves as a partner in the merchant's success rather than a tax collector.",
+      "realWorldExample_zh": "Shopify 特意保持较低的抽成率，不为了每一分钱去压榨商家。他们将自己视为商家成功的合作伙伴，而不是收税员。"
+    },
+    {
+      "name": "The Tobi Tornado (Course Correction)",
+      "name_zh": "托比风暴（极速纠偏机制）",
+      "category": "team-culture",
+      "problemItSolves": "Solves the 'Sunk Cost Fallacy' where teams continue working on doomed projects to avoid wasting previous effort.",
+      "problemItSolves_zh": "解决“沉没成本谬误”，防止团队为了不浪费过往投入而继续在一个注定失败的项目上空转。",
+      "summary": "A high-velocity intervention where leadership identifies a project is off-track and immediately stops it, dissolving the current team structure to reset. It prioritizes the correct outcome over being 'nice' or respecting the time already spent.",
+      "summary_zh": "一种高强度的干预机制：领导层一旦发现项目偏离轨道，立即叫停，解散当前的团队结构进行重置。这是一种“为了正确的结果”而优于“做老好人”或“尊重过往投入”的决策方式。",
+      "principles": [
+        "Compress Time: Don't let a bad project bleed out slowly; stop it in a single conversation.",
+        "Ignore Sunk Costs: It doesn't matter how long you worked on it; if the premise is wrong, stop.",
+        "Reset the Team: The people building the failed version might need to be moved so the new version has fresh eyes.",
+        "Directness is Kindness: Letting people work on something that won't ship is unfair; stopping them is actually respectful."
+      ],
+      "principles_zh": [
+        "压缩时间：不要让糟糕的项目缓慢流血，通过一次谈话立即终止。",
+        "无视沉没成本：无论已经投入了多少时间，如果前提是错的，立刻停手。",
+        "重置团队：构建失败版本的团队可能需要被调离，以确保新版本拥有全新的视角。",
+        "直接即是善意：让员工在一个无法发布的项目上浪费生命是不公平的，叫停反而是对他人的尊重。"
+      ],
+      "whenToUse": "When a leader realizes a project's fundamental assumption is flawed or it has drifted into mediocrity.",
+      "whenToUse_zh": "当领导者意识到项目的核心假设有误，或者项目已经沦为平庸之作时。",
+      "commonMistakes": "Trying to 'pivot' gradually or soften the blow, which confuses the team and wastes more time.",
+      "commonMistakes_zh": "试图渐进式地“转型”或试图缓和打击，这只会让团队感到困惑并浪费更多时间。",
+      "quote": "I really, really, really think that there is not a single person on this planet who is even close to being at their maximum potential.",
+      "realWorldExample": "Tobi walking into a project meeting, realizing the approach is fundamentally flawed, and stopping the entire initiative on the spot to restart from a blank slate.",
+      "realWorldExample_zh": "Tobi 走进一个项目会议，意识到其方法论存在根本性缺陷，当场叫停整个计划，并要求从零开始重新构思。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "I think today is the dystopia of the future. It behooves us to try to build the kinds of products that leads towards progress.",
+      "context": "On why he builds products and his dissatisfaction with the status quo."
+    },
+    {
+      "text": "The most powerful unquantifiable things in the world of business are fun and delight.",
+      "context": "On why Shopify rejects strict OKRs and focuses on qualitative experience."
+    },
+    {
+      "text": "Quality at the end of the day is simply a reflection of how much the people who created it gave a shit about the product.",
+      "context": "Tobi's final advice to product leaders on the importance of passion."
+    },
+    {
+      "text": "If you want to do something world-class, you can't do it like everyone else.",
+      "context": "On the necessity of diverging from the norm to achieve outlier results."
+    }
+  ],
+  "filename": "Tobi Lutke"
+}

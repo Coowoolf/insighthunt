@@ -1,0 +1,90 @@
+{
+  "guest": {
+    "name": "Melissa Perri & Denise Tilles",
+    "title": "Authors of Product Operations / CEO of Produx Labs",
+    "company": "Produx Labs",
+    "background": "Melissa Perri is a renowned product leader, author of 'Escaping the Build Trap', and teaches at Harvard Business School. Denise Tilles is a veteran product leader and consultant specializing in strategy and operations. Together they co-authored the definitive book on Product Operations.",
+    "background_zh": "Melissa Perri 是知名产品领袖，《逃离构建陷阱》作者，并在哈佛商学院任教。Denise Tilles 是资深产品专家和顾问，专注于战略与运营。两人合著了关于产品运营（Product Ops）的权威著作。"
+  },
+  "episodeSummary": "This episode explores the emerging function of Product Operations (Product Ops) and why it is essential for scaling technology companies. Melissa and Denise breakdown the 'Three Pillars' of Product Ops, explain how it liberates Product Managers to focus on strategy rather than administrative tasks, and provide a roadmap for implementing this function without creating bureaucracy.",
+  "episodeSummary_zh": "本期节目探讨了新兴的“产品运营”（Product Ops）职能及其对扩展期科技公司的重要性。Melissa 和 Denise 拆解了产品运营的“三大支柱”，解释了该职能如何通过承担行政琐事来解放产品经理，使其专注于战略工作，并提供了在避免官僚主义的前提下落地该职能的路线图。",
+  "keyTakeaways": [
+    "Product Ops does not take away decision-making rights; it informs better decisions by removing friction.",
+    "If PMs are spending 30% of time on strategy and 70% on 'shadow work' (like SQL queries or scheduling), you need Product Ops.",
+    "Start small: Don't hire a massive team. Start with one person solving the biggest pain point among the three pillars.",
+    "Executive visibility is a key driver for Product Ops; standardize roadmaps so leadership isn't digging through Jira.",
+    "Don't just hire Agile Coaches for this role; you need people who understand the product context and business strategy.",
+    "Product Ops manages the system/process, but PMs still own the user research synthesis and strategic trade-offs."
+  ],
+  "methodologies": [
+    {
+      "name": "The Three Pillars of Product Operations",
+      "name_zh": "产品运营的三大支柱模型",
+      "category": "execution",
+      "problemItSolves": "Clarifies the vague definition of Product Ops and helps companies identify which specific areas need operational support.",
+      "problemItSolves_zh": "澄清了产品运营定义的模糊性，并帮助公司识别哪些具体领域需要运营支持。",
+      "summary": "A framework to structure the Product Ops function into three distinct areas of value creation. Depending on the company's maturity and immediate needs, they may focus on one pillar first before expanding to others.",
+      "summary_zh": "一个将产品运营职能构建为三个不同价值创造领域的框架。根据公司的成熟度和紧迫需求，可以先专注于其中一个支柱，再逐步扩展到其他领域。",
+      "principles": [
+        "Business Data & Insights: Automating data retrieval (revenue, retention) to enable rapid strategic decision-making.",
+        "Customer & Market Insights: Streamlining qualitative research loops, managing participant databases, and aggregating feedback from sales/support.",
+        "Process & Practices: establishing consistent frameworks (e.g., roadmap templates, QBRs) to scale product management and ensure executive visibility."
+      ],
+      "principles_zh": [
+        "商业数据与洞察：自动化数据获取（如收入、留存），以支持快速的战略决策。",
+        "客户与市场洞察：优化定性研究闭环，管理用户调研库，并聚合来自销售和客服的反馈。",
+        "流程与实践：建立一致的框架（如路线图模板、季度业务回顾），以实现产品管理的规模化并确保高层可见性。"
+      ],
+      "whenToUse": "When defining the job description for a first Product Ops hire or diagnosing why a product team is moving slowly.",
+      "whenToUse_zh": "在定义首位产品运营人员的职位描述，或诊断产品团队为何推进缓慢时使用。",
+      "commonMistakes": "Trying to tackle all three pillars at once with a single hire, or hiring a data analyst who lacks product context.",
+      "commonMistakes_zh": "试图让一名新员工同时解决所有三个支柱的问题，或者雇佣了缺乏产品背景的数据分析师。",
+      "quote": "Product operations does not take away decision making rights from the product manager. It's there to inform them.",
+      "realWorldExample": "Athenahealth used Product Ops to aggregate data from 360+ PMs, moving from disjointed Jira tickets to a consolidated portfolio roadmap for executive strategy.",
+      "realWorldExample_zh": "Athenahealth 利用产品运营汇总了 360 多位产品经理的数据，从杂乱的 Jira 工单转变为统一的组合路线图，以支持高层战略决策。"
+    },
+    {
+      "name": "The 'Minimum Viable Product Ops' Rollout",
+      "name_zh": "最小可行产品运营（MVPO）落地法",
+      "category": "team-culture",
+      "problemItSolves": "Prevents organizational bloat and 'process for process's sake' when introducing a new function.",
+      "problemItSolves_zh": "防止在引入新职能时出现组织臃肿和“为了流程而流程”的现象。",
+      "summary": "Instead of hiring a large team immediately, treat the rollout of Product Ops like a product itself. Identify the single biggest friction point for PMs or Leadership and solve that first to demonstrate value.",
+      "summary_zh": "不要立即招聘庞大的团队，而是将产品运营的落地视为一个产品。识别产品经理或领导层最大的单一阻力点，优先解决它以证明价值。",
+      "principles": [
+        "Conduct a 'Listening Tour': Interview PMs and leaders to find the highest leverage pain point (e.g., 'we can't recruit users for interviews').",
+        "Start with One: Hire one specialist or assign one person (even part-time) to solve that specific pillar.",
+        "Automate & Scale: Build a shared system or service (e.g., a self-serve data dashboard) rather than throwing bodies at the problem.",
+        "Don't Delegate Core PM Work: Ensure Product Ops doesn't take over strategy, vision, or hard stakeholder trade-offs."
+      ],
+      "principles_zh": [
+        "开展“倾听之旅”：采访产品经理和领导层，找到杠杆率最高的痛点（例如“我们要不到用户做访谈”）。",
+        "从一人开始：招聘一名专家或指派一人（甚至是兼职）来解决该特定支柱的问题。",
+        "自动化与规模化：构建共享系统或服务（如自助数据仪表盘），而不是靠堆人来解决问题。",
+        "不通过外包核心工作：确保产品运营不接管战略、愿景或艰难的干系人权衡决策。"
+      ],
+      "whenToUse": "When a company is scaling (often around 20+ PMs) and PMs report burnout from administrative overhead.",
+      "whenToUse_zh": "当公司处于扩张期（通常约 20+ 产品经理）且 PM 抱怨行政负担过重导致职业倦怠时。",
+      "commonMistakes": "Hiring Agile Coaches who focus only on Scrum mechanics rather than product strategy enablement.",
+      "commonMistakes_zh": "雇佣只关注 Scrum 机制而非产品战略赋能的敏捷教练。",
+      "quote": "Do you want to hire 10,000 product managers and let them all do these things off the side of their desk... or do you want them concentrating on strategic work?",
+      "realWorldExample": "At a high-growth startup, the first Product Ops hire might purely focus on 'Business Data' to get the CPO accurate retention metrics for board meetings.",
+      "realWorldExample_zh": "在一家高增长的初创公司，首位产品运营人员可能纯粹专注于“商业数据”，以便为首席产品官（CPO）提供准确的董事会留存指标。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Product managers don't have time to go do all these things off the side of their desk.",
+      "context": "Melissa explaining why Product Ops is necessary to prevent burnout."
+    },
+    {
+      "text": "They're the product manager for the product managers.",
+      "context": "Melissa defining the internal stakeholder relationship of the Product Ops role."
+    },
+    {
+      "text": "If you try to serve everybody, you serve no one.",
+      "context": "Denise's life motto, applicable to prioritizing product ops initiatives."
+    }
+  ],
+  "filename": "Melissa Perri + Denise Tilles"
+}

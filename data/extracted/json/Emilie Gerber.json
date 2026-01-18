@@ -3,7 +3,8 @@
     "name": "Emilie Gerber",
     "title": "Founder & CEO",
     "company": "Six Eastern",
-    "background": "A PR expert and founder of Six Eastern, an agency that has worked with over 100 tech companies including Ramp and Perplexity. Previously led communications at Uber and Box, specializing in turning product launches and corporate milestones into strategic media coverage."
+    "background": "A PR expert and founder of Six Eastern, an agency that has worked with over 100 tech companies including Ramp and Perplexity. Previously led communications at Uber and Box, specializing in turning product launches and corporate milestones into strategic media coverage.",
+    "background_zh": "Six Eastern 创始人、资深公关专家。该机构服务过包括 Ramp 和 Perplexity 在内的百余家科技公司。她曾任 Uber 和 Box 的传播负责人，擅长将产品发布和企业里程碑转化为战略性媒体报道。"
   },
   "episodeSummary": "Emilie Gerber deconstructs the black box of public relations for startups, moving beyond theory to strictly tactical advice. She outlines how to craft pitches that actually get opened, why \"category creation\" is a failing narrative strategy for press, and how to differentiate media targets based on business goals (funding vs. product growth). The conversation provides a blueprint for founders and product leaders to generate coverage without needing expensive agencies or warm introductions.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When launching a product in a crowded market or when the product is complex and difficult to explain from scratch.",
       "commonMistakes": "Claiming to be a 'Category Creator' which signals marketing fluff to reporters, or choosing an incumbent that isn't actually well-known enough to serve as an anchor.",
       "quote": "A lot of companies want to position themselves as category creators, and I actually hate that. It doesn't work... It doesn't land with press... Instead, it's actually really great when you can talk about how you are doing what X household name does, but better.",
-      "realWorldExample": "Ramp's launch of their bill pay offering. Instead of pitching 'streamlined vendor payments,' Six Eastern pitched it as 'Ramp taking on Bill.com' (a public company). This angle secured a CNBC feature for a product update that typically wouldn't get covered."
+      "realWorldExample": "Ramp's launch of their bill pay offering. Instead of pitching 'streamlined vendor payments,' Six Eastern pitched it as 'Ramp taking on Bill.com' (a public company). This angle secured a CNBC feature for a product update that typically wouldn't get covered.",
+      "summary_zh": "一种将新产品锚定于知名行业巨头的定位框架。通过确立产品与市场在位者（Incumbent）的对标关系，你能为媒体提供即时的认知参照系和天然的冲突张力，从而有效激发报道兴趣。",
+      "problemItSolves_zh": "创业公司之所以难以获得媒体曝光，往往是因为他们试图讲述复杂的“开创全新品类”故事，而记者通常认为这些叙事令人困惑且无从考证。",
+      "whenToUse_zh": "当需要在竞争激烈的红海市场发布产品，或产品本身机制复杂、难以从零解释时。",
+      "commonMistakes_zh": "自诩为“品类开创者”（这在媒体眼中往往只是营销噱头），或是选择了一个知名度不足以作为锚点的既有竞品。",
+      "realWorldExample_zh": "Ramp 上线账单支付业务的案例。Six Eastern 没有将其定位为“优化供应商付款流程”，而是将其包装为“Ramp 向 Bill.com（上市公司）发起挑战”。这一叙事角度成功拿下了 CNBC 的专题报道，让原本通常很难获得媒体关注的常规产品迭代获得了曝光。",
+      "principles_zh": [
+        "锁定“行业标杆”：找到你的产品所对标或旨在优化的那个市场巨头（例如 Salesforce, Bill.com）。",
+        "明确核心“切入点”：精准阐述一个最具优势或差异化的点，切忌罗列所有功能。",
+        "在标题中制造“冲突感”：套用公式“Company X 正通过 [独特路径] 挑战 [行业巨头]”。",
+        "拒绝“造词式”品类创新：不要宣称自己是某个晦涩领域的“首创者”，而要强调自己是解决巨头遗留痛点的“最优解”。"
+      ],
+      "name_zh": "The 'Incumbent Anchor' Narrative（“在位者锚定”叙事）"
     },
     {
       "name": "The '3-Sentence' Cold Pitch",
@@ -46,7 +59,19 @@
       "whenToUse": "When reaching out to reporters or podcast hosts without a prior relationship.",
       "commonMistakes": "Writing a wall of text, trying to be too friendly/building false rapport before getting to the point, or burying the news at the bottom of the email.",
       "quote": "I'm of the belief that [relationships] do not matter as much as many people think it does... I think cold outreach done well is just as effective.",
-      "realWorldExample": "Emilie's pitch to Lenny for a podcast guest used just two bullet points: 1. NuBank's growth is 80-90% organic. 2. They are bigger than Coinbase, Robinhood, and SoFi combined. This immediate, data-backed hook worked instantly."
+      "realWorldExample": "Emilie's pitch to Lenny for a podcast guest used just two bullet points: 1. NuBank's growth is 80-90% organic. 2. They are bigger than Coinbase, Robinhood, and SoFi combined. This immediate, data-backed hook worked instantly.",
+      "summary_zh": "一种高效且极度尊重对方时间的触达方法，优先追求“简洁”与“相关性”，而非依赖人脉关系。该方法预设接收者极其忙碌，因此必须确保核心诉求一目了然，绝无歧义。",
+      "problemItSolves_zh": "创始人和 PM 往往耗费大量时间苦寻人脉引荐，或是撰写会被记者瞬间删除的长篇大论。",
+      "whenToUse_zh": "当向无既往交集的记者或播客主播进行陌生联络时。",
+      "commonMistakes_zh": "撰写长篇大论、在切入正题前过度寒暄或强行套近乎，或是将关键信息埋没在邮件底部。",
+      "realWorldExample_zh": "Emilie 向 Lenny 推荐播客嘉宾时，Pitch 仅包含两个核心要点：1. NuBank 80-90% 为自然增长；2. 其体量超过了 Coinbase、Robinhood 和 SoFi 的总和。这种开门见山且有数据支撑的“钩子”效果立竿见影。",
+      "principles_zh": [
+        "第一句：设立钩子（The Hook）。开门见山地表明来意（例如：“关于 [公司名称] A 轮融资独家首发事宜的联络”）。",
+        "第二句：价值主张与数据。提供硬核事实或反共识洞察（例如：“已获 [投资人] 800 万美元注资，旨在解决 [某痛点]”）。",
+        "第三句：行动号召（Call to Action）。提出一个简单的封闭式问题（例如：“贵方是否有意接洽独家报道？”）。",
+        "附上背景链接：链入对方过往的相关文章或精简的背景资料，切忌在邮件正文中大段粘贴详细内容。"
+      ],
+      "name_zh": "The '3-Sentence' Cold Pitch（「三句话」陌生推介）"
     },
     {
       "name": "The 'Mom Test' Launch Asset",
@@ -62,7 +87,19 @@
       "whenToUse": "Creating the primary asset for a product launch or funding announcement.",
       "commonMistakes": "Using vague multipliers like '700% growth' (when going from 1 to 7 users) or using buzzwords like 'AI-powered workflow automation' without explaining the actual utility.",
       "quote": "Since exiting stealth in May, we've witnessed a 700% increase in organizations using our product... You could have had one customer, now you have seven. I've never seen reporters include that in their stories.",
-      "realWorldExample": "Gamma's Series A announcement. Instead of a blog post, they built a Gamma presentation that was visual, interactive, included a video from the lead investor, and used plain English to explain they were fixing PowerPoint."
+      "realWorldExample": "Gamma's Series A announcement. Instead of a blog post, they built a Gamma presentation that was visual, interactive, included a video from the lead investor, and used plain English to explain they were fixing PowerPoint.",
+      "summary_zh": "一套摒弃官方辞令、推崇通俗表达与视觉化叙事的产品发布物料创作框架。该框架将内容的清晰度与易传播性置于形式感之上。",
+      "problemItSolves_zh": "新闻通稿往往充斥着各种行话（如“强大的多人体验”、“人在回路”），导致读者和媒体记者产生疏离感。",
+      "whenToUse_zh": "制作产品发布或融资官宣的核心物料。",
+      "commonMistakes_zh": "使用模糊的增长倍数（例如将用户数从 1 到 7 描述为“700% 增长”），或是堆砌“AI 驱动的工作流自动化”这类行业热词，却不解释其实际效用。",
+      "realWorldExample_zh": "Gamma 的 A 轮融资官宣。他们摒弃了传统的博客文章形式，转而制作了一份视觉化、可交互的 Gamma 演示文稿，其中包含了领投方的视频，并用通俗易懂的语言阐述了他们致力于解决 PowerPoint 痛点的愿景。",
+      "principles_zh": [
+        "朗读自查：大声朗读发布文案。如果语感像机器人或充斥着营销套路，请重写。",
+        "视觉优先：摒弃文字堆砌的新闻通稿，转而采用演示文档 (Deck)、可视化备忘录或交互式博文。",
+        "极简三问：产品是做什么的？目标用户是谁？核心差异点在哪？（针对每个问题，仅用一句话回答）。",
+        "验证人格化：利用投资人或客户的视频证言，取代那些千篇一律的书面客套话。"
+      ],
+      "name_zh": "The 'Mom Test' Launch Asset（“妈咪测试”启动资产）"
     }
   ],
   "notableQuotes": [
@@ -79,5 +116,6 @@
       "context": "Advising on how to pitch funding rounds effectively by keeping it simple rather than visionary."
     }
   ],
-  "filename": "Emilie Gerber"
+  "filename": "Emilie Gerber",
+  "episodeSummary_zh": "Emilie Gerber 深度揭秘了初创公司公关（PR）背后的“黑盒”机制，跳出理论层面，直接给出极具实操性的战术建议。她详细剖析了如何撰写真正具有高打开率的 Pitch 邮件，为何向媒体兜售“开创全新品类”往往是无效的叙事策略，以及如何基于核心业务目标（融资 vs. 产品增长）来精准筛选媒体对象。本次对谈为创始人及产品负责人提供了一套完整的行动指南，帮助大家在不依赖昂贵公关公司或缺乏人脉引荐的情况下，依然能成功撬动媒体报道。"
 }

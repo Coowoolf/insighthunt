@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Jason Lemkin",
+    "title": "Founder & CEO",
+    "company": "SaaStr",
+    "background": "Creator of SaaStr, the world's largest community for B2B founders. Previously CEO/Co-founder of EchoSign (acquired by Adobe for $100M+ ARR).",
+    "background_zh": "SaaStr（全球最大的B2B创业者社区）创始人兼CEO。曾任EchoSign联合创始人兼CEO，将公司带领至1亿美元ARR营收规模后被Adobe收购。"
+  },
+  "episodeSummary": "Jason Lemkin shares a masterclass on building a B2B sales engine from scratch, debunking common myths about hiring VPs of Sales too early. He details exact frameworks for hiring the first two representatives, structuring early compensation, and managing the tension between product roadmaps and sales requests.",
+  "episodeSummary_zh": "Jason Lemkin 分享了从零构建 B2B 销售引擎的大师级课程，揭穿了过早招聘销售副总裁（VP of Sales）的常见误区。他详细阐述了招聘首批销售代表的具体框架、早期薪酬结构设计，以及如何管理产品路线图与销售需求之间的张力。",
+  "keyTakeaways": [
+    "Founders must close the first 10 customers personally; you are an 'A+ Middler' even if you can't prospect or close perfectly.",
+    "Hire two sales reps initially (not one) to enable A/B testing of performance and talent.",
+    "Do not hire a VP of Sales until you have two reps consistently hitting quota; hiring a VP to find product-market fit is a guaranteed failure.",
+    "The first hires should be 'pirates' and 'romantics' who love the product, not necessarily veterans from big corporations like Salesforce.",
+    "Implement a 'Sales Budget' for product development (e.g., 10% of story points) to force Sales to force-rank their own feature requests.",
+    "Avoid hiring sales leaders whose last product was easier to sell; look for those who sold technically complex products or were #4 in a competitive market."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'First Two Reps' Selection Framework",
+      "name_zh": "“首批销售双人组”招聘画像框架",
+      "category": "team-culture",
+      "problemItSolves": "Founders often hire polished veterans with great resumes (e.g., from Salesforce) who fail completely in a chaotic startup environment.",
+      "problemItSolves_zh": "创始人常因迷信大厂光环（如Salesforce背景）而招聘到无法适应初创公司混乱环境的资深销售。",
+      "summary": "A heuristic for identifying the first two Account Executives (AEs) who can actually sell an imperfect startup product. It prioritizes product passion and grit over logos on a resume.",
+      "summary_zh": "这是一套用于识别首批客户经理（AE）的启发式框架，旨在找到能推销不完美初创产品的销售。核心在于优先考虑对产品的热情和坚韧度，而非简历上的大厂Logo。",
+      "principles": [
+        "The 'Buy From' Test: Ask yourself, 'Would I buy my own product from this person?' If no, don't hire, regardless of their resume.",
+        "The Difficulty Heuristic: Hire candidates whose last product was HARDER to sell (more technical, less brand recognition, or fiercely competitive market).",
+        "The 'Sell Me This App' Assignment: Require them to demo your product in the interview. They must have watched your explainer videos/webinars and prepared.",
+        "Hire in Pairs: Always hire two reps simultaneously to A/B test performance. If you only hire one and they fail, you won't know if it's the rep or the product."
+      ],
+      "principles_zh": [
+        "“反向购买”测试：问自己“我会从这个人手中买我自己的产品吗？”如果答案是否定的，无论简历多漂亮都不要录用。",
+        "难度降维原则：录用那些上一份工作销售难度更高的人（产品更偏技术底层、品牌知名度更低，或处于红海竞争市场）。",
+        "“推销我的APP”实战：面试中要求候选人演示你的产品。考察他们是否提前观看了你的讲解视频或网络研讨会。",
+        "双人配置原则：务必同时招聘两名销售以进行A/B测试。如果只招一人且失败了，你无法判断是人的问题还是产品的问题。"
+      ],
+      "whenToUse": "When you have closed your first 10 customers yourself and are ready to make your first sales hires.",
+      "whenToUse_zh": "当创始人亲自关闭了前10个客户订单，准备进行首次销售招聘时。",
+      "commonMistakes": "Hiring a VP of Sales as the first hire, or hiring someone who managed a mature territory at a market leader (e.g., Snowflake/Salesforce) and expects inbound leads.",
+      "commonMistakes_zh": "第一单招聘就招销售副总裁，或者招聘那些习惯于在市场领导者（如Snowflake/Salesforce）体系下管理成熟区域、依赖入站线索的人。",
+      "quote": "Those first couple reps have to be people you would buy your own product from. That's it.",
+      "realWorldExample": "Jason hired a rep who was living in a garage and had been let go from a startup. He wasn't a 'veteran,' but he understood the product deeply and closed their first 5, 6, and 7-figure deals.",
+      "realWorldExample_zh": "Jason曾录用过一位住在车库里且刚被上家初创公司解雇的销售。此人并非行业老兵，但他深刻理解产品，最终拿下了公司的首个五位数、六位数乃至七位数订单。"
+    },
+    {
+      "name": "The Sales-Allocated Roadmap Budget",
+      "name_zh": "销售研发资源配额制",
+      "category": "product-strategy",
+      "problemItSolves": "Sales teams constantly derailing the product roadmap with 'deal-breaker' feature requests that change weekly.",
+      "problemItSolves_zh": "销售团队经常以“搞定大单”为由提出紧急功能需求，导致产品路线图频繁变更，研发节奏被打乱。",
+      "summary": "A governance structure where Sales is given a fixed percentage of engineering capacity (e.g., 10%) per quarter. This empowers Sales leadership to prioritize their own requests without disrupting the core roadmap.",
+      "summary_zh": "一种治理结构，即每季度拨给销售团队固定比例的工程产能（如10%）。这迫使销售领导层内部对需求进行优先级排序，而不干扰核心产品路线图。",
+      "principles": [
+        "Fixed Allocation: Dedicate a specific budget (e.g., 10% of story points) exclusively to Sales requests.",
+        "Sales-Owned Prioritization: The VP of Sales decides how to spend that 10%. If they want a HubSpot integration today and SAP tomorrow, they must trade it off themselves.",
+        "Weekly Alignment: Product and Sales leadership meet weekly to review this bucket. 'Here is your budget, here is what costs what. Do you want to swap?'",
+        "Objective Boundaries: If a request exceeds the budget or comes too late in the quarter, Product can objectively say 'No' or 'Next Quarter' without emotional conflict."
+      ],
+      "principles_zh": [
+        "固定配额：专门划拨一笔预算（例如10%的故事点/Story Points）用于处理销售需求。",
+        "销售拥有决策权：由销售副总裁决定这10%如何使用。如果他们今天想要HubSpot集成，明天想要SAP集成，他们必须自己做取舍。",
+        "周度对齐：产研与销售负责人每周复盘资源池。'这是你的预算，这是各项成本。你想做置换吗？'",
+        "客观边界：如果需求超出了预算或在季度末提出，产品部门可以客观地拒绝或延期至下季度，避免情绪化冲突。"
+      ],
+      "whenToUse": "When the tension between Product and Sales becomes toxic, or when the roadmap is constantly volatile due to 'urgent' deal requirements.",
+      "whenToUse_zh": "当产研与销售之间的关系变得紧张，或产品路线图因“紧急”订单需求而持续波动时。",
+      "commonMistakes": "Allowing individual sales reps to lobby individual PMs/Engineers directly, bypassing leadership prioritization.",
+      "commonMistakes_zh": "允许个别销售代表直接游说个别产品经理或工程师，绕过了领导层的优先级排序机制。",
+      "quote": "Give your head of sales a certain budget... and when you do this, things will radically change... because even the best VPs of sales, they change the wind.",
+      "realWorldExample": "A Head of Product attending a board meeting saved a deal by understanding a large customer wanted to 'deconstruct' the product (use backend only), something a sales rep wouldn't have the authority to approve.",
+      "realWorldExample_zh": "某公司产品负责人在参加董事会会议时挽救了一个大单，因为他理解大客户想要“解构”产品（仅使用后端），这是普通销售代表无权批准的。"
+    },
+    {
+      "name": "The 'Accretive Rep' Compensation Model",
+      "name_zh": "“增值型”早期销售薪酬模型",
+      "category": "execution",
+      "problemItSolves": "Founders over-complicating early sales comp or underpaying, leading to inability to hire talent or misaligned incentives.",
+      "problemItSolves_zh": "创始人在早期过度复杂化销售薪酬结构，或因薪资过低招不到人才，导致激励错位。",
+      "summary": "A simplified compensation structure for early hires that prioritizes cash flow positivity over complex metrics. It focuses on ensuring the rep brings in more cash than they cost.",
+      "summary_zh": "一种简化的早期薪酬结构，优先考虑现金流为正而非复杂的指标。核心目标是确保销售带来的现金收入高于其雇佣成本。",
+      "principles": [
+        "Keep 100% Commission Initially: For the first ~3 months, let the rep keep 100% of what they close (on top of base) to build confidence and cover ramp-up.",
+        "The 3x-5x Rule: Ideally, a rep should close 3x-5x their On-Target Earnings (OTE). If they make $150k, they should bring in $450k-$750k.",
+        "Cash-Flow Logic: Don't haggle over $20k in base salary if the rep can close $600k. Focus on the multiple.",
+        "Market Rates Mandatory: You must pay market OTE. If you can't afford a market-rate sales rep for 2 months to test the experiment, you aren't ready for sales."
+      ],
+      "principles_zh": [
+        "初期全额提成：在入职前3个月，允许销售保留其成交金额的100%（作为底薪之外的奖金），以建立信心并度过爬坡期。",
+        "3-5倍杠杆原则：理想情况下，销售的成交额应为其目标年薪（OTE）的3-5倍。如果OTE是15万，成交额应在45万-75万之间。",
+        "现金流逻辑：如果销售能带来60万营收，不要为了省2万底薪而讨价还价。要关注投入产出倍数。",
+        "必须支付市场价：必须支付符合市场行情的OTE。如果你连支付两个月市场价销售来做实验的钱都没有，那你还没准备好做销售。"
+      ],
+      "whenToUse": "When hiring the first 1-3 sales representatives.",
+      "whenToUse_zh": "招聘前1-3名销售代表时。",
+      "commonMistakes": "Creating complex accelerators/kickers too early, or trying to hire 'cheap' sales reps who inevitably fail to close.",
+      "commonMistakes_zh": "过早设计复杂的加速机制/奖金阶梯，或试图招聘“便宜”的销售代表，结果往往是一单都签不下来。",
+      "quote": "What matters is, can a sales rep close more than they take home?",
+      "realWorldExample": "At Pipedrive, the first sales rep focused on upselling self-serve customers (like AOL) from 20 seats to 100 seats. He earned more than the founders, but he was highly accretive to the company.",
+      "realWorldExample_zh": "在Pipedrive，第一位销售专注于将自助服务客户（如AOL）从20个席位增购至100个。虽然他拿的钱比创始人还多，但他为公司带来了巨大的增量价值。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "We're not really selling in B2B, we're solving problems. Our job as sales reps in SaaS is to not sell a used car... We are selling a Tesla Model 3 performance.",
+      "context": "Jason explaining the mindset shift required for modern B2B sales."
+    },
+    {
+      "text": "If you hire a VP of Sales before you have two reps hitting quota, you're doing a Hail Mary. It approaches 100% chance of failure.",
+      "context": "Discussing the timing of hiring sales leadership."
+    },
+    {
+      "text": "Process is the death of customer success.",
+      "context": "Criticizing the trend of CS teams becoming too process-oriented rather than customer-centric."
+    }
+  ],
+  "filename": "Jason M Lemkin"
+}

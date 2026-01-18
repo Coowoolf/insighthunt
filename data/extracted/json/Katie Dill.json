@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Katie Dill",
+    "title": "Head of Design at Stripe",
+    "company": "Stripe",
+    "background": "Katie Dill oversees product design, brand, marketing creative, and user research at Stripe. She previously served as Head of Design at Lyft and Head of Experience Design at Airbnb, leading design teams through hypergrowth phases at three major tech companies.",
+    "background_zh": "Katie Dill 现任 Stripe 设计负责人，统管产品设计、品牌创意及用户研究。她曾任 Lyft 和 Airbnb 的设计总监，拥有在三家顶级科技公司高速增长期带领设计团队扩张的丰富经验。"
+  },
+  "episodeSummary": "Katie Dill discusses how Stripe operationalizes quality through rigorous mechanisms like 'walking the store' and friction logging, rather than relying solely on metrics. She explores the ROI of beauty, arguing that high-quality design directly drives growth and trust, and shares leadership frameworks for scaling high-performance teams.",
+  "episodeSummary_zh": "Katie Dill 探讨了 Stripe 如何通过“走查门店”和体验摩擦日志等机制来打造产品质量，而非单纯依赖数据指标。她深入分析了“美感”的投资回报率，认为高质量设计能直接驱动增长并建立信任，同时分享了在高速增长期扩展高效团队的领导力框架。",
+  "filename": "Katie Dill"
+}

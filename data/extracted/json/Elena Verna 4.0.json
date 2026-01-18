@@ -3,7 +3,8 @@
     "name": "Elena Verna",
     "title": "Head of Growth",
     "company": "Lovable",
-    "background": "Elena is a renowned growth expert who has led growth at Miro, Dropbox, SurveyMonkey, Amplitude, and Netlify. Currently Head of Growth at Lovable, she helped the company reach $200M ARR in under one year with fewer than 100 employees."
+    "background": "Elena is a renowned growth expert who has led growth at Miro, Dropbox, SurveyMonkey, Amplitude, and Netlify. Currently Head of Growth at Lovable, she helped the company reach $200M ARR in under one year with fewer than 100 employees.",
+    "background_zh": "Elena 是一位享誉业界的增长专家，曾主导 Miro、Dropbox、SurveyMonkey、Amplitude 和 Netlify 的增长业务。作为 Lovable 现任增长负责人，她助力公司在全员不足 100 人的规模下，仅耗时不到一年便实现了 2 亿美元 ARR。"
   },
   "episodeSummary": "Elena Verna discusses the unprecedented growth of Lovable (0 to $200M ARR in <1 year) and how the traditional growth playbook has been upended by the AI revolution. She details why optimization is dead, why 'Minimum Lovable Product' has replaced MVP, and how AI companies must recapture product-market fit every three months due to rapidly evolving technology and consumer expectations.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When building in hyper-growth, emerging technology sectors (specifically GenAI) where the infrastructure layer changes multiple times a year.",
       "commonMistakes": "Assuming that once you hit $10M or $100M ARR you can switch to 'optimization mode' and stop reinventing the core product.",
       "quote": "Every company basically has to recapture product market fit every three months.",
-      "realWorldExample": "Despite hitting $200M ARR, Lovable acknowledges they are constantly at risk of losing PMF if they don't reinvent their solution to match the latest AI model capabilities."
+      "realWorldExample": "Despite hitting $200M ARR, Lovable acknowledges they are constantly at risk of losing PMF if they don't reinvent their solution to match the latest AI model capabilities.",
+      "summary_zh": "这是一种承认 PMF 具有易逝性的战略姿态。与其基于静态的 PMF 进行多年的规模化扩张，团队必须按季度进行转型并重塑核心价值主张，以适应 LLM 能力的阶梯式跃迁。",
+      "problemItSolves_zh": "解决 AI 领域因底层模型能力与用户预期快速变化而导致的产品过时风险。",
+      "whenToUse_zh": "当在超高速增长的新兴技术赛道（尤其是 GenAI）构建产品，且该领域的基础设施层一年内经历多次更迭时。",
+      "commonMistakes_zh": "误以为一旦 ARR 达到 1000 万或 1 亿美元，就可以切换到“优化模式”，停止重塑核心产品。",
+      "realWorldExample_zh": "哪怕 ARR 已突破 2 亿美元，Lovable 仍坦承：若不能重塑解决方案以适配最新的 AI 模型能力，他们将时刻面临失去 PMF 的风险。",
+      "principles_zh": [
+        "紧盯底层技术周期：LLM 能力大约每 3 个月就会发生一次跃升；你的产品路线图必须对这些变化进行预判布局，而非被动响应。",
+        "持续对齐“先锋”用户：在 AI 浪潮早期，切勿过早止步于服务“潜在大众”；必须通过满足 Power User（核心用户）的需求来保持产品竞争力。",
+        "接受高流失率是常态：市场迭代极快，用户流失在所难免；应专注于利用新能力重新赢回用户，而非依赖传统的留存手段。",
+        "克制扩张以寻求重塑：周期性地暂停激进的 GTM 扩张，将资源集中在对产品内核的根本性升级上。"
+      ],
+      "name_zh": "The 3-Month PMF Treadmill（3个月 PMF 跑步机）"
     },
     {
       "name": "The Minimum Lovable Product (MLP)",
@@ -46,7 +59,19 @@
       "whenToUse": "When entering a crowded market where barriers to entry are low and competitors offer similar utility.",
       "commonMistakes": "Shipping a dry, utilitarian 'MVP' to test the market, which leads to indifference rather than the high-energy feedback loops needed for growth.",
       "quote": "To be ahead of them is not optimization of the problem, it's reinvention of the solution.",
-      "realWorldExample": "Lovable's internal culture where anyone can flag a feature as 'not lovable,' causing the team to drop sprints to fix the interaction immediately."
+      "realWorldExample": "Lovable's internal culture where anyone can flag a feature as 'not lovable,' causing the team to drop sprints to fix the interaction immediately.",
+      "summary_zh": "一种优先追求情感连接、品牌调性和“魔法”感，而非仅满足功能可行性的开发准则。在 AI 降低软件构建成本的时代，核心的差异化优势在于产品带来的愉悦体验。",
+      "problemItSolves_zh": "解决软件功能同质化的问题，即“功能可用”已不再是差异化优势。",
+      "whenToUse_zh": "当切入准入门槛较低、且竞品同质化严重的拥挤市场时。",
+      "commonMistakes_zh": "推出一个枯燥且仅重功能的 MVP 来验证市场，结果往往是用户无感，无法形成驱动增长所需的高能反馈闭环。",
+      "realWorldExample_zh": "Lovable 的内部文化允许任何人将功能标记为“不够 Lovable”，这会促使团队暂停当前的 Sprint，转而立即修复该交互体验。",
+      "principles_zh": [
+        "品牌即交互：切勿将品牌营销与产品设计割裂；每一个 UI 交互细节都必须承载品牌调性。",
+        "追求 \"Wow\" 胜过 \"Aha\"：核心目标是营造“简直不可思议”的惊艳感（Wow），而非仅仅让用户理解产品价值（Aha）。",
+        "立即修复“体验硬伤”：即便功能可用，若交互生硬或缺乏灵气，应视作 P0 级 Bug 处理。必须暂停开发，优先修复产品的“氛围感”。",
+        "设计师前置招聘：比常规节奏更早引入高能动性（High-Agency）设计师，确保“情感层”与“功能层”同步构建。"
+      ],
+      "name_zh": "The Minimum Lovable Product (MLP)（MLP（最小喜爱产品））"
     },
     {
       "name": "The Product-Led Marketing Loop",
@@ -62,7 +87,19 @@
       "whenToUse": "For PLG companies where the product output is visually shareable (e.g., generated apps, videos, designs) and word-of-mouth is the primary driver.",
       "commonMistakes": "Gating the AI/magic moment behind a paywall to protect margins, thereby killing the viral loop before it starts.",
       "quote": "Why would we prevent a person who wants to do all of the marketing and activating for us from using us? We're like, take it, how much do you need?",
-      "realWorldExample": "Lovable sponsors hackathons by giving away unlimited credits to participants, treating the LLM costs as marketing spend to drive awareness and adoption."
+      "realWorldExample": "Lovable sponsors hackathons by giving away unlimited credits to participants, treating the LLM costs as marketing spend to drive awareness and adoption.",
+      "summary_zh": "这是一种将产品使用成本（即使高昂）视为营销投入的策略。通过彻底消除准入摩擦，利用社会认同和内部口碑，赋能用户成为产品的核心分发渠道。",
+      "problemItSolves_zh": "如何在竞争激烈的市场中，不依赖巨额广告投放或庞大的销售团队，实现快速增长。",
+      "whenToUse_zh": "适用于产品产出物具有强视觉分享属性（如生成的 App、视频、设计稿），且主要依赖口碑传播驱动增长的 PLG 公司。",
+      "commonMistakes_zh": "为了保障利润，将 AI 功能或核心体验（Magic Moment）锁在付费墙之后，导致病毒传播飞轮在启动前就已夭折。",
+      "realWorldExample_zh": "Lovable 通过赞助黑客松并向参赛者开放无限额度，将 LLM 成本视作营销投入，以此驱动品牌认知与产品采纳。",
+      "principles_zh": [
+        "将服务成本 (COGS) 重新归类为获客成本 (CAC)：如果赠送 10 美元的算力能带来一条病毒式传播的 LinkedIn 帖子，这绝对比投放广告更划算。",
+        "资助用户主导的分发：如果用户想举办黑客马拉松，直接提供无限免费额度，让他们代你完成用户的激活工作。",
+        "以发版制造声量：用高频发版（日更/周更）替代 Newsletter，让产品更新本身成为引发社交互动的核心内容。",
+        "创始人主导的品牌叙事：CEO 和员工必须坚持 \"Build in Public\"（公开构建），赋予品牌人格温度，让用户真心支持软件背后的团队。"
+      ],
+      "name_zh": "The Product-Led Marketing Loop（产品驱动营销闭环）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "On the shift from MVP to MLP."
     }
   ],
-  "filename": "Elena Verna 4.0"
+  "filename": "Elena Verna 4.0",
+  "episodeSummary_zh": "Elena Verna 深度解析了 Lovable 史无前例的增长奇迹（不到一年 ARR 从 0 突破 2 亿美元），并探讨了 AI 革命如何彻底颠覆了传统的增长打法。她详细阐述了为何“优化”策略已死，为何“最小喜爱产品”（Minimum Lovable Product）已取代 MVP，以及在技术和用户预期飞速迭代的背景下，AI 公司为何必须每三个月重新验证一次产品市场匹配。"
 }

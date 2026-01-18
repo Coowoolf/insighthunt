@@ -1,0 +1,125 @@
+{
+  "guest": {
+    "name": "Krithika Shankarraman",
+    "title": "Executive in Residence at Thrive Capital",
+    "company": "Thrive Capital (formerly OpenAI, Stripe, Retool)",
+    "background": "Krithika was the first marketing hire and VP of Marketing at OpenAI, Stripe, and Retool, and an early leader at Dropbox. She currently advises portfolio companies at Thrive Capital, specializing in marketing strategy for hyper-growth startups.",
+    "background_zh": "Krithika 曾是 OpenAI、Stripe 和 Retool 的首位营销招聘员工及营销副总裁，也是 Dropbox 的早期营销负责人。她目前在 Thrive Capital 担任驻场高管，专注于为超高速增长的初创公司提供营销战略指导。"
+  },
+  "episodeSummary": "Krithika Shankarraman shares her experiences building marketing functions from scratch at iconic companies like OpenAI and Stripe. She debunks the idea of a universal marketing \"playbook,\" introducing her DATE framework for diagnosis and differentiation, and discusses how technical founders and marketers can align through rigorous internal processes.",
+  "episodeSummary_zh": "Krithika Shankarraman 分享了她在 OpenAI 和 Stripe 等标志性公司从零搭建营销团队的经验。她反驳了通用的营销“打法（Playbook）”论，提出了用于诊断和差异化的 DATE 框架，并探讨了技术型创始人和营销人员如何通过严格的内部流程实现对齐。",
+  "keyTakeaways": [
+    "Avoid 'vanity metrics' (likes/views) and focus on revenue impact and pipeline quality.",
+    "For technical products, marketing must be an extension of the product; quality and accuracy build trust with developers.",
+    "Marketing isn't just a department ('Capital M'); it's the company's story and market approach ('lowercase m').",
+    "Don't hire a demand gen leader if you have a conversion problem; fix Product-Market Fit first.",
+    "Process speeds you up: Transparent review cycles (20%/80%) prevent last-minute blockers and ensure consistency.",
+    "Differentiation matters more than being 'better' or 'cheaper'—especially in the AI era.",
+    "The 'Chameleon CMO' adapts to the company's stage rather than applying a rigid template."
+  ],
+  "methodologies": [
+    {
+      "name": "The DATE Marketing Framework",
+      "name_zh": "DATE 营销诊断框架",
+      "category": "product-strategy",
+      "problemItSolves": "Helps companies define a marketing strategy without blindly copying competitors or applying generic playbooks that don't fit their specific context.",
+      "problemItSolves_zh": "帮助公司制定营销战略，避免盲目模仿竞争对手或套用不符合自身情况的通用“打法”。",
+      "summary": "A four-step diagnostic approach to determine the right go-to-market strategy by understanding the specific constraints and opportunities of the business.",
+      "summary_zh": "一个四步诊断法，旨在通过深入理解业务的具体约束和机会，确定正确的 GTM（推向市场）策略。",
+      "principles": [
+        "Diagnose: Analyze the funnel. If traffic is high but conversion is low, fix PMF/messaging. If conversion is high but traffic is low, invest in top-of-funnel.",
+        "Analyze: Review competitors to establish a baseline and find gaps, but do not copy them.",
+        "Take a Different Path: Differentiate boldly. Look outside your industry for inspiration (Zig when others Zag).",
+        "Experiment: Test hypotheses, scale what works, and ruthlessly discard what doesn't."
+      ],
+      "principles_zh": [
+        "诊断 (Diagnose)：分析漏斗。如果流量高但转化低，需修正 PMF 或定位；如果转化高但流量低，则需投入顶部流量获客。",
+        "分析 (Analyze)：审查竞争对手以建立基准并发现市场空白，但绝不要直接照搬。",
+        "另辟蹊径 (Take a Different Path)：大胆进行差异化。从行业外部寻找灵感（在别人向左时，你要向右）。",
+        "实验 (Experiment)：测试假设，快速利用（Exploit）有效的策略，果断抛弃无效的尝试。"
+      ],
+      "whenToUse": "When establishing a new marketing function, launching a new product line, or when current growth tactics have stalled.",
+      "whenToUse_zh": "当建立新的营销职能、发布新产品线或当前的增长策略陷入停滞时。",
+      "commonMistakes": "Skipping the 'Diagnose' step and hiring for the wrong problem (e.g., hiring Demand Gen when the issue is Product Marketing/positioning).",
+      "commonMistakes_zh": "跳过“诊断”步骤，针对错误的问题进行招聘（例如：当问题出在产品营销/定位时，却招聘了需求挖掘人员）。",
+      "quote": "If you're just copying the outputs of the strategy... you're not paying enough attention to the inputs.",
+      "realWorldExample": "At Retool, Krithika diagnosed that paid social drove vanity metrics but no pipeline. She analyzed competitors doing generic content, then took a different path by leveraging Retool's enterprise customers (like Netflix) for customer storytelling, which became their growth engine.",
+      "realWorldExample_zh": "在 Retool 时，Krithika 诊断出付费社交媒体虽带来虚荣指标但无实质商机。她分析了竞争对手在做通用内容，于是另辟蹊径，利用 Retool 的企业客户（如 Netflix）进行客户故事营销，这最终成为了他们的增长引擎。"
+    },
+    {
+      "name": "The 20/80 Internal Review Process",
+      "name_zh": "20/80 内部评审流程",
+      "category": "execution",
+      "problemItSolves": "Prevents wasted effort on misaligned marketing assets and ensures brand consistency across rapid-growth teams.",
+      "problemItSolves_zh": "防止因营销资产不匹配而浪费精力，并确保在快速增长的团队中保持品牌一致性。",
+      "summary": "A structured review cadence that validates direction early and execution late, creating a 'fishbowl' where the team learns standards through osmosis.",
+      "summary_zh": "一种结构化的评审节奏，早期验证方向，后期把控执行，创造一个“鱼缸效应”，让团队通过潜移默化学习标准。",
+      "principles": [
+        "The 20% Review: Review the strategy, audience, and rough approach. Get alignment on the 'Why' and 'Who' before work begins.",
+        "The 80% Review: Review the near-final artifacts. Polish the execution while there is still 'slack in the system' to make changes.",
+        "The Fishbowl: Make reviews transparent (open meetings or public Slack channels) so new hires learn 'what good looks like' by observing.",
+        "Consistency is Speed: Established guidelines allow teams to run faster without breaking trust."
+      ],
+      "principles_zh": [
+        "20% 评审：审查战略、受众和大致方法。在工作开始前对“为什么做”和“为谁做”达成一致。",
+        "80% 评审：审查接近完成的产出物。在系统中仍有余地进行修改时打磨执行细节。",
+        "鱼缸效应：让评审过程透明化（公开会议或公共 Slack 频道），以便新员工通过观察学习“什么是优秀标准”。",
+        "一致性即速度：建立明确的指导原则可以让团队在不破坏信任的前提下跑得更快。"
+      ],
+      "whenToUse": "In hyper-growth startups where onboarding needs to be fast, or when the brand voice is becoming inconsistent due to scaling.",
+      "whenToUse_zh": "在入职培训需要快速进行的超高速增长初创公司中，或当品牌声音因规模扩张而变得不一致时。",
+      "commonMistakes": "Reviewing at 99% (rubber stamping) when it's too late to fix issues, or skipping the 20% strategy check and wasting weeks on the wrong assets.",
+      "commonMistakes_zh": "在 99% 阶段进行评审（盖章式审批），此时修复问题为时已晚；或者跳过 20% 的战略检查，导致在错误的资产上浪费数周时间。",
+      "quote": "Good process is actually something that speeds up a company rather than slow it down.",
+      "realWorldExample": "At Stripe, marketing reviews helped maintain a high bar for developer communications, ensuring that marketing assets were treated with the same craftsmanship as the product code.",
+      "realWorldExample_zh": "在 Stripe，营销评审有助于保持开发者沟通的高标准，确保营销资产受到与产品代码同等的工匠精神对待。"
+    },
+    {
+      "name": "Counter-Intuitive Pricing Gating",
+      "name_zh": "反直觉的定价门槛策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Optimizes sales team efficiency by filtering out low-ACV leads that distract from enterprise deals.",
+      "problemItSolves_zh": "通过过滤掉干扰企业级交易的低客单价（ACV）线索，优化销售团队的效率。",
+      "summary": "Using experimentation to determine which features should be self-serve vs. sales-gated, often defying traditional enterprise wisdom.",
+      "summary_zh": "利用实验来确定哪些功能应自助服务，哪些应通过销售门槛，这往往违背传统的企业级软件智慧。",
+      "principles": [
+        "Hypothesis Testing: Don't assume enterprise features (like SSO or Self-hosting) always require a sales touch.",
+        "Funnel Qualification: If a feature is gated by sales but attracts small leads, un-gate it to clear the pipeline.",
+        "Focus Up-Market: Removing friction for smaller users allows the sales team to focus purely on high-value, complex deals.",
+        "Experimentation: Validate pricing models through pilots rather than relying on industry norms."
+      ],
+      "principles_zh": [
+        "假设测试：不要假设企业级功能（如 SSO 或私有化部署）总是需要销售介入。",
+        "漏斗资格筛查：如果某项功能设有销售门槛但吸引的是小客户线索，请取消门槛以清理商机管道。",
+        "聚焦高端市场：消除小用户的摩擦，使销售团队能够专注于高价值、复杂的交易。",
+        "实验验证：通过试点验证定价模型，而不是依赖行业惯例。"
+      ],
+      "whenToUse": "When sales teams are overwhelmed with low-quality leads, or when users demand specific features (like security) regardless of company size.",
+      "whenToUse_zh": "当销售团队被低质量线索淹没时，或者当用户无论公司规模大小都强烈需求特定功能（如安全性）时。",
+      "commonMistakes": "Gating features purely to force a sales conversation, which frustrates users and fills calendars with bad leads.",
+      "commonMistakes_zh": "仅仅为了强迫进行销售对话而设置功能门槛，这会激怒用户并用劣质线索填满日程表。",
+      "quote": "Is that really the thing that you want to gate your value on?",
+      "realWorldExample": "At Retool, they un-gated the self-hosted version (traditionally an Enterprise feature). While this reduced total sales pipeline volume, it filtered out small companies who just needed data privacy, allowing Sales to focus on true large-scale enterprise deals.",
+      "realWorldExample_zh": "在 Retool，他们取消了私有化部署版本（传统上是企业级功能）的门槛。虽然这减少了总销售商机数量，但过滤掉了仅需数据隐私的小公司，使销售团队能专注于真正的大型企业交易。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The delta between expectations and reality is the function for unhappiness.",
+      "context": "Her life motto regarding managing stakeholders and customers."
+    },
+    {
+      "text": "Being cheaper is a race to the bottom... being cheaper is not going to be the thing that really is a durable approach in the market.",
+      "context": "On why differentiation is more important than price competition."
+    },
+    {
+      "text": "I was not the first marketer at Stripe, John and Patrick were... they knew exactly how to authentically reach that audience.",
+      "context": "On the importance of founder-led marketing in the early days."
+    },
+    {
+      "text": "A lot of marketing metrics tend to be vanity metrics about the number of clicks... I think those are all bullshit numbers.",
+      "context": "On the importance of focusing on revenue and pipeline over views."
+    }
+  ],
+  "filename": "Krithika Shankarraman"
+}

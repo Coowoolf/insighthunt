@@ -1,0 +1,117 @@
+{
+  "guest": {
+    "name": "Yuriy Timen",
+    "title": "Growth Advisor (Former Head of Growth at Grammarly)",
+    "company": "Independent Advisor (Ex-Grammarly)",
+    "background": "Yuriy Timen spent over 8 years leading growth at Grammarly, helping scale it into a household name. He now serves as a full-time advisor to high-growth subscription companies like Canva, Airtable, Otter.ai, and Flo Health.",
+    "background_zh": "Yuriy Timen 曾在 Grammarly 担任增长负责人超过8年，一手打造了其增长引擎。目前他是 Canva、Airtable、Otter.ai 和 Flo Health 等顶级订阅制 SaaS 公司的全职增长顾问。"
+  },
+  "episodeSummary": "In this tactical deep dive, Yuriy Timen breaks down growth strategies for B2C and B2B subscription products. He discusses how to choose between Paid, Viral, and SEO channels based on business models, the shifting landscape of attribution in a post-iOS14 world, and why 'growth at all costs' is being replaced by efficiency.",
+  "episodeSummary_zh": "本期节目深度解析了 B2C 和 B2B 订阅产品的增长策略。Yuriy Timen 探讨了如何根据商业模式在付费投放、病毒式传播和 SEO 之间做出选择，分析了后 iOS14 时代归因逻辑的演变，以及为何“不惜一切代价增长”的模式正被“高效增长”所取代。",
+  "keyTakeaways": [
+    "Identify your primary growth engine based on product DNA: High LTV supports Paid, Network Effects support Virality, unique data/content supports SEO.",
+    "Do not diversify channels too early; apply the 80/20 rule and exhaust your main channel before spreading resources thin.",
+    "For SEO to work, you need at least 2 of 3 angles: Unique Editorial, Programmatic (templates), or Unique Data.",
+    "In the current economic climate, efficiency and payback periods (<6 months) matter more than top-line growth.",
+    "Click-based attribution is dead; modern growth teams must use Media Mix Modeling (MMM) and Incrementality Testing.",
+    "Onboarding optimization is consistently the highest leverage activity for improving activation and retention.",
+    "Don't dismiss TikTok; it is becoming effective for older demographics and B2B/Prosumer brands."
+  ],
+  "methodologies": [
+    {
+      "name": "The Subscription Growth Triad",
+      "name_zh": "订阅产品增长三支柱模型",
+      "category": "product-strategy",
+      "problemItSolves": "Helps founders and PMs determine which acquisition channel (Paid, Viral, or SEO) to prioritize based on their specific product attributes.",
+      "problemItSolves_zh": "帮助创始人与产品经理根据产品特性，决定优先级最高的获客渠道（付费、裂变或自然搜索）。",
+      "summary": "Instead of trying every channel, align your growth engine with your product's inherent strengths. Analyze LTV, network effects, and data assets to pick the winning lane.",
+      "summary_zh": "不要盲目尝试所有渠道，而应将增长引擎与产品的核心优势对齐。通过分析用户生命周期价值（LTV）、网络效应和数据资产来选择制胜赛道。",
+      "principles": [
+        "High LTV / Prosumer Model: If you have strong unit economics (e.g., $100+ LTV) and conversion rates (>5%), lean into Paid Acquisition.",
+        "Inherent Network Effects: If the product becomes more useful as more people join (marketplace/collaboration), lean into Viral/Referral Loops.",
+        "Long-tail Content Assets: If you have programmatic potential (templates) or unique proprietary data, lean into SEO."
+      ],
+      "principles_zh": [
+        "高 LTV/专业消费者模式：如果单位经济模型强劲（如 LTV > $100）且转化率高（>5%），应主攻付费投放（Paid Acquisition）。",
+        "内生网络效应：如果产品随着用户增加而效用增加（如市场平台或协作工具），应主攻病毒式传播或推荐机制（Viral/Referral）。",
+        "长尾内容资产：如果具备程序化生成内容（如模板）或独特的专有数据，应主攻搜索引擎优化（SEO）。"
+      ],
+      "whenToUse": "During early-stage strategy planning or when a product hits a growth plateau and needs to pivot strategies.",
+      "whenToUse_zh": "适用于早期战略规划阶段，或产品增长遭遇瓶颈需要调整策略时。",
+      "commonMistakes": "Assuming a single-player utility tool can force virality, or a low-LTV product can sustain paid growth without high churn.",
+      "commonMistakes_zh": "误以为单人工具类产品可以强行植入病毒裂变，或者低 LTV 产品能承受高昂的付费获客成本。",
+      "quote": "Oh, this thing was not designed to even have a shot at working from the get go.",
+      "realWorldExample": "Canva used programmatic SEO (templates for every occasion) as their initial wedge. Grammarly relied on Paid Acquisition because they had high LTV but no inherent network effects.",
+      "realWorldExample_zh": "Canva 利用程序化 SEO（覆盖各种场景的设计模板）作为切入点。Grammarly 则依赖付费投放，因为他们拥有高 LTV 但缺乏内生的网络效应。"
+    },
+    {
+      "name": "The SEO Viability Audit",
+      "name_zh": "SEO 可行性评估框架",
+      "category": "growth-metrics",
+      "problemItSolves": "Determines whether investing in SEO (a long-term bet) is actually worth the resources before committing 6-12 months.",
+      "problemItSolves_zh": "在投入6-12个月资源之前，判断 SEO（一项长期投资）是否真正值得投入。",
+      "summary": "SEO is not magic; it requires specific structural advantages. This framework acts as a checklist to see if your product has the 'right to win' in search results.",
+      "summary_zh": "SEO 不是魔法，它需要特定的结构性优势。该框架作为一个检查清单，用于评估你的产品是否具备在搜索结果中获胜的“入场券”。",
+      "principles": [
+        "Unique Editorial Angle: Do you have a distinct voice or expertise that differs from existing 'how-to' content?",
+        "Programmatic Scalability: Can you generate thousands of pages dynamically (e.g., templates, directories) like Canva or Zillow?",
+        "Unique Data Insight: Do you possess proprietary data that can be turned into content (e.g., financial trends, usage stats)?",
+        "The 2-out-of-3 Rule: You typically need to check at least two of the above boxes to succeed."
+      ],
+      "principles_zh": [
+        "独特的编辑视角：你是否拥有区别于现有“教程类”内容的独特观点或专业知识？",
+        "程序化扩展能力：你是否能像 Canva 或 Zillow 那样动态生成成千上万个页面（如模板、目录）？",
+        "独特的数据洞察：你是否拥有可转化为内容的专有数据（如金融趋势、使用统计）？",
+        "三选二法则：通常你需要满足上述条件中的至少两项才能成功。"
+      ],
+      "whenToUse": "When considering diversifying away from paid ads, especially during economic downturns where burn rate is a concern.",
+      "whenToUse_zh": "当考虑摆脱对付费广告的依赖，特别是在经济下行、关注资金消耗率（Burn Rate）时。",
+      "commonMistakes": "Treating SEO as just 'writing blog posts' without a technical or programmatic strategy behind it.",
+      "commonMistakes_zh": "仅仅把 SEO 当作“写博客文章”，而缺乏背后的技术或程序化策略支撑。",
+      "quote": "Best content wins... but where the winners are determined are between the lines.",
+      "realWorldExample": "Monarch Money leverages user financial data trends to create unique content that competitors without that data cannot replicate.",
+      "realWorldExample_zh": "Monarch Money 利用用户财务数据趋势创造独特内容，这是缺乏数据的竞争对手无法复制的。"
+    },
+    {
+      "name": "Modern Attribution & Incrementality Stack",
+      "name_zh": "现代归因与增量测试体系",
+      "category": "growth-metrics",
+      "problemItSolves": "Solves the 'blindness' caused by iOS14 and privacy changes where tracking pixel data is no longer reliable.",
+      "problemItSolves_zh": "解决因 iOS14 和隐私政策变更导致的“数据盲区”问题，传统的追踪像素数据已不再可靠。",
+      "summary": "Moving from deterministic tracking (cookies/clicks) to probabilistic modeling and causality testing to measure marketing effectiveness.",
+      "summary_zh": "从确定性追踪（Cookie/点击）转向概率模型和因果关系测试，以衡量营销效果。",
+      "principles": [
+        "Reject Last-Click Reliance: Acknowledge that click-based attribution is correlative, not causal, and misses offline/view-through impact.",
+        "Media Mix Modeling (MMM): Use statistical analysis to allocate budget across offline and online channels based on historical patterns.",
+        "Incrementality Testing: Run randomized control trials (turn off ads in specific geos) to prove if ad spend actually caused the lift."
+      ],
+      "principles_zh": [
+        "摒弃“最后点击”依赖：承认点击归因仅具备相关性而非因果性，且会漏掉线下或浏览型转化的影响。",
+        "媒体组合模型（MMM）：基于历史数据模式，利用统计分析在由于线上和线下渠道间分配预算。",
+        "增量测试（Incrementality）：进行随机对照试验（如在特定地区关闭广告），以验证广告支出是否真正带来了增长提升。"
+      ],
+      "whenToUse": "When annual marketing spend exceeds ~$1M or when using hard-to-track channels like Podcasts, TV, or TikTok.",
+      "whenToUse_zh": "当年营销支出超过约100万美元，或使用播客、电视、TikTok 等难以追踪的渠道时。",
+      "commonMistakes": "Cutting efficient channels (like YouTube) because they look bad on 'last click' reports, or over-investing in attribution tools too early.",
+      "commonMistakes_zh": "因为 YouTube 等渠道在“最后点击”报告中表现不佳而砍掉高效渠道，或者在早期阶段过度投资归因工具。",
+      "quote": "The only way to determine causality is through real controlled experiments... incrementality testing.",
+      "realWorldExample": "Using tools like Recast (MMM) or Measured (Incrementality) to justify spend on Podcasts or Out-of-Home ads.",
+      "realWorldExample_zh": "使用 Recast（MMM）或 Measured（增量测试）等工具来验证播客或户外广告支出的合理性。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The only thing that's worse than a channel or a tactic that you tried not working... is when you didn't give it the appropriate shot.",
+      "context": "On the importance of proper experimental design before abandoning a growth channel."
+    },
+    {
+      "text": "Growth at any cost... is now survival.",
+      "context": "Describing the shift in venture capital sentiment from pure growth to unit economics and runway extension."
+    },
+    {
+      "text": "Improving onboarding is one of the highest leverage opportunities for both signup conversion and increasing long term retention.",
+      "context": "Discussing why onboarding is almost always a worthy investment for B2C SaaS."
+    }
+  ],
+  "filename": "Yuriy Timen"
+}

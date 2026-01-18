@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Sri Batchu",
+    "title": "Head of Growth",
+    "company": "Ramp",
+    "background": "Currently the Head of Growth at Ramp, the fastest-growing SaaS and FinTech business in history. Previously served as Head of Growth at Instacart and VP of Ops at Opendoor, with a strong background in analytics and investing.",
+    "background_zh": "现任 Ramp 增长负责人，Ramp 是历史上增长最快的 SaaS 和金融科技公司。此前曾任 Instacart 增长负责人及 Opendoor 运营副总裁，拥有深厚的数据分析与投资背景。"
+  },
+  "episodeSummary": "Sri Batchu dissects the growth engine behind Ramp's historic rise to $100M ARR in under two years. He details how to structure high-velocity growth teams, the correct sequencing of B2B growth channels, and how to rigorously align engineering efforts using a 'translation layer' for metrics. The conversation also covers Ramp's unique culture of measuring time in days and their approach to hiring based on slope rather than intercept.",
+  "episodeSummary_zh": "Sri Batchu 深度拆解了 Ramp 如何在两年内达成 1 亿美元 ARR 的历史性增长引擎。他详细阐述了如何构建高迭代速度的增长团队、B2B 增长渠道的正确演进顺序，以及如何利用“指标转化层”将工程资源与业务目标严格对齐。对话还涵盖了 Ramp 以“天”为单位计算时间的独特文化，以及基于成长曲线（Slope）而非当前能力（Intercept）的招聘哲学。",
+  "filename": "Sri Batchu"
+}

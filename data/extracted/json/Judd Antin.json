@@ -1,0 +1,119 @@
+{
+  "guest": {
+    "name": "Judd Antin",
+    "title": "Former Head of Research at Airbnb & Meta",
+    "company": "Independent Consultant",
+    "background": "Judd Antin is a veteran design and research leader who built the user research practice at Facebook and served as Head of Research at Airbnb. His teams have produced research leaders for Figma, Notion, Slack, and Robinhood.",
+    "background_zh": "Judd Antin 是资深的设计与研究专家，曾一手搭建 Facebook 的用户研究体系，并担任 Airbnb 研究主管。他培养的团队成员后来成为了 Figma、Notion、Slack 和 Robinhood 等知名公司的研究负责人。"
+  },
+  "episodeSummary": "Judd Antin argues that the user research discipline is facing a 'reckoning' due to an over-reliance on middle-range research and performative practices. He introduces frameworks to shift research focus toward business impact, defines the modern '5-tool researcher,' and explains why PMs and researchers must fundamentally change their collaboration model.",
+  "episodeSummary_zh": "Judd Antin 指出用户研究（UXR）领域正面临一场“清算”，原因在于过度依赖低效的“中层研究”以及“表演式”的用户中心主义。他提出了一系列框架，旨在引导研究转向业务导向，定义了现代“五项全能”研究员模型，并阐述了产品经理与研究员应如何重塑协作模式以提升商业影响力。",
+  "keyTakeaways": [
+    "User research is currently dying because it operates as a service function rather than a strategic partner.",
+    "Stop doing 'Middle Range' research; focus on Macro (Strategic) and Micro (Tactical) research instead.",
+    "User-Centered Performance is a trap where teams signal customer obsession without actually wanting to learn or change decisions.",
+    "Researchers must understand the P&L, conversion funnels, and OKRs to be effective.",
+    "Stop asking for validation; start asking researchers to falsify your assumptions.",
+    "NPS is a flawed metric; use Customer Satisfaction (CSAT) instead for better data integrity.",
+    "The best researchers are 'Swiss Army Knives' with skills in qual, quant, stats, surveys, and SQL/AI."
+  ],
+  "methodologies": [
+    {
+      "name": "The Macro-Middle-Micro Framework",
+      "name_zh": "宏观-中层-微观研究框架",
+      "category": "user-research",
+      "problemItSolves": "Solves the issue of research teams doing low-impact work that slows down product development without driving business value.",
+      "problemItSolves_zh": "解决研究团队工作产出低效、拖慢产品开发进度且无法驱动业务价值的问题。",
+      "summary": "A classification system for research impact. Teams should maximize Macro and Micro research while minimizing the nebulous 'Middle Range' research that often confirms biases or states the obvious.",
+      "summary_zh": "一套评估研究影响力的分类系统。团队应最大化“宏观”和“微观”研究的投入，同时尽量减少模糊不清的“中层研究”，因为后者往往只能验证偏见或陈述显而易见的事实。",
+      "principles": [
+        "Focus on Macro: Strategic, forward-looking work like concept cars, TAM studies, and competitive landscape analysis.",
+        "Focus on Micro: Tactical, fast evaluative work (usability testing, A/B test deep dives) that optimizes specific funnel steps.",
+        "Eliminate Middle Range: Avoid vague questions like 'How do users feel about X?' which yield blobular insights that are hard to operationalize."
+      ],
+      "principles_zh": [
+        "聚焦宏观（Macro）：关注战略性、前瞻性的工作，如概念验证、TAM（潜在市场范围）研究和竞争格局分析。",
+        "聚焦微观（Micro）：关注战术性、快速评估工作（如可用性测试、A/B测试深入分析），优化具体的漏斗转化步骤。",
+        "剔除中层（Middle Range）：避免提出如“用户对X感觉如何”这类模糊问题，因为由此产生的洞察往往难以落地执行。"
+      ],
+      "whenToUse": "When planning the quarterly research roadmap or prioritizing research requests from PMs.",
+      "whenToUse_zh": "在制定季度研究规划或对产品经理的研究需求进行优先级排序时使用。",
+      "commonMistakes": "Spending weeks on 'understanding the user' (Middle) without a specific business decision to inform, leading to 'nice to know' but useless reports.",
+      "commonMistakes_zh": "花费数周时间去“理解用户”（中层研究），却缺乏具体的业务决策作为导向，导致产出“仅仅是有趣但无用”的报告。",
+      "quote": "Product managers love to ask for middle range research that they can use to justify decisions they're reluctant to make on their own.",
+      "realWorldExample": "The 'Multimillion Dollar Button' at Airbnb. Micro-research revealed users were scared of a specific button CTA. Changing 7 characters fixed the funnel drop-off and made millions in 48 hours.",
+      "realWorldExample_zh": "Airbnb的“百万美元按钮”案例。微观研究发现用户因害怕某个按钮的文案而放弃操作。团队仅修改了7个字符，便在48小时内修复了漏斗流失问题，创造了数百万美元的价值。"
+    },
+    {
+      "name": "Escaping User-Centered Performance",
+      "name_zh": "拒绝“表演式用户中心主义”",
+      "category": "team-culture",
+      "problemItSolves": "Prevents teams from wasting resources on research that is only done to 'check a box' or signal virtue without influencing decisions.",
+      "problemItSolves_zh": "防止团队浪费资源去进行仅仅为了“走流程”或标榜某种美德、却无法实质影响决策的研究。",
+      "summary": "User-Centered Performance is doing work to signal customer obsession rather than to learn. To fix this, teams must shift from seeking validation to seeking falsification.",
+      "summary_zh": "“表演式用户中心”是指为了标榜“客户至上”而做样子，并非为了真正的学习。要纠正这一点，团队必须从寻求“验证”转变为寻求“证伪”。",
+      "principles": [
+        "Don't Validate, Falsify: Approach research wanting to be proven wrong. Look for evidence that destroys your assumptions.",
+        "Avoid 'Check the Box' Studies: If the decision is already made or it's too late to change the product, do not run the study.",
+        "Beware of Executive Listening: Founders/Execs sitting in focus groups often reinforces bias rather than providing rigorous insight."
+      ],
+      "principles_zh": [
+        "不做验证，只做证伪：开展研究时应抱着“我想被证明是错的”的心态，寻找能推翻假设的证据。",
+        "拒绝“走过场”研究：如果决策已经敲定，或者产品已经来不及修改，就不要浪费时间做研究。",
+        "警惕高管旁听：创始人或高管直接参与焦点小组往往会强化既有偏见，而非获得严谨的洞察。"
+      ],
+      "whenToUse": "When a PM asks to 'validate' a design right before shipping, or when executives want to 'hear from users' without a structured plan.",
+      "whenToUse_zh": "当产品经理在发布前夕要求“验证”某个设计，或高管在没有结构化计划的情况下想要“听听用户声音”时。",
+      "commonMistakes": "Thinking that simply talking to users equals research. Without rigorous methods, this is just gathering anecdotes to support your existing gut feeling.",
+      "commonMistakes_zh": "误以为只要和用户聊过就是做了研究。缺乏严谨方法论的访谈，只是在收集轶事来佐证你既有的直觉。",
+      "quote": "It's work we do to signal to each other how customer obsessed we are, not because we want to make a different decision.",
+      "realWorldExample": "A PM coming to a researcher at the end of a cycle asking for a 'quick study to validate assumptions' just to satisfy a launch checklist.",
+      "realWorldExample_zh": "产品经理在开发周期结束时，找研究员做一个“快速调研以验证假设”，纯粹是为了满足发布流程的检查项。"
+    },
+    {
+      "name": "The 5-Tool Researcher Model",
+      "name_zh": "“五项全能”研究员模型",
+      "category": "career-leadership",
+      "problemItSolves": "Updates the outdated 'qualitative-only' researcher archetype to be relevant in a data-driven, fast-paced business environment.",
+      "problemItSolves_zh": "更新过时的“仅限定性研究”的研究员画像，使其适应数据驱动、快节奏的商业环境。",
+      "summary": "Modern researchers cannot just be empathetic listeners. They must be 'Swiss Army Knives' capable of mixed methods to answer business questions quickly and rigorously.",
+      "summary_zh": "现代研究员不能仅仅是充满同理心的倾听者。他们必须成为“瑞士军刀”般的复合型人才，能够混合运用多种方法，快速且严谨地回答商业问题。",
+      "principles": [
+        "Formative/Generative: Innovation-focused, ethnographic fieldwork to find new opportunities.",
+        "Evaluative: Usability testing to ensure execution excellence.",
+        "Survey Design: Rigorous quantitative data collection (avoiding bad survey science).",
+        "Applied Statistics: Ability to interpret A/B tests and quantitative data correctly.",
+        "Technical Skills (SQL/AI): Ability to query own data or prompt engineer insights without waiting for data scientists."
+      ],
+      "principles_zh": [
+        "生成式研究 (Formative)：聚焦创新，通过民族志等实地调研发现新机会。",
+        "评估式研究 (Evaluative)：通过可用性测试确保卓越的执行力。",
+        "问卷设计 (Survey Design)：严谨的定量数据收集（避免错误的问卷科学）。",
+        "应用统计 (Applied Statistics)：能够正确解读 A/B 测试结果和定量数据。",
+        "技术能力 (SQL/AI)：具备自行查询数据（SQL）或利用AI提示工程获取洞察的能力，无需等待数据科学家支持。"
+      ],
+      "whenToUse": "When hiring new researchers or evaluating the skills gap in an existing research team.",
+      "whenToUse_zh": "在招聘新研究员或评估现有研究团队的技能缺口时使用。",
+      "commonMistakes": "Hiring researchers who only have a 'hammer' (e.g., qualitative interviews), making every business problem look like a 'nail' (an interview problem).",
+      "commonMistakes_zh": "招聘只会一种“锤子”（如定性访谈）的研究员，导致他们把所有商业问题都看作“钉子”（试图用访谈解决）。",
+      "quote": "If all you have is a hammer, then everything looks like a nail. You want a researcher who's got a Swiss army knife.",
+      "realWorldExample": "Using applied statistics to understand *why* a metric moved in an A/B test, rather than just guessing based on the result.",
+      "realWorldExample_zh": "利用应用统计学去理解 A/B 测试中指标变化的*原因*，而不是看着结果盲目猜测。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "We don't validate, we falsify. We are looking to be wrong.",
+      "context": "Judd explaining the mindset shift required to move away from performative research."
+    },
+    {
+      "text": "My metric for success is when they won't have that meeting without you.",
+      "context": "Defining how to measure the impact and integration of a user researcher within a product team."
+    },
+    {
+      "text": "NPS is the best example of the marketing industry marketing itself.",
+      "context": "Judd's controversial take on why Net Promoter Score is scientifically flawed compared to CSAT."
+    }
+  ],
+  "filename": "Judd Antin"
+}

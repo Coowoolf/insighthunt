@@ -1,0 +1,146 @@
+{
+  "guest": {
+    "name": "Graham Weaver",
+    "title": "Founder & CEO / Lecturer",
+    "company": "Alpine Investors / Stanford Graduate School of Business",
+    "background": "Graham Weaver is the founder of Alpine Investors, a top-performing private equity firm. He is also a lecturer at Stanford GSB, where he teaches the highly-rated course 'Managing Growing Enterprises,' focusing on entrepreneurship and leadership.",
+    "background_zh": "Graham Weaver 是顶级私募股权公司 Alpine Investors 的创始人兼 CEO。同时他也是斯坦福商学院（GSB）的讲师，教授备受好评的《管理成长型企业》课程，专注于创业精神与领导力培养。"
+  },
+  "episodeSummary": "Graham Weaver shares transformative frameworks for breaking out of 'autopilot' and aligning career paths with personal fulfillment. He discusses strategies for overcoming limiting beliefs, the importance of long-term commitment despite initial suffering, and how to define success using an internal scorecard.",
+  "episodeSummary_zh": "Graham Weaver 分享了如何打破“自动驾驶”模式并将职业路径与个人成就感对齐的变革性框架。他探讨了克服限制性信念的策略、在初期痛苦中坚持长期承诺的重要性，以及如何利用“内部记分卡”来重新定义成功。",
+  "keyTakeaways": [
+    "Most people live in 'autopilot' mode; intentionality is required to change your trajectory.",
+    "The 'Genie Framework' helps identify true desires by removing the fear of failure.",
+    "Success often lies on the other side of 'worse first'—the initial phase of change is usually painful.",
+    "Use the 'Nine Lives' exercise to explore multiple passions and reduce the pressure of finding the 'one' right path.",
+    "Accountability (coaches, friends, writing goals) is critical for bridging the gap between intention and action.",
+    "In business (and PE), alpha often comes from the management team rather than the industry itself.",
+    "Limiting beliefs lose their power when written down and converted into actionable to-do lists."
+  ],
+  "methodologies": [
+    {
+      "name": "The Genie Framework",
+      "name_zh": "精灵许愿框架",
+      "category": "career-leadership",
+      "problemItSolves": "Helps individuals overcome the 'fear of failure' and societal pressure to discover what they genuinely want to do with their lives.",
+      "problemItSolves_zh": "帮助个人克服“对失败的恐惧”和社会压力，从而发现自己内心真正想要从事的事业。",
+      "summary": "A thought experiment where a genie grants one wish: whatever career path you choose will be successful, though it will take a long time and be hard. This removes the risk variable to reveal true passion.",
+      "summary_zh": "这是一个思想实验：假设神灯精灵给你一个愿望，保证你选择的任何职业路径最终都会成功（尽管过程漫长且艰难）。这通过移除风险变量，揭示你真正的热情所在。",
+      "principles": [
+        "Visualize a Genie granting one career-related wish.",
+        "Accept the condition: It will be hard, take 10+ years, but will ultimately succeed.",
+        "Identify the goal you would choose if failure was impossible.",
+        "Work backward to identify current limiting beliefs blocking this path."
+      ],
+      "principles_zh": [
+        "想象精灵满足你一个与职业相关的愿望。",
+        "接受前提条件：这条路会很难，需要10年以上，但最终注定成功。",
+        "确定在“绝不失败”的前提下你会选择的目标。",
+        "反向推导，识别当前阻碍该路径的限制性信念。"
+      ],
+      "whenToUse": "When feeling stuck in a career, facing a major pivot, or operating on 'autopilot' without fulfillment.",
+      "whenToUse_zh": "当你感到职业停滞、面临重大转型或在缺乏成就感的“自动驾驶”模式下运作时。",
+      "commonMistakes": "Confusing what you 'should' do (external scorecard) with what you 'want' to do (internal scorecard).",
+      "commonMistakes_zh": "混淆了你“应该”做的（外部记分卡）和你“想要”做的（内部记分卡）。",
+      "quote": "If that were true and you had that genie blessing you with that wish, what would you wish for?",
+      "realWorldExample": "A student from Brazil realized his true dream was starting a nonprofit for education, not consulting. He identified his fears (funding, experience) and converted them into actionable to-do items.",
+      "realWorldExample_zh": "一名来自巴西的学生意识到他真正的梦想是创办一个教育非营利组织，而不是做咨询。他识别了自己的恐惧（资金、经验），并将这些恐惧转化为可执行的待办事项。"
+    },
+    {
+      "name": "The 'Worse First' Principle",
+      "name_zh": "“先苦后甜”原则",
+      "category": "execution",
+      "problemItSolves": "Overcoming the tendency to plateau because we optimize for short-term comfort rather than long-term growth.",
+      "problemItSolves_zh": "解决因优化短期舒适度而牺牲长期增长导致的停滞问题。",
+      "summary": "Acknowledges that any meaningful change (career, health, relationships) involves a negative initial phase. To get what you want, you must be willing to endure a period where things feel worse than they are now.",
+      "summary_zh": "承认任何有意义的改变（职业、健康、关系）都包含一个负面的初始阶段。为了得到你想要的，你必须愿意忍受一段比现状更糟糕的时期。",
+      "principles": [
+        "Acknowledge the plateau: Optimizing for tomorrow keeps you stuck.",
+        "Accept the dip: The first move in any change (gym, breakup, new job) is negative.",
+        "Optimize for the '5-year self': Make decisions based on what your future self wants, not your current comfort.",
+        "Persist through time: Time is the missing variable in most failures."
+      ],
+      "principles_zh": [
+        "承认停滞：只为明天优化会让你止步不前。",
+        "接受低谷：任何改变（健身、分手、新工作）的第一步通常都是负面的。",
+        "为“5年后的自己”优化：基于未来自己的需求做决策，而不是当下的舒适。",
+        "坚持时间维度：时间是大多数失败案例中缺失的变量。"
+      ],
+      "whenToUse": "When debating whether to leave a comfortable but unfulfilling job, relationship, or habit.",
+      "whenToUse_zh": "当在犹豫是否离开一份舒适但缺乏成就感的工作、关系或习惯时。",
+      "commonMistakes": "Quitting during the 'worse' phase because the vision or excitement has faded, rather than because the hypothesis was wrong.",
+      "commonMistakes_zh": "仅仅因为愿景或兴奋感消退而在“痛苦”阶段放弃，而不是因为根本假设错误。",
+      "quote": "Everything that you want is on the other side of worse first.",
+      "realWorldExample": "Weaver's own firm, Alpine Investors, lost money on its first fund and struggled for 14 years before finding massive success. The key was simply staying in the game through the 'worse' period.",
+      "realWorldExample_zh": "Weaver 自己的公司 Alpine Investors 在第一只基金上亏损，并挣扎了14年才获得巨大成功。关键在于在“糟糕”时期坚持留在牌桌上。"
+    },
+    {
+      "name": "The Nine Lives Exercise",
+      "name_zh": "九种人生演练",
+      "category": "product-strategy",
+      "problemItSolves": "Reduces the paralysis of finding 'The One' passion by exploring multiple viable paths.",
+      "problemItSolves_zh": "通过探索多条可行路径，减少寻找“唯一”热情的决策瘫痪。",
+      "summary": "A brainstorming exercise where you list nine different lives you could live, starting from today. This reveals hidden interests and allows you to integrate elements of those lives into your current one.",
+      "summary_zh": "一个头脑风暴练习：列出九种你可以从今天开始过的不同人生。这能揭示隐藏的兴趣，并允许你将这些生活的元素整合到当前生活中。",
+      "principles": [
+        "List 9 distinct lives/careers.",
+        "Constraint 1: All lives must start from *today* (no time travel).",
+        "Constraint 2: You must be genuinely excited about each one.",
+        "Integration: Identify which life gives the most energy and pull elements of it into your current life (e.g., as a side hustle)."
+      ],
+      "principles_zh": [
+        "列出9种截然不同的生活/职业。",
+        "约束1：所有生活必须从*今天*开始（不能穿越回过去）。",
+        "约束2：你必须对每一种生活都真心感到兴奋。",
+        "整合：识别哪种生活能给你带来最多能量，并将其元素引入当前生活（例如作为副业）。"
+      ],
+      "whenToUse": "When feeling overwhelmed by the pressure to choose a single career path or feeling stuck in a linear trajectory.",
+      "whenToUse_zh": "当被选择单一职业路径的压力压垮，或感到被困在线性轨迹中时。",
+      "commonMistakes": "Thinking you can only pick one. In reality, you can live many of these sequentially or simultaneously (via hobbies/side projects).",
+      "commonMistakes_zh": "认为只能选一个。实际上，你可以按顺序过这些生活，或者同时进行（通过爱好/副业项目）。",
+      "quote": "You actually can have pretty much all nine lives. You can't have them at once, but... you can have all of these things.",
+      "realWorldExample": "Lenny realized his podcasting 'life' (originally a side interest) gave him energy and eventually became his main career, surpassing his PM salary.",
+      "realWorldExample_zh": "Lenny 意识到他的播客“生活”（最初是副业兴趣）给了他能量，并最终成为了他的主业，收入超过了他在 Airbnb 做产品经理时的薪水。"
+    },
+    {
+      "name": "Scaling Bright Spots",
+      "name_zh": "亮点放大策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Identifying how to turn around a struggling portfolio or business by focusing on what works rather than fixing what's broken.",
+      "problemItSolves_zh": "解决如何通过关注有效部分而非修复破损部分，来扭转陷入困境的投资组合或业务。",
+      "summary": "Derived from Alpine Investors' strategy: analyze data to find outliers of success ('bright spots'), identify the common variable (e.g., management team), and rigorously scale that variable.",
+      "summary_zh": "源自 Alpine Investors 的策略：分析数据以寻找成功的异常值（“亮点”），识别共同变量（例如管理团队），并严格扩大该变量的规模。",
+      "principles": [
+        "Audit historical data for outliers of success.",
+        "Isolate the single variable correlated with that success (for Alpine, it was placing their own CEO).",
+        "Ignore industry noise; focus on the internal alpha driver.",
+        "Scale the bright spot until it becomes the core strategy."
+      ],
+      "principles_zh": [
+        "审计历史数据，寻找成功的异常值。",
+        "分离出与该成功相关的单一变量（对 Alpine 来说，是派遣自己的 CEO）。",
+        "忽略行业噪音；专注于内部 Alpha 驱动因素。",
+        "扩大亮点规模，直到它成为核心战略。"
+      ],
+      "whenToUse": "Strategy formulation, investment thesis generation, or turning around a failing product/company.",
+      "whenToUse_zh": "制定战略、生成投资论点或扭转失败的产品/公司时。",
+      "commonMistakes": "Trying to fix every broken aspect of a business instead of doubling down on the few things that are actually working.",
+      "commonMistakes_zh": "试图修复业务中所有破碎的环节，而不是在少数真正有效的环节上加倍投入。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Life is suffering, so choose something worth suffering for.",
+      "context": "On why finding passion doesn't mean finding an easy path, but rather a meaningful struggle."
+    },
+    {
+      "text": "The most important thing I've learned in the first 50 years of my life is that the true game of life is an internal one, not an external one.",
+      "context": "Reflecting on how external achievements (money, status) rarely change how you feel about yourself internally."
+    },
+    {
+      "text": "Don't ask what the world needs. Ask instead what makes you come alive, because what the world needs most is for you to come alive.",
+      "context": "Weaver quoting Howard Thurman to summarize his philosophy on career choice."
+    }
+  ],
+  "filename": "Graham Weaver"
+}

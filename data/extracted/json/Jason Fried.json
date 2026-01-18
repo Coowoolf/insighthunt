@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Jason Fried",
+    "title": "Co-Founder & CEO",
+    "company": "37signals (Makers of Basecamp & HEY)",
+    "background": "Jason Fried is the co-founder and CEO of 37signals, a software company known for its commitment to bootstrapping, remote work, and calm company culture. He is the co-author of several influential books including 'Rework', 'Remote', and 'It Doesn't Have to Be Crazy at Work'.",
+    "background_zh": "Jason Fried 是 37signals 的联合创始人兼 CEO，该公司以坚持白手起家（Bootstrapping）、远程办公和冷静的企业文化而闻名。他是《重来》(Rework)、《远程办公》(Remote) 和《不必疯狂工作》(It Doesn't Have to Be Crazy at Work) 等多本极具影响力的畅销书的合著者。"
+  },
+  "episodeSummary": "In this conversation, Jason Fried challenges the Silicon Valley narrative of 'growth at all costs,' advocating for bootstrapping, profitability, and small teams. He details 37signals' unique product development methodology 'Shape Up,' explains why they prioritize intuition over data, and introduces their new 'ONCE' product line which challenges the SaaS subscription model.",
+  "episodeSummary_zh": "在本期对话中，Jason Fried 质疑了硅谷“不惜一切代价追求增长”的叙事，以此倡导白手起家、盈利至上和精简团队的理念。他详细介绍了 37signals 独特的产品开发方法论 'Shape Up'，解释了为何他们优先考虑直觉而非数据，并介绍了挑战 SaaS 订阅模式的全新 'ONCE'（一次性付费）产品线。",
+  "filename": "Jason Fried"
+}

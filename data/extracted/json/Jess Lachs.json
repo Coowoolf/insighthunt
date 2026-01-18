@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Jessica Lachs",
+    "title": "VP of Analytics and Data Science",
+    "company": "DoorDash",
+    "background": "Jessica joined DoorDash over 10 years ago as the first General Manager launching new markets. She transitioned to build the analytics team from scratch despite having a non-traditional background in investment banking (Lehman Brothers) and as a startup founder (GiftSimple), rather than a formal data science degree.",
+    "background_zh": "Jessica 加入 DoorDash 已超过十年，最初作为第一任总经理负责开拓新市场。尽管她出身于投资银行（雷曼兄弟）和创业公司（GiftSimple）创始人，并没有传统的数据科学背景，但她从零开始搭建了 DoorDash 庞大且受人尊敬的数据分析团队。"
+  },
+  "episodeSummary": "Jessica Lachs shares her contrarian approach to structuring data organizations, advocating for a centralized model over embedded teams to maintain high talent bars and career growth. She dives deep into how DoorDash selects metrics that actually drive behavior, avoiding complex composite scores in favor of simple inputs and \"common currency\" conversions. The conversation also covers building a culture of extreme ownership where data scientists do customer support and delivery dashes.",
+  "episodeSummary_zh": "Jessica Lachs 分享了她在构建数据组织方面的逆向思维，主张采用中央化管理而非完全分散嵌入的模式，以保持高人才标准和职业成长空间。她深入探讨了 DoorDash 如何选择真正能驱动行为的指标，避免使用复杂的复合分数，转而关注简单的输入指标和「通用货币」换算。对话还涵盖了如何建立「极限主人翁」文化，鼓励数据科学家参与客服和亲自配送。",
+  "filename": "Jess Lachs"
+}

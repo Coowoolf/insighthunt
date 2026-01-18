@@ -3,7 +3,8 @@
     "name": "Eeke de Milliano",
     "title": "Head of Product",
     "company": "Retool",
-    "background": "Eeke is a product leader who spent six years at Stripe, starting as one of their first employees and PMs where she helped build foundational products like Stripe Connect and Radar. She now leads product at Retool, bringing deep expertise in scaling technical products and high-performance cultures."
+    "background": "Eeke is a product leader who spent six years at Stripe, starting as one of their first employees and PMs where she helped build foundational products like Stripe Connect and Radar. She now leads product at Retool, bringing deep expertise in scaling technical products and high-performance cultures.",
+    "background_zh": "Eeke 曾在 Stripe 任职六年，作为早期核心成员及首批 PM，一手打造了 Stripe Connect 和 Radar 等基石级产品。目前她担任 Retool 产品负责人，在技术产品规模化扩张及打造高绩效文化方面拥有深厚造诣。"
   },
   "episodeSummary": "Eeke de Milliano dissects the tension between process and innovation, arguing that while process reduces variance, it often stifles the highest performers. She shares actionable frameworks for scaling Stripe-like cultures, including how to structure 'crazy ideas' into launched products, how to build a diversified talent portfolio rather than hiring clones, and why companies should aim for a 'Minimum Viable Process.'",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a company is scaling from early-stage to growth-stage and feels the urge to implement heavy frameworks like SAFe or complex OKRs.",
       "commonMistakes": "Forcing top engineers/PMs to adhere to rigid templates that slow them down, resulting in 'regression to the mean' for talent.",
       "quote": "Process, by definition, is variance reducing... The cost of that is obviously, while you are reducing the standard and bringing folks up to the average, you're also bringing other folks down to the average.",
-      "realWorldExample": "Eeke writes on Retool templates: 'If this doesn't work for what you're trying to explain, don't use it. But just know that this is the minimum viable thing.'"
+      "realWorldExample": "Eeke writes on Retool templates: 'If this doesn't work for what you're trying to explain, don't use it. But just know that this is the minimum viable thing.'",
+      "summary_zh": "这是一种关于流程落地的哲学理念，它承认流程会降低“方差”（既减少了负向偏差，也限制了正向惊喜）。其旨在通过标准化确保平均水准，同时允许高绩效人才突破束缚，以实现卓越产出。",
+      "problemItSolves_zh": "避免官僚主义扼杀高绩效人才与创造力，同时维持必要的组织规范。",
+      "whenToUse_zh": "当公司正从早期阶段向成长期规模化跨越，且急于引入 SAFe 等重型框架或复杂的 OKR 体系时。",
+      "commonMistakes_zh": "强制顶尖工程师/PM 机械套用僵化模板，不仅拖慢效率，更导致人才表现出现“均值回归”。",
+      "realWorldExample_zh": "Eeke 在谈及 Retool 模板时写道：“如果它无法阐述你想表达的内容，那就弃用。但请记住，这就是所谓的最小可行方案。”",
+      "principles_zh": [
+        "认清权衡：流程能提高下限，但也会降低上限；仅在首要目标是降低执行方差时，才引入流程。",
+        "在模板中植入“逃生通道”：在文档（如 PRD、技术规格）顶部明确注明，若模板不适用于当前问题，撰写者应当打破既定格式。",
+        "授权管理者充当“守门人”：管理者必须识别出无需流程约束的高绩效人才，并提供组织层面的“空中掩护”，允许他们绕过流程。",
+        "分阶段差异化管理：早期阶段（PMF 前）仅需 3 个月的规划周期；成熟公司则需要 10 年的战略视野。"
+      ],
+      "name_zh": "The Minimum Viable Process (MVP) Protocol（最小可行流程 (MVP) 协议）"
     },
     {
       "name": "The Crazy Ideas Pipeline",
@@ -46,7 +59,19 @@
       "whenToUse": "During annual planning cycles or when the team feels stuck in an incremental optimization loop.",
       "commonMistakes": "Integrating the 'crazy idea' team back into the core org too quickly, where they get crushed by technical debt and bug fixes before finding PMF.",
       "quote": "Crazy ideas are ideas that we shouldn't, obviously, do. There's a 90% chance that they make no sense. But in the 10% chance that they do, they will make a 10x to 100x difference.",
-      "realWorldExample": "Retool Workflows, a major product launch, started as a 'Crazy Idea' submission because scheduling queries wasn't part of the core UI builder value prop."
+      "realWorldExample": "Retool Workflows, a major product launch, started as a 'Crazy Idea' submission because scheduling queries wasn't part of the core UI builder value prop.",
+      "summary_zh": "一套用于征集、注资及孵化“非显而易见”创意的结构化机制，这类创意通常会在标准优先级评估框架下被扼杀。该机制将公司视作 VC，将产品团队视为初创公司。",
+      "problemItSolves_zh": "克服组织倾向于从事安全的渐进式工作，而忽视高风险、高回报创新的天然惯性。",
+      "whenToUse_zh": "在年度规划周期，或当团队陷入渐进式优化的怪圈时。",
+      "commonMistakes_zh": "过早将“疯狂想法”团队并回核心组织，导致团队在验证 PMF 之前，就被技术债和 Bug 修复压垮。",
+      "realWorldExample_zh": "Retool Workflows 这一重磅产品最初源于一个“疯狂点子”提案，因为“查询调度”功能并不属于核心 UI 搭建工具的价值主张。",
+      "principles_zh": [
+        "**10% 概率提案机制**：建立一个专属文档，专门记录那些 90% 概率看起来“不靠谱”，但有 10% 概率能带来 10-100 倍回报的疯狂想法。",
+        "**VC 式资源配置**：采用风投模式支持入选创意，投入最小化资源（如 1 PM + 1 研发）在规定周期内进行价值验证，确认可行后再进行规模化推广。",
+        "**组织架构隔离**：在孵化初期将团队独立于核心汇报线之外，避免创新业务被繁琐的日常运维（KTLO）工作所拖累。",
+        "**年度复盘与激活**：每年对往期的创意清单进行复盘，盘点落地情况；Retool 每年能从该清单中持续孵化并落地 3-8 个项目。"
+      ],
+      "name_zh": "The Crazy Ideas Pipeline（疯狂创意管道）"
     },
     {
       "name": "The Product Talent Portfolio Matrix",
@@ -62,7 +87,19 @@
       "whenToUse": "When scaling a product team from a small pod to a larger organization, or when a team feels lopsided (e.g., great at shipping but bad at strategy).",
       "commonMistakes": "Hiring a candidate solely because they remind the hiring manager of themselves.",
       "quote": "I really think that a lot of product management can sometimes be reduced to funnels and portfolios... Instead of having a bunch of PMs who all spike in one particular area, figure out how you can create complimentary skillsets.",
-      "realWorldExample": "Eeke performs a personal exercise every six months to map her team's strengths and weaknesses to dictate the next hire's required profile."
+      "realWorldExample": "Eeke performs a personal exercise every six months to map her team's strengths and weaknesses to dictate the next hire's required profile.",
+      "summary_zh": "一种将团队配置视为投资组合的招聘策略，旨在寻求互补性资产的平衡，而非追求单一特质上的同质化卓越。",
+      "problemItSolves_zh": "规避“招聘偏见”，即管理者组建高度同质化的“克隆”团队，导致特定技能维度的盲区（例如：全员都是愿景型人才，却缺乏落地执行力）。",
+      "whenToUse_zh": "当产品团队从小型作战单元向大型组织扩张，或当团队能力出现明显失衡（例如：擅长落地交付，但缺乏战略规划）时。",
+      "commonMistakes_zh": "仅因候选人身上有招聘经理自己的影子而录用。",
+      "realWorldExample_zh": "Eeke 每半年进行一次个人复盘，梳理团队的优劣势，以此界定下一位招聘人选的人才画像。",
+      "principles_zh": [
+        "半年盘点：每六个月对现有团队进行一次人才盘点，梳理团队整体的优势与短板。",
+        "针对短板招聘：JD（职位描述）要专门针对已识别的团队短板来撰写，而非照搬通用的“优秀产品经理”画像。",
+        "平衡“内生”与“外聘”：合理搭配“内生型”PM（文化传承者、深耕产品业务、非传统背景）与“外聘型”人才（具备专业严谨性、带来其他顶级大厂的最佳实践）。",
+        "平衡“愿景”与“执行”：确保团队中既有能够强力落地的“执行悍将”，也有富有创造力的“远见者”。"
+      ],
+      "name_zh": "The Product Talent Portfolio Matrix（产品人才组合矩阵）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Her favorite interview question to test for self-awareness and introspection."
     }
   ],
-  "filename": "Eeke de Milliano"
+  "filename": "Eeke de Milliano",
+  "episodeSummary_zh": "Eeke de Milliano 深度剖析了流程管控与创新探索之间的张力。她指出，虽然流程能降低执行偏差，但也往往限制了顶尖人才的发挥。她分享了一套可落地的框架，用于规模化复制类 Stripe 的组织文化，具体包括：如何将“疯狂的想法”结构化并落地为上线产品；如何构建多元化的人才投资组合而非招聘同质化员工；以及企业为何应追求“最小可行流程（Minimum Viable Process）”。"
 }

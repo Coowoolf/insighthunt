@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Mike Maples Jr.",
+    "title": "Co-founding Partner",
+    "company": "Floodgate",
+    "background": "A legendary early-stage investor who has made bets on transformative companies like Twitter, Lyft, Twitch, and Okta. He is the author of the book 'Pattern Breakers,' which analyzes the commonalities of startups that successfully change the future.",
+    "background_zh": "传奇的早期投资人，曾成功投资 Twitter、Lyft、Twitch 和 Okta 等变革性公司。他是《Pattern Breakers》一书的作者，该书深入剖析了那些成功改变未来的初创企业的共同特质。"
+  },
+  "episodeSummary": "Mike Maples Jr. deconstructs the mechanisms behind breakthrough startups, arguing that success comes not from doing things better, but from doing things radically differently. He introduces the 'Pattern Breakers' framework, explaining how founders can harness inflections, develop non-consensus insights, and execute through movements and storytelling to wage asymmetric warfare on incumbents.",
+  "episodeSummary_zh": "Mike Maples Jr. 解构了突破性初创企业背后的机制，指出成功的关键不在于做得更好，而在于做得彻底不同。他介绍了“打破常规（Pattern Breakers）”框架，解释了创始人如何利用市场拐点（Inflections）、开发非共识洞察（Insights），并通过发起运动和叙事来对巨头在位者发动不对称战争。",
+  "keyTakeaways": [
+    "Startups cannot win by being 'better'; they must force a choice, not a comparison.",
+    "Great ideas require three elements: Inflections (external changes), Insights (non-obvious truths), and Founder-Future Fit.",
+    "An inflection is a turning point that unleashes new empowerment, often driven by technology, regulation, or belief shifts.",
+    "Insights must be 'earned secrets' derived from living in the future and getting your hands dirty.",
+    "Execution for breakthrough startups involves creating a movement, mastering storytelling (World that Is vs. World that Could Be), and being willing to be disagreeable.",
+    "Backcast from a radically different future rather than forecasting from the present.",
+    "Do not seek validation from consensus; breakthrough ideas are often polarized.",
+    "Founder-Future Fit is more important than generic founder traits; are you the authentic architect of this specific future?"
+  ],
+  "methodologies": [
+    {
+      "name": "The Breakthrough Idea Triad",
+      "name_zh": "突破性创意三要素",
+      "category": "product-strategy",
+      "problemItSolves": "Helps founders and PMs validate if an idea has the potential to be a category-defining breakthrough rather than just an incremental improvement.",
+      "problemItSolves_zh": "帮助创始人及产品经理验证一个创意是否具有定义全新品类的突破性潜力，而不仅仅是渐进式的改良。",
+      "summary": "A framework to stress-test startup ideas by ensuring they are built on powerful external forces, novel truths, and the right team. It shifts the focus from 'market size' to 'empowerment potential'.",
+      "summary_zh": "一个用于压力测试创业想法的框架，确保其建立在强大的外部力量、新颖的真理和合适的团队之上。它将关注点从“市场规模”转移到了“赋能潜力”上。",
+      "principles": [
+        "Identify Inflections: Leverage external turning points (tech, regulatory, or belief changes) that create new potential for radical change.",
+        "Develop Insights: Formulate a non-obvious truth about how to harness the inflection. It must be non-consensus and right.",
+        "Ensure Founder-Future Fit: Determine if the team has the specific authenticity, skills, and network to build this specific future."
+      ],
+      "principles_zh": [
+        "识别拐点 (Inflections)：利用外部转折点（技术、监管或观念变化），这些变化创造了彻底变革的新潜力。",
+        "开发洞察 (Insights)：形成关于如何利用拐点的非显性真理。这必须是一个非共识但正确的认知。",
+        "确保创始人-未来契合度 (Founder-Future Fit)：确认团队是否具备构建这一特定未来所需的独特真实性、技能和人脉网络。"
+      ],
+      "whenToUse": "During the ideation phase or when considering a pivot (pre-PMF).",
+      "whenToUse_zh": "在创意构思阶段或考虑转型时（PMF之前）。",
+      "commonMistakes": "Starting with a 'big market' analysis instead of an inflection; building a 'better' version of an existing product; seeking consensus/validation too early.",
+      "commonMistakes_zh": "从“大市场”分析入手而非寻找拐点；试图构建现有产品的“更好”版本；过早寻求共识或验证。",
+      "quote": "The rock is the inflection, the slingshot is the insight that David shoots at Goliath.",
+      "realWorldExample": "Lyft used the inflection of the iPhone 4S (GPS chip) and the insight that people would ride in strangers' cars (Airbnb for cars) to create a new category, whereas a 'better taxi' would have failed.",
+      "realWorldExample_zh": "Lyft 利用了 iPhone 4S（GPS芯片）这一技术拐点，结合“人们愿意乘坐陌生人车辆”（汽车版的Airbnb）这一洞察，创造了一个全新品类，而如果仅仅是做“更好的出租车”则注定失败。"
+    },
+    {
+      "name": "Backcasting vs. Forecasting",
+      "name_zh": "逆向推演 vs 顺向预测",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from getting stuck in the 'comparison trap' where they only build incremental improvements based on the present.",
+      "problemItSolves_zh": "防止团队陷入“比较陷阱”，即基于现状只做渐进式改进。",
+      "summary": "Instead of looking at the present and projecting forward (forecasting), great founders define a radically different future state and work backward to determine what needs to be built today to achieve it.",
+      "summary_zh": "伟大的创始人不立足当下向前预测（Forecasting），而是定义一个彻底不同的未来状态，并逆向推演（Backcasting）为了实现该未来今天需要构建什么。",
+      "principles": [
+        "Get Out of the Present: Ignore the constraints and patterns of the current market leaders.",
+        "Live in the Future: Engage with cutting-edge tech or lighthouse customers to 'earn secrets' about what is missing.",
+        "Force a Choice, Not a Comparison: Position the product so distinctively that customers must choose your new paradigm, not compare specs with the old one."
+      ],
+      "principles_zh": [
+        "跳出当下：忽略当前市场领跑者的限制和现有模式。",
+        "活在未来：接触最前沿的技术或“灯塔客户”，从而“赢得秘密”，发现未来缺失了什么。",
+        "迫使选择，而非比较：将产品定位得极为独特，迫使客户选择你的新范式，而不是与旧产品比拼参数。"
+      ],
+      "whenToUse": "When defining the product vision and strategic narrative.",
+      "whenToUse_zh": "在定义产品愿景和战略叙事时。",
+      "commonMistakes": "Analyzing competitors too closely; trying to be '10% better'; asking customers what they want based on their current reality.",
+      "commonMistakes_zh": "过度分析竞争对手；试图只做“好10%”的产品；基于客户当前的现实询问他们的需求。",
+      "quote": "Better doesn't matter when you're a startup, because better is an extension of the present.",
+      "realWorldExample": "Airbnb didn't try to be a better hotel. They backcasted from a future where you could 'live like a local,' forcing a choice between a standardized hotel experience and a local human experience.",
+      "realWorldExample_zh": "Airbnb 没有试图成为更好的酒店。他们从“像当地人一样生活”的未来进行逆向推演，迫使用户在标准化的酒店体验和本地化的人文体验之间做出选择。"
+    },
+    {
+      "name": "Pattern Breaking Actions (Movements & Storytelling)",
+      "name_zh": "打破常规的行动（运动与叙事）",
+      "category": "growth-metrics",
+      "problemItSolves": "How to acquire customers and talent when you have zero brand equity and resources compared to incumbents.",
+      "problemItSolves_zh": "在品牌资产和资源远少于巨头的情况下，如何获取客户和人才。",
+      "summary": "Startups win by launching movements that leverage a grievance of a minority against the tyranny of the majority. This is supported by storytelling that contrasts the 'World that Is' with the 'World that Could Be'.",
+      "summary_zh": "初创企业的制胜之道在于发起一场运动，利用少数人的不满来对抗多数人的暴政。这需要通过叙事来支撑，对比“现状世界”与“未来世界”。",
+      "principles": [
+        "Launch a Movement: Appeal to a higher purpose or belief system, not just product features. Turn the incumbent's strength into a weakness.",
+        "Narrative Oscillating: Structure pitches by toggling between the pain of the 'World that Is' and the glory of the 'World that Could Be'.",
+        "Be Disagreeable: Have the courage to be disliked. Be willing to break social norms to adhere to the truth of the future."
+      ],
+      "principles_zh": [
+        "发起运动：诉诸更高的目标或信仰体系，而不仅仅是产品功能。将巨头的优势转化为其劣势。",
+        "叙事摆荡：在推介时，不断在“现状世界”的痛苦和“未来世界”的荣耀之间切换。",
+        "保持对抗性：有被讨厌的勇气。为了坚持未来的真理，愿意打破社会常规。"
+      ],
+      "whenToUse": "Go-to-market strategy, fundraising pitches, and hiring early employees.",
+      "whenToUse_zh": "制定进入市场（GTM）策略、融资路演以及招聘早期员工时。",
+      "commonMistakes": "Talking about the product/company first (features) instead of the user's hero journey; trying to appeal to everyone (consensus).",
+      "commonMistakes_zh": "首先谈论产品/公司（功能）而不是用户的英雄之旅；试图取悦所有人（寻求共识）。",
+      "quote": "Business is never a fair fight. What inflections let the founder do is wage asymmetric warfare on the present.",
+      "realWorldExample": "Tesla didn't market itself as a car company but as a movement to 'accelerate the world's transition to sustainable energy,' making buying a Tesla an aesthetic/belief choice, not just a practical one.",
+      "realWorldExample_zh": "特斯拉没有将自己定位为一家汽车公司，而是发起了一场“加速世界向可持续能源转型”的运动，这使得购买特斯拉成为一种审美/信仰的选择，而不仅仅是出于实用考量。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you're living in the future and you notice what's missing, your intuition about what to build is far more likely to be right.",
+      "context": "On how to find great startup ideas (Founder-Future Fit)."
+    },
+    {
+      "text": "A startup never beats a big company by executing better. The way startups win is because it proposes a radically different future.",
+      "context": "On why 'better' is a trap for startups."
+    },
+    {
+      "text": "We want to force a choice and not a comparison.",
+      "context": "On positioning strategy against incumbents."
+    },
+    {
+      "text": "Recipes exist for things that have already been discovered... Breakthroughs, by definition, haven't happened yet.",
+      "context": "On why there is no standard checklist for massive success."
+    }
+  ],
+  "filename": "Mike Maples Jr"
+}

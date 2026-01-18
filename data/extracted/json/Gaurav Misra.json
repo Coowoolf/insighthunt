@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Gaurav Misra",
+    "title": "Co-founder & CEO",
+    "company": "Captions",
+    "background": "Gaurav Misra is the co-founder and CEO of Captions, a leading AI-powered video creation tool. Previously, he was an early employee at Snap, where he led the Design Engineering team and played a pivotal role in product innovation.",
+    "background_zh": "Gaurav Misra 是 AI 视频创作工具 Captions 的联合创始人兼 CEO。在此之前，他是 Snap 的早期核心成员，领导设计工程团队（Design Engineering），在产品创新方面发挥了关键作用。"
+  },
+  "episodeSummary": "Gaurav Misra shares the radical product philosophies behind Captions' rapid growth and his time at Snap. He discusses the 'marketable feature per week' engineering goal, the necessity of a 'secret roadmap' for true innovation, and how to leverage technical debt strategically.",
+  "episodeSummary_zh": "Gaurav Misra 分享了推动 Captions 快速增长的激进产品哲学以及他在 Snap 的从业经验。他探讨了“每周发布一个可营销功能”的工程目标、通过“秘密路线图”实现真正创新的必要性，以及如何战略性地利用技术债务来换取速度。",
+  "filename": "Gaurav Misra"
+}

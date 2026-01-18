@@ -1,0 +1,147 @@
+{
+  "guest": {
+    "name": "Timothy Davis",
+    "title": "Performance Marketing Lead",
+    "company": "Shopify",
+    "background": "Timothy leads performance marketing for Shopify and previously consulted for major tech companies like Pinterest, LinkedIn, Redfin, and Eventbrite to kickstart and scale their paid growth teams.",
+    "background_zh": "Timothy 目前负责 Shopify 的效果营销业务，此前作为资深顾问，曾帮助 Pinterest、LinkedIn、Redfin 和 Eventbrite 等知名科技公司从零搭建并扩展其付费增长团队。"
+  },
+  "episodeSummary": "Timothy Davis breaks down the tactical playbook for building and scaling performance marketing engines, from running initial \"signs of life\" tests to structuring high-performing teams. He demystifies platform selection, offering granular advice on Google, Meta, and LinkedIn, while introducing operational frameworks to separate signal from noise in data analytics.",
+  "episodeSummary_zh": "Timothy Davis 详细拆解了构建和扩展效果营销引擎的实战手册，涵盖从早期的“生命迹象”测试到搭建高效团队的全过程。他通过对 Google、Meta 和 LinkedIn 的深度剖析，以此祛魅平台选择难题，并引入了一套运营框架，帮助团队在复杂的数据分析中去伪存真，通过付费渠道驱动业务增长。",
+  "keyTakeaways": [
+    "Paid search is user-driven and essential for almost everyone, while social is disruptive media.",
+    "Start with 'Signs of Life' tests using 1% lookalike audiences based on your own customer data.",
+    "Do not scale paid spend before achieving Product-Market Fit (PMF) and operational readiness.",
+    "Video creative targeting emotion is currently the highest leverage asset.",
+    "Hire generalists who can distinguish signal from noise before specialists.",
+    "Use a strict 'Ops Cadence' spreadsheet to manage ad account hygiene and accountability.",
+    "Ignore vanity metrics; focus on incrementality and multi-touch attribution."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Signs of Life' Testing Framework",
+      "name_zh": "“生命迹象”验证测试框架",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents startups from burning cash on unproven channels and helps identify where to focus initial paid efforts without requiring massive budgets.",
+      "problemItSolves_zh": "防止初创公司在未经验证的渠道上盲目烧钱，帮助团队在无需巨额预算的情况下快速定位付费增长的切入点。",
+      "summary": "A systematic approach to validating paid channels by starting with small, highly targeted experiments using first-party data. Instead of aiming for scale immediately, the goal is to detect a pulse of positive unit economics before increasing investment.",
+      "summary_zh": "一种系统化的付费渠道验证方法。通过利用第一方数据进行小规模、高精准度的实验，旨在立刻扩大规模前，先检测是否存在正向的单位经济模型“脉搏”，从而决定是否追加投入。",
+      "principles": [
+        "Leverage 1st Party Data: Start by uploading existing customer lists to create Lookalike Audiences (LAL), specifically targeting the top 1% match.",
+        "Tiered Expansion: Test ad sets in tiers (1% LAL, 2-4% LAL, 5-7% LAL). If the 1% doesn't work, broad targeting likely won't either.",
+        "Embrace Failure: View tests as binary outcomes—either winning or learning. Don't force a channel to work if the 'sign of life' isn't there."
+      ],
+      "principles_zh": [
+        "利用第一方数据：首先上传现有客户列表，创建相似受众（Lookalike），首选精准度最高的 1% 相似度人群。",
+        "分层扩展测试：分层级测试广告组（1% LAL, 2-4% LAL, 5-7% LAL）。如果 1% 的核心人群都跑不通，泛投通常也不会成功。",
+        "拥抱失败：将测试结果视为二元对立——要么赢，要么学。如果“生命迹象”不存在，不要强行在这个渠道死磕。"
+      ],
+      "whenToUse": "When launching a new product, entering a new market, or testing a new ad platform (e.g., expanding from Google to TikTok).",
+      "whenToUse_zh": "当发布新产品、进入新市场，或测试新广告平台（例如从 Google 扩展到 TikTok）时适用。",
+      "commonMistakes": "Scaling budget immediately upon seeing a single positive signal without validating creative fit or audience depth.",
+      "commonMistakes_zh": "一旦看到单一的积极信号就立即通过扩大预算来追求规模，而未先验证创意的适配度或受众深度。",
+      "quote": "It's okay to fail because we're either winning or we're learning.",
+      "realWorldExample": "Timothy worked with Hairstory, which was doing well on Google Shopping. They used customer data to test Meta and TikTok, finding 'signs of life' on Meta but realizing TikTok required a completely different creative strategy.",
+      "realWorldExample_zh": "Timothy 在服务 Hairstory 时，发现其在 Google Shopping 表现良好。团队随后利用客户数据测试了 Meta 和 TikTok，在 Meta 上发现了“生命迹象”，但也意识到 TikTok 需要完全不同的创意策略才能跑通。"
+    },
+    {
+      "name": "Signal vs. Noise Hiring Filter",
+      "name_zh": "“去伪存真”人才筛选模型",
+      "category": "team-culture",
+      "problemItSolves": "Helps leaders identify high-potential performance marketers who can drive business impact rather than just managing ad account settings or reporting on vanity metrics.",
+      "problemItSolves_zh": "帮助管理者识别出能真正驱动业务增长的高潜质效果营销人才，而非仅会操作广告账户设置或汇报虚荣指标的执行者。",
+      "summary": "A hiring philosophy derived from Nate Silver's concept, focusing on a candidate's ability to parse through the overwhelming amount of data in ad platforms to find the few metrics that actually drive business goals.",
+      "summary_zh": "源自 Nate Silver 的概念，这套招聘哲学侧重于考察候选人是否有能力从广告平台的海量数据中抽丝剥茧，通过过滤“噪音”，找到真正驱动业务目标的“信号”。",
+      "principles": [
+        "Data Interpretation over Tool Knowledge: Anyone can learn the interface; look for the ability to distinguish between vanity metrics (CPM, Impressions) and business metrics (Conversions, CAC).",
+        "The 'Scenario' Interview: Provide candidates with a raw data dump containing conflicting signals and ask them how they would optimize the account.",
+        "Rapid Onboarding: Aim for impact in 30-45 days (not 90) by giving new hires ownership of a specific campaign or test immediately."
+      ],
+      "principles_zh": [
+        "数据解读能力优于工具操作：界面操作谁都能学，关键看能否区分虚荣指标（CPM, 展示量）和业务指标（转化率, CAC）。",
+        "情境化面试：给候选人提供一份包含大量噪音和冲突信号的原始数据，询问他们将如何优化账户。",
+        "极速落地：通过让新员工立即负责某个具体活动或测试，将产生影响力的周期从 90 天压缩至 30-45 天。"
+      ],
+      "whenToUse": "When hiring the first 1-3 members of a growth or performance marketing team.",
+      "whenToUse_zh": "在招聘增长或效果营销团队的前 1-3 名核心成员时适用。",
+      "commonMistakes": "Hiring a specialist (e.g., TikTok expert) too early when a data-savvy generalist is needed to manage cross-platform allocation.",
+      "commonMistakes_zh": "过早招聘特定渠道专家（如 TikTok 专家），而在早期阶段更需要的是一位懂数据、能管理跨平台投放的通才。",
+      "quote": "I can teach anyone how to do Google ads... It is the data part that is the hard part because there is so much noise going on in those accounts.",
+      "realWorldExample": "When interviewing, Timothy throws a spreadsheet with reach, frequency, CPM, CPC, and conversion data at candidates. He hires the ones who ignore the 'noise' (reach) and focus on the 'signal' (conversions/ROI).",
+      "realWorldExample_zh": "在面试时，Timothy 会扔给候选人一张包含触达、频率、CPM、CPC 和转化数据的表格。他会录用那些能忽略“噪音”（触达量）并专注于“信号”（转化/投资回报率）的人。"
+    },
+    {
+      "name": "The Performance Ops Cadence",
+      "name_zh": "绩效运营节奏体系",
+      "category": "execution",
+      "problemItSolves": "Solves the chaos of ad account management, preventing critical tasks from being overlooked and ensuring consistent optimization rather than reactive firefighting.",
+      "problemItSolves_zh": "解决广告账户管理的混乱状态，防止关键任务被遗漏，确保团队处于持续优化的节奏中，而非被动地“救火”。",
+      "summary": "A structured operational framework (often a spreadsheet) that categorizes marketing tasks into 'Rocks' and 'Pebbles' and assigns a specific frequency (weekly, bi-weekly, monthly) to each, creating accountability and visibility.",
+      "summary_zh": "一套结构化的运营框架（通常以电子表格形式呈现），将营销任务分类为“大石头”和“小碎石”，并为每项任务设定具体的执行频率（周更、双周更、月更），以此建立问责制和透明度。",
+      "principles": [
+        "Categorize Tasks: Break down work into major buckets (e.g., Structure, Keywords, Creatives) and sub-tasks (e.g., Search Query Reports, Negative Keywords).",
+        "Define Frequency: Explicitly state how often each task occurs. Example: Review budget pacing (Weekly), Ad copy refresh (Bi-weekly), Competitor analysis (Monthly).",
+        "Visual Accountability: Use a shared tracker to ensure tasks are done. This prevents 'set it and forget it' behavior common with agencies."
+      ],
+      "principles_zh": [
+        "任务分类：将工作拆解为主要模块（如：账户结构、关键词、创意）和子任务（如：搜索词报告、否定关键词添加）。",
+        "定义频率：明确规定每项任务的执行周期。例如：预算消耗审查（每周）、广告文案更新（每双周）、竞对分析（每月）。",
+        "可视化问责：使用共享的追踪表确保任务落地。这能有效防止代理商或内部团队常见的“设置完就不管”的惰性行为。"
+      ],
+      "whenToUse": "Essential when managing agencies to ensure they are working, or for internal teams to maintain hygiene as spend scales.",
+      "whenToUse_zh": "在管理代理商以确保其工作产出时必不可少，也适用于内部团队在预算规模扩大时维持账户的健康度。",
+      "commonMistakes": "Allowing the cadence to slip during busy periods or failing to update the cadence as platform features change (e.g., manual bidding vs. automated).",
+      "commonMistakes_zh": "在业务繁忙期允许节奏打乱，或未随着平台功能更新（如从手动出价转为自动出价）及时调整运营节奏。",
+      "quote": "I'm a firm believer in getting shit done... making sure that they're doing the things that need to be done in the account.",
+      "realWorldExample": "Timothy uses a specific spreadsheet where 'Keyword Granularity' and 'Negative Keywords' are tracked. If a stakeholder asks when ad copy was last updated, the Ops Cadence provides an immediate, evidence-based answer.",
+      "realWorldExample_zh": "Timothy 使用特定的表格来追踪“关键词颗粒度”和“否定关键词”。如果利益相关方询问广告文案上一次更新是什么时候，运营节奏表能立即提供基于证据的答案。"
+    },
+    {
+      "name": "True Competition Analysis",
+      "name_zh": "真实竞对分析法",
+      "category": "product-strategy",
+      "problemItSolves": "Eliminates 'Ego Marketing' where companies obsess over competitors appearing above them due to personalization or random variance, rather than actual market threat.",
+      "problemItSolves_zh": "消除“自我营销”心态，即公司过度纠结于因个性化推荐或随机波动导致竞对排名高于自己的情况，而忽视了真正的市场威胁。",
+      "summary": "A data-driven method using Google Auction Insights to identify actual threats versus perceived ones. It involves creating custom metrics to measure how often a competitor actually ranks above you in relevant auctions over time.",
+      "summary_zh": "一种基于 Google 竞价洞察（Auction Insights）的数据驱动方法，用于识别真实的威胁而非感知上的威胁。它通过创建自定义指标，衡量竞争对手在相关竞价中长期排名高于你的实际频率。",
+      "principles": [
+        "Ignore Search Results Page: Your personal Google search results are biased by personalization. Do not use them to judge competition.",
+        "Calculate 'Position Above Rate': Use Auction Insights data to calculate specifically how often a competitor shows up AND ranks higher than you.",
+        "Identify Anomalies vs. Trends: Look for sustained trend lines (orange/green lines in his report) versus short-term blips caused by Google's 'close variant' matching errors.",
+        "Actionable Defense: Only react (e.g., trademark claims, bidding wars) if the data shows a sustained, high-overlap threat."
+      ],
+      "principles_zh": [
+        "忽略个人搜索结果：你自己在 Google 看到的搜索结果受个性化算法影响，存在偏差。切勿以此判断竞争态势。",
+        "计算“排名超越率”：利用竞价洞察数据，精确计算竞争对手不仅出现、且排名高于你的频率。",
+        "区分异常与趋势：观察持续的趋势线（即报告中的橙/绿线），排除因 Google “近义词匹配”错误导致的短期波动。",
+        "防御性行动：只有当数据显示出持续的、高重合度的威胁时，才采取行动（如商标申诉、提高出价等）。"
+      ],
+      "whenToUse": "When executives complain that 'Competitor X is beating us' or when deciding whether to bid on competitor brand keywords.",
+      "whenToUse_zh": "当高管抱怨“竞争对手 X 赢了我们”，或决定是否要竞价购买竞争对手品牌词时适用。",
+      "commonMistakes": "Reacting to a competitor appearing on a 'close variant' keyword (accidental broad match) as if it were a strategic attack.",
+      "commonMistakes_zh": "将竞争对手因“近义词匹配”（意外的广泛匹配）出现在你的关键词下，误判为蓄意的战略攻击。",
+      "quote": "It's not about showing as often as possible... It's about showing to the right person as often as possible.",
+      "realWorldExample": "Timothy showed a report where a competitor seemed to be surging (green line), but the data revealed it was likely an accidental 'close variant' match that disappeared a few weeks later once the competitor fixed their negatives.",
+      "realWorldExample_zh": "Timothy 展示了一份报告，其中某个竞争对手似乎正在激增（绿线），但数据分析显示这很可能是一次意外的“近义词匹配”，几周后随着竞争对手修正了否定关键词，该威胁随之消失。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Hot take, paid is for everyone. If you look at the way each platform is doing... it's almost a pay for play now.",
+      "context": "On whether early-stage startups or organic-heavy businesses should invest in paid marketing."
+    },
+    {
+      "text": "Paid needs to start immediate. And paid should have started yesterday because SEO takes time.",
+      "context": "Discussing the urgency of paid channels for startups compared to the long tail of organic growth."
+    },
+    {
+      "text": "Start with emotion. If you can have an emotional connection with the user, is going to be way more impactful... than just 'Oh, we need an emotional connection with the brand.'",
+      "context": "Timothy's core advice on how to make video creatives work on platforms like YouTube."
+    },
+    {
+      "text": "I can teach anyone how to do Google ads... It is the data part that is the hard part because there is so much noise going on in those accounts.",
+      "context": "On why hiring for data fluency is more important than platform-specific experience."
+    }
+  ],
+  "filename": "Timothy Davis"
+}

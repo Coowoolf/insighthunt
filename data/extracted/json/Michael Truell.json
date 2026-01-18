@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Michael Truell",
+    "title": "Co-founder & CEO",
+    "company": "Anysphere (Cursor)",
+    "background": "Michael is an MIT computer science and math alum who previously worked on AI research at Google. He co-founded Cursor, the fastest-growing AI code editor, which scaled from $0 to $100M ARR in roughly 20 months.",
+    "background_zh": "Michael 毕业于 MIT 计算机科学与数学系，曾在 Google 从事 AI 研究。他是目前增长最快的 AI 代码编辑器 Cursor 的联合创始人，带领公司在约 20 个月内实现了从 0 到 1 亿美元 ARR（年度经常性收入）的历史性突破。"
+  },
+  "episodeSummary": "Michael Truell discusses the meteoric rise of Cursor and his vision for a \"post-code\" world where engineers become logic designers. He reveals the counter-intuitive strategy of building custom models rather than being a mere wrapper, and shares insights on hiring through work-sample tests and the evolving skill set required for software development in the AI era.",
+  "episodeSummary_zh": "Michael Truell 探讨了 Cursor 的爆发式增长，以及他对于“后代码时代”的愿景——工程师将转型为逻辑设计师。他揭示了 Cursor 区别于普通“套壳”产品的核心策略：坚持自研定制模型以优化体验。此外，他还分享了基于实战测试的招聘方法论，以及 AI 时代软件开发所需技能的演变。",
+  "keyTakeaways": [
+    "Software engineering is shifting from syntax management to 'logic design' and intent specification.",
+    "Relying solely on foundation models (like GPT-4) is insufficient for high-performance AI tools; custom 'ensemble' models are necessary for speed and context.",
+    "The most effective AI interaction pattern is 'chopping' tasks into small, iterative loops rather than one-shot generation.",
+    "Hiring for high-velocity teams works best with a 2-day onsite work test rather than standard interviews.",
+    "Taste and 'model intuition' are becoming the new differentiating skills for engineers.",
+    "Market ceilings for AI coding tools are much higher than traditional IDE markets because they automate labor, not just edit text."
+  ],
+  "methodologies": [
+    {
+      "name": "The Ensemble Model Architecture",
+      "name_zh": "混合模型架构策略",
+      "category": "product-strategy",
+      "problemItSolves": "Overcomes the latency, cost, and context limitations of relying solely on general-purpose foundation models (like GPT-4 or Sonnet) for real-time product interactions.",
+      "problemItSolves_zh": "解决了单纯依赖通用大模型（如 GPT-4 或 Sonnet）在实时产品交互中存在的延迟高、成本昂贵以及上下文理解不足的问题。",
+      "summary": "Instead of being a 'wrapper', Cursor combines large foundation models with small, custom-trained models. Small models handle high-frequency, low-latency tasks (like next-edit prediction), while large models handle complex reasoning, creating a seamless user experience.",
+      "summary_zh": "Cursor 并非简单的“套壳”应用，而是采用了大模型与小模型结合的策略。利用自研的小型模型处理高频、低延迟任务（如光标处的下一步预测），而利用通用大模型处理复杂的逻辑推理，从而实现流畅的用户体验。",
+      "principles": [
+        "Specialized Small Models: Train custom models for specific tasks (e.g., diff prediction) to achieve <300ms latency.",
+        "Input/Output Filtering: Use models to pre-search the codebase (context retrieval) and post-process output into valid code diffs.",
+        "Cost Arbitrage: Offload repetitive inference to cheaper, faster models to maintain economic viability.",
+        "Foundation Model Leverage: Use SOTA models only for the highest-order reasoning tasks."
+      ],
+      "principles_zh": [
+        "专用小模型：针对特定任务（如代码变更预测）训练定制模型，以实现低于 300 毫秒的延迟。",
+        "输入/输出过滤：利用模型预先检索代码库（上下文检索），并将大模型的输出后处理为有效的代码 Diff。",
+        "成本套利：将重复性推理任务分流给更便宜、更快的模型，以维持经济可行性。",
+        "杠杆化大模型：仅在需要最高阶逻辑推理的任务中使用 SOTA（当前最佳）基础模型。"
+      ],
+      "whenToUse": "When building AI-native applications where standard API latency degrades UX, or when the general model lacks specific domain constraints (like code syntax diffing).",
+      "whenToUse_zh": "适用于构建 AI 原生应用时，特别是当标准 API 的延迟会严重损害用户体验，或通用模型缺乏特定领域的约束能力（如代码语法差异对比）时。",
+      "commonMistakes": "Assuming foundation models solve all UX problems out of the box; ignoring the latency requirements of 'flow state' workflows.",
+      "commonMistakes_zh": "误以为通用基础模型能开箱即用地解决所有用户体验问题；忽视了“心流”工作流对极低延迟的要求。",
+      "quote": "At this point, every magic moment in Cursor involves a custom model in some way.",
+      "realWorldExample": "Cursor uses a custom model to predict the next cursor position and code edit (Copilot++) because waiting for GPT-4 would be too slow and break the user's typing flow.",
+      "realWorldExample_zh": "Cursor 使用自定义模型来预测光标的下一个位置和代码编辑（Copilot++ 功能），因为如果等待 GPT-4 的响应会太慢，从而打断用户的输入心流。"
+    },
+    {
+      "name": "The 'Chopped' Interaction Loop",
+      "name_zh": "“切片式”交互模型",
+      "category": "execution",
+      "problemItSolves": "Mitigates AI hallucinations and loss of control when users attempt to generate too much complexity in a single prompt.",
+      "problemItSolves_zh": "缓解了用户试图通过单一提示词（Prompt）生成过高复杂度内容时，可能出现的 AI 幻觉和失去控制权的问题。",
+      "summary": "A workflow framework where complex engineering tasks are broken down into small, verifiable units. The user specifies intent, the AI generates a small batch, the user reviews, and the cycle repeats. This maintains human agency while leveraging AI speed.",
+      "summary_zh": "一种将复杂工程任务分解为微小、可验证单元的工作流框架。用户明确意图，AI 生成小批量内容，用户进行审查，如此循环。这种方式在利用 AI 速度的同时保留了人类的主导权。",
+      "principles": [
+        "Decomposition: Break large features into atomic, specifiable steps.",
+        "Iterative Review: Review AI output after every small step rather than at the end of a massive generation.",
+        "Human-in-the-Loop: Maintain strict control over the logic while outsourcing the implementation details.",
+        "Model Intuition: Develop a 'gut feeling' for when the model is likely to fail."
+      ],
+      "principles_zh": [
+        "任务拆解：将大型功能分解为原子化的、可明确描述的步骤。",
+        "迭代审查：在每一步小生成后即时审查 AI 产出，而不是等待大规模生成结束后再回头检查。",
+        "人在回路：对外包实现细节的同时，严格把控核心逻辑。",
+        "模型直觉：培养对模型“能力边界”的直觉，预判其可能失败的节点。"
+      ],
+      "whenToUse": "When using AI agents for complex logic generation, refactoring, or building features from scratch.",
+      "whenToUse_zh": "在使用 AI Agent 进行复杂的逻辑生成、代码重构或从头构建功能特性时。",
+      "commonMistakes": "Treating the AI like a fully autonomous senior engineer and asking it to build an entire app in one go ('Vibe Coding' without verification).",
+      "commonMistakes_zh": "将 AI 视为完全自主的高级工程师，并要求它一次性构建整个应用程序（即缺乏验证的“氛围编程”）。",
+      "quote": "I would bias less toward trying in one go to tell the model 'here's exactly what I want'... I would chop things up into bits.",
+      "realWorldExample": "Instead of asking Cursor to 'Build a login page with auth,' ask it to 'Create the HTML form layout,' then 'Add the submit handler,' then 'Integrate the auth API' sequentially.",
+      "realWorldExample_zh": "不要直接让 Cursor “构建一个带验证的登录页面”，而是依次要求它“创建 HTML 表单布局”、“添加提交处理逻辑”、“集成验证 API”。"
+    },
+    {
+      "name": "Logic Design vs. Syntax Management",
+      "name_zh": "逻辑设计与意图定义框架",
+      "category": "career-leadership",
+      "problemItSolves": "Redefines the role of a software engineer (and Product Manager) in a world where writing code is commoditized by AI.",
+      "problemItSolves_zh": "重新定义了在编写代码这一技能被 AI 商品化后，软件工程师（及产品经理）的核心角色定位。",
+      "summary": "As AI handles the 'how' (implementation), the human role shifts entirely to the 'what' (intent and logic). Success depends on 'Taste'—the ability to judge if the output is the right solution—rather than the ability to write syntactically correct code carefully.",
+      "summary_zh": "随着 AI 接管“如何做”（实现层面），人类的角色完全转移到了“做什么”（意图和逻辑）。成功的关键不再是编写无错代码的“谨慎性”，而是“品味”——即判断产出方案是否正确的能力。",
+      "principles": [
+        "Intent over Implementation: Focus on specifying exactly how the software should work and look.",
+        "Taste as a Core Skill: Cultivate the ability to recognize high-quality architecture and UX design.",
+        "Pseudocode Thinking: Represent logic in high-level English/Pseudocode rather than getting bogged down in syntax.",
+        "Reviewer Mindset: Transition from a writer to a discerning editor/manager of AI output."
+      ],
+      "principles_zh": [
+        "意图优于实现：专注于精确定义软件应如何运行以及外观如何。",
+        "品味即核心技能：培养识别高质量架构和用户体验设计的审美能力。",
+        "伪代码思维：用高级英语或伪代码来表述逻辑，而不是陷入语法细节。",
+        "审查者心态：从代码撰写者转型为 AI 产出的敏锐编辑和管理者。"
+      ],
+      "whenToUse": "When planning career growth, hiring engineers, or structuring product requirements documents (PRDs).",
+      "whenToUse_zh": "在规划职业成长路径、招聘工程师或撰写产品需求文档（PRD）时。",
+      "commonMistakes": "Over-indexing on memorizing language syntax; failing to develop system-level thinking.",
+      "commonMistakes_zh": "过度沉迷于记忆编程语言的语法；忽视了系统级思维能力的培养。",
+      "quote": "I think that more and more being an engineer will start to feel like being a logic designer... it will be about specifying your intent.",
+      "realWorldExample": "In the future, an engineer might maintain a file that looks like English prose describing business rules, which the AI then compiles into executable code, rather than maintaining the C++ or Python files directly.",
+      "realWorldExample_zh": "在未来，工程师可能只需要维护一份类似于英文散文的文档来描述业务规则，由 AI 将其编译为可执行代码，而不再是直接维护 C++ 或 Python 文件。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Many people you hear hire too fast, I think we actually hired too slow to begin with.",
+      "context": "On the scaling challenges of going from $0 to $100M ARR with a very small team (approx. 60 people)."
+    },
+    {
+      "text": "At this point, every magic moment in Cursor involves a custom model in some way.",
+      "context": "Discussing why they aren't just a GPT wrapper and the necessity of vertical integration."
+    },
+    {
+      "text": "I think that more and more being an engineer will start to feel like being a logic designer, and really, it will be about specifying your intent.",
+      "context": "Michael's vision for the future of software development 'after code'."
+    },
+    {
+      "text": "An exponential to begin with feels fairly slow when the numbers are really low.",
+      "context": "Reflecting on the early days of growth where consistent compounding didn't feel like a rocket ship initially."
+    }
+  ],
+  "filename": "Michael Truell"
+}

@@ -3,7 +3,8 @@
     "name": "Dylan Field",
     "title": "Co-founder & CEO",
     "company": "Figma",
-    "background": "Dylan Field is the co-founder and CEO of Figma, the collaborative interface design tool that revolutionized how product teams build software. A Thiel Fellow who dropped out of Brown University, Dylan has led Figma from a browser-based experiment to a multi-product public company (following the regulatory termination of the Adobe acquisition) that is the industry standard for design."
+    "background": "Dylan Field is the co-founder and CEO of Figma, the collaborative interface design tool that revolutionized how product teams build software. A Thiel Fellow who dropped out of Brown University, Dylan has led Figma from a browser-based experiment to a multi-product public company (following the regulatory termination of the Adobe acquisition) that is the industry standard for design.",
+    "background_zh": "Dylan Field 是 Figma 的联合创始人兼 CEO，这款协同界面设计工具彻底颠覆了产品团队构建软件的方式。作为一名从布朗大学辍学的泰尔奖学金获得者（Thiel Fellow），Dylan 带领 Figma 从一个基于浏览器的实验性项目，发展成为确立设计行业标准的多产品线上市公司（注：此前与 Adobe 的收购交易因监管受阻而终止）。"
   },
   "episodeSummary": "In this conversation, Dylan Field discusses Figma's resilience following the failed Adobe acquisition and reveals the strategies behind their successful expansion into a multi-product platform with FigJam, Slides, and Dev Mode. He shares deep insights on why \"good enough\" is no longer sufficient in software, his framework for launching new product lines by tracing user workflows, and how AI is shifting product development from PRDs to high-fidelity prototypes.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a company has reached product-market fit with its core offering and is looking to expand into a multi-product platform.",
       "commonMistakes": "Trying to bundle every workflow into a single interface (creating bloat) or choosing expansion areas based purely on competitor revenue rather than user workflow proximity.",
       "quote": "I think for us we had a framing of, we're going to go trace a workflow... If you've got an idea, go express it through Slides or hop in FigJam... Okay, what's next? Go design... If you need to go to development after that, Dev Mode will help you take you there.",
-      "realWorldExample": "Figma noticed users were using the design tool for brainstorming (pre-design) and slide decks (post-design). Instead of adding features to the core editor, they launched FigJam and Figma Slides as separate products to own the entire 'Idea to Product' lifecycle."
+      "realWorldExample": "Figma noticed users were using the design tool for brainstorming (pre-design) and slide decks (post-design). Instead of adding features to the core editor, they launched FigJam and Figma Slides as separate products to own the entire 'Idea to Product' lifecycle.",
+      "summary_zh": "与其盯着最大的相邻市场，不如围绕当前产品梳理用户的时序工作流。识别用户在哪些环节正在“Hack”你的产品（变通使用），或是为了处理紧邻的上下游步骤而跳出产品，并针对这些特定场景构建专属的功能承载面。",
+      "problemItSolves_zh": "帮助成熟企业决策下一步的新产品线布局，避免仅依赖 TAM 分析或盲目猜测。",
+      "whenToUse_zh": "当公司的核心产品已达成产品市场匹配，且正寻求向多产品平台扩张时。",
+      "commonMistakes_zh": "试图将所有工作流强行整合进单一界面（导致产品臃肿），或单纯依据竞品营收而非用户工作流的紧密度来选择扩张方向。",
+      "realWorldExample_zh": "Figma 洞察到用户正将其设计工具延伸用于（设计前的）头脑风暴和（设计后的）演示文稿制作。他们没有选择在核心编辑器中单纯叠加功能，而是推出了 FigJam 和 Figma Slides 两款独立产品，从而实现了对“从创意到产品”全生命周期的完整覆盖。",
+      "principles_zh": [
+        "第一步：梳理上下游链路。明确用户在进入产品前（如头脑风暴）及离开产品后（如写代码/做汇报）的紧邻行为。",
+        "第二步：挖掘“魔改”场景。寻找用户是否在“强行”使用现有工具低效地解决上述问题（例如用设计画板制作演示文稿）。",
+        "第三步：抽离独立产品场域。切忌在单一 UI 中堆砌功能。应构建独立的空间（如 FigJam 或 Slides），并针对特定用户心智定制专属的交互逻辑与规则。",
+        "第四步：摒弃传统 TAM 视角。决策优先级不应依赖滞后的现有市场规模数据，而应取决于工作流中用户痛点（Friction）的强烈程度。"
+      ],
+      "name_zh": "The Workflow Tracer Expansion Strategy（工作流追踪扩张策略）"
     },
     {
       "name": "The Emotional Differentiation Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "When launching a 'challenger' product in a crowded market (like whiteboarding) where feature parity is easy but displacement is hard.",
       "commonMistakes": "Applying the emotional layer to the wrong context (e.g., making a code editor 'whimsical' when developers need precision) or treating 'delight' as a backlog item rather than a core differentiator.",
       "quote": "The team was like, 'What? We're going to make fun our differentiator?' In retrospect, it was absolutely the right move.",
-      "realWorldExample": "One month before launching FigJam, Dylan felt the product lacked soul. They decided to differentiate via 'Fun.' A design sprint yielded features like high-fives and Cursor Chat, which became the product's defining characteristics against competitors like Miro."
+      "realWorldExample": "One month before launching FigJam, Dylan felt the product lacked soul. They decided to differentiate via 'Fun.' A design sprint yielded features like high-fives and Cursor Chat, which became the product's defining characteristics against competitors like Miro.",
+      "summary_zh": "这是一套在单凭功能无法取胜时，旨在为产品注入个性与“灵魂”的框架。其核心在于锁定一个具体的情感目标（例如“趣味性”），并将其作为硬性产品需求来对待，而非仅仅停留在品牌包装层面。",
+      "problemItSolves_zh": "解决“缺乏灵魂的 MVP”这一难题：即产品虽然功能完备，却无法引起用户共鸣，也难以在与根深蒂固的竞品竞争中实现差异化突围。",
+      "whenToUse_zh": "当在拥挤的赛道（如在线白板）推出一款“挑战者”产品时，尽管很容易实现功能对齐，但要实现对竞品的替代却非常困难。",
+      "commonMistakes_zh": "错配情感层的应用场景（例如在开发者追求严谨精准的代码编辑器中强行加入“俏皮”元素），或者仅将“用户惊喜感”（Delight）视为 Backlog 中的一条普通需求，而非核心差异化壁垒。",
+      "realWorldExample_zh": "在 FigJam 正式上线前一个月，Dylan 感觉产品还缺乏“灵魂”。于是，团队决定将“趣味性（Fun）”作为差异化战略的核心。通过一轮设计冲刺（Design Sprint），他们孵化出了 High-fives（击掌互动）和 Cursor Chat（光标聊天）等功能，这些功能最终成为了 FigJam 对标 Miro 等竞品时的标志性特征。",
+      "principles_zh": [
+        "步骤 1：灵魂拷问。发布前务必自省：产品是否仅仅堆砌了功能却缺乏“灵魂”？如果体验平庸乏味，注定无法撼动现有的头部玩家。",
+        "步骤 2：锚定情感基调。选择一个独特的情感差异化切入点（例如：趣味性、宁静感、紧迫感），与市场现状形成鲜明反差。",
+        "步骤 3：针对性设计冲刺。开展一场专项设计冲刺，设定唯一目标为“打造能激发特定情感的功能特性”（例如：“如何把体验做得更有趣？”）。",
+        "步骤 4：场景化适配。仅在契合用户心智的场景下注入情感（例如：“趣味性”适合头脑风暴阶段，但在追求像素级精度的执行环节则不适用）。"
+      ],
+      "name_zh": "The Emotional Differentiation Protocol（情感差异化协议）"
     },
     {
       "name": "The 'Blocker Bashing' Sprint",
@@ -63,7 +88,20 @@
       "whenToUse": "During the early scaling phase or when user acquisition is high but activation/retention remains stubbornly low.",
       "commonMistakes": "Focusing on 'Table Stakes' features that competitors have but users don't actually need to experience *your* specific value prop.",
       "quote": "We literally at some point had a team that was called Blockers. They just went in one by one, struck them down. Each time we saw improvement in retention... you could literally see the change in the graph.",
-      "realWorldExample": "Figma created a dedicated 'Blockers' team that systematically removed issues preventing users from reaching the multiplayer experience. This rigorous focus on 'Time to Value' directly correlated with their retention graph improvements."
+      "realWorldExample": "Figma created a dedicated 'Blockers' team that systematically removed issues preventing users from reaching the multiplayer experience. This rigorous focus on 'Time to Value' directly correlated with their retention graph improvements.",
+      "summary_zh": "一种极具纪律性的方法：通过暂停新功能开发，专注于消除阻碍用户感知产品核心价值的细微卡点，从而缩短“价值感知时间（Time to Value）”。",
+      "problemItSolves_zh": "在产品具备核心亮点但用户因体验阻力而早期流失时，提升激活率和留存率。",
+      "whenToUse_zh": "处于早期扩张阶段，或获客强劲但激活/留存持续低迷时。",
+      "commonMistakes_zh": "过度关注竞品已有的“标配功能”，但这些功能并非用户体验你核心价值主张的必要条件。",
+      "realWorldExample_zh": "Figma 组建了一支专门的“清障”团队，系统性地消除阻碍用户触达多人协作体验的卡点。这种对“Time to Value”的极致关注，直接推动了留存曲线的提升。",
+      "principles_zh": [
+        "步骤 1：锁定“魔法时刻”：精准定义用户领悟产品核心价值的关键瞬间（例如在 Figma 中完成首次多人协作编辑）。",
+        "步骤 2：盘点体验阻力：穷举用户到达该时刻前遇到的所有 Bug、交互困惑或性能延迟。",
+        "步骤 3：组建“清障突击队”：指定专项小组，以逐个击破这些障碍作为唯一考核指标。",
+        "步骤 4：挂钩留存（Retention）表现：每次修复后复盘激活（Activation）曲线，持续迭代直到数据提升趋于平稳。",
+        "步骤 5：平衡体验与路径：确保核心体验依然“惊艳”（具备创新性），但当务之急是优先打通触达该体验的用户路径。"
+      ],
+      "name_zh": "The 'Blocker Bashing' Sprint（“清障”冲刺）"
     }
   ],
   "notableQuotes": [
@@ -84,5 +122,6 @@
       "context": "The design adage Dylan repeats most often to his team regarding product philosophy."
     }
   ],
-  "filename": "Dylan Field 2.0"
+  "filename": "Dylan Field 2.0",
+  "episodeSummary_zh": "本期对谈中，Dylan Field 探讨了 Figma 在 Adobe 收购案中止后展现出的韧性，并复盘了公司成功拓展为多产品平台（涵盖 FigJam、Slides 和 Dev Mode）背后的战略思考。他深度剖析了为何当今软件行业仅做到“及格”已毫无竞争力，分享了通过拆解用户工作流来孵化新产品线的方法论，并阐述了 AI 如何重塑产品开发流程——从传统的撰写 PRD 转向直接构建高保真原型。"
 }

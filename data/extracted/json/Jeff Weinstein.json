@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Jeff Weinstein",
+    "title": "Product Lead (Stripe Atlas / Payments)",
+    "company": "Stripe",
+    "background": "Jeff Weinstein is a product leader at Stripe, where he helped scale payments infrastructure to hundreds of billions in volume and led Stripe Atlas to become the primary way new Delaware corporations are formed. Known for his unique blend of 'go-go-go' optimism and long-term compounding strategy, he previously founded a data SQL startup.",
+    "background_zh": "Jeff Weinstein 是 Stripe 的产品负责人，曾助力支付基础设施扩展至数千亿美元的交易量，并带领 Stripe Atlas 成为特拉华州新公司注册的首选平台。他以兼具“极速行动”的乐观主义与长期复利思维而闻名，此前曾创立过一家数据 SQL 领域的创业公司。"
+  },
+  "episodeSummary": "In this masterclass on product craft, Jeff Weinstein deconstructs how Stripe maintains high quality at scale through unique rituals like 'Study Groups' and 'Friction Logs.' He challenges conventional wisdom on user research by advocating for direct, unscripted customer conversations and explains why willing-to-pay is a vanity metric compared to actual payment. The conversation covers actionable frameworks for picking metrics that actually move the needle and how to operationalize empathy.",
+  "episodeSummary_zh": "在这期关于产品工匠精神的大师课中，Jeff Weinstein 拆解了 Stripe 如何通过“学习小组”和“摩擦日志”等独特仪式在规模化扩张中保持高质量。他挑战了传统的用户调研观念，提倡直接、无脚本的客户对话，并解释了为什么“支付意愿”是虚荣指标，唯有实际付费才算数。对话涵盖了如何选择能真正推动业务的指标以及如何将同理心落地的可执行框架。",
+  "filename": "Jeff Weinstein"
+}

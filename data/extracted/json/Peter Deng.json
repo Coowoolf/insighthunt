@@ -1,0 +1,154 @@
+{
+  "guest": {
+    "name": "Peter Deng",
+    "title": "General Partner at Felicis (Former VP Product at OpenAI, Head of Product at Airtable, Uber, Instagram)",
+    "company": "Felicis / OpenAI / Uber / Instagram",
+    "background": "Peter Deng is a legendary product leader who has built and scaled some of the most iconic products in tech history. His resume includes leading product for Facebook News Feed, Messenger, Instagram, Uber Rider, Airtable, and most recently, ChatGPT at OpenAI.",
+    "background_zh": "Peter Deng 是一位传奇的产品领袖，曾负责构建和扩展科技史上最具标志性的多款产品。他的履历包括领导 Facebook News Feed、Messenger、Instagram、Uber 乘客端、Airtable 的产品团队，以及最近在 OpenAI 负责 ChatGPT。"
+  },
+  "episodeSummary": "Peter Deng shares deep insights from his experience leading product at OpenAI, Uber, and Instagram. He discusses the specific challenges of scaling from 1 to 100, introduces a framework for the five types of Product Managers, and reveals his unique philosophy on hiring for autonomy and growth mindset.",
+  "episodeSummary_zh": "Peter Deng 分享了他在 OpenAI、Uber 和 Instagram 领导产品团队的深刻见解。他探讨了从 1 到 100 规模化扩张阶段的具体挑战，提出了一套包含五种产品经理类型的画像框架，并揭示了他关于招聘自主性人才和成长型思维的独特哲学。",
+  "keyTakeaways": [
+    "From 1 to 100, you must stop moving fast and breaking things; instead, plan chess moves and build scalable systems.",
+    "The 5 PM Archetypes framework helps identify team gaps: Consumer, Growth, Business, Platform, and Research/AI PMs.",
+    "Hiring Standard: If a manager is still telling a report what to do after 6 months, they hired the wrong person.",
+    "Sometimes the 'product' (pixels) doesn't matter; at Uber, price and ETA were the real product.",
+    "In the age of AI, data flywheels and deep workflow integration are the new moats.",
+    "Effective managing up involves a simple loop: Say you'll do the thing, do the thing, say you did the thing."
+  ],
+  "methodologies": [
+    {
+      "name": "The 5 PM Archetypes Framework",
+      "name_zh": "五类产品经理画像模型",
+      "category": "team-culture",
+      "problemItSolves": "Helps leaders hire diverse talent and build balanced 'Avengers-style' teams rather than hiring generic PMs.",
+      "problemItSolves_zh": "帮助领导者招聘多元化人才，构建能力互补的“复仇者联盟”式团队，避免招聘千篇一律的通用型 PM。",
+      "summary": "A classification system developed at Uber to identify the specific 'spikes' or superpowers of different product managers. Most PMs have a primary and a secondary archetype.",
+      "summary_zh": "这是一套在 Uber 开发的分类系统，用于识别不同产品经理的独特“技能极值”或超能力。大多数 PM 都有一个主修类型和一个辅修类型。",
+      "principles": [
+        "The Consumer PM: Obsessed with design, craft, and user delight (half designer).",
+        "The Growth PM: Skeptical, data-driven, focuses on experimentation and metrics (half data scientist).",
+        "The Business/GM PM: Focuses on incentives, margins, and business models (half MBA).",
+        "The Platform PM: Wired to build tools and systems that enable others (half systems engineer).",
+        "The Research/AI PM: Deeply understands algorithms/models and translates them into product (half researcher)."
+      ],
+      "principles_zh": [
+        "用户体验型 PM (Consumer PM)：半个设计师，痴迷于产品设计、匠心细节和用户愉悦感。",
+        "增长型 PM (Growth PM)：半个数据科学家，持怀疑态度，完全数据驱动，专注于实验和指标。",
+        "商业/总经理型 PM (GM PM)：半个 MBA，专注于激励机制、利润率和商业模式。",
+        "平台型 PM (Platform PM)：半个系统工程师，热衷于构建赋能他人的底层工具和系统。",
+        "研究/AI型 PM (Research/AI PM)：半个研究员，深入理解算法/模型，并将其转化为落地产品。"
+      ],
+      "whenToUse": "When hiring to ensure team balance or when assessing founder-market fit.",
+      "whenToUse_zh": "在招聘以确保团队能力平衡时，或在评估创始人与市场的匹配度（Founder-Market Fit）时使用。",
+      "commonMistakes": "Thinking one 'unicorn' PM can do it all, or putting a Consumer PM on a heavy infrastructure/backend problem.",
+      "commonMistakes_zh": "认为一个“独角兽”全能型 PM 能搞定所有事，或者错误地将体验型 PM 放在重基础设施/后端的难题上。",
+      "quote": "It's almost like you're playing an RPG where everyone has different sliders and you have to create this super team where everyone actually spikes in different ways.",
+      "realWorldExample": "At Uber, 'Marketplace PMs' were Business PMs focusing on pricing/incentives, while internal messaging required Platform PMs. OpenAI required a new 'Model Designer' role fitting the Research PM archetype.",
+      "realWorldExample_zh": "在 Uber，“市场 PM”通常是关注定价/激励的商业型 PM，而内部消息系统则需要平台型 PM。OpenAI 则需要一种新的“模型设计师”角色，这符合研究型 PM 的画像。"
+    },
+    {
+      "name": "The 6-Month Autonomy Razor",
+      "name_zh": "六个月自主性原则 (The Autonomy Razor)",
+      "category": "execution",
+      "problemItSolves": "Ensures leaders hire high-agency individuals and sets clear expectations for performance and calibration.",
+      "problemItSolves_zh": "确保领导者招聘到具有高度能动性（High Agency）的人才，并为绩效和对齐设定明确期望。",
+      "summary": "A hiring and management heuristic that forces leaders to select for independent thinkers and shift management style from task-assignment to strategic calibration.",
+      "summary_zh": "一种招聘和管理启发式方法，迫使领导者筛选独立思考者，并将管理风格从“分配任务”转变为“战略对齐”。",
+      "principles": [
+        "The Razor: 'In 6 months, if I'm telling you what to do, I've hired the wrong person.'",
+        "Calibration over Direction: The goal is to align judgment so the report directs the manager, not vice versa.",
+        "Growth Mindset Check: Verify ability to learn from mistakes (ask about their biggest failure) to ensure they can handle this autonomy."
+      ],
+      "principles_zh": [
+        "核心准则：“如果六个月后我还在告诉你该做什么，那我就招错人了。”",
+        "重对齐，轻指令：目标是对齐判断力，让下属来告诉管理者该做什么，而不是反过来。",
+        "成长型思维验证：验证从错误中学习的能力（询问他们最大的失败经历），以确保他们能驾驭这种自主权。"
+      ],
+      "whenToUse": "During the final interview stages and during onboarding/expectation setting.",
+      "whenToUse_zh": "在最终面试阶段以及入职/设定以此期望时使用。",
+      "commonMistakes": "Confusing autonomy with lack of support; the manager must still provide context and calibration.",
+      "commonMistakes_zh": "混淆“自主性”与“缺乏支持”；管理者仍需提供背景信息和进行方向校准。",
+      "quote": "The Meta goal becomes, are we calibrating enough? Are we actually getting into a spot where in 6 months you're the one telling me what needs to be done?",
+      "realWorldExample": "Peter explicitly shares this 'API' of how to work with him to new hires, establishing that success equals them driving the roadmap.",
+      "realWorldExample_zh": "Peter 会明确向新员工分享这份“使用说明书（API）”，确立成功的标准是员工能主导产品路线图。"
+    },
+    {
+      "name": "The 'Say-Do-Say' Loop",
+      "name_zh": "“说-做-说”执行闭环",
+      "category": "product-strategy",
+      "problemItSolves": "Solves lack of visibility, misalignment with leadership, and failure to get credit for work done.",
+      "problemItSolves_zh": "解决工作可见性不足、与领导层缺乏对齐，以及工作成果未被认可的问题。",
+      "summary": "A simple communication habit for managing up and ensuring operational rigor. It prevents 'shadow work' and ensures strategy stays aligned with execution.",
+      "summary_zh": "一种用于向上管理和确保运营严谨性的简单沟通习惯。它能防止“隐形工作”，并确保战略与执行保持一致。",
+      "principles": [
+        "Say you'll do the thing: Announce intent to align on goals and language.",
+        "Do the thing: Execute with focus.",
+        "Say you did the thing: Close the loop to confirm completion and impact."
+      ],
+      "principles_zh": [
+        "说你要做这件事：宣布意图，以对齐目标和统一语言。",
+        "做这件事：专注执行。",
+        "说你做了这件事：形成闭环，确认完成度和影响力。"
+      ],
+      "whenToUse": "Daily operations, weekly status updates, and managing up to busy executives.",
+      "whenToUse_zh": "在日常运营、周报更新以及向忙碌的高管汇报（向上管理）时使用。",
+      "commonMistakes": "Assuming the work speaks for itself (it often doesn't) or skipping the first 'Say' and misaligning on priorities.",
+      "commonMistakes_zh": "假设工作成果不言自明（通常并非如此），或者跳过第一个“说”的步骤，导致优先级错位。",
+      "quote": "Repetition doesn't spoil the prayer.",
+      "realWorldExample": "Joanne Jang at OpenAI used this effectively to manage up to Peter, ensuring technical and product priorities were always in sync.",
+      "realWorldExample_zh": "OpenAI 的 Joanne Jang 有效地利用这一点对 Peter 进行向上管理，确保技术和产品优先级始终保持同步。"
+    },
+    {
+      "name": "1-to-100 Systems Scaling",
+      "name_zh": "1到100阶段的系统化扩张",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents technical and product debt from crushing a company during hyperscale.",
+      "problemItSolves_zh": "防止技术债务和产品债务在超高速增长期间压垮公司。",
+      "summary": "Transitioning from seeking PMF (0-1) to sustainable hyperscale (1-100). This requires slowing down to build infrastructure that allows future speed.",
+      "summary_zh": "从寻找 PMF（0-1）过渡到可持续的超高速增长（1-100）。这需要“慢下来”，构建能够支撑未来速度的基础设施。",
+      "principles": [
+        "Plan Chess Moves: Look several steps ahead rather than just reacting.",
+        "Build Systems: Invest in architecture (code/design) that scales (e.g., refactoring).",
+        "Hire Growth Team Early: Not just for numbers, but to force instrumentation and rigorous logging/analytics.",
+        "Balance Portfolio: Allocate resources (e.g., 70/20/10) across core, growth, and bets."
+      ],
+      "principles_zh": [
+        "规划棋局：向前多看几步，而不仅是被动反应。",
+        "构建系统：投资于可扩展的架构（代码/设计），例如重构。",
+        "尽早组建增长团队：不仅为了数字，更是为了倒逼埋点建设和严谨的数据记录/分析。",
+        "平衡投资组合：在核心业务、增长业务和赌注性业务之间分配资源（如 70/20/10 比例）。"
+      ],
+      "whenToUse": "After achieving Product-Market Fit, when transitioning to the scaling phase.",
+      "whenToUse_zh": "在实现产品市场匹配（PMF）后，过渡到规模化扩张阶段时使用。",
+      "commonMistakes": "Continuing 'move fast and break things' tactics when stability and systems are required for the next 10x growth.",
+      "commonMistakes_zh": "在需要稳定性和系统化以实现下一个 10 倍增长时，仍然沿用“快速行动，打破常规”的策略。",
+      "quote": "You have to really think before you act and build systems that were going to let you go sustainably faster.",
+      "realWorldExample": "Uber Rider App needed a complete re-architecture to handle global 'venues' (airports/stadiums) systematically, rather than hard-coding hacks for each location.",
+      "realWorldExample_zh": "Uber 乘客端需要彻底的架构重构，以系统化地处理全球的“场所”（机场/体育场），而不是针对每个地点进行硬编码修补。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Sometimes your product actually doesn't matter. At Uber... the price and the ETA at Uber was the product.",
+      "context": "On the realization that holistic value proposition outweighs UI/UX details."
+    },
+    {
+      "text": "In 6 months, if I'm telling you what to do, I've hired the wrong person.",
+      "context": "His primary heuristic for hiring and setting expectations for autonomy."
+    },
+    {
+      "text": "Repetition doesn't spoil the prayer.",
+      "context": "On the importance of over-communicating goals and status."
+    },
+    {
+      "text": "A lot of the value is still going to require a bunch of hustle from a lot of builders to really turn that new source of energy [AGI] and channel it into something that we humans want to use.",
+      "context": "On why AI won't replace product managers or builders."
+    },
+    {
+      "text": "Sometimes you have to go slow to go fast.",
+      "context": "On scaling from 1 to 100."
+    }
+  ],
+  "filename": "Peter Deng"
+}

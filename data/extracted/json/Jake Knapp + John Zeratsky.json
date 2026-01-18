@@ -1,0 +1,122 @@
+{
+  "guest": {
+    "name": "Jake Knapp & John Zeratsky",
+    "title": "Co-Founders & Partners",
+    "company": "Character",
+    "background": "Authors of the best-selling books 'Sprint' and 'Make Time'. Previously, they were designers at Google and Google Ventures, where they created the Design Sprint process and helped build products like Gmail, YouTube, and Google Meet.",
+    "background_zh": "畅销书《设计冲刺》(Sprint) 和《生时间》(Make Time) 的作者。他们曾是 Google 和 Google Ventures 的设计师，开创了设计冲刺流程，并参与了 Gmail、YouTube 和 Google Meet 等产品的打造。"
+  },
+  "episodeSummary": "Jake and John challenge the traditional definition of productivity, arguing that it's not about speed or efficiency, but about intention. They introduce the 'Make Time' framework to help leaders escape the 'Busy Bandwagon' and 'Infinity Pools' of distraction, focusing instead on creating meaningful daily highlights.",
+  "episodeSummary_zh": "Jake 和 John 挑战了对生产力的传统定义，认为生产力不在于速度或效率，而在于意图（Intention）。他们介绍了“生时间”（Make Time）框架，帮助管理者摆脱“忙碌跟风”和分散注意力的“无尽泳池”，转而专注于创造每日的“高光时刻”。",
+  "keyTakeaways": [
+    "Productivity isn't about clearing your inbox; it's about making time for what matters most.",
+    "Willpower is insufficient against modern technology; you must change your environment's defaults.",
+    "The 'Busy Bandwagon' creates a false sense that we must always be reactive and available.",
+    "'Infinity Pools' (apps with endless feeds) are designed to steal attention and must be managed aggressively.",
+    "Treat your day as an experiment—reflect and iterate on your schedule just like a product.",
+    "Design Sprints allow teams to go from idea to prototype and data in just five days.",
+    "For startups, Sprints are crucial for testing high-behavioral-risk products before building."
+  ],
+  "methodologies": [
+    {
+      "name": "The Make Time Framework",
+      "name_zh": "“生时间” (Make Time) 四步框架",
+      "category": "execution",
+      "problemItSolves": "Solves the feeling of being constantly busy yet unfulfilled, battling the 'Busy Bandwagon' (social pressure to be busy) and 'Infinity Pools' (endless content).",
+      "problemItSolves_zh": "解决总是忙碌却缺乏成就感的问题，对抗“忙碌跟风”（必须忙碌的社会压力）和“无尽泳池”（无穷无尽的内容流）。",
+      "summary": "A four-step daily loop designed to shift focus from reactive productivity (speed/efficiency) to intentional living. It centers on choosing one focal point for the day and designing the environment to support it.",
+      "summary_zh": "一个包含四个步骤的每日循环，旨在将重心从反应式生产力（速度/效率）转移到有意识的生活。其核心在于每天选择一个关注点，并设计相应的环境来支持它。",
+      "principles": [
+        "Highlight: Choose one focal point for the day based on Urgency, Satisfaction, or Joy.",
+        "Laser: Create barriers to distraction to stay focused (e.g., delete apps, log out).",
+        "Energize: Maintain the physical battery required for mental focus (sleep, movement, food).",
+        "Reflect: Treat the day like an experiment. Review what worked and iterate for tomorrow."
+      ],
+      "principles_zh": [
+        "高光时刻 (Highlight)：基于“紧迫性”、“满足感”或“愉悦感”，每天选定一个核心关注点。",
+        "激光聚焦 (Laser)：为专注创造屏障，阻断干扰（如删除App、退出登录）。",
+        "能量充电 (Energize)：通过睡眠、运动和饮食，维持脑力专注所需的体能。",
+        "复盘反思 (Reflect)：像做实验一样看待每一天。回顾有效的方法，并为明天进行迭代。"
+      ],
+      "whenToUse": "Daily application for product leaders and founders feeling overwhelmed by reactive tasks (email, Slack).",
+      "whenToUse_zh": "适用于每天被反应式任务（邮件、Slack）淹没的产品负责人和创始人。",
+      "commonMistakes": "Relying on willpower to resist distractions instead of changing the environment (defaults).",
+      "commonMistakes_zh": "依赖意志力去抵抗干扰，而不是去改变环境（默认设置）。",
+      "quote": "It's not really about productivity... it's about, look, at any given day, we're lucky if we can have one great moment where we have our peak attention and we use it well.",
+      "realWorldExample": "Jake choosing to go sledding with his son (Joy) over preparing for a podcast (Urgency), realizing the family moment was the true 'Highlight' of the day.",
+      "realWorldExample_zh": "Jake 在准备播客（紧迫性）和陪儿子滑雪（愉悦感）之间，选择了后者，因为他意识到家庭时光才是当天真正的“高光时刻”。"
+    },
+    {
+      "name": "The Distraction Defense Protocol",
+      "name_zh": "干扰防御协议",
+      "category": "execution",
+      "problemItSolves": "Prevents 'Attention Residue' and the constant context switching caused by having work and entertainment apps readily available.",
+      "problemItSolves_zh": "防止因工作和娱乐应用触手可及而导致的“注意力残留”和持续的语境切换。",
+      "summary": "A tactical approach to re-engineering personal devices and workflows to make distraction difficult and focus the default state. It emphasizes adding friction to bad habits.",
+      "summary_zh": "一种重新设计个人设备和工作流的战术方法，旨在增加干扰的难度，使专注成为默认状态。其核心是为坏习惯增加“摩擦力”。",
+      "principles": [
+        "Delete Infinity Pools: Remove apps with infinite feeds (Social Media, News, Email) from the phone.",
+        "Add Friction: Log out of websites, require 2FA, or use 'dumb' devices to make accessing distraction harder.",
+        "Reset Expectations: Publicly state (via email signature/auto-reply) that you are slow to respond due to deep work.",
+        "Burnt Ships: Create environments with zero internet access to force deep work."
+      ],
+      "principles_zh": [
+        "删除无尽泳池：从手机中删除具有无限信息流的应用（社交媒体、新闻、邮件）。",
+        "增加摩擦力：退出网站登录、开启双重验证或使用功能单一的设备，让获取干扰源变得更难。",
+        "重置预期：通过邮件签名或自动回复公开声明，由于进行深度工作，回复会变慢。",
+        "破釜沉舟：创造完全没有互联网连接的环境，倒逼深度工作。"
+      ],
+      "whenToUse": "When you find yourself unconsciously scrolling or checking notifications (the 'Frodo and the Ring' effect).",
+      "whenToUse_zh": "当你发现自己无意识地刷屏或查看通知时（类似于指环王中“佛罗多和魔戒”的效应）。",
+      "commonMistakes": "Thinking you can just ignore the apps; keeping email on your phone 'just in case'.",
+      "commonMistakes_zh": "以为自己可以无视应用的存在；为了“以防万一”而在手机上保留工作邮件。",
+      "quote": "If you can push them far enough away so that there is far away or farther away than the sandwich, I'm going to eat the sandwich.",
+      "realWorldExample": "John removing email from his phone and only checking news once a week via The Economist to avoid the daily noise.",
+      "realWorldExample_zh": "John 从手机上删除了邮件应用，并且只通过《经济学人》周刊每周查看一次新闻，以避开日常的噪音。",
+      "category_zh": "执行力"
+    },
+    {
+      "name": "The Design Sprint",
+      "name_zh": "设计冲刺 (Design Sprint)",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the risk of spending months building a product that no one wants (lack of Product-Market Fit) or that users don't trust.",
+      "problemItSolves_zh": "解决花费数月开发却无人问津（缺乏PMF）或用户不信任产品的风险。",
+      "summary": "A five-day process for answering critical business questions through design, prototyping, and testing ideas with customers. It compresses months of work into a single week.",
+      "summary_zh": "一个为期五天的流程，通过设计、原型制作和与客户测试创意来回答关键业务问题。它将数月的工作压缩到了一周内。",
+      "principles": [
+        "Map & Sketch: Define the problem and generate diverse solutions individually.",
+        "Decide: Select the best concept without endless debate.",
+        "Prototype: Build a realistic-enough facade of the product (not fully functional) in one day.",
+        "Test: Get feedback from 5 real users to validate or invalidate the hypothesis."
+      ],
+      "principles_zh": [
+        "绘制与草图：定义问题并独立生成多样化的解决方案。",
+        "决策：在没有无休止辩论的情况下选出最佳概念。",
+        "原型制作：在一天内构建一个足够逼真的产品表象（而非全功能产品）。",
+        "测试：从5位真实用户那里获取反馈，以验证或推翻假设。"
+      ],
+      "whenToUse": "When starting a new feature, launching a startup, or navigating high behavioral risk (e.g., getting users to trust AI).",
+      "whenToUse_zh": "在启动新功能、创立初创公司或应对高行为风险（例如让用户信任AI）时使用。",
+      "commonMistakes": "Trying to build a perfect MVP instead of a rapid prototype; debating ideas instead of testing them.",
+      "commonMistakes_zh": "试图构建完美的MVP而不是快速原型；无休止地争论创意而不是去测试它们。",
+      "quote": "Go from a zero to a prototype and a test of that prototype in just five days.",
+      "realWorldExample": "Jake helping the Google Meet team pivot from a stalled 1.5-year project to a working prototype in one week.",
+      "realWorldExample_zh": "Jake 帮助 Google Meet 团队在短短一周内，将一个停滞了一年半的项目转变为一个可工作的原型。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Willpower is never going to win... you're not going to white-knuckle your way through not looking at Twitter when you're trying to work.",
+      "context": "John explaining why changing your environment is superior to trying to be disciplined."
+    },
+    {
+      "text": "If someone asks you, 'What was the highlight of your day,' what would you say? That's the anchor of everything.",
+      "context": "Jake defining the core concept of the 'Highlight' to ground daily productivity."
+    },
+    {
+      "text": "Busy is a choice. We are basically steered toward becoming reaction machines... if we're a reaction machine, we're not doing meaningful work.",
+      "context": "Jake discussing the societal pressure of the 'Busy Bandwagon'."
+    }
+  ],
+  "filename": "Jake Knapp + John Zeratsky"
+}

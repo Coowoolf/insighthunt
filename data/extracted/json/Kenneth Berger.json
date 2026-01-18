@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Kenneth Berger",
+    "title": "Executive Coach & Former First PM at Slack",
+    "company": "Kberger.com",
+    "background": "Kenneth was the first Product Manager at Slack and spent over a decade in tech as a founder and operator. He now serves as an executive coach for startup leaders, focusing on preventing burnout and helping them lead with integrity.",
+    "background_zh": "Kenneth 是 Slack 的首位产品经理，在科技行业拥有超过十年的创业者和运营者经验。目前他担任初创企业高管教练，致力于帮助领导者避免职业倦怠（burnout），并以正直（integrity）为核心进行领导。"
+  },
+  "episodeSummary": "Kenneth Berger discusses the critical skill of 'asking for what you want' as a mechanism for career sustainability and integrity. He breaks down the psychological barriers to asking, introduces a 3-step framework for effective communication, and shares his vulnerable story of being fired from Slack three times due to a failure to exercise this skill.",
+  "episodeSummary_zh": "Kenneth Berger 探讨了“提出诉求”这一核心技能，将其视为职业生涯可持续发展和保持正直的关键机制。他剖析了阻碍开口的心理障碍，介绍了一个包含三个步骤的高效沟通框架，并分享了自己在 Slack 因未能有效运用这一技能而经历三次被解雇的深刻教训。",
+  "keyTakeaways": [
+    "Asking for what you want is an iterative process: Articulate, Ask, Accept.",
+    "Complaints are valuable data; they reveal the 'dream' or outcome you actually desire.",
+    "If it's not a 'Hell Yes' (whole body yes), treat it as a 'No' to avoid future execution failures.",
+    "Accepting a 'No' builds trust and relationships; getting angry or ignoring it destroys influence.",
+    "Even without authority (data), PMs should state their intuitive opinions with humility to maintain integrity.",
+    "Fear-based motivation is unsustainable; vision-based motivation prevents burnout.",
+    "People-pleasing and control-freak behaviors are both symptoms of failing to ask effectively."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Ask for What You Want' Loop",
+      "name_zh": "需求提议闭环模型",
+      "category": "career-leadership",
+      "problemItSolves": "Solves career stagnation, burnout, and misalignment caused by people-pleasing or aggressive commanding.",
+      "problemItSolves_zh": "解决因讨好型人格或强势指令导致的职业停滞、倦怠以及团队目标不一致问题。",
+      "summary": "A cyclical process to ensure you are operating with integrity by identifying desires, communicating them clearly, and processing the results to iterate.",
+      "summary_zh": "一个循环迭代的过程，通过明确自身愿望、清晰沟通诉求并处理反馈结果，确保个人在职场中保持言行一致（Integrity）。",
+      "principles": [
+        "Articulate: Move beyond 'I'm fine.' Identify the dream behind your complaints or frustrations.",
+        "Ask Intentionally: Speak facts and feelings directly rather than hoping people read your mind or demanding obedience.",
+        "Accept the Response: Regulate emotions to hear the 'No.' Treat the response as data for the next iteration, not a personal rejection."
+      ],
+      "principles_zh": [
+        "明确诉求 (Articulate)：拒绝“我无所谓”的心态。从抱怨和挫折中挖掘背后真正的愿景。",
+        "意向性提问 (Ask Intentionally)：基于事实和感受直接表达，而非寄希望于他人读心或进行强制命令。",
+        "接纳反馈 (Accept)：调节情绪以接受“拒绝”。将反馈视为下一次迭代的数据，而非针对个人的否定。"
+      ],
+      "whenToUse": "When you feel stuck, resentful, or when managing stakeholders where you lack direct authority.",
+      "whenToUse_zh": "当你感到职业停滞、心生怨怼，或在缺乏直接职权（Authority）的情况下管理利益相关者时。",
+      "commonMistakes": "Stopping after the 'No' and thinking the dream is dead, rather than iterating on the request; or using data to hide your true opinion.",
+      "commonMistakes_zh": "听到“不”后就认为愿景破灭而停止尝试，而不是迭代提问方式；或者试图用数据来掩盖自己真实的直觉观点。",
+      "quote": "The core idea is ask for what you want. Turns out when you actually ask for what you want out loud, you're much more likely to get it.",
+      "realWorldExample": "Kenneth failed to articulate his desire to have a strong partnership with Slack's CEO, leading to misalignment and eventually being fired. When he finally wrote a proposal asking for what he wanted, he briefly got his job back.",
+      "realWorldExample_zh": "Kenneth 最初未能明确表达希望与 Slack CEO 建立深度合作伙伴关系的诉求，导致目标错位并最终被解雇。当他最终写下一份提案明确表达诉求时，他短暂地赢回了职位。"
+    },
+    {
+      "name": "The 'Hell Yes' Consensus Filter",
+      "name_zh": "“绝对赞同 (Hell Yes)” 决策过滤器",
+      "category": "execution",
+      "problemItSolves": "Prevents missed deadlines and low-quality deliverables caused by lukewarm agreement or malicious compliance.",
+      "problemItSolves_zh": "防止因团队成员勉强同意或恶意服从（malicious compliance）而导致的工期延误和交付质量低下。",
+      "summary": "A standard for agreement where only enthusiastic, whole-body consent is accepted as a 'Yes.' Anything less is treated as a 'No' to provoke honest conversation.",
+      "summary_zh": "一种达成共识的标准：只有充满热情、全身心的赞同才被视为“Yes”。任何犹豫都被视为“No”，以此激发诚实的对话。",
+      "principles": [
+        "Audit for Enthusiasm: If the response is 'Maybe', 'I'll try', or body language is hesitant, interpret it as a 'No'.",
+        "The Conversion Question: Instead of forcing agreement, ask 'What would it take to get you to a Hell Yes?'",
+        "Respecting the No: Allow the 'No' to exist. This forces the team to find a realistic solution (e.g., changing scope or timeline) rather than a fantasy one."
+      ],
+      "principles_zh": [
+        "审查热情度：如果回复是“也许”、“我试试”，或者肢体语言犹豫，直接将其解读为“No”。",
+        "转化提问：不要强迫达成一致，而是问“需要什么条件才能让你全身心赞同（Hell Yes）？”",
+        "尊重拒绝：允许“No”的存在。这迫使团队寻找现实的解决方案（如调整范围或时间表），而不是基于幻想的承诺。"
+      ],
+      "whenToUse": "During sprint planning, roadmap negotiations, or when getting commitment on deadlines from engineering.",
+      "whenToUse_zh": "在冲刺规划（Sprint Planning）、路线图谈判或要求工程团队承诺截止日期时。",
+      "commonMistakes": "Accepting a reluctant 'Yes' to avoid conflict in the meeting, only to face failure at the deadline.",
+      "commonMistakes_zh": "为了避免会议冲突而接受勉强的“Yes”，结果在截止日期面临交付失败。",
+      "quote": "It's not a yes unless it's a hell yes. Because you really want enthusiastic consent.",
+      "realWorldExample": "A CTO says they 'think maybe' they can deliver by May 1st. Instead of accepting this, the PM treats it as a 'No' and negotiates a date the CTO is fully confident in.",
+      "realWorldExample_zh": "CTO 表示他们“觉得也许”能在 5 月 1 日前交付。产品经理不应接受这个说法，而应将其视为“拒绝”，并重新协商一个 CTO 完全有信心的日期。"
+    },
+    {
+      "name": "Dream Behind the Complaint",
+      "name_zh": "抱怨背后的愿景洞察",
+      "category": "user-research",
+      "problemItSolves": "Helps define product vision or team culture improvements when users or team members are stuck in negativity.",
+      "problemItSolves_zh": "当用户或团队成员陷入消极情绪时，帮助定义产品愿景或团队文化改进方向。",
+      "summary": "A technique to transform negative feedback into positive product or cultural goals by identifying the implicit desire hidden within every complaint.",
+      "summary_zh": "一种将负面反馈转化为积极的产品或文化目标的技术，通过识别每个抱怨中隐含的愿望。",
+      "principles": [
+        "Complaints imply a better future: Every frustration points to a world where that frustration doesn't exist.",
+        "Invert the negative: If someone complains 'Why are they always late?', the dream is 'A team that values reliability and flow'.",
+        "Check for resonance: Does the articulated dream feel big enough? Is it inspiring? If not, dig deeper."
+      ],
+      "principles_zh": [
+        "抱怨暗示更美好的未来：每一个挫折都指向一个该挫折不存在的理想世界。",
+        "反转负面情绪：如果有人抱怨“为什么他们总是迟到？”，其背后的愿景是“一个重视可靠性和心流的团队”。",
+        "共鸣检查：明确表达出的愿景是否足够宏大？是否具有感召力？如果没有，继续深挖。"
+      ],
+      "whenToUse": "During retrospectives, 1:1s with frustrated reports, or analyzing user feedback themes.",
+      "whenToUse_zh": "在回顾会（Retrospectives）、与受挫下属的 1:1 面谈中，或分析用户反馈主题时。",
+      "commonMistakes": "Validating the complaint without moving to the vision, or dismissing the complainer as 'toxic' without extracting the insight.",
+      "commonMistakes_zh": "仅仅认可抱怨而没有转向愿景，或者直接将抱怨者贴上“有毒”标签而忽略了其中蕴含的洞察。",
+      "quote": "Complaints are great inspiration. Every complaint implies a dream.",
+      "realWorldExample": "A founder complains that no one listens to them. The dream isn't 'obedience', but 'a team that is aligned and has each other's backs'.",
+      "realWorldExample_zh": "一位创始人抱怨没人听他的。他真正的愿景并不是“服从”，而是“一个目标对齐且彼此支持的团队”。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "For me, the impact was about making this work sustainable so that we're not burning out or selling out, but actually able to pursue these hard goals that we have in startups.",
+      "context": "On why asking for what you want is crucial for longevity in tech."
+    },
+    {
+      "text": "Fear is for when there's a tiger chasing you and there's no tiger chasing me. I'm sitting in my office in a desk chair on a zoom call.",
+      "context": "On reframing fear in the modern workplace."
+    },
+    {
+      "text": "Turns out, when you actually ask for what you want out loud, you're much more likely to get it.",
+      "context": "The central thesis of Kenneth's coaching philosophy."
+    }
+  ],
+  "filename": "Kenneth Berger"
+}

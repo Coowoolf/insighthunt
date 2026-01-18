@@ -1,0 +1,119 @@
+{
+  "guest": {
+    "name": "Jake Knapp & John Zeratsky",
+    "title": "Co-Founders at Character Capital & Authors of 'Sprint'",
+    "company": "Character Capital",
+    "background": "Jake and John are the creators of the famous Design Sprint process developed at Google and Google Ventures. They are best-selling authors of 'Sprint' and 'Make Time', and now run Character Capital, a venture firm that helps early-stage startups find product-market fit using their sprint methodologies.",
+    "background_zh": "Jake和John是著名的“设计冲刺”（Design Sprint）流程的创造者，该方法论诞生于Google和Google Ventures。他们是畅销书《设计冲刺》和《高能要事》（Make Time）的作者，目前经营Character Capital风投公司，利用冲刺方法论帮助早期初创企业寻找PMF（产品市场匹配）。"
+  },
+  "episodeSummary": "In this episode, Jake and John introduce the 'Foundation Sprint', a 10-hour framework designed to precede the classic Design Sprint. They detail how founders can define their core value proposition, differentiate from competitors using the 'Loserville' matrix, and structure a 'Founding Hypothesis' before writing a single line of code. The conversation covers specific techniques for decision-making and validation to avoid the 'generic AI product' trap.",
+  "episodeSummary_zh": "在本期节目中，Jake和John介绍了“基础冲刺”（Foundation Sprint），这是一个为期10小时、用于前置经典“设计冲刺”的框架。他们详细讲解了创始人如何在写第一行代码前，定义核心价值主张、利用“失败区”矩阵进行差异化定位，并构建“创始假设”。对话涵盖了具体的决策和验证技巧，旨在帮助团队避免开发出同质化的AI产品。",
+  "keyTakeaways": [
+    "Clear your calendar for 10 hours (two days) to align the core team on strategy before building.",
+    "Avoid group brainstorms; use 'Note and Vote' (working alone together) to prevent groupthink and speed up decisions.",
+    "Differentiation must be based on a promise to the customer, not just technology or market opportunity.",
+    "Use the 'Founding Hypothesis' template to articulate exactly who you are serving, how you win, and your backup plan.",
+    "Speed in building can be dangerous; moving fast in the wrong direction (especially with AI) leads to generic products.",
+    "Validate your hypothesis using a 'Scorecard' (Red/Yellow/Green) after customer interviews, not just gut feeling.",
+    "Product positioning and the product itself should be developed in parallel, not sequentially."
+  ],
+  "methodologies": [
+    {
+      "name": "The Foundation Sprint",
+      "name_zh": "基础冲刺 (The Foundation Sprint)",
+      "category": "product-strategy",
+      "problemItSolves": "Teams often skip strategy to start building immediately, leading to misalignment and generic products that fail to find PMF.",
+      "problemItSolves_zh": "团队往往跳过战略规划直接开始构建，导致目标不一致，并开发出难以找到PMF的同质化产品。",
+      "summary": "A 10-hour intensive workshop split into two days. It aligns the core team on the basics (Customer, Problem, Solution), establishes differentiation, and selects an implementation approach to form a testable hypothesis.",
+      "summary_zh": "这是一个分两天进行的10小时高强度研讨会。它旨在让核心团队在基础要素（客户、问题、解决方案）上达成一致，确立差异化优势，并选择实施路径，最终形成一个可验证的假设。",
+      "principles": [
+        "Day 1 - The Basics: Define Customer, Problem, Competition, and Advantages using 'Note and Vote'.",
+        "Day 2 - Differentiation: Create custom differentiators and map them against competitors.",
+        "The Founding Hypothesis: Fill in the blank: 'If we solve [problem] for [customer] with [approach], they will choose us over [competitors] because [differentiators].'"
+      ],
+      "principles_zh": [
+        "第一天 - 基础要素：使用“独立思考与投票”（Note and Vote）定义客户、问题、竞争对手和自身优势。",
+        "第二天 - 差异化：创建定制的差异化指标，并将其与竞争对手进行对比映射。",
+        "创始假设：完成填空题：“如果我们通过[方法]为[客户]解决[问题]，他们会因为[差异点]而选择我们，而不是[竞争对手]。”"
+      ],
+      "whenToUse": "At the very beginning of a startup or a new major product initiative (0 to 1 stage).",
+      "whenToUse_zh": "在初创公司起步阶段或主要新产品立项初期（0到1阶段）。",
+      "commonMistakes": "Skipping the 'boring' questions about who the customer is; assuming alignment exists without writing it down.",
+      "commonMistakes_zh": "跳过关于“客户是谁”等看似枯燥的基础问题；在没有书面记录的情况下误以为团队已达成共识。",
+      "quote": "Going fast can actually slow you down in the long run.",
+      "realWorldExample": "Latchet (a startup for artisans) used this to pivot from 4 different ideas (app, newsletter, plugin) to a specific 'social sales app' approach.",
+      "realWorldExample_zh": "Latchet（一家服务手工艺人的初创公司）利用此方法从四个不同的想法（App、通讯、插件）中聚焦，最终确定了“社交销售应用”这一路径。"
+    },
+    {
+      "name": "The 'Loserville' Differentiation Matrix",
+      "name_zh": "“失败区”差异化矩阵",
+      "category": "product-strategy",
+      "problemItSolves": "Startups failing to distinguish themselves from incumbents (like Google/Shopify) or alternatives (Excel/Pen & Paper).",
+      "problemItSolves_zh": "初创公司无法将自己与巨头（如Google/Shopify）或替代方案（如Excel/纸笔）区分开来。",
+      "summary": "A 2x2 matrix exercise. Instead of random axes, you select two specific differentiators where your product sits in the top-right, and all competitors fall into an L-shaped 'Loserville' (top-left, bottom-left, bottom-right).",
+      "summary_zh": "这是一个2x2矩阵练习。你不需要随机选择坐标轴，而是选择两个特定的差异化指标，确保你的产品位于右上角，而所有竞争对手都落入呈L型的“失败区”（左上、左下、右下）。",
+      "principles": [
+        "Classic Differentiators: Start with standard axes (Fast/Slow, Cheap/Expensive) to warm up.",
+        "Custom Differentiators: Create unique axes based on your specific 'Magic' or insight (e.g., 'Networked vs. Siloed').",
+        "The Top-Right Rule: You must be the only one in the top-right quadrant; everyone else must be in 'Loserville'.",
+        "Mini-Manifesto: Establish principles to guide future decisions based on this differentiation."
+      ],
+      "principles_zh": [
+        "经典差异点：从标准坐标轴（快/慢、便宜/贵）开始预热。",
+        "定制差异点：基于你的独特“魔力”或洞察创建坐标轴（例如：“网络化 vs 孤岛化”）。",
+        "右上角法则：你必须是右上角象限的唯一玩家，其他所有竞品必须位于“失败区”。",
+        "迷你宣言：基于这种差异化，确立指导未来决策的原则。"
+      ],
+      "whenToUse": "When defining your value proposition and positioning strategy.",
+      "whenToUse_zh": "在定义价值主张和定位策略时使用。",
+      "commonMistakes": "Listing feature comparisons instead of customer-perceived value; picking differentiators you can't actually deliver on.",
+      "commonMistakes_zh": "列举功能对比表而非客户感知的价值；选择了实际上无法交付的差异化点。",
+      "quote": "If you solve this problem for this customer with this approach, we think they're going to choose it over the competitors because of differentiator one and differentiator two.",
+      "realWorldExample": "Mellow (AI agents) positioned themselves as 'Mobile First' and 'Works out of the box' to differentiate from generic LLMs like OpenAI.",
+      "realWorldExample_zh": "Mellow（AI代理）通过定位为“移动优先”和“开箱即用”，将自己与OpenAI等通用大模型区分开来。"
+    },
+    {
+      "name": "Magic Lenses for Decision Making",
+      "name_zh": "“魔力透镜”决策模型",
+      "category": "execution",
+      "problemItSolves": "Indecision when a team has multiple viable ways to build a solution (e.g., Mobile App vs. Chrome Extension vs. Platform).",
+      "problemItSolves_zh": "当团队有多种可行的构建方案（如：移动App vs Chrome插件 vs 平台）时出现的决策困难。",
+      "summary": "A framework to evaluate different implementation paths (A, B, C) through specific perspectives or 'lenses' represented by hypothetical advisors.",
+      "summary_zh": "这是一个通过特定视角或“透镜”（代表假设的顾问）来评估不同实施路径（方案A、B、C）的框架。",
+      "principles": [
+        "Define Options: List distinct approaches (e.g., Option A: Full Stack, Option B: Plugin).",
+        "Apply Lenses: Score options through lenses like 'Customer Expert', 'Pragmatic Builder', 'Growth', and 'Money'.",
+        "The Conviction Lens: (The 'Lenny Lens') Which option are the founders most excited to build?",
+        "Select & Backup: Choose a primary path and explicitly identify a backup plan."
+      ],
+      "principles_zh": [
+        "定义选项：列出不同的路径（例如：方案A 全栈自研，方案B 插件模式）。",
+        "应用透镜：通过“客户专家”、“务实构建者”、“增长”和“财务”等视角对选项进行评分。",
+        "信念透镜：（即“Lenny透镜”）创始人最兴奋、最有激情去构建的是哪个选项？",
+        "选择与备选：选择一条主路径，并明确制定一个备选计划（Plan B）。"
+      ],
+      "whenToUse": "During the 'Approach' phase of the Foundation Sprint, before writing code.",
+      "whenToUse_zh": "在基础冲刺的“路径选择”阶段，写代码之前使用。",
+      "commonMistakes": "Trying to do everything at once; ignoring the 'Pragmatic' lens (feasibility) or the 'Conviction' lens (founder energy).",
+      "commonMistakes_zh": "试图同时做所有事情；忽视“务实”透镜（可行性）或“信念”透镜（创始人的精力与热情）。",
+      "quote": "Imagine waving a magic wand and putting the perfect team of advisors in place to counsel the founders.",
+      "realWorldExample": "Latchet evaluated building a Shopify Plugin vs. a Standalone App using these lenses to decide where to start.",
+      "realWorldExample_zh": "Latchet利用这些透镜评估了“开发Shopify插件”与“独立App”的优劣，从而决定了起步方向。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The more AI-generated or assisted they are, the more generic they tend to turn out.",
+      "context": "John Zeratsky explaining why rushing to build with AI without a strategy often leads to failure."
+    },
+    {
+      "text": "Going fast can actually slow you down in the long run.",
+      "context": "John Zeratsky on the paradox of skipping the strategy phase to start coding immediately."
+    },
+    {
+      "text": "We recommend this kind of crazy idea that you clear your calendar.",
+      "context": "Jake Knapp emphasizing the necessity of deep focus (10 hours) to solve foundational problems."
+    }
+  ],
+  "filename": "Jake Knapp + John Zeratsky 2.0"
+}

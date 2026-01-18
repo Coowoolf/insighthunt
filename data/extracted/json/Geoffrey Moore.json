@@ -1,0 +1,125 @@
+{
+  "guest": {
+    "name": "Geoffrey Moore",
+    "title": "Author / Consultant / Speaker",
+    "company": "Geoffrey Moore Consulting",
+    "background": "Geoffrey Moore is the author of 'Crossing the Chasm', arguably the most influential book on go-to-market strategy for technology products. He specializes in market adoption lifecycles and advising startups and enterprise companies on navigating disruptive innovation.",
+    "background_zh": "Geoffrey Moore 是《跨越鸿沟》的作者，该书被誉为科技产品 GTM（市场进入）战略的圣经。他专注于技术采用生命周期的研究，并长期为初创企业和大型企业提供关于颠覆性创新的咨询服务。"
+  },
+  "episodeSummary": "Geoffrey Moore revisits his seminal framework on technology adoption, explaining why many founders still fail to cross the 'chasm' between early adopters and the early majority. He details the specific playbooks for each stage of a company's lifecycle—from finding a beachhead market to navigating the 'tornado' of mass adoption—and warns against common pitfalls like broad targeting and premature discounting.",
+  "episodeSummary_zh": "Geoffrey Moore 重温了他关于技术采用周期的经典框架，解释了为什么许多创始人仍然无法跨越早期采用者和早期大众之间的“鸿沟”。他详细介绍了公司生命周期各个阶段的具体打法——从寻找滩头阵地到驾驭大规模采用的“龙卷风”期——并针对目标泛化和过早打折等常见误区发出了警告。",
+  "keyTakeaways": [
+    "Startups must secure a 'marquee customer' to put them on the map before attempting to cross the chasm.",
+    "To cross the chasm, focus on a niche segment that is 'big enough to matter, small enough to lead'.",
+    "Visionaries want 'projects' and future tech; Pragmatists want 'solutions' and peer references.",
+    "Do not confuse a 'compelling reason to sell' (your features) with a 'compelling reason to buy' (their pain).",
+    "Different market stages require contradictory playbooks; using a Tornado playbook in the Bowling Alley phase will kill your company.",
+    "Avoid discounting during the chasm crossing; price based on the value of solving a critical problem.",
+    "For B2B, the target market must be defined by geography, industry, and profession to ensure peer references work."
+  ],
+  "methodologies": [
+    {
+      "name": "The Bowling Pin Strategy (Beachhead Segment)",
+      "name_zh": "“保龄球瓶”策略（滩头阵地法则）",
+      "category": "product-strategy",
+      "problemItSolves": "Solves the 'Cold Start' problem where pragmatic customers won't buy a new product without references from peers in their specific industry.",
+      "problemItSolves_zh": "解决“冷启动”问题：实用主义客户在没有同行背书的情况下，拒绝购买新产品。",
+      "summary": "Instead of attacking the broad market, startups must focus on a specific niche (a beachhead) to achieve a dominant market share quickly. By solving the 'whole product' needs for one segment, you gain the references needed to knock over adjacent segments (the next bowling pins).",
+      "summary_zh": "初创企业不应盲目攻击广阔市场，而必须聚焦于一个特定的细分领域（滩头阵地），以迅速获得主导市场份额。通过为一个细分市场提供完整的解决方案（Whole Product），你将获得攻克相邻细分市场（下一个保龄球瓶）所需的客户背书。",
+      "principles": [
+        "Select a segment that is 'big enough to matter, small enough to lead'.",
+        "Target a specific geography, industry, and profession so customers talk to each other.",
+        "Commit to solving the specific 'broken' problem for that segment completely (The Whole Product).",
+        "Use success in the first segment to leverage entry into adjacent segments (e.g., Pharma -> Chemical -> Petrochemical)."
+      ],
+      "principles_zh": [
+        "选择一个“大到有意义，小到能称王”的细分市场。",
+        "锁定特定的地理区域、行业和职业角色，确保客户之间存在交流网络。",
+        "承诺彻底解决该细分市场中特定的“痛点”问题（提供完整产品）。",
+        "利用第一个细分市场的成功作为杠杆，进入相邻的细分市场（例如：从制药业扩展到化工业，再到石油化工业）。"
+      ],
+      "whenToUse": "When transitioning from early visionary adopters to the pragmatic early majority (crossing the chasm).",
+      "whenToUse_zh": "当产品从早期的“远见者”用户向务实的“早期大众”过渡时（即跨越鸿沟阶段）。",
+      "commonMistakes": "Trying to light a fire by moving the match under the whole log (selling to everyone) rather than focusing on kindling (a specific niche).",
+      "commonMistakes_zh": "试图通过在整根木头下移动火柴来生火（向所有人销售），而不是专注于引火物（特定的细分市场）。",
+      "quote": "If you light the fire, the piece of kindling is here, but the log is in the other room. That doesn't work.",
+      "realWorldExample": "Documentum started solely with the pharmaceutical industry for NDA submissions, then moved to chemicals for operating manuals, then into petrochemicals for lease holds, before going broad.",
+      "realWorldExample_zh": "Documentum 最初仅专注于制药行业的新药申请（NDA）文档管理，确立地位后扩展到化工行业的操作手册管理，随后进入石油化工的租赁管理，最后才走向大众市场。"
+    },
+    {
+      "name": "The Four GTM Playbooks",
+      "name_zh": "四阶段 GTM 操盘手册",
+      "category": "execution",
+      "problemItSolves": "Prevents companies from using the wrong sales motion at the wrong time (e.g., focusing on volume sales when the market needs consultative projects).",
+      "problemItSolves_zh": "防止企业在错误的时间使用错误的销售动作（例如：在市场需要咨询式项目服务时，错误地追求销量）。",
+      "summary": "Companies must shift their operating model as they move through the lifecycle. The Early Market requires a 'Project' model for visionaries; the Chasm/Bowling Alley requires a 'Solution' model for specific pains; the Tornado requires a 'Product' model for mass market share; Main Street requires a 'Services' model for retention.",
+      "summary_zh": "企业必须随着生命周期的推移调整运营模式。早期市场需要针对远见者的“项目制”模式；鸿沟/保龄球道期需要针对特定痛点的“解决方案”模式；龙卷风期需要争夺份额的“标准化产品”模式；主街期需要用于留存的“服务”模式。",
+      "principles": [
+        "Early Market: Find an executive sponsor to fund a bespoke project; create budget where none exists.",
+        "Bowling Alley: Redirect existing budget by solving a critical business problem; prioritize domain expertise over generic features.",
+        "Tornado: Standardize the product, expand distribution, and capture market share aggressively (land grab).",
+        "Main Street: Add value through services and innovations to prevent commoditization (expand)."
+      ],
+      "principles_zh": [
+        "早期市场：寻找高管赞助人资助定制项目；在没有预算的地方创造预算。",
+        "保龄球道：通过解决关键业务问题来重新定向现有预算；领域专业知识优于通用功能。",
+        "龙卷风：标准化产品，扩大分销渠道，激进地争夺市场份额（跑马圈地）。",
+        "主街：通过服务和创新增加价值，防止产品商品化（客户成功/增购）。"
+      ],
+      "whenToUse": "Throughout the entire lifecycle of a B2B technology company to align product, sales, and marketing.",
+      "whenToUse_zh": "贯穿 B2B 科技公司的整个生命周期，用于对齐产品、销售和市场策略。",
+      "commonMistakes": "Applying 'Tornado' tactics (mass marketing, treating all customers the same) while still in the 'Bowling Alley' (where high-touch, domain-specific consulting is needed).",
+      "commonMistakes_zh": "在“保龄球道”阶段（需要高接触、特定领域的咨询服务）错误地应用“龙卷风”战术（大众营销、同质化对待所有客户）。",
+      "quote": "If a, b, and c... if three out of four people are using the iPhone, it's like, 'Oh, I guess I'm supposed to get an iPhone.' That's the tornado.",
+      "realWorldExample": "Salesforce shifting from early evangelism (No Software) to a platform play (Tornado) and now into AI co-pilots (Main Street innovation).",
+      "realWorldExample_zh": "Salesforce 从早期的布道（“终结软件”口号），转向平台化战略（龙卷风期），现在则进入 AI Co-pilots 阶段（主街期的创新）。"
+    },
+    {
+      "name": "The Compelling Reason to Buy (The Anti-Demo)",
+      "name_zh": "“必买理由”法则（反演示法）",
+      "category": "user-research",
+      "problemItSolves": "Addresses the failure of sales pitches that focus on product features ('Compelling Reason to Sell') which pragmatists ignore.",
+      "problemItSolves_zh": "解决销售话术过于关注产品功能（“销售理由”）而被实用主义客户无视的问题。",
+      "summary": "When selling to pragmatists in the chasm, do not lead with your product or vision. Instead, identify a specific, high-stakes pain point ('broken' process) that forces the customer to act despite their risk aversion. The conversation should be about their problem, not your solution.",
+      "summary_zh": "在向处于鸿沟期的实用主义者销售时，不要以产品或愿景开场。相反，要找出一个具体的、高风险的痛点（“崩溃”的流程），迫使客户克服风险厌恶去采取行动。对话的核心必须是“他们的问题”，而不是“你的解决方案”。",
+      "principles": [
+        "Shut the laptop: Do not start with a demo or a deck about your company.",
+        "Diagnose the pain: Ask probing questions about their specific industry problem ('broken mission-critical process').",
+        "Validate urgency: Ensure the problem is severe enough that they *must* fix it now (risk of inaction > risk of buying new tech).",
+        "Position as a Specialist: Demonstrate deep domain knowledge, not just technical wizardry."
+      ],
+      "principles_zh": [
+        "合上笔记本：切勿以产品演示或公司介绍PPT开场。",
+        "诊断痛点：针对其特定行业的具体问题（“崩溃的关键任务流程”）进行深入提问。",
+        "验证紧迫性：确保问题严重到他们*必须*立刻修复（不作为的风险 > 购买新技术的风险）。",
+        "定位为专家：展示深厚的行业领域知识，而不仅仅是技术能力。"
+      ],
+      "whenToUse": "During sales meetings with 'Pragmatists' (the early majority) who are risk-averse.",
+      "whenToUse_zh": "在与风险厌恶型“实用主义者”（早期大众）进行销售会议时使用。",
+      "commonMistakes": "Confusing a 'Compelling Reason to Sell' (we have cool AI features) with a 'Compelling Reason to Buy' (we stop you from losing $1M/day in patent life).",
+      "commonMistakes_zh": "混淆了“销售理由”（我们有很酷的 AI 功能）与“购买理由”（我们能帮你止损每天100万美元的专利过期损失）。",
+      "quote": "They don't want to talk to you about you. They want to talk to you about them.",
+      "realWorldExample": "Pharma companies didn't buy Documentum because it was a cool database; they bought it because rejected NDA submissions cost them $1M/day in lost patent life.",
+      "realWorldExample_zh": "制药公司购买 Documentum 不是因为它是一个很酷的数据库，而是因为新药申请被拒会导致他们每天损失100万美元的专利期收益。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The tendency when you're in the chasm is, 'I just need more customers. I should take any customer I could find,' because we need revenue. It's like taking a match and running it back and forth under a log. It's not going to light the log.",
+      "context": "On the mistake of going broad too early."
+    },
+    {
+      "text": "Pragmatic people buy what they see their peers are buying.",
+      "context": "Defining the core psychology of the early majority."
+    },
+    {
+      "text": "Visionaries say, 'We believe what you believe.' Pragmatists say, 'I'm not sure about that, but we need what you have.'",
+      "context": "Distinguishing between the pre-chasm and post-chasm customer mindset."
+    },
+    {
+      "text": "Big enough to matter, small enough to lead, and a good fit with your crown jewels.",
+      "context": "The formula for selecting the perfect beachhead segment."
+    }
+  ],
+  "filename": "Geoffrey Moore"
+}

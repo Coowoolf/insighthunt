@@ -3,7 +3,8 @@
     "name": "Fareed Mosavat",
     "title": "Chief Development Officer",
     "company": "Reforge",
-    "background": "Former Director of Product at Slack, GM at Zynga, and VP of Product at Runkeeper. He began his career at Pixar working on simulation and rigging for films like Finding Nemo and Up, giving him a unique background in blending technical execution with creative storytelling."
+    "background": "Former Director of Product at Slack, GM at Zynga, and VP of Product at Runkeeper. He began his career at Pixar working on simulation and rigging for films like Finding Nemo and Up, giving him a unique background in blending technical execution with creative storytelling.",
+    "background_zh": "前 Slack 产品总监、Zynga 总经理及 Runkeeper 产品副总裁。职业生涯始于皮克斯，曾负责《海底总动员》和《飞屋环游记》等电影的仿真与骨骼绑定工作。这段经历赋予了他将技术落地与创意叙事完美融合的独特背景。"
   },
   "episodeSummary": "Fareed Mosavat deconstructs the non-linear career path of a Product Manager, focusing specifically on the difficult transition from Individual Contributor (IC) to Product Leader. He argues that PMs cannot learn through theory alone but require a specific 'Learning Loop' of execution and generalization. The conversation details how to cross the 'Product Leader Canyon,' avoid the 'Manager Death Spiral,' and categorize product work to build a balanced strategic portfolio.",
   "keyTakeaways": [
@@ -29,7 +30,19 @@
       "whenToUse": "Continuous application throughout an IC career, specifically during performance reviews or project post-mortems.",
       "commonMistakes": "Skipping the 'Generalize' step and just moving to the next ticket, or failing to 'Communicate' effectively, leaving your expertise invisible.",
       "quote": "The real acceleration happens from doing it and getting more reps... but you have to generalize lessons effectively.",
-      "realWorldExample": "Fareed's experience at Instacart testing long vs. short onboarding flows, generalizing that 'good friction' aids retention, and carrying that mental model to future roles."
+      "realWorldExample": "Fareed's experience at Instacart testing long vs. short onboarding flows, generalizing that 'good friction' aids retention, and carrying that mental model to future roles.",
+      "summary_zh": "这是一套加速产品能力精进的循环机制。它超越了单纯的执行层面，确保每一个项目都能沉淀认知资产并建立组织信任，从而赋予产品经理驾驭更高模糊性难题的能力。",
+      "problemItSolves_zh": "产品经理之所以常陷入职业瓶颈，是因为他们将每个项目都视为孤立的任务，而非构建职业生涯的阶梯。",
+      "whenToUse_zh": "贯穿 IC 职业生涯的持续实践，尤其适用于绩效考核与项目复盘环节。",
+      "commonMistakes_zh": "跳过“归纳”步骤，直接处理下一个需求；或是未能有效“沟通”，导致你的专业能力被埋没。",
+      "realWorldExample_zh": "Fareed 在 Instacart 期间通过对比测试长短用户引导流程，提炼出“良性摩擦”有助于提升留存的洞察，并将这一思维模型迁移应用到后续的职业生涯中。",
+      "principles_zh": [
+        "第一步：执行——基于真实产品与真实数据开展实战（拒绝纸上谈兵）。",
+        "第二步：归纳——将单点成功经验抽象为通用的思维模型（例如：“高阻力的用户引导流程适用于高意愿的强需求产品”）。",
+        "第三步：传播——向组织明确同步工作成果及沉淀出的方法论。",
+        "第四步：扩展——利用沟通建立的信任，撬动并承接规模更大、定义更模糊的复杂业务难题。"
+      ],
+      "name_zh": "The PM Learning Loop（产品经理学习闭环）"
     },
     {
       "name": "The Strategic Curiosity Matrix",
@@ -45,7 +58,19 @@
       "whenToUse": "When joining a new company, starting a new role, or attempting to break through to a leadership position.",
       "commonMistakes": "Staying 'heads down' on execution for too long and failing to build the organizational mental model required for leadership.",
       "quote": "I like two stack levels because it's like you should understand your boss's priorities and your boss's boss's priorities.",
-      "realWorldExample": "At Slack, Fareed realized he needed to understand how self-serve growth connected to the enterprise sales pipeline, not just the product metrics."
+      "realWorldExample": "At Slack, Fareed realized he needed to understand how self-serve growth connected to the enterprise sales pipeline, not just the product metrics.",
+      "summary_zh": "这是一套用于理解环境背景的框架。产品经理必须主动在组织内部进行纵向与横向的调研，以识别撬动点并建立关键支持者的信任。",
+      "problemItSolves_zh": "初级 PM 往往缺乏“战略感”或遭遇晋升瓶颈，根本原因在于他们仅关注当前负责的功能模块。",
+      "whenToUse_zh": "当入职新公司、开启新岗位，或寻求向管理层进阶时。",
+      "commonMistakes_zh": "长期埋头于执行细节，未能构建起领导力所必需的组织心智模型。",
+      "realWorldExample_zh": "在 Slack，Fareed 意识到不能只关注产品指标，必须理解自助式增长是如何与企业级销售管线衔接的。",
+      "principles_zh": [
+        "纵向扫描（上下各跨两层）：向上，深刻理解直属上级及其上级的核心目标；向下，透彻掌握技术栈、催收逻辑及数据库限制。",
+        "横向扫描（左右拉通）：洞察兄弟团队（销售、市场、核心产品）当前的优先级。",
+        "连点成线：明确你的具体工作如何为周边利益相关者创造杠杆，从而实现价值撬动。",
+        "价值传递：基于对这些关联节点产生的影响，来构建你的工作汇报逻辑。"
+      ],
+      "name_zh": "The Strategic Curiosity Matrix（战略好奇心矩阵）"
     },
     {
       "name": "The Four Types of Product Work",
@@ -61,7 +86,19 @@
       "whenToUse": "Quarterly planning, roadmap audits, and when transitioning from IC to Manager.",
       "commonMistakes": "A Growth Leader taking over a Core Product team and forcing every feature to be an A/B test, ignoring Scaling or PMF Expansion needs.",
       "quote": "If you want to be a product leader, you cannot be seen solely as a specialist in that certain kind of product work.",
-      "realWorldExample": "Reflecting on Airbnb or Twitter, where 'Scaling Work' (Trust & Safety) becomes a massive, distinct workstream separate from feature development."
+      "realWorldExample": "Reflecting on Airbnb or Twitter, where 'Scaling Work' (Trust & Safety) becomes a massive, distinct workstream separate from feature development.",
+      "summary_zh": "这是一套产品组合管理的分类体系。管理者必须确保团队在四类不同的价值创造维度上平衡投入，避免陷入“拿着锤子找钉子”的思维定势，试图用单一手段解决所有问题。",
+      "problemItSolves_zh": "产品负责人往往容易过度侧重于自己擅长的工作类型（如增长），却忽视了其他关键领域。",
+      "whenToUse_zh": "季度规划、路线图盘点，以及从 IC 转型为管理者时。",
+      "commonMistakes_zh": "增长负责人接管核心产品团队后，强制要求所有功能都必须进行 A/B 测试，却忽视了规模化或 PMF 拓展的需求。",
+      "realWorldExample_zh": "以 Airbnb 或 Twitter 为例，“规模化工作”（信任与安全）已演变成一条庞大且独立的工作流，与常规的功能开发完全剥离。",
+      "principles_zh": [
+        "类型 1：功能迭代 —— 为现有用户创造价值（侧重留存/活跃）。",
+        "类型 2：增长工作 —— 将用户与现有价值连接起来（侧重获客/变现）。",
+        "类型 3：PMF 拓展 —— 为新市场创造新价值（垂直化），或为现有市场开发新产品（捆绑策略）。",
+        "类型 4：规模化工作 —— 处理技术债、信任与安全，以及建设内部工具以支撑业务体量。"
+      ],
+      "name_zh": "The Four Types of Product Work（四类产品工作）"
     },
     {
       "name": "The Outcome-Resource Lock",
@@ -77,7 +114,19 @@
       "whenToUse": "Annual planning, project kickoffs, or when a team is under-delivering due to constraints.",
       "commonMistakes": "Falling into the 'victim mindset' of complaining about resources after failing, rather than setting terms upfront.",
       "quote": "It is not just your job to get what you can get done with the resources in front of you. It's your job to marshal resources... to have the most impact.",
-      "realWorldExample": "Fareed's mistake at Instacart where he kept a team small and efficient rather than arguing for the headcount needed to scale faster."
+      "realWorldExample": "Fareed's mistake at Instacart where he kept a team small and efficient rather than arguing for the headcount needed to scale faster.",
+      "summary_zh": "一套面向管理者的谈判框架。它主张摒弃“基于现有资源尽力而为”的被动思维，转而由管理者明确界定达成业务目标所严格必需的资源。",
+      "problemItSolves_zh": "产品经理之所以经常无法达成目标，是因为他们被动接受了既定的团队规模，而非主动争取实现目标所需的资源。",
+      "whenToUse_zh": "年度规划、项目启动，或团队因资源受限导致交付未达预期时。",
+      "commonMistakes_zh": "陷入“受害者心态”：在失败后才抱怨资源不足，而非在事前就设定好交付条款。",
+      "realWorldExample_zh": "Fareed 在 Instacart 的失误在于：他致力于保持团队的精简高效，却没有为了加速业务规模化去争取必要的 Headcount。",
+      "principles_zh": [
+        "第一步：明确定义必须达成且不打折扣的业务目标。",
+        "第二步：核算确保达成该目标所需的真实资源成本（HC、营销预算、时间周期）。",
+        "第三步：呈现差距。“若要达成 [目标 X]，必需配置 [Y 资源]；基于现有资源，仅能达成 [目标 Z]。”",
+        "第四步：将取舍决策向上传导给管理层，而非独自消化风险。"
+      ],
+      "name_zh": "The Outcome-Resource Lock（结果-资源锁定）"
     }
   ],
   "notableQuotes": [
@@ -94,5 +143,6 @@
       "context": "On the primary psychological shift required to cross the 'Product Leader Canyon'."
     }
   ],
-  "filename": "Fareed Mosavat"
+  "filename": "Fareed Mosavat",
+  "episodeSummary_zh": "Fareed Mosavat 深度剖析了产品经理非线性的职业发展路径，重点聚焦于从 IC（独立贡献者）向产品 Leader 转型这一艰难跨越。他指出，PM 无法仅凭理论成长，必须通过包含“执行”与“归纳抽象”的特定“学习闭环”来精进。本期对话深入探讨了如何跨越“产品 Leader 鸿沟”、规避“管理者死亡螺旋”，以及如何对产品工作进行科学分类，以构建平衡的战略组合。"
 }

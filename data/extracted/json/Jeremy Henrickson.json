@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Jeremy Henrickson",
+    "title": "SVP of Product at Rippling",
+    "company": "Rippling (previously Coinbase)",
+    "background": "Jeremy Henrickson is the Senior Vice President of Product at Rippling, managing product and design teams. Previously, he served as Chief Product Officer at Coinbase, overseeing 10x growth during the volatile 2017 crypto boom, and held leadership roles at Guidewire.",
+    "background_zh": "Jeremy Henrickson 现任 Rippling 产品高级副总裁，负责领导产品和设计团队。在此之前，他曾担任 Coinbase 首席产品官，在 2017 年加密货币市场爆发期间主导了团队的 10 倍增长，并曾在 Guidewire 担任核心领导职务。"
+  },
+  "episodeSummary": "In this conversation, Jeremy shares his contrarian approaches to scaling product organizations, including why Rippling avoids MVPs in favor of designing for the most complex use cases first. He discusses the \"Compound Startup\" model, how to maintain startup velocity at scale through small autonomous teams, and the critical leadership principle of \"going and seeing\" the problem at the ground level.",
+  "episodeSummary_zh": "在本期对话中，Jeremy 分享了他关于扩展产品组织的逆向思维，包括为何 Rippling 摒弃 MVP 模式，转而在初期就针对最复杂的用例进行设计。他探讨了“复合型初创企业（Compound Startup）”模式，如何通过小型自治团队在大规模扩张中保持初创企业的敏捷度，以及管理者必须“深入一线（Go and See）”的关键领导力原则。",
+  "filename": "Jeremy Henrickson"
+}

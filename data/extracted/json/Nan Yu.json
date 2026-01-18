@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Nan Yu",
+    "title": "Head of Product",
+    "company": "Linear",
+    "background": "Nan Yu is the Head of Product at Linear, the issue tracking tool beloved for its speed and design. Previously, he held product and engineering roles at Mode, Everlane, and completed a stint as a Software Engineer at Palantir.",
+    "background_zh": "Nan Yu 现任 Linear 产品负责人，该产品以极致的速度和设计美学著称。在此之前，他曾在 Mode 和 Everlane 担任产品及工程职务，早年曾在 Palantir 担任软件工程师。"
+  },
+  "episodeSummary": "Nan Yu dismantles common product management myths, arguing that speed and quality are correlated rather than opposed. He shares Linear's unique operating principles, including how to avoid software bloat by prioritizing IC workflows over middle-management reporting, and introduces frameworks for creative problem-solving and emotional discovery in user research.",
+  "episodeSummary_zh": "Nan Yu 在本期节目中打破了常见的产品管理迷思，提出“速度与质量正相关”的观点。他分享了 Linear 独特的运营原则，包括如何通过优先考虑一线员工（IC）的工作流而非中层管理者的汇报需求来避免软件臃肿，并介绍了用于创造性解决问题和用户调研中情感挖掘的实用框架。",
+  "filename": "Nan Yu"
+}

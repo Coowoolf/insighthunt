@@ -1,0 +1,117 @@
+{
+  "guest": {
+    "name": "Jessica Livingston",
+    "title": "Co-founder, Y Combinator & Author, Founders at Work",
+    "company": "Y Combinator",
+    "background": "Jessica Livingston is the co-founder of Y Combinator, the world's most successful startup accelerator. Known as the 'Social Radar,' she played a pivotal role in shaping YC's culture and selecting founders for unicorns like Airbnb, Stripe, and Dropbox based on character and interpersonal dynamics rather than just technical specs.",
+    "background_zh": "Jessica Livingston 是全球最成功的创业加速器 Y Combinator 的联合创始人。作为 YC 的“社交雷达”，她在塑造 YC 文化以及挑选 Airbnb、Stripe 和 Dropbox 等独角兽企业的创始人方面发挥了关键作用，她更看重创业者的性格特征和人际互动，而非仅仅关注技术指标。"
+  },
+  "episodeSummary": "Jessica Livingston discusses her unique superpower dubbed 'The Social Radar,' which allowed her to identify successful founders in the earliest stages based on subtle behavioral cues. She breaks down the non-technical red flags that kill startups, the importance of founder earnestness, and shares behind-the-scenes stories of YC's most famous investments like Airbnb.",
+  "episodeSummary_zh": "Jessica Livingston 深入探讨了她被称为“社交雷达”的独特超能力，即通过微妙的行为线索在极早期识别成功创业者。她详细拆解了导致创业失败的非技术性危险信号（Red Flags）、创始人“真诚度”的重要性，并分享了 Airbnb 等 YC 明星项目背后的投资趣闻。",
+  "keyTakeaways": [
+    "Technical skills matter, but co-founder dynamics are the single biggest predictor of early-stage survival.",
+    "Defensiveness in an interview is a major red flag; adaptability and openness to feedback are critical for pivoting.",
+    "Successful founders are 'relentlessly resourceful'—they must demonstrate the ability to make things happen (hustle) even with zero budget.",
+    "Earnestness is a key differentiator; avoid founders who are building something just because it seems like a 'cool' trend.",
+    "Founders must be willing to 'burn the boats' and quit their day jobs; part-time founders rarely succeed when things get tough."
+  ],
+  "methodologies": [
+    {
+      "name": "The Social Radar Evaluation Framework",
+      "name_zh": "社交雷达评估模型（Social Radar）",
+      "category": "team-culture",
+      "problemItSolves": "How to evaluate early-stage startups when there is no data, revenue, or product-market fit yet.",
+      "problemItSolves_zh": "如何在缺乏数据、营收或 PMF（产品市场匹配）的阶段评估早期初创团队的潜力。",
+      "summary": "A qualitative heuristic for judging founder potential by observing interpersonal dynamics and behavioral cues during short interactions. It prioritizes emotional intelligence, relationship strength, and commitment over pure technical ability or the initial idea.",
+      "summary_zh": "一种通过观察短期互动中的人际动态和行为线索来判断创始人潜力的定性启发式框架。相比纯技术能力或初始点子，该模型优先考量情商、团队关系紧密度以及创业承诺。",
+      "principles": [
+        "Assess Co-founder Dynamics: Do they respect each other? Do they interrupt? Avoid 'Hackers in a Cage' (business founders controlling silent engineers).",
+        "Test for Defensiveness: Challenge their idea. Great founders engage in a tennis match of ideas; bad founders get defensive or shut down.",
+        "Commitment Check: Are they willing to 'burn the boats'? Founders holding onto corporate jobs lack the desperation needed to survive the trough of sorrow."
+      ],
+      "principles_zh": [
+        "评估联合创始人动态：观察他们是否互相尊重？是否存在打断对方发言的情况？警惕“笼中黑客”现象（即非技术创始人完全主导沉默的工程师）。",
+        "测试防御性心态：挑战他们的想法。优秀的创始人会将其视为一场思维的“网球赛”进行探讨；糟糕的创始人会表现出防御性或拒绝交流。",
+        "承诺度核查：他们是否愿意“破釜沉舟”？保留大厂职位的创始人往往缺乏熬过创业低谷期所需的背水一战的心态。"
+      ],
+      "whenToUse": "During angel investing, co-founder dating, or hiring early core employees.",
+      "whenToUse_zh": "适用于天使投资决策、寻找联合创始人或招聘早期核心员工时。",
+      "commonMistakes": "Ignoring 'gut feelings' about personality clashes because the technical credentials (ex-Google, MIT) look perfect on paper.",
+      "commonMistakes_zh": "因为候选人的履历光鲜（如前 Google 员工、MIT 毕业）而忽略了对其性格冲突的直觉判断。",
+      "quote": "If a founder would get defensive, that was always a bad sign.",
+      "realWorldExample": "Jessica noticed a red flag when one founder physically put his arm in front of his co-founder to stop him from speaking during an interview. They did not fund them.",
+      "realWorldExample_zh": "Jessica 曾在一个面试中注意到一个危险信号：一位创始人为了阻止联合创始人发言，竟然物理上把胳膊挡在对方前面。YC 最终拒绝了该团队。"
+    },
+    {
+      "name": "The 'Relentlessly Resourceful' Heuristic",
+      "name_zh": "极致利用资源能力（Relentlessly Resourceful）",
+      "category": "execution",
+      "problemItSolves": "Determining if a team can survive market crashes or periods of slow growth without heavy capital injection.",
+      "problemItSolves_zh": "判断团队能否在缺乏大量资本注入的情况下，挺过市场崩盘或增长停滞期。",
+      "summary": "This framework looks for evidence that founders act like 'cockroaches'—they are impossible to kill and can create value from nothing. It values 'hustle' and tangible proof of effort over polished slide decks.",
+      "summary_zh": "该框架旨在寻找创始人像“小强”一样顽强的证据——他们难以被打倒，且能无中生有创造价值。它更看重实际的“折腾”能力（Hustle）和具体的努力证明，而非精美的 PPT。",
+      "principles": [
+        "Tangible Hustle: Look for physical evidence of doing whatever it takes (e.g., selling cereal to fund the company).",
+        "The Cockroach Mindset: Can the founders live off nothing? Are they scrappy enough to keep going when funding dries up?",
+        "Contagious Energy: Do they have an irrational belief in their mission that convinces others to join them?"
+      ],
+      "principles_zh": [
+        "可视化的执行力：寻找为了达成目标不惜一切代价的物证（例如通过卖麦片周边来为公司筹集资金）。",
+        "打不死的心态：创始人能否在极低成本下生存？当资金枯竭时，他们是否足够“草根”以维持运营？",
+        "感染力：他们是否对自己的使命抱有一种近乎非理性的信念，从而能感召他人加入？"
+      ],
+      "whenToUse": "Evaluating pre-seed startups or during economic downturns when capital efficiency is king.",
+      "whenToUse_zh": "评估种子轮前（Pre-seed）项目，或在资本效率至上的经济下行期。",
+      "commonMistakes": "Confusing 'charisma' with resourcefulness. Charisma talks; resourcefulness acts (often in unglamorous ways).",
+      "commonMistakes_zh": "混淆“个人魅力”与“资源利用能力”。魅力在于言辞，而资源利用能力在于行动（通常通过看似不光鲜的方式体现）。",
+      "quote": "You sort of need that desperation. You have to burn the boat.",
+      "realWorldExample": "The Airbnb founders created 'Obama O's' and 'Cap'n McCain's' cereal boxes, using hot glue and cheap cereal, to raise money when VCs rejected them. This convinced YC to fund them despite disliking the idea.",
+      "realWorldExample_zh": "Airbnb 创始人在被 VC 拒绝后，利用热胶枪和廉价麦片自制了“奥巴马圈”和“麦凯恩上校”麦片盒来筹集资金。尽管 YC 最初不看好他们的点子，但这股拼劲说服了 YC 进行投资。"
+    },
+    {
+      "name": "The Earnestness Authenticity Filter",
+      "name_zh": "真诚度与真实性过滤器",
+      "category": "product-strategy",
+      "problemItSolves": "Filtering out opportunists who are building products for the wrong reasons and will likely churn when things get hard.",
+      "problemItSolves_zh": "筛选掉那些动机不纯的投机者，这些人通常是为了风口创业，一旦遇到困难就容易放弃。",
+      "summary": "A method to distinguish between 'tourists' and 'missionaries'. It focuses on whether the founder has a genuine connection to the problem space or if they are just chasing a quick exit.",
+      "summary_zh": "一种区分创业“游客”和“传教士”的方法。核心在于判断创始人与所解决的问题领域是否有真实的连接，还是仅仅为了追求快速变现退出。",
+      "principles": [
+        "Domain Connection: Is the founder solving a problem they personally experience? (e.g., 'fixing a broken industry').",
+        "Humility in Knowledge: Does the founder admit 'I don't know' instead of faking an answer? (Sign of confidence, not weakness).",
+        "No Fake Motives: Avoid founders solving problems for demographics they don't understand just to make money."
+      ],
+      "principles_zh": [
+        "领域连接度：创始人是否在解决自己亲身经历的问题？（例如：“修复一个破碎的行业”）。",
+        "认知谦逊：创始人是否敢于承认“我不知道”，而不是不懂装懂？（这是自信而非软弱的表现）。",
+        "拒绝虚假动机：避开那些为了赚钱而强行针对自己完全不了解的人群/领域进行创业的人。"
+      ],
+      "whenToUse": "Assessing founder-market fit.",
+      "whenToUse_zh": "评估创始人与市场契合度（Founder-Market Fit）时。",
+      "commonMistakes": "Funding 'Trend Chasers' (e.g., older men building a fashion app for teen girls with no domain insight).",
+      "commonMistakes_zh": "投资“追风口的人”（例如：一群中年大叔开发针对少女的时尚 App，却毫无相关领域的洞察）。",
+      "quote": "To be a successful startup founder, you have to care so much about the problem you're trying to solve... being earnest about it is so key.",
+      "realWorldExample": "Jessica rejected a group of 45-year-old men building a fashion app for teenagers because it was clear they just wanted 'easy money' and had no authentic connection to the user base.",
+      "realWorldExample_zh": "Jessica 曾拒绝了一组开发青少年时尚 App 的中年大叔团队，因为很明显他们只是想赚“快钱”，与目标用户群体之间缺乏真实的连接。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Much of what's novel about YC is due to Jessica Livingston. If you don't know her, you don't understand YC.",
+      "context": "Paul Graham's quote about Jessica's foundational role in Y Combinator."
+    },
+    {
+      "text": "I would look at, do the co-founders get along? Are these people committed? And if a founder would get defensive, that was always a bad sign.",
+      "context": "Jessica defining what the 'Social Radar' looks for."
+    },
+    {
+      "text": "Charisma talks; resourcefulness acts.",
+      "context": "Implicit theme regarding the Airbnb cereal box story."
+    },
+    {
+      "text": "I wanted to be able to work with these founders. Life's too short.",
+      "context": "On the 'No Assholes' rule for funding."
+    }
+  ],
+  "filename": "Jessica Livingston"
+}

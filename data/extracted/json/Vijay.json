@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Vijay Iyengar",
+    "title": "Head of Product",
+    "company": "Mixpanel",
+    "background": "Vijay started as an engineering intern at Amazon and an engineer at Uber before joining Mixpanel as an engineering manager. He successfully transitioned from engineering leadership directly to Director of Product and eventually Head of Product, overseeing Mixpanel's strategic pivot back to core analytics.",
+    "background_zh": "Vijay 起步于亚马逊实习生，曾任 Uber 工程师，后加入 Mixpanel 担任工程经理。他成功完成了从工程管理到产品总监的职业转型，最终升任 Mixpanel 产品负责人，主导了公司回归核心分析业务的战略转型。"
+  },
+  "episodeSummary": "Vijay Iyengar shares Mixpanel's turbulent journey of expanding into too many product lines and the strategic decision to refocus on their core analytics product. He discusses the friction between engineering and product, how to build a culture where engineers speak directly to customers, and modern data stack strategies. The conversation covers prioritization frameworks, planning cycles, and why server-side tracking beats client-side SDKs.",
+  "episodeSummary_zh": "Vijay Iyengar 分享了 Mixpanel 曾因产品线过度扩张而陷入困境，最终壮士断腕回归核心分析业务的战略历程。他探讨了工程与产品团队间的摩擦与融合，如何建立工程师直接对话客户的文化，以及现代数据栈的演进。对话涵盖了优先级排序框架、产品规划周期，以及为何服务端埋点优于客户端 SDK 的深度分析。",
+  "filename": "Vijay"
+}

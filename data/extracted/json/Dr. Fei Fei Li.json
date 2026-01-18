@@ -3,7 +3,8 @@
     "name": "Dr. Fei-Fei Li",
     "title": "Co-founder & CEO at World Labs, Co-Director of Stanford HAI",
     "company": "World Labs / Stanford University",
-    "background": "Known as the 'Godmother of AI,' Dr. Li is the creator of ImageNet, the dataset that sparked the modern deep learning revolution. She previously served as Chief Scientist of AI/ML at Google Cloud and is a pioneer in computer vision, spatial intelligence, and human-centered AI."
+    "background": "Known as the 'Godmother of AI,' Dr. Li is the creator of ImageNet, the dataset that sparked the modern deep learning revolution. She previously served as Chief Scientist of AI/ML at Google Cloud and is a pioneer in computer vision, spatial intelligence, and human-centered AI.",
+    "background_zh": "李飞飞博士被誉为“AI 教母”，是引爆现代深度学习革命的 ImageNet 数据集的缔造者。她曾任 Google Cloud AI/ML 首席科学家，也是计算机视觉、空间智能及“以人为本的 AI”领域的先驱。"
   },
   "episodeSummary": "Dr. Fei-Fei Li traces the arc of AI development from the 'AI Winter' to the current generative explosion, detailing how her creation of ImageNet shifted the industry's focus from algorithms to data scale. She introduces her new venture, World Labs, and the concept of 'World Models'—AI that possesses spatial intelligence and understanding of physics—arguing this is the missing link for robotics and true AGI. The conversation also covers the necessity of human-centered design and the importance of 'intellectual fearlessness' in career pivots.",
   "keyTakeaways": [
@@ -29,7 +30,19 @@
       "whenToUse": "When launching a 0-to-1 AI product or when a mature product hits a performance plateau despite engineering optimization.",
       "commonMistakes": "Focusing on data quantity without clean labeling/taxonomy (the taxonomy of ImageNet was as vital as the images).",
       "quote": "It dawned on me that human learning as well as evolution is actually a big data learning process... I think my students and I conjectured that a very critically-overlooked ingredient of bringing AI to life is big data.",
-      "realWorldExample": "Creating ImageNet in 2007 by scraping the internet and using Amazon Mechanical Turk to label 15 million images, which directly enabled the 2012 AlexNet breakthrough."
+      "realWorldExample": "Creating ImageNet in 2007 by scraping the internet and using Amazon Mechanical Turk to label 15 million images, which directly enabled the 2012 AlexNet breakthrough.",
+      "summary_zh": "该方法论不再单纯打磨处理引擎（模型/算法），而是将战略重心完全转移至“燃料”（数据）。它要求首先锁定一个“北极星问题”（如物体识别），并提出假设：解决方案的关键在于输入数据的规模与颗粒度，而非处理逻辑的复杂度。",
+      "problemItSolves_zh": "突破算法或功能的增量优化遭遇边际收益递减时的停滞困境。",
+      "whenToUse_zh": "0 到 1 启动 AI 产品，或成熟产品经工程侧优化后仍陷入性能瓶颈时。",
+      "commonMistakes_zh": "过度关注数据规模，却忽视了清晰的标注与分类体系（ImageNet 的分类体系与其图片数据同等重要）。",
+      "realWorldExample_zh": "2007 年，通过全网抓取并利用 Amazon Mechanical Turk 对 1500 万张图片进行标注，成功构建了 ImageNet，这一举措直接促成了 2012 年 AlexNet 的突破性进展。",
+      "principles_zh": [
+        "锁定“北极星”问题：选择一项目前尚未解决或处于原始阶段的基础能力（例如，“计算机无法识别物体”）。",
+        "假设关键缺失要素：若当前模型失效，应假设其短板在于数据积累或经验层面，而非单纯的逻辑架构缺陷。",
+        "激进的数据规模化：将样本量级从数千提升至数百万（如 ImageNet 扩展至 1500 万张图像），坚信规模本身即是质量。",
+        "推动基准（Benchmark）普惠化：公开发布数据集或问题，从而推动整个生态系统对解决方案进行迭代（如 ImageNet 挑战赛）。"
+      ],
+      "name_zh": "The 'North Star' Data Inversion（“北极星”数据反转）"
     },
     {
       "name": "The Spatial Intelligence Value Chain",
@@ -45,7 +58,19 @@
       "whenToUse": "When building products for robotics, gaming, simulation, or any domain requiring physical reasoning rather than just language generation.",
       "commonMistakes": "Confusing video generation (2D pixels changing over time) with world generation (consistent 3D physics and geometry).",
       "quote": "Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world... World Lab is focusing on that, and of course the ability to create videos per se could be part of this... but we really want creators... to have in their hands a model that can give them worlds with 3D structures.",
-      "realWorldExample": "World Labs' product 'Marble,' which generates infinite 3D worlds from a single prompt, allowing users (and eventually robots) to navigate and interact within them."
+      "realWorldExample": "World Labs' product 'Marble,' which generates infinite 3D worlds from a single prompt, allowing users (and eventually robots) to navigate and interact within them.",
+      "summary_zh": "这是一套构建“世界模型”的框架，旨在赋能 AI 在 3D 空间中进行推理、交互与创造。不同于基于 Token 预测的 LLM，该方法通过对物理规律与几何结构进行建模，从而构建出具备可操作性的环境。",
+      "problemItSolves_zh": "弥合生成式 AI（文本/2D 图像）与具备物理世界交互能力的具身智能（机器人/仿真）之间的鸿沟。",
+      "whenToUse_zh": "适用于构建机器人、游戏、仿真产品，或任何依赖物理推理能力而非单纯语言生成的领域。",
+      "commonMistakes_zh": "混淆视频生成（随时间变化的 2D 像素）与世界生成（具备一致性的 3D 物理与几何结构）。",
+      "realWorldExample_zh": "World Labs 的产品 Marble，能够基于单条提示词生成无限 3D 世界，支持用户（及未来的机器人）在其中漫游与交互。",
+      "principles_zh": [
+        "输入通用性（Prompt-to-World）：支持通过文本、图像或稀疏数据等多种输入形式，生成完整的沉浸式环境。",
+        "3D/4D 空间推理：模型必须具备从平面输入中推断“隐性”维度（如深度、时间、物理规律）的能力（类似于从 2D X 光片推导出 3D DNA 螺旋结构）。",
+        "交互性验证：输出交付物不能仅是静态资产（如视频），而必须是智能体（Agent）可漫游、可干预结果的动态状态（如 Mesh 网格或交互环境）。",
+        "跨场景应用复用：在多元化场景中验证模型价值——涵盖 VFX 影视特效（视觉表现）、游戏（可玩性）以及机器人领域（合成训练数据）。"
+      ],
+      "name_zh": "The Spatial Intelligence Value Chain（空间智能价值链）"
     },
     {
       "name": "The Intellectual Fearlessness Heuristic",
@@ -61,7 +86,19 @@
       "whenToUse": "When deciding whether to leave a stable role for a startup, academic pivot, or high-risk R&D project.",
       "commonMistakes": "Over-analyzing the 'equation' of a job offer (equity splits, titles) while under-weighing the transformative potential of the team and mission.",
       "quote": "I don't overthink of all possible things that can go wrong because that's too many... I do find many of the young people today think about every single aspect of an equation when they decide on jobs... focus on what's important.",
-      "realWorldExample": "Fei-Fei leaving a near-tenure position at Princeton to restart her tenure clock at Stanford because the ecosystem and collaborators were better aligned with her vision."
+      "realWorldExample": "Fei-Fei leaving a near-tenure position at Princeton to restart her tenure clock at Stanford because the ecosystem and collaborators were better aligned with her vision.",
+      "summary_zh": "一套针对重大职业决策的框架。它主张将使命契合度和团队素质置于风险规避之上。该框架承认“已知的未知”无穷无尽，因此聚焦于真正驱动成功的少数关键变量。",
+      "problemItSolves_zh": "面对高风险职业转型或创办硬科技企业时的决策瘫痪。",
+      "whenToUse_zh": "当面临是否放弃稳定职位，转而投身创业公司、进行学术转型或参与高风险研发项目的决策时。",
+      "commonMistakes_zh": "过度纠结 Offer 的“账面公式”（如股权分配、头衔），却低估了团队与愿景所蕴含的变革性潜力。",
+      "realWorldExample_zh": "Fei-Fei 放弃了普林斯顿触手可及的终身教职，选择转战斯坦福并重启教职评定周期，因为那里的生态系统和合作伙伴与她的愿景更为对齐。",
+      "principles_zh": [
+        "聚焦使命而非求稳：评估机会时，核心在于它是否契合“推动文明进步”的宏大愿景，或符合你探索未知的“北极星指标”。",
+        "追逐人才密度：优先选择与最高智力密度的团队共事（如前往 Stanford 或 Google 追随 Hinton/Dean），而非看重资历积累或短期薪酬回报。",
+        "无视“无限下行风险”：承认你无法预判所有的失败模式。只要使命和团队选对了，潜在的失败风险就是可接受的。",
+        "敬畏“苦涩的教训”（The Bitter Lesson）：正如简单的算法通过规模化往往胜过精巧的设计，在职业战略上，简单的坚定信念通过长期复利也胜过复杂的避险对冲。"
+      ],
+      "name_zh": "The Intellectual Fearlessness Heuristic（智识无畏启发式）"
     }
   ],
   "notableQuotes": [
@@ -82,5 +119,6 @@
       "context": "Explaining her contrarian bet early in her career to focus on vision rather than logic or language."
     }
   ],
-  "filename": "Dr. Fei Fei Li"
+  "filename": "Dr. Fei Fei Li",
+  "episodeSummary_zh": "李飞飞博士回顾了 AI 从“AI 寒冬”到如今生成式 AI 爆发的发展历程，详细阐述了 ImageNet 如何将行业重心从算法优化转向数据规模化。她介绍了最新创立的 World Labs 及其“世界模型”概念——即具备空间智能并理解物理规律的 AI，并指出这是连接机器人技术与实现真正 AGI 的关键缺失环节。此外，对话还深入探讨了以人为本的设计原则，以及在职业转型中保持“求知无畏” (Intellectual Fearlessness) 的重要性。"
 }

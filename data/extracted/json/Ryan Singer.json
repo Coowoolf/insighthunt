@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Ryan Singer",
+    "title": "Author of Shape Up / Founder of Shaping in Real Life",
+    "company": "Formerly 37signals (Basecamp)",
+    "background": "Ryan Singer was the Head of Strategy at Basecamp (37signals), where he worked for 17 years helping build the company's core products. He is the author of the influential book 'Shape Up', which introduced a new methodology for product development, and now runs courses on applying these principles in various organizational contexts.",
+    "background_zh": "Ryan Singer 曾任 Basecamp（现 37signals）的战略主管，在该公司工作了17年，参与构建了核心产品。他是极具影响力的《Shape Up》一书的作者，该书提出了一套全新的产品开发方法论。目前他致力于通过课程教授如何在不同组织架构中落地这些原则。"
+  },
+  "episodeSummary": "Ryan Singer details the 'Shape Up' methodology, an alternative to traditional Scrum/Agile that focuses on shipping meaningful work by replacing estimates with fixed-time 'appetites'. He explains how to conduct collaborative 'shaping' sessions to de-risk projects before coding begins and how to empower engineering teams by handing over full projects rather than fragmented tickets. The discussion also covers adapting these Basecamp-originated practices to 'real life' companies with different constraints.",
+  "episodeSummary_zh": "Ryan Singer 详细解析了“Shape Up”方法论，这是一种区别于传统 Scrum/Agile 的模式，主张用固定的时间“胃口（Appetites）”取代估算，以确保按时交付有价值的产品。他解释了如何通过协作式的“Shaping（塑造）”会议在代码编写前消除风险，以及如何通过移交完整项目而非零散工单来充分授权工程团队。对话还涵盖了如何将这些源自 Basecamp 的实践调整适应于“现实世界”中具有不同限制条件的公司。",
+  "filename": "Ryan Singer"
+}

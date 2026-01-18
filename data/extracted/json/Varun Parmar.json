@@ -1,0 +1,149 @@
+{
+  "guest": {
+    "name": "Varun Parmar",
+    "title": "Chief Product Officer",
+    "company": "Miro",
+    "background": "Varun Parmar is the Chief Product Officer at Miro, leading the product strategy for the visual collaboration platform used by over 50 million users. Prior to Miro, he served as the CPO at Box and held leadership roles at Adobe, bringing over two decades of experience in the collaboration and productivity software space.",
+    "background_zh": "Varun Parmar 现任 Miro 首席产品官（CPO），负责这款拥有超过 5000 万用户的可视化协作平台的全球产品战略。在加入 Miro 之前，他曾担任 Box 的首席产品官，并在 Adobe 担任领导职务，在协作与生产力软件领域拥有超过 20 年的深厚经验。"
+  },
+  "episodeSummary": "Varun Parmar discusses Miro's unique \"AMPED\" product organization structure and how they maintain innovation while scaling globally across 12 hubs. He details their competitive strategy, the specific P-stage product development process, and how they balance speed with high-quality design using unique calibration rituals. The conversation also covers how Miro bridges Product-Led Growth (PLG) with enterprise sales.",
+  "episodeSummary_zh": "Varun Parmar 深入探讨了 Miro 独特的 \"AMPED\" 产品组织架构，以及作为一家拥有 12 个全球中心的分布式公司如何保持高效创新。他详细介绍了 Miro 的竞争策略、P-Stage 产品开发流程，以及如何通过独特的校准仪式在保持敏捷交付的同时确保设计质量。对话还涵盖了 Miro 如何有效地将产品驱动增长（PLG）与企业级销售模式相结合的实战经验。",
+  "keyTakeaways": [
+    "Speed is the ultimate competitive advantage; aim to be the first to 'hit the brick wall' to learn faster.",
+    "Product organizations should include Analytics and Product Marketing (AMPED) to prevent silos and ensure market fit.",
+    "Every release is a chess move: your product is either getting better or worse relative to competitors daily; it never stays the same.",
+    "Use a binary 'High Quality' vs. 'Not High Quality' visual classification system to align design standards.",
+    "Product leaders must balance two personas: driving accountability within leadership and driving improvement within their streams."
+  ],
+  "methodologies": [
+    {
+      "name": "The AMPED Organizational Structure",
+      "name_zh": "AMPED 跨职能融合组织架构",
+      "category": "team-culture",
+      "problemItSolves": "Solves the problem of silos between product builders (PM/Eng/Design) and go-to-market teams, preventing features from being built without positioning or data insights.",
+      "problemItSolves_zh": "解决传统的“产研设计”铁三角与市场、数据团队脱节的问题，防止产品开发缺乏市场定位或数据支撑，避免部门孤岛效应。",
+      "summary": "Miro redefines the 'Product Org' not just as PMs, Engineers, and Designers, but as AMPED: Analytics, Marketing, Product, Engineering, and Design. By embedding Product Marketing and Data Science directly into the product streams, they ensure that positioning, competitive differentiation, and data insights are baked into the development process from day one.",
+      "summary_zh": "Miro 将“产品组织”重新定义为 AMPED：涵盖分析 (Analytics)、营销 (Marketing)、产品 (Product)、工程 (Engineering) 和设计 (Design)。通过将产品营销 (PMM) 和数据科学团队直接嵌入产品线中，确保在开发初期就将市场定位、差异化竞争策略和数据洞察融入产品决策中。",
+      "principles": [
+        "Include PMM and Analytics as core members of the product leadership team, not just support functions.",
+        "Practice radical empathy internally: Ask questions to understand the 'why' behind decisions across functions.",
+        "Structure teams around User Personas (e.g., Enterprise Admin, Developer Platform) rather than just technical components."
+      ],
+      "principles_zh": [
+        "将产品营销（PMM）和数据分析纳入核心产品领导团队，而非仅仅作为支持性职能。",
+        "在内部实践“深度同理心”：通过提问深入理解跨职能伙伴决策背后的逻辑和洞察。",
+        "围绕用户画像（如企业管理员、平台开发者）而非单纯的技术组件来划分产品流（Streams）。"
+      ],
+      "whenToUse": "When a company is scaling and product teams start losing touch with go-to-market strategy or data-driven decision making.",
+      "whenToUse_zh": "适用于公司处于扩张期，产品团队开始与市场推广策略脱节，或决策缺乏数据闭环支持的场景。",
+      "commonMistakes": "Treating Marketing as a downstream function that only 'launches' what Product has already built.",
+      "commonMistakes_zh": "错误地将市场部门视为下游职能，仅在产品开发完成后负责“发布”，而非参与前期定义。",
+      "quote": "We fundamentally believe the best work happens when we bring different diverse perspectives to the problem and then co-create the outcome.",
+      "realWorldExample": "When building 'Miro Talktrack', the cross-functional insight revealed users wanted collaboration over just communication, leading to a feature that records board movement synced with video, rather than a simple screen recording.",
+      "realWorldExample_zh": "在开发 'Miro Talktrack' 功能时，跨职能洞察发现用户更需要协作而非单纯的沟通。这促使团队开发了一种能同步记录画板移动轨迹和视频讲解的功能，而非做一个简单的屏幕录制工具。"
+    },
+    {
+      "name": "The Relative Velocity Framework",
+      "name_zh": "相对竞争速度框架",
+      "category": "product-strategy",
+      "problemItSolves": "Combats complacency by reframing product development as a constant race against competitors and market expectations.",
+      "problemItSolves_zh": "通过将产品开发重构为与竞争对手和市场预期的持续赛跑，解决团队自满或忽视外部威胁的问题。",
+      "summary": "Products are never static; with every code push from you or your competitor, your relative position improves or declines. The goal isn't just to move fast, but to be the first to 'hit the brick wall'—to invalidate wrong hypotheses faster than the competition. Strategy is defined by what the competition allows you to do.",
+      "summary_zh": "产品永远不是静态的；你或竞争对手的每一次代码提交，都会导致你的相对市场地位上升或下降。目标不仅仅是跑得快，而是要成为第一个“撞墙”的人——即比竞争对手更快地验证并排除错误的假设。公司的成功很大程度上取决于竞争对手留给你的空间。",
+      "principles": [
+        "Zero-Sum Mindset on Quality: Every release either adds positive chess points or negative ones relative to the market.",
+        "Hit the Wall First: Prioritize speed to discover what DOESN'T work before competitors do.",
+        "Monitor Competitors implicitly: Use competitor moves to sharpen clarity on your own investments and differentiation."
+      ],
+      "principles_zh": [
+        "质量零和思维：每一次发布相对于市场而言，要么加分要么减分，没有中间状态。",
+        "抢先试错：优先考虑速度，以便在竞争对手之前发现哪些路径行不通。",
+        "隐性竞品监控：利用竞争对手的动作来反向校准自身投资的清晰度和差异化价值。"
+      ],
+      "whenToUse": "In highly competitive markets (Red Oceans) where features are easily commoditized.",
+      "whenToUse_zh": "适用于竞争激烈的红海市场，或是功能容易被同质化的领域。",
+      "commonMistakes": "Ignoring competition completely under the guise of 'customer obsession', failing to realize customers constantly compare solutions.",
+      "commonMistakes_zh": "打着“用户至上”的幌子完全无视竞争，忽略了用户实际上时刻在进行横向比对的事实。",
+      "quote": "Success of a company is a direct relation of what the competition allows you to do... Products never remain same.",
+      "realWorldExample": "Varun's experience at Adobe and Box, seeing how Microsoft's entry into a category drastically changes the growth trajectory, forcing clear differentiation.",
+      "realWorldExample_zh": "Varun 在 Adobe 和 Box 的经历表明，每当微软进入一个细分领域，都会剧烈改变增长曲线，迫使原有玩家必须建立极清晰的差异化壁垒。"
+    },
+    {
+      "name": "The P-Stage Development Process",
+      "name_zh": "P-Stage 产品全生命周期流程",
+      "category": "execution",
+      "problemItSolves": "Standardizes the product lifecycle to measure velocity and ensure alignment without killing agility.",
+      "problemItSolves_zh": "标准化产品生命周期，以便在不扼杀敏捷性的前提下，量化开发速率并确保目标对齐。",
+      "summary": "A structured stage-gate process that tracks cycle times for distinct phases. By classifying projects as Small, Medium, or Large, teams can benchmark their velocity against organizational averages to identify bottlenecks in definition vs. delivery.",
+      "summary_zh": "一种结构化的阶段关卡流程，用于追踪不同阶段的周期时间。通过将项目分类为S（小）、M（中）、L（大），团队可以将自身的交付速度与组织平均水平进行对标，从而识别在“问题定义”与“交付”环节中的瓶颈。",
+      "principles": [
+        "P-Strat: Strategy definition / Idea pitch.",
+        "P0: Problem definition (The 'What' and 'Why').",
+        "P1: Solution definition (The 'How' and Design).",
+        "P2: Post-ship impact review (Did we move the metric?)."
+      ],
+      "principles_zh": [
+        "P-Strat：战略定义/创意提案阶段。",
+        "P0：问题定义阶段（明确“做什么”和“为什么做”）。",
+        "P1：方案定义阶段（明确“怎么做”及详细设计）。",
+        "P2：发布后复盘阶段（验证是否撬动了预设指标）。"
+      ],
+      "whenToUse": "For mid-to-large product organizations (50+ PMs) needing data-driven insights into operational efficiency.",
+      "whenToUse_zh": "适用于中大型产品组织（50名以上产品经理），需要数据化洞察来提升运营效率的场景。",
+      "commonMistakes": "Using the stages as bureaucratic hurdles rather than diagnostic tools to help teams move faster.",
+      "commonMistakes_zh": "将这些阶段变成官僚主义的审批障碍，而不是用来帮助团队提升速度的诊断工具。",
+      "quote": "Deliver customer value faster with high quality.",
+      "realWorldExample": "Miro tracks the time from 'Insight' to 'Metric Moved'. A team might realize they spend too much time in P0 compared to peers and seek advice to unblock.",
+      "realWorldExample_zh": "Miro 追踪从“洞察”到“指标变动”的全链路时间。某团队可能会发现自己在 P0 阶段耗时远超同行，从而寻求建议以消除阻塞。"
+    },
+    {
+      "name": "The \"Pink vs. Red\" Quality Calibration",
+      "name_zh": "\"红粉之辨\" 设计质量校准法",
+      "category": "team-culture",
+      "problemItSolves": "Solves the ambiguity of what \"High Quality\" means by using visual examples rather than lengthy documentation.",
+      "problemItSolves_zh": "通过视觉案例而非冗长的文档，解决“高质量”定义模糊、主观性强的问题。",
+      "summary": "Instead of writing 10-page docs defining quality, Miro's design leadership reviews shipped features monthly and tags them binary: 'High Quality' or 'Not High Quality'. This creates a training set (like AI reinforcement learning) for the org to intuitively understand standards.",
+      "summary_zh": "Miro 的设计领导层不撰写冗长的质量定义文档，而是每月审查已发布的功能，并进行二元标记：“高质量”或“非高质量”。这建立了一个类似 AI 强化学习的“训练集”，帮助组织直观地理解质量标准。",
+      "principles": [
+        "Visual Calibration: Describing 'Pink' vs 'Red' is hard in words, but easy with examples.",
+        "Binary Classification: Keep it simple (Quality / No Quality) to force a decision.",
+        "Reinforcement Learning: Regularly sharing these classifications trains the 'product intuition' of the entire team."
+      ],
+      "principles_zh": [
+        "视觉校准：用文字描述“粉色”和“红色”的区别很难，但看图一目了然。",
+        "二元分类：保持简单（高质量/非高质量），倒逼做出明确判断。",
+        "强化学习：定期分享这些分类结果，以此训练整个团队的“产品直觉”。"
+      ],
+      "whenToUse": "When product quality is inconsistent and 'quality bar' discussions become theoretical debates.",
+      "whenToUse_zh": "当产品质量参差不齐，且关于“质量标准”的讨论沦为理论争辩时。",
+      "commonMistakes": "Creating massive guideline documents that nobody reads instead of showing concrete examples of good vs. bad.",
+      "commonMistakes_zh": "编写没人看的巨型规范文档，而不是直接展示好与坏的具体案例。",
+      "quote": "If you've never seen colors and I ask you describe pink... you can't. But if I show you examples, you get it.",
+      "realWorldExample": "Design leadership reviews monthly shipments, marks them, and a designated leader shares the results to calibrate the team's eye.",
+      "realWorldExample_zh": "设计领导层每月审查发布内容并进行标记，由指定负责人分享结果，以此校准整个团队的审美和质量判断力。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Every single day, every single time somebody is pushing your code to production... you are making the product better or you're making the product worse, but the products never remain same.",
+      "context": "On the philosophy of continuous evolution and competitive pressure."
+    },
+    {
+      "text": "The success of a company is a direct relation of what the competition allows you to do.",
+      "context": "Varun discussing the realistic impact of competitors like Microsoft on growth trajectories."
+    },
+    {
+      "text": "I want to be the first one to hit the brick wall.",
+      "context": "On why speed and urgency matter—failing fast leads to finding the right path sooner."
+    },
+    {
+      "text": "Velocity is more like the game of golf where you're just playing against yourself.",
+      "context": "On how teams should benchmark their speed—not against others, but against their own past performance."
+    },
+    {
+      "text": "Deliver customer value faster with high quality.",
+      "context": "Miro's single-sentence motto that drives performance reviews and organizational goals."
+    }
+  ],
+  "filename": "Varun Parmar"
+}

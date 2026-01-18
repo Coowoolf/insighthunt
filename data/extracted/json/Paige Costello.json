@@ -1,0 +1,153 @@
+{
+  "guest": {
+    "name": "Paige Costello",
+    "title": "Product Lead, Core Product",
+    "company": "Asana",
+    "background": "Paige Costello is a Product Lead at Asana, overseeing the core product experience including desktop, web, and mobile apps. Previously, she served as Director of Product at Intercom and spent over five years as a Group Product Manager at Intuit.",
+    "background_zh": "Paige Costello 现任 Asana 核心产品负责人，统管桌面端、Web 端及移动端的核心体验。此前，她曾担任 Intercom 的产品总监，并在 Intuit 拥有超过五年的集团产品经理（Group PM）经验。"
+  },
+  "episodeSummary": "Paige Costello shares her strategies for building trust as a young leader, coaching product managers through example, and evolving product processes at scale. She discusses Asana's unique planning cycles, their implementation of the Double Diamond framework, and how to deliver effective feedback using the SBI model.",
+  "episodeSummary_zh": "Paige Costello 分享了作为年轻领导者建立信任的策略、以身作则辅导产品经理的方法，以及在大规模团队中迭代产品流程的经验。她详细探讨了 Asana 独特的规划周期、双钻模型（Double Diamond）的落地实践，以及如何运用 SBI 模型提供有效反馈。",
+  "keyTakeaways": [
+    "Build trust by 'bringing the insight'—knowing the customer, market, and numbers better than anyone else.",
+    "Use the Trust Equation: Trust = (Credibility + Reliability + Authenticity) / Perception of Self-Interest.",
+    "Adopt the 'Three E's' for career growth: Experience, Exposure, and Education.",
+    "Implement the Double Diamond process with specific review gates (Kickoff, Concept, Spec, Launch) to force divergent and convergent thinking.",
+    "Deliver feedback using the SBI framework (Situation, Behavior, Impact) to make it objective and actionable.",
+    "Plan on a rolling 12-month basis, revisited every 6 months, to balance long-term vision with agility.",
+    "Challenge scarcity mindsets by asking 'How might the opposite be true?'"
+  ],
+  "methodologies": [
+    {
+      "name": "The Trust Equation for New Leaders",
+      "name_zh": "新任管理者的信任公式",
+      "category": "career-leadership",
+      "problemItSolves": "How young or new PMs can garner trust and win over skeptics, especially those with more tenure or experience.",
+      "problemItSolves_zh": "年轻或新任 PM 如何在资历更深、经验更丰富的团队成员面前建立威信并赢得信任。",
+      "summary": "Trust is calculated as the sum of Credibility, Reliability, and Authenticity, divided by the Perception of Self-Interest. To maximize trust, PMs must increase the numerator (especially Credibility through deep insight) and decrease the denominator (showing you are not acting for personal gain).",
+      "summary_zh": "信任度等于（可信度 + 可靠性 + 真实性）除以（被感知的自利倾向）。为了最大化信任，PM 必须通过深度洞察提升分子（特别是可信度），同时降低分母（表明你的行动并非为了个人私利）。",
+      "principles": [
+        "Credibility: Bring unique insights. Know thy customer, competitors, and numbers better than anyone in the room.",
+        "Reliability: Maintain a high say-do ratio. Deliver on what you promise consistently.",
+        "Authenticity: Be vulnerable and genuine. Ask questions when you don't know the answer.",
+        "Low Self-Interest: Demonstrate that your decisions are for the user or the team, not your own promotion."
+      ],
+      "principles_zh": [
+        "可信度（Credibility）：提供独到洞察。比任何人都更了解客户、竞品和数据。",
+        "可靠性（Reliability）：言出必行。保持高“言行比”，持续兑现承诺。",
+        "真实性（Authenticity）：保持真诚与适度示弱。不懂就问，不假装全知全能。",
+        "低自利倾向（Low Self-Interest）：证明你的决策是为了用户或团队利益，而非个人晋升。"
+      ],
+      "whenToUse": "When joining a new team, taking on a new scope, or leading stakeholders who are significantly more senior than you.",
+      "whenToUse_zh": "当你加入新团队、接手新业务范围，或领导比你资历更深的利益相关者（Stakeholders）时。",
+      "commonMistakes": "Trying to fake experience you don't have instead of leaning into the 'insight' you can generate through hard work.",
+      "commonMistakes_zh": "试图伪装出你并不具备的经验，而不是依靠通过努力工作获得的“深度洞察”来建立权威。",
+      "quote": "The thing I would say is bring the insight. Know thy customer. Know thy market. Know thy competitors. Know thy numbers. Know thy product.",
+      "realWorldExample": "Paige advises that even if you don't have 10 years of engineering experience, you can be the person in the room who has watched the most customer sessions and knows exactly why a competitor's feature is better, thus earning respect.",
+      "realWorldExample_zh": "Paige 建议，即使你没有10年的工程经验，你也可以通过成为房间里看过最多用户访谈视频、最清楚竞品功能优劣的人来赢得尊重。"
+    },
+    {
+      "name": "Asana's Adapted Double Diamond",
+      "name_zh": "Asana 版双钻模型",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from jumping straight to solutions or getting stuck in opinion-based debates without rigorous discovery.",
+      "problemItSolves_zh": "防止团队直接跳进解决方案，或在没有严谨探索的情况下陷入基于主观意见的争论。",
+      "summary": "A structured process of going broad (diverging) and narrow (converging) twice: first on the problem, then on the solution. Asana maps specific review artifacts to these inflection points to ensure the thinking has the right quality before moving forward.",
+      "summary_zh": "一个包含两次“发散（广度）”与“收敛（深度）”的结构化流程：首先针对问题，其次针对解决方案。Asana 将特定的评审交付物映射到这些关键节点，以确保在推进前思考质量达标。",
+      "principles": [
+        "Kickoff (Broaden): Gather context. Ask 'What customer should we solve for?' and 'What are the problems?'.",
+        "Problem Selection (Narrow): Define the specific target customer and the exact problem statement.",
+        "Design Concept (Broaden): Explore multiple solution paths. Do not settle on the first idea.",
+        "Spec/Launch (Narrow): Define the specific solution, metrics, and execution plan."
+      ],
+      "principles_zh": [
+        "启动会（发散）：收集背景信息。询问“我们要为哪类客户解决问题？”以及“问题究竟是什么？”",
+        "问题确立（收敛）：定义具体的目标客户群体和精确的问题陈述。",
+        "设计概念（发散）：探索多种解决方案路径。不要满足于第一个想到的点子。",
+        "规格/发布（收敛）：确定具体的解决方案、衡量指标（Metrics）和执行计划。"
+      ],
+      "whenToUse": "For complex features or ambiguous problem spaces. (Note: Can be skipped for rapid prototyping like their AI initiatives).",
+      "whenToUse_zh": "适用于复杂功能或模糊的问题领域。（注：对于像 AI 探索这类需要快速原型的项目，可以跳过此流程）。",
+      "commonMistakes": "Selecting success metrics based on feature usage (teaching to the test) rather than actual customer outcomes.",
+      "commonMistakes_zh": "将成功指标仅仅设定为功能使用率（应试教育式的指标），而非客户实际获得的成果。",
+      "quote": "That process of going broad, and going narrow... forces people to get out of their opinion-driven lens because so often, we need to be curious quantitatively and qualitatively.",
+      "realWorldExample": "When planning the 'Coordinate' area, the team focuses on healthy project use rather than just driving metrics, ensuring they solve the actual problem of 'who is doing what by when'.",
+      "realWorldExample_zh": "在规划“协同（Coordinate）”领域时，团队关注的是项目使用的健康度，而不仅仅是提升指标数据，确保真正解决了“谁在何时做什么”的问题。"
+    },
+    {
+      "name": "SBI Feedback Model",
+      "name_zh": "SBI 反馈模型",
+      "category": "team-culture",
+      "problemItSolves": "Delivering difficult feedback without causing defensiveness or damaging relationships.",
+      "problemItSolves_zh": "在不引起对方防御心理或破坏关系的前提下，提供棘手或负面的反馈。",
+      "summary": "A framework learned at Intuit that structures feedback into three objective components: Situation, Behavior, and Impact. This moves feedback from judgment ('you were rude') to subjective observation ('I felt unheard').",
+      "summary_zh": "源自 Intuit 的一套框架，将反馈结构化为三个客观要素：情境（Situation）、行为（Behavior）和影响（Impact）。这让反馈从主观评判（如“你很粗鲁”）转变为基于事实的观察（如“我觉得没被倾听”）。",
+      "principles": [
+        "Situation: Anchor in time and place. 'On Tuesday in the 3:00 PM meeting...'",
+        "Behavior: Describe the observable action. 'You interrupted me while I was speaking...'",
+        "Impact: Describe the result or feeling (using 'I' statements). 'It made me feel like you weren't listening to me.'",
+        "Subjectivity: Acknowledge that the impact is your experience, making it indisputable but open for discussion."
+      ],
+      "principles_zh": [
+        "情境（Situation）：锚定具体时间和地点。“在周二下午3点的会议上……”",
+        "行为（Behavior）：描述可观察到的动作。“我在发言时你打断了我……”",
+        "影响（Impact）：描述结果或感受（使用“我”的主语）。“这让我感觉你没有在听我说话。”",
+        "主观性（Subjectivity）：承认这种“影响”是你的个人体验，这让反馈既无可辩驳，又为讨论留出了空间。"
+      ],
+      "whenToUse": "During 1:1s, performance reviews, or immediately after a friction point occurs.",
+      "whenToUse_zh": "在 1:1 会议、绩效评估时，或在摩擦发生后立即使用。",
+      "commonMistakes": "Mixing judgment with behavior (e.g., saying 'you were aggressive' instead of 'you raised your voice').",
+      "commonMistakes_zh": "将主观评判与客观行为混淆（例如，说“你很咄咄逼人”，而不是“你提高了嗓门”）。",
+      "quote": "It delivers feedback as a subjective observation. It's not what the camera recorded, it's what you experienced.",
+      "realWorldExample": "Paige uses this to give feedback on everything from communication style to work attire, ensuring the recipient understands the specific impact of their actions.",
+      "realWorldExample_zh": "Paige 使用该模型对沟通风格甚至着装等各类问题提供反馈，确保接收者理解其行为产生的具体影响。"
+    },
+    {
+      "name": "The Three E's of Career Growth",
+      "name_zh": "职业成长 3E 框架",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs break out of a linear mindset where they think they must strictly 'learn' then 'do' to advance.",
+      "problemItSolves_zh": "帮助产品经理跳出线性思维，不再认为只有“学习”然后“做”才能获得晋升。",
+      "summary": "Career growth isn't just Education and Experience. 'Exposure' is the critical third pillar—being in the room to observe how decisions are made, even if you aren't the decision maker.",
+      "summary_zh": "职业成长不仅仅依靠“教育（Education）”和“经验（Experience）”。“接触/曝光（Exposure）”是关键的第三支柱——即置身于决策现场，观察决策是如何制定的，即使你不是决策者。",
+      "principles": [
+        "Education: Formal learning, books, and mentorship.",
+        "Experience: Learning by doing the actual work (the driver's seat).",
+        "Exposure: Being 'in the car' to hear the conversation. Observing senior leaders and high-stakes moments.",
+        "Repetition: Using all three to reinforce patterns of success."
+      ],
+      "principles_zh": [
+        "教育（Education）：正规学习、阅读书籍和导师指导。",
+        "经验（Experience）：在实战中通过做具体工作来学习（坐在驾驶座上）。",
+        "接触（Exposure）：作为“乘客”旁听对话。观察高层领导在关键时刻如何处理问题。",
+        "重复（Repetition）：利用这三个维度来强化对成功模式的认知。"
+      ],
+      "whenToUse": "When planning career development or feeling stuck in a role.",
+      "whenToUse_zh": "规划职业发展路径或感觉在当前岗位停滞不前时。",
+      "commonMistakes": "Focusing solely on Education (reading about management) and Experience, while neglecting the value of shadowing and observation.",
+      "commonMistakes_zh": "仅仅关注教育（阅读管理书籍）和经验，而忽视了“影子跟随（Shadowing）”和观察的价值。",
+      "quote": "Exposure was such an important one where I thought like, 'Okay. So you're not in the driver's seat, but you're in the car, and you hear what's happening.'",
+      "realWorldExample": "Paige learned a profound lesson about strategy just by being in the room when a leader said, 'Always answer the question that they should have asked' after a high-stakes review.",
+      "realWorldExample_zh": "Paige 在一次高风险评审会后，仅仅因为在场听到了领导说“永远要回答他们本应该问的那个问题”，就学到了关于战略的深刻一课。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Your brain is so accustomed to having a scarcity mindset... The moment I challenged myself and said, 'How might the opposite be true?' my shoulders dropped.",
+      "context": "On managing stress and false trade-offs in decision making."
+    },
+    {
+      "text": "Think big, ship small.",
+      "context": "Her advice on balancing ambitious vision with iterative execution."
+    },
+    {
+      "text": "Always answer the question that they should have asked.",
+      "context": "Strategic advice she learned from a leader at Intuit regarding executive communication."
+    },
+    {
+      "text": "If you're above the line, you're committed to learning... If you're below the line, you're committed to being right.",
+      "context": "Referencing the 'Conscious Leadership' framework Asana uses."
+    }
+  ],
+  "filename": "Paige Costello"
+}

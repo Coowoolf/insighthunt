@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Kristen Berman",
+    "title": "CEO & Co-founder",
+    "company": "Irrational Labs",
+    "background": "Kristen is a behavioral scientist who co-founded Irrational Labs with Dan Ariely. She previously started the behavioral economics team at Google and has worked with companies like TikTok, LinkedIn, and One Medical to apply behavioral insights to product design.",
+    "background_zh": "Kristen 是行为科学家，与知名学者 Dan Ariely 共同创立了 Irrational Labs。她曾一手组建了 Google 的行为经济学团队，目前致力于帮助 TikTok、LinkedIn 和 One Medical 等公司将行为科学应用于产品设计中。"
+  },
+  "episodeSummary": "Kristen Berman demystifies how behavioral economics can drive product growth and retention. She challenges the traditional assumption that 'less friction is always better' and introduces frameworks to diagnose user psychology. Through case studies with TikTok and One Medical, she demonstrates how small interventions in choice architecture can lead to massive behavioral changes.",
+  "episodeSummary_zh": "Kristen Berman 揭示了如何利用行为经济学驱动产品增长和留存。她挑战了“摩擦越少越好”的传统产品观念，并介绍了一套诊断用户心理的实战框架。通过 TikTok 和 One Medical 的真实案例，她展示了如何通过微调“选择架构”来实现用户行为的巨大转变。",
+  "filename": "Kristen Berman"
+}

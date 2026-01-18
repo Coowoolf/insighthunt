@@ -3,7 +3,8 @@
     "name": "Ethan Evans",
     "title": "Former VP at Amazon, Executive Coach",
     "company": "Amazon / Ethan Evans Coaching",
-    "background": "A 15-year Amazon veteran who served as VP for Prime Video, Twitch Commerce, and Prime Gaming. He holds over 70 patents, helped draft Amazon's 'Ownership' leadership principle, and now coaches senior leaders on breaking through career ceilings."
+    "background": "A 15-year Amazon veteran who served as VP for Prime Video, Twitch Commerce, and Prime Gaming. He holds over 70 patents, helped draft Amazon's 'Ownership' leadership principle, and now coaches senior leaders on breaking through career ceilings.",
+    "background_zh": "拥有 15 年经验的亚马逊资深元老，曾任 Prime Video、Twitch Commerce 及 Prime Gaming 副总裁。他手握 70 多项专利，曾参与起草亚马逊著名的“主人翁精神（Ownership）”领导力准则，目前专注于辅导高管突破职业瓶颈。"
   },
   "episodeSummary": "Ethan Evans breaks down the mechanics of career acceleration and systematic invention within high-performance cultures like Amazon. He details 'The Magic Loop' framework for self-driven promotion, shares a masterclass in crisis management based on a personal failure with Jeff Bezos, and demystifies the process of innovation as a repeatable habit rather than a stroke of genius.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "When you feel stagnant in your role, when you have a hands-off manager, or when you want to pivot your skill set without changing companies.",
       "commonMistakes": "Skipping Step 1 (trying to negotiate growth while underperforming) or skipping Step 4 (doing the extra work but never explicitly tying it to your career goals).",
       "quote": "Managers help those who help them. It's just human nature.",
-      "realWorldExample": "An engineer on Ethan's team used this loop to grow from an SDE II to a Director managing 800 people over eight years by consistently taking on his manager's problems in exchange for growth opportunities."
+      "realWorldExample": "An engineer on Ethan's team used this loop to grow from an SDE II to a Director managing 800 people over eight years by consistently taking on his manager's problems in exchange for growth opportunities.",
+      "summary_zh": "这是一个包含五个步骤的循环流程，旨在将传统的上下级关系转化为合作伙伴关系。通过优先解决上级当下的核心痛点，你将积累职场筹码，从而有能力争取那些与你个人职业目标高度对齐的工作机会。",
+      "problemItSolves_zh": "助力绩优员工在直属主管忙碌、被动或未主动规划其职业成长路径时，依然能够掌握新技能并实现晋升。",
+      "whenToUse_zh": "当你感到职业成长陷入停滞、遇到一位“放养型”的上级，或是希望在不跳槽的情况下实现技能转型时。",
+      "commonMistakes_zh": "跳过第一步（绩效未达标却试图谋求职业发展），或跳过第四步（承担了额外工作，却从未将其与个人职业目标明确挂钩）。",
+      "realWorldExample_zh": "Ethan 团队的一位工程师运用这一飞轮模型，通过持续主动解决上级的难题来换取成长机会，在八年内实现了从 SDE II 到统管 800 人团队总监的职业跃迁。",
+      "principles_zh": [
+        "第一步：评估基准表现。如果当前的本职工作都不达标，就无法启动这个增长飞轮；首先必须建立“靠谱”的信任感。",
+        "第二步：主动请缨。直接询问你的主管：“您当务之急最担心什么？”或者“有哪些工作我可以为您分担？”",
+        "第三步：落地“脏活累活”。即使任务枯燥乏味，也要追求完美交付。这是积累信任和人情资本的关键。",
+        "第四步：提出战略诉求。在建立信任后主动提案：“我希望负责解决 [问题 X]，这既能为您分忧，也能帮我习得 [技能 Y]，从而助力我实现 [晋升/转岗] 的目标。”",
+        "第五步：持续迭代。利用项目的成功作为杠杆，再次转动增长飞轮，去撬动更大、更具战略意义的机会。"
+      ],
+      "name_zh": "The Magic Loop Career Flywheel（“神奇回路”职业飞轮）"
     },
     {
       "name": "The 'Eye of Sauron' Crisis Protocol",
@@ -47,7 +61,19 @@
       "whenToUse": "During high-visibility product outages, missed launch dates, or critical bugs that have attracted the attention of skip-level leadership.",
       "commonMistakes": "Going silent while trying to fix the bug, or hoping the problem goes away before leadership notices.",
       "quote": "I was buying life one hour at a time... If I can't face the CEO, I'd better pack my desk.",
-      "realWorldExample": "Ethan's team failed a launch for the Amazon Appstore that Jeff Bezos had already written a PR letter for. Ethan updated Bezos every hour on the hour, accepted full blame, and eventually repaired the relationship to become VP."
+      "realWorldExample": "Ethan's team failed a launch for the Amazon Appstore that Jeff Bezos had already written a PR letter for. Ethan updated Bezos every hour on the hour, accepted full blame, and eventually repaired the relationship to become VP.",
+      "summary_zh": "这是一套强调极致担当与沟通节奏的危机管理策略。其核心目标是通过展现对局势的掌控力，有效缓解管理层的焦虑，进而为团队争取到专注于解决技术问题的宝贵时间。",
+      "problemItSolves_zh": "如何在惊动高层（如 CEO）的灾难性故障或宕机事故中幸存，并避免被开除。",
+      "whenToUse_zh": "当发生备受瞩目的产品宕机、上线跳票，或出现惊动跨级管理层的重大 Bug 时。",
+      "commonMistakes_zh": "修复 Bug 时停止信息同步，或抱有侥幸心理，寄希望于在管理层察觉前问题自动解决。",
+      "realWorldExample_zh": "Ethan 的团队在 Amazon Appstore 发布时遭遇严重事故，而 Jeff Bezos 此前已亲自写好了该项目的新闻稿。Ethan 坚持每小时准点向 Bezos 同步进度，主动揽下全部责任，最终成功修复了信任关系并晋升为 VP。",
+      "principles_zh": [
+        "第一步：极致担当。第一时间承认失败。切勿推诿甩锅、归咎于依赖方，或试图淡化影响。",
+        "第二步：高频定点同步。建立严格的同步机制（例如：明确“我每 60 分钟更新一次进度”）。这能为你换取 59 分钟的深度专注时间，避免管理层频繁介入进行微观管理。",
+        "第三步：敬畏“头条风险”。基于公众舆论风险评估决策。如果某项操作可能引发公关（PR）灾难，务必坚持安全第一，速度第二。",
+        "第四步：当面“抗压”。待尘埃落定，务必与利益相关方（Stakeholders）面对面沟通。相比于邮件轰炸，领导在当面交流时通常很难对你进行严厉指责。"
+      ],
+      "name_zh": "The 'Eye of Sauron' Crisis Protocol（“索伦之眼”危机应对机制）"
     },
     {
       "name": "The Combinatorial Invention Process",
@@ -63,7 +89,19 @@
       "whenToUse": "During quarterly planning, hackathons, or when tasked with a 'Think Big' document to expand a product line.",
       "commonMistakes": "Thinking invention requires weeks of time (it requires small, intense bursts) or trying to invent in a field where you lack fundamental expertise.",
       "quote": "The point here is you don't need very many good ideas to be seen as tremendously inventive... once you have one good idea, it often takes years to express that.",
-      "realWorldExample": "Ethan invented a patent for drone delivery by combining the concept of an aircraft carrier with a delivery truck—creating a mobile base for drones—rather than trying to invent a drone with infinite battery life."
+      "realWorldExample": "Ethan invented a patent for drone delivery by combining the concept of an aircraft carrier with a delivery truck—creating a mobile base for drones—rather than trying to invent a drone with infinite battery life.",
+      "summary_zh": "这是一套系统化的发明方法论，旨在将创新从不可捉摸的“魔法”祛魅为可执行的“流程”。它依托于深厚的领域沉淀，结合刻意的抽离式思考，通过重组既有概念来实现创造。",
+      "problemItSolves_zh": "克服在尝试创新或践行“Think Big”（亚马逊领导力准则）时，面对“空白页”无从下手的思维僵局。",
+      "whenToUse_zh": "在季度规划、黑客马拉松期间，或需撰写 \"Think Big\" 文档以拓展产品线时。",
+      "commonMistakes_zh": "误以为发明创造需要数周的连续时间（实际上它依赖的是短时且高强度的爆发），或者试图在缺乏底层领域认知的赛道强行创新。",
+      "realWorldExample_zh": "Ethan 发明了一项无人机配送专利，其思路是将“航空母舰”的概念与物流货车相结合——打造一个无人机移动基地——而非试图发明无限续航的无人机。",
+      "principles_zh": [
+        "第一步：深耕领域知识。创新绝非闭门造车，你必须透彻理解现有系统的底层运作机理。",
+        "第二步：设定强制隔离期。每月锁定 2 小时专注创新——屏蔽邮件和 Slack 干扰。请注意，这与日常“工作”有着本质区别。",
+        "第三步：运用组合式思维。不要试图从零发明新元素，而是将两个已验证的成熟事物进行重组（例如：航母逻辑 + 货运卡车）。",
+        "第四步：持续打磨优化。要清醒地认识到，创新的 99% 在于创意落地后的渐进式迭代（即追求更低成本、更快速度和更高稳定性）。"
+      ],
+      "name_zh": "The Combinatorial Invention Process（组合式发明流程）"
     }
   ],
   "notableQuotes": [
@@ -84,5 +122,6 @@
       "context": "On why he chose to sit next to Jeff Bezos immediately after a major failure, effectively diffusing the tension."
     }
   ],
-  "filename": "Ethan Evans 2.0"
+  "filename": "Ethan Evans 2.0",
+  "episodeSummary_zh": "Ethan Evans 深度拆解了在亚马逊等高绩效文化背景下，实现职业加速与系统化创新的底层机制。他详解了助力自驱式晋升的“Magic Loop”框架，基于一次向杰夫·贝佐斯汇报时的个人“翻车”经历，分享了一堂教科书级的危机管理复盘课，并对创新过程进行祛魅，将其定义为一种可复用的习惯，而非依赖天才般的灵光乍现。"
 }

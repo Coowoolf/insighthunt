@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Nancy Duarte",
+    "title": "CEO & Author",
+    "company": "Duarte, Inc.",
+    "background": "Nancy Duarte is a communication expert and CEO of Duarte, Inc., the largest design firm in Silicon Valley. She is the author of best-selling books like 'Resonate' and 'Illuminate', and her team has designed over 250,000 presentations for world-leading brands, including Apple and Al Gore's 'An Inconvenient Truth'.",
+    "background_zh": "Nancy Duarte 是沟通领域的专家，也是硅谷最大的设计公司 Duarte, Inc. 的 CEO。她是《Resonate》和《Illuminate》等畅销书的作者，她的团队为包括苹果公司和阿尔·戈尔的《难以忽视的真相》在内的全球顶尖品牌设计了超过 25 万份演示文稿。"
+  },
+  "episodeSummary": "Nancy Duarte breaks down the science of persuasive communication, explaining how product leaders can use storytelling structures to influence stakeholders and drive adoption. She details frameworks for structuring arguments, visualizing complex ideas, and leading teams through change using the 'Torchbearer' model.",
+  "episodeSummary_zh": "Nancy Duarte 解析了说服性沟通的科学，阐述了产品负责人如何利用故事结构来影响利益相关者并推动产品采纳。她详细介绍了构建论点、可视化复杂概念的框架，以及如何利用“火炬手”模型带领团队通过变革。",
+  "keyTakeaways": [
+    "Treat your audience as the hero and yourself as the mentor (like Yoda to Luke Skywalker).",
+    "Use the 'What is' vs. 'What could be' framework to create tension and longing for your product vision.",
+    "For internal documentation, use 'Slidedocs' (dense, readable slides) instead of cinematic presentation decks.",
+    "Manage public speaking nerves by reframing fear into excitement or using breathing techniques.",
+    "Lead organizational change using the 5-stage Torchbearer framework: Dream, Leap, Fight, Climb, Arrive."
+  ],
+  "methodologies": [
+    {
+      "name": "The Mentor-Hero Dynamic",
+      "name_zh": "导师-英雄模型 (The Mentor-Hero Dynamic)",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents presenters from being self-centered and failing to connect with or persuade their audience.",
+      "problemItSolves_zh": "防止演讲者以自我为中心，导致无法与受众建立连接或进行有效说服。",
+      "summary": "This framework shifts the role of the presenter from being the center of attention to being a mentor (like Obi-Wan). The audience is the hero (Luke Skywalker) who has to undergo a journey. The presenter's job is to provide the 'magical tool' or insight that helps the audience overcome their internal conflict and succeed.",
+      "summary_zh": "该框架将演讲者的角色从关注的焦点转变为导师（如欧比旺）。受众才是真正经历旅程的英雄（如卢克·天行者）。演讲者的任务是提供“魔法道具”或洞察力，帮助受众克服内心冲突并取得成功。",
+      "principles": [
+        "Empathy First: Understand the audience's internal conflict and pain points before designing the deck.",
+        "The Gift: Provide a tool, insight, or strategy (the lightsaber) that resolves their conflict.",
+        "The Call to Action: Ask the hero to cross the threshold and take a specific action."
+      ],
+      "principles_zh": [
+        "同理心优先：在设计演示文稿之前，深入理解受众的内心冲突和痛点。",
+        "提供赋能：提供一个能解决他们冲突的工具、洞察或策略（如同“光剑”）。",
+        "行动号召：邀请英雄（受众）跨越门槛，采取具体的行动。"
+      ],
+      "whenToUse": "Before drafting any high-stakes presentation, pitch, or product launch.",
+      "whenToUse_zh": "在起草任何高风险的演讲、路演或产品发布会之前。",
+      "commonMistakes": "Thinking the presenter is the hero because they are on stage holding the mic.",
+      "commonMistakes_zh": "仅仅因为自己站在舞台上手持麦克风，就误以为自己是主角。",
+      "quote": "The audience is the hero... You are the mentor. You're giving them a tool to help them get unstuck.",
+      "realWorldExample": "Obi-Wan Kenobi giving Luke Skywalker the lightsaber (outer tool) and the Force (inner resolve) to defeat the Empire.",
+      "realWorldExample_zh": "欧比旺·克诺比交给卢克·天行者光剑（外部工具）并传授原力（内在决心），以帮助他击败帝国。"
+    },
+    {
+      "name": "The Sparkline Framework (What Is vs. What Could Be)",
+      "name_zh": "Sparkline 叙事框架 (现状与愿景的对比)",
+      "category": "product-strategy",
+      "problemItSolves": "Overcomes audience complacency by creating a gap between the status quo and a better future, generating desire for the product or idea.",
+      "problemItSolves_zh": "通过在“现状”与“更美好的未来”之间制造差距，克服受众的自满情绪，激发他们对产品或想法的渴望。",
+      "summary": "A storytelling structure that oscillates between the current reality ('What is') and the future possibility ('What could be'). This contrast creates tension that is resolved by the presenter's solution, ending in a 'New Bliss'.",
+      "summary_zh": "一种在当前现实（“现状”）和未来可能性（“愿景”）之间来回切换的叙事结构。这种对比制造了张力，而演讲者的解决方案能化解这种张力，最终导向一个“新的极乐世界（New Bliss）”。",
+      "principles": [
+        "Establish the Status Quo: Honestly depict the current reality and its problems ('What is').",
+        "Reveal the Vision: Show the contrasting future if the idea is adopted ('What could be').",
+        "Oscillate: Move back and forth between these two states to build tension.",
+        "The New Bliss: Conclude by describing the transformed world after the conflict is resolved."
+      ],
+      "principles_zh": [
+        "确立现状：诚实地描述当前的现实及其存在的问题（What is）。",
+        "揭示愿景：展示如果采纳该想法后会出现的截然不同的未来（What could be）。",
+        "来回切换：在这两种状态之间交替，以建立张力。",
+        "新的极乐世界：以描述冲突解决后的全新世界作为结尾（New Bliss）。"
+      ],
+      "whenToUse": "During product launches, vision strategy meetings, or even negotiating household chores.",
+      "whenToUse_zh": "适用于产品发布会、愿景战略会议，甚至是在协商家庭琐事时。",
+      "commonMistakes": "Staying too long in the 'What is' (boring) or only talking about the 'What could be' (unbelievable/detached).",
+      "commonMistakes_zh": "在“现状”中停留太久（令人乏味），或者只谈论“愿景”（显得不可信或脱离实际）。",
+      "quote": "I can get my husband to do chores for me on the weekends with a real quick 'what is, what could be, new bliss'.",
+      "realWorldExample": "Steve Jobs launching the iPhone: He contrasted the 'smartphones' of the time (the messy status quo) with the iPhone's ease of use (the ideal future).",
+      "realWorldExample_zh": "史蒂夫·乔布斯发布 iPhone：他将当时所谓的“智能手机”（糟糕的现状）与 iPhone 的易用性（理想的未来）进行了对比。"
+    },
+    {
+      "name": "The Torchbearer Leadership Model",
+      "name_zh": "火炬手变革模型 (The Torchbearer Model)",
+      "category": "team-culture",
+      "problemItSolves": "Helps leaders navigate teams through the fatigue and uncertainty of long-term projects or organizational changes.",
+      "problemItSolves_zh": "帮助领导者带领团队度过长期项目或组织变革中的疲劳期和不确定性。",
+      "summary": "Based on the 5-stage structure of movements. The leader (Torchbearer) illuminates just enough of the path ahead to dissipate fear, using specific communication tools (speeches, stories, ceremonies) at each stage.",
+      "summary_zh": "基于运动/变革的五个阶段结构。领导者（火炬手）只需照亮前方的一小段路以驱散恐惧，并在每个阶段使用特定的沟通工具（演讲、故事、仪式）。",
+      "principles": [
+        "Identify the 5 Stages: Dream (Vision), Leap (Commitment), Fight (Struggle), Climb (Endurance), Arrive (Success).",
+        "Illuminate the Immediate Path: You don't need to see the whole cave, just the next few feet.",
+        "Fuel the Journey: Use symbols and ceremonies to maintain emotional energy during the 'Fight' and 'Climb' phases."
+      ],
+      "principles_zh": [
+        "识别五个阶段：梦想（愿景）、跨越（承诺）、战斗（挣扎）、攀登（耐力）、抵达（成功）。",
+        "照亮当下的路：你不需要看清整个洞穴，只需看清前方几英尺。",
+        "为旅程充能：在“战斗”和“攀登”阶段，利用象征物和仪式来维持团队的情绪能量。"
+      ],
+      "whenToUse": "When leading a company through a pivot, a long product development cycle, or a reorganization.",
+      "whenToUse_zh": "在带领公司进行业务转型、长周期的产品开发或组织架构重组时。",
+      "commonMistakes": "Assuming one big kickoff speech is enough to sustain motivation through the 'messy middle'.",
+      "commonMistakes_zh": "误以为仅靠一场盛大的启动演讲就足以维持团队在“混乱的中期”的动力。",
+      "quote": "A torch... only sees about five, eight feet around you, but it's enough to dissipate the fear of the people following you.",
+      "realWorldExample": "Airbnb illustrating the 'Snow White' storyboards of the user journey to align the whole company on the vision, turning drawings into strategy.",
+      "realWorldExample_zh": "Airbnb 绘制了用户旅程的“白雪公主”故事板，以此统一全公司的愿景，将插画转化为具体的战略。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Your audience is the hero. The mentor comes alongside the hero to help them get unstuck.",
+      "context": "On the core philosophy of empathetic presentation design."
+    },
+    {
+      "text": "Don't make a single slide unless it supports the one big idea of your whole talk.",
+      "context": "Tactical advice on keeping presentations focused and effective."
+    },
+    {
+      "text": "People help what they create.",
+      "context": "On why collaborative sketching and co-creation (whiteboarding) aligns teams better than finished decks."
+    }
+  ],
+  "filename": "Nancy Duarte"
+}

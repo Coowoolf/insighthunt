@@ -1,0 +1,118 @@
+{
+  "guest": {
+    "name": "Mike Krieger",
+    "title": "Chief Product Officer (CPO) at Anthropic",
+    "company": "Anthropic",
+    "background": "Co-founder and former CTO of Instagram. Currently leading product at Anthropic (makers of Claude), where he oversees the development of AI models and products like Claude and Artifacts.",
+    "background_zh": "Instagram联合创始人及前CTO。现任Anthropic（Claude背后的公司）首席产品官，负责AI模型及Claude、Artifacts等产品的开发与战略方向。"
+  },
+  "episodeSummary": "Mike Krieger discusses the radical shift in software development at Anthropic, where 90% of code is now written by AI. He explores how product management evolves when engineering barriers vanish, the strategic importance of MCP (Model Context Protocol), and how to compete as a 'challenger' brand against OpenAI. He also shares lessons from shutting down his news app, Artifact, and advice for AI founders on avoiding being crushed by foundational models.",
+  "episodeSummary_zh": "Mike Krieger 探讨了 Anthropic 内部发生的激进转变——目前 90% 的代码已由 AI 编写。他深入分析了当工程门槛消失时产品管理角色的演变、MCP（模型上下文协议）的战略意义，以及作为“挑战者”品牌如何与 OpenAI 竞争。他还分享了关闭 Artifact 新闻应用的经验教训，并为 AI 创业者提供了避免被基础模型厂商碾压的建议。",
+  "keyTakeaways": [
+    "90% of code at Anthropic is written by AI, shifting bottlenecks from engineering implementation to decision-making and merge queues.",
+    "Product managers should focus less on specs and more on strategy, comprehensibility, and 'opening eyes' to what's possible.",
+    "The 'Make the Other Mistake' prompting technique: If the model is too nice, explicitly ask it to be brutal or roast your ideas.",
+    "Successful AI products require the convergence of three elements: Model Intelligence, Context/Memory (MCP), and Application UI.",
+    "Don't build features that just create dependency; build for user agency and augmentation.",
+    "Founders can survive by focusing on deep vertical workflows (e.g., legal, biotech) or differentiated go-to-market strategies."
+  ],
+  "methodologies": [
+    {
+      "name": "The AI-Native Development Loop",
+      "name_zh": "AI原生开发闭环",
+      "category": "execution",
+      "problemItSolves": "Adapting product development processes when AI generates code faster than humans can review or deploy it.",
+      "problemItSolves_zh": "解决当AI生成代码的速度远超人类审查或部署能力时，传统研发流程不适配的问题。",
+      "summary": "When AI writes 90% of the code, the traditional PM-Designer-Engineer handover breaks down. The bottleneck shifts from 'writing code' to 'decision making' (upstream) and 'merge queues' (downstream). Teams must re-architect their infrastructure and review processes to handle this velocity.",
+      "summary_zh": "当90%的代码由AI编写时，传统的产品-设计-研发交付模式失效。瓶颈从“写代码”转移到了上游的“决策制定”和下游的“代码合并队列”。团队必须重构基础设施和审查流程以适应这种高速度。",
+      "principles": [
+        "Shift Prototyping Left: PMs and designers use tools like Claude Artifacts to build functional prototypes, not just mockups.",
+        "Re-architect Critical Paths: Optimize merge queues and CI/CD pipelines as the volume of Pull Requests (PRs) explodes.",
+        "AI-Assisted Review: Use AI agents to review AI-generated code, focusing human effort on acceptance testing rather than line-by-line syntax checks."
+      ],
+      "principles_zh": [
+        "原型开发左移：PM和设计师利用Claude Artifacts等工具直接构建功能性原型，而非仅仅画线框图。",
+        "重构关键路径：针对爆炸式增长的PR（Pull Requests）数量，优化代码合并队列和CI/CD流水线。",
+        "AI辅助审查：利用AI智能体审查AI生成的代码，将人力集中在验收测试（Acceptance Testing）上，而非逐行检查语法。"
+      ],
+      "whenToUse": "When integrating AI coding agents (like Claude Code or Cursor) into a team's workflow and noticing traffic jams in deployment.",
+      "whenToUse_zh": "当团队开始整合AI编程智能体（如Claude Code或Cursor），并发现部署环节出现严重拥堵时。",
+      "commonMistakes": "Treating AI-generated code with the same slow, manual review process used for human code, causing a massive backlog.",
+      "commonMistakes_zh": "用审查人类代码的低速手动流程去处理AI生成的代码，导致大规模的积压。",
+      "quote": "We really rapidly became bottlenecked on other things like our merge queue... Over half of our pull requests are Claude Code generated. Probably at this point it's probably over 70%... or 90%.",
+      "realWorldExample": "The Claude Code team uses Claude Code to build itself (95% of code). They realized human line-by-line review wasn't scaling, so they started using a separate Claude instance to review the PRs, shifting humans to high-level acceptance testing.",
+      "realWorldExample_zh": "Claude Code团队使用Claude Code来构建自身（约95%的代码）。他们意识到人类逐行审查无法扩展，因此开始使用另一个Claude实例来审查PR，将人类精力转移到高层级的验收测试上。"
+    },
+    {
+      "name": "The 'Make the Other Mistake' Strategy",
+      "name_zh": "“反向纠偏”提示词策略",
+      "category": "product-strategy",
+      "problemItSolves": "Overcoming AI models' tendency to be sycophantic, agreeable, or generic when acting as a strategic thought partner.",
+      "problemItSolves_zh": "解决AI模型在作为战略合作伙伴时倾向于过度奉承、顺从或给出通用回复的问题。",
+      "summary": "To get high-quality strategic critique from an AI, you must explicitly push it to the opposite extreme of its training. If it's too nice, ask it to be brutal. If it's too shallow, force it to 'think hard' about reasoning before answering.",
+      "summary_zh": "为了从AI获得高质量的战略批判，必须明确将其推向训练倾向的对立面。如果它太客气，就要求它极其犀利；如果它太浅显，就强制它在回答前先“深度思考”推理过程。",
+      "principles": [
+        "Roast the Strategy: Explicitly instruct the AI to be brutal, critical, or 'roast' the user's ideas to break its politeness filter.",
+        "Request Reasoning: Ask the model to 'think hard' or output its reasoning chain before giving the final answer.",
+        "Meta-Prompting: Use the model to write its own system prompts (using tools like Prompt Improver) because AI understands its own XML tag structures better than humans do."
+      ],
+      "principles_zh": [
+        "犀利吐槽：明确指令AI变得残酷、批判性强，甚至“吐槽”用户的想法，以打破其礼貌过滤机制。",
+        "要求推理：要求模型在给出最终答案前“深度思考”或输出推理链。",
+        "元提示（Meta-Prompting）：利用模型来编写自己的系统提示词（如使用Prompt Improver），因为AI比人类更懂自己的XML标签结构。"
+      ],
+      "whenToUse": "When using LLMs for high-level product strategy, critiques, or decision-making support where honesty matters more than politeness.",
+      "whenToUse_zh": "当使用大模型辅助高层级产品战略、批判性审查或决策支持时，此时诚实比礼貌更重要。",
+      "commonMistakes": "Using standard polite prompts like 'What could be better?', which yields anodyne/generic feedback.",
+      "commonMistakes_zh": "使用诸如“哪里可以改进？”的标准礼貌提问，这通常只能得到不痛不痒的通用反馈。",
+      "quote": "With Claude sometimes I'm like, 'Be brutal, Claude, roast me. Tell me what's wrong with this strategy.'... make the other mistake.",
+      "realWorldExample": "Mike uses Claude as his primary strategy partner. Instead of asking for feedback, he asks Claude to 'roast' his product strategy for the second half of the year, leading to novel angles he hadn't considered.",
+      "realWorldExample_zh": "Mike将Claude作为首要战略伙伴。他不再单纯寻求反馈，而是要求Claude“吐槽”他下半年的产品战略，从而获得了很多未曾设想的新视角。"
+    },
+    {
+      "name": "The AI Utility Equation",
+      "name_zh": "AI效用铁三角公式",
+      "category": "product-strategy",
+      "problemItSolves": "Defining why an AI product fails to be useful despite having a strong model.",
+      "problemItSolves_zh": "定义为什么一个AI产品明明拥有强大的模型，却无法产生实际效用。",
+      "summary": "Useful AI products are not just about the model. They require a convergence of three distinct layers: Model Intelligence, Context/Memory, and Application/UI. Focusing only on one leaves the product incomplete.",
+      "summary_zh": "有用的AI产品不仅仅关乎模型。它们需要三个不同层面的融合：模型智能、上下文/记忆、以及应用/交互界面。只关注其中一项会导致产品不完整。",
+      "principles": [
+        "Model Intelligence: The raw capability and reasoning power (Research team's output).",
+        "Context & Memory: The bridge connecting the model to proprietary data (solved via MCP - Model Context Protocol). Without this, answers are generic.",
+        "Application & UI: The workflow layer that makes integrations discoverable and results actionable."
+      ],
+      "principles_zh": [
+        "模型智能：原始的能力与推理算力（研究团队的产出）。",
+        "上下文与记忆：连接模型与私有数据的桥梁（通过MCP模型上下文协议解决）。没有这一层，答案将是通用的。",
+        "应用与UI：工作流层，使集成功能易于发现，并使结果可执行。"
+      ],
+      "whenToUse": "When evaluating why an AI feature isn't getting traction or when planning a roadmap for an AI-native application.",
+      "whenToUse_zh": "当评估为什么某个AI功能无法获得增长，或规划AI原生应用的产品路线图时。",
+      "commonMistakes": "Thinking better models alone will solve product problems, ignoring the 'Context' gap where the model doesn't know the user's specific data.",
+      "commonMistakes_zh": "误以为仅靠更强的模型就能解决产品问题，而忽略了“上下文”缺口，即模型并不了解用户的具体数据。",
+      "quote": "For utility of AI products, it's three part. One is model intelligence, the second part is context and memory, and the third part is applications and UI.",
+      "realWorldExample": "Anthropic realized that building one-off integrations wasn't scaling. They introduced MCP (Model Context Protocol) to solve the 'Context & Memory' variable universally, allowing Claude to connect to Google Drive, Slack, etc., without custom code each time.",
+      "realWorldExample_zh": "Anthropic意识到构建一次性集成无法扩展。他们推出了MCP（模型上下文协议）来通用地解决“上下文与记忆”变量，使Claude能够连接Google Drive、Slack等，而无需每次都编写定制代码。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "90% of your code roughly is written by AI now.",
+      "context": "Mike describing the current state of engineering at Anthropic."
+    },
+    {
+      "text": "How do we figure out what we want to be when we grow up versus what we currently aren't or wish that we were?",
+      "context": "On defining Anthropic's product strategy amidst competition with OpenAI."
+    },
+    {
+      "text": "The functional unit of work at Anthropic is no longer take the model and then go work with design and product... we are in the post-training conversations.",
+      "context": "Describing how deeply Product Managers must be embedded with Research teams."
+    },
+    {
+      "text": "Don't just know the company you're selling to, but know the person you're selling to at the company.",
+      "context": "Advice for AI startups trying to find a niche market."
+    }
+  ],
+  "filename": "Mike Krieger"
+}

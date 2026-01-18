@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Karina Nguyen",
+    "title": "AI Researcher (Frontier Product Research)",
+    "company": "OpenAI (formerly Anthropic)",
+    "background": "Researcher at OpenAI working on Canvas, Tasks, and o1 chain-of-thought. Previously led post-training and evaluation for Claude 3 models at Anthropic. Former engineer at New York Times and designer at Dropbox.",
+    "background_zh": "OpenAI的前沿产品研究员，曾负责Canvas、Tasks和o1思维链模型的开发。前Anthropic Claude 3模型后训练与评估负责人。拥有纽约时报工程师及Dropbox设计师的跨界背景。"
+  },
+  "episodeSummary": "Karina Nguyen shares a rare behind-the-scenes look at how OpenAI builds consumer-facing AI products like Canvas and Tasks. She discusses the shift from traditional PRDs to 'Evals,' the critical role of synthetic data in overcoming data bottlenecks, and why the future of product management lies in soft skills like taste and curation rather than technical execution.",
+  "episodeSummary_zh": "Karina Nguyen 罕见地揭秘了 OpenAI 如何构建 Canvas 和 Tasks 等面向消费者的 AI 产品。她深入探讨了从传统 PRD 到“模型评估（Evals）”的开发范式转变，合成数据在突破数据瓶颈中的关键作用，以及为何产品经理的未来在于审美和策划等软技能，而非单纯的技术执行。",
+  "filename": "Karina Nguyen"
+}

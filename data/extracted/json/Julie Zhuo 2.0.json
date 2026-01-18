@@ -1,0 +1,156 @@
+{
+  "guest": {
+    "name": "Julie Zhuo",
+    "title": "Co-founder at Sundial",
+    "company": "Sundial",
+    "background": "Former VP of Product Design at Facebook (Meta), where she worked for over 14 years scaling the team from a handful to hundreds. Author of the best-selling book 'The Making of a Manager'. Currently building Sundial, an AI-powered product analytics platform.",
+    "background_zh": "Sundial 联合创始人，前 Facebook（Meta）产品设计副总裁，曾在 14 年间将设计团队从寥寥数人扩展至数百人。畅销书《The Making of a Manager》（中文译名《卓有成效的管理者》/《经理人的塑造》）作者。目前致力于构建 AI 驱动的产品分析平台 Sundial。"
+  },
+  "episodeSummary": "Julie Zhuo discusses the evolution of product management and design in the AI era, advocating for a shift from specialized roles to a 'Builder' mindset. She explores how to balance data intuition with creative design, manages the psychology of rapid change using the 'Willow Tree' metaphor, and shares timeless leadership advice on feedback and self-management.",
+  "episodeSummary_zh": "Julie Zhuo 探讨了 AI 时代产品管理和设计的演变，倡导从专业化角色向“构建者（Builder）”思维转变。她深入剖析了如何平衡数据直觉与创造性设计，提出了用“柳树”隐喻来管理快速变革中的心理状态，并分享了关于反馈和自我管理的经典领导力建议。",
+  "keyTakeaways": [
+    "The era of rigid roles (PM, Designer, Engineer) is fading; AI enables everyone to be a generalist 'Builder'.",
+    "Diagnose with data, but treat with design—data reveals the problem, not the solution.",
+    "Fast-growing startups often lack rigorous data infrastructure and rely on 'vibes', but eventually need observability when growth slows.",
+    "Effective management in the AI era requires being like a 'Willow Tree': sturdy in vision/values but flexible in execution.",
+    "View skills as 'dimensionality': every strength can be a weakness depending on the context.",
+    "Feedback is a mechanism to calibrate your perception against reality; establish a high-trust relationship before delivering it."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Diagnose with Data, Treat with Design' Framework",
+      "name_zh": "“数据诊断，设计处方”框架",
+      "category": "product-strategy",
+      "problemItSolves": "Resolves the conflict between data-driven decision making and creative product intuition, preventing teams from blindly following metrics or ignoring reality.",
+      "problemItSolves_zh": "解决数据驱动决策与创造性产品直觉之间的冲突，防止团队盲目追逐指标或完全忽视客观现实。",
+      "summary": "Data should be used to establish the 'observability' of a business—understanding what is actually happening (diagnosing). However, data cannot dictate the solution; that requires creative empathy and design thinking (treatment).",
+      "summary_zh": "数据应用于建立业务的“可观测性”，即理解客观现状（诊断）。然而，数据不能直接给出解决方案，这需要创造性的同理心和设计思维（处方/治疗）。",
+      "principles": [
+        "Data reflects reality: Use metrics to understand user behavior and spot anomalies, not to predict the future with certainty.",
+        "Diagnosis vs. Treatment: Use quantitative analysis to identify *where* the problem is, but use qualitative design/intuition to solve *how* to fix it.",
+        "Avoid False Precision: Acknowledging that metrics (like A/B tests) have limitations and cannot replace long-term product vision.",
+        "New Context, New Metrics: As technology shifts (e.g., to LLMs), traditional metrics (clicks) must evolve to new forms (conversation quality)."
+      ],
+      "principles_zh": [
+        "数据反映现实：利用指标理解用户行为并发现异常，而非盲目确信它能预测未来。",
+        "诊断与治疗分离：利用定量分析确定问题“在哪里”，利用定性设计/直觉解决“如何”修复。",
+        "警惕虚假精确性：承认指标（如 A/B 测试）的局限性，不能完全替代长期的产品愿景。",
+        "新语境新指标：随着技术迭代（如转向 LLM），传统指标（点击率）必须演进为新形式（对话质量）。"
+      ],
+      "whenToUse": "When product teams are stuck in 'analysis paralysis' or when designers resist data because they feel it stifles creativity.",
+      "whenToUse_zh": "当产品团队陷入“分析瘫痪”，或设计师因感到创造力受限而抵触数据时。",
+      "commonMistakes": "Expecting data to tell you exactly what feature to build next, or ignoring data when it contradicts your 'story' of the product's success.",
+      "commonMistakes_zh": "期望数据直接告诉你下一个功能该做什么，或者当数据与你对产品成功的“叙事”相悖时选择忽视数据。",
+      "quote": "You want to diagnose with data and treat with design. Data is not a tool that's going to tell you what you should build.",
+      "realWorldExample": "Julie mentions how rapidly growing companies often run on 'vibes' until growth slows. At that point, they must implement data logging to diagnose the root cause (the 'why'), but the solution to re-ignite growth requires design intervention.",
+      "realWorldExample_zh": "Julie 提到快速增长的公司通常靠“感觉（Vibes）”运行，直到增长放缓。此时，他们必须实施数据埋点来诊断根本原因（Why），但重新点燃增长的解决方案需要设计干预。"
+    },
+    {
+      "name": "The 'Builder' Operating Model",
+      "name_zh": "“构建者”全栈运营模式",
+      "category": "team-culture",
+      "problemItSolves": "Overcomes the inefficiency of siloed roles and heavy handoffs in software development, leveraged by AI advancements.",
+      "problemItSolves_zh": "解决软件开发中因职能孤岛和繁重交接导致的低效问题，充分利用 AI 技术进步。",
+      "summary": "A shift away from rigid titles (PM, Engineer, Designer) towards a model where individuals use AI to bridge skill gaps. This allows for smaller, flatter teams where engineers might define product requirements and designers might prototype code.",
+      "summary_zh": "从僵化的职能头衔（PM、工程师、设计师）向新模式转变：个人利用 AI 弥补技能差距。这允许更小、更扁平的团队存在，工程师可以定义产品需求，设计师可以编写代码原型。",
+      "principles": [
+        "Dissolve Boundaries: Don't say 'I need a PM for this'; ask 'Can I use AI to help me define the requirements?'.",
+        "AI as a Skill Multiplier: Use tools (like ChatGPT/Cursor) to raise your competency in adjacent fields from 0% to 70%.",
+        "Smaller, Empowered Teams: Remove middle-management layers. A team of two 'builders' can now do what a squad of 5 used to do.",
+        "Investment in Learning: Use AI not just to do the work, but to teach you the *why* behind the work (customized curriculum)."
+      ],
+      "principles_zh": [
+        "打破边界：不要说“我需要个 PM 来做这个”，而要问“我能用 AI 帮我定义需求吗？”",
+        "AI 作为技能倍增器：利用工具（如 ChatGPT/Cursor）将你在相邻领域的胜任力从 0% 提升至 70%。",
+        "小型赋能团队：移除中间管理层。现在两个“构建者”组成的团队可以完成过去五人小队的工作。",
+        "投资学习：不仅用 AI 干活，更要用 AI 教你工作背后的“为什么”（定制化课程）。"
+      ],
+      "whenToUse": "In early-stage startups or innovative units within large corps where speed is critical and resources are constrained.",
+      "whenToUse_zh": "在追求速度且资源受限的早期初创公司或大企业内部的创新单元中。",
+      "commonMistakes": "Thinking everyone must be an expert at everything. Specialists are still needed for high-complexity tasks (e.g., complex backend architecture), but generalists handle the glue.",
+      "commonMistakes_zh": "误以为每个人都必须是全能专家。高复杂度任务（如复杂的后端架构）仍需专家，但通才负责粘合工作。",
+      "quote": "We need to dissolve the boundaries of these traditional roles and call ourselves builders.",
+      "realWorldExample": "At Sundial, they often don't hire dedicated Product Managers. Engineers are expected to own the 'what' and 'why' of what they build, using AI to help draft requirements or analyze data if needed.",
+      "realWorldExample_zh": "在 Sundial，他们通常不招聘专职产品经理。工程师需要对自己构建内容的“What”和“Why”负责，必要时使用 AI 辅助起草需求或分析数据。"
+    },
+    {
+      "name": "The Willow Tree Leadership Style",
+      "name_zh": "“柳树型”领导力风格",
+      "category": "career-leadership",
+      "problemItSolves": "Helps managers and teams navigate the high anxiety and uncertainty caused by rapid technological shifts (like AI).",
+      "problemItSolves_zh": "帮助管理者和团队应对由快速技术变革（如 AI）带来的高度焦虑和不确定性。",
+      "summary": "A metaphor for managing change: Leaders must remain rooted in their core purpose while being extremely flexible in their tactics, absorbing the storms of change without breaking.",
+      "summary_zh": "一个管理变革的隐喻：领导者必须在核心目标上根深蒂固，但在战术上极度灵活，在不折断的前提下吸收变革的风暴。",
+      "principles": [
+        "Be Sturdy (Roots): Have absolute conviction in your North Star, vision, and values. This provides stability for the team.",
+        "Be Flexible (Branches): Be willing to completely change your methods, tools, and roadmaps based on new information/tech.",
+        "Manage the Emotional Climate: Acknowledge fear but reframe change as an opportunity to reinvent (like Marc Benioff's 'This is good' mindset).",
+        "Conviction Check: Ensure you truly believe in the mission; if you are just following orders without belief, you cannot be a 'sturdy' leader."
+      ],
+      "principles_zh": [
+        "保持稳固（根）：对北极星指标、愿景和价值观有绝对的信念。这为团队提供稳定性。",
+        "保持灵活（枝）：愿意根据新信息/新技术彻底改变方法、工具和路线图。",
+        "管理情绪氛围：承认恐惧，但将变革重构为重塑自我的机遇（类似 Marc Benioff “这是好事”的心态）。",
+        "信念自查：确保你真正相信使命；如果你只是在缺乏信念的情况下执行命令，你无法成为“稳固”的领导者。"
+      ],
+      "whenToUse": "During pivots, restructures, or industry upheavals (e.g., AI integration) when team morale is shaky.",
+      "whenToUse_zh": "在转型、重组或行业剧变（如 AI 整合）导致团队士气动摇时。",
+      "commonMistakes": "Being rigid in tactics (refusing to change processes) or being weak in vision (changing the goal every time the wind blows).",
+      "commonMistakes_zh": "在战术上僵化（拒绝改变流程），或在愿景上软弱（随风倒，频繁改变目标）。",
+      "quote": "Management is really about this idea of be sturdy while being flexible. So I think about this metaphor a lot of the willow tree.",
+      "realWorldExample": "Julie advises new managers who disagree with a CEO's directive to not just 'follow orders' (weak roots), but to engage in dialogue to find the specific hypothesis they can agree to test (flexibility).",
+      "realWorldExample_zh": "Julie 建议新经理，当不同意 CEO 指令时，不要只是“执行命令”（根基不稳），而要进行对话，找到他们可以同意去测试的具体假设（灵活性）。"
+    },
+    {
+      "name": "Dimensionality of Self-Management",
+      "name_zh": "自我管理的维度模型",
+      "category": "career-leadership",
+      "problemItSolves": "Addresses Imposter Syndrome and the difficulty of receiving critical feedback without feeling one's identity is under attack.",
+      "problemItSolves_zh": "解决冒名顶替综合症，以及在接受批评反馈时感到个人身份受攻击的难题。",
+      "summary": "Viewing oneself not as a single identity (good/bad), but as an entity with infinite dimensions. Strengths and weaknesses are often the same trait applied in different contexts.",
+      "summary_zh": "不把自己看作单一的身份（好人/坏人），而是具有无限维度的实体。优缺点往往是同一特质在不同语境下的表现。",
+      "principles": [
+        "Infinite Dimensions: You are a collection of infinite skills/traits. Being bad at one dimension (e.g., public speaking) doesn't reduce your worth as a human.",
+        "Strength/Weakness Duality: A strength (being thoughtful/deep) is a weakness in a different context (being slow/indecisive).",
+        "Contextual Mastery: Growth isn't eliminating weaknesses, but learning to modulate behaviors to fit the context (e.g., learning to speak up faster despite being naturally thoughtful).",
+        "Feedback as Calibration: Feedback is just data reflecting reality back to you, like a mirror showing a leaf in your hair."
+      ],
+      "principles_zh": [
+        "无限维度：你是无限技能/特质的集合体。在某一方面（如公开演讲）表现不佳并不降低你作为人的价值。",
+        "优缺点的二元性：优势（深思熟虑）在不同的语境下（行动迟缓/优柔寡断）就是劣势。",
+        "情境掌控力：成长不是消除弱点，而是学习调节行为以适应情境（例如：尽管天性喜欢深思，但在需要时学习更快地发言）。",
+        "反馈即校准：反馈只是将现实反射给你的数据，就像镜子照出你头发上的树叶。"
+      ],
+      "whenToUse": "During performance reviews, when receiving tough feedback, or when deciding whether to pursue a management track vs. IC track.",
+      "whenToUse_zh": "在绩效评估期间、接收严厉反馈时，或决定追求管理路线还是专家（IC）路线时。",
+      "commonMistakes": "Equating a skill gap with a character flaw, or trying to fix a 'weakness' that is actually the source of your superpower.",
+      "commonMistakes_zh": "将技能差距等同于性格缺陷，或者试图修复一个实际上是你“超能力”来源的“弱点”。",
+      "quote": "Every strength is its own weakness, and every weakness is a strength.",
+      "realWorldExample": "Julie received feedback that she was too quiet in meetings. She realized this was the flip side of her strength (being thoughtful). Instead of changing her personality, she learned tactics to vocalize her 'work in progress' thoughts during fast-paced meetings.",
+      "realWorldExample_zh": "Julie 曾收到反馈说她在会议中太安静。她意识到这是她优势（深思熟虑）的反面。她没有改变性格，而是学会了一些战术，在快节奏会议中大声说出她“正在构思中”的想法。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "You want to diagnose with data and treat with design.",
+      "context": "On the relationship between analytics and product building."
+    },
+    {
+      "text": "We need to dissolve the boundaries of these traditional roles and call ourselves builders.",
+      "context": "On the future of product teams in the AI era."
+    },
+    {
+      "text": "Be sturdy while being flexible... the willow tree. It can survive a lot of storms, disasters, et cetera, but it's also very flexible.",
+      "context": "On modern management resilience."
+    },
+    {
+      "text": "Every strength is its own weakness, and every weakness is a strength.",
+      "context": "On self-awareness and performance feedback."
+    },
+    {
+      "text": "Don't mistake motion for progress.",
+      "context": "A classic Facebook poster quote she references regarding execution."
+    }
+  ],
+  "filename": "Julie Zhuo 2.0"
+}

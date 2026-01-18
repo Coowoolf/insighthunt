@@ -3,7 +3,8 @@
     "name": "Ebi Atawodi",
     "title": "Director of Product Management, YouTube",
     "company": "YouTube (Google)",
-    "background": "A seasoned product leader with deep experience at Netflix and Uber (where she led the Uber Wallet and payments teams). Ebi is known for her ability to craft compelling product visions and foster strong, high-performance team cultures."
+    "background": "A seasoned product leader with deep experience at Netflix and Uber (where she led the Uber Wallet and payments teams). Ebi is known for her ability to craft compelling product visions and foster strong, high-performance team cultures.",
+    "background_zh": "一位曾在 Netflix 和 Uber 深耕多年的资深产品领袖（曾统筹 Uber 钱包及支付业务）。Ebi 擅长构建极具感召力的产品愿景，并能打造卓越的高绩效团队文化。"
   },
   "episodeSummary": "Ebi Atawodi dissects the elusive skill of crafting and communicating a product vision, moving beyond buzzwords to provide a tactical step-by-step playbook. She details how to transform vague ideas into concrete narratives using storytelling frameworks, how to rigorously define problems before solving them, and how to build deep conviction within a product team. The conversation also explores the nuance of product culture across Uber, Netflix, and Google, and the importance of 'love' over 'liking' in leadership.",
   "keyTakeaways": [
@@ -31,7 +32,20 @@
       "whenToUse": "When kicking off a new long-term initiative (3-5 year horizon) or when a team feels disconnected from the 'why' of their work.",
       "commonMistakes": "Getting bogged down in features rather than the user's emotional journey or outcome.",
       "quote": "If you got on a plane and the pilot was like, 'I don't really know where we're going... but trust me, we'll get there,' you probably would be thinking twice about staying on that flight.",
-      "realWorldExample": "Ebi used this to describe the YouTube Shorts vision: 'Once upon a time YouTube was fun... then one day it became polished... and because of that people stopped creating... then one day we launched Shorts... and anyone could express themselves again.'"
+      "realWorldExample": "Ebi used this to describe the YouTube Shorts vision: 'Once upon a time YouTube was fun... then one day it became polished... and because of that people stopped creating... then one day we launched Shorts... and anyone could express themselves again.'",
+      "summary_zh": "这是一个叙事框架，要求产品经理用通俗易懂的语言，清晰阐述“原有状态”、触发改变的“催化剂”以及“未来图景”。它能将复杂的产品目标转化为一段引人共鸣的旅程。",
+      "problemItSolves_zh": "解决了愿景过于抽象、技术化或缺乏感召力，导致团队难以凝聚共识的问题。",
+      "whenToUse_zh": "当启动新的长期战略项目（3-5 年规划周期）时，或当团队对工作的核心价值（The Why）感到迷茫脱节时。",
+      "commonMistakes_zh": "陷入功能细节，而忽视了用户的情感旅程或最终收益。",
+      "realWorldExample_zh": "Ebi 用这个框架阐述了 YouTube Shorts 的产品愿景：“曾几何时，YouTube 充满乐趣……后来，内容变得越来越精致……正因如此，人们停止了创作……直到有一天我们推出了 Shorts……让每个人都能再次表达自我。”",
+      "principles_zh": [
+        "以“很久很久以前……”开场：描述当前的世界观设定及用户面临的具体痛点。",
+        "引入变革契机：“直到有一天……”（植入产品发布或关键性的变量）。",
+        "阐述直接影响：“正因为如此……”（明确用户获得的直接价值）。",
+        "升华终局愿景：“直到最后……”（强调产品给世界留下的深远印记）。",
+        "摒弃技术设限：在构想未来时，假设当下的技术瓶颈已不复存在。"
+      ],
+      "name_zh": "The 'Once Upon a Time' Vision Narrative（“很久以前”式愿景叙事）"
     },
     {
       "name": "The 'Top 10 Things You Should Know' Protocol",
@@ -48,7 +62,20 @@
       "whenToUse": "Continuous usage, but specifically critical during the 'Empathize/Understand' phase prior to strategic planning.",
       "commonMistakes": "Creating the list in a silo without input from engineering or data science, or letting the list grow beyond 10 items without prioritization.",
       "quote": "If I go around... and ask what are the top five problems for studio? They should all have the same answer. This says I've done my job.",
-      "realWorldExample": "At Uber, Ebi created a 'More Money, More Problems' document with her data science and analyst partners to align the team on the exact friction points in the driver payment experience."
+      "realWorldExample": "At Uber, Ebi created a 'More Money, More Problems' document with her data science and analyst partners to align the team on the exact friction points in the driver payment experience.",
+      "summary_zh": "一份动态更新的协作文档，列举了产品面临的最核心问题（涵盖定性、定量及技术债），是制定产品规划周期的唯一事实来源。",
+      "problemItSolves_zh": "规避“从零开始”的陷阱，防止团队不断发起新的用户调研，却未能针对已知且长期存在的用户痛点采取行动。",
+      "whenToUse_zh": "需持续使用，但在战略规划前的“共情/理解”阶段尤为关键。",
+      "commonMistakes_zh": "闭门造车，在缺乏研发或数据科学团队输入的情况下制定清单；或者不做优先级排序，任由清单条目膨胀超过 10 条。",
+      "realWorldExample_zh": "在 Uber，Ebi 联合数据科学与分析师伙伴撰写了一份名为 “More Money, More Problems” 的文档，旨在拉齐团队对司机支付体验中具体摩擦点的认知。",
+      "principles_zh": [
+        "维护一份动态文档：这绝非一次性的汇报材料，而需按季度持续更新。",
+        "众包问题来源：邀请跨职能合作伙伴（市场、研发、设计）提交他们眼中的“Top 10 问题”清单。",
+        "纳入“产品债”：如果基础设施缺陷或技术债损害了用户体验，它们就属于必须解决的核心问题。",
+        "强制对齐认知：当管理层询问研发负责人、设计师或 PM 什么是当下的首要问题时，所有人给出的清单必须完全一致。",
+        "可视化以促成共识：将问题打印在实体卡片（或使用在线协作工具）上，组织团队投票选出最核心的痛点。"
+      ],
+      "name_zh": "The 'Top 10 Things You Should Know' Protocol（“十大必知事项”法则）"
     },
     {
       "name": "The 'Future Headline' Visualization",
@@ -64,7 +91,19 @@
       "whenToUse": "When trying to sell a vision to executives or when the team is misaligned on the scope of the final deliverable.",
       "commonMistakes": "Using 'I don't have a designer' as an excuse not to visualize the outcome.",
       "quote": "Words are amazing, but a picture tells a thousand words... He literally took out a pencil and drew the future.",
-      "realWorldExample": "At Uber, Ebi's designer sketched a bodega owner accepting cash to top up an Uber account, which instantly clarified the vision for a global cashless experience."
+      "realWorldExample": "At Uber, Ebi's designer sketched a bodega owner accepting cash to top up an Uber account, which instantly clarified the vision for a global cashless experience.",
+      "summary_zh": "一种“逆向工作法”。产品经理通过撰写拟发布的新闻头条或模拟应用商店的更新文案，来倒推产品形态，从而确保团队锚定于产品的最终价值主张。",
+      "problemItSolves_zh": "帮助团队与干系人在敲下第一行代码前，将最终形态与成功标准可视化。",
+      "whenToUse_zh": "当需要向高管推销愿景，或团队对于最终交付范围尚未对齐时。",
+      "commonMistakes_zh": "以“没有设计师”为借口，未将结果可视化。",
+      "realWorldExample_zh": "在 Uber，Ebi 的设计师绘制了一幅杂货店店主收取现金为 Uber 账户充值的草图，这一场景瞬间明确了“全球无现金体验”的产品愿景。",
+      "principles_zh": [
+        "**撰写新闻标题**：拟定一个如同在 TechCrunch 或主流媒体通稿中看到的醒目标题（例如：“Uber 将取代你的实体公交卡”）。",
+        "**拟定副标题**：用一句话清晰阐述本次发布的核心内容及其对用户的价值主张。",
+        "**视觉化用户触点**：不要只局限于 UI 界面原型，试着模拟 App Store 的“版本更新”文案或市场宣传的营销头图（Hero Image）。",
+        "**亲自动手**：无需等待设计排期，先用纸笔手绘或简单的几何图形将产品故事讲清楚。"
+      ],
+      "name_zh": "The 'Future Headline' Visualization（“未来头条”可视化）"
     },
     {
       "name": "The 'Insights-Strategy-Big Rocks' 2-Pager",
@@ -81,7 +120,20 @@
       "whenToUse": "During quarterly or annual planning cycles to align the team and leadership.",
       "commonMistakes": "Listing 20 items as 'Big Rocks' or skipping the 'Insights' section to jump straight to features.",
       "quote": "If I asked you to make me a cocktail, you would put ice in first... You would not put the drink and then put the ice or it will splash... that's how an endless roadmap looks to me.",
-      "realWorldExample": "Ebi uses this format at YouTube, requiring her teams to write these 2-pagers which are then circulated for comments before a roadmap spreadsheet is ever touched."
+      "realWorldExample": "Ebi uses this format at YouTube, requiring her teams to write these 2-pagers which are then circulated for comments before a roadmap spreadsheet is ever touched.",
+      "summary_zh": "一种严格的战略规划文档格式，旨在避免将资源“撒胡椒面”式地分散到过多的项目中。",
+      "problemItSolves_zh": "用清晰的叙事结构取代冗长混乱的路线图，将数据与落地执行紧密串联。",
+      "whenToUse_zh": "在季度或年度规划周期中，用于拉齐团队与管理层的共识。",
+      "commonMistakes_zh": "罗列 20 个“核心要务”，或者跳过“洞察”环节直接堆砌功能。",
+      "realWorldExample_zh": "Ebi 在 YouTube 就在使用这套格式，她要求团队在着手制定 Roadmap 表格之前，必须先完成这份 2-pager 的撰写与传阅评审。",
+      "principles_zh": [
+        "第一部分：洞察（Why）：基于“十大核心难题”及数据分析得出。",
+        "第二部分：战略/打法（How）：团队解决此类问题的具体切入点或撬动点。",
+        "第三部分：核心战役（What）：限制在 3-5 个主要举措。视其为罐中“巨石”，其余“沙砾”（细碎功能）则填补其间。",
+        "约束条件：篇幅严格控制在 2 页（最多 4 页），倒逼思维精炼。",
+        "校验标准：若某项举措投入的研发人力少于 3 人，需质疑其是否属于“核心战役”，或是否存在资源过于分散的问题。"
+      ],
+      "name_zh": "The 'Insights-Strategy-Big Rocks' 2-Pager（“洞察-战略-核心要务”双页纸）"
     }
   ],
   "notableQuotes": [
@@ -102,5 +154,6 @@
       "context": "Emphasizing that technical debt and backend stability are product problems, not just engineering problems."
     }
   ],
-  "filename": "Ebi Atawodi"
+  "filename": "Ebi Atawodi",
+  "episodeSummary_zh": "Ebi Atawodi 对“构建与传达产品愿景”这一稀缺能力进行了深度拆解。她摒弃了空洞的行业热词，提供了一套极具实操性的分步战术手册。她详细阐述了如何运用叙事框架将模糊的灵感转化为具象的产品故事，如何在着手解决前严谨地定义问题，以及如何在产品团队内建立深度的信念感。此外，本期内容还深入探讨了 Uber、Netflix 和 Google 产品文化间的微妙差异，以及在领导力层面，为何赢得“热爱”远比单纯被“喜欢”更重要。"
 }

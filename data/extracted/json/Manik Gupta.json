@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Manik Gupta",
+    "title": "Corporate Vice President at Microsoft",
+    "company": "Microsoft (formerly Uber, Google)",
+    "background": "Former Chief Product Officer at Uber and Director of Product for Google Maps. Currently leads consumer efforts at Microsoft, bringing deep expertise in scaling massive global products like Maps and Ridesharing.",
+    "background_zh": "现任微软企业副总裁，负责消费者业务。曾任 Uber 首席产品官 (CPO) 及 Google Maps 产品总监。在扩展 Google Maps 和 Uber 等拥有亿级用户的全球化产品方面拥有深厚的专业背景。"
+  },
+  "episodeSummary": "Manik Gupta shares his journey leading product at Google, Uber, and Microsoft, discussing the nuances of building consumer apps at scale. He introduces the concepts of 'Company-Product Fit' and the 'Consumer Stack,' while offering tactical advice on PM career growth, specifically transitioning from individual contributor to executive leadership.",
+  "episodeSummary_zh": "Manik Gupta 分享了他在 Google、Uber 和微软领导产品团队的职业历程，探讨了构建大规模消费者应用的心得。他提出了“公司-产品契合度 (Company-Product Fit)”和“消费者产品堆栈 (Consumer Stack)”等核心概念，并为产品经理从独立贡献者向高管转型的职业发展提供了战术性建议。",
+  "filename": "Manik Gupta"
+}

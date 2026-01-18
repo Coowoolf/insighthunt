@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Ramesh Johari",
+    "title": "Professor at Stanford University / Data Science Advisor",
+    "company": "Stanford University (Advisor to Airbnb, Uber, Stitch Fix, etc.)",
+    "background": "Ramesh Johari is a professor at Stanford University specializing in data science, game theory, and the design of online marketplaces. He has served as an advisor to major tech companies like Airbnb, Uber, and Upwork, helping them solve complex problems related to matching, pricing, and experimentation.",
+    "background_zh": "Ramesh Johari 是斯坦福大学教授，专攻数据科学、博弈论及在线市场设计。作为 Airbnb、Uber 和 Upwork 等科技巨头的资深顾问，他致力于解决平台匹配、定价策略及实验设计等复杂商业问题。"
+  },
+  "episodeSummary": "Ramesh Johari dives deep into the science of building thriving marketplaces, arguing that marketplaces primarily sell the reduction of transaction friction rather than just goods. He explores the crucial distinction between predictive machine learning and causal decision-making, the nuances of designing fair rating systems, and why founders should focus on liquidity before platform dynamics.",
+  "episodeSummary_zh": "Ramesh Johari 深入探讨了构建繁荣交易市场的科学原理，提出平台的核心价值在于消除交易摩擦而非单纯售卖商品。节目中详细剖析了预测性机器学习与因果导向决策的区别、如何设计公平的评价体系，以及为何创业者应在关注平台机制前优先解决流动性问题。",
+  "keyTakeaways": [
+    "Marketplaces create value by removing transaction friction (finding, matching, trusting), not just aggregating supply.",
+    "Don't define yourself as a 'marketplace founder' until you have scaled liquidity on both sides; start by solving a specific problem.",
+    "Machine Learning models excel at prediction (correlation), but business strategy requires causal inference (decision making).",
+    "Experimentation isn't just about 'winning' or 'losing'; you must pay for learning, even from failed experiments.",
+    "Simple averaging of ratings hurts new entrants; use priors and Bayesian approaches to ensure distributional fairness.",
+    "Marketplace management is like 'Whac-a-mole': optimizing one metric often negatively impacts another group, creating winners and losers."
+  ],
+  "methodologies": [
+    {
+      "name": "The \"Friction-First\" Liquidity Strategy",
+      "name_zh": "“摩擦优先”流动性扩张法则",
+      "category": "product-strategy",
+      "problemItSolves": "Founders often build complex marketplace mechanisms too early before having enough users, leading to the 'empty room' problem.",
+      "problemItSolves_zh": "解决创业者在用户规模不足时过早搭建复杂平台机制，导致“空房效应”的问题。",
+      "summary": "Instead of starting as a marketplace, focus on solving specific transaction frictions (search, trust, payment) to build liquidity. Only adopt marketplace dynamics once you have scaled liquidity on at least one side.",
+      "summary_zh": "不要一开始就以此“平台”自居，而应专注于解决具体的交易摩擦（如搜索、信任、支付）以积累流动性。只有在至少一侧实现规模化流动性后，再引入市场匹配机制。",
+      "principles": [
+        "Identify the Transaction Cost: Determine what friction (trust, payment, discovery) prevents the transaction.",
+        "Solve for One Side: Build a solution that attracts scaled liquidity on one side (e.g., drivers or hosts) before worrying about matching.",
+        "Pivot to Platform: Only introduce marketplace complexity (matching algos, fees) once liquidity allows for organic connections."
+      ],
+      "principles_zh": [
+        "识别交易成本：精准定位阻碍交易达成的核心摩擦点（如信任缺失、支付困难、发现成本）。",
+        "单侧突围：在考虑双边匹配前，先通过工具或服务在供给侧或需求侧实现规模化积累（Scaled Liquidity）。",
+        "平台化转型：仅当流动性足以支撑有机连接时，再引入复杂的市场匹配算法和佣金机制。"
+      ],
+      "whenToUse": "When launching a new two-sided business or when a marketplace is struggling with the 'cold start' problem.",
+      "whenToUse_zh": "适用于双边市场冷启动阶段，或平台陷入增长停滞时。",
+      "commonMistakes": "Thinking of yourself as a 'marketplace' from day one and charging take-rates before adding sufficient value to the transaction.",
+      "commonMistakes_zh": "从第一天起就以“平台”自居，并在未提供足够交易价值前就开始抽取佣金（Take-rate）。",
+      "quote": "A marketplace business never starts as a marketplace business... simply as a founder.",
+      "realWorldExample": "UrbanSitter started by simply solving the friction of paying babysitters via credit card (cash was a pain point), then leveraged that liquidity to build a discovery marketplace.",
+      "realWorldExample_zh": "UrbanSitter 最初只是解决了用信用卡支付保姆费用的痛点（现金支付不便），随后利用积累的流动性转型为保姆撮合平台。"
+    },
+    {
+      "name": "Causal Decision-Making Loop",
+      "name_zh": "因果导向决策闭环",
+      "category": "growth-metrics",
+      "problemItSolves": "Data teams often build predictive models (e.g., LTV prediction) that find correlations but fail to guide actual business decisions (e.g., who to target with coupons).",
+      "problemItSolves_zh": "数据团队常构建预测模型（如LTV预测）来发现相关性，却无法有效指导具体业务决策（如该给谁发优惠券）。",
+      "summary": "Shift focus from 'Prediction' (Machine Learning/Correlation) to 'Decision Making' (Causal Inference). The goal is not to predict the future, but to understand how a specific intervention changes the future.",
+      "summary_zh": "将重心从“预测”（机器学习/相关性）转移到“决策”（因果推断）。核心目标不是预测未来会发生什么，而是理解特定的干预手段（Intervention）如何改变未来。",
+      "principles": [
+        "Prediction ≠ Decision: Recognizing that high LTV users might buy anyway; true value comes from identifying lift (incremental impact).",
+        "Experiment for Learning: Move beyond 'winners vs. losers' to testing hypotheses about user behavior and elasticity.",
+        "Bayesian Updates: Incorporate prior beliefs and past data into current experiment analysis rather than treating every test as a blank slate."
+      ],
+      "principles_zh": [
+        "预测不等于决策：高LTV用户可能本来就会购买；真正的价值在于识别增量提升（Lift）。",
+        "为认知而实验：超越单纯的“输赢”视角，利用实验验证关于用户行为和价格弹性的假设。",
+        "贝叶斯更新：将先验信念（Priors）和历史数据纳入当前实验分析，而非每次测试都从零开始。"
+      ],
+      "whenToUse": "When optimizing pricing, ranking algorithms, or marketing spend where correlation might be mistaken for causation.",
+      "whenToUse_zh": "适用于优化定价、排序算法或营销预算分配，特别是在容易混淆相关性与因果性的场景。",
+      "commonMistakes": "Sending promotions to high LTV customers who would have purchased regardless, simply because a model predicted they were 'good' users.",
+      "commonMistakes_zh": "仅仅因为模型预测某用户主要“优质”，就向本就会购买的高LTV用户发送促销优惠，造成资源浪费。",
+      "quote": "Prediction is inherently about correlation. But when we ask people to make decisions, we're asking them to think about causation.",
+      "realWorldExample": "A marketing manager running an unauthorized holdout group to prove the incremental value of their ad spend, acknowledging that learning the true lift costs money (lost revenue from the holdout).",
+      "realWorldExample_zh": "某房产平台营销经理擅自设立对照组（Holdout group），虽然短期损失了数百万潜在收入，但成功验证了广告支出的真实增量价值。"
+    },
+    {
+      "name": "Distributionally Fair Rating System",
+      "name_zh": "去偏差化信誉体系设计",
+      "category": "user-research",
+      "problemItSolves": "Simple average ratings penalize new entrants (one bad review ruins them) and favor established players, reducing marketplace liquidity and competition.",
+      "problemItSolves_zh": "简单的平均分机制会惩罚新入场者（一个差评即毁灭），同时过度保护头部玩家，导致市场流动性和竞争活力下降。",
+      "summary": "Design rating systems that account for the 'cold start' of reputation. Use priors to smooth out early variance and recognize that missing reviews ('sound of silence') contain predictive data.",
+      "summary_zh": "设计能够兼容信誉“冷启动”的评价体系。利用先验概率平滑早期评分波动，并意识到缺失的评价（“沉默的声音”）同样包含预测性数据。",
+      "principles": [
+        "Avoid Raw Averages: Don't let a single data point define a new user; use a 'prior' belief to blend their score until sufficient data exists.",
+        "Leverage the Sound of Silence: Treat non-reviews as data points (often indicating 'satisfactory but not amazing' or 'avoidance of conflict').",
+        "Renorming Expectations: Ask specific comparative questions (e.g., 'Did this exceed expectations?') to combat grade inflation."
+      ],
+      "principles_zh": [
+        "避免原始平均值：不要让单一数据点定义新用户；在数据充足前，使用“先验”信念对分数进行平滑处理。",
+        "利用“沉默的声音”：将未评价行为视为数据点（通常意味着“中规中矩”或“避免冲突”）。",
+        "重构期望基准：通过具体的比较性问题（如“是否超出预期？”）来对抗评分通胀。"
+      ],
+      "whenToUse": "Designing the trust/safety layer of a marketplace or gig economy platform.",
+      "whenToUse_zh": "设计交易市场或零工经济平台的信任与安全层（Trust & Safety）时。",
+      "commonMistakes": "Letting a new seller's business die because of one early negative review due to simple averaging logic.",
+      "commonMistakes_zh": "由于简单的平均分逻辑，导致新卖家的生意因早期的一个差评而彻底夭折。",
+      "quote": "The biggest change... is that we get to see what happened with our matches.",
+      "realWorldExample": "Airbnb's 'double-blind' review system (reviews revealed simultaneously) which increased review rates by leveraging curiosity and reciprocity.",
+      "realWorldExample_zh": "Airbnb 的“双盲”评价系统（双方评价后同时揭晓），利用好奇心和互惠心理提高了评价率。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Marketplaces are a little bit like a game of whac-a-mole... Many of the changes that are most consequential create winners and losers.",
+      "context": "Describing how optimizing one side of the market often negatively creates friction for the other side."
+    },
+    {
+      "text": "You can't experiment your way out of everything.",
+      "context": "Warning against over-reliance on A/B testing for strategic decisions that require intuition or long-term vision."
+    },
+    {
+      "text": "If you don't have scaled liquidity on either side... don't worry about being a marketplace. Worry about scaling one side.",
+      "context": "Advice to early-stage founders who obsess over platform dynamics before having product-market fit."
+    }
+  ],
+  "filename": "Ramesh Johari"
+}

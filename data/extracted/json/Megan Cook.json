@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Megan Cook",
+    "title": "Head of Product for Jira",
+    "company": "Atlassian",
+    "background": "Megan Cook has been at Atlassian for over a decade, currently leading product for Jira, the world's most popular project management tool used by 125,000+ customers. She previously worked as an analyst, developer, and agile coach, and is known for her focus on team psychology and remote work effectiveness.",
+    "background_zh": "Megan Cook 在 Atlassian 任职超过十年，目前担任 Jira 的产品负责人。Jira 是全球最受欢迎的项目管理工具，拥有超过 12.5 万家客户。她此前曾担任分析师、开发人员和敏捷教练，以关注团队心理安全建设和高效远程办公模式而闻名。"
+  },
+  "episodeSummary": "Megan Cook discusses how Atlassian maintains innovation across 15 product lines while managing a massive remote workforce. She shares tactical frameworks for creating psychological safety, executing a \"gated\" innovation process, and securing executive buy-in for unglamorous but necessary projects like CSAT improvements.",
+  "episodeSummary_zh": "Megan Cook 探讨了 Atlassian 如何在管理庞大远程团队的同时，跨越 15 条产品线保持创新活力。她分享了构建团队心理安全感、执行“分阶段”创新流程，以及如何为提升客户满意度（CSAT）等“苦活累活”争取高层支持的战术框架。",
+  "filename": "Megan Cook"
+}

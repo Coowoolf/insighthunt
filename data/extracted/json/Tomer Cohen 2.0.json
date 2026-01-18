@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Tomer Cohen",
+    "title": "Chief Product Officer",
+    "company": "LinkedIn",
+    "background": "Tomer Cohen is the longtime Chief Product Officer at LinkedIn, having served the company for over 14 years. He led the company's pivotal transition from desktop to mobile and is now spearheading their transformation into an AI-first product organization.",
+    "background_zh": "Tomer Cohen 是 LinkedIn 现任首席产品官，在公司任职超过14年。他曾主导 LinkedIn 从桌面端向移动端的关键转型，目前正在领导公司向“AI优先”的产品组织架构进行深度变革。"
+  },
+  "episodeSummary": "Tomer Cohen discusses LinkedIn's radical shift to a \"Full Stack Builder\" model, leveraging AI to collapse the bloated product development process. He details how they are replacing specialized roles with AI-empowered builders, the necessary infrastructure investments to make AI work on legacy codebases, and the critical cultural changes required to drive adoption.",
+  "episodeSummary_zh": "Tomer Cohen 探讨了 LinkedIn 向“全栈构建者（Full Stack Builder）”模型的激进转型，利用 AI 技术精简臃肿的产品开发流程。他详细介绍了如何通过 AI 赋能的构建者来替代传统的细分角色，并在节目中分享了让 AI 适应旧代码库所需的基础设施投资，以及推动组织变革至关重要的文化建设。",
+  "filename": "Tomer Cohen 2.0"
+}

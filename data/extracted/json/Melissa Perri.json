@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Melissa Perri",
+    "title": "CEO & Founder of Product Institute",
+    "company": "Product Institute / Production Operations",
+    "background": "Author of the foundational book 'Escaping the Build Trap' and 'Product Operations'. She is a renowned product management educator who has trained PMs at nearly every Fortune 500 company, specializing in helping large enterprises transition from project to product mindsets.",
+    "background_zh": "《Escaping the Build Trap》与《Product Operations》作者，Product Institute 创始人。她是享誉全球的产品管理教育家，曾为几乎所有财富500强企业培训产品经理，专长于帮助大型传统企业完成从“项目驱动”到“产品驱动”的转型。"
+  },
+  "episodeSummary": "Melissa Perri joins Lenny to dismantle the misconceptions surrounding the Product Owner (PO) role, Scrum, and the Scaled Agile Framework (SAFe). She explains why separating the PO and Product Manager roles often leads to 'feature factories' and provides actionable advice for leaders and practitioners on how to build true product competencies in large, non-tech organizations.",
+  "episodeSummary_zh": "Melissa Perri 做客本期节目，深度剖析了产品负责人（PO）、Scrum 以及规模化敏捷框架（SAFe）背后的误区。她解释了为什么将 PO 和产品经理（PM）的角色割裂会导致“功能工厂”的出现，并为大型非科技企业的领导者和从业者提供了建立真正产品能力的实战建议。",
+  "filename": "Melissa Perri"
+}

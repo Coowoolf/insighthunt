@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Jules Walter",
+    "title": "Product Lead, YouTube (formerly Slack)",
+    "company": "YouTube / Google",
+    "background": "Product Lead at YouTube focused on Primetime Channels. Previously the first Growth PM at Slack, where he led monetization and mobile teams. Co-founder of non-profits CodePath and Black Product Managers Network.",
+    "background_zh": "YouTube 产品负责人，主要负责 Primetime Channels 业务。曾任 Slack 首位增长产品经理，领导变现和移动端团队。CodePath 和 Black Product Managers Network（黑人产品经理网络）联合创始人。"
+  },
+  "episodeSummary": "Jules Walter discusses the evolution of Product Management skills, distinguishing between 'IQ skills' (execution, product sense) needed for early career and 'EQ skills' (communication, leadership) required for seniority. He provides a tactical masterclass on outcome-based learning, how to build mentorship relationships from scratch, and leveraging strengths to accelerate career growth.",
+  "episodeSummary_zh": "Jules Walter 探讨了产品经理技能的演进，区分了职业生涯早期所需的“IQ类技能”（执行力、产品感）和晋升所需的“EQ类技能”（沟通、领导力）。他详细讲解了基于结果的学习法、如何从零构建导师关系网，以及如何利用个人优势加速职业发展。",
+  "keyTakeaways": [
+    "Early career PM success relies on IQ skills (execution, product sense), while leadership requires EQ skills (communication, influence).",
+    "To learn a new domain, define a specific business outcome first, then work backward to identify the necessary questions and mentors.",
+    "When seeking mentorship, start with a 'low friction' specific question via email rather than asking for a generic coffee chat.",
+    "The key to maintaining mentors is 'closing the loop': always report back on how you applied their advice and the results achieved.",
+    "Identify your superpowers by asking: 'What do people compliment me on that I feel is easy or obvious?'",
+    "Every strength has a 'shadow side'—a context where it becomes a weakness (e.g., curiosity can look like lack of knowledge without context)."
+  ],
+  "methodologies": [
+    {
+      "name": "Outcome-Based Skill Acquisition",
+      "name_zh": "基于结果的技能习得法",
+      "category": "career-leadership",
+      "problemItSolves": "Overcoming the feeling of being overwhelmed when trying to learn complex new domains (like Growth or Strategy) from scratch.",
+      "problemItSolves_zh": "解决从零开始学习复杂领域（如增长或战略）时感到不知所措的问题。",
+      "summary": "Instead of passively reading content, set a specific business metric or outcome you want to drive. Use this goal as a forcing function to identify knowledge gaps, ask targeted questions to experts, and validate learning through execution results.",
+      "summary_zh": "不要被动地阅读内容，而是设定一个想要驱动的具体业务指标或结果。将此目标作为强制函数来识别知识缺口，向专家提出针对性问题，并通过执行结果来验证学习成效。",
+      "principles": [
+        "Define the Outcome: Set a concrete goal (e.g., improve activation by X%) to prove skill mastery.",
+        "Reverse Engineer: Identify specific frameworks and questions needed to achieve that outcome.",
+        "Targeted Mentorship: Find experts solely to answer those specific questions.",
+        "Execution & Review: Run the experiment, then review the results (success or failure) with the mentor."
+      ],
+      "principles_zh": [
+        "定义结果：设定一个具体目标（例如：将激活率提高 X%）来证明技能掌握程度。",
+        "逆向工程：确定实现该结果所需的具体框架和问题。",
+        "针对性求教：寻找专家仅为了解答那些具体问题。",
+        "执行与复盘：运行实验，然后与导师一起复盘结果（无论成功与否）。"
+      ],
+      "whenToUse": "When stepping into a new role (e.g., First Growth PM) or trying to master a hard skill like Strategy or Monetization.",
+      "whenToUse_zh": "当进入新角色（如首位增长 PM）或试图掌握硬技能（如战略或变现）时。",
+      "commonMistakes": "Reading generally about a topic without applying it to a specific project, or asking mentors generic questions like 'How do I do Growth?'.",
+      "commonMistakes_zh": "泛泛地阅读某个主题而没有将其应用到具体项目中，或者问导师像“我该怎么做增长？”这样宽泛的问题。",
+      "quote": "If I drive this outcome, it will be proof that I'm better at this thing.",
+      "realWorldExample": "When joining Slack as the first Growth PM, Jules set a goal to improve user activation. He contacted growth experts (like Bangaly Kaba) with specific questions on activation frameworks, applied them, and shared the results.",
+      "realWorldExample_zh": "加入 Slack 担任首位增长 PM 时，Jules 设定了提高用户激活率的目标。他带着关于激活框架的具体问题联系了增长专家（如 Bangaly Kaba），应用建议并分享了结果。"
+    },
+    {
+      "name": "The 'Small Ask' Mentorship Loop",
+      "name_zh": "“小切口”导师关系构建闭环",
+      "category": "career-leadership",
+      "problemItSolves": "How to get high-profile mentors to agree to help you without having an existing relationship.",
+      "problemItSolves_zh": "如何在没有既有关系的情况下，让知名导师愿意帮助你。",
+      "summary": "Build relationships through specific, low-effort interactions rather than asking for 'mentorship'. Validate the mentor's time by applying their advice and reporting back, transforming a transactional interaction into a relationship.",
+      "summary_zh": "通过具体的、低成本的互动来建立关系，而不是直接请求“担任导师”。通过应用建议并反馈结果来证明导师时间的价值，将一次性交易转化为长期关系。",
+      "principles": [
+        "The 2-Minute Ask: Send an email with a specific question that can be answered in two minutes.",
+        "Apply Immediately: Use the advice in your work context.",
+        "Close the Loop: Contact them again specifically to share the impact of their advice (Gratitude + Result).",
+        "Rinse and Repeat: Gradually increase the scope of questions as trust builds."
+      ],
+      "principles_zh": [
+        "两分钟请求：发送一封包含具体问题的邮件，对方能在两分钟内回答。",
+        "立即应用：在工作场景中实际应用该建议。",
+        "闭环反馈：再次联系对方，专门分享他们建议带来的影响（感谢+结果）。",
+        "循环递进：随着信任建立，逐渐扩宽问题的范围。"
+      ],
+      "whenToUse": "When trying to connect with senior leaders or experts outside your immediate network.",
+      "whenToUse_zh": "当试图联系你直接人脉圈之外的高级领导或专家时。",
+      "commonMistakes": "Asking 'Will you be my mentor?' or 'Can we grab coffee?' without context, or failing to follow up after receiving advice.",
+      "commonMistakes_zh": "在没有背景的情况下问“你愿意做我的导师吗？”或“能喝杯咖啡吗？”，或者在收到建议后没有跟进反馈。",
+      "quote": "You have to show the person that you're going to make really good use of their time.",
+      "realWorldExample": "Jules emailed a CEO with a specific question about product mission statements. After applying her framework, he emailed back the result. This led to a follow-up 15-minute call and an ongoing relationship.",
+      "realWorldExample_zh": "Jules 给一位 CEO 发邮件询问关于产品使命的具体问题。应用她的框架后，他回信反馈了结果。这促成了随后的 15 分钟通话和持续的关系。"
+    },
+    {
+      "name": "Strength & Shadow Analysis",
+      "name_zh": "优势与阴影面分析法",
+      "category": "career-leadership",
+      "problemItSolves": "Understanding your unique value proposition and why your strengths sometimes backfire in certain contexts.",
+      "problemItSolves_zh": "理解你独特的价值主张，以及为什么你的优势有时会在特定情境下适得其反。",
+      "summary": "Identify strengths by looking for things you find easy but others find hard. Then, analyze the 'shadow side'—contexts where that strength becomes a liability—to manage your behavior without suppressing your natural talent.",
+      "summary_zh": "通过寻找那些你觉得容易但别人觉得难的事情来识别优势。然后，分析“阴影面”——即该优势成为负债的情境——从而在不压抑天赋的情况下管理行为。",
+      "principles": [
+        "The Fish Test: Identify strengths by asking 'What do I do naturally that receives praise?' (Like a fish swimming).",
+        "Identify the Resource: Determine the underlying trait driving the strength (e.g., Curiosity).",
+        "Map the Shadow: Identify contexts where this trait is perceived negatively (e.g., Curiosity -> Asking basic questions -> Appearing Junior).",
+        "Contextual Dialing: Learn to 'dial up' or 'dial down' the strength based on the audience."
+      ],
+      "principles_zh": [
+        "游鱼测试：通过问“我自然而然做的事情中，哪些受到了表扬？”来识别优势（像鱼游泳一样自然）。",
+        "识别内核：确定驱动该优势的底层特质（例如：好奇心）。",
+        "映射阴影：识别该特质被负面解读的情境（例如：好奇心 -> 问基础问题 -> 显得资历浅）。",
+        "情境调频：学会根据受众“调高”或“调低”该优势的发挥程度。"
+      ],
+      "whenToUse": "During self-reflection, performance reviews, or when receiving confusing feedback about your behavior.",
+      "whenToUse_zh": "在自我反思、绩效评估期间，或当收到关于你行为的令人困惑的反馈时。",
+      "commonMistakes": "Thinking strengths and weaknesses are binary opposites rather than the same trait applied in different contexts.",
+      "commonMistakes_zh": "认为优势和劣势是二元对立的，而没有意识到它们是同一特质在不同情境下的表现。",
+      "quote": "Strength and weakness, it's not a binary thing. It's like the same thing, but it's a dial.",
+      "realWorldExample": "Jules' strength is curiosity/questioning. The shadow side: asking questions without context made him sound junior. Correction: framing the question with his hypothesis first.",
+      "realWorldExample_zh": "Jules 的优势是好奇心/提问。阴影面：没有背景铺垫直接提问让他听起来资历尚浅。修正方法：在提问前先阐述自己的假设。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you give me feedback, I'll be like, 'Hey, thank you so much. This is super helpful,' because people are like, 'Oh, he actually likes the feedback.' Now, inside my heart might be melting... But externally, I'm like, 'Hey, thank you,' and I mean it.",
+      "context": "On encouraging people to give honest, critical feedback by managing your reaction."
+    },
+    {
+      "text": "Interviewing you never get any feedback. That's the thing people don't talk about, but it's actually an important skill or a barrier to underrepresented folks.",
+      "context": "On the importance of mock interviews and finding a community to practice with."
+    },
+    {
+      "text": "Imagine that you saw a fish and you were like, 'Hey, you're really good at swimming.' And then the fish would be like, 'Oh. Duh, doesn't everybody swim?' And so, that's the key... What's something people keep telling you you're good at, but you yourself don't think is a big deal?",
+      "context": "On how to identify your true strengths."
+    }
+  ],
+  "filename": "Jules Walter"
+}

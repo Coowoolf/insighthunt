@@ -1,0 +1,113 @@
+{
+  "guest": {
+    "name": "Nickey Skarstad",
+    "title": "Director of Product Management",
+    "company": "Duolingo",
+    "background": "A seasoned product leader with deep experience in marketplaces and consumer tech. She previously served as VP of Product at The Wing, Senior Product Lead for Airbnb Experiences (founding team), and Director of Product at Etsy.",
+    "background_zh": "资深产品专家，在双边市场（Marketplace）和消费者科技领域拥有丰富经验。现任 Duolingo 产品总监，曾任 The Wing 产品副总裁，Airbnb 体验业务（Experiences）创始团队高级产品负责人，以及 Etsy 产品总监。"
+  },
+  "episodeSummary": "Nickey Skarstad shares her evolution from a forum moderator to a product director, discussing how to build quality-obsessed cultures at companies like Airbnb and Etsy. She breaks down frameworks for setting strategy, the importance of second-order thinking in decision making, and how to manage energy levels for career longevity.",
+  "episodeSummary_zh": "Nickey Skarstad 分享了她从社区管理员成长为产品总监的职业进阶之路，探讨了如何在 Airbnb 和 Etsy 等公司建立极其重视质量的产品文化。她拆解了制定产品战略的框架、二阶思维在决策中的重要性，以及如何通过管理个人能量来实现职业生涯的可持续发展。",
+  "keyTakeaways": [
+    "Use quality metrics (like review rates) as a counter-balance to growth metrics to prevent ecosystem degradation.",
+    "Introduce friction in onboarding flows if it leads to better long-term retention or success metrics.",
+    "Product strategy should not be written in a vacuum; collaborative brainstorming increases buy-in.",
+    "Apply 'Second-Order Thinking' to identify one-way door decisions that have cascading system effects.",
+    "Conduct an 'Energy Audit' on your calendar (Red/Yellow/Green) to determine career fit."
+  ],
+  "methodologies": [
+    {
+      "name": "The Counter-Balancing Quality Metric",
+      "name_zh": "质量与增长的制衡指标体系",
+      "category": "growth-metrics",
+      "problemItSolves": "Prevents the degradation of user experience and ecosystem health when aggressively pursuing growth or supply acquisition.",
+      "problemItSolves_zh": "防止团队在激进追求增长或供给端获客时，牺牲用户体验或破坏生态系统的长期健康。",
+      "summary": "Instead of focusing solely on acquisition or volume, establish a rigorous quality metric as a 'North Star' or constraining metric. This forces operations and product teams to prioritize successful outcomes over mere numbers.",
+      "summary_zh": "不应仅仅关注获客量或规模，而应确立一个严格的质量指标作为“北极星指标”或约束性指标。这迫使运营和产品团队优先考虑“成功的产出”而非单纯的数字增长。",
+      "principles": [
+        "Identify a 'Balancing Metric': Find a metric that reflects true value (e.g., 5-star review rate).",
+        "Prioritize Quality over Scale early on: Don't ship supply if it doesn't meet the bar.",
+        "Use Friction Strategically: Slow down onboarding if it helps users achieve the 'Aha Moment' faster later."
+      ],
+      "principles_zh": [
+        "确立“制衡指标”：找到一个能反映真实价值的指标（如五星好评率）。",
+        "早期质量优于规模：如果供给端（Supply）未达标，宁可不发布也不盲目扩张。",
+        "战略性增加阻力：如果能帮助用户后续更快达到“顿悟时刻（Aha Moment）”，可以在入驻流程中适当增加阻力。"
+      ],
+      "whenToUse": "Crucial for marketplaces (supply/demand balance) or early-stage products establishing PMF.",
+      "whenToUse_zh": "对于双边市场（平衡供需）或处于 PMF（产品市场匹配）探索早期的产品至关重要。",
+      "commonMistakes": "Optimizing for 'Vanity Metrics' (e.g., number of signups) that don't correlate with retention or satisfaction.",
+      "commonMistakes_zh": "过度优化“虚荣指标”（如单纯的注册量），而忽略了这些指标与留存或满意度毫无关联。",
+      "quote": "If you can get those two things in balance [growth and quality], you're going to cruise.",
+      "realWorldExample": "At Etsy, they realized fast onboarding led to failure. They added friction to the seller onboarding flow, which actually helped sellers get their 'first sale in 7 days' (the success metric) faster.",
+      "realWorldExample_zh": "在 Etsy，团队发现快速入驻反而导致卖家失败。因此他们在卖家入驻流程中增加了阻力（门槛），这反而帮助卖家更快实现了“7天内首单”（核心成功指标）。"
+    },
+    {
+      "name": "The Vision-Mission-Strategy Pyramid",
+      "name_zh": "愿景-策略-执行金字塔模型",
+      "category": "product-strategy",
+      "problemItSolves": "Bridges the gap between high-level abstract goals and daily execution (Jira tickets), ensuring team alignment.",
+      "problemItSolves_zh": "弥合高层抽象目标与日常执行（如 Jira 工单）之间的鸿沟，确保团队方向一致。",
+      "summary": "A hierarchical framework starting with a 10-year vision, narrowing down to mission, strategy, and finally quarterly objectives (OKRs). The key is building this collaboratively, not top-down.",
+      "summary_zh": "这是一个层级框架，从10年愿景开始，逐层向下细化为使命、策略，最后是季度目标（OKR）。关键在于这一过程必须是协作完成的，而非自上而下的指令。",
+      "principles": [
+        "Top-Down Cascading: Vision (10y) -> Mission -> Strategy -> Objectives (3-6m).",
+        "Collaborative Brainstorming: Involve the team early using tools like Miro/FigJam to generate buy-in.",
+        "External Validation: Check strategy against organizational context and leadership expectations before finalizing."
+      ],
+      "principles_zh": [
+        "自上而下的传导：愿景（10年）-> 使命 -> 策略 -> 目标（3-6个月）。",
+        "协作式脑暴：尽早利用 Miro/FigJam 等工具让团队参与进来，以获得团队的认同（Buy-in）。",
+        "外部验证：在定稿前，必须结合组织背景和高层期望对策略进行校准。"
+      ],
+      "whenToUse": "During quarterly planning or when a team feels 'feature factory' fatigue and lacks direction.",
+      "whenToUse_zh": "适用于季度规划期间，或当团队感到沦为“功能工厂”且缺乏方向感时。",
+      "commonMistakes": "Writing strategy in a vacuum (solo mode) and presenting it as a finished mandate, which kills team motivation.",
+      "commonMistakes_zh": "闭门造车（独自撰写策略）并将其作为既定指令发布，这会严重打击团队的积极性。",
+      "quote": "Good product work is often not democratic... but getting people to buy in when they haven't been involved is very challenging.",
+      "realWorldExample": "For Airbnb Experiences, the team brainstormed 'what makes a travel memory stick' to define the 10-year vision, which then informed the tactical OKRs.",
+      "realWorldExample_zh": "在 Airbnb 体验业务中，团队通过脑暴“什么让旅行记忆深刻”来定义10年愿景，进而指导战术层面的 OKR 制定。"
+    },
+    {
+      "name": "Second-Order Decision Making",
+      "name_zh": "二阶思维决策模型",
+      "category": "execution",
+      "problemItSolves": "Prevents 'technical debt' and 'product debt' caused by short-sighted decisions that break the larger ecosystem.",
+      "problemItSolves_zh": "防止因短视决策破坏整个生态系统，从而导致高昂的“技术负债”和“产品负债”。",
+      "summary": "Applying systems thinking to distinguish between 'one-way door' (irreversible) and 'two-way door' (reversible) decisions. For one-way doors, deep analysis of cascading effects is required.",
+      "summary_zh": "应用系统思维来区分“单向门”（不可逆）和“双向门”（可逆）决策。对于单向门决策，必须深入分析其连锁反应。",
+      "principles": [
+        "Identify the Door Type: Is this reversible? If yes, move fast. If no, pause.",
+        "Map the System: Use systems thinking (Donella Meadows) to predict how a change impacts the whole loop.",
+        "Define First Principles: Agree on foundational constraints early to avoid re-litigating decisions later."
+      ],
+      "principles_zh": [
+        "识别决策类型：是否可逆？如果是，快速行动；如果否，停下来思考。",
+        "系统映射：利用系统思维（参考 Donella Meadows）预测变更如何影响整个回路。",
+        "定义第一性原理：尽早对基础约束达成一致，避免后续对决策反复争论。"
+      ],
+      "whenToUse": "When designing core platform features, marketplace rules, or trust & safety policies.",
+      "whenToUse_zh": "在设计核心平台功能、市场规则或信任与安全（Trust & Safety）策略时。",
+      "commonMistakes": "Treating a 'one-way door' decision (like listing data structure) as a quick experiment, leading to massive refactoring costs.",
+      "commonMistakes_zh": "将“单向门”决策（如房源数据结构）当作快速实验处理，导致后续产生巨大的重构成本。",
+      "quote": "When you make a change today, and it impacts every single user in your ecosystem... it's really hard to make those changes later.",
+      "realWorldExample": "Defining 'what is a home' or 'what is a hand-made item' on Airbnb/Etsy. These are one-way doors that define the entire data structure and policy engine.",
+      "realWorldExample_zh": "在 Airbnb 或 Etsy 定义“什么是房源”或“什么是手工制品”。这些是单向门决策，决定了整个数据结构和策略引擎。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Airbnb does not ship product if it is not good. And even if they're trying new things, they are obsessed with the end consumer experience.",
+      "context": "On the difference in product culture between Airbnb and other faster-moving startups."
+    },
+    {
+      "text": "I went through my calendar and I changed the colors of all of the meetings... If it was red, I was either bored or I was stressed... If it was green, it gave me energy.",
+      "context": "On how to decide when to leave a job or pivot your career path."
+    },
+    {
+      "text": "Good brainstorms are often cross-functional. So go outside of your own team.",
+      "context": "On setting vision and strategy effectively."
+    }
+  ],
+  "filename": "Nickey Skarstad"
+}

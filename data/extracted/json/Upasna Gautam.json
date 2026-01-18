@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Upasna Gautam",
+    "title": "Product Manager, CNN Digital",
+    "company": "CNN",
+    "background": "Upasna is a Product Manager at CNN, leading the team responsible for the content management system (CMS) used by journalists globally. She also serves on the board of the News Product Alliance and is a longtime meditation and mindfulness teacher, bringing a unique focus on equanimity to product leadership.",
+    "background_zh": "Upasna 是 CNN Digital 的产品经理，负责领导全球记者使用的内容管理系统（CMS）团队。她同时也是新闻产品联盟（News Product Alliance）的董事会成员，以及一位资深的冥想与正念导师，她将“情绪平稳（Equanimity）”的理念独特地融入到了产品领导力中。"
+  },
+  "episodeSummary": "Upasna shares her experience building internal tools for one of the world's largest news organizations, focusing on how to manage product within the high-pressure environment of breaking news. She details frameworks for bridging the gap between engineering and editorial teams, executing 'dress rehearsals' for critical launches, and applying mindfulness techniques to improve stakeholder communication and decision-making.",
+  "episodeSummary_zh": "Upasna 分享了她在全球最大的新闻机构构建内部工具的经验，重点探讨了如何在突发新闻的高压环境下进行产品管理。她详细介绍了如何弥合工程团队与采编团队之间的鸿沟、为关键发布执行“全链路演练”，以及如何运用正念技巧来提升利益相关者沟通和决策质量。",
+  "filename": "Upasna Gautam"
+}

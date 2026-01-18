@@ -3,7 +3,8 @@
     "name": "Eric Ries",
     "title": "Founder and Executive Chairman",
     "company": "Long-Term Stock Exchange (LTSE)",
-    "background": "The creator of the Lean Startup methodology, author of 'The Lean Startup,' and a former CTO/founder. He is widely considered one of the most influential figures in modern product management and entrepreneurship."
+    "background": "The creator of the Lean Startup methodology, author of 'The Lean Startup,' and a former CTO/founder. He is widely considered one of the most influential figures in modern product management and entrepreneurship.",
+    "background_zh": "精益创业（Lean Startup）方法论提出者、《精益创业》作者，曾任 CTO 及创始人。他是公认的现代产品管理与创业领域最具影响力的人物之一。"
   },
   "episodeSummary": "Eric Ries revisits the Lean Startup methodology over a decade after its release, addressing how the landscape has shifted with the rise of 'craft-focused' product building and AI. He deconstructs the persistent misconceptions around MVPs, provides a brutal truth test for founders stuck in 'zombie' companies, and offers a specific protocol for deciding when to pivot versus persevere.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When launching a new product line or startup where the primary risk is market desirability rather than technical feasibility.",
       "commonMistakes": "Confusing 'minimum' with 'broken' or 'buggy'. The code should work, but the scope should be uncomfortably small.",
       "quote": "Write out the list of features that are necessary in your MVP. Cut it in half and cut it in half again and build that.",
-      "realWorldExample": "IMVU removed the ability for avatars to walk because the animation tech was too expensive. They used simple 'teleporting' instead. Customers ended up preferring teleportation over walking (which The Sims used), turning a cut corner into a feature."
+      "realWorldExample": "IMVU removed the ability for avatars to walk because the animation tech was too expensive. They used simple 'teleporting' instead. Customers ended up preferring teleportation over walking (which The Sims used), turning a cut corner into a feature.",
+      "summary_zh": "一种用于划定 MVP 范围的严苛法则，旨在确保你验证的是“信念飞跃”式的核心假设，而非迎合创始人的虚荣心。它将重心从“打造产品”转移至“验证假设”，同时有效控制风险。",
+      "problemItSolves_zh": "出于对交付低质量产品的担忧，产品团队往往难以精准界定“最小”的边界，导致初始版本过度开发。",
+      "whenToUse_zh": "当启动新产品线或初创项目，且核心风险在于市场需求而非技术可行性时。",
+      "commonMistakes_zh": "误将“最小化”等同于“功能残缺”或“Bug 频出”。代码必须稳定运行，但功能范围应极致精简，甚至精简到让你感到“不适”的程度。",
+      "realWorldExample_zh": "由于动画技术的研发成本过高，IMVU 砍掉了虚拟形象的“行走”功能，转而采用简单的“瞬移”机制。意想不到的是，用户反而认为瞬移比《模拟人生》（The Sims）式的行走体验更好，成功将原本的“偷工减料”转化为了产品亮点。",
+      "principles_zh": [
+        "罗列所有你认为上线必须具备的功能。",
+        "将这份列表砍掉一半，再砍一半。只开发剩下的这部分。",
+        "将 MVP 视为衡量迭代效果的基准，而非产品的最终形态。",
+        "如果目标市场的质量门槛较高，应将范围收窄至单一核心功能并确保达标，而非堆砌一整套平庸的功能。"
+      ],
+      "name_zh": "The Recursive Cut MVP（递归裁剪 MVP）"
     },
     {
       "name": "The Six-Week Truth Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "When a startup or product feature has launched but is seeing flat growth, and the team is making excuses about 'delayed effects' or 'seasonality'.",
       "commonMistakes": "Allowing the timeline to slip or accepting marginal improvements (e.g., 10% to 10.5%) as success when step-function growth is needed.",
       "quote": "If you're asking whether you should pivot or not, you probably know the answer already.",
-      "realWorldExample": "Eric used a similar logic during the LTSE partnership failure. When the partnership collapsed after two years, the team used the 'truth' of the failure to immediately pivot to the regulatory approach that eventually worked."
+      "realWorldExample": "Eric used a similar logic during the LTSE partnership failure. When the partnership collapsed after two years, the team used the 'truth' of the failure to immediately pivot to the regulatory approach that eventually worked.",
+      "summary_zh": "这是一套倒逼团队在转型（Pivot）与坚持之间做出抉择的战术方案，旨在消除“也许终将奏效”的模糊侥幸。它通过设定严格的时间盒（Timebox），迫使团队直面客观的实证真相。",
+      "problemItSolves_zh": "创始人和 PM 往往深陷“曲棍球曲线”的平缓停滞期，既无法承认当前策略已失效，又对是否应当转型犹豫不决。",
+      "whenToUse_zh": "当初创公司或新功能上线后增长停滞，而团队却以“滞后效应”或“季节性因素”为借口时。",
+      "commonMistakes_zh": "允许排期延误，或在需要实现阶梯式增长时，将微小的边际提升（例如从 10% 到 10.5%）视为成功。",
+      "realWorldExample_zh": "Eric 在应对 LTSE 合作失利时沿用了同样的逻辑。当历时两年的合作宣告破裂，团队基于失败所揭示的“真相”迅速转型，切入监管合规路径，并最终成功跑通了这一模式。",
+      "principles_zh": [
+        "直面现状：承认产品正陷入“僵尸状态”（既无增长，亦未消亡）。",
+        "设定严格的时间盒（例如 6 周），全员 All-in，100% 聚焦于撬动单一核心指标。",
+        "若期限截止时指标仍未显著改善，即刻召开“重启会议”。",
+        "会上逐一发问：“若此刻手握剩余资金重新创业，我们会做什么？”若团队对某一新方向达成共识，立即转型。"
+      ],
+      "name_zh": "The Six-Week Truth Protocol（六周真相协议）"
     },
     {
       "name": "The Brochureware Simulation",
@@ -62,7 +87,19 @@
       "whenToUse": "Deep tech, hardware, B2B enterprise sales, or regulated industries where the cost of building the 'wrong' thing is millions of dollars.",
       "commonMistakes": "Creating low-quality marketing materials. The 'brochure' must look real and professional to test the value proposition accurately.",
       "quote": "We can build a really high quality brochure in a tiny fraction of the time it takes to build the actual machine.",
-      "realWorldExample": "A data center equipment team wanted to spend $18M/3 years to build a highly efficient power system. Eric convinced them to try selling a brochure with the target specs first. Customers laughed them out of the room because they didn't pay for electricity (their landlords did), saving the team years of work."
+      "realWorldExample": "A data center equipment team wanted to spend $18M/3 years to build a highly efficient power system. Eric convinced them to try selling a brochure with the target specs first. Customers laughed them out of the room because they didn't pay for electricity (their landlords did), saving the team years of work.",
+      "summary_zh": "一种在高风险环境下验证价值主张的方法，无需预先构建实体或复杂的底层产品。其核心在于产品实际存在之前，先通过销售“承诺”（规格/结果）来进行验证。",
+      "problemItSolves_zh": "身处硬件、企业服务或强合规行业的团队往往认为自己无法适用精益（Lean）或 MVP 方法，因为他们坚信必须“完成整个产品的构建”才能进行销售。",
+      "whenToUse_zh": "深科技、硬件、B2B 企业级销售或强监管行业——在这些领域，开发错误产品的试错成本高达数百万美元。",
+      "commonMistakes_zh": "制作粗糙的营销物料。“宣传册”必须具备足够的真实感与专业度，才能准确验证价值主张。",
+      "realWorldExample_zh": "某数据中心设备团队曾计划投入 1800 万美元、耗时 3 年研发一套高效电源系统。Eric 说服团队先进行“宣传单模拟”：仅凭印有目标参数的产品单页尝试销售。结果客户完全不买账，甚至觉得荒谬——因为电费由房东承担，客户根本不在乎节能。这次验证直接帮团队避免了数年的无效研发投入。",
+      "principles_zh": [
+        "识别“信仰之跃”式的关键假设（例如：客户非常在意效率）。",
+        "制作高保真营销物料（如宣传册、规格表、落地页），并在其中承诺理想化的产品规格。",
+        "仅凭这些宣传资料，尝试获取预购订单或签署购买意向书。",
+        "若客户拒绝这份方案，开发产品即为资源浪费；若客户接受，则证明核心规格已通过验证。"
+      ],
+      "name_zh": "The Brochureware Simulation（宣传页模拟法）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Addressing the debate between 'Craft' vs. 'MVP' and arguing that building a beautiful product nobody wants is not high quality."
     }
   ],
-  "filename": "Eric Ries"
+  "filename": "Eric Ries",
+  "episodeSummary_zh": "Eric Ries 在《精益创业》问世十余年后重构其方法论，探讨在“工匠型”产品构建理念与 AI 浪潮兴起的当下，行业格局发生的演变。他深度剖析了围绕 MVP 根深蒂固的误区，为陷入“僵尸型”公司的创始人提供了一套残酷的真相测试，并给出了关于抉择“转型还是坚持”的具体决策框架。"
 }

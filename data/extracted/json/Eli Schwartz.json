@@ -3,7 +3,8 @@
     "name": "Eli Schwartz",
     "title": "Growth Advisor & Author",
     "company": "Product-Led SEO",
-    "background": "Eli is a renowned growth advisor specializing in SEO, having guided strategies for major companies like SurveyMonkey, Tinder, WordPress, and Coinbase. He is the author of 'Product-Led SEO' and is known for challenging traditional keyword-centric approaches in favor of strategic, user-centric product development."
+    "background": "Eli is a renowned growth advisor specializing in SEO, having guided strategies for major companies like SurveyMonkey, Tinder, WordPress, and Coinbase. He is the author of 'Product-Led SEO' and is known for challenging traditional keyword-centric approaches in favor of strategic, user-centric product development.",
+    "background_zh": "Eli 是一位深耕 SEO 领域的知名增长顾问，曾为 SurveyMonkey、Tinder、WordPress 和 Coinbase 等头部企业提供战略指导。作为《Product-Led SEO》一书作者，他以挑战传统“关键词导向”的打法而闻名，主张通过战略性、用户导向的产品开发来驱动增长。"
   },
   "episodeSummary": "In this deep dive into the changing landscape of search, Eli Schwartz argues that the rise of AI and LLMs is shifting SEO from a marketing tactic to a product discipline. He explains why traditional 'content mills' are dying, why most SaaS companies waste money on SEO, and how to treat search traffic as a user acquisition channel that requires product thinking rather than just keyword stuffing.",
   "keyTakeaways": [
@@ -29,7 +30,19 @@
       "whenToUse": "When launching a new product line or diagnosing why an existing high-traffic blog is generating zero revenue.",
       "commonMistakes": "Letting the marketing team churn out blog posts without product team involvement or understanding the actual user journey.",
       "quote": "Think of SEO as a product. The product managers are the people that should be thinking about this SEO question because it's a product question.",
-      "realWorldExample": "Tinder realized users weren't searching for 'dating app' content, but for solutions to loneliness in specific cities. They built programmatic pages for 'Dating in [City]' that solved the loneliness problem by offering the app as the solution."
+      "realWorldExample": "Tinder realized users weren't searching for 'dating app' content, but for solutions to loneliness in specific cities. They built programmatic pages for 'Dating in [City]' that solved the loneliness problem by offering the app as the solution.",
+      "summary_zh": "一种将 SEO 页面视为产品功能，而非单纯营销博文的战略方法。它将搜索资产的构建与用户痛点及产品价值主张直接对齐。",
+      "problemItSolves_zh": "避免团队资源被浪费在那些空有排名却无转化、或未能解决用户真实需求的内容上。",
+      "whenToUse_zh": "当启动新产品线，或诊断现有高流量博客为何零营收时。",
+      "commonMistakes_zh": "放任市场团队盲目堆砌博文，既缺乏产品团队的介入，也未真正理解实际的用户旅程。",
+      "realWorldExample_zh": "Tinder 洞察到用户的搜索意图并非“约会应用”本身，而是在特定城市寻求排解孤独的途径。为此，他们搭建了“在 [城市] 约会”的程序化页面，将 App 作为解决方案直接呈现，从而精准解决了用户的孤独痛点。",
+      "principles_zh": [
+        "第一步：化身用户：初期摒弃关键词工具。基于假设去推演用户面临的具体痛点，以及他们会在搜索框中输入的真实意图。",
+        "第二步：定义资产形态：决策解决方案的最佳载体——是工具、模板、程序化页面，还是深度编辑的内容。",
+        "第三步：瞄准漏斗中层：打造承接转化的资产，填补从“我遇到了问题”（AI 已解决）到“我需要特定解决方案”（你的产品）之间的缺口。",
+        "第四步：贯彻产品化思维：投入研发、设计和 PM 资源打造极致的用户体验，而非仅仅在页面上堆砌文字。"
+      ],
+      "name_zh": "The Product-Led SEO Framework（产品驱动 SEO 框架）"
     },
     {
       "name": "The SEO Viability Audit",
@@ -45,7 +58,19 @@
       "whenToUse": "During annual planning or immediately after raising a Series A/B to determine resource allocation.",
       "commonMistakes": "Assuming SEO is 'free' traffic and failing to account for the significant time and engineering cost required to do it right.",
       "quote": "If you can't answer the question about what is it that someone's going to do a search on, then don't do SEO.",
-      "realWorldExample": "A gardening SaaS company was advised to spend $15k/month on content SEO. Eli analyzed their journey and realized their customers came from trade shows. They shifted the budget to booths ($10k each) which yielded immediate, high-intent leads."
+      "realWorldExample": "A gardening SaaS company was advised to spend $15k/month on content SEO. Eli analyzed their journey and realized their customers came from trade shows. They shifted the budget to booths ($10k each) which yielded immediate, high-intent leads.",
+      "summary_zh": "一套基于用户行为和商业模式的决策框架，用于判定 SEO 是否为可行的增长渠道，而非盲目预设“人人都需要 SEO”。",
+      "problemItSolves_zh": "帮助初创公司和 B2B 企业决策：是继续投入 SEO，还是在这个无利可图的渠道上及时止损。",
+      "whenToUse_zh": "适用于年度规划期间，或完成 Series A/B 轮融资后，用于确定资源配置策略。",
+      "commonMistakes_zh": "误将 SEO 视为“免费”流量，而忽略了想要真正做好它所需投入的巨大时间与研发成本。",
+      "realWorldExample_zh": "一家园艺 SaaS 公司曾被建议每月投入 1.5 万美元用于内容 SEO。Eli 在分析其获客路径后发现，核心客户其实源自行业展会。于是他们将预算转投至展位（单次 1 万美元），这一策略调整立竿见影，带来了大量高意向的销售线索。",
+      "principles_zh": [
+        "步骤 1：分析用户旅程。用户搜索后是否会立即在线下单或转化？如果转化路径依赖销售介入，SEO 的 ROI 通常较低。",
+        "步骤 2：验证问题感知。用户真的在主动搜索你能解决的问题吗？如果是用户尚未感知的痛点，SEO 策略将无法生效。",
+        "步骤 3：核算真实成本。综合计算代理商费用、内部 PM 人力投入、研发资源支持以及 CMS 系统的维护成本。",
+        "步骤 4：评估机会成本。对比同等预算投入到付费广告、线下展会或 KOL 营销中，是否能带来更高的 ROI？"
+      ],
+      "name_zh": "The SEO Viability Audit（SEO 可行性评估）"
     },
     {
       "name": "The Programmatic Value Engine",
@@ -61,7 +86,19 @@
       "whenToUse": "When you have a large database of structured information (real estate, travel, integrations, software reviews) that can be surfaced publicly.",
       "commonMistakes": "Creating pages for every permutation (e.g., every zip code) when no user actually searches for that specific combination.",
       "quote": "Programmatic is the right solution when there's scale and when there's a user use case. If there is not, you create scale for nothing.",
-      "realWorldExample": "TripAdvisor didn't write articles for every hotel. They aggregated location, amenities, and user reviews into a single programmatic page for every hotel, creating value that no single editorial piece could match."
+      "realWorldExample": "TripAdvisor didn't write articles for every hotel. They aggregated location, amenities, and user reviews into a single programmatic page for every hotel, creating value that no single editorial piece could match.",
+      "summary_zh": "一种程序化 SEO 的执行方法，主张优先考量用户实用性，而非单纯追求页面规模。其核心逻辑是将独特的数据点聚合至单一视图，从而节省用户的调研时间。",
+      "problemItSolves_zh": "解决了“低质内容”程序化 SEO 的痛点，即企业因批量生成海量无价值页面而遭受 Google 惩罚的问题。",
+      "whenToUse_zh": "当你拥有海量可对外公开的结构化数据（如房产、旅游、应用集成、软件点评）时。",
+      "commonMistakes_zh": "盲目穷举所有排列组合（例如为每个邮政编码都生成页面），却忽略了这些特定组合根本不存在实际的用户搜索需求。",
+      "realWorldExample_zh": "TripAdvisor 并没有为每家酒店单独撰写文章。他们通过将地理位置、配套设施和用户点评聚合到一个程序化页面中，创造了任何单篇人工编辑内容都无法比拟的价值。",
+      "principles_zh": [
+        "第一步：挖掘可聚合数据。寻找具备组合价值的结构化数据（无论是私有数据还是公开数据，例如“房价 + 学区”的组合）。",
+        "第二步：验证用户场景。确认用户是否存在查看特定数据切片的真实需求（例如对比“迈阿密酒店”与“邮编 90210 的管道工”的搜索意图）。",
+        "第三步：设计“视图”模板。针对特定查询意图打造仪表盘或工具化的通用模板，而非单纯的文字堆砌。",
+        "第四步：设定边界进行规模化。仅在数据丰度足以提供价值时生成页面，严控生成空白页或“内容稀薄”的低质量页面。"
+      ],
+      "name_zh": "The Programmatic Value Engine（程序化价值引擎）"
     }
   ],
   "notableQuotes": [
@@ -82,5 +119,6 @@
       "context": "Reassuring PMs that despite AI advancements, the fundamental behavior of users seeking information remains intact."
     }
   ],
-  "filename": "Eli Schwartz"
+  "filename": "Eli Schwartz",
+  "episodeSummary_zh": "本期内容深入剖析了搜索领域的格局变迁。Eli Schwartz 提出，随着 AI 和 LLM 的兴起，SEO 正从一种营销战术转型为一项产品职能。他详细阐释了为何传统的“内容农场”模式正走向消亡，为何大多数 SaaS 企业的 SEO 投入都是一种浪费，以及如何运用产品思维将搜索流量视为核心获客渠道，而非仅仅依赖关键词堆砌。"
 }

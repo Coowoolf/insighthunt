@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Tanguy Crusson",
+    "title": "Head of Product, Jira Product Discovery",
+    "company": "Atlassian",
+    "background": "A veteran product leader with over 10 years at Atlassian, Tanguy has worked on major initiatives including HipChat, Stride, and Statuspage. He most recently led Jira Product Discovery from a zero-to-one internal idea to one of Atlassian's fastest-growing products.",
+    "background_zh": "Atlassian拥有超过10年经验的资深产品领袖，曾负责HipChat、Stride和Statuspage等核心项目。最近，他带领Jira Product Discovery从内部孵化的0到1创意，发展成为Atlassian历史上增长最快的产品之一。"
+  },
+  "episodeSummary": "Tanguy Crusson shares the brutal realities and strategic frameworks for building zero-to-one products inside a massive enterprise like Atlassian. He dissects the failures of HipChat (competing with Slack) and the success of Jira Product Discovery, offering a blueprint for internal incubation, protecting early ideas from corporate bureaucracy, and validating product-market fit.",
+  "episodeSummary_zh": "Tanguy Crusson分享了在Atlassian这样的大型企业内部进行0到1产品创新的残酷现实与战略框架。他深度剖析了HipChat（与Slack竞争）的失败教训以及Jira Product Discovery的成功经验，为内部孵化、保护早期创意免受大公司官僚主义影响以及验证PMF（产品市场匹配）提供了实战蓝图。",
+  "keyTakeaways": [
+    "Position internal bets as 'likely to fail' to secure autonomy and prevent the wider organization from over-investing or meddling too early.",
+    "Avoid 'Competitive Myopia'; focusing too much on competitors (like HipChat vs. Slack) leads to feature parity chasing rather than solving unique user problems.",
+    "Do not rewrite a product while trying to compete with a fast-moving startup; you cannot fix the plane while flying it against a faster opponent.",
+    "Use internal communications (demos, customer snippets) to create 'High-Speed Train' momentum that stakeholders are afraid to block.",
+    "Create scarcity deliberately; large companies tend to over-resourcing, but innovation requires the 'starvation' mindset of a startup.",
+    "The 'Why Now' is as important as the idea itself; good ideas get shelved if you cannot articulate the urgency of the market timing."
+  ],
+  "methodologies": [
+    {
+      "name": "The Point A Incubation Lifecycle",
+      "name_zh": "Point A 内部孵化全生命周期",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents internal startups from being crushed by corporate processes or scaling prematurely.",
+      "problemItSolves_zh": "防止内部创业项目被大公司繁琐流程扼杀或过早盲目扩张。",
+      "summary": "A four-stage gated process used at Atlassian to guide new products from concept to revenue, ensuring the right questions are answered at the right time without burdening the team with mature product requirements.",
+      "summary_zh": "Atlassian用于指导新产品从概念到变现的四阶段门径管理流程，确保在正确的时间回答正确的问题，同时避免让早期团队背负成熟产品的合规与流程负担。",
+      "principles": [
+        "Wonder: Prove the problem space exists and articulate 'Why Atlassian' and 'Why Now'.",
+        "Explore: Validate solutions through prototypes and customer interviews (don't build yet).",
+        "Make: Build Alpha/Beta versions focused on 'Lighthouse Users' rather than revenue.",
+        "Impact: Scale to general availability only after proving value; integrate into the main platform."
+      ],
+      "principles_zh": [
+        "奇想 (Wonder)：证明问题空间的存在，并清晰阐述“为什么是Atlassian做”以及“为什么是现在做”。",
+        "探索 (Explore)：通过原型和用户访谈验证解决方案（此阶段不写代码）。",
+        "制造 (Make)：开发Alpha/Beta版本，核心关注“灯塔用户”的反馈而非营收指标。",
+        "影响 (Impact)：在验证价值后全面开放（GA），并将产品集成到核心平台中。"
+      ],
+      "whenToUse": "When launching a new venture or product line within an established organization.",
+      "whenToUse_zh": "在成熟组织内部启动新业务线或新产品时使用。",
+      "commonMistakes": "Applying 'Make' phase metrics (like reliability or scale) during the 'Wonder' or 'Explore' phases.",
+      "commonMistakes_zh": "在“奇想”或“探索”阶段过早套用“制造”阶段的指标（如系统稳定性或用户规模）。",
+      "quote": "Innovation is like a muscle. Unless you exercise it, it becomes weak.",
+      "realWorldExample": "Jira Product Discovery spent years in the 'Wonder' and 'Explore' phases, writing the first line of code only after validating demand with a fake landing page that got 3,000 signups.",
+      "realWorldExample_zh": "Jira Product Discovery在“奇想”和“探索”阶段打磨了数年，直到通过一个简易落地页获得3000个注册意向验证了需求后，才写下第一行代码。"
+    },
+    {
+      "name": "The Lighthouse User Program",
+      "name_zh": "灯塔用户计划",
+      "category": "user-research",
+      "problemItSolves": "Validates product value deeply without the noise of mass market feedback or vanity metrics like MAU.",
+      "problemItSolves_zh": "在排除大众市场噪音和MAU等虚荣指标干扰的情况下，深度验证产品的核心价值。",
+      "summary": "A qualitative scaling strategy that prioritizes deep engagement with a tiny cohort of users over broad adoption, ensuring the product actually solves the core problem before scaling.",
+      "summary_zh": "一种定性优先的扩张策略，优先考虑与极少数用户的深度互动，而非广泛的采用率，确保在规模化之前产品真正解决了核心痛点。",
+      "principles": [
+        "Phase 1 (10 Users): Deep empathy. Engineers talk directly to users. Solve their specific problems manually.",
+        "Phase 2 (100 Users): Test variations and edge cases. Validate security and compliance needs.",
+        "Phase 3 (1000 Users): Focus on self-service onboarding, support scaling, and reducing friction.",
+        "Metric Shift: Ignore MAU/Revenue initially. Success is defined by qualitative feedback and user delight."
+      ],
+      "principles_zh": [
+        "阶段一 (10个用户)：深度共情。工程师直接与用户对话，手动解决具体问题。",
+        "阶段二 (100个用户)：测试差异化场景和边缘案例，验证安全与合规需求。",
+        "阶段三 (1000个用户)：聚焦自助式Onboarding（上手流程）、支持体系的扩展性及降低使用摩擦。",
+        "指标迁移：初期完全忽略MAU或营收，成功定义为定性的用户反馈和爽感。"
+      ],
+      "whenToUse": "During the 'Make' phase (Alpha/Beta) of a 0-to-1 product.",
+      "whenToUse_zh": "在0到1产品的“制造”阶段（Alpha/Beta测试期）使用。",
+      "commonMistakes": "Hiding behind surveys and data dashboards instead of having engineers speak directly to customers.",
+      "commonMistakes_zh": "躲在问卷调查和数据看板后面，而不是让工程师直接面对客户。",
+      "quote": "Climate change is a thing... do we change? Not enough. What makes people want to change is empathizing with individual experiences.",
+      "realWorldExample": "For Jira Product Discovery, Tanguy recruited 10 specific product managers, put them in a Slack channel with his engineers, and built features based on their direct daily feedback.",
+      "realWorldExample_zh": "在做Jira Product Discovery时，Tanguy招募了10位特定的产品经理，把他们拉进和工程师同一个Slack频道，根据他们每天的直接反馈来开发功能。"
+    },
+    {
+      "name": "The High-Speed Train Momentum Strategy",
+      "name_zh": "“高铁”势能策略",
+      "category": "execution",
+      "problemItSolves": "Prevents internal stakeholders from killing a project due to lack of visibility or confidence during the 'ugly baby' phase.",
+      "problemItSolves_zh": "防止内部干系人在产品“丑陋婴儿期”因缺乏可见性或信心而关停项目。",
+      "summary": "Using aggressive internal communication to create a sense of inevitability and speed, making it politically difficult for others to block the project.",
+      "summary_zh": "利用高频且强势的内部沟通机制，营造出一种“必然成功”和“高速发展”的氛围，增加其他人阻碍项目的政治难度。",
+      "principles": [
+        "Weekly Demos: Send bite-sized updates (tweets/videos) every single week, even if you have to save features to ensure cadence.",
+        "User Snippets: Share video clips of customers praising the solution or articulating the problem to build emotional buy-in.",
+        "Radical Honesty: Admit what is broken to build trust, but always pair it with what is being fixed.",
+        "Create Scarcity: Frame the project as a 'small bet likely to fail' to keep big corporate processes away."
+      ],
+      "principles_zh": [
+        "每周演示：每周发布碎片化更新（推文/视频），即使为了保证节奏需要“囤积”一些功能发布。",
+        "用户切片：分享客户赞赏方案或阐述痛点的视频片段，建立情感层面的认可。",
+        "极度坦诚：承认哪里还没做好以建立信任，但必须同时展示修复计划。",
+        "制造稀缺：将项目包装成“极可能失败的小赌注”，以此以此让大公司的繁琐流程“以此以此让大公司的繁琐流程“以此让大公司的繁琐流程敬而远之”。"
+      ],
+      "whenToUse": "When navigating the 'Trough of Sorrow' in internal innovation where progress isn't visible in revenue yet.",
+      "whenToUse_zh": "处于内部创新的“悲伤低谷期”，即进展尚未体现在营收数据上时使用。",
+      "commonMistakes": "Going silent for months to build a 'big reveal'. Stakeholders assume silence means failure.",
+      "commonMistakes_zh": "为了憋大招而静默数月。干系人通常会默认“静默即失败”。",
+      "quote": "Give people a sense of velocity and speed. No one wants to fuck with a high-speed train.",
+      "realWorldExample": "Tanguy used an internal tool called Atlas to post weekly tweet-sized updates and demo videos, building a subscriber base of hundreds of internal employees watching the progress.",
+      "realWorldExample_zh": "Tanguy利用内部工具Atlas每周发布推特式的简短更新和演示视频，吸引了数百名内部员工订阅并关注项目进展。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Startups have the benefit of starving, and so you need to create scarcity.",
+      "context": "On why large companies fail at innovation—they over-invest too early."
+    },
+    {
+      "text": "No one wants to fuck with a high-speed train.",
+      "context": "On the importance of showing constant velocity to protect your project from internal blockers."
+    },
+    {
+      "text": "Integrations are mostly about people. They're not about technology.",
+      "context": "Reflecting on the challenges of the Statuspage acquisition."
+    },
+    {
+      "text": "Don't eat your own bullshit.",
+      "context": "Tanguy's raw advice on avoiding the trap of thinking past success guarantees future success."
+    }
+  ],
+  "filename": "Tanguy Crusson"
+}

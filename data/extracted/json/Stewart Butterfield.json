@@ -1,0 +1,117 @@
+{
+  "guest": {
+    "name": "Stewart Butterfield",
+    "title": "Co-founder & Former CEO",
+    "company": "Slack / Flickr",
+    "background": "Stewart Butterfield is a serial entrepreneur and product legend who founded Flickr and Slack, leading the latter to a massive acquisition by Salesforce. Known for his design-centric approach and philosophy on organizational behavior.",
+    "background_zh": "Stewart Butterfield 是一位连续创业者和产品传奇人物，先后创立了 Flickr 和 Slack，并带领 Slack 被 Salesforce 巨额收购。他以设计为中心的产品理念和对组织行为学的深刻见解而闻名。"
+  },
+  "episodeSummary": "Stewart Butterfield shares deep product wisdom, challenging conventional wisdom on friction and efficiency. He discusses the importance of utility curves, why \"work-like activities\" kill productivity, and how to apply empathy and taste to build software that doesn't make users feel stupid.",
+  "episodeSummary_zh": "Stewart Butterfield 分享了深刻的产品智慧，挑战了关于阻力（Friction）和效率的传统观念。他探讨了效用曲线的重要性，解释了为什么“类工作活动”会扼杀生产力，以及如何运用同理心和品味来构建真正以用户为中心的软件，避免让用户感到愚蠢。",
+  "keyTakeaways": [
+    "Stop obsessing over reducing clicks; focus on reducing cognitive load and increasing comprehension.",
+    "Taste is a competitive advantage derived from empathy—noticing what others ignore.",
+    "Beware of 'Hyper-realistic work-like activities' where teams simulate work without creating value.",
+    "Use Utility Curves to determine if a feature has reached the threshold of actual value.",
+    "Product marketing must sell the innovation (the riding), not just the tool (the saddle)."
+  ],
+  "methodologies": [
+    {
+      "name": "Friction vs. Comprehension Matrix",
+      "name_zh": "阻力与理解力平衡框架",
+      "category": "product-strategy",
+      "problemItSolves": "Teams often blindly optimize for 'zero friction' (fewer clicks), resulting in confusing products that users don't understand how to use.",
+      "problemItSolves_zh": "团队常盲目追求“零阻力”（减少点击次数），导致产品令人困惑，用户不知道如何使用。",
+      "summary": "Instead of viewing friction as the enemy, view 'thinking' as the enemy. Sometimes adding steps (friction) increases comprehension, which is more valuable than speed. If a user has low intent and low comprehension, you must guide them, even if it takes more clicks.",
+      "summary_zh": "不要视“阻力”为大敌，真正的敌人是“认知负荷”。有时增加步骤（阻力）能提升理解力，这比单纯的速度更有价值。当用户意图和理解力都较低时，必须引导他们，即使这意味着更多的点击。",
+      "principles": [
+        "Minimize cognitive load (ATP/Glucose usage), not just clicks.",
+        "Prioritize 'Comprehension' over 'Speed' when user intent is low.",
+        "Avoid making the user feel stupid by asking them to make decisions they don't understand."
+      ],
+      "principles_zh": [
+        "最小化认知负荷（大脑能量消耗），而不仅仅是减少点击。",
+        "当用户意图（Intent）较低时，优先考虑“理解力”而非“速度”。",
+        "避免让用户做他们无法理解的决策，这会让他们感到自己很愚蠢。"
+      ],
+      "whenToUse": "Designing onboarding flows, complex settings (like Do Not Disturb), or introducing new mental models.",
+      "whenToUse_zh": "设计新用户引导（Onboarding）、复杂设置（如勿扰模式）或引入新心智模型时。",
+      "commonMistakes": "Removing necessary explanatory steps to hit a 'number of clicks' KPI.",
+      "commonMistakes_zh": "为了达成“减少点击数”的KPI，删除了必要的解释性步骤。",
+      "quote": "If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid.",
+      "realWorldExample": "Slack's 'Do Not Disturb' rollout: Instead of a simple toggle, they created a complex hierarchy of defaults and overrides to ensure admins and users understood the impact, preventing organizational conflict.",
+      "realWorldExample_zh": "Slack 的“勿扰模式”发布：他们没有做一个简单的开关，而是建立了一套包含默认设置和覆盖权限的复杂层级，确保管理员和用户理解其影响，从而避免了组织内部的冲突。"
+    },
+    {
+      "name": "The Owner's Delusion",
+      "name_zh": "拥有者错觉 (Owner's Delusion)",
+      "category": "user-research",
+      "problemItSolves": "Products often reflect the ego or internal structure of the company rather than the immediate needs of the user.",
+      "problemItSolves_zh": "产品往往反映了公司的自我意识或内部结构，而非用户的即时需求。",
+      "summary": "This framework forces product builders to recognize the gap between what they want to present (brand, mood, vanity) and what the user frantically needs (utility). It requires an intentional 'reset' to view the product through the eyes of a busy, stressed human.",
+      "summary_zh": "该框架迫使产品构建者认识到“你想展示的内容”（品牌、情怀、虚荣指标）与“用户迫切需求”（效用）之间的差距。它要求构建者刻意“重置”视角，用一个忙碌、焦虑的普通人的眼光审视产品。",
+      "principles": [
+        "Acknowledge that users are rarely 100% focused or high-intent.",
+        "Identify vanity elements that serve the 'owner' but block the 'user'.",
+        "Conduct the 'Human Reset': Close eyes, breathe, pretend to be a busy user, then look at the screen."
+      ],
+      "principles_zh": [
+        "承认用户很少是100%专注或具有极高意图的。",
+        "识别那些服务于“拥有者”但阻碍“用户”的虚荣元素。",
+        "执行“人类重置”：闭眼、深呼吸、假装自己是一个忙碌的用户，然后重新审视屏幕。"
+      ],
+      "whenToUse": "During design reviews, homepage redesigns, or when conversion rates are inexplicably low.",
+      "whenToUse_zh": "在设计评审、主页改版或转化率莫名偏低时使用。",
+      "commonMistakes": "Assuming the user cares about your 'brand story' before they have solved their immediate problem.",
+      "commonMistakes_zh": "假设用户在解决当前问题之前，会关心你的“品牌故事”。",
+      "quote": "They're not subjects who paid money to go to your play... They're people who are going to bounce in a fraction of a second.",
+      "realWorldExample": "Restaurant websites that play music and show slow-loading photos (Owner's Delusion) instead of immediately showing the address, hours, and phone number (User Need).",
+      "realWorldExample_zh": "餐厅网站播放音乐并展示加载缓慢的精美照片（拥有者错觉），而不是立即展示地址、营业时间和电话号码（用户需求）。"
+    },
+    {
+      "name": "Hyper-Realistic Work-Like Activities",
+      "name_zh": "超逼真“类工作”活动陷阱",
+      "category": "execution",
+      "problemItSolves": "Organizational bloat and Parkinson's Law lead to teams doing things that look like work but create no value.",
+      "problemItSolves_zh": "组织臃肿和帕金森定律导致团队在做看起来像工作的事情，但实际上并未创造价值。",
+      "summary": "As companies grow, the supply of 'known valuable work' shrinks relative to the number of employees. Employees, wanting to be useful, invent work (meetings, decks, complex analyses of tiny features). Leaders must actively manage the supply of valuable work.",
+      "summary_zh": "随着公司规模扩大，“已知高价值工作”的供给相对于员工数量会萎缩。员工为了证明价值，会通过发明工作（会议、PPT、对微小特性的复杂分析）来填充时间。领导者必须主动管理高价值工作的供给。",
+      "principles": [
+        "Recognize that work expands to fill available time (Parkinson's Law).",
+        "Distinguish between 'activity' (meetings, docs) and 'value creation'.",
+        "Leaders must ensure a sufficient supply of 'Known Valuable Work' or cut scope/team size."
+      ],
+      "principles_zh": [
+        "认识到工作会自动膨胀以填满可用时间（帕金森定律）。",
+        "区分“活动”（会议、文档）和“价值创造”。",
+        "领导者必须确保有充足的“已知高价值工作”供给，否则应缩减范围或团队规模。"
+      ],
+      "whenToUse": "During headcount planning, or when you notice teams obsessing over minor optimizations with huge resources.",
+      "whenToUse_zh": "在制定招聘计划（Headcount Planning）时，或当你发现团队投入巨大资源去纠结微不足道的优化时。",
+      "commonMistakes": "Blaming employees for being 'lazy' or 'stupid' instead of realizing the system (lack of clear valuable work) is the problem.",
+      "commonMistakes_zh": "责怪员工“懒惰”或“愚蠢”，而没意识到问题出在系统（缺乏明确的高价值工作）上。",
+      "quote": "That hyper-realistic work-like activity is superficially identical to work... but this is actually a fake bit of work.",
+      "realWorldExample": "A Slack team spent thousands of hours analyzing a feature regression (thread auto-fill) that had a statistically insignificant impact, just because the machinery of the org existed to do it.",
+      "realWorldExample_zh": "Slack 的一个团队花费数千小时分析一个功能回退（Thread自动填充），尽管其统计影响微乎其微，仅仅是因为组织现有的机制还在运转，大家必须找事做。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you can't see almost limitless opportunities to improve, then you shouldn't be designing the product.",
+      "context": "On the mindset of continuous improvement and 'divine discontent'."
+    },
+    {
+      "text": "In the long run, the measure of our success will be the amount of value that we create for customers.",
+      "context": "The mantra Stewart made Slack employees chant to align ethics with business success."
+    },
+    {
+      "text": "Your failure to be considerate... is an advantage that I can create.",
+      "context": "Explaining how 'Taste' and empathy (like moving your umbrella on a rainy street) create a competitive moat."
+    },
+    {
+      "text": "The decision is about have you exhausted the possibilities? ... You have to be coldly rational about it because it's fucking humiliating.",
+      "context": "On how to decide when to pivot a company."
+    }
+  ],
+  "filename": "Stewart Butterfield"
+}

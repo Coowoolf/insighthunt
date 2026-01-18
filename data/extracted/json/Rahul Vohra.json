@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Rahul Vohra",
+    "title": "Founder & CEO",
+    "company": "Superhuman",
+    "background": "Rahul Vohra is the founder and CEO of Superhuman, the fastest email experience in the world. Previously, he founded Rapportive, which was acquired by LinkedIn. He is also a former game designer and a prominent angel investor known for his frameworks on product-market fit and game design.",
+    "background_zh": "Rahul Vohra 是 Superhuman（全球最快的邮件客户端）的创始人兼 CEO。在此之前，他创立了 Rapportive 并被 LinkedIn 收购。他曾是一名专业游戏设计师，也是知名的天使投资人，以其独特的 PMF（产品市场匹配）引擎和游戏化设计理念而闻名。"
+  },
+  "episodeSummary": "In this masterclass on product strategy, Rahul Vohra deconstructs how Superhuman built a cult-like following through counter-intuitive approaches. He details the 'Product Market Fit Engine,' explains why gamification often fails while game design succeeds, and shares operational frameworks for pricing, time management, and decision-making.",
+  "episodeSummary_zh": "在本期产品战略大师课中，Rahul Vohra 深度拆解了 Superhuman 如何通过反直觉的方法建立了狂热的用户群体。他详细介绍了“PMF 引擎”，解释了为何简单的“游戏化”常导致失败而真正的“游戏设计”却能成功，并分享了关于定价策略、时间管理和决策制定的运营框架。",
+  "filename": "Rahul Vohra"
+}

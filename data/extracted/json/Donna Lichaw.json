@@ -3,7 +3,8 @@
     "name": "Donna Lichaw",
     "title": "Executive Coach and Author",
     "company": "Donna Lichaw Coaching",
-    "background": "Former product manager and designer turned executive coach who helps founders and CEOs scale their leadership. She is the author of 'The User's Journey' and 'The Leader's Journey', known for applying product thinking and storytelling frameworks to leadership development."
+    "background": "Former product manager and designer turned executive coach who helps founders and CEOs scale their leadership. She is the author of 'The User's Journey' and 'The Leader's Journey', known for applying product thinking and storytelling frameworks to leadership development.",
+    "background_zh": "曾任产品经理与设计师，现转型为高管教练，致力于协助创始人及 CEO 实现领导力跃迁。著有《用户旅程》（The User's Journey）与《领导者旅程》（The Leader's Journey），因擅长将产品思维与叙事框架应用于领导力发展而闻名。"
   },
   "episodeSummary": "Donna Lichaw explores the intersection of product management and leadership development, introducing the concept of 'Story-Driven Leadership'. She explains how the narratives leaders tell themselves act as operating systems that dictate success or failure. The conversation covers tactical frameworks for identifying personal 'superpowers' and 'kryptonite', reframing imposter syndrome through a functional lens, and applying product discovery techniques to personal growth.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When you feel stuck in a specific behavioral pattern or receive vague feedback like 'be more strategic' or 'speak up more'.",
       "commonMistakes": "Assuming your internal insecurity matches external reality without collecting data.",
       "quote": "The most effective stories are the ones that we tell ourselves. They may or may not be true; our brain doesn't know the difference.",
-      "realWorldExample": "A CEO believed he was 'too nice' and 'not taken seriously.' Research revealed his team loved his kindness but felt frustrated when he didn't delegate vision, leading to a shift in how he engaged rather than a personality overhaul."
+      "realWorldExample": "A CEO believed he was 'too nice' and 'not taken seriously.' Research revealed his team loved his kindness but felt frustrated when he didn't delegate vision, leading to a shift in how he engaged rather than a personality overhaul.",
+      "summary_zh": "该框架将自我认知视为一种“假设”，必须通过针对同事的“用户调研”加以验证。它用数据驱动的客观现实取代主观臆断，以此调整领导力行为。",
+      "problemItSolves_zh": "管理者常深陷于错误的内在叙事（例如“我太好说话了”或“没人听我的”），这不仅限制了其领导效能，更会形成“自证预言”。",
+      "whenToUse_zh": "当你陷入某种行为定势，或收到诸如“需提升战略高度”、“要多主动发声”这类笼统的反馈时。",
+      "commonMistakes_zh": "在缺乏数据验证的情况下，将内心的不安全感等同于客观现实。",
+      "realWorldExample_zh": "一位 CEO 曾认为自己因“过于温和”而导致“缺乏威信”。然而调研发现，团队其实非常认可他的亲和力，真正的痛点在于他未能在愿景层面进行有效授权。这一发现促使他转变了管理介入的方式，而非盲目进行性格重塑。",
+      "principles_zh": [
+        "**明确内心叙事**：显性化地记录下那些反复出现并阻碍你的自我暗示（例如：“我不够有威信”）。",
+        "**开展用户调研**：访谈平级同事和直属下属以验证上述叙事，询问他们对你领导力的真实感知。",
+        "**分析认知偏差**：对比内心叙事与外部反馈数据（通常，自认为的“过于和善”会被视为“充满关怀但需加强放权”）。",
+        "**共创新结局**：若确实存在差距，询问团队的真实需求（例如：“我们不需要你更强势，而是需要确认你正在倾听”）。"
+      ],
+      "name_zh": "The Narrative Validation Audit（叙事验证审计）"
     },
     {
       "name": "The Superpower Extraction Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "During career transitions, when feeling burnt out by a role, or when writing a personal operating manual.",
       "commonMistakes": "Confusing a job skill (e.g., 'strategy') with a fundamental superpower (e.g., 'spatial thinking' or 'connecting dots').",
       "quote": "Pull your superpowers out of your stories from your past, your present, and then eventually figure out how to apply them and transpose them to your future.",
-      "realWorldExample": "An executive labeled 'detail-oriented' realized through this process that her actual superpower was 'connecting' (people, ideas, trends), allowing her to delegate the weeds and focus on strategy."
+      "realWorldExample": "An executive labeled 'detail-oriented' realized through this process that her actual superpower was 'connecting' (people, ideas, trends), allowing her to delegate the weeds and focus on strategy.",
+      "summary_zh": "一种通过复盘时间轴上的高光时刻来识别内在优势的传记式分析法，而非依赖做选择题式的性格测试。",
+      "problemItSolves_zh": "专业人士往往过度聚焦于弥补短板，或是盲目套用那些与自身天赋优势不匹配的通用领导风格。",
+      "whenToUse_zh": "处于职业转型期、陷入职业倦怠，或撰写「个人说明书」时。",
+      "commonMistakes_zh": "混淆了“职业技能”（如：战略能力）与底层的“核心超能力”（如：空间思维或建立关联的能力）。",
+      "realWorldExample_zh": "一位曾被贴上“注重细节”标签的高管，通过该流程发现她真正的超能力其实是“连接”（串联人才、观点与趋势）。这一洞察让她得以将细枝末节的工作下放，从而全心聚焦于战略。",
+      "principles_zh": [
+        "**锁定三个关键数据点**：分别回顾一段童年时期、职业生涯早期以及近期的“高光时刻”。",
+        "**定义“高光”**：甄选那些让你感到被“点燃”、充满能量且游刃有余的瞬间（注意：这不仅仅是指单纯的快乐）。",
+        "**模式识别**：将这些经历叠加分析，提炼贯穿其中的能力内核（例如：“人际链接” vs. “极致细节”）。",
+        "**能力迁移**：将这一已验证的核心优势映射到当下的挑战中。自问：“我该如何利用我的 [超能力] 来破局？”"
+      ],
+      "name_zh": "The Superpower Extraction Protocol（超能力萃取协议）"
     },
     {
       "name": "The Head-Heart-Hands Experiment",
@@ -63,7 +88,20 @@
       "whenToUse": "When trying to change a habit like interrupting others, micromanaging, or public speaking anxiety.",
       "commonMistakes": "Ignoring the somatic (body) response, which often indicates the true level of comfort or resistance.",
       "quote": "Life is like product thinking... You run it through three filters: head, heart, hands.",
-      "realWorldExample": "A loud executive who needed to listen more tried listening for just 30 seconds in a session. Her face turned red ('Hands' filter), revealing that silence felt physically unsafe, which was the root cause to address."
+      "realWorldExample": "A loud executive who needed to listen more tried listening for just 30 seconds in a session. Her face turned red ('Hands' filter), revealing that silence felt physically unsafe, which was the root cause to address.",
+      "summary_zh": "一套源自格式塔疗法的微实验框架，通过三种独特的感官过滤器，对新行为进行实时测试。",
+      "problemItSolves_zh": "在尝试高难度行为改变或全新工作模式时陷入的行动瘫痪。",
+      "whenToUse_zh": "当试图改变打断他人、微观管理或公开演讲焦虑等习惯时。",
+      "commonMistakes_zh": "忽视身体的生理反应，而这些反应往往最能揭示真实的舒适度或抗拒感。",
+      "realWorldExample_zh": "一位平时声量很大、亟需学会倾听的高管，在一次会话中尝试仅仅倾听 30 秒。她的脸顿时涨得通红（对应“Hands”维度），这暴露出沉默让她在生理上感到不安全，而这正是需要解决的根因。",
+      "principles_zh": [
+        "定义微实验：选定一个颗粒度极小、即时可执行的动作（例如：“专注倾听 30 秒，期间不构思如何回应”）。",
+        "现场演练：在低风险环境（如与教练或同行练习）中立即执行该动作，而非等到高压会议场景才去尝试。",
+        "复盘大脑（认知层）：涌现了哪些念头？（例如：“这很无聊”、“我必须马上发言”）。",
+        "复盘内心（情绪层）：浮现了哪些情绪？（例如：恐惧、释然、焦虑）。",
+        "复盘肢体（躯体层）：产生了什么生理反应？（例如：肩膀紧绷、脸部发烫、手部无意识的小动作）。"
+      ],
+      "name_zh": "The Head-Heart-Hands Experiment（脑·心·手实验）"
     }
   ],
   "notableQuotes": [
@@ -84,5 +122,6 @@
       "context": "Advocating for auditing activities based on whether they drain or fill your energy reserves."
     }
   ],
-  "filename": "Donna Lichaw"
+  "filename": "Donna Lichaw",
+  "episodeSummary_zh": "Donna Lichaw 深入探讨了产品管理与领导力发展的融合领域，提出了“故事驱动型领导力”（Story-Driven Leadership）这一概念。她剖析了领导者的内在叙事如何如同底层操作系统一般，直接主导着成败。本期内容还包含了一系列实战框架：如何识别个人的“超能力”与“致命弱点”；如何从功能性视角重构对“冒充者综合症”的认知；以及如何将产品探索（Product Discovery）方法论复用于个人成长。"
 }

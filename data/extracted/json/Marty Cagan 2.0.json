@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Marty Cagan",
+    "title": "Partner at Silicon Valley Product Group (SVPG)",
+    "company": "Silicon Valley Product Group",
+    "background": "Marty Cagan is a legendary thought leader in product management, having worked with companies like eBay, Netscape, and HP. He is the author of the seminal books INSPIRED, EMPOWERED, and the newly released TRANSFORMED, which define the standards for modern product teams.",
+    "background_zh": "Marty Cagan 是产品管理领域的传奇思想领袖，曾服务于 eBay、Netscape 和 HP 等科技巨头。他是《启示录》（INSPIRED）、《赋能》（EMPOWERED）以及新书《转型》（TRANSFORMED）的作者，这些著作定义了现代高效产品团队的行业标准。"
+  },
+  "episodeSummary": "Marty Cagan discusses the widespread issue of 'Product Management Theater,' where companies hire PMs but trap them in feature factories focusing on output rather than outcomes. He details the principles of the 'Product Operating Model' from his new book, explains why most PM advice online is flawed, and outlines how to transition from a project manager mindset to a true product manager focused on value and viability.",
+  "episodeSummary_zh": "Marty Cagan 探讨了普遍存在的“产品管理剧场”现象，即公司虽然招聘了产品经理，却将其困在只重产出不重成果的“功能工厂”中。他详细解读了新书中的“产品运营模式（Product Operating Model）”原则，解释了为何网络上大多数产品建议存在误导，并指出了如何从项目管理思维转变为真正关注价值与商业可行性的产品经理。",
+  "filename": "Marty Cagan 2.0"
+}

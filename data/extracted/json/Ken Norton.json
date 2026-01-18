@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Ken Norton",
+    "title": "Executive Coach for Product Leaders & Former Google Product Partner",
+    "company": "Ken Norton Coaching / Ex-Google Ventures",
+    "background": "A 14-year Google veteran who led product teams for Google Docs, Calendar, and Maps. He was a partner at Google Ventures (GV) advising startups and is now a full-time executive coach specializing in helping senior product leaders navigate their careers.",
+    "background_zh": "Google 14年资深老兵，曾领导 Google Docs、Calendar 和 Maps 等核心产品团队。他曾任 Google Ventures (GV) 合伙人指导初创公司，现转型为全职高管教练，专注于帮助资深产品领导者规划职业生涯与突破瓶颈。"
+  },
+  "episodeSummary": "Ken Norton discusses the critical transition from individual contributor to product leader, emphasizing the shift from 'reactive' to 'creative' mindsets. He explores frameworks for overcoming imposter syndrome, the importance of '10x thinking' in innovation, and how to hire for the intangible 'art' of product management rather than just the science.",
+  "episodeSummary_zh": "Ken Norton 探讨了从独立贡献者向产品领导者转型的关键，强调了从“反应型”向“创造型”思维模式的转变。他分享了克服冒名顶替综合症（Imposter Syndrome）的框架、创新中“10倍速思维”的重要性，以及在招聘时如何评估产品管理中不可见的“艺术”层面能力。",
+  "keyTakeaways": [
+    "Product management requires leadership without authority from day one.",
+    "The transition to leadership requires upgrading your 'internal operating system' to handle increased complexity.",
+    "Reactive leadership focuses on fear and problem-solving; Creative leadership focuses on purpose and possibility.",
+    "Hiring PMs should focus on the 'intangibles' and cultural fit, not just technical frameworks.",
+    "True innovation requires a portfolio approach that balances safe bets with '10x' moonshots.",
+    "Imposter syndrome is common but can be managed by treating the inner critic as a specific 'board member' rather than the CEO."
+  ],
+  "methodologies": [
+    {
+      "name": "The Reactive vs. Creative Leadership Model",
+      "name_zh": "反应型 vs. 创造型领导力模型",
+      "category": "career-leadership",
+      "problemItSolves": "Helps leaders who feel stuck, burned out, or realize that the skills that got them promoted (execution) are not the skills needed to lead (vision/people).",
+      "problemItSolves_zh": "帮助那些感到停滞、倦怠，或发现之前的执行力技能无法支撑当前领导力职位（愿景/人才管理）的产品管理者。",
+      "summary": "Based on research by Bob Anderson and Bill Adams, this framework distinguishes between operating from a place of fear/defense (Reactive) versus operating from passion/purpose (Creative). Growth requires 'rebooting the internal operating system' to move from seeking external validation to internal definition.",
+      "summary_zh": "基于 Bob Anderson 和 Bill Adams 的研究，该框架区分了基于恐惧/防御的“反应型”模式与基于激情/使命的“创造型”模式。成长的关键在于“重启内在操作系统”，从寻求外部认可转向内在自我定义。",
+      "principles": [
+        "Identify your Reactive Posture: Recognize if you are Complying (people-pleasing), Protecting (intellectual arrogance), or Controlling (autocratic).",
+        "Shift the Source of Validation: Move from 'I need to be liked/right/in control' to 'I am driven by purpose and vision'.",
+        "Upgrade Self-Complexity: Acknowledge that simple rules no longer apply; develop the emotional capacity to hold conflicting truths and navigate ambiguity."
+      ],
+      "principles_zh": [
+        "识别反应型姿态：觉察自己是否处于迎合（取悦他人）、防御（智力傲慢）或控制（独断专行）的状态。",
+        "转变验证来源：从“我需要被喜欢/我是对的/我需要掌控”转向“我被使命和愿景驱动”。",
+        "提升自我复杂性：承认简单的规则已不再适用，培养容纳冲突真理和驾驭模糊性的情感能力。"
+      ],
+      "whenToUse": "When transitioning into a senior leadership role (Director/VP/CPO) or feeling that your current management style is causing anxiety/burnout.",
+      "whenToUse_zh": "当晋升为高级管理职位（总监/VP/CPO），或感觉目前的管理风格导致焦虑和职业倦怠时。",
+      "commonMistakes": "Thinking you can just 'learn a new skill' to fix leadership issues, rather than doing the deep internal psychological work required.",
+      "commonMistakes_zh": "认为可以通过简单学习“新技能”来解决领导力问题，而忽略了必须进行的深层内在心理建设。",
+      "quote": "What got me here is not going to get me there... the internal meaning-making and self-complexity required requires a complete reboot of the internal operating system.",
+      "realWorldExample": "Ken realized his 'people-pleasing' nature (Complying) was holding him back from being decisive. Instead of becoming a jerk (Controlling), he redefined leadership as earning long-term respect rather than immediate likeability.",
+      "realWorldExample_zh": "Ken 意识到他“取悦他人”的天性（迎合型）阻碍了他的果断决策。他没有选择变成一个混蛋（控制型），而是重新定义了领导力：赢得长期的尊重，而非当下的喜欢。"
+    },
+    {
+      "name": "The 10x vs. 10% Innovation Framework",
+      "name_zh": "10倍速 vs. 10% 创新思维框架",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from getting stuck in 'small ball' optimization loops where they only make incremental improvements and miss market disruptions.",
+      "problemItSolves_zh": "防止团队陷入“小打小闹”的优化循环，即只做渐进式改进而错失市场颠覆性机会。",
+      "summary": "A strategic approach where leaders explicitly allocate resources and cultural permission to pursue high-risk, high-reward 'moonshots' (10x) alongside incremental improvements (10%). It requires accepting failure as a likely outcome for the sake of massive breakthroughs.",
+      "summary_zh": "一种战略方法，领导者明确分配资源和文化许可，在进行渐进式改进（10%）的同时，追求高风险、高回报的“登月项目”（10倍速）。这要求接受失败是大概率事件，以此换取巨大的突破。",
+      "principles": [
+        "Portfolio Allocation: Use a structure like Google's 70-20-10 (70% core, 20% adjacent, 10% moonshots) or allocate specific sprint time for exploration.",
+        "Cultural Safety for Failure: Leaders must create an environment where failing at a bold idea is not punished, but seen as necessary R&D.",
+        "Fractal Application: Apply this not just at the company level, but at the individual team level (e.g., one engineer exploring a crazy idea per sprint)."
+      ],
+      "principles_zh": [
+        "投资组合分配：采用类似 Google 的 70-20-10 法则（70%核心业务，20%邻近业务，10%登月项目），或在 Sprint 中分配专门的探索时间。",
+        "包容失败的文化安全感：领导者必须创造一种环境，让大胆想法的失败不被惩罚，而是被视为必要的研发成本。",
+        "分形应用：不仅在公司层面，也要在团队层面应用此法则（例如，每个 Sprint 让一名工程师探索一个疯狂的想法）。"
+      ],
+      "whenToUse": "When setting quarterly/annual strategy or when a product has reached a plateau of diminishing returns.",
+      "whenToUse_zh": "在制定季度/年度战略时，或当产品进入收益递减的瓶颈期时。",
+      "commonMistakes": "Thinking big ideas are just 'more work' rather than 'different work,' or killing 10x ideas early because they don't show immediate ROI.",
+      "commonMistakes_zh": "认为大想法只是“更多的工作”而不是“不同的工作”，或者因为看不到短期 ROI 而过早扼杀 10倍速的创意。",
+      "quote": "If you play small ball where you're going to get a bunch of 10% improvements... you miss the massive breakthrough. Kodak invented the digital camera... but didn't create the environment for it to thrive.",
+      "realWorldExample": "Google's 70-20-10 rule allowed for products like Gmail or Google Maps to emerge from side projects/bets that weren't the core search business initially.",
+      "realWorldExample_zh": "Google 的 70-20-10 法则促成了 Gmail 或 Google Maps 等产品的诞生，这些最初只是边缘项目或赌注，而非核心搜索业务。"
+    },
+    {
+      "name": "Internal Board of Directors (Parts Work)",
+      "name_zh": "“内在董事会”自我教练法",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs manage Imposter Syndrome and the paralyzing Inner Critic that prevents them from taking risks or speaking up.",
+      "problemItSolves_zh": "帮助产品经理管理“冒名顶替综合症”以及那个阻碍冒险或发声的、令人瘫痪的“内在批评者”。",
+      "summary": "Derived from Internal Family Systems (IFS), this technique involves personifying inner voices (e.g., the critic). Instead of fighting them, you acknowledge them as 'board members' but ensure your true Self remains the Chairperson/CEO.",
+      "summary_zh": "源自“内在家庭系统疗法”（IFS），该技巧涉及将内在声音（如批评者）拟人化。不要与它们对抗，而是承认它们是“董事会成员”，但确保你真实的自我（Self）仍然是董事长/CEO。",
+      "principles": [
+        "Name the Persona: Give your inner critic a silly or specific name (e.g., 'Larry Loser') to create distance (self-distancing).",
+        "Reassign the Role: Acknowledge the critic's intent is usually protection, but respectfully ask them to 'step aside' or take a different seat on the board.",
+        "Chairperson Control: Consciously place your authentic self in the decision-making seat, listening to inputs but making the final call."
+      ],
+      "principles_zh": [
+        "给角色命名：给你内在的批评者起一个滑稽或具体的名字（如“失败者拉里”），以此创造心理距离（自我抽离）。",
+        "重新分配角色：承认批评者的初衷通常是保护你，但尊重要求它们“靠边站”或坐到董事会的其他位置。",
+        "董事长掌控权：有意识地将真实的自我置于决策席位，听取意见但做出最终决定。"
+      ],
+      "whenToUse": "Before high-stakes presentations, performance reviews, or when stepping into a new, unfamiliar role.",
+      "whenToUse_zh": "在进行高风险演示、绩效评估之前，或进入一个新的、不熟悉的角色时。",
+      "commonMistakes": "Trying to completely silence or kill the inner voice, which often makes it louder/more aggressive.",
+      "commonMistakes_zh": "试图完全压制或消灭内在声音，这通常会让它变得更响亮或更具攻击性。",
+      "quote": "I'm going to put myself, the real me, the real self into the chairperson's seat. When I hear these voices... I'm going to ask Larry to step aside.",
+      "realWorldExample": "Ken uses the persona 'Larry Loser' to identify his inner judge. When Larry speaks up, Ken recognizes it's just fear of the new, not objective reality.",
+      "realWorldExample_zh": "Ken 使用“失败者拉里”这个角色来识别他的内在评判者。当“拉里”发声时，Ken 意识到这只是对新事物的恐惧，而非客观事实。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Part of what I think is pretty exciting about product management is you are a leader from day one... You don't have any formal authority, but you're a leader. You're expected to lead.",
+      "context": "Ken discussing why PM is the best training ground for executive leadership."
+    },
+    {
+      "text": "Advice is not as powerful as you might think it is. It's a little bit like cotton candy. Doesn't have a lot of nutrition. You get a nice sugar high... but then nothing's really changed.",
+      "context": "Ken explaining why he switched from mentorship/advising to coaching."
+    },
+    {
+      "text": "The art is communication, collaboration, the more fuzzy, softer skills... You should invest in that the same way you invest in those other skills.",
+      "context": "On the importance of 'soft skills' vs. technical frameworks."
+    }
+  ],
+  "filename": "Ken Norton"
+}

@@ -1,0 +1,121 @@
+{
+  "guest": {
+    "name": "Vikrama Dhiman",
+    "title": "Head of Product",
+    "company": "Gojek",
+    "background": "Vikrama leads product management, design, and research at Gojek, overseeing teams across India, Singapore, and Indonesia. He is widely recognized as one of the most influential product leaders in Asia, known for building strong talent pipelines and effective product organizations.",
+    "background_zh": "Vikrama 是 Gojek 的产品负责人，统管印度、新加坡和印尼的产品管理、设计及用户研究团队。作为亚洲备受推崇的产品领袖，他以构建高绩效产品组织和卓越的人才培养体系而闻名。"
+  },
+  "episodeSummary": "In this episode, Vikrama Dhiman breaks down his \"3 W's\" framework for product manager career growth, emphasizing the balance between execution (output) and influence (operating model). He discusses the specific skills required to transition into product management, how to audit one's own career stagnation, and the art of managing stakeholders without being difficult.",
+  "episodeSummary_zh": "本期节目中，Vikrama Dhiman 详细拆解了他为产品经理职业成长创立的“3 W”框架，强调了执行力（产出）与影响力（运作模式）之间的平衡。他探讨了转型做产品所需的具体技能、如何自查职业瓶颈，以及如何在不在此过程中成为“刺头”的前提下有效管理利益相关者。",
+  "keyTakeaways": [
+    "Early career PMs should obsess over 'Output' (execution) rather than Strategy; earn the right to strategize by delivering reliably.",
+    "The '3 W's' of career growth are: What you produce, What you bring to the table, and What's your operating model.",
+    "Product artifacts (PRDs, memos) are your resume; their quality demonstrates your depth in data, design, and tech.",
+    "Effective collaboration means raising difficult issues without being a difficult person to work with.",
+    "When transitioning to PM, focus on mastering two out of three hard skills first: Data, Tech, or Design/Research.",
+    "Career stagnation often comes from telling yourself limiting stories (e.g., 'I am high agency' as an excuse for being rude).",
+    "Benchmark your skills against the best in the industry, not just the best in your current team, to maintain a high rate of learning."
+  ],
+  "methodologies": [
+    {
+      "name": "The 3 W's Career Growth Framework",
+      "name_zh": "PM职业成长“3W”框架",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs identify why their career is stalling and clarifies expectations at different seniority levels.",
+      "problemItSolves_zh": "帮助产品经理识别职业发展停滞的原因，并明确不同职级的能力预期。",
+      "summary": "A diagnostic tool evaluating a PM's value based on tangible output, the intellectual depth they add to that output, and how they interact with the organization.",
+      "summary_zh": "一套评估PM价值的诊断工具，基于有形的产出、赋予产出的思维深度，以及与组织互动的运作模式。",
+      "principles": [
+        "What You Produce (Output): Focus on tangible deliverables (shipping features, running experiments). Essential for early career.",
+        "What You Bring to the Table (Impact on Impact): The quality of your artifacts (PRDs, Strategy Docs). Demonstrates depth in Data, Tech, Design, and Strategy.",
+        "What's Your Operating Model: Communication and collaboration. How you influence stakeholders and organize the community."
+      ],
+      "principles_zh": [
+        "产出什么 (Output)：专注于有形的交付物（如发布功能、运行实验）。这是早期职业生涯的基石。",
+        "带来什么 (Impact on Impact)：交付物（PRD、战略文档）的质量与深度。体现数据、技术、设计和战略层面的思考。",
+        "运作模式 (Operating Model)：沟通与协作机制。如何影响利益相关者并组织团队共同进退。"
+      ],
+      "whenToUse": "During performance reviews, self-reflection when seeking promotion, or when mentoring junior PMs.",
+      "whenToUse_zh": "适用于绩效评估、寻求晋升时的自我反思，或指导初级产品经理时。",
+      "commonMistakes": "Focusing too much on 'Strategy' (Outcome) too early while neglecting basic 'Output' (Execution), or ignoring the 'Operating Model' as one becomes senior.",
+      "commonMistakes_zh": "过早沉迷于“战略”（结果）而忽视基础的“产出”（执行），或者在资深阶段忽视了“运作模式”的重要性。",
+      "quote": "The mistake I see a lot of product managers make is they start operating in either output or outcomes... You always, always have to have the output and outcome even when you're moving up.",
+      "realWorldExample": "A PM might lead a high-impact product area but fail to get promoted because their PRDs are shallow (low 'What you bring') or they are difficult to work with (poor 'Operating Model').",
+      "realWorldExample_zh": "某PM可能负责一个高影响力的产品领域但未能晋升，因为其PRD缺乏深度（“带来什么”不足）或难以共事（“运作模式”糟糕）。"
+    },
+    {
+      "name": "The Stakeholder Collaboration Triad",
+      "name_zh": "利益相关者协作三原则",
+      "category": "team-culture",
+      "problemItSolves": "Enables PMs to manage friction and push back on bad ideas without damaging relationships or reputation.",
+      "problemItSolves_zh": "让产品经理能够在不损害关系或声誉的情况下，处理摩擦并反驳糟糕的想法。",
+      "summary": "Three mantras to guide behavioral interactions with stakeholders, ensuring the PM is viewed as a leader rather than a blocker.",
+      "summary_zh": "指导与利益相关者互动的三个行为准则，确保PM被视为领导者而非阻碍者。",
+      "principles": [
+        "Raise difficult issues without being difficult to work with (Move from emotional to logical arguments).",
+        "Bring out important topics without drawing importance to yourself (Focus on the product/user, not the ego).",
+        "Ensure decisions are made without making all the decisions yourself (Facilitation over dictatorship).",
+        "Be the 'Community Enabler': Connect different functions toward a common mission."
+      ],
+      "principles_zh": [
+        "提出棘手问题，但不做棘手的人（将对话从情绪层面拉回逻辑层面）。",
+        "聚焦重要议题，而非强调个人地位（关注产品/用户，而非自我）。",
+        "推动决策落地，而非独揽决策大权（重在引导而非独裁）。",
+        "做“社区赋能者”：将不同职能部门连接起来，朝着共同使命迈进。"
+      ],
+      "whenToUse": "When facing pressure from leadership to build low-value features, or when navigating cross-functional conflict.",
+      "whenToUse_zh": "当面临领导层要求开发低价值功能的压力时，或在处理跨职能冲突时。",
+      "commonMistakes": "Being 'High Agency' to the point of being rude, or being so 'Collaborative' that decision-making stalls.",
+      "commonMistakes_zh": "为了表现“高能动性”而变得粗鲁，或者为了“高协作性”导致决策停滞。",
+      "quote": "Raise difficult issues without being difficult to work with. Bring out important topics without drawing importance to yourself.",
+      "realWorldExample": "A PM successfully pushing back on a roadmap change by bringing the conversation down from an emotional 'war cry' to a logical assessment of trade-offs.",
+      "realWorldExample_zh": "某PM通过将对话从情绪化的“战斗口号”拉回到对权衡取舍的逻辑评估，成功反驳了路线图的变更。"
+    },
+    {
+      "name": "The 8-Axis Skills & Leverage Strategy",
+      "name_zh": "8维能力矩阵与杠杆策略",
+      "category": "growth-metrics",
+      "problemItSolves": "Guides non-PMs (e.g., from CS, Design, Eng) on how to transition into Product, and helps existing PMs identify skill gaps.",
+      "problemItSolves_zh": "指导非产品人员（如客服、设计、研发）如何转型做产品，并帮助现有PM识别技能短板。",
+      "summary": "Evaluates PMs on 8 axes. For growth/transition, PMs should pick 1-2 'hard' axes to master first based on their background before tackling Strategy.",
+      "summary_zh": "在8个维度上评估PM。对于成长或转型，PM应根据自身背景优先掌握1-2个“硬技能”维度，然后再进阶到战略层面。",
+      "principles": [
+        "The 8 Axes: Data, Design/Research, Technology, Strategy, Communication, Collaboration, Organizational Skills, Community.",
+        "Transition Leverage: If coming from Tech/Data, focus on Design/Research. If from Design, focus on Data/Tech.",
+        "Focus Strategy: Don't try to improve all axes at once. Pick the one that gives maximum leverage for the current role."
+      ],
+      "principles_zh": [
+        "8大维度：数据、设计/研究、技术、战略、沟通、协作、组织能力、社区建设。",
+        "转型杠杆：如果是技术/数据背景，重点补齐设计/研究能力；如果是设计背景，重点补齐数据/技术能力。",
+        "聚焦策略：不要试图同时提升所有维度。选择对当前角色杠杆率最高的维度进行突破。"
+      ],
+      "whenToUse": "Creating a personal development plan (IDP) or hiring candidates from non-traditional backgrounds.",
+      "whenToUse_zh": "制定个人发展计划（IDP）或招聘非传统背景的候选人时。",
+      "commonMistakes": "Trying to learn Data, Tech, and Strategy simultaneously, leading to overwhelm.",
+      "commonMistakes_zh": "试图同时学习数据、技术和战略，导致不堪重负。",
+      "quote": "You can't improve on every single area... Pick which is the area which is the maximum leverage for you.",
+      "realWorldExample": "A Growth PM (strong in data) took on a design-heavy 'Driver Redesign' project. They used their data skills to inform the PRD segments, allowing them to collaborate effectively with designers.",
+      "realWorldExample_zh": "一位增长型PM（擅长数据）接手了重设计的“司机端改版”项目。他们利用数据技能来细分PRD中的用户群体，从而与设计师进行有效协作。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Your advice is early in your career, focus on just getting stuff out and done.",
+      "context": "Lenny summarizing Vikrama's advice on the importance of 'Output'."
+    },
+    {
+      "text": "I call it three W's. So what you produce, what you bring to the table, and what's your operating model.",
+      "context": "Vikrama defining his core career framework."
+    },
+    {
+      "text": "Can you show me your last PRD? Can you show me the last product note that you sent? You must have that impact through the artifacts that you work on.",
+      "context": "Vikrama explaining how to verify 'What you bring to the table'."
+    },
+    {
+      "text": "The moment you are able to correct those stories [about yourself], you may be back on the growth path again.",
+      "context": "On how self-limiting beliefs or ego-driven narratives hinder mid-career growth."
+    }
+  ],
+  "filename": "Vikrama Dhiman"
+}

@@ -3,7 +3,8 @@
     "name": "Elizabeth Stone",
     "title": "Chief Technology Officer",
     "company": "Netflix",
-    "background": "Elizabeth is a PhD Economist turned technologist who rose rapidly through leadership roles at Analysis Group, Nuna, and Lyft before joining Netflix as VP of Data & Insights and subsequently becoming CTO. She is notable for being one of the few Fortune 500 CTOs with an economics background rather than a pure engineering pedigree."
+    "background": "Elizabeth is a PhD Economist turned technologist who rose rapidly through leadership roles at Analysis Group, Nuna, and Lyft before joining Netflix as VP of Data & Insights and subsequently becoming CTO. She is notable for being one of the few Fortune 500 CTOs with an economics background rather than a pure engineering pedigree.",
+    "background_zh": "Elizabeth 是一位拥有经济学博士学位的跨界技术领袖。她曾在 Analysis Group、Nuna 和 Lyft 历任管理要职并迅速晋升，随后加入 Netflix 出任数据与洞察副总裁，并最终升任 CTO。作为财富 500 强企业中极少数拥有经济学背景而非纯工程科班出身的 CTO，她的履历备受瞩目。"
   },
   "episodeSummary": "Netflix CTO Elizabeth Stone dissects the operational mechanics behind Netflix's famous 'Freedom and Responsibility' culture, moving beyond the buzzwords to explain how high talent density is actually maintained. She shares her unique frameworks for career velocity, derived from her background as an economist, and details how Netflix structures its data and consumer insights teams to prioritize objective truth over stakeholder pleasing. The conversation offers a masterclass in high-stakes leadership, radical candor, and the integration of quantitative and qualitative data.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When a high-potential report delivers work that is 'okay' but not 'excellent,' and you need to uplevel their skills rather than just correcting the output.",
       "commonMistakes": "Simply rewriting the work yourself without the employee present (they learn nothing) or giving vague feedback like 'make it better' (they don't know how).",
       "quote": "I can both give the feedback... and then jumping into the document and helping. So I feel very strongly about... 'Let's work on this together,' and then through that, help people uplevel themselves.",
-      "realWorldExample": "When reviewing a Quarterly Business Review (QBR) document, Elizabeth identified it wasn't crisp enough. Instead of rejecting it, she explained the gap, then worked directly in the doc with the report to restructure the narrative, teaching them the standard for the next time."
+      "realWorldExample": "When reviewing a Quarterly Business Review (QBR) document, Elizabeth identified it wasn't crisp enough. Instead of rejecting it, she explained the gap, then worked directly in the doc with the report to restructure the narrative, teaching them the standard for the next time.",
+      "summary_zh": "这是一套融合了高标准与强支持的四步管理闭环。面对未达标的产出，管理者不再是简单否决，而是主动介入打磨过程，通过实战赋能员工提升能力。",
+      "problemItSolves_zh": "如何在坚守极高质量标准的同时，避免挫伤团队士气或成为瓶颈。",
+      "whenToUse_zh": "当高潜下属的产出仅为“尚可”而非“卓越”时，你需要帮助其实现能力进阶，而非单纯地修正具体的工作结果。",
+      "commonMistakes_zh": "在员工缺席时直接代劳重写（导致其无法学习），或给出诸如“做得更好”这类模糊的反馈（导致其无从下手）。",
+      "realWorldExample_zh": "在评审 QBR 文档时，Elizabeth 发现内容不够精炼有力。她没有直接驳回，而是指出了差距所在，并带着下属直接在文档中重构叙事逻辑，通过手把手教学确立了标准，以便下属未来参照。",
+      "principles_zh": [
+        "第一步：确立“世界级”标准。明确指出目标是追求卓越，而非仅仅是“做完”。要强调“最后 5%”的打磨才是决胜关键。",
+        "第二步：诊断具体差距。不能只丢下一句“把它改好”，而要精准指出究竟是逻辑推导、沟通表达还是执行层面未达标。",
+        "第三步：躬身入局填补差距。不要只是把修改任务派发下去，而是要亲自下场，通过共同撰写文档或结对编程，为对方“打样”，展示什么是高标准。",
+        "第四步：闭门复盘与批评。严厉的反馈和辅导要在私下进行，以建立心理安全感；在公开场合则要维护团队形象，保持对外口径一致。"
+      ],
+      "name_zh": "The 'Fill the Gap' Coaching Model（“填补差距”教练模型）"
     },
     {
       "name": "The Keeper Test Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "Use this mental model bi-weekly or monthly for every direct report to ensure your team maintains the high performance required for autonomous execution.",
       "commonMistakes": "Using this as a tool for fear-mongering rather than team curation, or failing to give the feedback required before making a separation decision.",
       "quote": "If I'm asking myself the question, 'If this person on my team came to me and said, I'm leaving today... would I do everything I could to keep them at Netflix?' If not, then I should be having that tough conversation.",
-      "realWorldExample": "Managers at Netflix frequently field questions from reports asking 'Am I passing your keeper test?' to trigger an honest conversation about standing, removing the ambiguity of traditional performance reviews."
+      "realWorldExample": "Managers at Netflix frequently field questions from reports asking 'Am I passing your keeper test?' to trigger an honest conversation about standing, removing the ambiguity of traditional performance reviews.",
+      "summary_zh": "一种严谨的思维模型，用于管理者持续（而非按年度）评估团队构成。它将留存定义为一种主动的决策选择，而非被动的默认状态。",
+      "problemItSolves_zh": "防止团队陷入平庸，确保维持足以摆脱繁重官僚主义的“人才密度”。",
+      "whenToUse_zh": "每双周或每月针对每位直属下属应用此思维模型，确保团队始终维持自主执行所需的高绩效水准。",
+      "commonMistakes_zh": "将其异化为制造恐慌的手段，而非团队优选的工具；或者在做出人员汰换决策前，未提供必要的反馈。",
+      "realWorldExample_zh": "Netflix 的管理者经常面对下属的主动提问：“我通过你的‘留任测试’了吗？” 这一做法旨在针对员工当前的处境开启坦诚对话，从而消除传统绩效考核中常见的模糊地带。",
+      "principles_zh": [
+        "步骤 1：核心拷问：扪心自问，“如果这位员工今天提出要跳槽去竞对，我会拼尽全力挽留吗？”",
+        "步骤 2：立即行动：如果答案是“否”（甚至让你感到如释重负），你就必须立刻启动离职沟通。",
+        "步骤 3：持续校准：这不该是按季度的绩效复盘，而是管理者需要定期进行的动态心理审视。",
+        "步骤 4：绝对坦诚的前置条件：除非你此前已给出过明确且坦诚的反馈，指出其绩效未达标，否则不能仅依据“留任测试”直接开除员工。"
+      ],
+      "name_zh": "The Keeper Test Protocol（留任测试法则）"
     },
     {
       "name": "The Objective Truth Architecture",
@@ -62,7 +87,19 @@
       "whenToUse": "When designing the organizational structure for a scaling product company, particularly when you notice data is being used to justify decisions rather than inform them.",
       "commonMistakes": "Fully embedding data scientists into product squads where they lose their objectivity and technical mentorship, or keeping Quant and Qual teams totally separate.",
       "quote": "The benefit we get is... it also allows us to be really objective. That is probably the most important thing, that our job is not to tell the story that someone wants to hear with the data.",
-      "realWorldExample": "Netflix combined their 'Consumer Insights' (research) and 'Data Science' teams into a single 'Data and Insights' org. This allowed them to tackle personalization algorithms by combining behavioral data (what you clicked) with attitudinal research (why you said you liked it)."
+      "realWorldExample": "Netflix combined their 'Consumer Insights' (research) and 'Data Science' teams into a single 'Data and Insights' org. This allowed them to tackle personalization algorithms by combining behavioral data (what you clicked) with attitudinal research (why you said you liked it).",
+      "summary_zh": "一种结构化的数据组织模式，将数据科学、工程研发和消费者洞察（用户调研）进行集中统一管理，而非采用嵌入式或孤岛式的架构。",
+      "problemItSolves_zh": "避免数据与用研团队沦为“服务台”，防止其仅仅为了佐证产品经理先入为主的偏见而进行选择性的数据筛选。",
+      "whenToUse_zh": "当为处于规模化阶段的产品公司设计组织架构时，特别是当你察觉到数据被用来为决策“做背书”，而非指导决策时。",
+      "commonMistakes_zh": "将数据科学家完全嵌入产品业务线，导致其丧失客观独立性及缺乏专业技术指导；亦或是将定量分析与定性调研团队完全割裂。",
+      "realWorldExample_zh": "Netflix 将“消费者洞察”（用户调研）与“数据科学”团队整合，成立了统一的“数据与洞察”部门。这一举措使他们能够将行为数据（用户的点击动作）与态度型调研（用户声称喜欢的原因）相结合，从而攻克个性化推荐算法的难题。",
+      "principles_zh": [
+        "第一步：集中管理确立独立性：数据团队应向中心化的数据负责人汇报，而非其所支持的业务线负责人。这能确保数据团队忠于客观事实，而非仅仅为了配合功能上线。",
+        "第二步：定量与定性融合：将数据科学（侧重行为数据）与用户洞察（侧重态度/调研）整合在同一组织架构下，构建关于用户的“全栈”视角。",
+        "第三步：强化观点输出：数据团队的职责绝非仅仅是“跑 SQL 提数”，而是必须对业务问题持有独立观点，并勇于挑战产品团队的既有假设。",
+        "第四步：赋能决策而非被动服务：核心目标是提供辅助决策的业务语境，而非仅仅响应需求生成报表。"
+      ],
+      "name_zh": "The Objective Truth Architecture（客观真理架构）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "Her life motto about finding small moments of joy even in high-stress executive environments."
     }
   ],
-  "filename": "Elizabeth Stone"
+  "filename": "Elizabeth Stone",
+  "episodeSummary_zh": "Netflix CTO Elizabeth Stone 深度拆解了 Netflix 著名的“自由与责任”文化背后的实操机制，透过流行词汇的表象，揭示了维持“高人才密度”的真实路径。基于其经济学背景，她分享了关于“职业加速度”的独特框架，并详细阐述了 Netflix 如何搭建数据与消费者洞察团队，以确保团队坚持客观事实导向，而非单纯取悦利益相关者。本次对话堪称一堂关于高压环境领导力、极度坦诚（Radical Candor）以及定性与定量数据融合的大师课。"
 }

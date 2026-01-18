@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Will Larson",
+    "title": "CTO at Carta",
+    "company": "Carta",
+    "background": "Former engineering leader at Stripe, Uber, and Calm. Author of the influential books 'An Elegant Puzzle', 'Staff Engineer', and the upcoming 'The Engineering Executive's Primer'. He writes the popular engineering leadership blog lethain.com.",
+    "background_zh": "Carta现任CTO，曾任职Stripe、Uber和Calm的工程团队负责人。他是《An Elegant Puzzle》和《Staff Engineer》等行业必读著作的作者，即将出版《The Engineering Executive's Primer》。他的博客lethain.com是工程领导力领域的权威资源。"
+  },
+  "episodeSummary": "Will Larson discusses the shifting landscape of engineering leadership post-ZIRP, emphasizing the need to stop coddling engineers and start giving them business accountability. He breaks down frameworks for engineering strategy, systems thinking, and defining actionable company values, while sharing personal insights on writing and handling failure.",
+  "episodeSummary_zh": "Will Larson 探讨了后零利率时代（post-ZIRP）工程领导力的转变，强调应停止过度保护工程师，转而赋予其实质性的商业责任。他详细拆解了工程战略、系统思维和定义可落地价值观的框架，并分享了关于写作习惯及应对职业失败的深刻见解。",
+  "keyTakeaways": [
+    "Stop treating engineers like children; give them direct accountability and expose them to real business problems to foster growth.",
+    "Good strategy is often 'boring'—imposing constraints (like a standard tool kit) allows teams to focus innovation on product features rather than infrastructure.",
+    "To solve EM/PM friction, implement 'Shared Fate': Engineering Managers and Product Managers should receive the same performance rating to align incentives.",
+    "Don't measure everything; use DORA metrics for diagnosis, but report on business alignment and a list of meaningful shipped value to the board.",
+    "Consistent writing advances your career, but only if you focus on topics that energize you rather than chasing trends.",
+    "When debugging organizational issues, use Systems Thinking (Stocks and Flows) to identify where your mental model conflicts with reality."
+  ],
+  "methodologies": [
+    {
+      "name": "The Rumelt Strategy & Constraints Model",
+      "name_zh": "Rumelt 战略与限制性框架",
+      "category": "product-strategy",
+      "problemItSolves": "Helps leaders articulate a clear strategy when teams are misaligned or overwhelmed by too many technology choices.",
+      "problemItSolves_zh": "帮助管理者在团队对齐困难或面临过多技术选择时，阐明清晰的战略方向。",
+      "summary": "Based on Richard Rumelt's definition, strategy must contain a diagnosis, a guiding policy, and actions. Larson adds that effective engineering strategy often involves imposing 'boring' constraints to focus energy on what truly matters to the customer.",
+      "summary_zh": "基于 Richard Rumelt 的定义，战略必须包含诊断、指导方针和行动计划。Larson 补充道，高效的工程战略通常涉及实施“枯燥”的限制性约束，以便将团队精力集中在对客户真正重要的事情上。",
+      "principles": [
+        "Diagnosis: Accurately define the current reality and status quo.",
+        "Guiding Policy: Determine the approach to address the diagnosis (often involving constraints).",
+        "Action Plan: Define concrete steps to implement the policy; avoid 'inert' strategy.",
+        "The Boring Principle: Constrain tools/tech stacks to force innovation in the product layer, not the infra layer."
+      ],
+      "principles_zh": [
+        "现状诊断：准确定义当前的现实情况和问题症结。",
+        "指导方针：确定应对诊断结果的方法论（通常涉及设定约束条件）。",
+        "行动计划：制定实施方针的具体步骤，避免战略“空转”。",
+        "枯燥原则：限制工具/技术栈的选择（如标准套件），迫使创新发生在产品层而非基建层。"
+      ],
+      "whenToUse": "When an organization lacks focus, is over-engineering solutions, or when there is debate about 'what is our strategy?'.",
+      "whenToUse_zh": "当组织缺乏焦点、过度设计解决方案，或内部对“我们的战略是什么”存在争议时。",
+      "commonMistakes": "Confusing a goal (e.g., 'We build high quality') with a strategy, or failing to enforce the constraints defined in the policy.",
+      "commonMistakes_zh": "混淆“目标”（如“我们要打造高质量产品”）与“战略”，或未能严格执行方针中设定的约束条件。",
+      "quote": "The goal of good strategy is to dictate how we invest the limited capacities we have into the problems we care about.",
+      "realWorldExample": "At Uber, the strategy was 'No Cloud, Own Data Centers only,' which allowed them to launch inside China in 3 months despite geopolitical constraints. At Stripe, the 'Ruby Monolith' strategy focused devs on features rather than tooling.",
+      "realWorldExample_zh": "Uber 曾采取“零云端，全自建数据中心”的战略，这使他们能够克服地缘政治限制，在3个月内在中国上线。Stripe 采取“Ruby 单体架构”战略，迫使开发人员专注于功能开发而非工具链折腾。"
+    },
+    {
+      "name": "Systems Thinking (Stocks and Flows)",
+      "name_zh": "系统思维模型（存量与流量）",
+      "category": "execution",
+      "problemItSolves": "Helps debug complex organizational processes (like hiring or incident management) where simple cause-and-effect logic fails.",
+      "problemItSolves_zh": "帮助调试复杂的组织流程（如招聘或事故管理），解决简单因果逻辑失效的问题。",
+      "summary": "Instead of viewing problems in isolation, model them as 'Stocks' (accumulations) and 'Flows' (movement between stocks). Identify where reality deviates from your model to find the root cause.",
+      "summary_zh": "不要孤立地看待问题，而应将其建模为“存量”（积累）和“流量”（存量间的流动）。通过识别现实与模型偏离的地方来寻找根本原因。",
+      "principles": [
+        "Model the System: Map out the inputs, outputs, stocks (e.g., candidates), and flows (conversion rates).",
+        "Reality Check: Compare your model's prediction against actual historical data.",
+        "Reality is Right: If the model conflicts with reality, the model is wrong. Update the model to learn.",
+        "Don't Over-Measure: Avoid the trap of measuring infinite times; eventually, you must cut (act)."
+      ],
+      "principles_zh": [
+        "系统建模：绘制输入、输出、存量（如候选人池）和流量（如转化率）。",
+        "现实校准：将模型的预测与实际历史数据进行对比。",
+        "现实即真理：如果模型与现实冲突，错的是模型。通过修正模型来获取洞察。",
+        "拒绝过度度量：避免陷入无限度量的陷阱；最终你必须采取行动（Cut）而非仅仅度量。"
+      ],
+      "whenToUse": "When a process isn't yielding results (e.g., lots of interviews but no hires) and intuition is failing.",
+      "whenToUse_zh": "当流程未能产生结果（例如：面试量大但无录用）且直觉失效时。",
+      "commonMistakes": "Thinking reality is 'wrong' because it doesn't fit your elegant model, or getting so caught up in analysis that you never improve the system.",
+      "commonMistakes_zh": "因为现实不符合你优雅的模型而认为现实“错了”，或者陷入过度分析而从未真正改进系统。",
+      "quote": "Reality is always right. Your model is always wrong if it's in conflict with reality.",
+      "realWorldExample": "Larson used this to debug a hiring pipeline. By modeling stocks/flows, he realized the issue wasn't candidate volume, but hiring managers' inability to make decisions (high offer stage stock, low conversion flow).",
+      "realWorldExample_zh": "Larson 用此方法调试招聘流程。通过存量/流量建模，他发现问题不在于候选人数量，而在于招聘经理无法做出决策（offer阶段存量高，转化流量低）。"
+    },
+    {
+      "name": "The HAR Value Test",
+      "name_zh": "HAR 价值观检验法",
+      "category": "team-culture",
+      "problemItSolves": "Prevents companies from creating generic, useless corporate values that look good on a wall but don't help in decision making.",
+      "problemItSolves_zh": "防止公司制定出那些只适合挂在墙上好看，却对实际决策毫无帮助的通用型、无用价值观。",
+      "summary": "Effective values must pass three tests: they must be Honest (actually true), Applicable (useful for trade-offs), and Reversible (a defined group/company would imply the opposite).",
+      "summary_zh": "有效的价值观必须通过三项测试：诚实（Honest，即事实如此）、适用（Applicable，即有助于权衡取舍）和可逆（Reversible，即其对立面也是一种合理的策略）。",
+      "principles": [
+        "Honesty: Is this actually how we behave, or just how we want to be perceived?",
+        "Applicability: Can I use this value to settle a dispute between two good options?",
+        "Reversibility: Is the opposite of this value a valid strategy for another successful company? (If not, it's a platitude).",
+        "Exclusion: It should be clear who *doesn't* belong at the company."
+      ],
+      "principles_zh": [
+        "诚实性：这是我们真实的行事方式，还是我们希望被看待的方式？",
+        "适用性：我能用这个价值观来解决两个好的选项之间的争端吗？",
+        "可逆性：这个价值观的反面是否是另一家成功公司的有效策略？（如果不是，那它只是陈词滥调）。",
+        "排他性：应该能清楚地界定谁*不属于*这家公司。"
+      ],
+      "whenToUse": "When defining or auditing company culture/values to ensure they drive behavior rather than just serving as marketing.",
+      "whenToUse_zh": "在定义或审计公司文化/价值观时，以确保它们能驱动行为，而不仅仅是作为营销口号。",
+      "commonMistakes": "Choosing 'Identity Values' like 'Integrity' or 'Build Good Software'—no successful company would claim the opposite, making them useless for decision making.",
+      "commonMistakes_zh": "选择“身份型价值观”，如“诚信”或“打造好软件”——没有成功的公司会宣称其反面，这使得这些价值观在决策时毫无用处。",
+      "quote": "If it doesn't apply to anyone, why bother having it at all? It doesn't mean anything.",
+      "realWorldExample": "Stripe's 'Optimize Globally' (vs. Locally) and Uber's implicit 'Let Builders Build/Toe-stepping' (Optimize Locally). Both are valid, reversible, and dictate different behaviors.",
+      "realWorldExample_zh": "Stripe 的“全局优化”（相对于局部优化）与 Uber 隐性的“让建设者建设/踩脚指”（局部优化）。两者都是有效的、可逆的，并指导着完全不同的行为模式。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "I think that we often treat engineers a little bit like children instead of giving them the responsibilities and ability to actually thrive as adults.",
+      "context": "On the shift in engineering management from the ZIRP era to the current efficiency-focused market."
+    },
+    {
+      "text": "There are no villains in the workplace. They're just people with complex incentives that are doing complex things.",
+      "context": "On resolving conflict between Engineering Managers and Product Managers."
+    },
+    {
+      "text": "Will anyone remember what we decided in six months? Because I increasingly believe most decisions people stress out about just aren't that important.",
+      "context": "His current life motto regarding decision-making anxiety."
+    }
+  ],
+  "filename": "Will Larson"
+}

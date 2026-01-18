@@ -1,0 +1,142 @@
+{
+  "guest": {
+    "name": "Noah Weiss",
+    "title": "Chief Product Officer",
+    "company": "Slack",
+    "background": "Noah Weiss is the Chief Product Officer at Slack, overseeing the product strategy and development. Previously, he was the SVP of Product at Foursquare and a Product Manager at Google, bringing over 15 years of experience in building both consumer and B2B software.",
+    "background_zh": "Noah Weiss 现任 Slack 首席产品官（CPO），负责产品战略与开发。在此之前，他曾担任 Foursquare 的产品高级副总裁以及 Google 的产品经理，在构建消费者应用和 B2B 软件方面拥有超过 15 年的经验。"
+  },
+  "episodeSummary": "Noah Weiss discusses the evolution of Slack's product strategy, sharing frameworks for working with visionary founders and revitalizing stalled growth. He details unique internal rituals like 'Complaint Storms' and 'Customer Love Sprints' that maintain product quality, and explains how Slack defined a new 'Successful Teams' metric to drive self-service revenue.",
+  "episodeSummary_zh": "Noah Weiss 深入探讨了 Slack 产品战略的演变，分享了与愿景型创始人共事以及重振增长停滞的实用框架。他详细介绍了 Slack 内部独特的仪式，如“产品吐槽大会（Complaint Storms）”和“用户关怀冲刺（Customer Love Sprints）”，并解释了团队如何定义新的“成功团队”指标以驱动自助服务收入增长。",
+  "keyTakeaways": [
+    "Product intuition requires 'tasting the soup'—founders and leaders must use the product in code, not just look at static mocks.",
+    "Optimization for learning must sometimes precede optimization for impact when growth plateaus.",
+    "Writing is the only scalable way to have influence in a large product organization.",
+    "Fewer clicks are not always better; clarity and reduced stress ('Don't Make Me Think') trumps click-counting.",
+    "To reignite growth, Slack shifted focus from individual active users to 'Successful Teams' (5+ people communicating).",
+    "Great PMs act as 'shock absorbers' for the team, maintaining an aura of 'I got this' execution."
+  ],
+  "methodologies": [
+    {
+      "name": "Complaint Storms",
+      "name_zh": "产品吐槽大会 (Complaint Storms)",
+      "category": "user-research",
+      "problemItSolves": "Overcoming the 'Curse of Knowledge' where product teams are power users and lose empathy for the new user experience.",
+      "problemItSolves_zh": "解决“知识诅咒”问题——即产品团队作为超级用户，逐渐丧失了对新用户体验的同理心。",
+      "summary": "A synchronous session where the team walks through a specific user journey (often onboarding) to identify every friction point. Uniquely, they start by critiquing a competitor's product first to warm up the critical muscle.",
+      "summary_zh": "一种同步进行的团队会议，团队成员共同走查特定的用户旅程（通常是新手引导），找出每一个摩擦点。其独特之处在于，团队会先从批评竞品开始，以预热大家的批判性思维。",
+      "principles": [
+        "Start with an adjacent/competitor product: This removes defensiveness and sets a high bar for critique.",
+        "One screen, many voices: Project the flow on one screen while everyone shouts out issues.",
+        "Log everything: Capture every confusion, pain point, and friction moment—no matter how small."
+      ],
+      "principles_zh": [
+        "从竞品切入：先吐槽邻近产品或竞品，这能消除防御心理并建立高标准的批判基调。",
+        "单屏多声：在一个屏幕上投屏操作流程，所有人实时喊出发现的问题。",
+        "巨细靡遗：记录每一个困惑、痛点和摩擦时刻，无论问题看起来多么微小。"
+      ],
+      "whenToUse": "When a product area feels stale, or when user metrics are flattening despite 'optimizations'.",
+      "whenToUse_zh": "当某个产品领域感觉停滞不前，或者尽管做了很多“优化”但用户指标依然平平时。",
+      "commonMistakes": "Skipping the competitor review first (makes the team defensive) or trying to solve the bugs during the session instead of just logging them.",
+      "commonMistakes_zh": "跳过竞品评审环节（这会让团队对自己产品的批评产生抵触），或者试图在会议中当场解决 Bug 而非仅仅记录。",
+      "quote": "If you didn't care about the software, you don't work on it, what would actually confuse you? What would stop you in your tracks?",
+      "realWorldExample": "Slack used this to revamp their self-service onboarding by realizing how confusing the 'Day 1' experience was for non-tech teams.",
+      "realWorldExample_zh": "Slack 利用这一方法重构了自助服务引导流程，因为他们发现对于非技术团队而言，“第一天”的使用体验非常令人困惑。"
+    },
+    {
+      "name": "The Founder Engagement U-Curve",
+      "name_zh": "创始人参与度 U 型曲线",
+      "category": "team-culture",
+      "problemItSolves": "Balancing founder vision/micromanagement with team autonomy and execution speed.",
+      "problemItSolves_zh": "平衡创始人的愿景/微观管理与团队的自主性和执行速度之间的矛盾。",
+      "summary": "A framework for when to involve product-minded founders. High involvement at the start for strategy, low involvement during execution to allow creativity, and high involvement at the end for polish.",
+      "summary_zh": "一个关于何时引入产品型创始人的框架。项目初期深度参与以确定战略，执行期间低度参与以激发团队创造力，收尾阶段再次深度参与以打磨细节。",
+      "principles": [
+        "Phase 1 (Start): Align on principles, strategy, goals, and anti-goals. Define the 'what' and 'why'.",
+        "Phase 2 (Middle): Give the team space to run, explore, and prototype without constant oversight.",
+        "Phase 3 (End): Bring the founder back to 'taste the soup' (review working code) for final polish and craft."
+      ],
+      "principles_zh": [
+        "阶段一（启动）：在原则、战略、目标和反向目标（anti-goals）上对齐。明确“做什么”和“为什么”。",
+        "阶段二（中段）：给团队空间去执行、探索和制作原型，避免持续的微观干预。",
+        "阶段三（收尾）：请创始人回来“尝汤”（审查可运行的代码），进行最后的打磨和工艺把控。"
+      ],
+      "whenToUse": "When working with 'product-minded' founders or strong executive stakeholders on major initiatives.",
+      "whenToUse_zh": "在与“产品型”创始人或强势高管合作推进重大项目时使用。",
+      "commonMistakes": "Involving the founder too much in the middle (micromanagement) or leaving them out until the very end without initial alignment (misaligned vision).",
+      "commonMistakes_zh": "在中段让创始人过度参与（导致微观管理），或者在没有初期对齐的情况下直到最后才让他们介入（导致愿景偏差）。",
+      "quote": "Get the founder CEO really involved early on... then give space... and at the very end you want them to really be bought in... literally taste the soup.",
+      "realWorldExample": "Working with Stewart Butterfield, Noah would align on the vision, let the team build, and then do a massive 'bug bash' with Stewart right before launch to refine the details.",
+      "realWorldExample_zh": "在与 Stewart Butterfield 共事时，Noah 会先对齐愿景，让团队去构建，然后在发布前与 Stewart 一起进行大规模的“Bug 扫除”，以完善细节。"
+    },
+    {
+      "name": "The 'Successful Teams' Activation Metric",
+      "name_zh": "“成功团队”激活指标框架",
+      "category": "growth-metrics",
+      "problemItSolves": "Identifying the true leading indicator for monetization in a B2B PLG (Product-Led Growth) model.",
+      "problemItSolves_zh": "在 B2B 产品驱动增长（PLG）模式中，识别能够真正预测商业化的前置指标。",
+      "summary": "Instead of focusing on generic DAU or individual sign-ups, Slack identified a specific threshold of team behavior that predicted long-term retention and upgrade potential.",
+      "summary_zh": "Slack 不再关注通用的日活（DAU）或个人注册量，而是确定了一个特定的团队行为阈值，该阈值能有效预测长期留存和升级潜力。",
+      "principles": [
+        "Shift from Individual to Team: For collaboration tools, individual metrics are noise. Team density matters.",
+        "Find the Magic Threshold: Slack found that a team of 5+ people communicating weekly was the tipping point.",
+        "Optimize for Learning first: When growth plateaus, pause 'optimization' work and spend a quarter strictly testing hypotheses to find new levers."
+      ],
+      "principles_zh": [
+        "从个人转向团队：对于协作工具，个人指标往往是噪音，团队密度才关键。",
+        "寻找魔法阈值：Slack 发现“5人以上团队每周都有交流”是一个关键引爆点。",
+        "优先为“学习”优化：当增长停滞时，暂停常规“优化”工作，花一个季度专门测试假设，以寻找新的增长杠杆。"
+      ],
+      "whenToUse": "When self-service revenue or user growth hits a plateau and standard optimizations yield diminishing returns.",
+      "whenToUse_zh": "当自助服务收入或用户增长进入平台期，且常规优化手段边际收益递减时。",
+      "commonMistakes": "Assuming product-market fit is permanent (it expires as you reach new segments) or focusing on top-of-funnel vanity metrics.",
+      "commonMistakes_zh": "误以为 PMF（产品市场匹配）是永久的（实际上随着用户群扩大它会失效），或者过度关注漏斗顶部的虚荣指标。",
+      "quote": "If you could get five people using Slack the majority of the work week to just communicate at all... they were going to be 400% more likely to upgrade.",
+      "realWorldExample": "In 2019, Slack focused the entire self-service roadmap on driving teams to reach the '5-person' threshold rather than just getting more signups.",
+      "realWorldExample_zh": "2019年，Slack 将整个自助服务路线图的重心调整为推动团队达到“5人”阈值，而不仅仅是获取更多的注册量。"
+    },
+    {
+      "name": "Customer Love Sprints",
+      "name_zh": "用户关怀冲刺 (Customer Love Sprints)",
+      "category": "execution",
+      "problemItSolves": "Balancing roadmap pressure for 'big features' with the need to polish the product and fix minor annoyances that degrade trust.",
+      "problemItSolves_zh": "平衡“大型功能”的路线图压力与打磨产品、修复破坏信任的小烦恼之间的需求。",
+      "summary": "A dedicated 2-week sprint where the team focuses exclusively on low-effort, high-delight improvements. These are small UI/UX fixes that customers love but never make it onto a strategic roadmap.",
+      "summary_zh": "为期两周的专项冲刺，团队专注于低成本、高愉悦感的改进。这些通常是用户非常喜欢，但从未被列入战略路线图的小型 UI/UX 修复。",
+      "principles": [
+        "Quarterly Cadence: Schedule these regularly (e.g., once a quarter) so debt doesn't accumulate.",
+        "Cross-functional: Engineers, PMs, and Designers work together specifically on 'delight'.",
+        "Burn-down List: Work from a backlog of known annoyances or 'paper cuts' derived from support tickets or Twitter.",
+        "Total Release: The goal is to ship everything built in the sprint immediately."
+      ],
+      "principles_zh": [
+        "季度节奏：定期安排（如每季度一次），避免技术/体验债堆积。",
+        "跨职能协作：工程师、产品经理和设计师共同协作，专门致力于“创造惊喜”。",
+        "燃尽列表：基于客服工单或社交媒体反馈，列出已知烦恼或“微小创伤”的清单。",
+        "即刻发布：目标是立即发布冲刺期间构建的所有内容。"
+      ],
+      "whenToUse": "When the product feels 'heavy' or buggy, or when customer sentiment is dipping due to lack of polish.",
+      "whenToUse_zh": "当产品感觉“笨重”或 Bug 较多，或者因缺乏打磨导致用户情绪下降时。",
+      "commonMistakes": "Using this time to start new big features or treating it as a throwaway hackathon where code doesn't ship.",
+      "commonMistakes_zh": "利用这段时间开启新的大功能，或者将其视为代码无法上线的废弃型黑客马拉松。",
+      "quote": "Make it this really fun total change of pace... to do all these small delightful things that customers are going to love at the end.",
+      "realWorldExample": "Slack uses these sprints to fix minor animation glitches, text inconsistencies, or small interaction delays that don't justify a full PRD.",
+      "realWorldExample_zh": "Slack 利用这些冲刺来修复微小的动画故障、文案不一致或无需完整 PRD 的小型交互延迟。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Impact solves all PM issues. If a team is consistently building things people love and changing the trajectory of the business, everything else is just an input.",
+      "context": "On advice for Product Managers worried about politics or process."
+    },
+    {
+      "text": "The easiest person to build for is yourself. The next easiest is people who look almost exactly like you.",
+      "context": "Discussing the challenge of scaling Slack beyond the initial tech-savvy early adopters."
+    },
+    {
+      "text": "We obsess about customers. We build something they'll love enough to tell their coworkers and the rest takes care of itself.",
+      "context": "On Slack's core strategy regarding competition with Microsoft Teams."
+    }
+  ],
+  "filename": "Noah Weiss"
+}

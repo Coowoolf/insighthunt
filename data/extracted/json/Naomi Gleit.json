@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Naomi Gleit",
+    "title": "Head of Product",
+    "company": "Meta",
+    "background": "Naomi is Meta's longest-serving executive after Mark Zuckerberg, joining as employee #29. She has led the legendary growth team, social impact, and now oversees product management across the company's family of apps.",
+    "background_zh": "Naomi 是 Meta 仅次于马克·扎克伯格（Mark Zuckerberg）任职时间最长的高管，作为第29号员工加入公司。她曾领导传奇的增长团队、社会影响力部门，目前负责 Meta 全系应用的产品管理工作。"
+  },
+  "episodeSummary": "Naomi Gleit shares nearly two decades of lessons from scaling Facebook/Meta, detailing the exact frameworks used to drive growth and manage extreme complexity. She discusses the transition from marketing-led to product-led growth, how to run meetings that actually result in decisions, and her philosophy on 'canonical' documentation.",
+  "episodeSummary_zh": "Naomi Gleit 分享了她在 Facebook/Meta 近二十年的扩展经验，详细介绍了用于驱动增长和管理极度复杂项目的具体框架。她探讨了从营销驱动增长向产品驱动增长的转型，如何召开能产生实际决策的高效会议，以及她关于“唯一性文档（Canonical Doc）”的管理哲学。",
+  "keyTakeaways": [
+    "Growth is a product and engineering function, not just marketing.",
+    "Use 'Canonical Documents' to create a single source of truth for every project.",
+    "Simplify complex problems by breaking them down from 'PhD level' to 'Kindergarten level'.",
+    "PMs act as conductors: they don't make the music, but ensure the tempo and harmony.",
+    "Use numbered lists instead of bullet points to allow for precise referencing in discussions.",
+    "Establish an activation metric (like 7 friends in 10 days) primarily to align the team on a shared goal."
+  ],
+  "methodologies": [
+    {
+      "name": "The Understand-Identify-Execute Cycle",
+      "name_zh": "理解-识别-执行 (UIE) 增长循环",
+      "category": "growth-metrics",
+      "problemItSolves": "Solves the issue of guessing at growth levers or relying purely on marketing/acquisition without fixing product leaks.",
+      "problemItSolves_zh": "解决仅凭猜测寻找增长杠杆，或过度依赖市场获客而忽视产品本身留存漏洞的问题。",
+      "summary": "A fundamental growth framework emphasizing that you cannot grow what you cannot measure. It shifts focus from acquisition to retention and engagement by removing barriers systematically.",
+      "summary_zh": "这是一个基础的增长框架，强调“无法衡量则无法增长”。它通过系统性地消除障碍，将重心从单纯的获客转移到留存和用户参与度上。",
+      "principles": [
+        "Understand: Instrument everything. If you don't have data, stop the roadmap and build logging (e.g., 'I guess when you can know').",
+        "Identify: Find macro barriers (access, language) and micro barriers (UI friction, 20% drop-off at email confirm).",
+        "Execute: Build product solutions to remove these barriers rather than marketing around them."
+      ],
+      "principles_zh": [
+        "理解 (Understand)：全面埋点。如果没有数据，暂停产品路线图，先建立数据追踪体系（正如 Alex Schultz 所言：“明明可以确知，何必还要猜测”）",
+        "识别 (Identify)：发现宏观障碍（如设备接入、语言障碍）和微观障碍（如UI摩擦、邮箱确认环节20%的流失率）。",
+        "执行 (Execute)：构建产品方案来消除这些障碍，而不是仅仅依靠市场推广来绕过它们。"
+      ],
+      "whenToUse": "When launching a new product or trying to fix a leaky funnel where growth has plateaued.",
+      "whenToUse_zh": "适用于发布新产品，或试图修复增长停滞的漏斗模型时。",
+      "commonMistakes": "Focusing on acquisition (top of funnel) before proving retention/product-market fit.",
+      "commonMistakes_zh": "在验证留存率或 PMF（产品市场匹配）之前，过分关注漏斗顶部的获客。",
+      "quote": "The insight that we had is actually the product is the biggest lever to drive growth.",
+      "realWorldExample": "In 2009, Facebook paused all feature work to instrument the registration flow, discovering a 20% drop-off at email confirmation, which they fixed by allowing unconfirmed users to verify via notification clicks.",
+      "realWorldExample_zh": "2009年，Facebook 暂停了所有功能开发，专门对注册流程进行埋点，发现邮箱确认环节有20%的流失。通过允许未确认用户通过点击通知来完成验证，他们解决了这个问题。"
+    },
+    {
+      "name": "Canonical Everything & Extreme Clarity",
+      "name_zh": "极致清晰与“唯一信源”原则 (Canonical Everything)",
+      "category": "execution",
+      "problemItSolves": "Eliminates confusion in complex cross-functional teams where people have different understandings of the facts, leading to wasted time.",
+      "problemItSolves_zh": "消除复杂跨职能团队中的混乱，避免因对事实理解不一致而导致的时间浪费。",
+      "summary": "A rigorous operational framework ensuring every project has a single source of truth. It standardizes language, documentation, and decision-making processes to reduce cognitive load and misalignment.",
+      "summary_zh": "一套严谨的运营框架，确保每个项目都有唯一的“事实来源”。它通过标准化术语、文档和决策流程，降低认知负荷和协作偏差。",
+      "principles": [
+        "Canonical Doc: One master document linking to all workstreams, owners (Single Threaded Owners), and processes.",
+        "Canonical Nomenclature: Define terms precisely (e.g., Accuracy vs. Consistency) so teams don't talk past each other.",
+        "Visual & Real-Time Editing: Project decisions on a screen and edit them live to confirm agreement before leaving the meeting."
+      ],
+      "principles_zh": [
+        "唯一性文档 (Canonical Doc)：建立一个主文档，链接所有工作流、负责人（单线程负责人 STO）和流程。",
+        "统一定义 (Canonical Nomenclature)：精确定义术语（例如“准确性”与“一致性”的区别），防止团队沟通时的歧义。",
+        "可视化与实时编辑：在屏幕上投射决策过程，并在会议中实时编辑确认，确保离会前达成共识。"
+      ],
+      "whenToUse": "When managing large-scale, multi-team projects or when onboarding to a chaotic project.",
+      "whenToUse_zh": "适用于管理大规模、跨团队项目，或接手混乱项目进行理清时。",
+      "commonMistakes": "Using bullet points (hard to reference) instead of numbered lists; allowing pairwise side conversations instead of one canonical discussion.",
+      "commonMistakes_zh": "使用要点符号（难以引用）而非编号列表；允许私下的点对点沟通，而不是统一的公开讨论。",
+      "quote": "There needs to be one canonical doc. Everyone should know exactly where the canonical doc is.",
+      "realWorldExample": "When managing content moderation, Naomi realized teams confused 'Consistency' (reviewers agreeing) with 'Accuracy' (correct decision), requiring a canonical definition to fix the metric.",
+      "realWorldExample_zh": "在管理内容审核时，Naomi 发现团队混淆了“一致性”（审核员意见相同）和“准确性”（决策正确），因此制定了标准定义来修正考核指标。"
+    },
+    {
+      "name": "The Traffic Light Decision Matrix",
+      "name_zh": "红绿灯决策矩阵",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents vague 'pros and cons' discussions that fail to highlight blockers or trade-offs clearly.",
+      "problemItSolves_zh": "避免模糊的“优缺点”讨论，这种讨论往往无法清晰突显阻碍因素或权衡取舍。",
+      "summary": "A meeting tool to force a decision. Instead of text lists, use a visual table where rows are options and columns are criteria/functions, colored red/yellow/green.",
+      "summary_zh": "一种倒逼决策的会议工具。不使用纯文本列表，而是使用可视化表格：行为选项，列为标准/职能，并用红/黄/绿颜色标记状态。",
+      "principles": [
+        "Structure: 3 Options + 1 Recommendation.",
+        "Columns as Criteria: Columns represent specific constraints (Legal, Eng, UX) or goals.",
+        "Visual Density: Look for the 'Green' path; rule out options with critical 'Red' blockers instantly."
+      ],
+      "principles_zh": [
+        "结构：提供3个选项 + 1个推荐方案。",
+        "列即标准：列代表具体的约束条件（法务、工程、用户体验）或目标。",
+        "视觉密度：寻找“绿色”路径，立即排除有关键“红色”阻碍的选项。"
+      ],
+      "whenToUse": "In decision meetings involving multiple stakeholders (Legal, Policy, Eng) to reach alignment fast.",
+      "whenToUse_zh": "适用于涉及多个利益相关者（法务、政策、工程）的决策会议，以快速达成一致。",
+      "commonMistakes": "Using flat pros/cons text lists where the weight of a 'con' is ambiguous.",
+      "commonMistakes_zh": "使用扁平化的优缺点文本列表，导致缺点的权重模棱两可。",
+      "quote": "I don't love pros and cons. It's a flat list of text... Oftentimes we'll use a traffic light.",
+      "realWorldExample": "Used in executive reviews to choose between product implementation paths by visualizing which option satisfies Legal/Privacy constraints (Green) vs those that don't (Red).",
+      "realWorldExample_zh": "用于高管评审中选择产品实施路径，通过可视化清晰展示哪个选项符合法务/隐私约束（绿色），哪个不符合（红色）。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Understand, Identify, Execute. That framework came from 2009 where the growth team... stopped doing anything on our roadmap except data instrumentation.",
+      "context": "On the origins of the Growth Team's methodology."
+    },
+    {
+      "text": "A PM is a conductor... The PM is not the star of the show. Indeed, conductors don't even say anything during the performance.",
+      "context": "Describing the role of a Product Manager."
+    },
+    {
+      "text": "Pressure is privilege.",
+      "context": "Her life motto regarding handling high-stakes projects."
+    }
+  ],
+  "filename": "Naomi Gleit"
+}

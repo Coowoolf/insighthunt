@@ -1,0 +1,115 @@
+{
+  "guest": {
+    "name": "Matthew Dicks",
+    "title": "Storyteller, Author & Elementary School Teacher",
+    "company": "Speak Up",
+    "background": "A 59-time Moth Story Slam winner and 9-time Grand Slam champion who teaches storytelling to individuals and companies like Slack, Amazon, and Salesforce. He is also the author of the best-selling book 'Storyworthy'.",
+    "background_zh": "59次Moth故事大赛冠军及9次大满贯得主，畅销书《Storyworthy》作者。他不仅是一名小学教师，还为Slack、亚马逊和Salesforce等企业提供专业的故事叙述培训。"
+  },
+  "episodeSummary": "Matthew Dicks breaks down the science and art of storytelling, explaining why it is a critical skill for business differentiation. He shares tactical frameworks for structuring stories around moments of transformation, techniques to maintain audience engagement through stakes, and methods to connect personal anecdotes to business contexts.",
+  "episodeSummary_zh": "Matthew Dicks 深度拆解了讲故事的科学与艺术，阐述了为何叙事能力是商业差异化的关键。他分享了围绕“转变时刻”构建故事的战术框架、通过制造悬念保持听众参与度的技巧，以及将个人轶事与商业场景有效连接的方法论。",
+  "keyTakeaways": [
+    "Every great story is about a 5-second moment of transformation or realization; everything else is context.",
+    "Stop reporting on your day chronologically; instead, focus on moments where your perspective changed.",
+    "In business, use 'Adjacency' to connect personal stories to dry products by matching themes rather than content.",
+    "Use 'Homework for Life' to build a database of stories so you aren't scrambling for a narrative when stakes are high.",
+    "Nervousness in public speaking almost entirely happens before you speak, not during; preparation via listening to yourself helps more than memorization."
+  ],
+  "methodologies": [
+    {
+      "name": "The 5-Second Moment Framework",
+      "name_zh": "5秒关键时刻法则",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents stories from being boring, rambling chronological reports that fail to connect with the audience.",
+      "problemItSolves_zh": "解决故事冗长乏味、流水账式汇报以及无法与听众建立情感连接的问题。",
+      "summary": "Every story should be built around a singular 5-second moment of transformation (becoming a new person) or realization (thinking a new thing). The story exists solely to bring clarity to this moment.",
+      "summary_zh": "每一个好故事都应围绕一个5秒钟的“转变时刻”展开——即你变成了一个新的人，或者产生了一个新的认知的瞬间。故事其余部分的存在只是为了让这一时刻变得清晰。",
+      "principles": [
+        "Identify the 5-Second Moment: Find the exact moment you changed your mind or grew.",
+        "Start at the End: Since the transformation is the goal, work backward to determine the necessary beginning (the opposite of the end).",
+        "Opposites Create Arcs: If the end is confidence, the beginning must be insecurity. Show the contrast clearly."
+      ],
+      "principles_zh": [
+        "锁定5秒时刻：找到你改变想法或成长的那个确切瞬间。",
+        "以终为始：既然转变是目标，应从结尾倒推，确定必要的开篇（通常是结尾的对立面）。",
+        "制造反差弧光：如果结局是获得自信，开篇必须展示不安全感。鲜明的对比能构建更有力的故事弧。"
+      ],
+      "whenToUse": "When crafting a pitch, a keynote, or explaining a pivot in strategy where buy-in is required.",
+      "whenToUse_zh": "适用于路演、主题演讲或解释战略转型等需要争取听众认同的场景。",
+      "commonMistakes": "Simply reporting events in the order they happened without a central point of change.",
+      "commonMistakes_zh": "单纯按时间顺序罗列发生的事件，而缺乏核心的“转变点”。",
+      "quote": "Every story is about a singular moment... I used to think something and then some stuff happened and now I think a new thing.",
+      "realWorldExample": "Matthew's story about his student Eileen. The moment wasn't the whole math lesson; it was the 5 seconds she made a cheeky joke, proving she finally trusted him.",
+      "realWorldExample_zh": "Matthew讲述学生Eileen的故事。重点不是整堂数学课，而是她开玩笑的那5秒钟——这证明了她终于对他建立了信任。"
+    },
+    {
+      "name": "The Stakes & Suspense Toolkit",
+      "name_zh": "高这一刻悬念工具箱",
+      "category": "execution",
+      "problemItSolves": "Keeps the audience engaged and wondering 'what happens next' throughout a presentation.",
+      "problemItSolves_zh": "在演讲全程保持听众的注意力，让他们时刻想知道“接下来会发生什么”。",
+      "summary": "To prevent audiences from tuning out, speakers must insert stakes—reasons for the audience to worry or wonder. Stakes should be distributed throughout the story, not just front-loaded.",
+      "summary_zh": "为了防止听众走神，演讲者必须植入“赌注”（Stakes）——即让听众担心或好奇的理由。悬念应贯穿故事始终，而不仅仅堆砌在开头。",
+      "principles": [
+        "The Elephant: A clear signal at the beginning that something big/important is at stake.",
+        "The Backpack: Telling the audience your plan/hopes beforehand so they fear your plan might fail.",
+        "The Hourglass: Slowing down time with details right before the climax to heighten tension.",
+        "The Crystal Ball: Predicting a specific negative future outcome to make the audience worry about it."
+      ],
+      "principles_zh": [
+        "房间里的大象 (The Elephant)：在开篇给出明确信号，暗示有重要或巨大的事情即将发生。",
+        "背包理论 (The Backpack)：提前告知听众你的计划或愿望，让他们不仅作为旁观者，而是共同担心计划会失败。",
+        "沙漏时刻 (The Hourglass)：在故事高潮来临前，通过增加细节描写来放慢时间流速，以此拉满张力。",
+        "水晶球预测 (The Crystal Ball)：预测一个具体的负面未来结果，让听众通过预想那个糟糕的结局产生焦虑感。"
+      ],
+      "whenToUse": "During lengthy presentations or when discussing dry data where audience attention usually drifts.",
+      "whenToUse_zh": "适用于长篇演讲或讨论枯燥数据时，防止听众注意力涣散。",
+      "commonMistakes": "Front-loading all the excitement/stakes at the start and letting the middle sag.",
+      "commonMistakes_zh": "将所有刺激点或悬念堆在开头，导致演讲中段乏味无力。",
+      "quote": "If your audience isn't wondering what you're about to say, they're no longer listening to you.",
+      "realWorldExample": "In the 'Charity Thief' story, Matthew uses a Crystal Ball by predicting that if he fails, the girl will cry in front of 22 classmates and be scarred for life.",
+      "realWorldExample_zh": "在《慈善小偷》的故事中，Matthew使用了“水晶球”技巧：他预测如果自己失败了，那个女孩将在22名同学面前哭泣，并留下一生的心理阴影。"
+    },
+    {
+      "name": "The Adjacency Strategy (Band-aids vs. Bricks)",
+      "name_zh": "邻近性叙事策略（创可贴与砖块理论）",
+      "category": "product-strategy",
+      "problemItSolves": "Allows you to explain boring products or complex features using engaging, relatable human stories.",
+      "problemItSolves_zh": "让你能用引人入胜、易于共情的人性化故事，去解释枯燥的产品或复杂的功能。",
+      "summary": "Instead of looking for a story about your specific product (content-to-content match), look for a story that matches the *theme, meaning, or message*. Then, 'snap' the story onto the business topic using a metaphor.",
+      "summary_zh": "不要试图寻找一个与产品内容完全对应的故事（内容对内容），而应寻找一个在*主题、寓意或核心信息*上匹配的故事。然后，通过隐喻将故事“扣”在商业主题上。",
+      "principles": [
+        "Ignore Content, Match Theme: Don't tell a story about tubes to sell tubes. Tell a story about 'getting exactly what you need'.",
+        "Personal Interest Inventory: Insert relatable details about yourself (parent, runner, etc.) to build connection.",
+        "Build Bricks, Don't Just Use Band-aids: Don't just find a story to fix one problem; build a library of stories (Homework for Life) to deploy strategically."
+      ],
+      "principles_zh": [
+        "忽略内容，匹配主题：卖管材时别只讲管材的故事，去讲一个关于“精准满足需求”的故事。",
+        "个人特质清单 (Personal Interest Inventory)：在叙述中植入关于你自己的真实细节（如父母身份、跑步爱好者等）以建立情感连接。",
+        "积累砖块，拒用创可贴：不要遇到问题才临时找故事（创可贴），而应建立故事库（砖块），以便战略性地调用。"
+      ],
+      "whenToUse": "Sales pitches, product launches, or explaining technical infrastructure to non-technical stakeholders.",
+      "whenToUse_zh": "适用于销售提案、产品发布会，或向非技术干系人解释技术基础设施时。",
+      "commonMistakes": "Thinking corporate stories must be 'round, white, and flavorless' (impersonal) to be professional.",
+      "commonMistakes_zh": "误以为商业故事必须是“圆滑、洁白且无味”（去个人化）才显得专业。",
+      "quote": "Most communication in business is round, white, and flavorless intentionally so because a lot of people are afraid to stand out.",
+      "realWorldExample": "A scientist sold specialized biotech tubes not by showing data, but by telling a story about buying different apples for his picky family—metaphorically explaining the value of customization.",
+      "realWorldExample_zh": "一位科学家推销特种生物技术管材时没有展示数据，而是讲了一个为挑剔的家人们购买不同种类苹果的故事——用隐喻完美诠释了“定制化”的价值。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The risk you take if you're not telling stories is that you will be forgotten. 100%. You will be forgotten.",
+      "context": "On why storytelling isn't just a buzzword but a survival mechanism in business."
+    },
+    {
+      "text": "Time flies... not because it goes by quickly, but because it goes by unaccounted.",
+      "context": "Explaining the value of 'Homework for Life' to capture memories."
+    },
+    {
+      "text": "If you're telling a story about someone else, essentially, you might as well be telling fiction.",
+      "context": "On the importance of vulnerability and telling stories from your own perspective."
+    }
+  ],
+  "filename": "Matthew Dicks"
+}

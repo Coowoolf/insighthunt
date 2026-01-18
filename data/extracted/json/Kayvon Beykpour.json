@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Kayvon Beykpour",
+    "title": "Former GM of Consumer Product at Twitter",
+    "company": "Twitter / Periscope",
+    "background": "Kayvon was the longest-tenured Head of Product at Twitter and GM of the consumer business until the Elon Musk acquisition. He co-founded Periscope, the pioneering live-streaming app acquired by Twitter, and led major product initiatives like Spaces, Communities, and Twitter Blue.",
+    "background_zh": "Kayvon 曾是 Twitter 任职时间最长的产品负责人及消费者业务总经理，直到 Elon Musk 收购该司。他是直播应用鼻祖 Periscope 的联合创始人（后被 Twitter 收购），在 Twitter 期间主导了 Spaces、Communities 和 Twitter Blue 等核心产品的发布。"
+  },
+  "episodeSummary": "Kayvon Beykpour opens up about the chaotic transition during Elon Musk's takeover of Twitter, his firing during paternity leave, and the massive cultural overhaul he led to transform Twitter from a stagnant organization into a shipping machine. He discusses the strategy of using 'acqui-hires' to bypass bureaucracy, the pitfalls of over-relying on frameworks like Jobs-to-be-Done, and the hard lessons learned from the rise and fall of Periscope.",
+  "episodeSummary_zh": "Kayvon Beykpour 揭秘了 Elon Musk 接管 Twitter 期间的混乱过渡，以及他在陪产假期间被解雇的经历。他深入探讨了如何通过文化重塑，将 Twitter 从一个停滞不前的组织转变为高效交付的团队。对话涵盖了利用“人才并购”绕过大公司官僚主义的策略、过度依赖 Jobs-to-be-Done 等框架的陷阱，以及从 Periscope 兴衰中汲取的深刻教训。",
+  "keyTakeaways": [
+    "Identify 'sacred cows' in your product (things people say you can't change) and make them your roadmap to signal cultural change.",
+    "Use 'acqui-hires' to bring in founder-level energy and shield them in silos to launch risky bets like Spaces and Birdwatch.",
+    "Frameworks like OKRs and Jobs-to-be-Done can lead to user-hostile products if not balanced with strong product taste.",
+    "Standalone consumer apps for specific features (like live video) often fail due to retention; they usually work better as features within a larger platform.",
+    "Refining the core product often drives the most growth, but neglecting big bets leads to stagnation and lack of ambition.",
+    "Staff risky projects with 'believers' rather than just available resources to ensure the resilience needed to survive internal skepticism."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Sacred Cows' Roadmap Strategy",
+      "name_zh": "“神圣不可侵犯”路线图策略",
+      "category": "team-culture",
+      "problemItSolves": "Overcoming organizational stagnation and risk aversion in mature products where employees feel nothing can be changed.",
+      "problemItSolves_zh": "解决成熟产品组织中的停滞不前和规避风险的问题，特别是当员工认为现有规则无法撼动时。",
+      "summary": "Instead of avoiding the untouchable legacy features or rules of a product, explicitly target them as the priority list for innovation. Breaking these rules signals to the entire organization that the culture has shifted from preservation to ambition.",
+      "summary_zh": "不要回避产品中那些看似“不可触碰”的遗留功能或规则，而是将其作为创新的优先事项。通过打破这些陈规，向整个组织释放强烈的信号：文化已从“守成”转向“进取”。",
+      "principles": [
+        "Identify the 'Sacred Cows': List everything the team thinks they aren't allowed to change (e.g., chronological feed, 140 chars).",
+        "Target Cultural Signals: Choose projects not just for metrics, but to prove that the old rules no longer apply.",
+        "Execute Boldly: Use these changes to break the 'learned helplessness' of the product team."
+      ],
+      "principles_zh": [
+        "识别“圣牛”：列出团队认为绝对不能修改的所有事项（例如时间序的时间线、140字限制）。",
+        "锚定文化信号：选择项目的标准不仅基于指标，更在于证明旧规则已不再适用。",
+        "大胆执行：利用这些变革来打破产品团队的“习得性无助”。"
+      ],
+      "whenToUse": "When joining a legacy company or trying to revitalize a stagnant product culture.",
+      "whenToUse_zh": "当加入一家传统大厂或试图重振停滞的产品文化时。",
+      "commonMistakes": "Attacking sacred cows without executive alignment, leading to political suicide before value is proven.",
+      "commonMistakes_zh": "在未获得高层对齐的情况下攻击既得利益点，导致在证明价值前就陷入政治危机。",
+      "quote": "The sacred cows are like their own roadmap. What are all the things that you think we're not allowed to change? Let's start there.",
+      "realWorldExample": "Twitter moving from a purely reverse-chronological timeline to an algorithmic ranked feed, and adding the ability to hide replies (which was previously considered anti-free speech internally).",
+      "realWorldExample_zh": "Twitter 将纯时间序的时间线改为算法推荐流，并增加了隐藏回复的功能（这在内部曾被认为违背了言论自由原则）。"
+    },
+    {
+      "name": "The 'Founder-Led Silo' Innovation Model",
+      "name_zh": "“创始人驱动型孤岛”创新模式",
+      "category": "execution",
+      "problemItSolves": "Inability to innovate within a large, bureaucratic functional organization where consensus kills speed.",
+      "problemItSolves_zh": "在大型、官僚化的职能型组织中，因过度追求共识而扼杀创新速度的问题。",
+      "summary": "Acquire small startups specifically for their entrepreneurial talent ('acqui-hires') and give them a protected silo within the large company to build a specific risky bet. Shield them from standard OKRs and integration taxes initially.",
+      "summary_zh": "通过“人才并购”收购小型创业公司，专门引入具有创业精神的人才，并在大公司内部为他们提供受保护的“孤岛”环境来构建高风险项目。初期避免让他们背负标准的 OKR 和集成负担。",
+      "principles": [
+        "Hire for Obsession: Staff projects with founders who are irrationally obsessed with the problem.",
+        "Create Protected Silos: Allow these teams to operate like startups, bypassing standard corporate processes temporarily.",
+        "Balance Integration: Know when to keep them separate (speed) vs. when to integrate (scale).",
+        "Portfolio Approach: Treat these as seed bets; assume some will fail."
+      ],
+      "principles_zh": [
+        "为“痴迷”而招聘：让对问题有非理性执着的创始人来主导项目。",
+        "建立受保护的孤岛：允许这些团队像初创公司一样运作，暂时绕过标准的公司流程。",
+        "平衡集成时机：明确何时保持独立（为了速度）以及何时进行集成（为了规模）。",
+        "投资组合思维：将这些视为种子轮投资，接受部分项目会失败的现实。"
+      ],
+      "whenToUse": "When a large company needs to launch a 0-to-1 product (like Spaces or Stories) that conflicts with the core business mechanics.",
+      "whenToUse_zh": "当大公司需要推出从0到1的产品（如 Spaces 或 Stories），且该产品与核心业务机制存在冲突时。",
+      "commonMistakes": "Forcing the startup team to integrate with the legacy tech stack too early, or staffing the team with available employees instead of passionate believers.",
+      "commonMistakes_zh": "强迫创业团队过早集成到遗留的技术栈中，或者用“现有空闲”的员工而非充满激情的“信徒”来填充团队。",
+      "quote": "You need a special type of person to be able to both operate within the existing structure and change the structure, to know when to use the system and to know when to f*ck the system.",
+      "realWorldExample": "Twitter acquired the team behind Chroma Labs to build 'Communities', and the team behind Breaker to build 'Spaces', allowing them to bypass internal bureaucracy.",
+      "realWorldExample_zh": "Twitter 收购了 Chroma Labs 团队来开发“Communities”，收购了 Breaker 团队来开发“Spaces”，使他们能够绕过内部官僚流程。"
+    },
+    {
+      "name": "The 'Taste-Check' Calibration",
+      "name_zh": "“品味优先”的框架校准法",
+      "category": "product-strategy",
+      "problemItSolves": "Product teams shipping user-hostile features because they strictly followed frameworks (OKRs, Jobs-to-be-Done) or optimized for short-term metrics.",
+      "problemItSolves_zh": "产品团队因严格遵循框架（如 OKR、Jobs-to-be-Done）或优化短期指标，而发布了用户体验极差的功能。",
+      "summary": "Frameworks are tools, not religion. If a framework or metric optimization leads to a decision that feels subjectively bad to a power user (product taste), the framework is failing. Leadership must intervene with qualitative judgment.",
+      "summary_zh": "框架是工具，不是宗教。如果一个框架或指标优化导致的决策在重度用户看来体验极差（产品品味），那么这个框架就是失效的。领导层必须介入并进行定性判断。",
+      "principles": [
+        "Be the Customer: Product leaders must be voracious users to detect when metrics mask bad UX.",
+        "Override Metrics with Taste: If a feature drives DAU but annoys users (e.g., confusing toggles), kill it.",
+        "Avoid Religious Adherence: Don't follow Jobs-to-be-Done if it creates unnecessary process without insight."
+      ],
+      "principles_zh": [
+        "成为超级用户：产品领导者必须是贪婪的用户，以便察觉指标何时掩盖了糟糕的体验。",
+        "用品味否决指标：如果一个功能提升了 DAU 但惹恼了用户（例如令人困惑的开关），就砍掉它。",
+        "避免教条主义：如果 Jobs-to-be-Done 只是增加了流程而没有带来洞察，不要盲目跟随。"
+      ],
+      "whenToUse": "When data dictates a direction that common sense or user empathy suggests is annoying or hostile.",
+      "whenToUse_zh": "当数据指向的方向与常识或用户同理心相悖，导致体验令人恼火或敌对时。",
+      "commonMistakes": "Assuming that if DAU/Revenue goes up, the product is getting better, while ignoring long-term trust erosion.",
+      "commonMistakes_zh": "误以为只要 DAU 或营收增长产品就在变好，而忽视了长期信任的侵蚀。",
+      "quote": "Every framework at its limit is followed to such a religious extent it's just unhelpful... Sometimes it's just good old-fashioned judgment and product taste.",
+      "realWorldExample": "Twitter engineers wanted to keep a confusing toggle that switched users back to the algorithmic feed automatically because it increased time-spent metrics, even though users hated losing their chronological feed preference.",
+      "realWorldExample_zh": "Twitter 工程师曾希望保留一个令人困惑的开关，该开关会自动将用户切回算法推荐流，因为这增加了用户时长指标，尽管用户非常讨厌失去他们设置的时间序偏好。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The sacred cows are like their own roadmap. What are all the things that you think we're not allowed to change? Let's start there.",
+      "context": "On how he decided what to build first to change Twitter's risk-averse culture."
+    },
+    {
+      "text": "When you got nothing to do, sweep. Never sit around.",
+      "context": "A life motto learned from his first job fixing fire extinguishers, emphasizing work ethic and proactiveness."
+    },
+    {
+      "text": "You can't change culture without having alignment from the top... It is difficult to change culture when you have a pocket of a company trying to advocate for change.",
+      "context": "Reflecting on the difficulty of driving product velocity before Parag Agrawal aligned the organizational structure."
+    },
+    {
+      "text": "It's very difficult to change culture with one hand tied behind your back.",
+      "context": "On trying to lead product without having engineering and design reporting to him in a functional org structure."
+    }
+  ],
+  "filename": "Kayvon Beykpour"
+}

@@ -1,0 +1,147 @@
+{
+  "guest": {
+    "name": "Julian Shapiro",
+    "title": "Founder of Demand Curve & General Partner at Hyper",
+    "company": "Demand Curve / Hyper",
+    "background": "A polymath of the internet—writer, investor, and developer. He founded Demand Curve (a YC startup training growth), created a widely used JavaScript animation engine (Velocity.js), and writes popular deep-dive handbooks on growth and creating leverage.",
+    "background_zh": "互联网全才——作家、投资人和开发者。他是 Demand Curve（YC投资的增长培训公司）的创始人，开发过被广泛使用的 JavaScript 动画引擎 (Velocity.js)，并撰写了大量关于增长和杠杆效应的深度手册。"
+  },
+  "episodeSummary": "Julian Shapiro breaks down his rigorously tested frameworks for product growth and content creation. He distinguishes Product-Led Acquisition from standard PLG, introduces the \"Building State\" concept for retention, and shares his specific formulas for high-quality writing and unlocking creativity.",
+  "episodeSummary_zh": "Julian Shapiro 拆解了他经过严格验证的产品增长和内容创作框架。他区分了“产品驱动获客”(PLA) 与普通 PLG 的概念，引入了用于提升留存的“构建状态”(Building State) 概念，并分享了他用于高质量写作和激发创造力的具体公式。",
+  "keyTakeaways": [
+    "Product-Led Acquisition (PLA) leverages the product's natural usage to drive zero-cost growth.",
+    "True retention comes from 'Building State'—users accruing value (reputation, audience, data) that makes leaving painful.",
+    "Most companies lack 'Moats'; they just have high retention mechanisms.",
+    "High-quality writing is defined by the equation: Novelty × Resonance.",
+    "To generate great ideas, you must flush the 'wastewater' (bad ideas) out of your 'Creativity Faucet' first."
+  ],
+  "methodologies": [
+    {
+      "name": "Product-Led Acquisition (PLA)",
+      "name_zh": "产品驱动获客 (PLA)",
+      "category": "growth-metrics",
+      "problemItSolves": "Scalable growth without relying on volatile channels like paid ads or SEO algorithms.",
+      "problemItSolves_zh": "解决过度依赖付费广告或 SEO 算法波动的问题，实现可扩展的零边际成本增长。",
+      "summary": "Distinct from general PLG (which often just means self-serve), PLA occurs when the *natural usage* of the product inherently invites new users or advertises the brand.",
+      "summary_zh": "区别于通常指代“自助服务”的 PLG，PLA 指的是用户在*自然使用*产品的过程中，内生性地邀请新用户或为品牌做广告。",
+      "principles": [
+        "Settling Debts/Assets: Users must invite others to complete a transaction (e.g., sending money, transferring NFTs).",
+        "Conversations: Users invite others to access a specific, gated discussion.",
+        "Billboarding: Utilizing the product's 'surface area' to advertise itself during usage (e.g., 'Sent from iPhone').",
+        "User Generated Content (UGC): Users create content to share externally, driving traffic back to the platform."
+      ],
+      "principles_zh": [
+        "结清债务/资产交付：用户必须邀请他人才能完成交易（如转账、转移 NFT）。",
+        "对话邀请：用户必须邀请他人才能进行特定的、封闭的对话。",
+        "广告牌效应 (Billboarding)：利用产品的“表面积”在使用过程中自我推广（如邮件签名的“Sent from iPhone”）。",
+        "用户生成内容 (UGC)：用户创作内容并分享到外部平台，从而将流量回流至产品。"
+      ],
+      "whenToUse": "Ideally during the ideation phase to bake growth into the product DNA, or when roadmapping new features.",
+      "whenToUse_zh": "最理想是在产品构思阶段将其植入产品 DNA，或在规划新功能路线图时使用。",
+      "commonMistakes": "Confusing PLA with referral programs. Referrals are bolted-on incentives; PLA is organic usage.",
+      "commonMistakes_zh": "混淆 PLA 与推荐奖励计划 (Referral Programs)。推荐奖励是外挂的激励机制，而 PLA 是有机的产品使用行为。",
+      "quote": "If you settle the debt of something you owe someone and they must make an account to capture the thing owed, they're going to sign up.",
+      "realWorldExample": "Calendly (Billboarding): You have to share your link to use it; PayPal (Settling Debt): Recipient must create an account to get money.",
+      "realWorldExample_zh": "Calendly（广告牌效应）：你必须分享链接才能使用它；PayPal（结清债务）：接收方必须创建账户才能收款。"
+    },
+    {
+      "name": "Building State (Retention Framework)",
+      "name_zh": "构建用户状态 (Building State)",
+      "category": "product-strategy",
+      "problemItSolves": "Reducing churn by increasing switching costs through user investment.",
+      "problemItSolves_zh": "通过增加用户投入成本来提高转换壁垒，从而降低流失率。",
+      "summary": "Based on gaming psychology, this framework encourages users to accrue 'state' (assets, reputation, data) within the product. The more state they build, the harder it is to leave.",
+      "summary_zh": "基于游戏心理学，该框架鼓励用户在产品中积累“状态”（资产、声誉、数据）。用户构建的“状态”越多，离开的成本就越高。",
+      "principles": [
+        "Non-transferable Reputation: Users build trust scores that cannot be moved to competitors.",
+        "Non-transferable Audience: Creators build a follower graph that is locked to the platform.",
+        "Accrued Social Graph: The effort spent finding and connecting with a network creates a lock-in effect."
+      ],
+      "principles_zh": [
+        "不可转移的声誉：用户建立的信任评分无法迁移到竞争对手平台。",
+        "不可转移的受众：创作者建立的粉丝图谱被锁定在平台内。",
+        "累积的社交图谱：用户花费时间寻找和连接网络所付出的努力，形成了锁定效应。"
+      ],
+      "whenToUse": "When designing core loops for marketplaces, social networks, or SaaS tools where data accumulation is possible.",
+      "whenToUse_zh": "在设计交易平台、社交网络或具备数据积累能力的 SaaS 工具的核心循环时使用。",
+      "commonMistakes": "Allowing easy export of the core value driver (e.g., Substack allowing email export reduces their 'state' lock-in).",
+      "commonMistakes_zh": "允许轻易导出核心价值驱动因素（例如 Substack 允许导出邮件列表，这降低了其“状态”锁定能力，虽然对用户友好但降低了壁垒）。",
+      "quote": "The rich keep getting richer... Once users build momentum, they're less likely to switch to a competitor.",
+      "realWorldExample": "eBay/Airbnb: Sellers have years of reviews (reputation) they can't take elsewhere.",
+      "realWorldExample_zh": "eBay/Airbnb：卖家拥有多年积累的评论（声誉），无法带到其他平台。"
+    },
+    {
+      "name": "The Quality Equation (Novelty × Resonance)",
+      "name_zh": "内容质量公式 (新颖性 × 共鸣)",
+      "category": "execution",
+      "problemItSolves": "Creating content or communication that actually engages people and builds an audience.",
+      "problemItSolves_zh": "创作真正能吸引人并建立受众的内容或沟通方式。",
+      "summary": "Great writing isn't just about grammar; it's about delivering new ideas (Novelty) in a way that sticks (Resonance).",
+      "summary_zh": "优秀的写作不仅仅关于语法，而是关于以令人印象深刻的方式（共鸣）传递新观点（新颖性）。",
+      "principles": [
+        "Novelty Type 1 - Counterintuitive: 'I wouldn't have thought the world works that way.'",
+        "Novelty Type 2 - Counter-narrative: 'I've been told X, but actually Y is true.'",
+        "Novelty Type 3 - Elegant Articulation: Putting a complex feeling into perfect words.",
+        "Resonance: Using stories, analogies, and examples to make the novelty 'lift off the page'."
+      ],
+      "principles_zh": [
+        "新颖性类型 1 - 反直觉：'我没想到世界是这样运作的。'",
+        "新颖性类型 2 - 反叙事/反共识：'大家都说 X，但其实 Y 才是真的。'",
+        "新颖性类型 3 - 优雅表达：用完美的语言总结一种复杂的感觉。",
+        "共鸣：使用故事、类比和案例，让新颖的观点跃然纸上，深入人心。"
+      ],
+      "whenToUse": "When writing PRDs, blog posts, Twitter threads, or internal memos.",
+      "whenToUse_zh": "在撰写 PRD、博客文章、Twitter 推文或内部备忘录时使用。",
+      "commonMistakes": "Thinking novelty is just 'trivia'. Without resonance, novelty is dry. Without novelty, resonance is just fluffy storytelling.",
+      "commonMistakes_zh": "误以为新颖性只是“冷知识”。没有共鸣，新颖性是干瘪的；没有新颖性，共鸣只是空洞的故事。",
+      "quote": "Writing quality equals novelty times resonance.",
+      "realWorldExample": "Julian's tweet about reading books being a 'vanity metric' (Counter-narrative novelty).",
+      "realWorldExample_zh": "Julian 的推文提到“阅读大量书籍是成人的虚荣指标”（反叙事新颖性）。"
+    },
+    {
+      "name": "The Creativity Faucet",
+      "name_zh": "创意水龙头 (The Creativity Faucet)",
+      "category": "execution",
+      "problemItSolves": "Overcoming writer's block and the fear of producing bad work.",
+      "problemItSolves_zh": "克服写作障碍以及对产出劣质工作的恐惧。",
+      "summary": "Creativity is like a pipe backed up with wastewater. You must flow through the bad ideas to clear the pipe before the clear water (good ideas) can flow.",
+      "summary_zh": "创造力就像一根堵着污水的管子。你必须先让坏主意流出来，排空管子，清澈的水（好主意）才会流出来。",
+      "principles": [
+        "Accept the Wastewater: The first ideas are usually weak imitations or clichés.",
+        "Pattern Matching: By expressing bad ideas, your brain identifies *why* they are bad and reflexively avoids those patterns.",
+        "Discipline of Emptying: Don't walk away because you aren't struck with gold immediately. Finish the process of emptying the bad ideas."
+      ],
+      "principles_zh": [
+        "接受污水：最初的想法通常是拙劣的模仿或陈词滥调。",
+        "模式匹配：通过写出坏主意，大脑会识别出它们*为什么*坏，并本能地避开这些模式。",
+        "排空的纪律：不要因为没有立刻得到金点子就走开。必须完成排空坏主意的过程。"
+      ],
+      "whenToUse": "At the start of any creative session (coding, writing, designing).",
+      "whenToUse_zh": "在任何创造性时段（编程、写作、设计）开始时使用。",
+      "commonMistakes": "Self-editing too early. Resisting the bad ideas stops the flow entirely.",
+      "commonMistakes_zh": "过早自我审查。抗拒坏主意会彻底阻断创意流。",
+      "quote": "Why do good ideas arrive after the bad ideas are empty? It's because... your brain starts reflexively identifying what elements are causing the badness.",
+      "realWorldExample": "Process used by Ed Sheeran, Neil Gaiman, and John Mayer.",
+      "realWorldExample_zh": "Ed Sheeran, Neil Gaiman 和 John Mayer 都在使用的创作流程。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Don't start a startup where you need to go through someone else to get users.",
+      "context": "Quoting Paul Graham to emphasize the importance of Product-Led Acquisition."
+    },
+    {
+      "text": "The rich keep getting richer.",
+      "context": "Describing the compounding effect of 'Building State' in retention strategies."
+    },
+    {
+      "text": "Reading many books is the most socially accepted vanity metric for adults.",
+      "context": "An example of 'Counter-Narrative Novelty' in writing."
+    },
+    {
+      "text": "Most creators are resisting their bad ideas. If you sat down, scribbled a few thoughts... and just walked away because you weren't struck with gold, then you never actually finished the creative process.",
+      "context": "Explaining the 'Creativity Faucet' methodology."
+    }
+  ],
+  "filename": "Julian Shapiro"
+}

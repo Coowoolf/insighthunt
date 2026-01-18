@@ -1,0 +1,124 @@
+{
+  "guest": {
+    "name": "Keith Coleman & Jay Baxter",
+    "title": "Product Lead (Keith) & Founding ML Engineer (Jay) for Community Notes",
+    "company": "X (formerly Twitter)",
+    "background": "Keith Coleman is a veteran product leader who previously led Consumer Product at Twitter before founding the Community Notes (formerly Birdwatch) team. Jay Baxter is the founding machine learning engineer who architected the bridging-based algorithm that powers the system.",
+    "background_zh": "Keith Coleman 是资深产品负责人，曾领导 Twitter 的消费者产品部门，随后创立了 Community Notes（前身为 Birdwatch）团队。Jay Baxter 是该项目的创始机器学习工程师，架构了驱动该系统的“跨阵营共识”算法。"
+  },
+  "episodeSummary": "Keith Coleman and Jay Baxter reveal the inner workings of Community Notes, X's decentralized fact-checking system that has revolutionized online moderation. They discuss the \"Bridging-based\" algorithm that prioritizes consensus across polarized groups, the \"Thermal\" team structure that allows them to ship fast with a lean team, and the counter-intuitive product principles—like anonymity and open-sourcing algorithms—that built user trust.",
+  "episodeSummary_zh": "Keith Coleman 和 Jay Baxter 揭秘了 Community Notes（社区笔记）的内部运作机制，这是 X 平台革命性的去中心化事实核查系统。他们深入探讨了优先考虑跨群体共识的“跨阵营”算法、允许小团队快速交付的“Thermal”组织架构，以及那些建立用户信任的反直觉产品原则（如匿名机制和算法开源）。",
+  "keyTakeaways": [
+    "Community Notes uses a 'Bridging-based ranking' algorithm, not majority rule, requiring agreement from users who typically disagree.",
+    "The 'Thermal' team model operates like a startup within a big corp: small autonomous teams, no middle management, and direct lines to executive decision-makers.",
+    "Paradoxically, anonymous contributors are more likely to cross partisan lines and agree on facts than those using real names.",
+    "Open sourcing the algorithm and data was critical for trust; users can audit and replicate the system's decisions.",
+    "Community Notes reduces the virality of misinformation by 50-60% without actually deleting the content.",
+    "Launch strategy: Prove viability at every step (Mockups -> MTurk -> Pilot -> Scale) to overcome internal skepticism."
+  ],
+  "methodologies": [
+    {
+      "name": "Bridging-Based Ranking Framework",
+      "name_zh": "跨阵营共识排序框架",
+      "category": "product-strategy",
+      "problemItSolves": "Solving the problem of polarization and bias in crowdsourced moderation, where a simple majority vote would just reflect the dominant group's opinion.",
+      "problemItSolves_zh": "解决众包审核中的极化和偏见问题，避免简单的“少数服从多数”投票机制导致的回音室效应。",
+      "summary": "Instead of asking 'is this note popular?', the algorithm asks 'is this note helpful to people who usually disagree?'. It utilizes matrix factorization to identify user clusters and only surfaces content that bridges the divide between polarized groups.",
+      "summary_zh": "该算法的核心逻辑不是问“这条笔记受欢迎吗？”，而是问“这条笔记对通常持不同意见的人是否有帮助？”。它利用矩阵分解技术识别用户群组，仅展示那些能跨越极化鸿沟、获得跨阵营认可的内容。",
+      "principles": [
+        "Identifies 'polarized' clusters based on past rating behavior.",
+        "Requires a 'Bridging Signal': Positive ratings must come from diverse viewpoints, not just one side.",
+        "Prioritizes context over censorship: Add context to misleading posts rather than deleting them.",
+        "Considers 'Helpfulness' as the North Star Metric, defined by cross-partisan agreement."
+      ],
+      "principles_zh": [
+        "基于历史评分行为识别“极化”的用户群组。",
+        "强制“跨越信号”：正面评分必须来自持不同观点的用户，而非单一阵营。",
+        "重上下文轻审查：为误导性帖子添加背景信息，而非直接删除。",
+        "将“跨阵营认可的有用性”作为北极星指标。"
+      ],
+      "whenToUse": "When building moderation systems, reputation systems, or recommendation engines in highly polarized or subjective environments.",
+      "whenToUse_zh": "适用于在高度极化或主观的环境中构建内容审核系统、信誉系统或推荐引擎时。",
+      "commonMistakes": "Relying on simple majority voting (Mob Rule) or using engagement metrics (Likes) as a proxy for truth/quality.",
+      "commonMistakes_zh": "依赖简单的多数投票（导致多数人的暴政）或将互动指标（如点赞）误作为真实性或质量的代理指标。",
+      "quote": "We actually look for agreement from people who have disagreed in the past... that's what makes the notes so neutral and accurate.",
+      "realWorldExample": "During the Israel-Hamas conflict, despite extreme polarization, Community Notes successfully surfaced factual corrections because the algorithm filtered for objective facts that both sides implicitly acknowledged.",
+      "realWorldExample_zh": "在巴以冲突期间，尽管舆论极度对立，Community Notes 仍成功展示了事实修正，因为算法筛选出了双方隐含承认的客观事实，而非情绪化观点。"
+    },
+    {
+      "name": "The 'Thermal' Team Operating Model",
+      "name_zh": "Thermal（热气流）敏捷团队模式",
+      "category": "execution",
+      "problemItSolves": "Overcoming the slow velocity, bureaucracy, and 'design-by-committee' paralysis often found in large organizations.",
+      "problemItSolves_zh": "克服大公司常见的迭代缓慢、官僚主义以及“委员会式设计”导致的决策瘫痪。",
+      "summary": "A governance structure that insulates a small, mission-driven team from corporate inertia. It mimics early-stage startups by removing middle management and focusing 100% on shipping code.",
+      "summary_zh": "一种将小型任务导向团队与大公司惯性隔离的治理结构。它通过去除中间管理层并100%专注于交付代码，在企业内部模拟早期创业公司的运作。",
+      "principles": [
+        "Single-Threaded Leadership: One 'Founder' lead with a direct line to the ultimate decision maker (e.g., Elon/CEO).",
+        "Radical Focus: Team members are 100% dedicated to the project, no split allocation.",
+        "Lean Staffing: Start with exactly one of each necessary role (1 ML, 1 Backend, 1 Frontend, 1 Design).",
+        "Tooling Minimalism: Use Google Docs/spreadsheets instead of heavy Jira/Asana processes to manage tasks."
+      ],
+      "principles_zh": [
+        "单线程领导力：一位“创始人”角色的负责人，直接向最终决策者（如CEO）汇报。",
+        "极致聚焦：团队成员100%投入该项目，严禁资源分散。",
+        "精益配置：每个必要角色仅配置一人（1个算法、1个后端、1个前端、1个设计）起步。",
+        "极简工具链：使用 Google Docs/表格而非繁重的 Jira/Asana 流程来管理任务。"
+      ],
+      "whenToUse": "When launching a 0-to-1 product within a mature company, or when speed of iteration is the primary success factor.",
+      "whenToUse_zh": "在成熟公司内部启动 0-1 的创新产品时，或当迭代速度是首要成功因素时。",
+      "commonMistakes": "Adding more engineers too early (Mythical Man-Month), or allowing external dependencies/middle managers to dictate the roadmap.",
+      "commonMistakes_zh": "过早增加工程师人数（人月神话陷阱），或允许外部依赖方/中层管理者干预产品路线图。",
+      "quote": "If I were to start a company... it would be even leaner than I would've made it before. I've been amazed with just how much the team is able to accomplish with a small group.",
+      "realWorldExample": "The team runs a global-scale product impacting billions of views with a tiny core team, managing the entire roadmap via a single, 4-year-old Google Doc.",
+      "realWorldExample_zh": "该团队仅凭极小的核心成员就运营着影响数十亿次浏览的全球级产品，并通过一个使用了4年的 Google 文档管理整个产品路线图。"
+    },
+    {
+      "name": "Progressive De-risking Launch Strategy",
+      "name_zh": "渐进式去风险发布策略",
+      "category": "product-strategy",
+      "problemItSolves": "Launching a high-risk, controversial product (crowdsourced fact-checking) without damaging the brand or user trust.",
+      "problemItSolves_zh": "在不损害品牌或用户信任的前提下，发布高风险、具争议性的产品（如众包事实核查）。",
+      "summary": "A methodical approach to validation where the product must 'earn' its next expansion by proving quality metrics at the current stage. It moves from static concepts to restricted pilots before public rollout.",
+      "summary_zh": "一种有条不紊的验证方法，产品必须通过证明当前阶段的质量指标合格，才能“赢得”下一阶段的扩展机会。流程从静态概念验证过渡到受限试点，最后才进行公开推广。",
+      "principles": [
+        "Concept Validation: Test static mockups with diverse user groups to prove the *demand* for truth exists.",
+        "Capability Validation: Use MTurk/Contractors to prove average humans *can* write high-quality notes.",
+        "Controlled Pilot: Launch to a small group (e.g., 1k users) to refine the algorithm.",
+        "Quality Gate: Never expand until the 'Bridging' metric proves the system is working effectively."
+      ],
+      "principles_zh": [
+        "概念验证：利用静态原型对不同用户群组进行测试，证明用户对“真相”的*需求*确实存在。",
+        "能力验证：利用 MTurk/外包人员证明普通人*有能力*撰写高质量的笔记。",
+        "受控试点：面向小规模群体（如1000人）发布，以打磨核心算法。",
+        "质量门禁：在“跨阵营共识”指标证明系统有效运作之前，绝不盲目扩张。"
+      ],
+      "whenToUse": "When building trust-sensitive systems or when internal stakeholders are skeptical about user capability.",
+      "whenToUse_zh": "构建对信任度敏感的系统时，或内部利益相关者对用户能力持怀疑态度时。",
+      "commonMistakes": "Launching globally based on internal conviction rather than proven external data points.",
+      "commonMistakes_zh": "仅凭内部信念而非经过验证的外部数据点就进行全球发布。",
+      "quote": "We were very disciplined... about having the product prove itself at every given point.",
+      "realWorldExample": "Before launching publicly, they validated that even partisan users appreciated notes correcting their 'own side' via static Figma mockups and user interviews.",
+      "realWorldExample_zh": "在公开发布之前，他们通过静态 Figma 原型和用户访谈验证了即使是党派倾向明显的用户，也愿意接受纠正“己方阵营”观点的笔记。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The work that you guys do has had such a tremendous impact on the way the world works.",
+      "context": "Lenny opening the podcast emphasizing the global scale of Community Notes."
+    },
+    {
+      "text": "One philosophical thing that's important is that we want all of humanity to participate... We have the data to understand what notes will be helpful to actual humanity.",
+      "context": "Keith Coleman explaining why they don't use professional fact-checkers."
+    },
+    {
+      "text": "Deleting code is more important than writing it a lot of the time.",
+      "context": "Jay Baxter on how small teams maintain velocity by avoiding technical debt."
+    },
+    {
+      "text": "If you write one that people normally disagree find not helpful, you actually will ultimately lose your ability to write.",
+      "context": "Keith Coleman on the reputation penalties in the system."
+    }
+  ],
+  "filename": "Keith Coleman & Jay Baxter"
+}

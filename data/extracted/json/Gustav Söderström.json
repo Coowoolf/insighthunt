@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Gustav Söderström",
+    "title": "Co-President, CPO & CTO",
+    "company": "Spotify",
+    "background": "Gustav Söderström is a product and technology veteran who has been with Spotify for over 14 years, overseeing the company's global product and technology strategy. He previously founded a mobile startup acquired by Yahoo and now manages Spotify's product design, data, and engineering teams.",
+    "background_zh": "Gustav Söderström 是 Spotify 的联席总裁兼首席产品官和首席技术官，他在 Spotify 任职超过 14 年，负责公司的全球产品和技术战略。加入 Spotify 前，他创立的一家移动初创公司被雅虎收购。目前他全面统管 Spotify 的产品设计、数据和工程团队。"
+  },
+  "episodeSummary": "Gustav discusses Spotify's evolution from manual curation to AI generation, sharing critical lessons on designing user interfaces for imperfect machine learning models. He reveals why Spotify moved away from its famous 'Squads' model towards VP-level autonomy and provides a candid breakdown of a recent homepage redesign that failed to balance user 'recall' versus 'discovery'.",
+  "episodeSummary_zh": "Gustav 探讨了 Spotify 从人工策展向 AI 生成的演变，分享了为不完美的机器学习模型设计用户界面的关键教训。他揭示了 Spotify 为何放弃著名的“Squads（小队）”模式转而采用 VP 级自主权架构，并坦诚复盘了近期一次因未能平衡用户“召回”与“发现”需求而受挫的首页改版经历。",
+  "filename": "Gustav Söderström"
+}

@@ -12,6 +12,7 @@ export function Header() {
     const t = (en: string, zh: string) => isChineseRoute ? zh : en;
     const homeLink = isChineseRoute ? '/cn' : '/';
     const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
+    const episodesLink = isChineseRoute ? '/cn/episodes' : '/episodes';
 
     return (
         <header className="glass-header sticky top-0 z-50">
@@ -32,6 +33,9 @@ export function Header() {
                     <nav className="hidden md:flex items-center gap-6">
                         <Link href={homeLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Methodologies', '方法论')}
+                        </Link>
+                        <Link href={episodesLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
+                            {t('Episodes', '播客')}
                         </Link>
                         <Link href={guestsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium">
                             {t('Guests', '嘉宾')}

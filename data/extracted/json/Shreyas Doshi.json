@@ -1,0 +1,140 @@
+{
+  "guest": {
+    "name": "Shreyas Doshi",
+    "title": "Product Leader & Advisor",
+    "company": "Formerly Stripe, Twitter, Google, Yahoo",
+    "background": "Shreyas is a highly influential product thought leader known for his actionable frameworks and contrarian insights. He has led product teams at major tech companies including Stripe, Twitter, and Google, and now focuses on advising and teaching product management.",
+    "background_zh": "Shreyas 是一位极具影响力的产品思想领袖，以其可落地的思维框架和反直觉的深刻洞见而闻名。他曾在 Stripe、Twitter 和 Google 等科技巨头领导产品团队，目前专注于产品管理的顾问与教学工作。"
+  },
+  "episodeSummary": "In this masterclass episode, Shreyas Doshi breaks down five transformative concepts for product managers to elevate their career from execution to leadership. He discusses frameworks for time management, risk assessment, strategic alignment, and prioritization, emphasizing the importance of high agency and clear thinking.",
+  "episodeSummary_zh": "在本期大师课级别的访谈中，Shreyas Doshi 拆解了五个能帮助产品经理从执行层跃升至领导层的核心概念。他深入探讨了时间管理、风险评估、战略对齐和优先级排序的思维框架，并特别强调了“高能动性（High Agency）”和清晰思考的重要性。",
+  "keyTakeaways": [
+    "Most execution problems are actually strategy, culture, or people problems in disguise.",
+    "Do not just optimize for positive ROI; optimize for minimizing opportunity cost.",
+    "Use Pre-mortems to create psychological safety and identify 'Elephants' (unspoken risks) before launch.",
+    "Classify tasks using the LNO framework: Leverage (10x), Neutral (1x), and Overhead (<1x).",
+    "Product work happens at three levels: Impact, Execution, and Optics; misalignment here causes team conflict.",
+    "High Agency is the ability to achieve outcomes despite adverse conditions without waiting for permission."
+  ],
+  "methodologies": [
+    {
+      "name": "The Pre-Mortem Framework",
+      "name_zh": "事前验尸分析法 (Pre-Mortem)",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents failed launches and creates psychological safety for teams to voice concerns.",
+      "problemItSolves_zh": "防止产品发布失败，并为团队成员表达担忧创造心理安全感。",
+      "summary": "Instead of waiting for a post-mortem after a failure, the team imagines the project has already failed spectacularly in the future and works backward to determine why. This uncovers hidden risks that polite corporate culture usually suppresses.",
+      "summary_zh": "与其在失败后进行复盘（尸检），不如让团队想象项目在未来已经彻底失败，并反推导致失败的原因。这种方法能挖掘出通常被礼貌的企业文化所掩盖的隐性风险。",
+      "principles": [
+        "The Prompt: Start by stating, 'Imagine it is 6 months from now and this project has failed miserably.'",
+        "Categorize Risks: Identify 'Tigers' (fatal threats), 'Paper Tigers' (perceived but fake threats), and 'Elephants' (unspoken truths).",
+        "Voting: Have team members vote on the scariest tiger identified by *someone else*."
+      ],
+      "principles_zh": [
+        "设定情境：开场即宣布“想象现在是6个月后，这个项目已经彻底惨败”。",
+        "风险分类：识别“猛虎”（致命威胁）、“纸老虎”（虚惊一场）和“房间里的大象”（大家避而不谈的真相）。",
+        "交叉投票：让团队成员投票选出由*其他人*提出的最可怕的风险点。"
+      ],
+      "whenToUse": "Before kicking off any major initiative, product launch, or high-stakes project.",
+      "whenToUse_zh": "在任何重大项目启动、产品发布或高风险任务开始之前。",
+      "commonMistakes": "Treating it as a standard risk assessment meeting without the 'imagined failure' prompt, which reduces psychological safety.",
+      "commonMistakes_zh": "将其仅仅当作普通的风险评估会议，而忽略了“想象失败”这一核心设定，导致心理安全感不足，真话讲不出来。",
+      "quote": "If you do a pre-mortem right, you will not have to do an ugly post-mortem.",
+      "realWorldExample": "Shreyas used this at Stripe for major launches to surface 'elephants'—like questioning if a PR splash would actually result in sustained user adoption.",
+      "realWorldExample_zh": "Shreyas 在 Stripe 的重大发布中使用了此方法，成功挖掘出了“房间里的大象”——例如质疑仅仅依靠 PR 宣传是否真的能带来持续的用户增长。"
+    },
+    {
+      "name": "The LNO Framework",
+      "name_zh": "LNO 时间管理模型",
+      "category": "career-leadership",
+      "problemItSolves": "Helps PMs escape the trap of being overwhelmed by to-do lists and treating all tasks as equally important.",
+      "problemItSolves_zh": "帮助产品经理摆脱被待办事项淹没的困境，避免错误地将所有任务视为同等重要。",
+      "summary": "Categorize tasks into Leverage (L), Neutral (N), and Overhead (O). You should only strive for perfection on L tasks (10x-100x impact). For N and O tasks, 'good enough' or doing them quickly is the goal to free up time for L tasks.",
+      "summary_zh": "将任务分为杠杆类（L）、中性类（N）和行政/琐碎类（O）。你只应在能带来 10-100 倍回报的 L 类任务上追求完美；对于 N 和 O 类任务，目标是“过得去就行”或快速完成，从而为 L 类任务腾出时间。",
+      "principles": [
+        "Identify L Tasks: High leverage (10x impact). Apply perfectionism here. (e.g., Strategy, critical PRDs).",
+        "Manage N/O Tasks: Neutral/Overhead (1x or <1x impact). Do these strictly 'good enough' or delegate.",
+        "Placebo Productivity: Use N/O tasks to build momentum before tackling a scary L task."
+      ],
+      "principles_zh": [
+        "识别杠杆任务 (L)：高杠杆（10倍回报）。在此类任务上追求极致（如战略规划、核心 PRD）。",
+        "处理中性/琐碎任务 (N/O)：回报仅为1倍或更低。对此类任务严格执行“及格万岁”标准或进行委派。",
+        "安慰剂式生产力：在攻克令人畏惧的 L 类任务前，利用完成 N/O 类任务来建立工作状态惯性。"
+      ],
+      "whenToUse": "Daily prioritization and when feeling overwhelmed by an endless backlog of work.",
+      "whenToUse_zh": "在日常优先级排序时，以及感到被无尽的工作积压压得喘不过气时。",
+      "commonMistakes": "Applying perfectionism to O tasks (e.g., spending hours formatting an internal expense report or routine meeting notes).",
+      "commonMistakes_zh": "在 O 类任务上追求完美（例如：花几个小时去美化内部报销单或常规会议纪要的格式）。",
+      "quote": "The mistake is that we treat all tasks as created equal. They are not.",
+      "realWorldExample": "Writing a bug report can be an L task (if it's a critical, complex failure) or an O task (standard minor bug), and should be treated differently.",
+      "realWorldExample_zh": "撰写 Bug 报告既可能是 L 任务（如果是关键且复杂的系统故障），也可能是 O 任务（标准的小 Bug），应采取完全不同的处理态度。"
+    },
+    {
+      "name": "The Three Levels of Product Work",
+      "name_zh": "产品工作的三重境界 (Impact, Execution, Optics)",
+      "category": "team-culture",
+      "problemItSolves": "Explains misalignment between team members (e.g., PM vs. CEO) and helps diagnose why rational arguments fail.",
+      "problemItSolves_zh": "解释团队成员（如 PM 与 CEO）之间的错位，并诊断为什么理性的论证往往无法说服对方。",
+      "summary": "Product work happens at three levels: Impact (Business outcomes), Execution (Getting things done), and Optics (Internal awareness). Conflicts arise when one person is arguing from 'Execution' (it's hard to build) while the other is looking at 'Impact' (customers hate it).",
+      "summary_zh": "产品工作存在三个层面：影响力（商业结果）、执行力（把事做成）和观感（内部认知）。当一方在谈论“执行层”（这很难开发），而另一方着眼于“影响层”（客户讨厌这个）时，冲突就会发生。",
+      "principles": [
+        "Know Your Level: CEOs default to Impact; PMs often get stuck in Execution details.",
+        "Value Optics: Internal optics isn't just 'politics'; it creates energy, awareness, and trust.",
+        "Switch Contexts: To resolve conflict, explicitly identify which level the other person is operating on and match it."
+      ],
+      "principles_zh": [
+        "找准定位：CEO 通常默认关注影响力层；而 PM 往往陷入执行层的细节中。",
+        "重视观感：内部观感（Optics）不等于“办公室政治”；它是创造团队能量、认知度和信任感的关键。",
+        "切换语境：解决冲突时，需明确识别对方处于哪个层面，并调整自己的沟通频道与其对齐。"
+      ],
+      "whenToUse": "During product reviews, when communicating with leadership, or when team morale is low despite hard work.",
+      "whenToUse_zh": "在产品评审会、与高层沟通时，或者当团队明明很努力但士气低落时。",
+      "commonMistakes": "Dismissing 'Optics' as negative. Without optics, good work goes unnoticed and resources get cut.",
+      "commonMistakes_zh": "将“观感”视为贬义词。如果没有良好的内部呈现，优秀的工作成果会被忽视，资源也会被削减。",
+      "quote": "Optics creates awareness of the impact and execution. It creates energy.",
+      "realWorldExample": "A PM explaining delays due to technical debt (Execution) vs. a CEO asking why customer support tickets are spiking (Impact).",
+      "realWorldExample_zh": "PM 还在解释因技术债导致的延期（执行层），而 CEO 质问的是为什么客户投诉工单在激增（影响层）。"
+    },
+    {
+      "name": "Opportunity Cost Minimization",
+      "name_zh": "机会成本最小化原则",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from filling their roadmaps with 'low-hanging fruit' that yield low long-term value.",
+      "problemItSolves_zh": "防止团队用那些只有短期利益、长期价值极低的“低垂果实”填满路线图。",
+      "summary": "In high-leverage roles, there are infinite tasks with positive ROI. Focusing on ROI leads to picking small, quick wins (reducing the denominator of time). Instead, focus on minimizing opportunity cost—choosing the *best* possible use of time, not just a *good* one.",
+      "summary_zh": "在高杠杆职位中，正 ROI 的任务是无限的。过于关注 ROI 会导致倾向于选择容易上手的小任务（通过减少耗时分母来提高 ROI）。相反，应专注于最小化机会成本——即选择*最*有价值的事，而不仅仅是*有益*的事。",
+      "principles": [
+        "The ROI Trap: ROI formula incentivizes doing quick, small things rather than hard, big things.",
+        "Define Allocation: Use a framework like 60% Incrementals, 30% Big Bets, 10% Infrastructure.",
+        "The Question: Ask 'Is this the optimal use of time?' not 'Is this a good use of time?'"
+      ],
+      "principles_zh": [
+        "ROI 陷阱：ROI 公式的特性会诱导人们去做快速、微小的事，而不是艰难但巨大的事。",
+        "明确分配比例：采用如“60%增量迭代、30%重大押注、10%基础设施”的资源分配法则。",
+        "核心发问：要问“这是时间的最优用法吗？”，而不要问“这是时间的合理用法吗？”"
+      ],
+      "whenToUse": "Quarterly planning and roadmap prioritization.",
+      "whenToUse_zh": "在季度规划和产品路线图优先级排序时。",
+      "commonMistakes": "Prioritizing a list of 'quick wins' because they are easy to justify, while neglecting the difficult strategic bets.",
+      "commonMistakes_zh": "因为容易论证而优先排列一堆“速赢项目”，却忽略了那些艰难但关键的战略押注。",
+      "quote": "You should stop doing work that simply provides a positive return on investment and start focusing on work that minimizes opportunity cost.",
+      "realWorldExample": "At Stripe, Shreyas shifted focus from small incremental fixes (positive ROI) to a massive, scary refactor of marketplace payments (Connect) because the opportunity cost of not doing it was huge.",
+      "realWorldExample_zh": "在 Stripe 时，Shreyas 将重心从小的增量修补（正 ROI）转移到了一个巨大且令人畏惧的市场支付重构项目（Connect）上，因为不做的机会成本太大了。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The cave you fear to enter holds the treasure you seek.",
+      "context": "Lenny quoting Joseph Campbell in response to Shreyas discussing procrastination on high-leverage tasks."
+    },
+    {
+      "text": "Most execution problems are actually strategy problems or culture problems.",
+      "context": "Shreyas explaining that fixing execution with process bandaids often fails because the root cause is a lack of clear strategy."
+    },
+    {
+      "text": "High agency is about finding a way to get what you want without waiting for conditions to be perfect.",
+      "context": "The definition of the critical trait that separates average PMs from exceptional ones."
+    }
+  ],
+  "filename": "Shreyas Doshi"
+}

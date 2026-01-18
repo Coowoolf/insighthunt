@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Hari Srinivasan",
+    "title": "VP of Product",
+    "company": "LinkedIn",
+    "background": "Hari leads the Talent Solutions product team at LinkedIn, managing the company's largest business units including Hiring, Learning, and Jobs. He has been with LinkedIn for over 8.5 years and previously worked on the Profile product.",
+    "background_zh": "Hari 目前担任领英（LinkedIn）人才解决方案团队的产品副总裁，负责包括招聘、学习和求职在内的核心业务线。他在领英任职超过8.5年，早前曾负责用户档案（Profile）产品的打磨与迭代。"
+  },
+  "episodeSummary": "Hari discusses how LinkedIn manages its massive, complex ecosystem by aligning every decision to a single North Star: connecting people to economic opportunity. He shares frameworks for decision-making velocity in large organizations, the shift from title-based to skills-based hiring, and his model for evaluating Product Manager talent.",
+  "episodeSummary_zh": "Hari 探讨了领英如何通过将所有决策对齐到“连接经济机会”这一北极星指标，来管理其庞大且复杂的生态系统。他分享了大型组织中提升决策速度的框架、从“基于头衔”向“基于技能”招聘的转变，以及评估产品经理人才的独特模型。",
+  "keyTakeaways": [
+    "Great PMs live on the edges of the 'PM Triangle' (Creative, Data, GM), not in the middle.",
+    "Use the '5-Day Alignment Rule' to prevent decision paralysis in matrixed organizations.",
+    "Shift marketplace liquidity strategies from job titles to specific skills to balance supply and demand.",
+    "Simplify complex ecosystem decisions by asking: 'Does this connect a member to economic opportunity?'",
+    "Validate new product ideas by proving there is 'duct tape'—manual workarounds users are already doing.",
+    "Maintain PM muscles by building side projects (clay) to practice creating from a blank sheet."
+  ],
+  "methodologies": [
+    {
+      "name": "The Ecosystem North Star Filter",
+      "name_zh": "生态系统北极星决策法",
+      "category": "product-strategy",
+      "problemItSolves": "How to make consistent product decisions across a complex ecosystem with conflicting business models (e.g., ads vs. user experience vs. hiring).",
+      "problemItSolves_zh": "如何在拥有相互冲突的业务模式（如广告、用户体验、招聘业务）的复杂生态系统中，做出一致的产品决策。",
+      "summary": "Instead of optimizing for local metrics (like time spent or clicks), every feature prioritization is filtered through a single mission: 'Connecting people to economic opportunity.' This clarifies trade-offs immediately by focusing on the ultimate user outcome rather than intermediate business metrics.",
+      "summary_zh": "不局限于优化局部指标（如用户时长或点击率），而是将所有功能优先级的排期过滤到一个单一使命：“连接用户与经济机会”。通过关注最终用户结果而非中间商业指标，迅速厘清权衡取舍。",
+      "principles": [
+        "Principle 1: Define the Mission explicitly. At LinkedIn, it is 'Connecting to Economic Opportunity.'",
+        "Principle 2: Measure Outcomes, not inputs. Track 'Hires Made' or 'Skills Learned' rather than just 'Daily Active Users.'",
+        "Principle 3: Members First. When in doubt between revenue and member trust/opportunity, prioritize the member to sustain the ecosystem."
+      ],
+      "principles_zh": [
+        "原则一：明确使命。在领英，这被定义为“连接经济机会”。",
+        "原则二：衡量结果而非投入。追踪“成功入职数”或“技能习得数”，而非仅仅关注DAU。",
+        "原则三：会员优先（Members First）。当收入目标与会员信任或机会发生冲突时，优先考虑会员利益以维持生态系统的长期健康。"
+      ],
+      "whenToUse": "When managing multi-sided marketplaces or platform products where different teams optimize for conflicting goals.",
+      "whenToUse_zh": "适用于管理多边市场或平台型产品，特别是当不同团队为了相互冲突的目标进行优化时。",
+      "commonMistakes": "Treating the North Star as a vague marketing slogan rather than a hard constraint for product reviews.",
+      "commonMistakes_zh": "将北极星指标仅视为模糊的营销口号，而非在产品评审中作为严格的约束条件。",
+      "quote": "If you can explain why this is the thing that you should do that would help someone really do what they want to do... all of a sudden the world gets a lot simpler.",
+      "realWorldExample": "Hari nearly got fired for his first product review until he realigned the 'Profile' product strategy purely around how identity helps users get jobs, rather than just adding features.",
+      "realWorldExample_zh": "Hari 在第一次产品评审中几乎被解雇，直到他重新调整了“个人档案”的产品策略，不再单纯堆砌功能，而是完全围绕“身份如何帮助用户获得工作”来展开。"
+    },
+    {
+      "name": "Decision Velocity Framework (RAPID + 5-Day Rule)",
+      "name_zh": "决策加速框架 (RAPID + 5天原则)",
+      "category": "execution",
+      "problemItSolves": "Overcoming decision latency and lack of ownership in large, matrixed organizations.",
+      "problemItSolves_zh": "解决大型矩阵式组织中的决策延迟和责任归属不清的问题。",
+      "summary": "A combination of the RAPID decision-making model to assign clear roles and a strict '5-Day Alignment' policy. This ensures that disagreements don't fester in email chains and that managers are held accountable for unblocking teams quickly.",
+      "summary_zh": "结合 RAPID 决策模型（分配清晰角色）与严格的“5天对齐”政策。确保分歧不会在邮件往来中发酵，并要求管理者对快速消除团队障碍负责。",
+      "principles": [
+        "Principle 1: RAPID Roles. Explicitly assign who Recommends, Agrees, Provides Input, and Decides. The 'Decide' role must be a single name.",
+        "Principle 2: The 3-Exchange Rule. If an email thread goes back and forth 3 times, pick up the phone. If the call lasts 20 mins, escalate.",
+        "Principle 3: 5-Day Alignment. If a misalignment isn't resolved in 5 days, it must be escalated to the next level of management immediately.",
+        "Principle 4: Orange/Red Priorities. Honest top-down planning that identifies 'must-dos' (big rocks) before teams plan bottom-up."
+      ],
+      "principles_zh": [
+        "原则一：RAPID角色分工。明确指定推荐者(R)、同意者(A)、投入者(I)和决策者(D)。“决策者”必须是单个人名。",
+        "原则二：三次交流原则。如果邮件往返超过三次，直接电话沟通。如果电话沟通超过20分钟仍无结论，向上汇报。",
+        "原则三：5天对齐原则。如果分歧在5天内未解决，必须立即升级到下一级管理层。",
+        "原则四：橙/红优先级规划。诚实的自上而下的规划，在团队自下而上规划前，先明确“必须完成”的大项目（Big Rocks）。"
+      ],
+      "whenToUse": "When cross-functional teams are stuck in 'analysis paralysis' or when consensus culture is slowing down execution.",
+      "whenToUse_zh": "当跨职能团队陷入“分析瘫痪”或“共识文化”拖慢执行速度时。",
+      "commonMistakes": "Allowing the 'Agree' or 'Input' stakeholders to act as blockers without having the authority to Decide.",
+      "commonMistakes_zh": "允许仅负责“同意”或“提供输入”的干系人成为阻碍者，尽管他们并没有最终决策权。",
+      "quote": "If you had three back and forths in an email, you got to pick up the phone. And if you've been on the phone for 20 minutes, it's time to just write that decision-maker.",
+      "realWorldExample": "Used effectively within LinkedIn's Talent Solutions to coordinate between the Hiring marketplace and Learning products.",
+      "realWorldExample_zh": "在领英人才解决方案部门内部有效使用，用于协调招聘市场业务与学习产品业务之间的配合。"
+    },
+    {
+      "name": "The PM Talent Triangle",
+      "name_zh": "产品经理能力三角模型",
+      "category": "career-leadership",
+      "problemItSolves": "Helping PMs identify their strengths and helping hiring managers build balanced teams.",
+      "problemItSolves_zh": "帮助产品经理识别自身优势，同时帮助招聘经理组建能力互补的团队。",
+      "summary": "A framework for categorizing PM skills into three distinct points of a triangle. Great PMs rarely sit in the middle; they usually 'spike' heavily in one or two areas. Career growth comes from leaning into these edges rather than trying to be average at everything.",
+      "summary_zh": "将产品经理技能分为三角上的三个顶点。优秀的产品经理很少处于中间位置，他们通常在某一方面有极强的“长板”（Spike）。职业成长来自于强化这些边缘优势，而非试图面面俱到。",
+      "principles": [
+        "Principle 1: The Creator (Steven Spielberg). PMs who excel at storytelling, vision, user empathy, and 'making art' from a blank sheet.",
+        "Principle 2: The Data Scientist. PMs who excel at pattern recognition, looking at complex data sets to predict the future.",
+        "Principle 3: The General Manager. PMs who excel at innovation across a team, understanding P&L, budgets, and operational complexity.",
+        "Principle 4: Live on the Edges. Identify your spike and find roles that value that specific edge."
+      ],
+      "principles_zh": [
+        "原则一：创造者（斯皮尔伯格型）。擅长讲故事、愿景规划、用户同理心以及从零开始“创造艺术”的产品经理。",
+        "原则二：数据科学家型。擅长模式识别，能通过复杂数据集预测未来的产品经理。",
+        "原则三：总经理型（GM）。擅长团队创新、理解损益表（P&L）、预算以及运营复杂性的产品经理。",
+        "原则四：定位边缘。识别你的长板，并寻找看重这一特定优势的职位。"
+      ],
+      "whenToUse": "During hiring to ensure team diversity, or during career planning to decide what skills to double down on.",
+      "whenToUse_zh": "用于招聘以确保团队多样性，或用于职业规划以决定应重点投入哪些技能。",
+      "commonMistakes": "Trying to hire a 'unicorn' PM who is perfect at all three, or a PM trying to fix their weaknesses instead of leveraging their strengths.",
+      "commonMistakes_zh": "试图招聘在三方面都完美的“独角兽”产品经理，或者产品经理试图修补短板而非利用长板。",
+      "quote": "I've actually never seen a great PM who's in the center of it. I find the great PMs live on the edges.",
+      "realWorldExample": "Hari advises PMs to match their 'spike' to the product stage—e.g., a 'Creator' PM is crucial for 0-to-1 products.",
+      "realWorldExample_zh": "Hari 建议产品经理将自己的“长板”与产品阶段相匹配——例如，“创造者”型PM对于0到1的产品至关重要。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Intimacy doesn't scale... I think people who gravitate to that, know those problems are hard, have a very special gift.",
+      "context": "On why he looks for candidates who have tackled complex, difficult problems."
+    },
+    {
+      "text": "If you can explain why this is the thing that you should do that would help someone really do what they want to do... all of a sudden the world gets a lot simpler.",
+      "context": "On the power of having a clear North Star."
+    }
+  ],
+  "filename": "Hari Srinivasan"
+}

@@ -3,7 +3,8 @@
     "name": "Ethan Smith",
     "title": "CEO",
     "company": "Graphite",
-    "background": "An SEO veteran with 18 years of experience, Ethan specializes in SEO and programmatic SEO strategies. He is the CEO of Graphite, a leading agency helping companies like MasterClass and Webflow build scalable growth channels."
+    "background": "An SEO veteran with 18 years of experience, Ethan specializes in SEO and programmatic SEO strategies. He is the CEO of Graphite, a leading agency helping companies like MasterClass and Webflow build scalable growth channels.",
+    "background_zh": "Ethan 是一位拥有 18 年经验的 SEO 资深专家，专精于 SEO 和程序化 SEO 策略。他是 Graphite 的 CEO，这家头部代理机构致力于帮助 MasterClass 和 Webflow 等公司构建可扩展的增长渠道。"
   },
   "episodeSummary": "Ethan Smith joins Lenny to decode the rapid shift from traditional SEO to Answer Engine Optimization (AEO). They explore how LLMs and RAG (Retrieval Augmented Generation) are changing search behavior, why 'share of voice' in citations matters more than ranking number one, and provide a tactical playbook for influencing AI answers through Reddit, YouTube, and help centers.",
   "keyTakeaways": [
@@ -30,7 +31,19 @@
       "whenToUse": "When optimizing for brand visibility in ChatGPT, Claude, or Perplexity, particularly for B2B SaaS or high-consideration consumer products.",
       "commonMistakes": "Attempting to spam Reddit with bot farms (which get banned/ignored) or assuming ranking #1 on Google automatically translates to being the LLM's chosen answer.",
       "quote": "In order to win something like 'what's the best website builder?', at Google, they would win if their blue link showed up first. But that's not the case in the LLM, because the LLM is summarizing many citations, and so you need to get mentioned as many times as possible.",
-      "realWorldExample": "Webflow utilizes this framework by optimizing Reddit threads with authentic employee answers and creating YouTube content for specific design queries, resulting in 8% of their signups now coming from LLMs."
+      "realWorldExample": "Webflow utilizes this framework by optimizing Reddit threads with authentic employee answers and creating YouTube content for specific design queries, resulting in 8% of their signups now coming from LLMs.",
+      "summary_zh": "鉴于 LLM 通过 RAG 机制综合多源信息，取胜的关键在于尽可能多地覆盖高信誉的“引用源”，而非仅仅局限于提升自家官网的域名权重。",
+      "problemItSolves_zh": "确保产品能在 LLM（如 ChatGPT、Perplexity）生成的回答中获得露出，以应对传统 Google 搜索排名第一已不再足够的现状。",
+      "whenToUse_zh": "在 ChatGPT、Claude 或 Perplexity 中优化品牌可见性时，尤其是针对 B2B SaaS 或重决策型消费类产品。",
+      "commonMistakes_zh": "企图利用水军矩阵在 Reddit 上暴力刷屏（结局往往是被封号或被直接无视），或者误以为只要占据 Google 搜索排名第一，就自动等同于会被大模型优先采纳。",
+      "realWorldExample_zh": "Webflow 成功落地了该框架：通过安排官方员工在 Reddit 帖子中提供真实解答，并针对特定设计问题制作 YouTube 内容来进行优化。这一策略成效显著，目前其 8% 的新注册用户均来自 LLM 渠道。",
+      "principles_zh": [
+        "头部与长尾的分层策略：针对泛话题，跨媒体渠道最大化引用频次；针对具体问题，极致优化答案的精准度。",
+        "信任铁三角：主动优化三大站外核心渠道——视频平台（YouTube/Vimeo）、UGC 社区（Reddit/Quora）以及头部联盟媒体（如 Dotdash 旗下站点）。",
+        "真实 UGC 植入：在 Reddit 等社区，让团队成员以认证员工身份提供高价值干货，而非使用虚假水军账号。",
+        "冷门话题视频化：针对枯燥但高价值的 B2B 搜索需求（如“API 集成规范”）制作视频内容，抢占零竞争的蓝海。"
+      ],
+      "name_zh": "The Citation Saturation Framework（引用饱和框架）"
     },
     {
       "name": "The AEO Split-Test Protocol",
@@ -46,7 +59,19 @@
       "whenToUse": "Before investing significant budget into a specific AEO strategy (like influencer marketing or massive content generation).",
       "commonMistakes": "Failing to use a control group (LLM traffic is naturally rising, so 'up and to the right' might be a false positive) or testing on too few questions.",
       "quote": "Most best practices, most blog posts are not correct. So how do you set up an experiment? ... Have a test group, have a control group. Intervene on the test group... see if the chart went up.",
-      "realWorldExample": "Ethan describes running this protocol where they tracked thousands of questions, intervened on half with tactics like Reddit comments, and measured the delta in 'Share of Voice' against the control group."
+      "realWorldExample": "Ethan describes running this protocol where they tracked thousands of questions, intervened on half with tactics like Reddit comments, and measured the delta in 'Share of Voice' against the control group.",
+      "summary_zh": "一套用于测算 LLM 回答中“声量份额”的严谨实验设计，旨在精准区分真实的算法胜出与随机波动。",
+      "problemItSolves_zh": "通过科学验证哪些策略能真正影响 LLM 的回答，消除围绕 AEO 的臆测与认知误区。",
+      "whenToUse_zh": "在向特定 AEO 策略（如 KOL 营销或海量内容生产）投入大量预算之前。",
+      "commonMistakes_zh": "未设置对照组（鉴于 LLM 流量本身呈自然上升趋势，数据曲线“一路走高”可能是假阳性），或测试覆盖的问题数量过少。",
+      "realWorldExample_zh": "Ethan 复盘了这套测试方案的实操过程：团队追踪了数千个问题，对半数样本实施干预（如发布 Reddit 评论），并通过与对照组对比，测算“声量份额（Share of Voice）”的 Delta 值。",
+      "principles_zh": [
+        "**问题转化（Question Transformation）**：将高价值的付费搜索关键词转化为自然语言提问（例如：将 “薪酬软件” 转化为 “适合初创企业的最佳薪酬软件是什么？”）。",
+        "**声量份额（SOV）追踪**：利用答案追踪工具，监测品牌在不同大模型（如 ChatGPT, Gemini, Perplexity）回答中的出现频率，以此确立基线数据。",
+        "**对照组隔离**：选取 200 个问题样本；划分其中 100 个为对照组（不做干预），另外 100 个为实验组（实施干预策略）。",
+        "**复现性校验**：鉴于大模型（LLM）输出存在高方差（随机性），干预效果必须在多次测试中可稳定复现，方可固化为正式策略。"
+      ],
+      "name_zh": "The AEO Split-Test Protocol（AEO 分流测试规程）"
     },
     {
       "name": "The Help Center Pivot",
@@ -62,7 +87,19 @@
       "whenToUse": "For complex B2B products with many integrations, features, or technical nuances that users query via chat.",
       "commonMistakes": "Leaving the help center on a subdomain or only writing articles for high-volume keywords, ignoring the zero-volume long-tail queries that LLMs thrive on.",
       "quote": "If you map out all of the questions that people ask... the size of the tail is larger [in chat]... and there's probably questions that have never been asked before and questions that have never been searched before.",
-      "realWorldExample": "Ethan's own search for 'Which meeting transcription tool integrates with Looker?' yielded no results initially; a company using this strategy would create a specific help page or community thread for that exact integration path."
+      "realWorldExample": "Ethan's own search for 'Which meeting transcription tool integrates with Looker?' yielded no results initially; a company using this strategy would create a specific help page or community thread for that exact integration path.",
+      "summary_zh": "通过重构技术内容以精准回应“能否实现 X”类问题，将产品帮助中心从传统的客服文档库转型为核心 AEO 获客渠道。",
+      "problemItSolves_zh": "捕捉海量关于特定功能或集成的“长尾”提问（25 词以上），此类问题用户倾向于向 LLM 咨询，而极少在 Google 搜索。",
+      "whenToUse_zh": "适用于拥有大量集成对接、功能特性或技术细节，且用户习惯通过 Chat 渠道咨询的复杂 B2B 产品。",
+      "commonMistakes_zh": "将帮助中心留在子域名下，或仅针对高流量关键词撰写文章，而忽视了 LLM 最擅长的“零搜索量”长尾查询。",
+      "realWorldExample_zh": "Ethan 最初搜索“哪个会议转录工具能集成 Looker？”时，结果为空；而采用这一策略的公司，会针对这一特定的集成路径，专门创建对应的帮助页面或社区讨论帖。",
+      "principles_zh": [
+        "子目录迁移：将帮助中心从 `help.domain.com` 迁移至 `domain.com/help`，以聚合域名权重。",
+        "内链图谱构建：在帮助文档间实施高密度的交叉互链，向搜索引擎爬虫传递内容关联强度的信号。",
+        "长尾缺口分析：从销售通话和客服工单中挖掘具体的集成或功能类问题（例如“X 能否集成 Looker？”），锁定那些虽然搜索量为零但具备高转化意图的需求。",
+        "社区化扩展：针对官方暂无解答的小众场景（Niche Use Case），开放特定问题页面供社区回答，利用 UGC 模式自然生成内容。"
+      ],
+      "name_zh": "The Help Center Pivot（帮助中心转型）"
     }
   ],
   "notableQuotes": [
@@ -83,5 +120,6 @@
       "context": "On whether publishers should block AI bots; blocking them simply hands market share to competitors who allow training."
     }
   ],
-  "filename": "Ethan Smith"
+  "filename": "Ethan Smith",
+  "episodeSummary_zh": "Ethan Smith 做客 Lenny 的节目，深度解读从传统 SEO 向答案引擎优化（AEO）的极速转型。双方深入探讨了 LLM 和 RAG 如何重塑用户的搜索行为，剖析了为何在引文中占据“声量份额（Share of Voice）”比单纯追求排名第一更为关键，并提供了一套利用 Reddit、YouTube 和帮助中心来影响 AI 回答生成的实战指南。"
 }

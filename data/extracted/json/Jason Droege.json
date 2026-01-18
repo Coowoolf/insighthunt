@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Jason Droege",
+    "title": "CEO of Scale AI",
+    "company": "Scale AI (formerly Head of Uber Eats)",
+    "background": "Jason Droege is the current CEO of Scale AI and the founder/former head of Uber Eats. He led Uber Eats from a concept to a $20 billion run-rate business and has a long history of entrepreneurship, including co-founding Scour with Travis Kalanick.",
+    "background_zh": "Jason Droege 是 Scale AI 的现任 CEO，也是 Uber Eats 的创始人兼前负责人。他曾带领 Uber Eats 从一个概念发展成为年营收 200 亿美元的业务。他拥有丰富的创业经历，早年曾与 Travis Kalanick 共同创立了 Scour。"
+  },
+  "episodeSummary": "Jason Droege discusses the evolution of AI data from generalist labeling to expert-driven reinforcement learning and the critical role of human expertise in training frontier models. He also shares deep product lessons from founding Uber Eats, emphasizing the importance of understanding unit economics, incentive-based customer research, and the philosophy that 'survival is a precursor to thriving'.",
+  "episodeSummary_zh": "Jason Droege 探讨了 AI 数据标注从通用型向专家驱动强化学习的演变，以及人类专家在训练前沿模型中的关键作用。他还分享了创立 Uber Eats 时的深刻产品经验，强调了理解单位经济模型、基于激励机制的用户调研的重要性，以及“生存是繁荣的前提”这一经营哲学。",
+  "filename": "Jason Droege"
+}

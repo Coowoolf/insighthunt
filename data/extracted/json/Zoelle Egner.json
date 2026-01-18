@@ -1,0 +1,114 @@
+{
+  "guest": {
+    "name": "Zoelle Egner",
+    "title": "Head of Marketing and Growth",
+    "company": "Block Party",
+    "background": "Former early employee (Employee #11) at Airtable leading marketing and customer success. She also worked at Box and led operations for VaccinateCA during the pandemic.",
+    "background_zh": "Airtable 早期核心成员（第11号员工），曾统管市场与客户成功团队。她还曾在Box任职，并在疫情期间领导了VaccinateCA的运营工作，现任Block Party增长与市场负责人。"
+  },
+  "episodeSummary": "Zoelle shares the unscalable tactics that helped Airtable grow from a small startup into a unicorn, focusing on how early-stage teams can 'punch above their weight.' She discusses the critical fusion of marketing and customer success, the power of high-end swag, and why templates are actually retention tools rather than just acquisition levers.",
+  "episodeSummary_zh": "Zoelle 分享了帮助 Airtable 从初创公司成长为独角兽企业的那些“不可扩展”的早期战术，重点探讨了初创团队如何通过品牌策略“以小博大”。她还深入解析了市场与客户成功（CS）团队融合的重要性、高端周边产品的杠杆效应，以及为什么模板（Templates）本质上是留存工具而非仅仅是获客手段。",
+  "keyTakeaways": [
+    "Invest in 'sample content' that references specific industries (e.g., Steve Jobs jokes for designers) to signal you understand the customer.",
+    "Use 'remnant inventory' for billboards to signal legitimacy to enterprise buyers at a fraction of the cost.",
+    "Merge Customer Success and Marketing early; their goals are identical—getting users to value and turning them into advocates.",
+    "Identify 'Champions' (users) distinct from 'Buyers' (budget holders). Make the Champion a superhero internally to trigger the purchase.",
+    "Use templates to narrow the surface area of a horizontal product, helping users connect the dots between their problem and your tool.",
+    "For horizontal products, invest in 'white glove' onboarding even for free users to discover patterns for future automation.",
+    "Don't use PR for lead generation; use it for credibility in hiring and cold outbound contexts.",
+    "High-quality swag (e.g., branded AirPods) for champions can yield higher ROI than generic swag by sparking conversations."
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Punch Above Your Weight' Brand Protocol",
+      "name_zh": "“以小博大”品牌信任构建法则",
+      "category": "product-strategy",
+      "problemItSolves": "Early-stage startups often struggle to win trust from enterprise buyers or sophisticated users because they appear small or risky.",
+      "problemItSolves_zh": "早期初创公司往往因规模小或显得有风险，难以获得企业级买家或资深用户的信任。",
+      "summary": "A strategy to artificially inflate brand perception through obsessive polish and strategic signaling. By executing specific touchpoints at an enterprise standard, the company removes the 'risk' objection from the buyer's mind.",
+      "summary_zh": "通过对细节的极致打磨和战略性的信号释放，人为提升品牌感知的策略。通过在关键触点上达到企业级标准，消除买家心中的“风险”顾虑。",
+      "principles": [
+        "Obsessive Polish: Ensure zero typos and high-design aesthetics in all comms (emails, landing pages) to signal competence.",
+        "Contextual Sample Content: Use industry-specific references in demo data (not 'Jane Doe') to prove you built the product specifically for them.",
+        "Strategic Signaling: Use physical ads (billboards) in concentrated areas to mimic the presence of a large, established corporation."
+      ],
+      "principles_zh": [
+        "极致打磨：确保所有对外沟通（邮件、落地页）零拼写错误且设计精良，以此传递专业性。",
+        "场景化示例内容：在演示数据中使用行业特定的梗或引用（而非通用的 'Jane Doe'），证明产品是为该特定人群打造的。",
+        "战略性信号释放：在特定区域投放实体广告（如广告牌），营造出成熟大企业的市场存在感。"
+      ],
+      "whenToUse": "When you are a small team (seed to Series A) selling into mid-market or enterprise companies where trust is a dealbreaker.",
+      "whenToUse_zh": "当团队规模较小（种子轮到A轮），但需要向对信任度要求极高的中大型企业销售时。",
+      "commonMistakes": "Confusing 'speed' with 'sloppiness'; thinking that MVP means low-quality design or generic copywriting.",
+      "commonMistakes_zh": "混淆“速度”与“粗制滥造”；误以为 MVP 就意味着低质量的设计或通用的文案。",
+      "quote": "It's small stuff, but it tells that person... 'The people who worked on this were thinking about me as a customer... and that means that it is more likely that this is going to fit my needs.'",
+      "realWorldExample": "Airtable used 'remnant inventory' billboards (unsold slots sold cheaply) in tech/media hubs. Even though they were a tiny team of 15 people, enterprise buyers assumed they were a massive legit company because 'only big companies buy billboards.'",
+      "realWorldExample_zh": "Airtable 曾购买科技/媒体聚集区的“尾单广告位”（价格低廉的未售出空位）。尽管当时团队仅有15人，但企业级买家误以为他们是一家庞大的正规公司，因为潜意识里认为“只有大公司才买得起户外广告牌”。"
+    },
+    {
+      "name": "The Champion-Led Expansion Loop",
+      "name_zh": "冠军用户驱动的扩张闭环",
+      "category": "growth-metrics",
+      "problemItSolves": "Selling a horizontal, complex product (like a database) top-down is difficult because the buyer doesn't understand the specific utility.",
+      "problemItSolves_zh": "自上而下销售通用且复杂的产品（如数据库）非常困难，因为拥有预算的买家往往不理解具体的应用价值。",
+      "summary": "Instead of selling to the buyer, the company over-invests in the 'Tinkerer' (Champion). By helping this user succeed manually, the user becomes an internal hero, creating a viral loop inside the organization that forces IT to eventually buy.",
+      "summary_zh": "不直接向买家推销，而是过度投资于“探索者”（冠军用户）。通过人工辅助帮助这些用户成功，使他们在公司内部成为英雄，从而在组织内形成病毒式传播，最终迫使 IT 部门采购。",
+      "principles": [
+        "Identify the Tinkerer: Look for users with 'builder' mindsets, not just specific job titles.",
+        "White-Glove Success: Monitor signups via Slack, manually reach out, and help them build their first workflow (doing things that don't scale).",
+        "Make Them Superheroes: Measure success by whether the user gets promoted or praised internally for solving a team problem with your tool."
+      ],
+      "principles_zh": [
+        "识别探索者：寻找具有“构建者”思维模式的用户，而不仅仅是关注特定的职位头衔。",
+        "白手套式服务：通过 Slack 监控注册，人工联系并帮助他们构建第一个工作流（做那些不可扩展的事）。",
+        "打造内部英雄：将“用户是否因使用该工具解决团队问题而获得晋升或表扬”作为衡量成功的标准。"
+      ],
+      "whenToUse": "For Product-Led Growth (PLG) products that have a steep learning curve or horizontal utility.",
+      "whenToUse_zh": "适用于学习曲线陡峭或具有横向通用性的产品驱动增长（PLG）类产品。",
+      "commonMistakes": "Trying to upsell the user too early before they have established social capital within their own company using your tool.",
+      "commonMistakes_zh": "在用户尚未利用你的工具在公司内部建立社交资本之前，过早地尝试进行追加销售（Upsell）。",
+      "quote": "One of my unofficial metrics... was how many people we'd gotten promoted for using the product.",
+      "realWorldExample": "Airtable set up a Slack integration that piped in new signup data (title, company). The team would manually email high-potential 'tinkerers' to help them build their first base, ensuring they looked good to their boss, which later triggered enterprise adoption.",
+      "realWorldExample_zh": "Airtable 建立了一个 Slack 集成，实时推送新注册用户数据（职位、公司）。团队会人工向高潜力的“探索者”发送邮件，帮助他们搭建第一个数据库，确保他们在老板面前表现出色，这随后触发了企业级的采纳。"
+    },
+    {
+      "name": "The Insight-to-Template Pipeline",
+      "name_zh": "从洞察到模板的转化流水线",
+      "category": "execution",
+      "problemItSolves": "Users of flexible platforms often face 'blank canvas paralysis' and don't know where to start.",
+      "problemItSolves_zh": "灵活平台的初次使用者往往面临“空白画布瘫痪症”，不知道从何入手。",
+      "summary": "Using Customer Success interactions to mine real-world workflows, then abstracting them into public templates. This turns 1:1 consulting effort into 1:Many product assets that reduce friction for future users.",
+      "summary_zh": "利用客户成功（CS）团队的互动挖掘真实的工作流，然后将其抽象为公共模板。这不仅仅是服务，而是将“一对一”的咨询努力转化为“一对多”的产品资产，降低未来用户的使用门槛。",
+      "principles": [
+        "CS as R&D: View Customer Success not just as support, but as a research engine for product usage patterns.",
+        "Abstract & Productize: Take a specific user's complex workflow, strip confidential data, and create a generalized 'best practice' template.",
+        "Activation over Acquisition: Use templates primarily to help signed-up users find value quickly, rather than expecting them to be SEO silver bullets.",
+        "Narrow the Surface Area: Use templates to constrain the product's infinite possibilities into a solvable, recognizable use case."
+      ],
+      "principles_zh": [
+        "视 CS 为研发：不仅仅把客户成功看作支持部门，更要将其视为产品使用模式的研发引擎。",
+        "抽象化与产品化：提取特定用户的复杂工作流，去除非通用数据，制作成通用的“最佳实践”模板。",
+        "重激活轻获客：模板的首要功能是帮助已注册用户快速找到价值，而非指望它们成为 SEO 的万能灵药。",
+        "收窄接触面：利用模板将产品无限的可能性收敛为可解决的、用户能识别的具体用例。"
+      ],
+      "whenToUse": "When your product is a platform or toolkit that requires user configuration to deliver value.",
+      "whenToUse_zh": "当你的产品是平台或工具包，且需要用户自行配置才能产生价值时。",
+      "commonMistakes": "Creating templates purely for SEO traffic without verifying if they actually solve the user's workflow problem once they sign up.",
+      "commonMistakes_zh": "单纯为了 SEO 流量而制造模板，却未验证这些模板在用户注册后是否真的解决了工作流问题。",
+      "quote": "If you can find those insights and put them genuinely into use as a little conveyor belt... it makes all of the go-to market that you need to do later easier.",
+      "realWorldExample": "Marketing and CS teams at Airtable would interview users, see they built a content calendar, and then create a generic 'Content Calendar Template' based on that reality. This allowed new users to skip the complex setup phase.",
+      "realWorldExample_zh": "Airtable 的市场和 CS 团队会采访用户，发现他们构建了一个内容日历，然后基于此创建一个通用的“内容日历模板”。这让新用户能够跳过复杂的搭建阶段，直接上手。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Frankly, when you are small, you need everyone rooting for you that you can possibly get.",
+      "context": "On why building brand personality and trust is crucial for early-stage startups."
+    },
+    {
+      "text": "A job is an identity and people will fight for an identity. A category of software is a line item on your budget. No one is excited about that.",
+      "context": "On why marketing should focus on elevating a profession (like DevOps or Customer Success) rather than just creating a Gartner category."
+    }
+  ],
+  "filename": "Zoelle Egner"
+}

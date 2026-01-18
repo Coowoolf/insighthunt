@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Ivan Zhao",
+    "title": "Co-founder & CEO",
+    "company": "Notion",
+    "background": "Ivan Zhao is the co-founder and CEO of Notion, the all-in-one workspace valued at over $10 billion. Known for his unique design-first philosophy and focus on software craftsmanship, he led Notion through a difficult 'lost years' period to become one of the most popular productivity tools in the world.",
+    "background_zh": "Ivan Zhao 是估值超百亿美元的一站式协作平台 Notion 的联合创始人兼 CEO。他以设计优先的理念和对软件“匠心”的极致追求著称，曾带领 Notion 度过艰难的早期探索期，最终将其打造为全球最受欢迎的生产力工具之一。"
+  },
+  "episodeSummary": "Ivan Zhao shares the candid story of Notion's first four 'lost years' searching for product-market fit and the pivotal realization to hide their complex technical vision inside a familiar productivity tool. He discusses the philosophy of building horizontal software, the discipline of maintaining a small team ('talent density'), and how to balance artistic craft with business necessity.",
+  "episodeSummary_zh": "Ivan Zhao 坦诚分享了 Notion 早期长达四年的“迷茫期”，以及他们如何通过将复杂的“编程愿景”隐藏在熟悉的生产力工具形态中，从而找到 PMF 的关键转折。他还深入探讨了构建横向通用软件的哲学、维持极高“人才密度”的小团队管理艺术，以及如何在商业扩张与产品匠心之间取得平衡。",
+  "filename": "Ivan Zhao"
+}

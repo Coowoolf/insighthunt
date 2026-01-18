@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Sam Schillace",
+    "title": "Corporate Vice President & Deputy CTO",
+    "company": "Microsoft",
+    "background": "Sam is the creator of Writely, which was acquired by Google and became the foundation for Google Docs. He has led major consumer products at Google (Gmail, Maps), served as SVP of Engineering at Box, and currently leads efforts in consumer products and AI infrastructure at Microsoft.",
+    "background_zh": "Sam 是 Writely 的创始人，该公司被 Google 收购后成为了 Google Docs 的基石。他曾负责 Google 的 Gmail、Maps 等核心消费级产品，担任过 Box 的工程高级副总裁，目前在微软担任副首席技术官，领导消费级产品和 AI 基础设施的相关工作。"
+  },
+  "episodeSummary": "Sam Schillace shares his journey from inventing Google Docs to leading AI initiatives at Microsoft, focusing on the mindset required for disruptive innovation. He discusses why optimism is a strategic choice for engineers, how to identify true disruption through user polarization, and why 'laziness' is the ultimate driver of product adoption in the AI era.",
+  "episodeSummary_zh": "Sam Schillace 分享了他从发明 Google Docs 到领导微软 AI 业务的心路历程，重点探讨了颠覆性创新所需的思维模式。他深入解析了为什么乐观主义是工程师的战略选择，如何通过用户的两极分化反馈来识别真正的颠覆性机会，以及在 AI 时代，“懒惰”为何成为驱动产品采纳的终极原动力。",
+  "filename": "Sam Schillace"
+}

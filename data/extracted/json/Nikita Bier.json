@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Nikita Bier",
+    "title": "Founder of tbh and Gas",
+    "company": "Advisor / Investor (Previously Facebook, Discord)",
+    "background": "Serial entrepreneur known for building multiple viral consumer apps that reached #1 on the App Store, including tbh (acquired by Facebook) and Gas (acquired by Discord). He currently advises high-growth startups on viral strategy and product design.",
+    "background_zh": "连续创业者，以打造多款登顶 App Store 的病毒式 C 端应用闻名，包括 tbh（被 Facebook 收购）和 Gas（被 Discord 收购）。目前专注于为高增长初创公司提供病毒式增长策略和产品设计顾问服务。"
+  },
+  "episodeSummary": "Nikita Bier breaks down the exact science behind building viral consumer apps, sharing his journey from 14 failed apps to selling two massive hits. He reveals his frameworks for identifying latent demand, the 'manual' way to validate product-market fit without code scaling, and how to survive catastrophic PR crises.",
+  "episodeSummary_zh": "Nikita Bier 拆解了打造病毒式 C 端应用的科学方法论，分享了他从 14 次失败到连续打造两款爆款产品的经历。他详细揭示了如何挖掘潜在需求、如何在不依赖代码扩展的情况下“人工”验证 PMF，以及如何应对毁灭性的公关危机。",
+  "filename": "Nikita Bier"
+}

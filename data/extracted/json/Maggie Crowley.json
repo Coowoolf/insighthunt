@@ -1,0 +1,123 @@
+{
+  "guest": {
+    "name": "Maggie Crowley",
+    "title": "Vice President of Product",
+    "company": "Toast",
+    "background": "Maggie is currently VP of Product at Toast, with previous leadership roles at Charlie Health, Drift, BevSpot, and TripAdvisor. She holds an MBA from Harvard Business School and is a former Olympic speed skater.",
+    "background_zh": "Maggie 目前担任 Toast 的产品副总裁，此前曾在 Charlie Health、Drift、BevSpot 和 TripAdvisor 担任产品领导职务。她持有哈佛商学院 MBA 学位，并曾作为奥运速滑选手参赛。"
+  },
+  "episodeSummary": "Maggie Crowley discusses the tangible traits that separate great product managers from the rest, emphasizing the importance of simplifying complexity and \"carrying the water\" (doing unglamorous work). She shares a detailed framework for writing product strategy documents that align teams, breaks down how to write effective one-pagers, and offers contrarian views on why being \"data-driven\" can sometimes be a red flag.",
+  "episodeSummary_zh": "Maggie Crowley 探讨了区分卓越产品经理与普通产品经理的具体特质，强调了简化复杂问题以及“挑水担柴”（处理非光鲜工作）的重要性。她分享了一套详细的产品战略文档框架以帮助团队对齐目标，解析了如何撰写高效的一页纸需求文档（One-Pager），并提出了关于为何过分强调“数据驱动”可能是一个危险信号的独特见解。",
+  "keyTakeaways": [
+    "Great PMs simplify complexity: find the one thing that matters and stick with it.",
+    "Follow up on results: check metrics 2 weeks, 1 month, and 6 months post-launch.",
+    "\"Carry the water\": PMs must do the unglamorous work (QA, support, sales calls) to fill gaps.",
+    "A product strategy doc is primarily for the PM to ensure their own logic is sound.",
+    "When writing specs/PRDs, the most important question is \"Why does this matter NOW?\"",
+    "Being overly \"data-driven\" can be a red flag for a lack of product intuition.",
+    "Avoid rewrites/redesigns; they almost always take longer than expected and fail."
+  ],
+  "methodologies": [
+    {
+      "name": "The High-Performance PM Triad",
+      "name_zh": "卓越产品经理的三大核心能力",
+      "category": "career-leadership",
+      "problemItSolves": "Distinguishes truly effective product managers from those who just go through the motions.",
+      "problemItSolves_zh": "区分真正高效能的产品经理与仅仅是在“做动作”的普通PM。",
+      "summary": "Three specific behaviors that define top-tier PMs: the ability to cut through noise to find the single priority, the discipline to close the loop on outcomes, and the willingness to do whatever unglamorous work is needed to ship.",
+      "summary_zh": "定义顶级 PM 的三个具体行为：在噪音中找到唯一关键优先级的简化能力、对结果进行闭环验证的纪律性，以及为了上线愿意承担任何脏活累活的意愿。",
+      "principles": [
+        "Simplify relentlessly: Identify the single most important task amidst chaos and stick to it until completion.",
+        "Follow up on results: Set calendar reminders (2 weeks, 1 month, 6 months) to check if the feature actually moved the metric, and report back.",
+        "Carry the water: Adopt a \"no job is beneath me\" attitude. Do QA, write copy, hop on sales calls, or manage projects if that's what is needed to ship."
+      ],
+      "principles_zh": [
+        "极致简化：在混乱中识别出唯一最重要的任务，并坚持到底直到完成。",
+        "结果闭环：设置日历提醒（上线后2周、1个月、6个月）检查功能是否真正撬动了指标，并主动汇报。",
+        "主动补位（挑水担柴）：秉持“没有我不该做的事”的态度。如果为了上线需要做QA、写文案、参加销售电话或做项目管理，那就去做。"
+      ],
+      "whenToUse": "When evaluating your own performance, hiring PMs, or looking for ways to increase your impact within a team.",
+      "whenToUse_zh": "在评估个人绩效、招聘产品经理或寻找提升团队影响力的方法时使用。",
+      "commonMistakes": "Thinking strategy is more important than execution, or believing tasks like QA/Support are \"someone else's job.\"",
+      "commonMistakes_zh": "认为战略比执行更重要，或者认为 QA/客服支持 等工作是“别人的事”。",
+      "quote": "If you ever find yourself saying something like, 'that's not my job,' that's probably a thing you should do.",
+      "realWorldExample": "Maggie proactively hopping on sales calls or doing manual implementation work to ensure a product succeeds, rather than waiting for other departments.",
+      "realWorldExample_zh": "Maggie 主动参加销售电话会议或进行手动实施工作以确保产品成功，而不是等待其他部门来处理。"
+    },
+    {
+      "name": "The 'Honest Accounting' Strategy Framework",
+      "name_zh": "“诚实盘点”型产品战略框架",
+      "category": "product-strategy",
+      "problemItSolves": "Helps PMs build conviction in their bets and align stakeholders by showing the full logic chain from mission to solution.",
+      "problemItSolves_zh": "帮助产品经理建立对决策的信念，并通过展示从愿景到解决方案的完整逻辑链条来对齐利益相关者。",
+      "summary": "A comprehensive document structure that forces the PM to rigorously assess the landscape and internal state before proposing solutions. It serves as 'homework' for the PM to ensure they aren't missing critical context.",
+      "summary_zh": "一个详尽的文档结构，迫使产品经理在提出解决方案之前，严格评估市场格局和内部现状。它本质上是PM的“家庭作业”，以确保没有遗漏关键背景信息。",
+      "principles": [
+        "Landscape & Context: Mission, goals, competitive SWOT, and market POV.",
+        "Honest Accounting: What is the brutal truth about the current product state? User feedback, tech debt, and what isn't working.",
+        "Opportunity & Logic: Where can we win? What must be true for this to work? Then, and only then, propose the solution (max 3 bullets) and plan.",
+        "Open Review: Share the doc openly, especially with engineering/design, to let them 'shred' the logic."
+      ],
+      "principles_zh": [
+        "格局与背景：明确使命、目标、竞争对手SWOT分析及市场观点。",
+        "诚实盘点：关于当前产品状态的残酷真相是什么？包括用户反馈、技术债以及哪些功能失效了。",
+        "机会与逻辑：我们在哪里能赢？要实现目标必须具备哪些前提条件？最后才提出解决方案（最多3点）和计划。",
+        "公开评审：公开分享文档，特别是与工程/设计团队分享，让他们以此“撕碎”并以此完善逻辑。"
+      ],
+      "whenToUse": "During annual/quarterly planning, or when a product area feels stagnant and needs a pivot.",
+      "whenToUse_zh": "在年度/季度规划期间，或者当产品领域感觉停滞不前需要转型时。",
+      "commonMistakes": "Starting with the solution/features before rigorously defining the problem landscape and current constraints.",
+      "commonMistakes_zh": "在严格定义问题格局和当前约束条件之前，就先从解决方案/功能入手。",
+      "quote": "I put in... an honest accounting of the current state of your product... What works, what doesn't work? What are your customers saying? ... What are your technical hurdles?",
+      "realWorldExample": "Maggie used this to document a 20-page strategy that walked from company mission down to specific priorities, helping an engineer understand exactly *why* they were building specific features.",
+      "realWorldExample_zh": "Maggie 用此方法撰写了一份20页的战略文档，从公司使命推导到具体优先级，帮助工程师完全理解*为什么*要开发某些特定功能。"
+    },
+    {
+      "name": "The 'Why Now' One-Pager",
+      "name_zh": "强调“时机”的一页纸需求文档 (One-Pager)",
+      "category": "execution",
+      "problemItSolves": "Prevents feature creep and aligns the team on the urgency and specific problem context.",
+      "problemItSolves_zh": "防止功能蔓延，并让团队就紧迫性和具体问题背景达成一致。",
+      "summary": "A simplified spec document that prioritizes the context and timing over the feature list. It centers the team around the problem rather than the solution details.",
+      "summary_zh": "一种简化的规格文档，优先考虑背景和时机而非功能列表。它让团队聚焦于问题本身，而不是解决方案的细节。",
+      "principles": [
+        "Start with Context: Define the background clearly.",
+        "The Two Critical Whys: Explicitly answer 'Why does this problem matter?' AND 'Why does it matter NOW?' (Urgency).",
+        "Record Decisions: Use the doc to log decisions made and what is strictly out of scope.",
+        "Collaborative Shredding: Present it to the team early to poke holes; don't be precious about it."
+      ],
+      "principles_zh": [
+        "背景先行：清晰定义项目背景。",
+        "两个关键“为什么”：明确回答“为什么这个问题很重要？”以及“为什么*现在*就要解决它？”（紧迫性）。",
+        "记录决策：使用文档记录已做出的决策以及严格不做的范围（Out of scope）。",
+        "协作打磨：尽早向团队展示以发现漏洞；不要对自己的初稿过于自负。"
+      ],
+      "whenToUse": "At the kickoff of any new feature or initiative, before design or code begins.",
+      "whenToUse_zh": "在任何新功能或项目启动时，在设计或代码开始之前。",
+      "commonMistakes": "Skipping the 'Why Now' justification or making the document too long/complex so no one reads it.",
+      "commonMistakes_zh": "忽略“为什么是现在”的理由，或者把文档写得太长/太复杂导致没人读。",
+      "quote": "What is the problem, why does it matter, and why does it matter now?",
+      "realWorldExample": "Using the One-Pager to center a team's engineering and design efforts on a specific user problem, rather than just handing off a solution to build.",
+      "realWorldExample_zh": "使用一页纸文档将工程和设计团队的精力集中在特定的用户问题上，而不是仅仅移交一个解决方案让他们去开发。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "If you ever find yourself saying something like, that's not my job, that's probably a thing you should do.",
+      "context": "On the mindset required to be a successful Product Manager."
+    },
+    {
+      "text": "People who are really excited about being data-driven, to me that is oftentimes a red flag for their product thinking.",
+      "context": "Maggie's contrarian view on over-reliance on dashboards vs. intuition and user research."
+    },
+    {
+      "text": "Just say that. Just say that thing. The thing that you said to me in conversation is the thing you should write.",
+      "context": "Advice on simplifying product writing and avoiding corporate jargon."
+    },
+    {
+      "text": "If it's worth doing, it's worth doing well.",
+      "context": "Her life motto, stemming from her background as an Olympic athlete."
+    }
+  ],
+  "filename": "Maggie Crowley"
+}

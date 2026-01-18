@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Garrett Lord",
+    "title": "Co-founder & CEO",
+    "company": "Handshake",
+    "background": "Garrett Lord is the co-founder and CEO of Handshake, the largest early career network in the US. He started the company 10 years ago to democratize access to jobs for students, and recently spearheaded Handshake's massive expansion into AI data labeling.",
+    "background_zh": "Garrett Lord 是 Handshake 的联合创始人兼 CEO，该公司是美国最大的早期职业社交网络。他在十年前创立了这家公司，旨在实现大学生就业机会的均等化，并于近期带领 Handshake 成功拓展至 AI 数据标注领域。"
+  },
+  "episodeSummary": "Garrett Lord shares the incredible story of how Handshake launched a new AI data business from zero to $50M ARR in just four months. He explains the shift from generalist to expert data labeling in the AI industry and breaks down the mechanics of 'post-training' for frontier models. The conversation covers actionable strategies for incubating a hyper-growth startup within a mature company.",
+  "episodeSummary_zh": "Garrett Lord 分享了 Handshake 如何在短短四个月内将这一全新的 AI 数据业务从零做到 5000 万美元 ARR 的惊人故事。他深入解析了 AI 行业从“通才标注”向“专家标注”转型的趋势，并拆解了前沿大模型“后训练”阶段的具体机制。本次对话还涵盖了在成熟企业内部孵化超高速增长创业项目的实战策略。",
+  "filename": "Garrett Lord"
+}

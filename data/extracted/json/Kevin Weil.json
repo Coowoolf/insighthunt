@@ -1,0 +1,120 @@
+{
+  "guest": {
+    "name": "Kevin Weil",
+    "title": "Chief Product Officer",
+    "company": "OpenAI",
+    "background": "Kevin Weil is the Chief Product Officer at OpenAI. Previously, he served as Head of Product at Instagram and Twitter, and was the co-creator of the Libra cryptocurrency at Facebook. He also serves on the boards of Planet and Strava.",
+    "background_zh": "Kevin Weil 现任 OpenAI 首席产品官。此前，他曾担任 Instagram 和 Twitter 的产品负责人，并且是 Facebook Libra 加密货币项目的联合创始人。他还是 Planet 和 Strava 的董事会成员。"
+  },
+  "episodeSummary": "Kevin Weil discusses the unique challenges of building product at OpenAI, emphasizing 'Model Maximalism' and the necessity of iterative deployment in a rapidly evolving AI landscape. He explores how the role of Product Managers is shifting towards defining evaluations ('evals') and maintaining high agency amidst ambiguity. The conversation also covers the integration of research and product teams, the future of AI-assisted creativity, and the strategic importance of treating AI interactions like human collaborations.",
+  "episodeSummary_zh": "Kevin Weil 探讨了在 OpenAI 构建产品的独特挑战，重点阐述了“模型极大主义（Model Maximalism）”以及在快速变化的 AI 领域进行迭代式部署的必要性。他深入剖析了产品经理角色的转变，指出编写评估集（Evals）和在模糊环境中保持高度能动性（High Agency）的重要性。对话还涵盖了研究与产品团队的深度融合、AI 辅助创意的未来，以及将 AI 交互视为类人协作的战略意义。",
+  "keyTakeaways": [
+    "The AI models you use today are the worst you will ever use; build for where the puck is going, not current limitations.",
+    "Writing 'evals' (evaluations) is becoming a core competency for Product Managers to measure model performance on specific use cases.",
+    "Adopt 'Iterative Deployment': ship early to co-evolve with society rather than waiting for perfection.",
+    "Treat AI models like humans: use 'chain of thought' for reasoning and 'ensembles' of models like a team of experts.",
+    "PMs need to be 'High Agency' and comfortable with extreme ambiguity; OpenAI keeps the PM-to-Engineer ratio low to prevent micromanagement.",
+    "Future product teams will embed researchers and ML engineers to handle fine-tuning for specific industry data."
+  ],
+  "methodologies": [
+    {
+      "name": "Model Maximalism Strategy",
+      "name_zh": "模型极大主义策略",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from over-optimizing for current model limitations or building unnecessary scaffolding that becomes obsolete quickly.",
+      "problemItSolves_zh": "防止团队过度优化当前模型的局限性，或构建很快会被淘汰的冗余补丁框架。",
+      "summary": "A strategic mindset that assumes AI models will improve drastically every few months. Instead of building complex workarounds for current flaws, teams should build products that push the edge of current capabilities, knowing the next model update will likely solve the friction points.",
+      "summary_zh": "一种战略思维，假设 AI 模型每几个月就会有大幅提升。团队不应为当前的缺陷构建复杂的变通方案，而应构建处于当前能力边缘的产品，因为下一次模型更新很可能会解决这些摩擦点。",
+      "principles": [
+        "Build on the edge: If your product barely works today, it will 'sing' with the next model update.",
+        "Ignore temporary flaws: Don't spend excessive resources fixing errors that model scaling will naturally solve.",
+        "Iterative Deployment: Ship continuously to learn how users interact with the model as it improves."
+      ],
+      "principles_zh": [
+        "构建在能力边缘：如果你的产品今天勉强能跑通，那么随着下一次模型更新，它将表现卓越。",
+        "忽略暂时性缺陷：不要浪费过多资源去修复那些随着模型规模扩大自然会解决的问题。",
+        "迭代式部署：持续发布产品，以便在模型改进过程中学习用户的交互方式。"
+      ],
+      "whenToUse": "When building applications on top of rapidly evolving foundation models (LLMs).",
+      "whenToUse_zh": "当基于快速演进的基础模型（LLMs）构建应用时。",
+      "commonMistakes": "Spending months building infrastructure to fix a hallucination problem that the next model version solves natively.",
+      "commonMistakes_zh": "花费数月时间构建基础设施来修复幻觉问题，结果下一个版本的模型原生解决了该问题。",
+      "quote": "If the product that you're building is kind of right on the edge of the capabilities of the models, keep going because you're doing something right.",
+      "realWorldExample": "OpenAI's approach to deep research or coding agents—launching even when not perfect, knowing the underlying 'O-series' models are improving every 3 months.",
+      "realWorldExample_zh": "OpenAI 在深度研究或代码智能体方面的方法——即使不完美也先发布，因为知道底层的 O 系列模型每 3 个月就会改进一次。"
+    },
+    {
+      "name": "Evals-Driven Development Cycle",
+      "name_zh": "评估集驱动开发循环",
+      "category": "execution",
+      "problemItSolves": "Managing the non-deterministic nature of LLMs where inputs are fuzzy and outputs vary, making traditional QA insufficient.",
+      "problemItSolves_zh": "管理 LLM 的非确定性特征（模糊的输入和变化的输出），传统的 QA 测试在此场景下已显不足。",
+      "summary": "Product Managers must define 'hero use cases' and translate them into specific evaluations (evals)—essentially quizzes for the model. Development becomes a process of hill-climbing on these eval scores, often using fine-tuning to improve performance on specific tasks.",
+      "summary_zh": "产品经理必须定义“核心标杆场景（Hero Use Cases）”并将其转化为具体的评估集（Evals）——本质上是对模型的测验。开发过程变成了针对这些评估分数进行爬坡优化的过程，通常利用微调（Fine-tuning）来提升特定任务的表现。",
+      "principles": [
+        "Define Hero Use Cases: Identify the specific complex queries or tasks the product must solve.",
+        "Create Custom Evals: Build a dataset of questions and 'perfect' answers to grade the model.",
+        "Fine-tune & Hill Climb: Use the data to teach the model and measure progress against the evals continuously."
+      ],
+      "principles_zh": [
+        "定义标杆场景：确定产品必须解决的特定复杂查询或任务。",
+        "创建自定义评估集：构建包含问题和“完美”答案的数据集来为模型打分。",
+        "微调与爬坡：利用数据教导模型，并根据评估集持续衡量进度。"
+      ],
+      "whenToUse": "When building any AI feature where accuracy and reliability are critical, specifically for B2B or complex consumer queries.",
+      "whenToUse_zh": "构建任何对准确性和可靠性要求极高的 AI 功能时，特别是面向 B2B 或复杂的消费者查询场景。",
+      "commonMistakes": "Relying on 'vibes' or manual spot-checking instead of rigorous, data-driven evaluations.",
+      "commonMistakes_zh": "依赖“感觉”或人工抽检，而不是基于严格的数据驱动评估。",
+      "quote": "Writing evals is quickly becoming a core skill for product builders.",
+      "realWorldExample": "Building OpenAI's 'Deep Research' product required creating evals for complex research tasks that would normally take humans hours to complete.",
+      "realWorldExample_zh": "构建 OpenAI 的“深度研究（Deep Research）”产品时，需要为通常需耗费人类数小时才能完成的复杂研究任务创建评估集。"
+    },
+    {
+      "name": "Human-Analog Interaction Design",
+      "name_zh": "类人交互设计思维",
+      "category": "user-research",
+      "problemItSolves": "Designing UI/UX for AI models that behave differently than traditional deterministic software (e.g., latency, reasoning time).",
+      "problemItSolves_zh": "为行为方式不同于传统确定性软件的 AI 模型（如延迟、推理时间）设计 UI/UX。",
+      "summary": "Design interfaces and workflows by asking 'How would a human handle this?' This informs decisions on latency (showing thinking process vs. silence), error handling, and using chat as a universal interface because it matches human communication flexibility.",
+      "summary_zh": "通过询问“人类会如何处理这个问题？”来设计界面和工作流。这种思维指导了关于延迟（展示思考过程 vs 保持静默）、错误处理以及使用对话作为通用接口的决策，因为这符合人类沟通的灵活性。",
+      "principles": [
+        "Show the Work: Just as a human says 'Let me think about that,' the UI should show the model's reasoning steps (summarized) to manage wait times.",
+        "Ensemble Intelligence: Treat different models like a team of experts (one for coding, one for writing) and use an orchestrator to combine their outputs.",
+        "Chat as Universal Interface: Chat handles the nuances of intelligence better than rigid buttons.",
+        "Fine-tuning as Onboarding: Treat fine-tuning a model like onboarding a new employee with company-specific context."
+      ],
+      "principles_zh": [
+        "展示过程：就像人类会说“让我想想”一样，UI 应展示模型的推理步骤（摘要形式）以管理等待时间。",
+        "集成智能：将不同模型视为专家团队（一个擅长代码，一个擅长写作），并使用编排器整合它们的输出。",
+        "对话即通用接口：相比僵化的按钮，对话能更好地处理智能的细微差别。",
+        "微调即入职培训：将模型微调视为新员工入职，为其灌输公司特定的背景知识。"
+      ],
+      "whenToUse": "Designing user interfaces for reasoning models (like o1/o3) or complex agentic workflows.",
+      "whenToUse_zh": "为推理模型（如 o1/o3）或复杂的智能体工作流设计用户界面时。",
+      "commonMistakes": "Trying to force AI into rigid, button-mashing interfaces or hiding the latency completely without feedback.",
+      "commonMistakes_zh": "试图将 AI 强塞进僵化的点击界面中，或者在没有反馈的情况下完全隐藏延迟。",
+      "quote": "You can often reason about it the way you would reason about another human and it works.",
+      "realWorldExample": "For the o1 reasoning model, OpenAI decided to show summarized 'thought chains' (e.g., 'Planning search query') rather than raw logs or a blank spinner, mimicking a human giving updates.",
+      "realWorldExample_zh": "对于 o1 推理模型，OpenAI 决定展示总结性的“思维链”（例如“正在规划搜索查询”），而不是原始日志或空白的加载圈，以此模仿人类汇报进度的行为。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The AI models that you're using today is the worst AI model you will ever use for the rest of your life.",
+      "context": "Kevin emphasizing the incredible speed of AI advancement and why we are currently at the 'bottom' of the curve."
+    },
+    {
+      "text": "Plans are useless. Planning is helpful.",
+      "context": "On why OpenAI does quarterly roadmapping despite knowing the technology will change the plan almost immediately."
+    },
+    {
+      "text": "If your database works once, it works every time. And that's not true in this world.",
+      "context": "Contrasting traditional software engineering with the non-deterministic nature of building with LLMs."
+    },
+    {
+      "text": "Sometimes it's not any one thing, it's just good work consistently over a long period of time.",
+      "context": "Kevin quoting Mark Zuckerberg on the secret to growth and success."
+    }
+  ],
+  "filename": "Kevin Weil"
+}

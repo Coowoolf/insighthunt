@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Sander Schulhoff",
+    "title": "Founder of Learn Prompting & HackAPrompt",
+    "company": "Learn Prompting",
+    "background": "Sander is the creator of the first comprehensive prompt engineering guide and The Prompt Report. He partners with major AI labs like OpenAI to run global red-teaming competitions and researches AI security and prompt injection.",
+    "background_zh": "Sander 是 Learn Prompting 的创始人，编写了互联网上首份系统性的提示工程指南及《提示工程报告》。他与 OpenAI 等顶级 AI 实验室合作举办全球规模最大的 AI 红队测试（Red Teaming）竞赛，专注于 AI 安全与提示注入攻击的研究。"
+  },
+  "episodeSummary": "Sander Schulhoff debunks common myths about prompt engineering and outlines actionable techniques for both conversational and product-focused AI applications. He details the hierarchy of effective prompting strategies—from few-shot examples to decomposition—and dives deep into the critical, unsolvable challenge of prompt injection and agentic security.",
+  "episodeSummary_zh": "Sander Schulhoff 在本期节目中打破了关于提示工程的常见误区，并为对话式 AI 和产品级 AI 应用提供了可落地的实操框架。他详细拆解了从少样本提示（Few-Shot）到任务分解（Decomposition）的高效策略层级，并深入探讨了提示注入（Prompt Injection）这一难以根除的安全挑战及其对未来 Agent 发展的风险。",
+  "filename": "Sander Schulhoff"
+}

@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Julia Schottenstein",
+    "title": "Product Leader, dbt Cloud",
+    "company": "dbt Labs",
+    "background": "Julia is a product leader at dbt Labs, leading the dbt Cloud product. Uniquely, she transitioned from a career as a professional investor at NEA to a product role after recognizing the immense potential of dbt.",
+    "background_zh": "Julia 目前担任 dbt Labs 的 dbt Cloud 产品负责人。她拥有独特的职业背景，从 NEA 的专业风险投资人转型为产品经理，这一转变源于她对 dbt 巨大潜力的深刻洞察。"
+  },
+  "episodeSummary": "Julia Schottenstein shares her unique transition from VC to product leadership and provides a masterclass on M&A strategy, startup evaluation, and competitive positioning. She discusses how dbt Labs navigated the acquisition of Transform, their philosophy on open-source pricing, and how to build products that become part of a user's identity.",
+  "episodeSummary_zh": "Julia Schottenstein 分享了她从风险投资人转型为产品负责人的独特经历，并就并购策略、初创企业评估和竞争定位提供了大师级的见解。她详细讲述了 dbt Labs 收购 Transform 的幕后故事，探讨了开源产品的定价哲学，以及如何打造让用户产生强烈身份认同感的产品。",
+  "filename": "Julia Schottenstein"
+}

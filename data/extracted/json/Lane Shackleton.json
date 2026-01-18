@@ -1,0 +1,144 @@
+{
+  "guest": {
+    "name": "Lane Shackleton",
+    "title": "Chief Product Officer",
+    "company": "Coda",
+    "background": "Lane Shackleton is the Chief Product Officer at Coda, having previously served as Group Product Manager at YouTube. He began his career uniquely as an Alaskan mountain guide and a manual reviewer for Google AdWords.",
+    "background_zh": "Lane Shackleton 现任 Coda 的首席产品官 (CPO)，此前曾担任 YouTube 的集团产品经理。他的职业生涯始于一段独特的经历——曾在阿拉斯加担任登山向导，并在谷歌从事 AdWords 广告的人工审核工作。"
+  },
+  "episodeSummary": "In this episode, Lane Shackleton shares his deep insights on product leadership, distinguishing between the principles of great individual PMs and the rituals of high-performing teams. He discusses unique frameworks like 'Catalyst' for decision-making, the shift to 'Two-Way Writeups,' and how to measure career growth through discomfort. The conversation covers actionable strategies for turning ambiguity into clarity and building a culture of making over talking.",
+  "episodeSummary_zh": "在本期节目中，Lane Shackleton 分享了他对产品领导力的深刻见解，区分了优秀产品经理的个人原则与高绩效团队的运作仪式 (Rituals)。他探讨了用于决策的 'Catalyst' 框架、向“双向交互式文档”转型的必要性，以及如何通过“不适感”来衡量职业成长。对话涵盖了如何将模糊转化为清晰，以及建立“实干优于空谈”文化的实操策略。",
+  "keyTakeaways": [
+    "Great PMs focus on building consistent systems rather than just hitting static goals.",
+    "To assess career growth, track the frequency of 'Oh Shit' moments where you feel underqualified.",
+    "Replace single-threaded, standing meetings with the 'Catalyst' model to speed up decision velocity.",
+    "Use 'Two-Way Writeups' with sentiment tables (Pulse) to gather inclusive feedback, rather than relying on comment threads.",
+    "Test the extremes immediately (e.g., giant skip button vs. tiny one) instead of debating for months.",
+    "Distinguish between strategy and OKRs; do not plan for more than 10% of the execution period."
+  ],
+  "methodologies": [
+    {
+      "name": "Systems Not Goals",
+      "name_zh": "系统优于目标原则",
+      "category": "career-leadership",
+      "problemItSolves": "Prevents the 'boom and bust' cycle of learning where teams only engage with customers to hit a quarterly target (OKR) and then stop.",
+      "problemItSolves_zh": "解决团队为了达成季度指标 (OKR) 而进行突击式学习，达标后便停止探索的“忽冷忽热”问题。",
+      "summary": "Inspired by Jerry Seinfeld's writing habit, this principle argues that product professionals should establish continuous habits (systems) rather than fixation on singular outcomes. A system ensures learning and output happen by default, regardless of specific targets.",
+      "summary_zh": "受 Jerry Seinfeld 创作习惯的启发，该原则主张产品专家应建立持续性的习惯（系统），而非仅仅盯着单一的结果目标。一个良好的系统能确保无论具体指标如何，学习和产出都会默认发生。",
+      "principles": [
+        "Default On: Customer interaction or prototyping should be a recurring calendar event, not a special occasion.",
+        "Consistency over Intensity: It is better to have frequent, small touchpoints than one massive research sprint followed by silence.",
+        "Process Focus: Trust that the score takes care of itself if the fundamental habits are executed correctly."
+      ],
+      "principles_zh": [
+        "默认开启 (Default On)：用户调研或原型制作应是日历上的常态化事项，而非特殊任务。",
+        "持续性优于强度：高频次、小规模的接触远胜于一次性的大规模调研。",
+        "关注过程：相信只要基本习惯（系统）执行得当，结果自然会水到渠成。"
+      ],
+      "whenToUse": "When a team is struggling with consistent user research or when product discovery feels sporadic.",
+      "whenToUse_zh": "当团队在用户调研方面难以坚持，或产品探索工作显得断断续续时适用。",
+      "commonMistakes": "Setting a 'Goal' to talk to 10 customers this quarter, hitting it, and then talking to zero customers the next quarter.",
+      "commonMistakes_zh": "设定“本季度访谈10个客户”的目标，达标后在下个季度却完全停止与客户交流。",
+      "quote": "Goals with good intentions don't work... Instead of being obsessed with the goal, be obsessed with the system that gets you there.",
+      "realWorldExample": "In the early days of Coda, the team allocated specific hours every Friday for customer visits. Whether they were ready or not, they had to show something, forcing a system of continuous prototyping.",
+      "realWorldExample_zh": "在 Coda 早期，团队每周五都预留固定时间接待客户。无论准备是否充分，他们都必须展示一些东西，这倒逼团队建立了持续制作原型的系统。"
+    },
+    {
+      "name": "The 'Oh Shit' Moment Career Calibration",
+      "name_zh": "“惊惶时刻”职业校准法",
+      "category": "career-leadership",
+      "problemItSolves": "Provides a sharp, non-ambiguous metric to answer the vague question: 'Am I growing in my role?'",
+      "problemItSolves_zh": "提供一个清晰、明确的指标，来回答“我在目前的岗位上是否有成长？”这一模糊问题。",
+      "summary": "Growth happens in moments of discomfort where you feel underqualified. Instead of asking if you are growing, count how many times in the last 6 months you've said 'Oh shit, I shouldn't be here' or felt stretched. A lack of these moments indicates stagnation.",
+      "summary_zh": "成长往往发生在你感到力不从心或不适的时刻。不要泛泛地问自己是否在成长，而应统计过去6个月中有多少次你惊呼“天哪，我不该在这里”或感到极度紧绷。如果缺乏这些时刻，说明你可能停滞不前了。",
+      "principles": [
+        "Seek Discomfort: Actively look for projects or roles that make you feel underqualified.",
+        "Frequency Metric: Use the number of 'Oh Shit' moments as a KPI for your personal growth trajectory.",
+        "Reframing Fear: View the feeling of impostor syndrome as a signal of high-velocity learning."
+      ],
+      "principles_zh": [
+        "寻求不适：主动寻找那些让你感到资历不足或能力不够的项目或角色。",
+        "频率指标：将“惊惶时刻”的发生频率作为衡量个人成长轨迹的 KPI。",
+        "重构恐惧：将冒充者综合症 (Impostor Syndrome) 的感觉视为高速学习的信号。"
+      ],
+      "whenToUse": "During performance reviews or self-reflection when you feel comfortable but stagnant.",
+      "whenToUse_zh": "在绩效评估或自我反思时，特别是当你感到工作得心应手但缺乏进步时。",
+      "commonMistakes": "Avoiding high-risk projects to maintain a feeling of competence and safety.",
+      "commonMistakes_zh": "为了保持胜任感和安全感，刻意回避高风险项目。",
+      "quote": "Moments that stretch you or moments that you feel uncomfortable in... those are the moments that stretch you and give you a new foundation.",
+      "realWorldExample": "Lane transitioning from an Alaskan guide to Google AdWords support, and then to Product Management without a CS degree, consistently placing himself in 'underqualified' scenarios.",
+      "realWorldExample_zh": "Lane 从阿拉斯加向导转型为 Google AdWords 客服，再在没有计算机学位的情况下转型为产品经理，始终将自己置于“资质不足”的挑战场景中。"
+    },
+    {
+      "name": "Catalyst Decision Framework",
+      "name_zh": "Catalyst 决策机制",
+      "category": "execution",
+      "problemItSolves": "Solves the twin problems of 'standing attendees' (wrong people in the room) and 'single-threaded reviews' (bottlenecked decision making).",
+      "problemItSolves_zh": "解决了“固定参会者”（参会人员不匹配）和“单线程评审”（决策瓶颈）这两大难题。",
+      "summary": "Catalyst replaces standard weekly review meetings with reserved time blocks where the whole company is theoretically available. Specific topics are slotted in dynamically with defined roles, allowing multiple parallel reviews with exactly the right stakeholders.",
+      "summary_zh": "Catalyst 用预留的时间块取代了传统的周常评审会，理论上全公司此时都有空。具体议题会被动态插入，并指定明确角色，从而允许只需相关利益相关者参与的多线程并行评审。",
+      "principles": [
+        "Role Clarity: Every topic has a Driver, Maker, Braintrust, and Interested parties.",
+        "Dynamic Attendance: Only attend if you are critical to that specific topic; no standing recurring invites.",
+        "Multi-threaded: Multiple decision meetings happen simultaneously in the same block, increasing organizational throughput."
+      ],
+      "principles_zh": [
+        "角色清晰：每个议题都设有负责人 (Driver)、执行人 (Maker)、智囊团 (Braintrust) 和关注者 (Interested)。",
+        "动态参会：只参与你起关键作用的议题，取消固定人员的例会。",
+        "多线程并行：同一时间段内并行召开多个决策会议，提高组织的整体吞吐量。"
+      ],
+      "whenToUse": "When product reviews are becoming too long, boring for half the room, or delaying shipping due to scheduling conflicts.",
+      "whenToUse_zh": "当产品评审会变得冗长、半数参会者感到无聊，或因日程冲突导致发布延迟时。",
+      "commonMistakes": "Treating every decision with the same weight and requiring the same senior leaders to be in every single room.",
+      "commonMistakes_zh": "对所有决策一视同仁，并要求相同的高层领导必须参与每一场会议。",
+      "quote": "If product development is a chaotic assembly line... your review or your decision forum ends up being a big time bottleneck.",
+      "realWorldExample": "Coda holds three 1-hour blocks per week where the calendar hold is removed 24 hours prior, and specific topics with specific attendee lists are inserted.",
+      "realWorldExample_zh": "Coda 每周预留三个1小时的时间块，在开始前24小时取消统一占位，并插入带有特定参会名单的具体议题。"
+    },
+    {
+      "name": "Two-Way Writeups (Dory & Pulse)",
+      "name_zh": "双向交互式文档 (Dory & Pulse)",
+      "category": "team-culture",
+      "problemItSolves": "Fixes 'One-Way Writeups' where feedback is hidden in comment margins, dominance of loud voices, and uncertainty if stakeholders have read the doc.",
+      "problemItSolves_zh": "解决了“单向文档”中反馈隐藏在页边评论、大嗓门主导讨论以及不确定利益相关者是否已阅读的问题。",
+      "summary": "Evolution from PowerPoint (Phase 1) and Static Docs (Phase 2) to Interactive Docs. Uses tools like 'Dory' (to vote up key questions to discuss) and 'Pulse' (sentiment tables) to democratize feedback and ensure alignment.",
+      "summary_zh": "从 PPT (阶段1) 和静态文档 (阶段2) 向交互式文档的演进。使用 'Dory'（投票选出关键问题进行讨论）和 'Pulse'（情绪/态度表）等工具来使反馈民主化并确保对齐。",
+      "principles": [
+        "Democratized Q&A (Dory): List questions in a table and let the room vote on what to discuss, rather than answering the loudest person.",
+        "Sentiment Check (Pulse): Ask stakeholders to record their sentiment (e.g., smiley faces, 1-5 scale) to visualize consensus or dissent instantly.",
+        "Inclusive Feedback: Allows introverts or junior members to signal major issues (e.g., a 'frown' face) without interrupting a meeting."
+      ],
+      "principles_zh": [
+        "问答民主化 (Dory)：将问题列在表格中供大家投票，优先讨论票数高的问题，而非谁嗓门大听谁的。",
+        "情绪/态度检查 (Pulse)：要求利益相关者记录他们的态度（如表情符号、1-5打分），即时可视化共识或分歧。",
+        "包容性反馈：允许内向者或初级成员在不打断会议的情况下，通过标记（如“皱眉”表情）指出重大问题。"
+      ],
+      "whenToUse": "For product requirement documents (PRDs), strategy proposals, or any asynchronous decision-making process.",
+      "whenToUse_zh": "适用于产品需求文档 (PRD)、战略提案或任何异步决策流程。",
+      "commonMistakes": "Debating the core validity of a proposal in the comment thread of the document title.",
+      "commonMistakes_zh": "在文档标题的评论区里争论提案的核心合理性。",
+      "quote": "I thought it was going to sail through... One of the lead designers basically said, 'One smiley face. We shouldn't do this.'",
+      "realWorldExample": "Lane once proposed a feature thinking everyone agreed, but a quiet lead designer put a negative sentiment in the Pulse table, saving the team from a bad decision he wouldn't have voiced otherwise.",
+      "realWorldExample_zh": "Lane 曾提议一个功能并以为大家都会同意，但一位安静的设计负责人在 Pulse 表格中填了负面态度，这挽救了团队免于做出错误的决策，而此人在会上可能根本不会发言。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The core job of a product person in general is to turn ambiguity into clarity.",
+      "context": "Lane defining the fundamental role of a Product Manager regardless of level."
+    },
+    {
+      "text": "The cave you fear contains the treasure you seek.",
+      "context": "Discussed in relation to doing hard things and seeking 'Oh Shit' moments."
+    },
+    {
+      "text": "Goals with good intentions don't work.",
+      "context": "Explaining why systems (habits) are superior to simple OKRs for long-term success."
+    },
+    {
+      "text": "Just test the extremes. Start the experiment tomorrow.",
+      "context": "Phil Farhi's advice to Lane when debating how to implement skippable ads on YouTube."
+    }
+  ],
+  "filename": "Lane Shackleton"
+}

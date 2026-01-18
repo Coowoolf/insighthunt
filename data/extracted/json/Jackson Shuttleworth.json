@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Jackson Shuttleworth",
+    "title": "Group Product Manager (Retention)",
+    "company": "Duolingo",
+    "background": "Jackson leads the retention team at Duolingo, where he oversees the specific team dedicated to the 'Streak' feature. Under his leadership, the team has run over 600 experiments on streaks, making it the single most impactful feature for Duolingo's growth and $14 billion valuation.",
+    "background_zh": "Jackson Shuttleworth 是 Duolingo 留存团队的 Group PM，专门负责“连胜”（Streak）功能的迭代。在他的领导下，团队针对该功能进行了超过 600 次 A/B 测试，使其成为推动 Duolingo 增长及 140 亿美元估值的核心引擎。"
+  },
+  "episodeSummary": "Jackson Shuttleworth deconstructs the product strategy behind Duolingo's most powerful engagement loop: the Streak. He details how running 600+ experiments transformed a simple counter into a sophisticated psychological driver that retains 9 million users on year-long streaks. The conversation covers the balance between flexibility and strictness, the importance of 'Current User Retention Rate' (CURR), and how to structure teams around metrics rather than just features.",
+  "episodeSummary_zh": "Jackson Shuttleworth 深度拆解了 Duolingo 最核心的互动闭环——连胜（Streak）背后的产品策略。他详细讲述了如何通过 600 多次实验，将一个简单的计数器转化为复杂的心理驱动机制，成功让 900 万用户保持长达一年的连胜记录。对话涵盖了习惯养成中“灵活性”与“严格性”的平衡、现有用户留存率（CURR）的重要性，以及如何围绕指标而非仅仅围绕功能来搭建产品团队。",
+  "filename": "Jackson Shuttleworth"
+}

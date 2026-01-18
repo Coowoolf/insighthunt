@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Nick Turley",
+    "title": "Head of ChatGPT",
+    "company": "OpenAI",
+    "background": "Nick Turley joined OpenAI three years ago when it was primarily a research lab. He helped conceive ChatGPT from a hackathon project and led it to become the fastest-growing consumer product in history. Previously, he held product leadership roles at Instacart and Dropbox.",
+    "background_zh": "Nick Turley 在三年前加入 OpenAI，当时公司主要还是一个研究实验室。他不仅将 ChatGPT 从一个黑客马拉松项目孵化成型，还带领其成为史上增长最快的消费级产品。在此之前，他曾在 Instacart 和 Dropbox 担任产品负责人。"
+  },
+  "episodeSummary": "Nick Turley shares the inside story of ChatGPT's evolution from a 'Chat with GPT-3.5' hackathon demo to a global phenomenon. He discusses the unique challenges of product management in AI, including the necessity of shipping early to discover emergent behaviors, the 'maximally accelerated' execution culture, and why product managers must master writing Evals.",
+  "episodeSummary_zh": "Nick Turley 揭秘了 ChatGPT 如何从一个名为 'Chat with GPT-3.5' 的黑客马拉松 demo 演变为全球现象级产品的内部历程。他探讨了 AI 时代产品管理的独特挑战，包括通过尽早发布来探索模型的涌现能力、'极限加速'的执行文化，以及为何产品经理必须掌握编写 Evals（评估集）的技能。",
+  "filename": "Nick Turley"
+}

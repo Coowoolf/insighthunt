@@ -1,0 +1,12 @@
+{
+  "guest": {
+    "name": "Sander Schulhoff",
+    "title": "Founder & CEO, Learn Prompting",
+    "company": "Learn Prompting / HackAPrompt",
+    "background": "A leading researcher in adversarial robustness and AI security who organized the world's first and largest AI red teaming competition. He is an expert in prompt injection, jailbreaking, and educating enterprises on the realities of LLM vulnerabilities.",
+    "background_zh": "对抗鲁棒性（Adversarial Robustness）和AI安全领域的顶尖研究员，组织了全球首个也是规模最大的AI红队测试竞赛。他是提示词注入（Prompt Injection）、越狱攻击方面的专家，致力于帮助企业认清大模型漏洞的真相。"
+  },
+  "episodeSummary": "Sander Schulhoff exposes the critical flaws in the current AI security industry, arguing that popular \"guardrails\" are fundamentally ineffective against determined attacks. The conversation shifts the focus from futile attempts to \"patch the brain\" of an LLM to implementing robust traditional cybersecurity measures like permissioning and sandboxing. Schulhoff highlights the escalating risks as AI transitions from passive chatbots to autonomous agents capable of executing real-world actions.",
+  "episodeSummary_zh": "Sander Schulhoff 揭露了当前AI安全行业的重大缺陷，指出流行的“AI护栏”技术在应对针对性攻击时根本无效。对话的重心从徒劳地试图“修补大模型的大脑”，转向了实施权限管理和沙箱隔离等传统网络安全措施。Schulhoff 强调，随着AI从被动聊天机器人向能够执行现实操作的自主智能体（Agents）演进，安全风险正在急剧升级。",
+  "filename": "Sander Schulhoff 2.0"
+}

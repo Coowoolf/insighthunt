@@ -1,0 +1,121 @@
+{
+  "guest": {
+    "name": "Marily Nika",
+    "title": "Product Lead, Metaverse (Avatars & Identity)",
+    "company": "Meta",
+    "background": "Marily Nika is currently a Product Lead at Meta and teaches a popular course on AI Product Management on Maven. Previously, she spent over 8 years at Google working on Google Glass, computer vision, and speech recognition technologies.",
+    "background_zh": "Marily Nika 目前担任 Meta 元宇宙（化身与身份）方向的产品负责人，并在 Maven 平台上开设了极受欢迎的 AI 产品管理课程。此前，她在 Google 工作了超过八年，深耕 Google Glass、计算机视觉和语音识别技术领域。"
+  },
+  "episodeSummary": "In this episode, Marily Nika demystifies the role of an AI Product Manager, explaining how it differs from traditional product management through the management of uncertainty and research cycles. She warns against the \"shiny object trap,\" advises on how to build MVPs without actual AI code, and provides a roadmap for PMs to acquire technical intuition. The conversation also covers practical tools for non-technical PMs and strategies for bridging the gap between academic research and viable business products.",
+  "episodeSummary_zh": "在本期节目中，Marily Nika 揭开了 AI 产品经理的神秘面纱，阐述了该角色如何通过管理不确定性和科研周期，与传统产品经理区分开来。她警示了“追逐热点陷阱”，建议在 MVP 阶段无需编写 AI 代码即可进行验证，并为 PM 提供了建立技术直觉的路线图。对话还涵盖了非技术背景 PM 的实用工具，以及如何弥合学术研究与商业化产品之间鸿沟的策略。",
+  "keyTakeaways": [
+    "Generalist PMs build the right product; AI PMs solve the right problem.",
+    "Avoid the 'Shiny Object Trap': Do not implement AI just for the sake of using new technology; ensure there is a genuine user pain point.",
+    "Do not train custom models for an MVP; use prototyping tools or manual operations ('Wizard of Oz') to validate demand first.",
+    "AI Product Management requires a shift in mindset to embrace uncertainty and non-deterministic outcomes common in research.",
+    "PMs act as the bridge between Research Scientists and business goals, translating academic hypotheses into monetizable features.",
+    "Even without a CS degree, PMs should learn the basics of training a model (e.g., using No-Code tools like AutoML) to understand trade-offs and build intuition.",
+    "Use 'adjacent products' (successful examples from other companies) to get stakeholder buy-in for risky AI bets."
+  ],
+  "methodologies": [
+    {
+      "name": "The Problem-First AI Discovery",
+      "name_zh": "问题导向型 AI 探索框架",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents teams from falling into the 'Shiny Object Trap'—wasting resources on AI when a simpler solution would suffice or when no real problem exists.",
+      "problemItSolves_zh": "防止团队陷入“追逐热点陷阱”（Shiny Object Trap），即在无需 AI 或不存在真实问题的情况下浪费资源去强行应用 AI 技术。",
+      "summary": "A strategic approach that prioritizes the identification of a specific user pain point over the desire to use AI technology. It treats AI as a 'smart solution' that is only deployed after the problem and high-level solution are clearly defined.",
+      "summary_zh": "一种优先识别用户痛点而非盲目应用技术的战略方法。它将 AI 视为一种“智能解决方案”，仅在问题和高层级解决方案被清晰定义后才进行部署。",
+      "principles": [
+        "Step 1: Identify a genuine pain point or problem (don't start with 'Let's use GPT').",
+        "Step 2: Define a high-level solution (e.g., 'We need to automate X').",
+        "Step 3: Determine if AI is the 'smart way' to solve it (vs. heuristic rules).",
+        "Step 4: Consult with Research Scientists on technical feasibility only after the problem is validated."
+      ],
+      "principles_zh": [
+        "步骤 1：识别真实的痛点或问题（不要以“我们要用 GPT 做点什么”作为起点）。",
+        "步骤 2：定义高层级解决方案（例如，“我们需要自动化流程 X”）。",
+        "步骤 3：评估 AI 是否是解决该问题的“最优智能手段”（对比传统的启发式规则）。",
+        "步骤 4：仅在问题通过验证后，再咨询算法科学家（Research Scientists）探讨技术可行性。"
+      ],
+      "whenToUse": "At the very beginning of a product lifecycle or when stakeholders are pressuring the team to 'add AI' to a product.",
+      "whenToUse_zh": "处于产品生命周期的最早期，或者当利益相关者向团队施压要求在产品中“强行添加 AI 功能”时。",
+      "commonMistakes": "Starting with the data or the model capability rather than the user need.",
+      "commonMistakes_zh": "从数据或模型能力出发，而不是从用户需求出发。",
+      "quote": "The generalist PM helps their team and their company build and ship the right product. But the AI PM helps their team or company solve the right problem.",
+      "realWorldExample": "Writing a mission statement: Don't ask ChatGPT to do your job. Have the mission/problem in mind first, then use AI to rewrite/optimize it for clarity across disciplines.",
+      "realWorldExample_zh": "撰写使命宣言（Mission Statement）：不要让 ChatGPT 直接替你工作。首先自己要有清晰的使命/问题构思，然后利用 AI 进行重写和优化，使其能被跨职能团队理解。"
+    },
+    {
+      "name": "The AI-Free MVP Validation",
+      "name_zh": "无模型 MVP 验证法",
+      "category": "growth-metrics",
+      "problemItSolves": "Avoids the massive time and cost sink of collecting data and training models for a product that might not have product-market fit (PMF).",
+      "problemItSolves_zh": "避免为尚未验证产品市场匹配（PMF）的产品投入大量时间和成本去收集数据及训练模型。",
+      "summary": "Instead of building actual ML models for an MVP, PMs should use design prototypes (Figma) or manual 'Wizard of Oz' techniques to simulate the AI experience. This validates user intent and market demand before engineering resources are committed.",
+      "summary_zh": "在 MVP 阶段不构建真实的机器学习模型，而是利用设计原型（Figma）或“奥兹国巫师”（Wizard of Oz，即人工模拟智能）技术来模拟 AI 体验。这能确保在投入研发资源前验证用户意图和市场需求。",
+      "principles": [
+        "Principle 1: Zero Code AI - Don't waste data science time on training models for concept testing.",
+        "Principle 2: Simulation - Use Figma or manual interventions to 'fake' the AI's output.",
+        "Principle 3: Validate Value - Focus on whether the user *wants* the recommendation/automation, not on how accurate it is yet.",
+        "Principle 4: Data Strategy Later - Only worry about data collection pipelines after the use case is proven."
+      ],
+      "principles_zh": [
+        "原则 1：零代码 AI —— 不要浪费数据科学家的时间去为概念测试训练模型。",
+        "原则 2：模拟体验 —— 使用 Figma 或人工干预手段来“伪造” AI 的输出结果。",
+        "原则 3：验证价值 —— 聚焦于用户是否*需要*这种推荐或自动化功能，而非纠结于目前的准确率。",
+        "原则 4：后置数据策略 —— 只有在用例被验证成功后，再考虑数据收集管道的搭建。"
+      ],
+      "whenToUse": "When launching a new feature or startup idea where the value proposition relies on AI, but you have no user data yet.",
+      "whenToUse_zh": "当发布一个新功能或创业想法，且其价值主张依赖于 AI，但你目前没有任何用户数据时。",
+      "commonMistakes": "Thinking you need to hire data scientists and collect thousands of data points just to prove a concept works.",
+      "commonMistakes_zh": "误以为必须先雇佣数据科学家并收集数千个数据点，才能证明概念的可行性。",
+      "quote": "Don't do it for your MVP. It makes zero sense... Just fake what the AI is going to be doing.",
+      "realWorldExample": "Startups asking if they should train a model to prove a market exists. Nika advises against this—use prototypes to show users the 'magic' first.",
+      "realWorldExample_zh": "初创公司询问是否应该训练一个模型来证明市场存在。Nika 建议不要这样做——先用原型向用户展示“魔法”效果即可。"
+    },
+    {
+      "name": "The AI Competency Triad",
+      "name_zh": "AI 产品经理胜任力三角",
+      "category": "team-culture",
+      "problemItSolves": "Helps PMs navigate the complexity of working with Research Scientists and managing the uncertainty of ML projects.",
+      "problemItSolves_zh": "帮助产品经理应对与算法科学家（Research Scientists）协作的复杂性，并有效管理机器学习项目的不确定性。",
+      "summary": "A collaborative framework specifically for AI products that adds a heavy 'Feasibility' bubble driven by research science. The PM acts as the translator between business viability and the non-deterministic nature of scientific research.",
+      "summary_zh": "专为 AI 产品设计的协作框架，特别强调由科研驱动的“技术可行性”一极。产品经理充当商业可行性与科学研究非确定性本质之间的翻译官。",
+      "principles": [
+        "Desirability (User): Does the user want this personalized/automated experience?",
+        "Viability (Business): Can we monetize this? (e.g., figuring out pricing for generative AI features).",
+        "Feasibility (Science): Deep collaboration with Research Scientists. Understanding that models are probabilistic (70% accurate) not deterministic.",
+        "Embracing Uncertainty: Shifting from a linear launch schedule to an experimental mindset where 'failure' to train a model is a valid outcome."
+      ],
+      "principles_zh": [
+        "用户需求（Desirability）：用户是否真的需要这种个性化或自动化的体验？",
+        "商业价值（Viability）：我们能变现吗？（例如，为生成式 AI 功能制定定价策略）。",
+        "技术可行性（Feasibility）：与算法科学家深度协同。理解模型是概率性的（如 70% 准确率），而非确定性的。",
+        "拥抱不确定性：从线性的发布计划转变为实验性思维，接受“模型训练失败”也是一种合理的科研产出。"
+      ],
+      "whenToUse": "When transitioning from a generalist PM role to an AI/ML specific role, or when integrating a Research Scientist into a product team.",
+      "whenToUse_zh": "当从通用型 PM 转型为 AI/ML 垂直领域的 PM 时，或者当产品团队中通过引入算法科学家时。",
+      "commonMistakes": "Treating Research Scientists like software engineers and expecting fixed deadlines for model accuracy improvements.",
+      "commonMistakes_zh": "将算法科学家等同于软件工程师，并要求其按固定截止日期交付模型准确率的提升。",
+      "quote": "You need to get comfortable with having a partner that's a research scientist... working with research, it's more like 'we're going to try this and in a year if it doesn't work out we're going to shut it down'.",
+      "realWorldExample": "Google Glass translation feature: Required bridging complex research (speech recognition/translation) with a viable user interface and hardware constraints.",
+      "realWorldExample_zh": "Google Glass 的翻译功能：需要将复杂的科研成果（语音识别/翻译）与可行的用户界面及硬件限制完美结合。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "The generalist PM helps their team and their company build and ship the right product. But the AI PM helps their team or company solve the right problem.",
+      "context": "Defining the core difference between traditional Product Management and AI Product Management."
+    },
+    {
+      "text": "Don't do AI for the sake of doing AI. Make sure there is a problem there.",
+      "context": "The opening advice regarding the 'Shiny Object Trap'."
+    },
+    {
+      "text": "There is nothing I can write that's going to be as good as what ChatGPT looks like. So what I do is I literally go to ChatGPT and I say rewrite this mission statement from me.",
+      "context": "On how she uses AI tools to enhance her own daily workflows as a Product Lead."
+    }
+  ],
+  "filename": "Marily Nika"
+}

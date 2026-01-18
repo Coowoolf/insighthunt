@@ -1,0 +1,145 @@
+{
+  "guest": {
+    "name": "Scott Belsky",
+    "title": "Chief Strategy Officer & EVP Design / Former CPO",
+    "company": "Adobe",
+    "background": "Scott Belsky is an executive at Adobe, overseeing strategy, design, and emerging products. He was the founder of Behance (acquired by Adobe), is an active angel investor (Uber, Pinterest, Airtable), and authored the book 'The Messy Middle'.",
+    "background_zh": "Scott Belsky 现任 Adobe 首席战略官及设计执行副总裁，曾任首席产品官（CPO）。他是 Behance 的创始人（后被 Adobe 收购），也是 Uber、Pinterest 和 Airtable 等公司的天使投资人，并著有《The Messy Middle》（乱中取胜）一书。"
+  },
+  "episodeSummary": "Scott Belsky shares his deep product philosophy, focusing on the psychology of the 'First Mile' of user experience and the importance of editing features down to the essentials. He also discusses navigating the 'Messy Middle' of company building, how to maintain team morale through volatility, and provides a forward-looking perspective on how AI will collapse the organizational stack and empower product builders.",
+  "episodeSummary_zh": "Scott Belsky 分享了他深刻的产品哲学，重点探讨了用户体验“首英里（First Mile）”的心理学机制，以及精简产品功能的重要性。他还讨论了如何度过创业过程中“混乱的中程（Messy Middle）”，如何在动荡中维持团队士气，并前瞻性地分析了 AI 将如何“压扁”组织层级并赋能产品构建者。",
+  "keyTakeaways": [
+    "Users are lazy, vain, and selfish in the first 30 seconds; build for this psychology.",
+    "Optimize for the problems you want to have (users asking for features) rather than building everything upfront.",
+    "Kill features to increase velocity on the core metric (The Behance Example).",
+    "To survive the 'Messy Middle', short-circuit the reward system with micro-milestones.",
+    "Product sense = Empathy + Psychological understanding of human tendencies.",
+    "AI will allow PMs and designers to explore 10x the surface area of possibilities.",
+    "Great product UX answers three questions: How did I get here? What do I do now? Where do I go next?"
+  ],
+  "methodologies": [
+    {
+      "name": "The 'Lazy, Vain, and Selfish' First Mile",
+      "name_zh": "“懒惰、虚荣、自私”的首英里原则",
+      "category": "user-research",
+      "problemItSolves": "High churn rates during user onboarding and failure to activate new users effectively.",
+      "problemItSolves_zh": "解决用户引导（Onboarding）阶段的高流失率以及新用户激活失败的问题。",
+      "summary": "Product teams often spend 90% of effort on the 'final mile' features, but users never get there if the 'first mile' (first 30 seconds) fails. You must accept that new users have zero tolerance for learning curves.",
+      "summary_zh": "产品团队往往将90%的精力花在“最后的一英里”（高级功能）上，但如果“首英里”（最初30秒）失败了，用户根本无法体验到核心价值。必须承认新用户对学习曲线是零容忍的。",
+      "principles": [
+        "Acknowledge the Trinity: In the first 30 seconds, users are lazy (want it easy), vain (want to look good), and selfish (want immediate value).",
+        "Defaults over Choices: Don't make users configure settings; use presumptuous defaults to reduce cognitive load.",
+        "Re-evaluate for New Cohorts: Early adopters are forgiving; later cohorts are pragmatists who require an even smoother first mile."
+      ],
+      "principles_zh": [
+        "承认“人性三要素”：在最初30秒内，用户是懒惰的（想要简单）、虚荣的（想要看起来很棒）和自私的（想要即时价值）。",
+        "默认优于选择：不要让用户去配置设置，使用“预判性默认值”来降低认知负荷。",
+        "针对新人群重新评估：早期采用者往往比较宽容，但后期的实用主义用户群对首英里体验的要求会更苛刻。"
+      ],
+      "whenToUse": "During the design of onboarding flows, landing pages, or when debugging low activation rates.",
+      "whenToUse_zh": "设计用户引导流程（Onboarding Flow）、着陆页，或排查低激活率问题时使用。",
+      "commonMistakes": "Assuming users care about your mission/tutorial before they have experienced success; building 'generalized' onboarding for all cohorts.",
+      "commonMistakes_zh": "误以为用户在获得成功体验之前会关心你的愿景或教程；为所有用户群构建“一刀切”的引导流程。",
+      "quote": "In the first 30 seconds of using a new product, you are lazy, vain, and selfish.",
+      "realWorldExample": "Photoshop reduced its price to $10/month, bringing in non-pros. The onboarding had to change completely because these new users weren't willing to learn complex tools like the old pros were.",
+      "realWorldExample_zh": "Photoshop 将价格降至10美元/月后引入了大量非专业用户。由于这些新用户不像老派专业人士那样愿意学习复杂工具，Photoshop 必须彻底重构其引导体验。"
+    },
+    {
+      "name": "The Rule of Halves",
+      "name_zh": "“做减法”原则",
+      "category": "product-strategy",
+      "problemItSolves": "Feature bloat, diluted user attention, and lack of clarity in product direction.",
+      "problemItSolves_zh": "解决功能臃肿、用户注意力分散以及产品方向不清晰的问题。",
+      "summary": "Most teams build too much. You should build half the features you think you need. By focusing the product on one core utility, you drive the primary metric significantly harder than by offering options.",
+      "summary_zh": "大多数团队做得太多。你应该只开发你认为所需的“一半”功能。通过将产品聚焦于单一核心效用，相比提供多种选项，你能更强力地驱动核心指标。",
+      "principles": [
+        "Optimize for 'Good Problems': It is better to have users complaining that a feature is missing than to have users churning because they are confused.",
+        "Kill to Accelerate: Removing secondary features often increases the usage of the primary feature (the 'Core Crank').",
+        "The 24-Hour Rule: When you remove a feature, expect backlash for 24 hours, then silence and improved metrics."
+      ],
+      "principles_zh": [
+        "优化“好问题”：让用户抱怨“缺功能”，比让用户因为困惑而流失要好得多。",
+        "通过砍功能来提速：移除次要功能往往能提升核心功能（Core Crank）的使用率。",
+        "24小时法则：当你移除某项功能时，预备好迎接24小时的强烈反弹，之后通常就是平静以及指标的提升。"
+      ],
+      "whenToUse": "Defining MVP scope or when a mature product feels cluttered and metrics are stagnating.",
+      "whenToUse_zh": "定义 MVP 范围时，或者当成熟产品感觉杂乱且指标停滞时使用。",
+      "commonMistakes": "Hedging your bets by building three different value propositions (e.g., community, tools, and marketplace) simultaneously.",
+      "commonMistakes_zh": "试图通过同时构建三个不同的价值主张（例如社区、工具和市场）来“对冲”风险。",
+      "quote": "Optimize for the problems you want to have.",
+      "realWorldExample": "Behance initially launched with Groups, Tip Exchange, and Portfolios. They killed 'Tip Exchange' and 'Groups'. Result: Project publishing (North Star Metric) skyrocketed because distraction was removed.",
+      "realWorldExample_zh": "Behance 最初上线了群组、技巧交换和作品集功能。后来他们砍掉了“技巧交换”和“群组”。结果：作品发布量（北极星指标）因干扰减少而飙升。"
+    },
+    {
+      "name": "Navigating the Messy Middle",
+      "name_zh": "穿越“混乱的中程”",
+      "category": "team-culture",
+      "problemItSolves": "Founder/PM burnout and team loss of motivation during the long period between launch and success.",
+      "problemItSolves_zh": "解决在产品发布与最终成功之间漫长周期内的创始人/PM 职业倦怠和团队动力丧失问题。",
+      "summary": "The middle of any journey is volatile. Biology demands constant rewards, which startups rarely provide naturally. Leaders must manufacture momentum to keep the team engaged.",
+      "summary_zh": "任何旅程的中间阶段都是动荡的。生物学本能需要持续的奖励，但创业公司通常难以自然提供。领导者必须人为制造动能来保持团队的投入度。",
+      "principles": [
+        "Short-Circuit the Reward System: Create artificial micro-milestones and celebrate them aggressively to hack the brain's need for dopamine.",
+        "Merchandise Progress: The team is in the backseat with blacked-out windows; the leader must constantly narrate that the car is moving forward.",
+        "The Conviction Audit: Ask yourself: 'Do I have more or less conviction now than when I started?' If less, pivot or quit."
+      ],
+      "principles_zh": [
+        "缩短奖励回路：设立人为的微型里程碑并积极庆祝，以“黑客”式满足大脑对多巴胺的需求。",
+        "向团队“推销”进展：团队就像坐在贴了黑膜的后座上，领导者必须不断解说车辆正在前进，否则团队会陷入恐慌。",
+        "信念审计：问自己：“我现在比刚开始时更有信念还是更少？”如果变少了，转型或放弃。"
+      ],
+      "whenToUse": "When the initial launch hype fades, metrics flatten, or morale dips during long development cycles.",
+      "whenToUse_zh": "当发布初期的兴奋感消退、指标趋于平缓，或在漫长的开发周期中士气低落时使用。",
+      "commonMistakes": "Thinking the team 'just knows' progress is happening; waiting for big external wins (funding/launches) to celebrate.",
+      "commonMistakes_zh": "误以为团队“自然知道”进展正在发生；只等待外部大事件（融资/发布）才进行庆祝。",
+      "quote": "If they don't receive the narrative, they will go stir-crazy.",
+      "realWorldExample": "Scott advises founders who are stuck to check their conviction. Some realize they learned enough to know it won't work and should quit; others realize they are just in the messy middle.",
+      "realWorldExample_zh": "Scott 建议陷入困境的创始人检查自己的信念。有些人意识到他们学到的东西足以证明这行不通，应该放弃；另一些人则意识到他们只是身处“混乱的中程”。"
+    },
+    {
+      "name": "The UX Object Model Test",
+      "name_zh": "UX 对象模型测试",
+      "category": "execution",
+      "problemItSolves": "Confusing user interfaces and lack of intuitive navigation in complex products.",
+      "problemItSolves_zh": "解决复杂产品中用户界面混乱和导航不直观的问题。",
+      "summary": "A framework to evaluate the structural integrity of a product's design. It ensures users always maintain their orientation within the application.",
+      "summary_zh": "一个用于评估产品设计结构完整性的框架。它确保用户在应用中始终保持清晰的方向感。",
+      "principles": [
+        "Question 1: How did I get here? (Clear breadcrumbs/origin)",
+        "Question 2: What do I do now? (Clear primary action/CTA)",
+        "Question 3: Where do I go next? (Clear exit paths/progression)"
+      ],
+      "principles_zh": [
+        "问题 1：我怎么来到这里的？（清晰的面包屑/来源）",
+        "问题 2：我现在该做什么？（清晰的主要行动点/CTA）",
+        "问题 3：接下来我去哪里？（清晰的退出路径/流程推进）"
+      ],
+      "whenToUse": "During design reviews (Critiques) or when auditing a competitor's product.",
+      "whenToUse_zh": "在设计评审（Critique）期间或分析竞品时使用。",
+      "commonMistakes": "Focusing on the aesthetics (UI) before the structure (Object Model); hiding navigation to be 'clean'.",
+      "commonMistakes_zh": "在确定结构（对象模型）之前过分关注美学（UI）；为了“简洁”而隐藏必要的导航。",
+      "quote": "I look for an object model way of thinking... clear breadcrumbs.",
+      "realWorldExample": "Scott uses this when angel investing. If a founder shows a demo where he can't answer these three questions, it's a red flag that they don't understand product structure.",
+      "realWorldExample_zh": "Scott 在做天使投资时使用此方法。如果创始人展示的 Demo 让他无法回答这三个问题，这就意味着他们不懂产品结构的危险信号。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "Resourcefulness brings you further than resources.",
+      "context": "On building products in a constrained economic environment."
+    },
+    {
+      "text": "People don't talk about a product doing exactly what they expected it to do. They talk about a product doing what they didn't expect.",
+      "context": "On the importance of 'surprise and delight' in product-led growth."
+    },
+    {
+      "text": "The greatest performers I've ever worked with... preserve the time to explore lots of possibilities.",
+      "context": "On how AI will empower PMs and designers to explore more options."
+    },
+    {
+      "text": "Nothing extraordinary is ever achieved through ordinary means.",
+      "context": "On why founders sometimes need to ignore best practices and be 'crazy'."
+    }
+  ],
+  "filename": "Scott Belsky"
+}

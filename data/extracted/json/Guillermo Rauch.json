@@ -1,0 +1,121 @@
+{
+  "guest": {
+    "name": "Guillermo Rauch",
+    "title": "Founder & CEO",
+    "company": "Vercel",
+    "background": "Guillermo is the founder and CEO of Vercel and the creator of Next.js and Socket.IO. He is a legendary open-source contributor and engineer who is now pioneering generative UI with v0, transforming how software is built.",
+    "background_zh": "Guillermo 是 Vercel 的创始人兼 CEO，也是 Next.js 和 Socket.IO 的创造者。作为一位传奇的开源贡献者和工程师，他目前正通过 v0 引领生成式 UI 的变革，致力于重塑软件开发的构建方式。"
+  },
+  "episodeSummary": "Guillermo Rauch discusses the paradigm shift in software development driven by AI, specifically through Vercel's v0 tool. He explores how product managers and designers are becoming \"full-stack\" builders, the importance of \"exposure hours\" for developing product taste, and the future where AI and software become synonymous.",
+  "episodeSummary_zh": "Guillermo Rauch 探讨了由 AI（特别是 Vercel 的 v0 工具）驱动的软件开发范式转移。他深入分析了产品经理和设计师如何通过 AI 转变为“全栈”构建者，强调了通过积累“曝光时长”来培养产品品味的重要性，并预言了 AI 将与软件本身融为一体的未来。",
+  "keyTakeaways": [
+    "Product roles are merging; PMs and designers can now ship production-ready code using AI artifacts.",
+    "\"Taste\" is a muscle built through \"Exposure Hours\"—quantifiable time spent interacting with your product and others.",
+    "Prompting is a form of management/coaching; treat the AI like a brilliant but erratic junior engineer.",
+    "Knowing technical \"tokens\" (concepts like CSS Flexbox) is more valuable than memorizing syntax for steering AI models.",
+    "Software development is shifting from writing code to \"translation tasks\"—converting intent into reality.",
+    "Always build \"escape hatches\" into AI products so users can manually intervene or unblock themselves.",
+    "The future of product specs is interactive prototypes (v0 artifacts), not static text documents."
+  ],
+  "methodologies": [
+    {
+      "name": "The \"Exposure Hours\" Framework",
+      "name_zh": "“曝光时长”法则 (Exposure Hours)",
+      "category": "product-strategy",
+      "problemItSolves": "Demystifying how to develop \"product taste\" and ensuring high-quality user experiences.",
+      "problemItSolves_zh": "解决如何培养“产品感”这一抽象难题，并确保交付高质量的用户体验。",
+      "summary": "A quantifiable approach to building product intuition. Instead of treating taste as innate, Rauch treats it as a function of time spent directly interacting with products—both your own and competitors'.",
+      "summary_zh": "一种量化培养产品直觉的方法。Rauch 不认为品味是与生俱来的，而是将其视为与其自身及竞品直接互动时长的函数。",
+      "principles": [
+        "Quantify Exposure: Track the exact hours spent watching users or using the product yourself.",
+        "Color-Code the Calendar: Schedule specific blocks for 'dogfooding' and customer observation alongside regular meetings.",
+        "Pain Tolerance: Deliberately expose yourself to the friction and bugs in your product to fuel improvement.",
+        "Variety of Inputs: Use best-in-class products across different domains to understand current design standards."
+      ],
+      "principles_zh": [
+        "量化曝光度：追踪观察用户或亲自使用产品的具体时长。",
+        "日历着色管理：在日程表中专门留出“吃自家狗粮”和观察客户的时间块，与常规会议区分。",
+        "耐受痛点：主动将自己暴露在产品的摩擦点和 Bug 中，以此作为改进的动力。",
+        "多样化输入：广泛体验不同领域的顶尖产品，以掌握当下的设计标准。"
+      ],
+      "whenToUse": "When product quality is slipping, or when a PM feels disconnected from the actual user experience.",
+      "whenToUse_zh": "当产品质量下滑，或者产品经理感觉与真实用户体验脱节时使用。",
+      "commonMistakes": "Assuming usage during development (localhost) counts as real usage; ignoring the 'pain' of real-world latency/bugs.",
+      "commonMistakes_zh": "误以为开发环境（Localhost）中的测试等同于真实使用；忽视真实网络延迟或 Bug 带来的痛苦感。",
+      "quote": "Try to quantify how much time you expose yourself to watching how people use your products and you'll develop that muscle.",
+      "realWorldExample": "Guillermo asks his team to color-code their calendars to ensure they are spending sufficient time in customer meetings and using the product directly, rather than just managing.",
+      "realWorldExample_zh": "Guillermo 要求团队对日历进行颜色编码，以确保他们有足够的时间用于客户会议和直接使用产品，而不仅仅是进行管理工作。"
+    },
+    {
+      "name": "The Intent-to-Reality Translation Loop",
+      "name_zh": "意图-现实转化循环 (The Translation Loop)",
+      "category": "execution",
+      "problemItSolves": "How to effectively build software using AI tools when you hit a wall or get generic results.",
+      "problemItSolves_zh": "解决如何在使用 AI 工具构建软件时，突破瓶颈并避免生成平庸结果的问题。",
+      "summary": "A workflow for AI-assisted building that treats the user as a 'translator' of intent and the AI as a 'junior PhD'. It emphasizes iterative coaching and technical literacy over coding syntax.",
+      "summary_zh": "一种 AI 辅助构建的工作流，将用户视为意图的“翻译者”，将 AI 视为“初级博士”。它强调迭代式的辅导和技术素养（概念理解），而非代码语法。",
+      "principles": [
+        "Be Ambitious First: Start with the full vision/intent, even if complex (e.g., 'build a flight tracker').",
+        "Coach, Don't Just Prompt: If the output is wrong, give feedback like a manager (e.g., 'Make it pop', 'Try something else').",
+        "Know the Tokens: Learn fundamental concepts (e.g., 'padding', 'canvas', 'latency') to steer the model accurately.",
+        "Use Escape Hatches: If the AI gets stuck, switch models, check the underlying code, or use a different tool to unblock."
+      ],
+      "principles_zh": [
+        "宏大起步：从完整的愿景或意图开始，即使它很复杂（例如“构建一个航班追踪器”）。",
+        "辅导而非单纯提示：如果输出有误，像经理一样给予反馈（例如“让它更跳脱一点”，“换个思路试试”）。",
+        "掌握关键符（Tokens）：学习基础技术概念（如“内边距”、“Canvas”、“延迟”）以精准引导模型。",
+        "利用逃生舱：如果 AI 卡住了，切换模型、查看底层代码或使用其他工具来打破僵局。"
+      ],
+      "whenToUse": "When using tools like v0, Cursor, or ChatGPT to build prototypes or production apps.",
+      "whenToUse_zh": "在使用 v0、Cursor 或 ChatGPT 构建原型或生产级应用时。",
+      "commonMistakes": "Giving up after one prompt; micromanaging syntax instead of describing the desired user experience or 'vibe'.",
+      "commonMistakes_zh": "仅尝试一次提示就放弃；微观管理代码语法，而不是描述预期的用户体验或“氛围”。",
+      "quote": "A lot of the programming jobs... are translation tasks... knowing how things work under the hood is going to be very important for you because you're going to be able to influence the model.",
+      "realWorldExample": "Guillermo building a flight radar app on a plane. He didn't write code but directed the AI on 'curvature of the earth' and 'dashed lines,' iterating until the performance handled thousands of flights.",
+      "realWorldExample_zh": "Guillermo 在飞机上构建了一个航班雷达应用。他没有写代码，而是指导 AI 处理“地球曲率”和“虚线”等细节，不断迭代直到程序能流畅处理数千个航班的数据。"
+    },
+    {
+      "name": "The \"Escape Hatch\" Design Principle",
+      "name_zh": "“逃生舱”设计原则 (Escape Hatch Principle)",
+      "category": "product-strategy",
+      "problemItSolves": "Prevents users from abandoning an AI/automated tool when it fails to handle edge cases or complex requirements.",
+      "problemItSolves_zh": "防止用户在 AI 或自动化工具无法处理边缘情况或复杂需求时弃用产品。",
+      "summary": "Derived from React and applied to AI products: Systems should offer high-level abstractions for speed but must allow users to drop down to lower levels of control (code/manual edit) when necessary.",
+      "summary_zh": "源自 React 并应用于 AI 产品的原则：系统应提供高层抽象以提高速度，但也必须允许用户在必要时下沉到更低层级（代码/手动编辑）进行控制。",
+      "principles": [
+        "Provide Defaults, Allow Overrides: AI generates the 'happy path', but users can edit the output manually.",
+        "Code Visibility: Don't hide the underlying logic; showing the code allows power users to debug or extend.",
+        "Interoperability: Allow users to take the output to other contexts (e.g., copy code to ChatGPT o1) to get unstuck.",
+        "Don't Trap the User: Never create a dead-end state where the user feels powerless."
+      ],
+      "principles_zh": [
+        "提供默认值，允许覆盖：AI 生成“理想路径”，但用户必须能手动编辑输出结果。",
+        "代码可见性：不要隐藏底层逻辑；展示代码能让高级用户进行调试或扩展。",
+        "互操作性：允许用户将输出带入其他语境（例如将代码复制到 ChatGPT o1）以解决卡顿。",
+        "不要困住用户：永远不要制造让用户感到无能为力的死胡同状态。"
+      ],
+      "whenToUse": "Designing any AI-native product or low-code/no-code tool.",
+      "whenToUse_zh": "设计任何 AI 原生产品或低代码/无代码工具时。",
+      "commonMistakes": "Building a 'black box' AI that gives users no recourse when the generation is 90% correct but 10% wrong.",
+      "commonMistakes_zh": "构建“黑盒”AI，导致用户在生成结果 90% 正确但 10% 错误时无计可施。",
+      "quote": "The API, when React doesn't perfectly model your problem... they give you an escape hatch. That is a profound systems design engineering principle.",
+      "realWorldExample": "A designer at Luma Labs got stuck after 120 iterations in v0. He used the 'escape hatch' by copying the generated code into ChatGPT o1 to solve a specific logic logic problem, then brought it back.",
+      "realWorldExample_zh": "Luma Labs 的一位设计师在 v0 中迭代了 120 次后卡住了。他使用了“逃生舱”机制，将生成的代码复制到 ChatGPT o1 中解决了特定的逻辑问题，然后又将其带回项目中。"
+    }
+  ],
+  "notableQuotes": [
+    {
+      "text": "v0 is like a super genius five-year-old PhD with ADHD. I'm not going to oversell this. It knows everything about everything, but it has these sparks of brilliance.",
+      "context": "Guillermo describing user feedback on the current state of AI capabilities."
+    },
+    {
+      "text": "We need to stop talking about AI at some point. I just see a future where AI becomes synonymous with software.",
+      "context": "Guillermo discussing the future trajectory of AI integration."
+    },
+    {
+      "text": "Conversations between product builders and their customers will be mediated by these v0 links, these artifacts... The idea that when we talk, we would not have the power to make those ideas a reality, it seems like an L to me.",
+      "context": "On how product management specs will shift from documents to live, interactive prototypes."
+    }
+  ],
+  "filename": "Guillermo Rauch"
+}
