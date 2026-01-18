@@ -230,7 +230,7 @@ export default async function ChineseMethodologyPage({ params }: Props) {
                     </Link>
                     <div className="flex items-center gap-4">
                         <Link
-                            href="/cn"
+                            href="/cn/methodologies"
                             className="text-sm text-gray-600 hover:text-brand-mid transition-colors"
                         >
                             ← 返回全部方法论
@@ -417,13 +417,13 @@ export default async function ChineseMethodologyPage({ params }: Props) {
                 {/* Navigation */}
                 <div className="border-t border-gray-200 pt-8 flex justify-between items-center">
                     <Link
-                        href="/cn"
+                        href="/cn/methodologies"
                         className="text-brand-mid hover:text-brand-start transition-colors font-medium"
                     >
                         ← 返回全部方法论
                     </Link>
                     <Link
-                        href={`/guests/${methodology.guestId}`}
+                        href={`/cn/guests/${methodology.guestId}`}
                         className="px-6 py-3 bg-gradient-to-r from-brand-start to-brand-mid text-white rounded-xl font-medium hover:shadow-lg transition-all"
                     >
                         查看 {methodology.guestName} 的主页 →

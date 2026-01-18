@@ -1,6 +1,7 @@
 'use client';
 
 import { Category, CATEGORY_INFO } from '@/types';
+import { useLanguage } from '@/context/LanguageContext';
 
 interface CategoryFilterProps {
     selectedCategory: Category | null;
@@ -8,6 +9,7 @@ interface CategoryFilterProps {
 }
 
 export function CategoryFilter({ selectedCategory, onCategoryChange }: CategoryFilterProps) {
+    const { t, language } = useLanguage();
     const categories = Object.entries(CATEGORY_INFO) as [Category, typeof CATEGORY_INFO[Category]][];
 
     return (
@@ -15,23 +17,23 @@ export function CategoryFilter({ selectedCategory, onCategoryChange }: CategoryF
             <button
                 onClick={() => onCategoryChange(null)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === null
-                        ? 'bg-gradient-brand text-white shadow-clay'
-                        : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
+                    ? 'bg-gradient-brand text-white shadow-clay'
+                    : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
                     }`}
             >
-                All Categories
+                {t('All Categories', '全部分类')}
             </button>
             {categories.map(([key, info]) => (
                 <button
                     key={key}
                     onClick={() => onCategoryChange(key)}
                     className={`px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 ${selectedCategory === key
-                            ? 'bg-gradient-brand text-white shadow-clay'
-                            : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
+                        ? 'bg-gradient-brand text-white shadow-clay'
+                        : 'bg-white text-gray-600 hover:bg-gray-50 border border-gray-200'
                         }`}
                 >
                     <span>{info.emoji}</span>
-                    <span>{info.label}</span>
+                    <span>{language === 'zh' ? info.label_zh : info.label}</span>
                 </button>
             ))}
         </div>

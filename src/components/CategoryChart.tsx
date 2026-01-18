@@ -31,18 +31,18 @@ export function CategoryChart({
     showLegend = true
 }: CategoryChartProps) {
     const stats = getStats();
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
 
     const chartData = useMemo(() => {
         const entries = Object.entries(stats.categories) as [Category, number][];
         return entries.map(([category, count], index) => ({
-            name: CATEGORY_INFO[category].label,
+            name: language === 'zh' ? CATEGORY_INFO[category].label_zh : CATEGORY_INFO[category].label,
             value: count,
             emoji: CATEGORY_INFO[category].emoji,
             color: COLORS[index % COLORS.length],
             category,
         })).sort((a, b) => b.value - a.value);
-    }, [stats]);
+    }, [stats, language]);
 
     const total = chartData.reduce((sum, item) => sum + item.value, 0);
 

@@ -13,6 +13,7 @@ export function MethodologyCard({ methodology }: MethodologyCardProps) {
     const [upvotes, setUpvotes] = useState(methodology.upvotes);
     const [hasUpvoted, setHasUpvoted] = useState(false);
     const { language, t } = useLanguage();
+    const prefix = language === 'zh' ? '/cn' : '';
 
     const categoryInfo = CATEGORY_INFO[methodology.category];
 
@@ -59,7 +60,7 @@ export function MethodologyCard({ methodology }: MethodologyCardProps) {
                 <div className="flex items-start justify-between gap-4 mb-3">
                     <div>
                         <Link
-                            href={`/methodologies/${methodology.id}`}
+                            href={`${prefix}/methodologies/${methodology.id}`}
                             className="text-xl font-semibold text-gray-900 mb-1 hover:text-brand-mid transition-colors block"
                         >
                             {displayName}
@@ -116,7 +117,7 @@ export function MethodologyCard({ methodology }: MethodologyCardProps) {
                         ))}
                     </div>
                     <Link
-                        href={`/methodologies/${methodology.id}`}
+                        href={`${prefix}/methodologies/${methodology.id}`}
                         className="flex-shrink-0 px-4 py-2 text-sm font-medium text-brand-mid hover:text-white hover:bg-gradient-to-r hover:from-brand-start hover:to-brand-mid rounded-lg border border-brand-mid/30 hover:border-transparent transition-all"
                     >
                         {t('View Deep Dive →', '深入了解 →')}

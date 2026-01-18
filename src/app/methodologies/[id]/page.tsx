@@ -324,7 +324,7 @@ export default async function MethodologyPage({ params }: Props) {
                         <span className="text-xl font-bold gradient-text">InsightHunt</span>
                     </Link>
                     <Link
-                        href="/"
+                        href="/methodologies"
                         className="text-sm text-gray-600 hover:text-brand-mid transition-colors"
                     >
                         ← Back to All Methodologies
@@ -480,7 +480,7 @@ export default async function MethodologyPage({ params }: Props) {
                 {/* Navigation */}
                 <div className="border-t border-gray-200 pt-8 flex justify-between items-center">
                     <Link
-                        href="/"
+                        href="/methodologies"
                         className="text-brand-mid hover:text-brand-start transition-colors font-medium"
                     >
                         ← Back to All Methodologies

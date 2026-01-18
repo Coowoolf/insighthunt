@@ -11,7 +11,8 @@ interface DataFunnelProps {
 }
 
 export function DataFunnel({ episodes, methodologies, skills, className = '' }: DataFunnelProps) {
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
+    const prefix = language === 'zh' ? '/cn' : '';
 
     const stages = [
         {
@@ -19,7 +20,7 @@ export function DataFunnel({ episodes, methodologies, skills, className = '' }: 
             value: episodes,
             label: t('Raw Episodes', '原始播客'),
             sublabel: t('Lenny\'s Podcast Archive', 'Lenny Podcast 档案'),
-            href: '/episodes',
+            href: `${prefix}/episodes`,
             bgColor: 'bg-gradient-to-r from-violet-500 to-purple-600',
             widthPercent: 100,
         },
@@ -28,7 +29,7 @@ export function DataFunnel({ episodes, methodologies, skills, className = '' }: 
             value: methodologies,
             label: t('Methodologies', '方法论'),
             sublabel: t('Extracted & Analyzed', '提取 & 分析'),
-            href: '/methodologies',
+            href: `${prefix}/methodologies`,
             bgColor: 'bg-gradient-to-r from-pink-500 to-rose-500',
             widthPercent: 80,
         },
@@ -37,7 +38,7 @@ export function DataFunnel({ episodes, methodologies, skills, className = '' }: 
             value: skills,
             label: t('Skills', '技能包'),
             sublabel: t('Actionable & Downloadable', '可操作 & 可下载'),
-            href: '/skills',
+            href: `${prefix}/skills`,
             bgColor: 'bg-gradient-to-r from-emerald-500 to-teal-500',
             widthPercent: 55,
         },

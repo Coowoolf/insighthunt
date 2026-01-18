@@ -18,8 +18,9 @@ const SKILLS_DATA = [
 const GITHUB_BASE_URL = 'https://github.com/Coowoolf/insighthunt-skills/tree/main';
 
 export default function SkillsPage() {
-    const { t } = useLanguage();
+    const { t, language } = useLanguage();
     const totalSkills = SKILLS_DATA.reduce((sum, cat) => sum + cat.count, 0);
+    const prefix = language === 'zh' ? '/cn' : '';
 
     return (
         <div className="min-h-screen">
@@ -118,7 +119,7 @@ export default function SkillsPage() {
                         {t('Skills are extracted from our 689 methodologies', '技能来自我们 689 个方法论的提取')}
                     </p>
                     <Link
-                        href="/methodologies"
+                        href={`${prefix}/methodologies`}
                         className="inline-flex items-center gap-2 text-brand-start hover:underline font-medium"
                     >
                         <span>📚</span>

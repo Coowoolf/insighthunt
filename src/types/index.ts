@@ -75,11 +75,11 @@ export interface Methodology {
     quote_zh?: string;
 }
 
-export const CATEGORY_INFO: Record<Category, { label: string; emoji: string; gradient: string }> = {
-    'product-strategy': { label: 'Product Strategy', emoji: '🎯', gradient: 'from-brand-start to-brand-mid' },
-    'growth-metrics': { label: 'Growth & Metrics', emoji: '📈', gradient: 'from-primary-orange to-primary-gold' },
-    'team-culture': { label: 'Team & Culture', emoji: '👥', gradient: 'from-primary-purple to-primary-pink' },
-    'user-research': { label: 'User Research', emoji: '🔍', gradient: 'from-primary-blue to-primary-purple' },
-    'execution': { label: 'Execution', emoji: '⚡', gradient: 'from-primary-coral to-primary-orange' },
-    'career-leadership': { label: 'Career & Leadership', emoji: '🚀', gradient: 'from-primary-lavender to-primary-pink' },
+export const CATEGORY_INFO: Record<Category, { label: string; label_zh: string; emoji: string; gradient: string }> = {
+    'product-strategy': { label: 'Product Strategy', label_zh: '产品战略', emoji: '🎯', gradient: 'from-brand-start to-brand-mid' },
+    'growth-metrics': { label: 'Growth & Metrics', label_zh: '增长指标', emoji: '📈', gradient: 'from-primary-orange to-primary-gold' },
+    'team-culture': { label: 'Team & Culture', label_zh: '团队文化', emoji: '👥', gradient: 'from-primary-purple to-primary-pink' },
+    'user-research': { label: 'User Research', label_zh: '用户研究', emoji: '🔍', gradient: 'from-primary-blue to-primary-purple' },
+    'execution': { label: 'Execution', label_zh: '执行落地', emoji: '⚡', gradient: 'from-primary-coral to-primary-orange' },
+    'career-leadership': { label: 'Career & Leadership', label_zh: '职业领导力', emoji: '🚀', gradient: 'from-primary-lavender to-primary-pink' },
 };

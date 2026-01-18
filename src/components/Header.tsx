@@ -13,7 +13,7 @@ export function Header() {
     const homeLink = isChineseRoute ? '/cn' : '/';
     const episodesLink = isChineseRoute ? '/cn/episodes' : '/episodes';
     const methodologiesLink = isChineseRoute ? '/cn/methodologies' : '/methodologies';
-    const skillsLink = '/skills'; // Skills links to GitHub, same for both languages
+    const skillsLink = isChineseRoute ? '/cn/skills' : '/skills';
     const guestsLink = isChineseRoute ? '/cn/guests' : '/guests';
 
     return (
