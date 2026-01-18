@@ -1,36 +1,38 @@
-'use client';
-
-import { useParams } from 'next/navigation';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { Header } from '@/components/Header';
 import { MethodologyCard } from '@/components/MethodologyCard';
-import { getGuestBySlug, getAllMethodologies } from '@/data/insights';
+import { TranscriptViewer } from '@/components/TranscriptViewer';
+import { getGuestBySlug, getAllGuests, getAllMethodologies } from '@/data/insights';
+import { getTranscriptByGuestName } from '@/data/transcripts';
 import { CATEGORY_INFO } from '@/types';
 
-export default function EpisodeDetailPageCN() {
-    const params = useParams();
-    const slug = params.slug as string;
+// Generate static params for all episodes
+export async function generateStaticParams() {
+    const guests = getAllGuests();
+    return guests.map((guest) => ({
+        slug: guest.slug,
+    }));
+}
 
+interface PageProps {
+    params: Promise<{ slug: string }>;
+}
+
+export default async function EpisodeDetailPageCN({ params }: PageProps) {
+    const { slug } = await params;
     const guest = getGuestBySlug(slug);
-    const allMethodologies = getAllMethodologies();
 
     if (!guest) {
-        return (
-            <div className="min-h-screen">
-                <Header />
-                <main className="max-w-4xl mx-auto px-6 py-16 text-center">
-                    <h1 className="text-4xl font-bold mb-4">未找到该期节目</h1>
-                    <p className="text-gray-600 mb-8">您要找的节目不存在。</p>
-                    <Link href="/cn/episodes" className="text-brand-start hover:underline">
-                        ← 返回全部节目
-                    </Link>
-                </main>
-            </div>
-        );
+        notFound();
     }
 
+    const allMethodologies = getAllMethodologies();
     const guestMethodologies = allMethodologies.filter(m => m.guestId === guest.slug);
     const categories = [...new Set(guestMethodologies.map(m => m.category))];
+
+    // Load transcript
+    const transcript = getTranscriptByGuestName(guest.name);
 
     return (
         <div className="min-h-screen">
@@ -40,6 +42,7 @@ export default function EpisodeDetailPageCN() {
             <Header />
 
             <main className="max-w-4xl mx-auto px-6 py-8">
+                {/* Breadcrumb */}
                 <nav className="mb-6 text-sm text-gray-500">
                     <Link href="/cn" className="hover:text-brand-start">首页</Link>
                     <span className="mx-2">/</span>
@@ -48,16 +51,25 @@ export default function EpisodeDetailPageCN() {
                     <span className="text-gray-900">{guest.name}</span>
                 </nav>
 
+                {/* Guest Header */}
                 <section className="clay-card mb-8">
                     <div className="flex items-start gap-6">
                         <div className="w-20 h-20 rounded-2xl bg-gradient-brand flex items-center justify-center text-white text-3xl font-bold shrink-0">
                             {guest.name[0]}
                         </div>
                         <div className="flex-1">
-                            <h1 className="text-3xl font-bold mb-2">{guest.name}</h1>
+                            <div className="flex items-center gap-3 mb-2">
+                                <h1 className="text-3xl font-bold">{guest.name}</h1>
+                                {guest.episodeNumber && (
+                                    <span className="px-3 py-1 bg-brand-start/10 text-brand-start rounded-full text-sm font-medium">
+                                        第 {guest.episodeNumber} 期
+                                    </span>
+                                )}
+                            </div>
                             <p className="text-xl text-gray-600 mb-1">{guest.title}</p>
                             <p className="text-lg text-brand-start font-medium">{guest.company}</p>
 
+                            {/* Category Tags */}
                             <div className="flex flex-wrap gap-2 mt-4">
                                 {categories.map(cat => {
                                     const info = CATEGORY_INFO[cat];
@@ -76,6 +88,17 @@ export default function EpisodeDetailPageCN() {
                     </div>
                 </section>
 
+                {/* Full Transcript */}
+                {transcript && (
+                    <section className="mb-8">
+                        <TranscriptViewer
+                            enTranscript={transcript.en}
+                            zhTranscript={transcript.zh}
+                        />
+                    </section>
+                )}
+
+                {/* Key Takeaways */}
                 {guest.keyTakeaways && guest.keyTakeaways.length > 0 && (
                     <section className="clay-card mb-8">
                         <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
@@ -94,6 +117,7 @@ export default function EpisodeDetailPageCN() {
                     </section>
                 )}
 
+                {/* Methodologies from this episode */}
                 <section>
                     <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
                         <span>📚</span>
@@ -113,6 +137,7 @@ export default function EpisodeDetailPageCN() {
                     )}
                 </section>
 
+                {/* Back to Episodes */}
                 <div className="mt-12 text-center">
                     <Link
                         href="/cn/episodes"
