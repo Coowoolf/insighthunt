@@ -2,6 +2,7 @@ import { getAllMethodologies, getMethodologyById } from '@/data/insights';
 import { CATEGORY_INFO, VisualizationType } from '@/types';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { MethodologyShare } from '@/components/MethodologyShare';
 
 // Import all visualization components
 import { PrincipleFlow } from '@/components/diagrams/PrincipleFlow';
@@ -518,6 +519,15 @@ export default async function MethodologyPage({ params }: Props) {
                             </span>
                         ))}
                     </div>
+                </section>
+
+                {/* Share Buttons */}
+                <section className="mb-8 flex justify-center">
+                    <MethodologyShare
+                        id={methodology.id}
+                        name={methodology.name}
+                        summary={methodology.summary}
+                    />
                 </section>
 
                 {/* Navigation */}
