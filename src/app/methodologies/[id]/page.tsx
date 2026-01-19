@@ -29,6 +29,49 @@ export async function generateStaticParams() {
     }));
 }
 
+// Generate SEO metadata
+export async function generateMetadata({ params }: Props) {
+    const { id } = await params;
+    const methodology = getMethodologyById(id);
+
+    if (!methodology) {
+        return {
+            title: 'Methodology Not Found | InsightHunt',
+        };
+    }
+
+    const title = `${methodology.name} | InsightHunt`;
+    const description = methodology.summary?.slice(0, 160) ||
+        `${methodology.name} - A product methodology by ${methodology.guestName}. Learn this framework from Lenny's Podcast.`;
+
+    return {
+        title,
+        description,
+        openGraph: {
+            title,
+            description,
+            type: 'article',
+            siteName: 'InsightHunt',
+            locale: 'en_US',
+            authors: [methodology.guestName],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+        },
+        keywords: [
+            methodology.name,
+            methodology.guestName,
+            methodology.category,
+            'product management',
+            'methodology',
+            'framework',
+            ...methodology.tags
+        ].filter(Boolean),
+    };
+}
+
 interface Props {
     params: Promise<{ id: string }>;
 }

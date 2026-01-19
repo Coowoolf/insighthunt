@@ -51,6 +51,58 @@ export async function generateStaticParams() {
     }));
 }
 
+// Generate SEO metadata for Chinese version
+export async function generateMetadata({ params }: Props) {
+    const { id } = await params;
+    const methodology = getMethodologyById(id) as MethodologyWithZh | undefined;
+
+    if (!methodology) {
+        return {
+            title: '方法论未找到 | InsightHunt',
+        };
+    }
+
+    const displayName = methodology.name_zh || methodology.name;
+    const displaySummary = methodology.summary_zh || methodology.summary;
+    const title = `${displayName} | InsightHunt 洞见猎手`;
+    const description = (displaySummary?.slice(0, 160) ||
+        `${displayName} - 来自 ${methodology.guestName} 的产品方法论。源自 Lenny's Podcast。`);
+
+    return {
+        title,
+        description,
+        openGraph: {
+            title,
+            description,
+            type: 'article',
+            siteName: 'InsightHunt',
+            locale: 'zh_CN',
+            authors: [methodology.guestName],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+        },
+        keywords: [
+            displayName,
+            methodology.name,
+            methodology.guestName,
+            methodology.category,
+            '产品管理',
+            '方法论',
+            '框架',
+            ...methodology.tags
+        ].filter(Boolean),
+        alternates: {
+            languages: {
+                'en': `/methodologies/${id}`,
+                'zh': `/cn/methodologies/${id}`,
+            },
+        },
+    };
+}
+
 interface Props {
     params: Promise<{ id: string }>;
 }

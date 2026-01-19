@@ -15,6 +15,47 @@ export async function generateStaticParams() {
     }));
 }
 
+// Generate SEO metadata for episode pages
+export async function generateMetadata({ params }: PageProps) {
+    const { slug } = await params;
+    const guest = getGuestBySlug(slug);
+
+    if (!guest) {
+        return {
+            title: 'Episode Not Found | InsightHunt',
+        };
+    }
+
+    const title = `${guest.name} - ${guest.title} | InsightHunt`;
+    const description = guest.keyTakeaways?.[0] ||
+        `${guest.name}, ${guest.title} at ${guest.company}. Insights and methodologies from Lenny's Podcast Episode #${guest.episodeNumber || '—'}.`;
+
+    return {
+        title,
+        description,
+        openGraph: {
+            title,
+            description,
+            type: 'article',
+            siteName: 'InsightHunt',
+            locale: 'en_US',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+        },
+        keywords: [
+            guest.name,
+            guest.company,
+            guest.title,
+            'podcast',
+            'product management',
+            'Lenny\'s Podcast'
+        ].filter(Boolean),
+    };
+}
+
 interface PageProps {
     params: Promise<{ slug: string }>;
 }
