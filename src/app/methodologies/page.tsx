@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { Header } from '@/components/Header';
 import { MethodologyCard } from '@/components/MethodologyCard';
 import { CategoryFilter } from '@/components/CategoryFilter';
+import { GuestFilter } from '@/components/GuestFilter';
 import { getAllMethodologies } from '@/data/insights';
 import { Category } from '@/types';
 import { useLanguage } from '@/context/LanguageContext';
@@ -16,22 +17,28 @@ function MethodologiesContent() {
 
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedCategory, setSelectedCategory] = useState<Category | null>(initialCategory);
+    const [selectedGuest, setSelectedGuest] = useState<string | null>(null);
 
     const allMethodologies = getAllMethodologies();
 
     const filteredMethodologies = useMemo(() => {
         return allMethodologies.filter(m => {
+            const q = searchQuery.toLowerCase();
             const matchesSearch = searchQuery === '' ||
-                m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                m.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                m.guestName.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                m.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+                m.name.toLowerCase().includes(q) ||
+                m.summary.toLowerCase().includes(q) ||
+                m.guestName.toLowerCase().includes(q) ||
+                (m.guestCompany && m.guestCompany.toLowerCase().includes(q)) ||
+                (m.problemItSolves && m.problemItSolves.toLowerCase().includes(q)) ||
+                m.principles.some(p => p.toLowerCase().includes(q)) ||
+                m.tags.some(tag => tag.toLowerCase().includes(q));
 
             const matchesCategory = selectedCategory === null || m.category === selectedCategory;
+            const matchesGuest = selectedGuest === null || m.guestId === selectedGuest;
 
-            return matchesSearch && matchesCategory;
+            return matchesSearch && matchesCategory && matchesGuest;
         });
-    }, [allMethodologies, searchQuery, selectedCategory]);
+    }, [allMethodologies, searchQuery, selectedCategory, selectedGuest]);
 
     const sortedMethodologies = useMemo(() => {
         return [...filteredMethodologies].sort((a, b) => b.upvotes - a.upvotes);
@@ -64,10 +71,14 @@ function MethodologiesContent() {
                 </div>
             </section>
 
-            <section className="mb-8">
+            <section className="mb-8 flex flex-wrap items-center gap-4">
                 <CategoryFilter
                     selectedCategory={selectedCategory}
                     onCategoryChange={setSelectedCategory}
+                />
+                <GuestFilter
+                    selectedGuest={selectedGuest}
+                    onGuestChange={setSelectedGuest}
                 />
             </section>
 

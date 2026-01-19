@@ -19,10 +19,17 @@ function MethodologiesContent() {
 
     const filteredMethodologies = useMemo(() => {
         return allMethodologies.filter(m => {
+            const q = searchQuery.toLowerCase();
             const matchesSearch = searchQuery === '' ||
-                m.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                m.name.toLowerCase().includes(q) ||
                 (m.name_zh && m.name_zh.includes(searchQuery)) ||
-                m.guestName.toLowerCase().includes(searchQuery.toLowerCase());
+                (m.summary_zh && m.summary_zh.includes(searchQuery)) ||
+                m.summary.toLowerCase().includes(q) ||
+                m.guestName.toLowerCase().includes(q) ||
+                (m.guestCompany && m.guestCompany.toLowerCase().includes(q)) ||
+                (m.problemItSolves && m.problemItSolves.toLowerCase().includes(q)) ||
+                m.principles.some(p => p.toLowerCase().includes(q)) ||
+                m.tags.some(tag => tag.toLowerCase().includes(q));
 
             const matchesCategory = selectedCategory === null || m.category === selectedCategory;
 
