@@ -165,7 +165,7 @@ export default function Home() {
             <div className="text-5xl mb-4">🎓</div>
             <h3 className="text-3xl font-bold mb-4">
               <span className="bg-gradient-to-r from-emerald-500 to-teal-500 bg-clip-text text-transparent">
-                74 {t('Actionable Skills', '个可操作技能')}
+                105 {t('Actionable Skills', '个可操作技能')}
               </span>
             </h3>
             <p className="text-gray-600 max-w-xl mx-auto mb-8">
@@ -175,7 +175,7 @@ export default function Home() {
               )}
             </p>
             <div className="flex flex-wrap justify-center gap-3 mb-8">
-              {['Product Growth (16)', 'Team Leadership (17)', 'Decision Thinking (10)', 'Strategy Planning (10)'].map((category) => (
+              {['Product Growth (29)', 'Strategy Planning (22)', 'Team Leadership (20)', 'Career Dev (10)'].map((category) => (
                 <span key={category} className="px-3 py-1 bg-white/60 rounded-full text-sm text-gray-600">
                   {category}
                 </span>
