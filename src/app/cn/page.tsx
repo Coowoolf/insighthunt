@@ -46,7 +46,7 @@ export default function ChineseHome() {
                         <span className="gradient-text">洞见狩猎</span>
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                        从 Lenny Podcast 提炼的 689 个产品方法论和 74 个可操作技能。
+                        从 Lenny Podcast 提炼的 689 个产品方法论和 105 个可操作技能。
                     </p>
 
                     {/* Search Bar */}
@@ -64,7 +64,7 @@ export default function ChineseHome() {
                     <DataFunnel
                         episodes={stats.totalEpisodes}
                         methodologies={stats.totalMethodologies}
-                        skills={74}
+                        skills={105}
                     />
 
                     {/* Category Distribution */}
@@ -162,7 +162,7 @@ export default function ChineseHome() {
                         <div className="text-5xl mb-4">🎓</div>
                         <h3 className="text-3xl font-bold mb-4">
                             <span className="bg-gradient-to-r from-emerald-500 to-teal-500 bg-clip-text text-transparent">
-                                74 个可操作技能
+                                105 个可操作技能
                             </span>
                         </h3>
                         <p className="text-gray-600 max-w-xl mx-auto mb-8">

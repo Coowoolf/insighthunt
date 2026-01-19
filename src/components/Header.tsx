@@ -44,7 +44,7 @@ export function Header() {
                         </Link>
                         <Link href={skillsLink} className="text-gray-600 hover:text-brand-start transition-colors font-medium flex items-center gap-1">
                             {t('Skills', '技能')}
-                            <span className="text-xs bg-emerald-100 text-emerald-600 px-1.5 py-0.5 rounded-full">74</span>
+                            <span className="text-xs bg-emerald-100 text-emerald-600 px-1.5 py-0.5 rounded-full">105</span>
                         </Link>
                     </nav>
 

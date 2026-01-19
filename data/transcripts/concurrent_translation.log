@@ -1,0 +1,349 @@
+🚀 InsightHunt High-Speed Concurrent Translation
+============================================================
+📊 Concurrency: 50 parallel requests
+🤖 Model: claude-sonnet-4-5
+
+📊 Status: 44/297 already translated
+📌 Remaining: 253 transcripts
+
+[1/253] ✅ Dan Hockenmaier: 79,841 → 649 chars
+    📊 Chunks: 1/2299 | Speed: 2.8/min
+[2/253] ✅ Luc Levesque: 91,820 → 0 chars
+    📊 Chunks: 1/2299 | Speed: 2.9/min
+[3/253] ✅ Scott Wu: 106,669 → 3,854 chars
+    📊 Chunks: 5/2299 | Speed: 2.1/min
+[4/253] ✅ Nabeel S. Qureshi: 109,730 → 6,642 chars
+    📊 Chunks: 7/2299 | Speed: 2.6/min
+[5/253] ✅ Julian Shapiro: 66,097 → 7,001 chars
+    📊 Chunks: 8/2299 | Speed: 3.3/min
+[6/253] ✅ Gustaf Alstromer: 96,658 → 3,342 chars
+    📊 Chunks: 10/2299 | Speed: 3.8/min
+[7/253] ✅ Cam Adams: 64,496 → 6,655 chars
+    📊 Chunks: 11/2299 | Speed: 4.2/min
+[8/253] ✅ Jason Shah: 82,263 → 5,114 chars
+    📊 Chunks: 12/2299 | Speed: 4.4/min
+[9/253] ✅ Emily Kramer: 84,322 → 5,557 chars
+    📊 Chunks: 16/2299 | Speed: 4.4/min
+[10/253] ✅ Uri Levine 2.0: 76,023 → 7,143 chars
+    📊 Chunks: 18/2299 | Speed: 4.8/min
+[11/253] ✅ Phyl Terry: 118,312 → 11,460 chars
+    📊 Chunks: 19/2299 | Speed: 5.3/min
+[12/253] ✅ Dan Shipper: 104,599 → 15,903 chars
+    📊 Chunks: 27/2299 | Speed: 5.2/min
+[13/253] ✅ Gustav Söderström: 87,013 → 10,633 chars
+    📊 Chunks: 30/2299 | Speed: 5.5/min
+[14/253] ✅ Sean Ellis: 106,323 → 6,156 chars
+    📊 Chunks: 36/2299 | Speed: 5.5/min
+[15/253] ✅ Nan Yu: 92,700 → 10,576 chars
+    📊 Chunks: 39/2299 | Speed: 5.5/min
+[16/253] ✅ Julie Zhuo 2.0: 106,196 → 13,601 chars
+    📊 Chunks: 40/2299 | Speed: 5.8/min
+[17/253] ✅ Eoghan McCabe: 78,010 → 3,337 chars
+    📊 Chunks: 43/2299 | Speed: 5.8/min
+[18/253] ✅ Camille Fournier: 86,861 → 13,794 chars
+    📊 Chunks: 47/2299 | Speed: 6.0/min
+[19/253] ✅ Jeanne Grosser: 84,899 → 17,077 chars
+    📊 Chunks: 48/2299 | Speed: 6.2/min
+[20/253] ✅ Raaz Herzberg: 70,370 → 4,195 chars
+    📊 Chunks: 53/2299 | Speed: 6.2/min
+[21/253] ✅ Lulu Cheng Meservey: 65,656 → 10,240 chars
+    📊 Chunks: 55/2299 | Speed: 6.4/min
+[22/253] ✅ Daniel Lereya: 87,630 → 3,494 chars
+    📊 Chunks: 56/2299 | Speed: 6.6/min
+[23/253] ✅ Uri Levine: 81,418 → 20,940 chars
+    📊 Chunks: 61/2299 | Speed: 6.5/min
+[24/253] ✅ Seth Godin: 46,239 → 2,380 chars
+    📊 Chunks: 62/2299 | Speed: 6.8/min
+[25/253] ✅ Hamel Husain & Shreya Shankar: 108,761 → 27,723 chars
+    📊 Chunks: 70/2299 | Speed: 6.6/min
+[26/253] ✅ Julie Zhuo: 79,591 → 9,483 chars
+    📊 Chunks: 71/2299 | Speed: 6.6/min
+[27/253] ✅ Nancy Duarte: 83,081 → 11,854 chars
+    📊 Chunks: 75/2299 | Speed: 6.6/min
+[28/253] ✅ Zoelle Egner: 87,619 → 10,873 chars
+    📊 Chunks: 78/2299 | Speed: 6.7/min
+[29/253] ✅ Camille Hearst: 67,119 → 22,601 chars
+    📊 Chunks: 84/2299 | Speed: 6.5/min
+[30/253] ✅ Eric Ries: 158,057 → 19,689 chars
+    📊 Chunks: 95/2299 | Speed: 6.4/min
+[31/253] ✅ Madhavan Ramanujam 2.0: 79,486 → 7,178 chars
+    📊 Chunks: 97/2299 | Speed: 6.5/min
+[32/253] ✅ Jeff Weinstein: 147,607 → 34,105 chars
+    📊 Chunks: 103/2299 | Speed: 6.4/min
+[33/253] ✅ Rachel Lockett: 112,931 → 29,307 chars
+    📊 Chunks: 116/2299 | Speed: 6.2/min
+[34/253] ✅ Varun Mohan: 89,741 → 21,668 chars
+    📊 Chunks: 125/2299 | Speed: 6.1/min
+[35/253] ✅ Hamilton Helmer: 57,350 → 13,843 chars
+    📊 Chunks: 127/2299 | Speed: 6.1/min
+[36/253] ✅ David Placek: 75,605 → 14,109 chars
+    📊 Chunks: 128/2299 | Speed: 6.3/min
+[37/253] ✅ Karina Nguyen: 70,357 → 3,797 chars
+    📊 Chunks: 131/2299 | Speed: 6.3/min
+[38/253] ✅ Naomi Gleit: 101,950 → 22,273 chars
+    📊 Chunks: 136/2299 | Speed: 6.3/min
+[39/253] ✅ Shaun Clowes: 92,632 → 14,723 chars
+    📊 Chunks: 141/2299 | Speed: 6.1/min
+[40/253] ✅ Camille Ricketts: 76,561 → 14,093 chars
+    📊 Chunks: 144/2299 | Speed: 6.2/min
+[41/253] ✅ Jeffrey Pfeffer: 80,705 → 11,414 chars
+    📊 Chunks: 151/2299 | Speed: 6.1/min
+[42/253] ✅ Eric Simons: 94,065 → 14,430 chars
+    📊 Chunks: 153/2299 | Speed: 6.3/min
+[43/253] ✅ Madhavan Ramanujam: 111,304 → 19,786 chars
+    📊 Chunks: 158/2299 | Speed: 6.3/min
+[44/253] ✅ Varun Parmar: 90,553 → 6,572 chars
+    📊 Chunks: 162/2299 | Speed: 6.2/min
+[45/253] ✅ Rahul Vohra: 86,795 → 17,737 chars
+    📊 Chunks: 165/2299 | Speed: 6.4/min
+[46/253] ✅ David Singleton: 102,832 → 24,837 chars
+    📊 Chunks: 172/2299 | Speed: 6.3/min
+[47/253] ✅ Hari Srinivasan: 80,359 → 7,172 chars
+    📊 Chunks: 177/2299 | Speed: 6.2/min
+[48/253] ✅ Karri Saarinen: 97,936 → 24,166 chars
+    📊 Chunks: 183/2299 | Speed: 6.2/min
+[49/253] ✅ Naomi Ionita: 59,040 → 6,731 chars
+    📊 Chunks: 184/2299 | Speed: 6.3/min
+[50/253] ✅ Shishir Mehrotra: 104,792 → 19,756 chars
+    📊 Chunks: 189/2299 | Speed: 6.2/min
+[51/253] ✅ Carilu Dietrich: 69,378 → 10,637 chars
+    📊 Chunks: 194/2299 | Speed: 6.2/min
+[52/253] ✅ Ethan Evans 2.0: 81,627 → 7,509 chars
+    📊 Chunks: 198/2299 | Speed: 6.2/min
+[53/253] ✅ Jen Abel 2.0: 86,332 → 22,676 chars
+    📊 Chunks: 203/2299 | Speed: 6.2/min
+[54/253] ✅ Maggie Crowley: 92,363 → 15,396 chars
+    📊 Chunks: 208/2299 | Speed: 6.2/min
+[55/253] ✅ Vijay: 55,830 → 6,524 chars
+    📊 Chunks: 211/2299 | Speed: 6.3/min
+[56/253] ✅ Ramesh Johari: 94,105 → 9,787 chars
+    📊 Chunks: 213/2299 | Speed: 6.4/min
+[57/253] ✅ Deb Liu: 83,975 → 9,171 chars
+    📊 Chunks: 216/2299 | Speed: 6.4/min
+[58/253] ✅ Heidi Helfand: 66,673 → 13,934 chars
+    📊 Chunks: 221/2299 | Speed: 6.4/min
+[59/253] ✅ Katie Dill: 96,122 → 19,090 chars
+    📊 Chunks: 225/2299 | Speed: 6.4/min
+[60/253] ✅ Nickey Skarstad: 74,817 → 0 chars
+    📊 Chunks: 231/2299 | Speed: 6.3/min
+[61/253] ✅ Nick Turley: 107,052 → 14,619 chars
+    📊 Chunks: 232/2299 | Speed: 6.4/min
+[62/253] ✅ Shreyas Doshi Live: 38,894 → 7,018 chars
+    📊 Chunks: 233/2299 | Speed: 6.5/min
+[63/253] ✅ Carole Robin: 80,905 → 10,890 chars
+    📊 Chunks: 234/2299 | Speed: 6.5/min
+[64/253] ✅ Ethan Smith: 82,041 → 13,024 chars
+    📊 Chunks: 237/2299 | Speed: 6.6/min
+[65/253] ✅ Casey Winters: 57,690 → 0 chars
+    📊 Chunks: 237/2299 | Speed: 6.7/min
+[66/253] ✅ Manik Gupta: 71,489 → 3,267 chars
+    📊 Chunks: 238/2299 | Speed: 6.7/min
+[67/253] ✅ Jen Abel: 82,181 → 8,414 chars
+    📊 Chunks: 240/2299 | Speed: 6.8/min
+[68/253] ✅ Vikrama Dhiman: 68,918 → 6,326 chars
+    📊 Chunks: 244/2299 | Speed: 6.7/min
+[69/253] ✅ Ravi Mehta: 95,509 → 9,935 chars
+    📊 Chunks: 245/2299 | Speed: 6.8/min
+[70/253] ✅ Dhanji R. Prasanna: 83,665 → 3,644 chars
+    📊 Chunks: 246/2299 | Speed: 6.8/min
+[71/253] ✅ Hila Qu: 87,536 → 6,999 chars
+    📊 Chunks: 248/2299 | Speed: 6.8/min
+[72/253] ✅ Kayvon Beykpour: 99,053 → 14,090 chars
+    📊 Chunks: 252/2299 | Speed: 6.8/min
+[73/253] ✅ Shreyas Doshi: 80,925 → 10,601 chars
+    📊 Chunks: 257/2299 | Speed: 6.7/min
+[74/253] ✅ Jason M Lemkin: 140,797 → 0 chars
+    📊 Chunks: 257/2299 | Speed: 6.8/min
+[75/253] ✅ Jeremy Henrickson: 78,616 → 3,388 chars
+    📊 Chunks: 259/2299 | Speed: 6.8/min
+[76/253] ✅ Ray Cao: 74,080 → 3,107 chars
+    📊 Chunks: 261/2299 | Speed: 6.9/min
+[77/253] ✅ Evan LaPointe: 135,815 → 13,437 chars
+    📊 Chunks: 265/2299 | Speed: 6.9/min
+[78/253] ✅ Marc Benioff: 58,537 → 3,824 chars
+    📊 Chunks: 266/2299 | Speed: 7.0/min
+[79/253] ✅ Jerry Colonna: 65,064 → 0 chars
+    📊 Chunks: 266/2299 | Speed: 7.0/min
+[80/253] ✅ Wes Kao 2.0: 99,040 → 7,376 chars
+    📊 Chunks: 267/2299 | Speed: 7.1/min
+[81/253] ✅ Wes Kao: 56,634 → 0 chars
+    📊 Chunks: 268/2299 | Speed: 7.1/min
+[82/253] ✅ Howie Liu: 101,979 → 0 chars
+    📊 Chunks: 271/2299 | Speed: 7.1/min
+[83/253] ✅ Dharmesh Shah: 114,610 → 12,672 chars
+    📊 Chunks: 272/2299 | Speed: 7.1/min
+[84/253] ✅ Hilary Gridley: 126,437 → 10,629 chars
+    📊 Chunks: 273/2299 | Speed: 7.2/min
+[85/253] ✅ Keith Yandell: 63,071 → 0 chars
+    📊 Chunks: 273/2299 | Speed: 7.2/min
+[86/253] ✅ Keith Coleman & Jay Baxter: 110,665 → 6,782 chars
+    📊 Chunks: 276/2299 | Speed: 7.3/min
+[87/253] ✅ Shweta Shriva: 42,973 → 7,969 chars
+    📊 Chunks: 277/2299 | Speed: 7.4/min
+[88/253] ✅ Nicole Forsgren 2.0: 74,633 → 6,239 chars
+    📊 Chunks: 278/2299 | Speed: 7.4/min
+[89/253] ✅ Fareed Mosavat: 74,838 → 0 chars
+    📊 Chunks: 278/2299 | Speed: 7.4/min
+[90/253] ✅ Logan Kilpatrick: 77,489 → 0 chars
+    📊 Chunks: 280/2299 | Speed: 7.4/min
+[91/253] ✅ Casey Winters_: 85,062 → 7,163 chars
+    📊 Chunks: 281/2299 | Speed: 7.4/min
+[92/253] ✅ Failure: 64,260 → 6,736 chars
+    📊 Chunks: 283/2299 | Speed: 7.5/min
+[93/253] ✅ Marily Nika: 50,943 → 6,485 chars
+    📊 Chunks: 286/2299 | Speed: 7.5/min
+[94/253] ✅ Richard Rumelt: 86,303 → 9,981 chars
+    📊 Chunks: 288/2299 | Speed: 7.4/min
+[95/253] ✅ Dmitry Zlokazov: 61,912 → 7,086 chars
+    📊 Chunks: 289/2299 | Speed: 7.5/min
+[96/253] ✅ Ken Norton: 77,290 → 0 chars
+    📊 Chunks: 289/2299 | Speed: 7.5/min
+[97/253] ✅ Nicole Forsgren: 79,154 → 11,203 chars
+    📊 Chunks: 292/2299 | Speed: 7.5/min
+[98/253] ✅ Sri Batchu: 80,162 → 6,597 chars
+    📊 Chunks: 295/2299 | Speed: 7.5/min
+[99/253] ✅ Chandra Janakiraman: 109,534 → 7,640 chars
+    📊 Chunks: 297/2299 | Speed: 7.5/min
+[100/253] ✅ Jess Lachs: 77,498 → 6,374 chars
+    📊 Chunks: 298/2299 | Speed: 7.5/min
+[101/253] ✅ Robby Stein: 97,843 → 3,986 chars
+    📊 Chunks: 299/2299 | Speed: 7.6/min
+[102/253] ✅ Marty Cagan 2.0: 82,099 → 3,445 chars
+    📊 Chunks: 300/2299 | Speed: 7.6/min
+[103/253] ✅ Boz: 119,569 → 3,442 chars
+    📊 Chunks: 302/2299 | Speed: 7.5/min
+[104/253] ✅ Donna Lichaw: 80,064 → 3,429 chars
+    📊 Chunks: 303/2299 | Speed: 7.5/min
+[105/253] ✅ Nikhyl Singhal: 85,042 → 5,846 chars
+    📊 Chunks: 304/2299 | Speed: 7.5/min
+[106/253] ✅ Ian McAllister: 72,968 → 3,688 chars
+    📊 Chunks: 306/2299 | Speed: 7.6/min
+[107/253] ✅ Chip Conley: 78,150 → 3,831 chars
+    📊 Chunks: 308/2299 | Speed: 7.6/min
+[108/253] ✅ Sriram and Aarthi: 99,768 → 10,867 chars
+    📊 Chunks: 313/2299 | Speed: 7.5/min
+[109/253] ✅ Farhan Thawar: 122,030 → 10,667 chars
+    📊 Chunks: 315/2299 | Speed: 7.6/min
+[110/253] ✅ Jessica Hische: 82,447 → 7,033 chars
+    📊 Chunks: 316/2299 | Speed: 7.6/min
+[111/253] ✅ Marty Cagan: 56,154 → 9,342 chars
+    📊 Chunks: 317/2299 | Speed: 7.6/min
+[112/253] ✅ Yuhki Yamashata: 73,064 → 3,085 chars
+    📊 Chunks: 318/2299 | Speed: 7.7/min
+[113/253] ✅ Roger Martin: 73,317 → 7,272 chars
+    📊 Chunks: 321/2299 | Speed: 7.7/min
+[114/253] ✅ Dr. Fei Fei Li: 66,594 → 10,884 chars
+    📊 Chunks: 324/2299 | Speed: 7.8/min
+[115/253] ✅ Inbal S: 53,873 → 6,633 chars
+    📊 Chunks: 326/2299 | Speed: 7.8/min
+[116/253] ✅ Kenneth Berger: 80,258 → 14,528 chars
+    📊 Chunks: 331/2299 | Speed: 7.7/min
+[117/253] ✅ Stewart Butterfield: 92,235 → 10,425 chars
+    📊 Chunks: 335/2299 | Speed: 7.8/min
+[118/253] ✅ Nikita Bier: 88,609 → 7,282 chars
+    📊 Chunks: 336/2299 | Speed: 7.8/min
+[119/253] ✅ Petra Wille: 77,858 → 17,783 chars
+    📊 Chunks: 341/2299 | Speed: 7.8/min
+[120/253] ✅ Will Larson: 83,978 → 12,069 chars
+    📊 Chunks: 346/2299 | Speed: 7.8/min
+[121/253] ✅ Chip Huyen: 87,397 → 12,694 chars
+    📊 Chunks: 350/2299 | Speed: 7.8/min
+[122/253] ✅ Garrett Lord: 75,390 → 13,904 chars
+    📊 Chunks: 354/2299 | Speed: 7.7/min
+[123/253] ✅ Jessica Livingston: 82,511 → 14,626 chars
+    📊 Chunks: 360/2299 | Speed: 7.7/min
+[124/253] ✅ Matt Abrahams: 82,612 → 10,854 chars
+    📊 Chunks: 362/2299 | Speed: 7.7/min
+[125/253] ✅ Yuriy Timen: 64,335 → 10,833 chars
+    📊 Chunks: 369/2299 | Speed: 7.7/min
+[126/253] ✅ Ronny Kohavi: 81,768 → 18,736 chars
+    📊 Chunks: 371/2299 | Speed: 7.7/min
+[127/253] ✅ Benjamin Lauzier: 90,972 → 17,458 chars
+    📊 Chunks: 374/2299 | Speed: 7.7/min
+[128/253] ✅ Interview Q Compilation: 21,754 → 4,457 chars
+    📊 Chunks: 378/2299 | Speed: 7.7/min
+[129/253] ✅ Nikita Miller: 62,039 → 6,805 chars
+    📊 Chunks: 384/2299 | Speed: 7.7/min
+[130/253] ✅ Kevin Aluwi: 55,736 → 8,725 chars
+    📊 Chunks: 385/2299 | Speed: 7.7/min
+[131/253] ✅ Drew Houston: 104,786 → 19,574 chars
+    📊 Chunks: 386/2299 | Speed: 7.8/min
+[132/253] ✅ Tamar Yehoshua: 78,700 → 17,469 chars
+    📊 Chunks: 392/2299 | Speed: 7.7/min
+[133/253] ✅ Chris Hutchins: 90,374 → 21,042 chars
+    📊 Chunks: 401/2299 | Speed: 7.7/min
+[134/253] ✅ Gaurav Misra: 93,553 → 17,120 chars
+    📊 Chunks: 404/2299 | Speed: 7.7/min
+[135/253] ✅ Jiaona Zhang: 78,081 → 23,717 chars
+    📊 Chunks: 411/2299 | Speed: 7.7/min
+[136/253] ✅ Matt Dixon: 68,079 → 10,247 chars
+    📊 Chunks: 414/2299 | Speed: 7.6/min
+[137/253] ✅ Ryan Hoover: 83,332 → 15,622 chars
+    📊 Chunks: 421/2299 | Speed: 7.6/min
+[138/253] ✅ Upasna Gautam: 57,202 → 9,650 chars
+    📊 Chunks: 422/2299 | Speed: 7.7/min
+[139/253] ✅ Brandon Chu: 54,624 → 8,716 chars
+    📊 Chunks: 424/2299 | Speed: 7.7/min
+[140/253] ✅ Dylan Field 2.0: 84,695 → 17,643 chars
+    📊 Chunks: 429/2299 | Speed: 7.6/min
+[141/253] ✅ Itamar Gilad: 75,052 → 16,474 chars
+    📊 Chunks: 434/2299 | Speed: 7.6/min
+[142/253] ✅ Kevin Weil: 95,906 → 20,286 chars
+    📊 Chunks: 440/2299 | Speed: 7.6/min
+[143/253] ✅ Nilan Peiris: 81,705 → 10,439 chars
+    📊 Chunks: 444/2299 | Speed: 7.6/min
+[144/253] ✅ Tanguy Crusson: 120,345 → 25,691 chars
+    📊 Chunks: 449/2299 | Speed: 7.6/min
+[145/253] ✅ Christian Idiodi: 99,018 → 14,081 chars
+    📊 Chunks: 455/2299 | Speed: 7.6/min
+[146/253] ✅ Geoff Charles: 79,845 → 13,955 chars
+    📊 Chunks: 458/2299 | Speed: 7.6/min
+[147/253] ✅ Teaser_2021: 9,066 → 0 chars
+    📊 Chunks: 461/2299 | Speed: 7.6/min
+[148/253] ✅ Joe Hudson: 77,684 → 13,221 chars
+    📊 Chunks: 463/2299 | Speed: 7.6/min
+[149/253] ✅ Matt LeMay: 98,581 → 24,787 chars
+    📊 Chunks: 470/2299 | Speed: 7.6/min
+[150/253] ✅ Ryan J. Salva: 58,481 → 6,988 chars
+    📊 Chunks: 474/2299 | Speed: 7.6/min
+[151/253] ✅ Bob Baxley: 119,408 → 20,975 chars
+    📊 Chunks: 478/2299 | Speed: 7.5/min
+[152/253] ✅ Dylan Field: 46,542 → 7,230 chars
+    📊 Chunks: 479/2299 | Speed: 7.6/min
+[153/253] ✅ Ivan Zhao: 72,861 → 14,940 chars
+    📊 Chunks: 486/2299 | Speed: 7.6/min
+[154/253] ✅ Kevin Yien: 94,675 → 23,621 chars
+    📊 Chunks: 492/2299 | Speed: 7.5/min
+[155/253] ✅ Nir Eyal: 101,417 → 17,070 chars
+    📊 Chunks: 497/2299 | Speed: 7.5/min
+[156/253] ✅ Christina Wodtke: 83,018 → 17,544 chars
+    📊 Chunks: 503/2299 | Speed: 7.5/min
+[157/253] ✅ Geoffrey Moore: 87,326 → 10,419 chars
+    📊 Chunks: 509/2299 | Speed: 7.5/min
+[158/253] ✅ John Cutler: 113,319 → 20,644 chars
+    📊 Chunks: 515/2299 | Speed: 7.4/min
+[159/253] ✅ Matt MacInnis: 103,371 → 24,262 chars
+    📊 Chunks: 518/2299 | Speed: 7.4/min
+[160/253] ✅ Ryan Singer: 108,192 → 14,975 chars
+    📊 Chunks: 524/2299 | Speed: 7.4/min
+[161/253] ✅ Jackie Bavaro: 60,554 → 3,618 chars
+    📊 Chunks: 529/2299 | Speed: 7.4/min
+[162/253] ✅ Bob Moesta 2.0: 100,751 → 21,167 chars
+    📊 Chunks: 532/2299 | Speed: 7.4/min
+[163/253] ✅ EOY Review: 62,266 → 11,607 chars
+    📊 Chunks: 533/2299 | Speed: 7.4/min
+[164/253] ✅ Kim Scott: 86,821 → 17,068 chars
+    📊 Chunks: 539/2299 | Speed: 7.4/min
+[165/253] ✅ Teresa Torres: 53,666 → 7,106 chars
+    📊 Chunks: 546/2299 | Speed: 7.4/min
+[166/253] ✅ Noah Weiss: 98,116 → 14,555 chars
+    📊 Chunks: 547/2299 | Speed: 7.4/min
+[167/253] ✅ Christine Itwaru: 73,504 → 9,891 chars
+    📊 Chunks: 557/2299 | Speed: 7.4/min
+[168/253] ✅ Brian Tolkin: 75,893 → 24,538 chars
+    📊 Chunks: 558/2299 | Speed: 7.4/min
+[169/253] ✅ Gergely: 83,350 → 19,300 chars
+    📊 Chunks: 563/2299 | Speed: 7.4/min
+[170/253] ✅ John Mark Nickels: 84,966 → 12,839 chars
+    📊 Chunks: 571/2299 | Speed: 7.4/min
+[171/253] ✅ Matt Mochary: 74,341 → 16,614 chars

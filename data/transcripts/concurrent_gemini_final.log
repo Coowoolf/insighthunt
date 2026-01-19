@@ -1,0 +1,50 @@
+🚀 InsightHunt High-Speed Concurrent Translation
+============================================================
+📊 Concurrency: 5 parallel requests
+🤖 Model: gemini-3-pro-high
+
+📊 Status: 279/297 already translated
+📌 Remaining: 18 transcripts
+
+[1/18] ✅ Paul Millerd: 63,305 → 23,851 chars
+    📊 Chunks: 12/158 | Speed: 0.3/min
+[2/18] ✅ Elena Verna 3.0: 96,896 → 41,377 chars
+    📊 Chunks: 17/158 | Speed: 0.5/min
+[3/18] ✅ Tomer Cohen 2.0: 74,287 → 38,584 chars
+    📊 Chunks: 25/158 | Speed: 0.5/min
+[4/18] ✅ Jerry Colonna: 65,064 → 34,737 chars
+    📊 Chunks: 32/158 | Speed: 0.5/min
+[5/18] ✅ Laura Schaffer: 87,089 → 31,135 chars
+    📊 Chunks: 41/158 | Speed: 0.5/min
+[6/18] ✅ Graham Weaver: 71,811 → 26,621 chars
+    📊 Chunks: 49/158 | Speed: 0.5/min
+[7/18] ✅ Mike Maples Jr: 111,428 → 42,257 chars
+    📊 Chunks: 60/158 | Speed: 0.5/min
+[8/18] ✅ Grant Lee: 135,388 → 48,924 chars
+    📊 Chunks: 74/158 | Speed: 0.5/min
+[9/18] ✅ Teaser_2021: 9,066 → 3,393 chars
+    📊 Chunks: 75/158 | Speed: 0.5/min
+[10/18] ✅ Tomer Cohen: 74,930 → 39,701 chars
+    📊 Chunks: 84/158 | Speed: 0.5/min
+[11/18] ✅ Eli Schwartz: 130,273 → 49,630 chars
+    📊 Chunks: 97/158 | Speed: 0.5/min
+[12/18] ✅ Laura Modi: 62,987 → 25,210 chars
+    📊 Chunks: 104/158 | Speed: 0.5/min
+[13/18] ✅ Mike Krieger: 77,109 → 40,050 chars
+    📊 Chunks: 112/158 | Speed: 0.5/min
+[14/18] ✅ Brendan Foody: 71,672 → 46,105 chars
+    📊 Chunks: 120/158 | Speed: 0.5/min
+[15/18] ✅ Pete Kazanjy: 64,711 → 24,803 chars
+    📊 Chunks: 127/158 | Speed: 0.5/min
+[16/18] ✅ Elena Verna 4.0: 99,631 → 49,283 chars
+    📊 Chunks: 138/158 | Speed: 0.5/min
+[17/18] ✅ Judd Antin: 79,900 → 41,158 chars
+    📊 Chunks: 151/158 | Speed: 0.5/min
+[18/18] ✅ Luc Levesque: 91,820 → 33,922 chars
+    📊 Chunks: 157/158 | Speed: 0.5/min
+
+============================================================
+🏁 Translation Complete!
+✅ Success: 18/18
+⏱️ Time: 33.8 minutes
+📊 Speed: 0.5 transcripts/minute

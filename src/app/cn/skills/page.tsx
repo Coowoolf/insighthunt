@@ -5,11 +5,11 @@ import { Header } from '@/components/Header';
 import { useLanguage } from '@/context/LanguageContext';
 
 const SKILLS_DATA = [
-    { category: 'product-growth', label: 'Product Growth', labelZh: '产品增长', count: 16, emoji: '📈' },
-    { category: 'team-leadership', label: 'Team Leadership', labelZh: '团队领导', count: 17, emoji: '👥' },
+    { category: 'product-growth', label: 'Product Growth', labelZh: '产品增长', count: 29, emoji: '📈' },
+    { category: 'team-leadership', label: 'Team Leadership', labelZh: '团队领导', count: 20, emoji: '👥' },
     { category: 'decision-thinking', label: 'Decision & Thinking', labelZh: '决策与思维', count: 10, emoji: '🧠' },
-    { category: 'strategy-planning', label: 'Strategy Planning', labelZh: '战略规划', count: 10, emoji: '🎯' },
-    { category: 'career-development', label: 'Career Development', labelZh: '职业发展', count: 7, emoji: '🚀' },
+    { category: 'strategy-planning', label: 'Strategy Planning', labelZh: '战略规划', count: 22, emoji: '🎯' },
+    { category: 'career-development', label: 'Career Development', labelZh: '职业发展', count: 10, emoji: '🚀' },
     { category: 'user-research', label: 'User Research', labelZh: '用户研究', count: 6, emoji: '🔍' },
     { category: 'ai-engineering', label: 'AI Engineering', labelZh: 'AI 工程', count: 4, emoji: '🤖' },
     { category: 'organization-ops', label: 'Organization & Ops', labelZh: '组织运营', count: 4, emoji: '⚙️' },

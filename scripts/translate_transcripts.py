@@ -6,7 +6,7 @@ Translates 297 podcast transcripts from English to Chinese.
 Usage: python3 scripts/translate_transcripts.py --count 10
 """
 
-from anthropic import Anthropic
+import requests
 import json
 import os
 import time
@@ -14,13 +14,10 @@ import argparse
 from pathlib import Path
 from typing import Dict
 
-# Antigravity Proxy Configuration
-client = Anthropic(
-    base_url="http://127.0.0.1:8045",
-    api_key="sk-cbb33b67c7f14a208a67aa705ebf80ee"
-)
-
-MODEL = "gemini-3-pro-high"
+# Antigravity Proxy Configuration - Claude 4.5 Sonnet (using requests directly)
+API_URL = "http://127.0.0.1:8045/v1/messages"
+API_KEY = "sk-46809d8691dd4542add62c1516537169"
+MODEL = "claude-sonnet-4-5"
 
 # Paths
 TRANSCRIPTS_DIR = Path("/Users/yaoguanghua/Downloads/Lenny_Podcast_Transcripts")
@@ -28,7 +25,7 @@ OUTPUT_DIR = Path("/Users/yaoguanghua/Projects/Skills/insighthunt/data/transcrip
 
 
 def translate_chunk(text: str, context: str = "") -> str:
-    """Translate a chunk of transcript text to Chinese"""
+    """Translate a chunk of transcript text to Chinese with retry logic"""
     
     prompt = f"""你是一位专业的中英翻译专家，专注于产品管理和创业领域的播客内容翻译。
 
@@ -48,16 +45,41 @@ def translate_chunk(text: str, context: str = "") -> str:
 
 请直接输出翻译后的中文，不需要额外解释。"""
 
-    try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=8000,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        return response.content[0].text.strip()
-    except Exception as e:
-        print(f"    ⚠️ Translation error: {e}")
-        return ""
+    headers = {
+        'Content-Type': 'application/json',
+        'x-api-key': API_KEY,
+        'anthropic-version': '2023-06-01'
+    }
+    data = {
+        'model': MODEL,
+        'max_tokens': 8000,
+        'messages': [{'role': 'user', 'content': prompt}]
+    }
+
+    max_retries = 5
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(API_URL, headers=headers, json=data, timeout=120)
+            if response.status_code == 200:
+                return response.json()['content'][0]['text'].strip()
+            else:
+                error_msg = response.text[:200]
+                if response.status_code in [502, 503, 429]:
+                    wait_time = (2 ** attempt) * 5
+                    print(f"    ⚠️ API error {response.status_code} (attempt {attempt+1}/{max_retries}): {error_msg}")
+                    print(f"    ⏳ Waiting {wait_time}s before retry...")
+                    time.sleep(wait_time)
+                else:
+                    print(f"    ⚠️ Translation error {response.status_code}: {error_msg}")
+                    return ""
+        except Exception as e:
+            wait_time = (2 ** attempt) * 5
+            print(f"    ⚠️ Request error (attempt {attempt+1}/{max_retries}): {e}")
+            print(f"    ⏳ Waiting {wait_time}s before retry...")
+            time.sleep(wait_time)
+    
+    print(f"    ❌ Failed after {max_retries} attempts")
+    return ""
 
 
 def translate_transcript(filepath: Path) -> Dict:
@@ -110,9 +132,19 @@ def translate_transcript(filepath: Path) -> Dict:
 
 
 def get_processed_transcripts() -> set:
-    """Get set of already translated transcripts"""
+    """Get set of already translated transcripts (those with actual zh content)"""
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    return {f.stem for f in OUTPUT_DIR.glob("*.json")}
+    processed = set()
+    for f in OUTPUT_DIR.glob("*.json"):
+        try:
+            with open(f, 'r', encoding='utf-8') as fp:
+                data = json.load(fp)
+                # Check if actually translated (has zh content)
+                if data.get('zh') and len(data.get('zh', '')) > 100:
+                    processed.add(f.stem)
+        except:
+            pass
+    return processed
 
 
 def main():
