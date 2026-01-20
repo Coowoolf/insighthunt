@@ -39,8 +39,8 @@ export function TranscriptViewer({ enTranscript, zhTranscript }: TranscriptViewe
                     <button
                         onClick={() => setActiveTab('en')}
                         className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all ${activeTab === 'en'
-                                ? 'bg-white shadow-sm text-brand-start'
-                                : 'text-gray-600 hover:text-gray-900'
+                            ? 'bg-white shadow-sm text-brand-start'
+                            : 'text-gray-600 hover:text-gray-900'
                             }`}
                     >
                         English
@@ -48,8 +48,8 @@ export function TranscriptViewer({ enTranscript, zhTranscript }: TranscriptViewe
                     <button
                         onClick={() => setActiveTab('zh')}
                         className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all ${activeTab === 'zh'
-                                ? 'bg-white shadow-sm text-brand-start'
-                                : 'text-gray-600 hover:text-gray-900'
+                            ? 'bg-white shadow-sm text-brand-start'
+                            : 'text-gray-600 hover:text-gray-900'
                             }`}
                     >
                         中文
@@ -79,7 +79,7 @@ export function TranscriptViewer({ enTranscript, zhTranscript }: TranscriptViewe
                     {/* Word count */}
                     <div className="text-sm text-gray-500 mb-4">
                         {activeTab === 'en'
-                            ? `${enTranscript.split(/\s+/).length.toLocaleString()} words`
+                            ? `${(enTranscript || '').split(/\s+/).length.toLocaleString()} words`
                             : `${(zhTranscript?.length || 0).toLocaleString()} 字符`
                         }
                     </div>
@@ -95,7 +95,7 @@ export function TranscriptViewer({ enTranscript, zhTranscript }: TranscriptViewe
                     </div>
 
                     {/* Expand/Collapse Button */}
-                    {currentTranscript.length > 2000 && (
+                    {(currentTranscript?.length || 0) > 2000 && (
                         <div className="mt-4 text-center">
                             <button
                                 onClick={() => setIsExpanded(!isExpanded)}
