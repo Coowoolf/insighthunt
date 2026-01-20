@@ -1,6 +1,6 @@
 # 🎯 InsightHunt
 
-**The Product Methodology Search Engine** — Discover 300+ battle-tested frameworks from Silicon Valley's top product leaders.
+**The Product Methodology Search Engine** — Discover 689 battle-tested methodologies and 105 actionable skills from Silicon Valley's top product leaders.
 
 [![Live Demo](https://img.shields.io/badge/Live-insighthunt.org-brightgreen?style=for-the-badge)](https://insighthunt.org)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)](https://nextjs.org/)
@@ -15,11 +15,12 @@ InsightHunt transforms hours of podcast content into actionable product methodol
 
 ### 🔥 Key Features
 
-- **🎙️ 100+ Guest Profiles** — From Airbnb's Brian Chesky to Stripe's Claire Hughes Johnson
-- **📚 300+ Methodologies** — Searchable, categorized product frameworks
+- **🎙️ 297 Podcast Episodes** — From Airbnb's Brian Chesky to Stripe's Claire Hughes Johnson
+- **📚 689 Methodologies** — Searchable, categorized product frameworks
+- **🎓 105 Actionable Skills** — Downloadable skill packs with templates
 - **🎨 Dynamic Visualizations** — AI-selected diagrams (flowcharts, matrices, pyramids, timelines)
 - **🔍 Deep Dives** — Problem solved, when to use, common mistakes, real-world examples
-- **🌐 Bilingual** — English + Professional Chinese translations (coming soon)
+- **🌐 Full Bilingual** — English + Professional Chinese translations (297/297 complete)
 - **⚡ Blazing Fast** — Static site generation with Next.js 16
 
 ---
@@ -149,9 +150,9 @@ python3 scripts/dedup_data.py
 
 ---
 
-## 🌐 Bilingual Support (In Progress)
+## 🌐 Bilingual Support (Complete)
 
-Professional PM-quality Chinese translations, not literal translations:
+**297/297 episodes fully translated** with professional PM-quality Chinese translations:
 
 | English | Chinese |
 |---------|---------|
@@ -171,10 +172,13 @@ python3 scripts/translate_to_chinese.py
 
 | Metric | Count |
 |--------|-------|
-| **Guests** | 99 |
-| **Methodologies** | 324 |
+| **Podcast Episodes** | 297 |
+| **Methodologies** | 689 |
+| **Actionable Skills** | 105 |
+| **Full Transcripts (EN)** | 297 |
+| **Full Transcripts (ZH)** | 297 |
 | **Visualization Types** | 16 |
-| **Categories** | 6 |
+| **Categories** | 8 |
 
 ---
 
